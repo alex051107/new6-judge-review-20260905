@@ -1,11 +1,12 @@
 {
   "source_repo": "alex051107/excel-multimodal-benchmark",
-  "judge_source_commit": "35af58c75ff4d8c4c2cc23ca354cf00a58d01d4a",
+  "judge_source_commit": "5535c6bf6a20d5e1a25a642fe3cd6234219bdd7c",
   "included_files": [
     "new6/NOW_REPORT_ZH.md",
     "new6/README.md",
     "new6/campaigns/c1-revision-v2-24/C1_R02_DELIVERY_FAILURE.json",
     "new6/campaigns/c1-revision-v2-24/C1_V21_LINUX_RECEIPT.json",
+    "new6/campaigns/c1-revision-v2-24/CODEX_INFERENCE_RATE_LIMIT.json",
     "new6/campaigns/c1-revision-v2-24/RUN_RECEIPT.json",
     "new6/campaigns/new6-current-v3-144/B2_CLAUDE_COST_RECEIPT.json",
     "new6/campaigns/new6-current-v3-144/CAMPAIGN_ZH.md",

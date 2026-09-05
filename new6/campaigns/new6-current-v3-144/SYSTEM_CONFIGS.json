@@ -33,7 +33,8 @@
       "n_concurrent_trials": 1,
       "trial_timeout_seconds": 1200,
       "monitored_stop_usd": 10,
-      "generation_identity": "REQUESTED_CONFIGURATION_RECORDED"
+      "generation_identity": "REQUESTED_CONFIGURATION_RECORDED",
+      "observed_transport_note": "C1 R05-R08 actual errors name responses_websocket and wss://api.zcloudapi.com/v1/responses (HTTP429). Config file feature values above are the requested configuration, not proof that WebSocket transport was disabled. No live configuration changed."
     },
     "claude": {
       "agent": {

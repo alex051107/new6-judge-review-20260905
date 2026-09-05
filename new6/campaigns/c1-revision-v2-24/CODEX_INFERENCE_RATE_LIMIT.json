@@ -1,0 +1,62 @@
+{
+  "observed_at": "2026-09-05T23:00:40.453369+00:00",
+  "scope": "C1 v2 Codex slots 5-8, provider inference failure, separate from account-log readback429",
+  "records": [
+    {
+      "attempt": 5,
+      "trial": "N6C1V2-CODEX-R05__4LHmX8N",
+      "started_at": "2026-09-05T22:45:12.362310Z",
+      "finished_at": "2026-09-05T22:45:44.548186Z",
+      "exception_type": "ApiRateLimitError",
+      "http_status": 429,
+      "observed_transport": "WebSocket /v1/responses",
+      "answer_exists": false,
+      "agent_result_present": true,
+      "business_score": null,
+      "automatic_trial_retry": false
+    },
+    {
+      "attempt": 6,
+      "trial": "N6C1V2-CODEX-R06__h9wEvts",
+      "started_at": "2026-09-05T22:45:44.568765Z",
+      "finished_at": "2026-09-05T22:46:06.811892Z",
+      "exception_type": "ApiRateLimitError",
+      "http_status": 429,
+      "observed_transport": "WebSocket /v1/responses",
+      "answer_exists": false,
+      "agent_result_present": true,
+      "business_score": null,
+      "automatic_trial_retry": false
+    },
+    {
+      "attempt": 7,
+      "trial": "N6C1V2-CODEX-R07__EgdJkRX",
+      "started_at": "2026-09-05T22:46:06.833598Z",
+      "finished_at": "2026-09-05T22:46:31.208019Z",
+      "exception_type": "ApiRateLimitError",
+      "http_status": 429,
+      "observed_transport": "WebSocket /v1/responses",
+      "answer_exists": false,
+      "agent_result_present": true,
+      "business_score": null,
+      "automatic_trial_retry": false
+    },
+    {
+      "attempt": 8,
+      "trial": "N6C1V2-CODEX-R08__98oM8Qf",
+      "started_at": "2026-09-05T22:46:31.229580Z",
+      "finished_at": "2026-09-05T22:46:54.023966Z",
+      "exception_type": "ApiRateLimitError",
+      "http_status": 429,
+      "observed_transport": "WebSocket /v1/responses",
+      "answer_exists": false,
+      "agent_result_present": true,
+      "business_score": null,
+      "automatic_trial_retry": false
+    }
+  ],
+  "count_as_business_zero": false,
+  "paid_trial_retries": 0,
+  "offline_inspection_api_calls": 0,
+  "next_action": "Retain the failed attempts; no automatic retry or model/transport change. Existing B2 Codex and old campaign still run. C1 layout-reader work continues offline."
+}
