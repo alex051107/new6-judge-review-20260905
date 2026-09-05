@@ -11,7 +11,7 @@ from oracle_recompute import compute,serial
 from runtime import score_profiles,output_status,recalculate_xlsx,RecalcUnavailable
 from ooxml_edit import edit
 
-VERSION='new6-c1-review-facts-v2.0'
+VERSION='new6-c1-review-facts-v2.1-natural-movement'
 REVIEW_ALIASES={
  'heating_price':['Current heating / ASHP quotation','Current heating quote','Current heating price','Latest heating quotation','Heating package price','Revised heating / ASHP price'],
  'earlier_heating':['Earlier heating / ASHP quotation','Earlier heating quote','Previous heating quotation','Superseded heating quote'],
@@ -71,16 +71,20 @@ def checks(w,reference_failure=False,arithmetic_failure=False):
  earlier_rows=rows(f,'review','earlier_heating');earlier_numbers=[v for v in review_values(f,'earlier_heating') if v is not None]
  earlier_ok=not earlier_rows or (all(sr.equal(v,472000) for v in earlier_numbers) and bool(re.search(r'supersed|replac|obsolete|not current|no longer',early)) and not bool(re.search(r'not superseded|still current|still applicable',early)))
  add('R002','any_displayed_earlier_quote_is_superseded',earlier_ok,{'displayed':bool(earlier_rows),'values':earlier_numbers,'text':early})
- add('R002','same_scope_replacement',bool(t) and bool(re.search(r'replac|substitut|in lieu|same.scope',t)) and not bool(re.search(r'additional charge|add.*on top|in addition to',t)),t)
+ replacement_pairs=[r for r in rows(f,'elements','services') if r.get('working') is not None and r.get('printed') is not None]
+ hp=review_values(f,'heating_price');old_heating=vals(f,'provisional','heating','printed')
+ replacement_arithmetic=bool(replacement_pairs and hp and old_heating) and all(close_delta(sr.number(r['working'])-sr.number(r['printed']),sr.number(a)-sr.number(b)) for r in replacement_pairs for a in hp for b in old_heating)
+ add('R002','same_scope_replacement',(bool(t) and bool(re.search(r'replac|substitut|in lieu|same.scope',t)) or replacement_arithmetic) and not bool(re.search(r'additional charge|add.*on top|in addition to',t)),{'text':t,'candidate_replacement_arithmetic':bool(replacement_arithmetic)})
  add('R002','unapproved_option_price',review_number(f,'asbestos_option',18000),review_values(f,'asbestos_option'),18000)
- add('R002','option_awaits_approval_and_is_outside',bool(option) and bool(re.search(r'not approved|unapproved|await|pending',option)) and bool(re.search(r'exclud|outside|not included|separate',option)) and not bool(re.search(r'is approved|now approved|included in (?:the )?current',option)),option)
+ add('R002','option_awaits_approval_and_is_outside',bool(option) and bool(re.search(r'not approved|unapproved|await|pending',option)) and bool(re.search(r'exclud|outside|not included|separate|not approved for inclusion',option)) and not bool(re.search(r'is approved|now approved|included in (?:the )?current',option)),option)
  for key,value in o['elements'].items():add('R003','element:'+key,number_fact(f,'elements',key,'working',value),vals(f,'elements',key,'working'),value)
  for key,value in o['working'].items():add('R003','working:'+key,number_fact(f,'summary',key,'working',value),vals(f,'summary',key,'working'),value)
  for key,value in o['rates'].items():add('R003','rate:'+key,number_fact(f,'summary',key,'working_rate',value,False),vals(f,'summary',key,'working_rate'),value)
  rc=reconciliations(f,o);final=[r for r in rc if r['stage']=='vat_excluded']
  add('R004','cost_limit_movement_correct',bool(final) and all(r['correct'] for r in final),final)
  add('R004','movement_matches_candidate_own_figures',bool(final) and all(r['self_consistent'] for r in final),final)
- add('R004','no_contradictory_displayed_reconciliation',bool(final) and all(r['correct'] and r['self_consistent'] for r in rc),rc)
+ bridge_checks=[r for key,rs in f.items() if key[0]=='_bridge_arithmetic' for r in rs]
+ add('R004','no_contradictory_displayed_reconciliation',bool(final) and all(r['correct'] and r['self_consistent'] for r in rc) and all(r['ok'] for r in bridge_checks),{'reconciliations':rc,'bridge_arithmetic':bridge_checks})
  for key in ['heating_price','earlier_heating','asbestos_option']:
   rs=rows(f,'review',key)
   add('R006','correspondence:'+key,(key=='earlier_heating' and not rs) or bool(rs) and all(re.search(r'review.correspondence|project.authored|review scenario',str(r.get('source',''))+' '+r.get('context',''),re.I) for r in rs))
@@ -96,10 +100,15 @@ def checks(w,reference_failure=False,arithmetic_failure=False):
 def source_snapshot(f):
  return {(kind,row['id'],field):[r.get(field) for r in rows(f,kind,row['id'])] for kind in sr.KINDS for row in sr.S[kind] for field in ['printed','rate','scope']}
 def control(f,raw,key,value):
- if key.endswith('_rate'):where=sr.locate(f,'summary',key[:-5],'working_rate')
+ if key.endswith('_rate'):points=[(r['sheet'],r['cells'].get('working_rate')) for r in rows(f,'summary',key[:-5]) if r['cells'].get('working_rate')]
  else:
   rr=rows(f,'review',key);points=[(r['sheet'],r['cells'].get('working') or r['cells'].get('printed')) for r in rr]
-  points=[p for p in points if p[1]];where=points[0] if len(points)==1 else None
+ points=list(dict.fromkeys(p for p in points if p[1]));inputs=[p for p in points if raw[p[0]][p[1]].data_type!='f']
+ if len(inputs)>1:
+  explicit=[p for p in inputs if re.search(r'working calculation|input|control',p[0],re.I)]
+  inputs=explicit if len(explicit)==1 else inputs
+ if len(inputs)>1:raise RecalcUnavailable('Multiple editable review controls require unambiguous roles: '+key)
+ where=inputs[0] if len(inputs)==1 else points[0] if len(points)==1 else None
  if where and raw[where[0]][where[1]].data_type=='f':
   raise RecalcUnavailable('Editable review control uses a formula; dependency control not yet bound: '+key)
  return where,float(value)
@@ -156,7 +165,8 @@ def evaluate(path,evidence_dir,completed_run=True,reuse_native=None,dynamic=True
    contract=json.loads((ROOT/'tests/fact_contract.json').read_text())
    if denominators!=contract['denominators']:raise RuntimeError('Fixed factual denominator drift: '+str(denominators))
    scores={k:str(Decimal(sum(x['ok'] for x in v))/Decimal(len(v))) for k,v in facts.items()}
-   result=score_profiles(ROOT/'rubric.json',scores,evidence={'judge_version':VERSION,'fact_units':facts,'denominators':denominators,'base_native_receipt':receipt,'dynamic_probes':probes,'candidate_broken_sheet_references':broken,'candidate_invalid_text_arithmetic':arithmetic,'candidate_reconciliation':rc,'basis_policy':'Printed source or explicitly labelled recomputed original; whole-pound displays accepted; original source must remain intact.'})
+   extra_claims={str(key):rs for key,rs in before.items() if key[0].startswith('_') or key[0]=='review_source'}
+   result=score_profiles(ROOT/'rubric.json',scores,evidence={'judge_version':VERSION,'fact_units':facts,'denominators':denominators,'base_native_receipt':receipt,'dynamic_probes':probes,'candidate_broken_sheet_references':broken,'candidate_invalid_text_arithmetic':arithmetic,'candidate_reconciliation':rc,'additional_candidate_claims':extra_claims,'basis_policy':'Printed source or explicitly labelled recomputed original; whole-pound displays accepted; original source must remain intact.'})
   except (RecalcUnavailable,ValueError,TypeError,KeyError,openpyxl.utils.exceptions.InvalidFileException) as exc:result=score_profiles(ROOT/'rubric.json',status='JUDGE_ERROR',evidence={'error_type':type(exc).__name__,'error':str(exc)})
  (out/'evaluation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2,default=str));return result
 if __name__=='__main__':

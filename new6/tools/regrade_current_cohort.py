@@ -32,10 +32,12 @@ def snapshot(out, manifest, evidence, deadline):
         receipt = dest / 'receipt.json'
         if receipt.exists():
             previous = json.loads(receipt.read_text())
-            if previous['evaluation_status'] != 'RUN_OR_COLLECTION_PENDING' or not source_output_absent(trial):
+            same_trial = previous.get('trial') == row['trial']
+            if same_trial and (previous['evaluation_status'] != 'RUN_OR_COLLECTION_PENDING' or not source_output_absent(trial)):
                 results.append(previous)
                 continue
-            (dest / 'receipt_before_source_absence_fix.json').write_text(receipt.read_text())
+            archive = 'receipt_before_source_absence_fix.json' if same_trial else 'receipt_before_trial_binding-' + Path(previous.get('trial', 'unknown')).name + '.json'
+            (dest / archive).write_text(receipt.read_text())
         # Completed Harbor receipts and successful collection establish the
         # delivery boundary. An API rejection is not a missing-file score.
         exception = (row.get('exception_info') or {}).get('exception_type')

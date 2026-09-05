@@ -1,7 +1,7 @@
 {
   "task_id": "NEW6-C-COST-WORKPAPER-001",
   "task_version": "new6-c1-revision-v2",
-  "judge_version": "new6-c1-review-facts-v2.0",
+  "judge_version": "new6-c1-review-facts-v2.1-natural-movement",
   "build_status": "CALIBRATED_READY",
   "primary_profile": "capability_first",
   "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",

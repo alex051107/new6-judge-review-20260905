@@ -1,12 +1,12 @@
 {
   "task_version": "new6-c1-revision-v2",
-  "judge_version": "new6-c1-review-facts-v2.0",
+  "judge_version": "new6-c1-review-facts-v2.1-natural-movement",
   "design": "COMPLETE",
   "build": "COMPLETE",
   "independent_reference_oracle": "PASS_19_FACTS",
   "calibration": "PASS_19_CASES",
   "harbor_smoke": "PASS_LINUX_REFERENCE_100",
-  "actual_new_agent_samples": 1,
+  "actual_new_agent_samples": 11,
   "formal_difficulty": "NOT_ESTABLISHED",
   "api_calls": null,
   "primary_score_rule": "unrounded >= 0.70, no hurdle/cap",
@@ -28,6 +28,12 @@
   "environment_setup_failures_before_agent": 7,
   "environment_repair": "5 stale empty test networks removed, healthy runs untouched, seven never-started slots resubmitted once",
   "qwen_status": "BLOCKED_PROVIDER_ROUTE",
-  "updated_at": "2026-09-05T22:05:41.454149+00:00",
-  "actual_new_agent_samples_note": "Snapshot count, not formal effective n; authoritative current records are the versioned campaign receipts."
+  "updated_at": "2026-09-05T22:41:36.077101+00:00",
+  "actual_new_agent_samples_note": "Completed exact Agent trials, excludes seven setup failures; not a count of fully scoreable or difficulty-qualified samples.",
+  "reader_revision_calibration": "PASS_6_FOCUSED_CHECKS",
+  "terminal_runs_by_system": {
+    "codex": 3,
+    "claude": 8
+  },
+  "actual_R03_primary_score": "0.419651770976274287532565678261042499453085"
 }

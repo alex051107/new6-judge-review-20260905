@@ -1,0 +1,7 @@
+{
+  "trial": "N6C1V2-CLAUDE-R03__FdVp9qQ",
+  "original": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R03__FdVp9qQ/artifacts/app/output/answer.xlsx",
+  "copy": "answers/claude-R03.xlsx",
+  "sha256": "d4edc3b22af7487cde1c9606b825606e7099a5cb7e785df55b6c2cd9109d2c6e",
+  "answer_unchanged": true
+}

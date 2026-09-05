@@ -207,6 +207,7 @@ def numeric(f,k,id,field,value):
  rs=records(f,k,id);actual=[r for r in rs if field in r['cells'] and r.get(field) is not None];return bool(actual) and all(equal(r.get(field),value) for r in actual)
 def page_ok(r,page):
  v=str(r.get('page',''))
+ if r.get('accepted_source_pages') and v.isdigit() and int(v) in r['accepted_source_pages']:return True
  explicit=bool(re.search(r'(?<!\d)'+str(page)+r'(?!\d)',v)) or bool(re.search(r'(?:page|p\.?)[\s.:]*'+str(page)+r'\b',r['context'],re.I))
  # An explicit wrong page must not be rescued by a generic document citation.
  return explicit or (not v.strip() and bool(r.get('document_locator')))
@@ -289,3 +290,8 @@ def invalid_text_arithmetic(raw,cached):
      a,b=[cached[sh.title][co.replace('$','')].value for co in m.groups()]
      if any(isinstance(v,str) and not v.startswith('#') and not re.fullmatch(r'-?\d+(?:\.\d+)?',v.strip()) for v in [a,b]):bad.append({'sheet':sh.title,'cell':c.coordinate,'formula':c.value,'operands':[a,b],'cached_error':'#VALUE!'})
  return bad,bool(bad) and functions.issubset({'SUM','IF','ABS'})
+
+_legacy_discover=discover
+def discover(w,proven_reference_failure=False,proven_arithmetic_failure=False):
+ from natural_review_reader import read
+ return read(w,sys.modules[__name__],_legacy_discover,proven_reference_failure,proven_arithmetic_failure)
