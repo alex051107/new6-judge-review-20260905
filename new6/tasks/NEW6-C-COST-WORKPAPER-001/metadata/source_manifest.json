@@ -1,0 +1,57 @@
+{
+  "source_id": "falmouth_oct2024",
+  "source_url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-3589",
+  "landing_url": "https://www.find-tender.service.gov.uk/Notice/050708-2025",
+  "official_link_title_observed": "Appendix 7 - Passmore Edwards, Falmouth OCE October 24.pdf",
+  "required_identity": "October 2024 Order of Cost Estimate, Revision A, Municipal Building, The Moor, Falmouth",
+  "source_type": "real_published_cost_document_reconstructed_workpaper",
+  "status": "SOURCE_VERIFIED",
+  "downloaded": false,
+  "local_sha256": "d9473748ee612e6be28bd90c15c918b2347fec71642f0d317fcb5b6114a7c856",
+  "attempts": [
+    {
+      "method": "provided fetch_sources.py",
+      "result": "HTTP 403 Forbidden"
+    },
+    {
+      "method": "same exact attachment with standard browser User-Agent",
+      "result": "HTTP 403 Forbidden"
+    },
+    {
+      "method": "official landing-page attachment link through web fetch",
+      "result": "HTTP 403 Forbidden"
+    },
+    {
+      "method": "curl response headers",
+      "result": "HTTP/2 403 from awselb/2.0; 118-byte HTML"
+    },
+    {
+      "method": "same attachment with download query and official Referer",
+      "result": "HTTP 403 Forbidden"
+    },
+    {
+      "method": "same attachment, case-normalized path",
+      "result": "HTTP 403 Forbidden"
+    },
+    {
+      "method": "official bare hostname",
+      "result": "20-second timeout"
+    },
+    {
+      "method": "Actual Codex browser official notice then exact attachment link",
+      "result": "Notice opens; attachment navigation net::ERR_BLOCKED_BY_CLIENT; no binary acquired; temporary tab closed"
+    }
+  ],
+  "visual_review": "All five pages rendered and inspected; page5 cross-column bindings confirmed",
+  "oracle_status": "Independent Decimal implementation complete; reference native parity passed",
+  "rights": {
+    "third_party_QS_document": true,
+    "redistribution_permission": "NOT_CLEARED",
+    "local_construction": "User-authorized public procurement reconstruction using supplied attachment"
+  },
+  "no_substitution": "June 2025 cost plan, old B1, invented elemental rows and design-package sample numbers were not used as source facts",
+  "minimal_unblocking_proposal": "Acquire the exact A-3589 five-page PDF through an authorized accessible official download or a user-provided copy, then visually verify all cross-column page 5 labels and amounts before building Oracle/reference. Keep the task identity and frozen weights unchanged.",
+  "local_source_available": true,
+  "acquisition_method": "User-provided local attachment",
+  "local_file": "metadata/source/Falmouth_OCE_October2024_RevA.pdf"
+}

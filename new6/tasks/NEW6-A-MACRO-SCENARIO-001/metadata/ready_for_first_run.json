@@ -1,0 +1,10 @@
+{
+  "ready": true,
+  "frozen_wrapper": "new6/harbor_wrappers/first-ready-v1/NEW6-A-MACRO-SCENARIO-001",
+  "task_version": "new6-a2-v1.0-zambia",
+  "judge_version": "new6-a2-facts-v1.0",
+  "calibrated_cases": 17,
+  "reference_smoke": "validation/harbor_reference_smoke/receipt.json",
+  "manifest": "metadata/visible_package_manifest_first_run.json",
+  "formal_difficulty_verified": false
+}

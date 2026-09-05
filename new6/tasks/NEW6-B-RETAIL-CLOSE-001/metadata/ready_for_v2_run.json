@@ -1,0 +1,23 @@
+{
+  "status": "ATTEMPT_CAP_EXHAUSTED",
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "task_version": "new6-b1-v2",
+  "task_root": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-B-RETAIL-CLOSE-001",
+  "v1_frozen_commit": "683cdda",
+  "v1_wrapper_unchanged": "new6/harbor_wrappers/downstream-v2/NEW6-B-RETAIL-CLOSE-001",
+  "new_v2_wrapper_required": true,
+  "calibration_receipt": "metadata/validation_receipt_v2.json",
+  "reference_score_all_profiles": 1.0,
+  "v1_rejudge_score_all_profiles": 0.95,
+  "agent_attempts_v2": 1,
+  "v2_reference_and_calibration_are_not_difficulty_evidence": true,
+  "known_reader_boundaries": [
+    "Unsupported lawful workbook/formula/chart layouts return JUDGE_ERROR with null score pending parsing.",
+    "Current chart adapter binds treatment-category amount charts; other legitimate chart families require reader extension or explicit pending handling."
+  ],
+  "completed_at": "2026-09-05T15:07:40.145514+00:00",
+  "ready": false,
+  "ready_for_next_agent_run": false,
+  "agent_attempts_total": 2,
+  "latest_attempt_receipt": "metadata/attempt_2_rejudge_v22/same_original_receipt.json"
+}

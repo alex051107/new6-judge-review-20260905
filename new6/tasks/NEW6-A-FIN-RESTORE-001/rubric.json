@@ -1,0 +1,118 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "judge_version": "new6-a1-v1.2-adjacent-cases",
+  "status": "IMPLEMENTED_AND_BIDIRECTIONALLY_CALIBRATED",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "源输入、时间与金额单位正确",
+      "type": "positive",
+      "weight": 10,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R002",
+      "description_zh": "逐年经营预测和费用关系正确",
+      "type": "positive",
+      "weight": 25,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R003",
+      "description_zh": "再投资、现金流与估值桥正确",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R004",
+      "description_zh": "声明的输入变化传到正确输出",
+      "type": "positive",
+      "weight": 35,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R005",
+      "description_zh": "历史、base和不相关模型内容保留",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R006",
+      "description_zh": "候选实际展示的两情景结论可核对",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    }
+  ],
+  "penalties": [],
+  "negative_item_policy": "Do not copy legacy penalties. Add only a separately evidenced harmful action with visible policy basis, explicit non-overlap and cross-profile shared semantics; log external acceptance gap until reviewed.",
+  "profiles": {
+    "capability_first": {
+      "R001": 10,
+      "R002": 25,
+      "R003": 20,
+      "R004": 35,
+      "R005": 5,
+      "R006": 5
+    },
+    "balanced": {
+      "R001": 15,
+      "R002": 25,
+      "R003": 25,
+      "R004": 25,
+      "R005": 5,
+      "R006": 5
+    },
+    "ongoing_use": {
+      "R001": 10,
+      "R002": 20,
+      "R003": 20,
+      "R004": 40,
+      "R005": 5,
+      "R006": 5
+    }
+  },
+  "source_binding": [
+    "nyu_amazon2018"
+  ],
+  "score_uncertainty": "If a required fact cannot be safely determined, report JUDGE_ERROR and no total. Unknown is not zero.",
+  "equivalence": "Accept business-equivalent layouts and formulas. Preserve source-native structure only where explicitly requested. No use of oracle values to choose candidate regions.",
+  "pre_rollout_weight_basis": "Frozen before any A1 Agent attempt. Historical source-derived lease financing rate is fixed and disclosed to make the native engine verifiable. Downstream what-if usability of both forecasts/valuations is an explicit primary deliverable, allocated35%; current numerical delivery and original basis retain65%. No extra hurdle/cap; legal equivalent formulas accepted.",
+  "fact_denominators": {
+    "R001": 21,
+    "R002": 132,
+    "R003": 142,
+    "R004": 372,
+    "R005": {
+      "source_basis_units": 1,
+      "zero_delta_and_other_input_units": 504,
+      "aggregation": "mean(source basis preserved, mean of unchanged response/input facts)"
+    },
+    "R006": 5
+  },
+  "numeric_tolerances": {
+    "ratios_and_rates_absolute": "0.00000001",
+    "monetary_absolute": "0.01",
+    "relative": "0.000000001",
+    "unit_choice": "Bound semantic metric determines rate or monetary tolerance; not candidate values"
+  },
+  "dynamic_scope": {
+    "growth_delta": ".01",
+    "target_margin_delta": "-.01",
+    "initial_discount_delta": ".005",
+    "active_units": [
+      168,
+      130,
+      74
+    ],
+    "invariants_scored_separately": true,
+    "only_visible_declared_inputs_changed": true
+  },
+  "same_original_parser_repair": "metadata/first_attempt_rejudge_v12/receipt.json"
+}

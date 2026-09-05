@@ -1,0 +1,5 @@
+# Workpaper conventions — reconstructed review request
+The source is the October 2024 Order of Cost Estimate, Revision A, for renovation and thermal upgrade works at the Municipal Building, The Moor, Falmouth. Do not mix it with the June 2025 cost plan or later documents.
+Transcribe every elemental cost row, the summary cost chain, provisional-sum information and explicit exclusions. Provisional sums that the document says are included in elemental costs are memorandum detail, not additional charges. Do not invent an allocation from a provisional sum to an element where the PDF does not provide one.
+Treat printed monetary values and rates as source facts. For the working calculation retain full precision between stages and display GBP rounded to whole pounds; reconcile to the document's printed stage amounts and final limit. Do not silently alter printed figures to remove a rounding difference. A dash/excluded/unpriced entry retains that meaning and is not a new zero-priced offer.
+The result remains an estimate with the source's limitations, not a certified budget or a newly approved procurement price.

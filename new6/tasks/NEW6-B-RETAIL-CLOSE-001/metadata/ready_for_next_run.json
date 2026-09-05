@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "attempt": 2,
+  "task_version": "new6-b1-v2",
+  "basis": [
+    "metadata/validation_receipt_v2.json",
+    "validation/harbor_reference_smoke_v2/receipt.json",
+    "metadata/visible_package_manifest_v2.json"
+  ],
+  "frozen_wrapper": "new6/harbor_wrappers/bridge-v2/NEW6-B-RETAIL-CLOSE-001",
+  "original_conditional_second_allowance": true,
+  "no_automatic_retry": true
+}

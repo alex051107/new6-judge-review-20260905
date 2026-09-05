@@ -1,0 +1,9 @@
+{
+  "ready": true,
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "reference_and_independent_oracle": "metadata/reference_receipt.json",
+  "calibration": "metadata/validation_receipt.json",
+  "docker_reference_parity": "validation/harbor_reference_smoke/receipt.json",
+  "attempts_authorized": 1,
+  "formal_difficulty_verified": false
+}

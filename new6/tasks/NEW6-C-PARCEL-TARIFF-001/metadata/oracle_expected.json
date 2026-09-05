@@ -1,0 +1,197 @@
+{
+  "quotes": [
+    {
+      "request_id": "Q01",
+      "status": "in_scope",
+      "priority": "11.00",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "7.90",
+      "ground_band": [
+        "4",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "7.90"
+    },
+    {
+      "request_id": "Q02",
+      "status": "in_scope",
+      "priority": "11.50",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "8.05",
+      "ground_band": [
+        "8",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "8.05"
+    },
+    {
+      "request_id": "Q03",
+      "status": "in_scope",
+      "priority": "16.95",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "9.45",
+      "ground_band": [
+        "8",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "9.45"
+    },
+    {
+      "request_id": "Q04",
+      "status": "in_scope",
+      "priority": "16.95",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "12.90",
+      "ground_band": [
+        "12",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "12.90"
+    },
+    {
+      "request_id": "Q05",
+      "status": "in_scope",
+      "priority": "11.90",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "10.60",
+      "ground_band": [
+        "12",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "10.60"
+    },
+    {
+      "request_id": "Q06",
+      "status": "in_scope",
+      "priority": "13.05",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "10.95",
+      "ground_band": [
+        "15.999",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "10.95"
+    },
+    {
+      "request_id": "Q07",
+      "status": "in_scope",
+      "priority": "14.50",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "11.35",
+      "ground_band": [
+        "15.999",
+        "oz"
+      ],
+      "selected": "ground",
+      "selected_usd": "11.35"
+    },
+    {
+      "request_id": "Q08",
+      "status": "in_scope",
+      "priority": "14.50",
+      "priority_band": [
+        "1",
+        "lb"
+      ],
+      "ground": "11.35",
+      "ground_band": [
+        "1",
+        "lb"
+      ],
+      "selected": "ground",
+      "selected_usd": "11.35"
+    },
+    {
+      "request_id": "Q09",
+      "status": "in_scope",
+      "priority": "19.45",
+      "priority_band": [
+        "2",
+        "lb"
+      ],
+      "ground": "16.45",
+      "ground_band": [
+        "2",
+        "lb"
+      ],
+      "selected": "ground",
+      "selected_usd": "16.45"
+    },
+    {
+      "request_id": "Q10",
+      "status": "in_scope",
+      "priority": "13.45",
+      "priority_band": [
+        "2",
+        "lb"
+      ],
+      "ground": "12.20",
+      "ground_band": [
+        "2",
+        "lb"
+      ],
+      "selected": "ground",
+      "selected_usd": "12.20"
+    },
+    {
+      "request_id": "Q11",
+      "status": "in_scope",
+      "priority": "15.35",
+      "priority_band": [
+        "6",
+        "lb"
+      ],
+      "ground": "13.90",
+      "ground_band": [
+        "6",
+        "lb"
+      ],
+      "selected": "ground",
+      "selected_usd": "13.90"
+    },
+    {
+      "request_id": "Q12",
+      "status": "in_scope",
+      "priority": "61.30",
+      "priority_band": [
+        "10",
+        "lb"
+      ],
+      "ground": "39.45",
+      "ground_band": [
+        "10",
+        "lb"
+      ],
+      "selected": "ground",
+      "selected_usd": "39.45"
+    }
+  ],
+  "batch_total": "164.55"
+}

@@ -1,0 +1,643 @@
+{
+  "passed": true,
+  "runtime": {
+    "python": "3.11.16",
+    "machine": "aarch64",
+    "libreoffice": "LibreOffice 7.4.7.2 40(Build:2)",
+    "packages": {
+      "openpyxl": "3.1.5",
+      "et-xmlfile": "2.0.0",
+      "lxml": "6.0.1"
+    },
+    "manifest_sha256": "58eed7cb9c530934bc8f7a12723434f3ac4ba2895a41c9fc4f30140a73664779"
+  },
+  "case_count": 75,
+  "repeat": 1,
+  "checks": [
+    {
+      "id": "A1-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "A2-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "B1-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "B2-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "C1-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C2-reference",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "A1-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.627227981771371139"
+    },
+    {
+      "id": "A2-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.31711069545581759994993594234289359823245"
+    },
+    {
+      "id": "B1-actual-2",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.6829482397006255925"
+    },
+    {
+      "id": "B1-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.95"
+    },
+    {
+      "id": "B2-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.92083333333333332"
+    },
+    {
+      "id": "C1-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "C2-actual-2",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.59915579212454212454212454213"
+    },
+    {
+      "id": "C2-actual-1",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "A1-equivalent_adjacent_cases",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "A1-equivalent_transposed",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "A1-equivalent_formula",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "A1-static",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.65"
+    },
+    {
+      "id": "A1-wrong_terminal_period",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.933802438285627705"
+    },
+    {
+      "id": "A1-wrong_summary_delta",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99"
+    },
+    {
+      "id": "A1-mixed_secondary_summary",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99"
+    },
+    {
+      "id": "A1-duplicate_year",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.98159411011523689"
+    },
+    {
+      "id": "A1-unsupported_formula",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "A2-equivalent_formula",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "A2-wrong_timing",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.69723961040428464893448735621793857765924"
+    },
+    {
+      "id": "A2-constant_offset",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.975"
+    },
+    {
+      "id": "A2-mixed_final",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99852941176470588235294117647058823529412"
+    },
+    {
+      "id": "A2-duplicate_omission",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.9039686087059310263305653240343981796152415"
+    },
+    {
+      "id": "A2-legal_formula_limit",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "A2-equivalent_layout",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "B2-equivalent_layout",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "B2-equivalent_formula",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "B2-partial_parse_core_table",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "B2-wrong_identity",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99966216216216214"
+    },
+    {
+      "id": "B2-wrong_percentage_point",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.999787414965986375"
+    },
+    {
+      "id": "B2-duplicate_authority",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99977324263038548"
+    },
+    {
+      "id": "B2-mixed_final_representation",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.97555555555555556"
+    },
+    {
+      "id": "C1-equivalent_formula",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C1-equivalent_layout",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C1-equivalent_short_identity",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C1-wrong_printed_element",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99684210526315789473684210526315789473685"
+    },
+    {
+      "id": "C1-wrong_risk_base",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.85444444444444444444444444444444444444445"
+    },
+    {
+      "id": "C1-mixed_final",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.98154476567004365373527716003624083683387"
+    },
+    {
+      "id": "C1-duplicate_omission",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.90434684128160777530681163001400214150397"
+    },
+    {
+      "id": "C1-static_current_answer",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.85"
+    },
+    {
+      "id": "C1-partial_parse",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "C1-legal_formula_limit",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "B1-equivalent_layout",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "B1-equivalent_recoverable_prices",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "B1-wrong_quantity_bridge",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.8611111111111111"
+    },
+    {
+      "id": "B1-wrong_sku_quantity",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99999879475961481"
+    },
+    {
+      "id": "B1-mixed_bridge_claims",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.8611111111111111"
+    },
+    {
+      "id": "B1-duplicate_and_missing_sku",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.99996745850959975"
+    },
+    {
+      "id": "B1-unbound_bridge_header",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "C2-equivalent_layout",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C2-equivalent_formula",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "1"
+    },
+    {
+      "id": "C2-wide_rates_long_quotes",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "C2-constant_quotes",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.65"
+    },
+    {
+      "id": "C2-constant_offset",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.9244897959183673469387755102"
+    },
+    {
+      "id": "C2-floor_weight",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.85844155844155844155844155845"
+    },
+    {
+      "id": "C2-mixed_final",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.896382189239332096474953617825"
+    },
+    {
+      "id": "C2-omitted_quote",
+      "run": 1,
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.987872841444270015698587127155"
+    },
+    {
+      "id": "C2-dynamic_unsupported",
+      "run": 1,
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "A1-malformed",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "A1-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "A2-malformed",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "A2-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "B1-malformed_file",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "B1-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "B2-malformed_file",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "B2-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "C1-malformed",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "C1-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    },
+    {
+      "id": "C2-malformed",
+      "run": 1,
+      "passed": true,
+      "status": "MALFORMED_OUTPUT",
+      "score": null
+    },
+    {
+      "id": "C2-missing_release_probe",
+      "run": 1,
+      "passed": true,
+      "status": "OUTPUT_MISSING",
+      "score": null
+    }
+  ],
+  "api_calls": 0,
+  "second_actual_run": {
+    "passed": true,
+    "runtime": {
+      "python": "3.11.16",
+      "machine": "aarch64",
+      "libreoffice": "LibreOffice 7.4.7.2 40(Build:2)",
+      "packages": {
+        "openpyxl": "3.1.5",
+        "et-xmlfile": "2.0.0",
+        "lxml": "6.0.1"
+      },
+      "manifest_sha256": "58eed7cb9c530934bc8f7a12723434f3ac4ba2895a41c9fc4f30140a73664779"
+    },
+    "case_count": 8,
+    "repeat": 1,
+    "checks": [
+      {
+        "id": "A1-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.627227981771371139"
+      },
+      {
+        "id": "A2-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.31711069545581759994993594234289359823245"
+      },
+      {
+        "id": "B1-actual-2",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.6829482397006255925"
+      },
+      {
+        "id": "B1-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.95"
+      },
+      {
+        "id": "B2-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.92083333333333332"
+      },
+      {
+        "id": "C1-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "OUTPUT_MISSING",
+        "score": null
+      },
+      {
+        "id": "C2-actual-2",
+        "run": 1,
+        "passed": true,
+        "status": "SCORED",
+        "score": "0.59915579212454212454212454213"
+      },
+      {
+        "id": "C2-actual-1",
+        "run": 1,
+        "passed": true,
+        "status": "OUTPUT_MISSING",
+        "score": null
+      }
+    ],
+    "api_calls": 0
+  },
+  "custom_path_score": {
+    "task": "B2",
+    "status": "SCORED",
+    "score_decimal": "0.92083333333333332"
+  },
+  "harbor_configuration": {
+    "tasks": 6,
+    "parallel": 3,
+    "validated_with": "Harbor 0.22.0 --print-config",
+    "paid_calls": 0,
+    "agent_image_installation": "BUILT_AND_HARBOR_INSTALL_ONLY_PASSED",
+    "install_only_completed_trials": 1,
+    "install_only_errors": 0,
+    "agent_result": null
+  },
+  "publication_review": {
+    "history_text_blobs_scanned": 683,
+    "secret_pattern_hits": 0
+  },
+  "harbor_verifier_actual_check": {
+    "task": "B2",
+    "score_decimal": "0.92083333333333332",
+    "api_calls": 0
+  }
+}

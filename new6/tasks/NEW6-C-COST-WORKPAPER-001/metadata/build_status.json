@@ -1,0 +1,42 @@
+{
+  "build_status": "BUILD_COMPLETE",
+  "task_version": "new6-c1-v1.0-falmouth",
+  "judge_version": "new6-c1-facts-v1.0",
+  "source_downloaded": false,
+  "source_received_from_user": true,
+  "source_visual_or_workbook_review_complete": true,
+  "source_rights_review_complete": false,
+  "source_rights_scope": "User provided public procurement attachment for this reconstruction; third-party redistribution license not independently cleared",
+  "agent_visible_package_ready": true,
+  "reference_ready": true,
+  "independent_oracle_ready": true,
+  "evaluator_ready": true,
+  "calibration_passed": true,
+  "calibrated_cases": 15,
+  "local_smoke_complete": true,
+  "harbor_reference_smoke_complete": true,
+  "agent_runs": 1,
+  "first_attempt_score": null,
+  "agent_cost_usd": 0.125888,
+  "formal_difficulty_verified": false,
+  "human_acceptance_complete": false,
+  "prompt_version": "natural-business-v2",
+  "verification_receipt": "metadata/validation_receipt.json",
+  "source_identity_receipt": "metadata/source_visual_verification.json",
+  "reference_verification": "metadata/reference_verification.json",
+  "known_limits": [
+    "Bounded English source-label and role-header parser; unsupported material layouts or legal unsupported formulas return JUDGE_ERROR, never zero",
+    "No third-party redistribution license determination",
+    "First call completed with no delivered workbook; business numerical accuracy not scored.",
+    "Formal repeated-sample difficulty acceptance has not been performed."
+  ],
+  "stage": "FIRST_AGENT_ATTEMPT_FINISHED_OUTPUT_MISSING",
+  "actual_agent_calls_reserved": 1,
+  "first_attempt_status": "OUTPUT_MISSING",
+  "agent_cost_status": "EXACT_REQUEST_USAGE_ATTRIBUTION_ACCOUNT_RECONCILED",
+  "first_attempt_receipt": "metadata/first_attempt.json",
+  "delivery_audit": "metadata/first_attempt_delivery_audit.json",
+  "attempt_receipts": [
+    "metadata/first_attempt.json"
+  ]
+}

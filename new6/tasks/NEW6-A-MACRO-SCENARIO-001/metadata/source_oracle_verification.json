@@ -1,0 +1,2733 @@
+{
+  "status": "PASS",
+  "fact_count": 340,
+  "checks": [
+    {
+      "sheet": "Submodel1",
+      "cell": "E10",
+      "year": 2019,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E24",
+      "year": 2019,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.42,
+      "oracle": "2.42"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E52",
+      "year": 2019,
+      "metric": "gdp",
+      "fresh_native": 29539.0965374913,
+      "oracle": "29539.0965374913256783"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E33",
+      "year": 2019,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1653.82940051561,
+      "oracle": "1653.82940051561"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E31",
+      "year": 2019,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0136694397886081,
+      "oracle": "0.013669439788608149966935460725680565418"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E23",
+      "year": 2019,
+      "metric": "pc_growth",
+      "fresh_native": -0.0152297103777528,
+      "oracle": "-0.015229710377752781"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E41",
+      "year": 2019,
+      "metric": "population",
+      "fresh_native": 17.86103,
+      "oracle": "17.86103"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E8",
+      "year": 2019,
+      "metric": "population_growth",
+      "fresh_native": 0.0293460825036125,
+      "oracle": "0.029346082503612588925820008988105110806"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E9",
+      "year": 2019,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00864728055580089,
+      "oracle": "0.008647280555800873954160009355437849765"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "E15",
+      "year": 2019,
+      "metric": "participation_growth",
+      "fresh_native": -0.000717276183422655,
+      "oracle": "-0.0007172761834226549"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F10",
+      "year": 2020,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.3100000000000000000000000000000000000000"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F24",
+      "year": 2020,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.44583166145209,
+      "oracle": "2.445831661452085811671658206818965798611"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F52",
+      "year": 2020,
+      "metric": "gdp",
+      "fresh_native": 31538.9602218733,
+      "oracle": "31538.96022187329157795232971685038816520"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F33",
+      "year": 2020,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1715.56572138127,
+      "oracle": "1715.565721381271299932132817496213455461"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F31",
+      "year": 2020,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0677022630615569,
+      "oracle": "0.067702263061557021761093991934350906687"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F23",
+      "year": 2020,
+      "metric": "pc_growth",
+      "fresh_native": 0.0373293163408595,
+      "oracle": "0.037329316340859541578848597843733658337"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F41",
+      "year": 2020,
+      "metric": "population",
+      "fresh_native": 18.384,
+      "oracle": "18.384"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F8",
+      "year": 2020,
+      "metric": "population_growth",
+      "fresh_native": 0.0292799463412805,
+      "oracle": "0.029279946341280430075981060442762819389"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F9",
+      "year": 2020,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00803034424463722,
+      "oracle": "0.008030344244637372987970642366092183554"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "F15",
+      "year": 2020,
+      "metric": "participation_growth",
+      "fresh_native": 5.2144601065951e-06,
+      "oracle": "0.000005214460106434703767644288311511963"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G10",
+      "year": 2021,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.3100000000000000000000000000000000000000"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G24",
+      "year": 2021,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.47057264703773,
+      "oracle": "2.470572647037726651155304808768525692000"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G52",
+      "year": 2021,
+      "metric": "gdp",
+      "fresh_native": 33650.6011518754,
+      "oracle": "33650.60115187535682035332812422404673251"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G33",
+      "year": 2021,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1778.47899962345,
+      "oracle": "1778.478999623453137802089113906455617172"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G31",
+      "year": 2021,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0669534098507651,
+      "oracle": "0.066953409850765269889812787190217435639"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G23",
+      "year": 2021,
+      "metric": "pc_growth",
+      "fresh_native": 0.036672030373472,
+      "oracle": "0.036672030373472264766889608356057150086"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G41",
+      "year": 2021,
+      "metric": "population",
+      "fresh_native": 18.921,
+      "oracle": "18.921"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G8",
+      "year": 2021,
+      "metric": "population_growth",
+      "fresh_native": 0.0292101827676241,
+      "oracle": "0.029210182767624020887728459530026109661"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G9",
+      "year": 2021,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00773559536048007,
+      "oracle": "0.007735595360480183981199661339375085809"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "G15",
+      "year": 2021,
+      "metric": "participation_growth",
+      "fresh_native": 5.59748563611073e-06,
+      "oracle": "0.000005597485636077064118621521719605333"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H10",
+      "year": 2022,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.310"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H24",
+      "year": 2022,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.49558380153291,
+      "oracle": "2.495583801532907471979283326812816263610"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H52",
+      "year": 2022,
+      "metric": "gdp",
+      "fresh_native": 35861.0536664653,
+      "oracle": "35861.05366646529084058994334619532747847"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H33",
+      "year": 2022,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1841.86202703982,
+      "oracle": "1841.862027039819765823828625896010656316"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H31",
+      "year": 2022,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0656883514387603,
+      "oracle": "0.065688351438760104359923748521763301112"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H23",
+      "year": 2022,
+      "metric": "pc_growth",
+      "fresh_native": 0.0356388956123668,
+      "oracle": "0.035638895612366714668418964857744397552"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H41",
+      "year": 2022,
+      "metric": "population",
+      "fresh_native": 19.47,
+      "oracle": "19.47"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H8",
+      "year": 2022,
+      "metric": "population_growth",
+      "fresh_native": 0.0290153797368005,
+      "oracle": "0.029015379736800380529570318693515141906"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H9",
+      "year": 2022,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00672636751221933,
+      "oracle": "0.006726367512219354426448995587290907271"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "H15",
+      "year": 2022,
+      "metric": "participation_growth",
+      "fresh_native": 5.5664057740934e-06,
+      "oracle": "0.000005566405774249373902879500191732869"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I10",
+      "year": 2023,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.3100000000000000000000000000000000000000"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I24",
+      "year": 2023,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.52005456089544,
+      "oracle": "2.520054560895437242479593338335485116558"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I52",
+      "year": 2023,
+      "metric": "gdp",
+      "fresh_native": 38184.0829157227,
+      "oracle": "38184.08291572271772577646752197197207350"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I33",
+      "year": 2023,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1906.05914819162,
+      "oracle": "1906.059148191619713761117532170517250212"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I31",
+      "year": 2023,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0647786111044966,
+      "oracle": "0.064778611104496317918464812283705604346"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I23",
+      "year": 2023,
+      "metric": "pc_growth",
+      "fresh_native": 0.0348544680379648,
+      "oracle": "0.034854468037964524028977681583574507893"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I41",
+      "year": 2023,
+      "metric": "population",
+      "fresh_native": 20.033,
+      "oracle": "20.033"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I8",
+      "year": 2023,
+      "metric": "population_growth",
+      "fresh_native": 0.0289162814586543,
+      "oracle": "0.028916281458654340010272213662044170519"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I9",
+      "year": 2023,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00615981613505245,
+      "oracle": "0.006159816135052395389642379782464274266"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "I15",
+      "year": 2023,
+      "metric": "participation_growth",
+      "fresh_native": 5.39485187167621e-06,
+      "oracle": "0.000005394851871647116570199606354720034"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J10",
+      "year": 2024,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.3100000000000000000000000000000000000000"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J24",
+      "year": 2024,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.54316909488047,
+      "oracle": "2.543169094880466691029200739021435707449"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J52",
+      "year": 2024,
+      "metric": "gdp",
+      "fresh_native": 40637.4729758757,
+      "oracle": "40637.47297587567691045303517165434609696"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J33",
+      "year": 2024,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1971.92706598776,
+      "oracle": "1971.927065987756061260337498624531545854"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J31",
+      "year": 2024,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0642516429049223,
+      "oracle": "0.064251642904922269060574621951374542001"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J23",
+      "year": 2024,
+      "metric": "pc_growth",
+      "fresh_native": 0.0345571216185125,
+      "oracle": "0.034557121618512607535446981829963421967"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J41",
+      "year": 2024,
+      "metric": "population",
+      "fresh_native": 20.608,
+      "oracle": "20.608"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J8",
+      "year": 2024,
+      "metric": "population_growth",
+      "fresh_native": 0.0287026406429391,
+      "oracle": "0.028702640642939150401836969001148105626"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J9",
+      "year": 2024,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00626111569781052,
+      "oracle": "0.006261115697810453959309470841262163061"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "J15",
+      "year": 2024,
+      "metric": "participation_growth",
+      "fresh_native": 5.18019787798529e-06,
+      "oracle": "0.000005180197878152651637970330543985617"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K10",
+      "year": 2025,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K24",
+      "year": 2025,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.56465649563135,
+      "oracle": "2.564656495631354407390026123369172490548"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K52",
+      "year": 2025,
+      "metric": "gdp",
+      "fresh_native": 43234.4572751698,
+      "oracle": "43234.45727516982495754187280587748615634"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K33",
+      "year": 2025,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2039.64982191677,
+      "oracle": "2039.649821916772418622534925030782004828"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K31",
+      "year": 2025,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0639061464485218,
+      "oracle": "0.063906146448521554758606076269132341437"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K23",
+      "year": 2025,
+      "metric": "pc_growth",
+      "fresh_native": 0.0343434385059742,
+      "oracle": "0.034343438505974062389269897615430452061"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K41",
+      "year": 2025,
+      "metric": "population",
+      "fresh_native": 21.197,
+      "oracle": "21.197"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K8",
+      "year": 2025,
+      "metric": "population_growth",
+      "fresh_native": 0.0285811335403727,
+      "oracle": "0.028581133540372670807453416149068322981"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K9",
+      "year": 2025,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0064994191847898,
+      "oracle": "0.006499419184789779919405220889336717736"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "K15",
+      "year": 2025,
+      "metric": "participation_growth",
+      "fresh_native": 4.92504246829562e-06,
+      "oracle": "0.000004925042468157105647635022682404055"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L10",
+      "year": 2026,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L24",
+      "year": 2026,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.58757698831199,
+      "oracle": "2.587576988311986802340621808205670368148"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L52",
+      "year": 2026,
+      "metric": "gdp",
+      "fresh_native": 45931.3940900707,
+      "oracle": "45931.39409007066364276069340087953194760"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L33",
+      "year": 2026,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2107.13799844347,
+      "oracle": "2107.137998443465622660826378607190198532"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L31",
+      "year": 2026,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0623793377984585,
+      "oracle": "0.062379337798458466177790299196382970676"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L23",
+      "year": 2026,
+      "metric": "pc_growth",
+      "fresh_native": 0.0330881192455237,
+      "oracle": "0.033088119245523630955620743740973017223"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L41",
+      "year": 2026,
+      "metric": "population",
+      "fresh_native": 21.798,
+      "oracle": "21.798"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L8",
+      "year": 2026,
+      "metric": "population_growth",
+      "fresh_native": 0.0283530688304949,
+      "oracle": "0.028353068830494881351134594518092182856"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L9",
+      "year": 2026,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00497753034540915,
+      "oracle": "0.004977530345409114313962457187049015277"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "L15",
+      "year": 2026,
+      "metric": "participation_growth",
+      "fresh_native": 4.71260548318142e-06,
+      "oracle": "0.000004712605483105025323064656870930723"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M10",
+      "year": 2027,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M24",
+      "year": 2027,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.60835178680697,
+      "oracle": "2.608351786806973674498013661276150583436"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M52",
+      "year": 2027,
+      "metric": "gdp",
+      "fresh_native": 48791.7509053609,
+      "oracle": "48791.75090536083030217413069449900042444"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M33",
+      "year": 2027,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2177.03689565237,
+      "oracle": "2177.036895652366156620298531790960218831"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M31",
+      "year": 2027,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0622745482029363,
+      "oracle": "0.062274548202936248238446215760493496998"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M23",
+      "year": 2027,
+      "metric": "pc_growth",
+      "fresh_native": 0.0331724344872213,
+      "oracle": "0.033172434487221325142854301764556364785"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M41",
+      "year": 2027,
+      "metric": "population",
+      "fresh_native": 22.412,
+      "oracle": "22.412"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M8",
+      "year": 2027,
+      "metric": "population_growth",
+      "fresh_native": 0.0281677218093404,
+      "oracle": "0.028167721809340306450133039728415450959"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M9",
+      "year": 2027,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00561955336109476,
+      "oracle": "0.005619553361094715260482600013421400698"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "M15",
+      "year": 2027,
+      "metric": "participation_growth",
+      "fresh_native": 4.46024109646004e-06,
+      "oracle": "0.000004460241096594878049754565327562352"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N10",
+      "year": 2028,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N24",
+      "year": 2028,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.62785247141253,
+      "oracle": "2.627852471412527255786988282293479596381"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N52",
+      "year": 2028,
+      "metric": "gdp",
+      "fresh_native": 51812.4432155804,
+      "oracle": "51812.44321558035189321212651672382260272"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N33",
+      "year": 2028,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2248.90156758455,
+      "oracle": "2248.901567584545852389952971774982534082"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N31",
+      "year": 2028,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0619098977628125,
+      "oracle": "0.061909897762812876123012960653047630240"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N23",
+      "year": 2028,
+      "metric": "pc_growth",
+      "fresh_native": 0.033010314191595,
+      "oracle": "0.033010314191595215923823363607626350490"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N41",
+      "year": 2028,
+      "metric": "population",
+      "fresh_native": 23.039,
+      "oracle": "23.039"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N8",
+      "year": 2028,
+      "metric": "population_growth",
+      "fresh_native": 0.0279760842405854,
+      "oracle": "0.027976084240585400678208102802070319472"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N9",
+      "year": 2028,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00580288373988047,
+      "oracle": "0.005802883739880597674411538842020446352"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "N15",
+      "year": 2028,
+      "metric": "participation_growth",
+      "fresh_native": 4.08079686042839e-06,
+      "oracle": "0.000004080796860495305470128453463575507"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O10",
+      "year": 2029,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O24",
+      "year": 2029,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.64730734349609,
+      "oracle": "2.647307343496092317629848802484315394615"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O52",
+      "year": 2029,
+      "metric": "gdp",
+      "fresh_native": 54978.7682634,
+      "oracle": "54978.76826340000980091313096545365119824"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O33",
+      "year": 2029,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2322.03270107699,
+      "oracle": "2322.032701076994965616975586664427554092"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O31",
+      "year": 2029,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0611112862337964,
+      "oracle": "0.061111286233796490097414382099289518388"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O23",
+      "year": 2029,
+      "metric": "pc_growth",
+      "fresh_native": 0.0325186013236658,
+      "oracle": "0.032518601323665892442215227823859915282"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O41",
+      "year": 2029,
+      "metric": "population",
+      "fresh_native": 23.677,
+      "oracle": "23.677"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O8",
+      "year": 2029,
+      "metric": "population_growth",
+      "fresh_native": 0.0276921741395026,
+      "oracle": "0.027692174139502582577368809410130648032"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O9",
+      "year": 2029,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0053696950010711,
+      "oracle": "0.005369695001071220513163346817698727846"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "O15",
+      "year": 2029,
+      "metric": "participation_growth",
+      "fresh_native": 3.48612247091928e-06,
+      "oracle": "0.000003486122470982856327480204250533536"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P10",
+      "year": 2030,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P24",
+      "year": 2030,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.66727391217139,
+      "oracle": "2.667273912171388105079925064923447340310"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P52",
+      "year": 2030,
+      "metric": "gdp",
+      "fresh_native": 58283.2438998078,
+      "oracle": "58283.24389980774058741495786159738000476"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P33",
+      "year": 2030,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2395.92386334818,
+      "oracle": "2395.923863348176460881976398158241388011"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P31",
+      "year": 2030,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0601045774720925,
+      "oracle": "0.060104577472092217331479568142978492509"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P23",
+      "year": 2030,
+      "metric": "pc_growth",
+      "fresh_native": 0.0318217578231823,
+      "oracle": "0.031821757823182086235198624308201174345"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P41",
+      "year": 2030,
+      "metric": "population",
+      "fresh_native": 24.326,
+      "oracle": "24.326"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P8",
+      "year": 2030,
+      "metric": "population_growth",
+      "fresh_native": 0.0274105672171305,
+      "oracle": "0.027410567217130548633695147189255395532"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P9",
+      "year": 2030,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00460631409386081,
+      "oracle": "0.004606314093860645372959405227157940184"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "P15",
+      "year": 2030,
+      "metric": "participation_growth",
+      "fresh_native": 2.7436274021575e-06,
+      "oracle": "0.000002743627402259827209227535521564246"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q10",
+      "year": 2031,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q24",
+      "year": 2031,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.68798786275068,
+      "oracle": "2.687987862750683419117015807240233406874"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q52",
+      "year": 2031,
+      "metric": "gdp",
+      "fresh_native": 61721.9193792338,
+      "oracle": "61721.91937923374125515337646760966505488"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q33",
+      "year": 2031,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2470.35899056369,
+      "oracle": "2470.358990563687862923889392339790476481"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q31",
+      "year": 2031,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0589993838595753,
+      "oracle": "0.058999383859575184946460057061743703010"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q23",
+      "year": 2031,
+      "metric": "pc_growth",
+      "fresh_native": 0.0310674009112677,
+      "oracle": "0.031067400911267798639487186235100152868"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q41",
+      "year": 2031,
+      "metric": "population",
+      "fresh_native": 24.985,
+      "oracle": "24.985"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q8",
+      "year": 2031,
+      "metric": "population_growth",
+      "fresh_native": 0.027090355997698,
+      "oracle": "0.027090355997697936364383786894680588671"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q9",
+      "year": 2031,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00373487448829923,
+      "oracle": "0.003734874488299226403611177169565568372"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "Q15",
+      "year": 2031,
+      "metric": "participation_growth",
+      "fresh_native": 1.95280552484078e-06,
+      "oracle": "0.000001952805524955877335715578375848788"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R10",
+      "year": 2032,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R24",
+      "year": 2032,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.70873889117977,
+      "oracle": "2.708738891179773703686081564957866127449"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R52",
+      "year": 2032,
+      "metric": "gdp",
+      "fresh_native": 65311.6049697468,
+      "oracle": "65311.60496974674084603864142118569503333"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R33",
+      "year": 2032,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2545.76515181239,
+      "oracle": "2545.765151812385143092521591159060418372"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R31",
+      "year": 2032,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0581590077984639,
+      "oracle": "0.058159007798463645885447198428075291098"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R23",
+      "year": 2032,
+      "metric": "pc_growth",
+      "fresh_native": 0.030524373800219,
+      "oracle": "0.030524373800218834240806792154568744810"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R41",
+      "year": 2032,
+      "metric": "population",
+      "fresh_native": 25.655,
+      "oracle": "25.655"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R8",
+      "year": 2032,
+      "metric": "population_growth",
+      "fresh_native": 0.0268160896537923,
+      "oracle": "0.026816089653792275365219131478887332399"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R9",
+      "year": 2032,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00323527089419806,
+      "oracle": "0.003235270894198185220587744610961305541"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "R15",
+      "year": 2032,
+      "metric": "participation_growth",
+      "fresh_native": 1.26435482594722e-06,
+      "oracle": "0.000001264354825897840429639066380281633"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S10",
+      "year": 2033,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S24",
+      "year": 2033,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.72925366664464,
+      "oracle": "2.729253666644638699569771893523554294268"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S52",
+      "year": 2033,
+      "metric": "gdp",
+      "fresh_native": 69062.8328668168,
+      "oracle": "69062.83286681673484456022332404929339867"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S33",
+      "year": 2033,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2622.4732434713,
+      "oracle": "2622.473243471301873725468894021237645668"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S31",
+      "year": 2033,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0574358553706895,
+      "oracle": "0.057435855370689723760126572428052249016"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S23",
+      "year": 2033,
+      "metric": "pc_growth",
+      "fresh_native": 0.0301316449415241,
+      "oracle": "0.030131644941524391990356833705778638637"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S41",
+      "year": 2033,
+      "metric": "population",
+      "fresh_native": 26.335,
+      "oracle": "26.335"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S8",
+      "year": 2033,
+      "metric": "population_growth",
+      "fresh_native": 0.0265055544728123,
+      "oracle": "0.026505554472812317287078542194503995323"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S9",
+      "year": 2033,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00294367407806306,
+      "oracle": "0.002943674078063063498665819334539952270"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "S15",
+      "year": 2033,
+      "metric": "participation_growth",
+      "fresh_native": 5.75790946921728e-07,
+      "oracle": "5.75790946900734553980748907641761E-7"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T10",
+      "year": 2034,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T24",
+      "year": 2034,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.74908149556057,
+      "oracle": "2.749081495560566621847518799237306348843"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T52",
+      "year": 2034,
+      "metric": "gdp",
+      "fresh_native": 72992.9101198656,
+      "oracle": "72992.91011986554090245404748173108098528"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T33",
+      "year": 2034,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2701.04019093641,
+      "oracle": "2701.040190936409891298625202846768834565"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T31",
+      "year": 2034,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0569058216975795,
+      "oracle": "0.056905821697579495441936651714312902354"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T23",
+      "year": 2034,
+      "metric": "pc_growth",
+      "fresh_native": 0.029959103552611,
+      "oracle": "0.029959103552610864878012201113692654066"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T41",
+      "year": 2034,
+      "metric": "population",
+      "fresh_native": 27.024,
+      "oracle": "27.024"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T8",
+      "year": 2034,
+      "metric": "population_growth",
+      "fresh_native": 0.02616290108221,
+      "oracle": "0.026162901082209986709701917600151889121"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T9",
+      "year": 2034,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0029662174196996,
+      "oracle": "0.002966217419699497782708834155776529519"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "T15",
+      "year": 2034,
+      "metric": "participation_growth",
+      "fresh_native": -4.63108421611125e-08,
+      "oracle": "-4.63108421562692873862174698600915E-8"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U10",
+      "year": 2035,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U24",
+      "year": 2035,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.76773412283431,
+      "oracle": "2.767734122834311520686796594084913752874"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U52",
+      "year": 2035,
+      "metric": "gdp",
+      "fresh_native": 77124.0089235301,
+      "oracle": "77124.00892353004236624432353216634749407"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U33",
+      "year": 2035,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2782.05067901054,
+      "oracle": "2782.050679010534678819865937961415031169"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U31",
+      "year": 2035,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0565958912568443,
+      "oracle": "0.056595891256844046160540724106523498541"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U23",
+      "year": 2035,
+      "metric": "pc_growth",
+      "fresh_native": 0.0299923297498363,
+      "oracle": "0.029992329749835996805513762652575247982"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U41",
+      "year": 2035,
+      "metric": "population",
+      "fresh_native": 27.722,
+      "oracle": "27.722"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U8",
+      "year": 2035,
+      "metric": "population_growth",
+      "fresh_native": 0.0258288928359975,
+      "oracle": "0.025828892835997631734754292480757844879"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U9",
+      "year": 2035,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00329470923416308,
+      "oracle": "0.003294709234163051596781152903054742801"
+    },
+    {
+      "sheet": "Submodel1",
+      "cell": "U15",
+      "year": 2035,
+      "metric": "participation_growth",
+      "fresh_native": -6.93691284747722e-07,
+      "oracle": "-6.936912846990280373879075590291797E-7"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E10",
+      "year": 2019,
+      "metric": "investment_share",
+      "fresh_native": 0.31,
+      "oracle": "0.31"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E24",
+      "year": 2019,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.42,
+      "oracle": "2.42"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E52",
+      "year": 2019,
+      "metric": "gdp",
+      "fresh_native": 29539.0965374913,
+      "oracle": "29539.0965374913256783"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E33",
+      "year": 2019,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1653.82940051561,
+      "oracle": "1653.82940051561"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E31",
+      "year": 2019,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0136694397886081,
+      "oracle": "0.013669439788608149966935460725680565418"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E23",
+      "year": 2019,
+      "metric": "pc_growth",
+      "fresh_native": -0.0152297103777528,
+      "oracle": "-0.015229710377752781"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E41",
+      "year": 2019,
+      "metric": "population",
+      "fresh_native": 17.86103,
+      "oracle": "17.86103"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E8",
+      "year": 2019,
+      "metric": "population_growth",
+      "fresh_native": 0.0293460825036125,
+      "oracle": "0.029346082503612588925820008988105110806"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E9",
+      "year": 2019,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00864728055580089,
+      "oracle": "0.008647280555800873954160009355437849765"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "E15",
+      "year": 2019,
+      "metric": "participation_growth",
+      "fresh_native": -0.000717276183422655,
+      "oracle": "-0.0007172761834226549"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F10",
+      "year": 2020,
+      "metric": "investment_share",
+      "fresh_native": 0.298333333333333,
+      "oracle": "0.2983333333333333333333333333333333333333"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F24",
+      "year": 2020,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.44583166145209,
+      "oracle": "2.445831661452085811671658206818965798611"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F52",
+      "year": 2020,
+      "metric": "gdp",
+      "fresh_native": 31538.9602218733,
+      "oracle": "31538.96022187329157795232971685038816520"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F33",
+      "year": 2020,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1715.56572138127,
+      "oracle": "1715.565721381271299932132817496213455461"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F31",
+      "year": 2020,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0677022630615569,
+      "oracle": "0.067702263061557021761093991934350906687"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F23",
+      "year": 2020,
+      "metric": "pc_growth",
+      "fresh_native": 0.0373293163408595,
+      "oracle": "0.037329316340859541578848597843733658337"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F41",
+      "year": 2020,
+      "metric": "population",
+      "fresh_native": 18.384,
+      "oracle": "18.384"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F8",
+      "year": 2020,
+      "metric": "population_growth",
+      "fresh_native": 0.0292799463412805,
+      "oracle": "0.029279946341280430075981060442762819389"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F9",
+      "year": 2020,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00803034424463722,
+      "oracle": "0.008030344244637372987970642366092183554"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F15",
+      "year": 2020,
+      "metric": "participation_growth",
+      "fresh_native": 5.2144601065951e-06,
+      "oracle": "0.000005214460106434703767644288311511963"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G10",
+      "year": 2021,
+      "metric": "investment_share",
+      "fresh_native": 0.286666666666667,
+      "oracle": "0.2866666666666666666666666666666666666667"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G24",
+      "year": 2021,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.46380936442964,
+      "oracle": "2.463809364429637949032516196794845864343"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G52",
+      "year": 2021,
+      "metric": "gdp",
+      "fresh_native": 33593.630019114,
+      "oracle": "33593.63001911397899621514038275622407939"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G33",
+      "year": 2021,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1775.46799953036,
+      "oracle": "1775.467999530361978553730795558174730690"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G31",
+      "year": 2021,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0651470366424987,
+      "oracle": "0.065147036642498673445229580296792078152"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G23",
+      "year": 2021,
+      "metric": "pc_growth",
+      "fresh_native": 0.0349169241390885,
+      "oracle": "0.034916924139088611205385582378110330571"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G41",
+      "year": 2021,
+      "metric": "population",
+      "fresh_native": 18.921,
+      "oracle": "18.921"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G8",
+      "year": 2021,
+      "metric": "population_growth",
+      "fresh_native": 0.0292101827676241,
+      "oracle": "0.029210182767624020887728459530026109661"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G9",
+      "year": 2021,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00773559536048007,
+      "oracle": "0.007735595360480183981199661339375085809"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G15",
+      "year": 2021,
+      "metric": "participation_growth",
+      "fresh_native": 5.59748563611073e-06,
+      "oracle": "0.000005597485636077064118621521719605333"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H10",
+      "year": 2022,
+      "metric": "investment_share",
+      "fresh_native": 0.275,
+      "oracle": "0.275"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H24",
+      "year": 2022,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.47569182355193,
+      "oracle": "2.475691823551928625508376190204688851329"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H52",
+      "year": 2022,
+      "metric": "gdp",
+      "fresh_native": 35684.0971132083,
+      "oracle": "35684.09711320826813781781573008071706318"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H33",
+      "year": 2022,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1832.77334942004,
+      "oracle": "1832.773349420044588485763519778157014031"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H31",
+      "year": 2022,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0622280799337511,
+      "oracle": "0.062228079933751217977162864581304617522"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H23",
+      "year": 2022,
+      "metric": "pc_growth",
+      "fresh_native": 0.032276194166744,
+      "oracle": "0.032276194166744057285356885502971991173"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H41",
+      "year": 2022,
+      "metric": "population",
+      "fresh_native": 19.47,
+      "oracle": "19.47"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H8",
+      "year": 2022,
+      "metric": "population_growth",
+      "fresh_native": 0.0290153797368005,
+      "oracle": "0.029015379736800380529570318693515141906"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H9",
+      "year": 2022,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00672636751221933,
+      "oracle": "0.006726367512219354426448995587290907271"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H15",
+      "year": 2022,
+      "metric": "participation_growth",
+      "fresh_native": 5.5664057740934e-06,
+      "oracle": "0.000005566405774249373902879500191732869"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I10",
+      "year": 2023,
+      "metric": "investment_share",
+      "fresh_native": 0.263333333333333,
+      "oracle": "0.2633333333333333333333333333333333333333"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I24",
+      "year": 2023,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.48104328789125,
+      "oracle": "2.481043287891246775843521214711943195951"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I52",
+      "year": 2023,
+      "metric": "gdp",
+      "fresh_native": 37817.6213501849,
+      "oracle": "37817.62135018484998162452954633821569664"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I33",
+      "year": 2023,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1887.76625319148,
+      "oracle": "1887.766253191476562752684547813019302982"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I31",
+      "year": 2023,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0597892173145911,
+      "oracle": "0.059789217314591093570511974855517159444"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I23",
+      "year": 2023,
+      "metric": "pc_growth",
+      "fresh_native": 0.0300052943201263,
+      "oracle": "0.030005294320126221325705992633999854958"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I41",
+      "year": 2023,
+      "metric": "population",
+      "fresh_native": 20.033,
+      "oracle": "20.033"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I8",
+      "year": 2023,
+      "metric": "population_growth",
+      "fresh_native": 0.0289162814586543,
+      "oracle": "0.028916281458654340010272213662044170519"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I9",
+      "year": 2023,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00615981613505245,
+      "oracle": "0.006159816135052395389642379782464274266"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I15",
+      "year": 2023,
+      "metric": "participation_growth",
+      "fresh_native": 5.39485187167621e-06,
+      "oracle": "0.000005394851871647116570199606354720034"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J10",
+      "year": 2024,
+      "metric": "investment_share",
+      "fresh_native": 0.251666666666667,
+      "oracle": "0.2516666666666666666666666666666666666667"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J24",
+      "year": 2024,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.47941432575995,
+      "oracle": "2.479414325759954095902336246244315278718"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J52",
+      "year": 2024,
+      "metric": "gdp",
+      "fresh_native": 40004.715729889,
+      "oracle": "40004.71572988896946011273962253131174960"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J33",
+      "year": 2024,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1941.22261888048,
+      "oracle": "1941.222618880481825510129057770347037539"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J31",
+      "year": 2024,
+      "metric": "gdp_growth",
+      "fresh_native": 0.057832679624453,
+      "oracle": "0.057832679624453141570267814019166455226"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J23",
+      "year": 2024,
+      "metric": "pc_growth",
+      "fresh_native": 0.028317258876003,
+      "oracle": "0.028317258876002998111275966529792391185"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J41",
+      "year": 2024,
+      "metric": "population",
+      "fresh_native": 20.608,
+      "oracle": "20.608"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J8",
+      "year": 2024,
+      "metric": "population_growth",
+      "fresh_native": 0.0287026406429391,
+      "oracle": "0.028702640642939150401836969001148105626"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J9",
+      "year": 2024,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00626111569781052,
+      "oracle": "0.006261115697810453959309470841262163061"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J15",
+      "year": 2024,
+      "metric": "participation_growth",
+      "fresh_native": 5.18019787798529e-06,
+      "oracle": "0.000005180197878152651637970330543985617"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K10",
+      "year": 2025,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K24",
+      "year": 2025,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.47088515738105,
+      "oracle": "2.470885157381052569128178372943190134275"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K52",
+      "year": 2025,
+      "metric": "gdp",
+      "fresh_native": 42250.4030293857,
+      "oracle": "42250.40302938570175984396064238386544326"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K33",
+      "year": 2025,
+      "metric": "gdp_per_capita",
+      "fresh_native": 1993.22559934829,
+      "oracle": "1993.225599348289935360851094135201464512"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K31",
+      "year": 2025,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0561355644834367,
+      "oracle": "0.056135564483436589633346536046110727111"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K23",
+      "year": 2025,
+      "metric": "pc_growth",
+      "fresh_native": 0.0267887773210673,
+      "oracle": "0.026788777321067190600745643951420005865"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K41",
+      "year": 2025,
+      "metric": "population",
+      "fresh_native": 21.197,
+      "oracle": "21.197"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K8",
+      "year": 2025,
+      "metric": "population_growth",
+      "fresh_native": 0.0285811335403727,
+      "oracle": "0.028581133540372670807453416149068322981"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K9",
+      "year": 2025,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0064994191847898,
+      "oracle": "0.006499419184789779919405220889336717736"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K15",
+      "year": 2025,
+      "metric": "participation_growth",
+      "fresh_native": 4.92504246829562e-06,
+      "oracle": "0.000004925042468157105647635022682404055"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L10",
+      "year": 2026,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L24",
+      "year": 2026,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.45869524788078,
+      "oracle": "2.458695247880777636506923194433137026818"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L52",
+      "year": 2026,
+      "metric": "gdp",
+      "fresh_native": 44503.5194039794,
+      "oracle": "44503.51940397935003065263233633124370175"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L33",
+      "year": 2026,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2041.63315001282,
+      "oracle": "2041.633150012815397314094519512397637478"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L31",
+      "year": 2026,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0533276895140284,
+      "oracle": "0.053327689514028462431657117665700360119"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L23",
+      "year": 2026,
+      "metric": "pc_growth",
+      "fresh_native": 0.0242860370047189,
+      "oracle": "0.024286037004718842011369663416820374963"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L41",
+      "year": 2026,
+      "metric": "population",
+      "fresh_native": 21.798,
+      "oracle": "21.798"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L8",
+      "year": 2026,
+      "metric": "population_growth",
+      "fresh_native": 0.0283530688304949,
+      "oracle": "0.028353068830494881351134594518092182856"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L9",
+      "year": 2026,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00497753034540915,
+      "oracle": "0.004977530345409114313962457187049015277"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L15",
+      "year": 2026,
+      "metric": "participation_growth",
+      "fresh_native": 4.71260548318142e-06,
+      "oracle": "0.000004712605483105025323064656870930723"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M10",
+      "year": 2027,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M24",
+      "year": 2027,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.44656730770323,
+      "oracle": "2.446567307703227846113847590964080997515"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M52",
+      "year": 2027,
+      "metric": "gdp",
+      "fresh_native": 46898.2917315484,
+      "oracle": "46898.29173154838470308499503850467196443"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M33",
+      "year": 2027,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2092.55272762575,
+      "oracle": "2092.552727625753377792477022956660358934"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M31",
+      "year": 2027,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0538108527065144,
+      "oracle": "0.053810852706514317923028142970399950358"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M23",
+      "year": 2027,
+      "metric": "pc_growth",
+      "fresh_native": 0.0249406107128591,
+      "oracle": "0.024940610712859142516784198664500183736"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M41",
+      "year": 2027,
+      "metric": "population",
+      "fresh_native": 22.412,
+      "oracle": "22.412"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M8",
+      "year": 2027,
+      "metric": "population_growth",
+      "fresh_native": 0.0281677218093404,
+      "oracle": "0.028167721809340306450133039728415450959"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M9",
+      "year": 2027,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00561955336109476,
+      "oracle": "0.005619553361094715260482600013421400698"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M15",
+      "year": 2027,
+      "metric": "participation_growth",
+      "fresh_native": 4.46024109646004e-06,
+      "oracle": "0.000004460241096594878049754565327562352"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N10",
+      "year": 2028,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N24",
+      "year": 2028,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.43520014985918,
+      "oracle": "2.435200149859182741746989916157284286292"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N52",
+      "year": 2028,
+      "metric": "gdp",
+      "fresh_native": 49430.5019735351,
+      "oracle": "49430.50197353509279256935479210893944282"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N33",
+      "year": 2028,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2145.51421387799,
+      "oracle": "2145.514213877993523701955588007679996650"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N31",
+      "year": 2028,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0539936562397922,
+      "oracle": "0.053993656239792108481112814299108089931"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N23",
+      "year": 2028,
+      "metric": "pc_growth",
+      "fresh_native": 0.0253095109877262,
+      "oracle": "0.025309510987726061690121116110578172296"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N41",
+      "year": 2028,
+      "metric": "population",
+      "fresh_native": 23.039,
+      "oracle": "23.039"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N8",
+      "year": 2028,
+      "metric": "population_growth",
+      "fresh_native": 0.0279760842405854,
+      "oracle": "0.027976084240585400678208102802070319472"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N9",
+      "year": 2028,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00580288373988047,
+      "oracle": "0.005802883739880597674411538842020446352"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N15",
+      "year": 2028,
+      "metric": "participation_growth",
+      "fresh_native": 4.08079686042839e-06,
+      "oracle": "0.000004080796860495305470128453463575507"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O10",
+      "year": 2029,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O24",
+      "year": 2029,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.42560004180753,
+      "oracle": "2.425600041807534956525941108131769671641"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O52",
+      "year": 2029,
+      "metric": "gdp",
+      "fresh_native": 52085.3392912233,
+      "oracle": "52085.33929122331313531866666918042318272"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O33",
+      "year": 2029,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2199.8284956381,
+      "oracle": "2199.828495638100820852247610304532803257"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O31",
+      "year": 2029,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0537084838650761,
+      "oracle": "0.053708483865076069518580573308290276527"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O23",
+      "year": 2029,
+      "metric": "pc_growth",
+      "fresh_native": 0.0253152747293781,
+      "oracle": "0.025315274729378196800210238985078332597"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O41",
+      "year": 2029,
+      "metric": "population",
+      "fresh_native": 23.677,
+      "oracle": "23.677"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O8",
+      "year": 2029,
+      "metric": "population_growth",
+      "fresh_native": 0.0276921741395026,
+      "oracle": "0.027692174139502582577368809410130648032"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O9",
+      "year": 2029,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0053696950010711,
+      "oracle": "0.005369695001071220513163346817698727846"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O15",
+      "year": 2029,
+      "metric": "participation_growth",
+      "fresh_native": 3.48612247091928e-06,
+      "oracle": "0.000003486122470982856327480204250533536"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P10",
+      "year": 2030,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P24",
+      "year": 2030,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.41813795713725,
+      "oracle": "2.418137957137253340277525090865916229098"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P52",
+      "year": 2030,
+      "metric": "gdp",
+      "fresh_native": 54855.476853077,
+      "oracle": "54855.47685307692084693172671120945444704"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P33",
+      "year": 2030,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2255.01425853313,
+      "oracle": "2255.014258533130019194759792452908593564"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P31",
+      "year": 2030,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0531845928153609,
+      "oracle": "0.053184592815360468022890646215327623534"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P23",
+      "year": 2030,
+      "metric": "pc_growth",
+      "fresh_native": 0.0250863933276864,
+      "oracle": "0.025086393327686006798404251847418899219"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P41",
+      "year": 2030,
+      "metric": "population",
+      "fresh_native": 24.326,
+      "oracle": "24.326"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P8",
+      "year": 2030,
+      "metric": "population_growth",
+      "fresh_native": 0.0274105672171305,
+      "oracle": "0.027410567217130548633695147189255395532"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P9",
+      "year": 2030,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00460631409386081,
+      "oracle": "0.004606314093860645372959405227157940184"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P15",
+      "year": 2030,
+      "metric": "participation_growth",
+      "fresh_native": 2.7436274021575e-06,
+      "oracle": "0.000002743627402259827209227535521564246"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q10",
+      "year": 2031,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q24",
+      "year": 2031,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.41289147653172,
+      "oracle": "2.412891476531723779901915369173322585778"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q52",
+      "year": 2031,
+      "metric": "gdp",
+      "fresh_native": 57737.2290088435,
+      "oracle": "57737.22900884347068673509916824896761942"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q33",
+      "year": 2031,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2310.8756857652,
+      "oracle": "2310.875685765197946237146254482648293753"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q31",
+      "year": 2031,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0525335357759253,
+      "oracle": "0.052533535775925140069425806296818657139"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q23",
+      "year": 2031,
+      "metric": "pc_growth",
+      "fresh_native": 0.0247720949083512,
+      "oracle": "0.024772094908351209018565225694473110008"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q41",
+      "year": 2031,
+      "metric": "population",
+      "fresh_native": 24.985,
+      "oracle": "24.985"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q8",
+      "year": 2031,
+      "metric": "population_growth",
+      "fresh_native": 0.027090355997698,
+      "oracle": "0.027090355997697936364383786894680588671"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q9",
+      "year": 2031,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00373487448829923,
+      "oracle": "0.003734874488299226403611177169565568372"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q15",
+      "year": 2031,
+      "metric": "participation_growth",
+      "fresh_native": 1.95280552484078e-06,
+      "oracle": "0.000001952805524955877335715578375848788"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R10",
+      "year": 2032,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R24",
+      "year": 2032,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.40910171766531,
+      "oracle": "2.409101717665310447457116755205671477236"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R52",
+      "year": 2032,
+      "metric": "gdp",
+      "fresh_native": 60746.3902097082,
+      "oracle": "60746.39020970814839330686963792544396449"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R33",
+      "year": 2032,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2367.81875695608,
+      "oracle": "2367.818756956076725523557576999627517618"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R31",
+      "year": 2032,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0521182130234166,
+      "oracle": "0.052118213023416344027424186648315309761"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R23",
+      "year": 2032,
+      "metric": "pc_growth",
+      "fresh_native": 0.0246413390134501,
+      "oracle": "0.024641339013449906666349378421678347862"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R41",
+      "year": 2032,
+      "metric": "population",
+      "fresh_native": 25.655,
+      "oracle": "25.655"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R8",
+      "year": 2032,
+      "metric": "population_growth",
+      "fresh_native": 0.0268160896537923,
+      "oracle": "0.026816089653792275365219131478887332399"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R9",
+      "year": 2032,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00323527089419806,
+      "oracle": "0.003235270894198185220587744610961305541"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R15",
+      "year": 2032,
+      "metric": "participation_growth",
+      "fresh_native": 1.26435482594722e-06,
+      "oracle": "0.000001264354825897840429639066380281633"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S10",
+      "year": 2033,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S24",
+      "year": 2033,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.40642232644735,
+      "oracle": "2.406422326447352651825160133025236612264"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S52",
+      "year": 2033,
+      "metric": "gdp",
+      "fresh_native": 63892.5667950731,
+      "oracle": "63892.56679507301289033873248584579916920"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S33",
+      "year": 2033,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2426.14645130333,
+      "oracle": "2426.146451303323063996154641573791500634"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S31",
+      "year": 2033,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0517919924871861,
+      "oracle": "0.051791992487185850071815922890366849856"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S23",
+      "year": 2033,
+      "metric": "pc_growth",
+      "fresh_native": 0.0246335130912763,
+      "oracle": "0.024633513091275981909718530539296052138"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S41",
+      "year": 2033,
+      "metric": "population",
+      "fresh_native": 26.335,
+      "oracle": "26.335"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S8",
+      "year": 2033,
+      "metric": "population_growth",
+      "fresh_native": 0.0265055544728123,
+      "oracle": "0.026505554472812317287078542194503995323"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S9",
+      "year": 2033,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00294367407806306,
+      "oracle": "0.002943674078063063498665819334539952270"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S15",
+      "year": 2033,
+      "metric": "participation_growth",
+      "fresh_native": 5.75790946921728e-07,
+      "oracle": "5.75790946900734553980748907641761E-7"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T10",
+      "year": 2034,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T24",
+      "year": 2034,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.40436631530433,
+      "oracle": "2.404366315304327550368624588815499253892"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T52",
+      "year": 2034,
+      "metric": "gdp",
+      "fresh_native": 67191.4432380522,
+      "oracle": "67191.44323805204313813308106587936385106"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T33",
+      "year": 2034,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2486.36187233763,
+      "oracle": "2486.361872337627410380886658743315713849"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T31",
+      "year": 2034,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0516316155142076,
+      "oracle": "0.051631615514207492316364970503428841732"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T23",
+      "year": 2034,
+      "metric": "pc_growth",
+      "fresh_native": 0.0248193677681563,
+      "oracle": "0.024819367768156242974817625007689407453"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T41",
+      "year": 2034,
+      "metric": "population",
+      "fresh_native": 27.024,
+      "oracle": "27.024"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T8",
+      "year": 2034,
+      "metric": "population_growth",
+      "fresh_native": 0.02616290108221,
+      "oracle": "0.026162901082209986709701917600151889121"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T9",
+      "year": 2034,
+      "metric": "working_share_growth",
+      "fresh_native": 0.0029662174196996,
+      "oracle": "0.002966217419699497782708834155776529519"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T15",
+      "year": 2034,
+      "metric": "participation_growth",
+      "fresh_native": -4.63108421611125e-08,
+      "oracle": "-4.63108421562692873862174698600915E-8"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U10",
+      "year": 2035,
+      "metric": "investment_share",
+      "fresh_native": 0.24,
+      "oracle": "0.24"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U24",
+      "year": 2035,
+      "metric": "capital_output_ratio",
+      "fresh_native": 2.40243066827668,
+      "oracle": "2.402430668276683680575216972987590936943"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U52",
+      "year": 2035,
+      "metric": "gdp",
+      "fresh_native": 70662.8924280457,
+      "oracle": "70662.89242804562342671778511521432968556"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U33",
+      "year": 2035,
+      "metric": "gdp_per_capita",
+      "fresh_native": 2548.982484238,
+      "oracle": "2548.982484237992331964424829204759024802"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U31",
+      "year": 2035,
+      "metric": "gdp_growth",
+      "fresh_native": 0.0516650487428081,
+      "oracle": "0.051665048742808066743379954467268928172"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U23",
+      "year": 2035,
+      "metric": "pc_growth",
+      "fresh_native": 0.0251856387427187,
+      "oracle": "0.025185638742718606005089816374124360252"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U41",
+      "year": 2035,
+      "metric": "population",
+      "fresh_native": 27.722,
+      "oracle": "27.722"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U8",
+      "year": 2035,
+      "metric": "population_growth",
+      "fresh_native": 0.0258288928359975,
+      "oracle": "0.025828892835997631734754292480757844879"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U9",
+      "year": 2035,
+      "metric": "working_share_growth",
+      "fresh_native": 0.00329470923416308,
+      "oracle": "0.003294709234163051596781152903054742801"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U15",
+      "year": 2035,
+      "metric": "participation_growth",
+      "fresh_native": -6.93691284747722e-07,
+      "oracle": "-6.936912846990280373879075590291797E-7"
+    }
+  ],
+  "source_version": "V4.42, 2021-12-16",
+  "guide_compatibility": "Guide p1 explicitly supports newer versions with minor adjustments; Model1 1-6 recursions matched 2019-2035 raw-data Oracle",
+  "source_defects_outside_core": [
+    "initial capital/worker growth =IF(ISNUMBER(#REF!),...) displays .",
+    "initial labor force =DataSummary!#REF!; not used by core growth/level recursion"
+  ],
+  "provider_engine": "LibreOffice real native recalculation"
+}

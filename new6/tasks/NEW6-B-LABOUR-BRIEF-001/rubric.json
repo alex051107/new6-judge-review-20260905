@@ -1,0 +1,88 @@
+{
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "task_version": "new6-v0.2-built",
+  "judge_version": "new6-b-labour-facts-v0.4-source-semantics",
+  "status": "FROZEN_LOCAL_CALIBRATED",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "版本、实际期间、地理对象与指标定义正确",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R002",
+      "description_zh": "可比集合、连接唯一性和排除原因完整",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R003",
+      "description_zh": "源率与百分点变化计算正确",
+      "type": "positive",
+      "weight": 25,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R004",
+      "description_zh": "五地区选择、同人群对照和实际报告正确",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R005",
+      "description_zh": "图表字段、范围和显示结论一致",
+      "type": "positive",
+      "weight": 10,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R006",
+      "description_zh": "原表保护、逐指标来源与复核信息",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    }
+  ],
+  "penalties": [],
+  "negative_item_policy": "Do not copy legacy penalties. Add only a separately evidenced harmful action with visible policy basis, explicit non-overlap and cross-profile shared semantics; log external acceptance gap until reviewed.",
+  "profiles": {
+    "capability_first": {
+      "R001": 20,
+      "R002": 20,
+      "R003": 25,
+      "R004": 20,
+      "R005": 10,
+      "R006": 5
+    },
+    "balanced": {
+      "R001": 20,
+      "R002": 25,
+      "R003": 20,
+      "R004": 15,
+      "R005": 10,
+      "R006": 10
+    },
+    "ongoing_use": {
+      "R001": 15,
+      "R002": 20,
+      "R003": 20,
+      "R004": 20,
+      "R005": 10,
+      "R006": 15
+    }
+  },
+  "source_binding": [
+    "ons_2024",
+    "ons_2025"
+  ],
+  "score_uncertainty": "If a required fact cannot be safely determined, report JUDGE_ERROR and no total. Unknown is not zero.",
+  "equivalence": "Accept business-equivalent layouts and formulas. Preserve source-native structure only where explicitly requested. No use of oracle values to choose candidate regions.",
+  "fact_contract": "tests/evaluate.py, metadata/scoring_contract.md; all profiles use one candidate fact vector, no extra hurdles/caps."
+}
