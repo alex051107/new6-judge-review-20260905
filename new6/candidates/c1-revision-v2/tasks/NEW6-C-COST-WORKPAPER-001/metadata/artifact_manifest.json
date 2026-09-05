@@ -1,0 +1,101 @@
+{
+  "purpose": "One delivery integrity manifest for source copy, reference and fixtures; no ordinary code/doc hashes",
+  "artifacts": [
+    {
+      "path": "data/input_files/Falmouth_OCE_October2024_RevA.pdf",
+      "bytes": 503116,
+      "sha256": "d9473748ee612e6be28bd90c15c918b2347fec71642f0d317fcb5b6114a7c856"
+    },
+    {
+      "path": "fixtures/duplicate_heating.xlsx",
+      "bytes": 16261,
+      "sha256": "fd74aca18a6774ae7aac73c0081ca7d186dddbad948acdb9a258fd15b9452927"
+    },
+    {
+      "path": "fixtures/duplicate_omission.xlsx",
+      "bytes": 16277,
+      "sha256": "f0b94b57b475f6b976bf061f6fe0bb2a54bd0f3b201a247be7255dfb88574295"
+    },
+    {
+      "path": "fixtures/equivalent_formula.xlsx",
+      "bytes": 16284,
+      "sha256": "7f207a4d2a6016a26d0adb5291a75ded6353481e9067fd91dd84ea5b0b37e302"
+    },
+    {
+      "path": "fixtures/equivalent_layout.xlsx",
+      "bytes": 18967,
+      "sha256": "3f579d3c9de1d8b26b57b36cb570506d84820d506ec364be78dd20366abda65b"
+    },
+    {
+      "path": "fixtures/equivalent_omitted_earlier_quote.xlsx",
+      "bytes": 16219,
+      "sha256": "b9f917843d9a26b5de2b49ab1a5b01d37c4c26116c9b9051fb5c046a7f5a7548"
+    },
+    {
+      "path": "fixtures/equivalent_recomputed_basis.xlsx",
+      "bytes": 16393,
+      "sha256": "e743bf0182a45b43600f71b22120e8c97ff907814ad456c352cb3b71de1d41a8"
+    },
+    {
+      "path": "fixtures/equivalent_rounded_final.xlsx",
+      "bytes": 16288,
+      "sha256": "55cafc1e570485e91a5706c9523016a4091c449a7e8fc7cd333b22fa9a215df0"
+    },
+    {
+      "path": "fixtures/legal_formula_limit.xlsx",
+      "bytes": 16282,
+      "sha256": "b2f5a36af5e7f28db912ac21ebc4a56090eeb600755bd5c4be00b7d040146a29"
+    },
+    {
+      "path": "fixtures/legal_layout_limit.xlsx",
+      "bytes": 16266,
+      "sha256": "906ba8b3d96fc713cd5aae61d0e9dceb265e0e55615d36f5d60968ff3c47d98a"
+    },
+    {
+      "path": "fixtures/malformed.xlsx",
+      "bytes": 28,
+      "sha256": "4a3044aab7b403d02a650d40b3f4f97cf78f3dde687bc04a89ec4fb55518fe4c"
+    },
+    {
+      "path": "fixtures/mixed_final.xlsx",
+      "bytes": 18712,
+      "sha256": "7844d0dd90513171eb99059683e1efea8888a69f2662b2a83bf8e0f227e0facb"
+    },
+    {
+      "path": "fixtures/outdated_quote.xlsx",
+      "bytes": 16273,
+      "sha256": "cc056342ac0fbd05757534a040d0f66ddb0d00fe6c8a269ff8785b302990de44"
+    },
+    {
+      "path": "fixtures/overwritten_original.xlsx",
+      "bytes": 16279,
+      "sha256": "aaa2d47c09c36203b910c4d3febeaf48297d8518627485e95d6e9832cb7e12ae"
+    },
+    {
+      "path": "fixtures/stale_reconciliation.xlsx",
+      "bytes": 16280,
+      "sha256": "9409609b7e657f65e261ffbe664eae91f07b1c8d37e345a143be6a6d013a2bb3"
+    },
+    {
+      "path": "fixtures/static_current.xlsx",
+      "bytes": 16213,
+      "sha256": "2e8a44469a6ab1e7b7bf29d4f91bf1aedc77f2429ae47e72639b856648d35833"
+    },
+    {
+      "path": "fixtures/unapproved_option_included.xlsx",
+      "bytes": 16277,
+      "sha256": "513c9444ae165dbc4039b06e8a201a7c45592ba9b77248b724ca4c0769094baa"
+    },
+    {
+      "path": "fixtures/wrong_allowance_base.xlsx",
+      "bytes": 16275,
+      "sha256": "a3404b42f87333fac1dc17b2fe21a67cd68f23f4db9ff6a0e6ccaaa96492cbe3"
+    },
+    {
+      "path": "solution/reference.xlsx",
+      "bytes": 16255,
+      "sha256": "aac646f3f4055541ec3364b70eb2d90a6ad7c28bdb4b6ffeefa93a3cd50b05b8"
+    }
+  ],
+  "source_import_manifest": "metadata/source_import.json"
+}

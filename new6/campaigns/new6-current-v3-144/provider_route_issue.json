@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-09-05T21:46:16.856991+00:00",
+  "status": "BLOCKED_PROVIDER_ROUTE",
+  "inference_calls_in_audit": 0,
+  "requested_model": "openai/qwen3.8-max",
+  "cli": "qwen-coder 0.22.3",
+  "gateway": "ZCloud",
+  "observed_real_response_model": "qwen3.8:27b",
+  "real_response_events_in_audit": 318,
+  "max_label_zero_usage_events": 2,
+  "grammar_400_trials_in_audit": 17,
+  "grammar_before_any_assistant_or_tool": 16,
+  "grammar_after_successful_events": 1,
+  "same_config_success_trial": "NEW6-B-LABOUR-BRIEF-001-QWEN-R05__UHJwfev",
+  "successful_response_id": "chatcmpl-a08eff7635df0ccc",
+  "successful_response_at": "2026-09-05T19:55:20.967Z",
+  "evidence_relative_to_old_runtime": "qwen/jobs/new6-144-qwen-remaining/NEW6-B-LABOUR-BRIEF-001-QWEN-R05__UHJwfev/agent/qwen-sessions/-app/chats/162fddb9-590a-40f1-9447-267d977226a6.jsonl",
+  "interpretation": "Provider route compatibility and max identity remain unverified. Response labels are evidence of the returned API identity, not independent proof of model weights. Existing artifacts retain diagnostic scores.",
+  "action": "No new Qwen generations, no silent model or tool changes, no automatic retry; other systems continue."
+}

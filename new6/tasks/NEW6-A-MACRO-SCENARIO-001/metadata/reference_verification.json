@@ -2028,25 +2028,25 @@
     ]
   ],
   "native_receipt": {
-    "source": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/solution/reference_v2_unrecalculated.xlsx",
+    "source": "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/solution/reference_v2_unrecalculated.xlsx",
     "source_sha256_before": "73b5f38ff4d6a77b423d91c61dfc1a1c42549ec6b734cc8bb7f1f66a7a02b8ce",
-    "isolated_input": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/input/reference_v2_unrecalculated.xlsx",
+    "isolated_input": "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/input/reference_v2_unrecalculated.xlsx",
     "engine": "/Applications/LibreOffice.app/Contents/MacOS/soffice",
     "command": [
       "/Applications/LibreOffice.app/Contents/MacOS/soffice",
-      "-env:UserInstallation=file://<local-path>",
+      "-env:UserInstallation=file:///home/benchmark-user/Desktop/UNC/02-%E7%A7%91%E7%A0%94%E4%B8%8E%E9%A1%B9%E7%9B%AE/%E6%96%87%E6%B6%9B%E5%BC%A0%20Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/profile",
       "--headless",
       "--convert-to",
       "xlsx",
       "--outdir",
-      "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/output",
-      "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/input/reference_v2_unrecalculated.xlsx"
+      "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/output",
+      "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/input/reference_v2_unrecalculated.xlsx"
     ],
     "status": "RECALCULATED_PENDING_ORACLE_PARITY",
     "cleared_formula_cache_count": 0,
     "isolated_input_sha256": "1a6181165db47fd52cae2ba959f38d9b1c5104a5ad8d45cc9951c0652ed67cac",
     "returncode": 0,
-    "output": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/output/reference_v2_unrecalculated.xlsx",
+    "output": "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/reference_financing_recalc/recalc-7f9d811i/output/reference_v2_unrecalculated.xlsx",
     "output_sha256": "f6402549dceefe9a6931459da3b1bb85a4b6b4998615082c5ed50c9a374a0f78",
     "elapsed_seconds": 4.029477541975211,
     "source_sha256_after": "73b5f38ff4d6a77b423d91c61dfc1a1c42549ec6b734cc8bb7f1f66a7a02b8ce",

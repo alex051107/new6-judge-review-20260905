@@ -2,7 +2,7 @@
   "status": "ATTEMPT_CAP_EXHAUSTED",
   "task_id": "NEW6-B-RETAIL-CLOSE-001",
   "task_version": "new6-b1-v2",
-  "task_root": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-B-RETAIL-CLOSE-001",
+  "task_root": "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-B-RETAIL-CLOSE-001",
   "v1_frozen_commit": "683cdda",
   "v1_wrapper_unchanged": "new6/harbor_wrappers/downstream-v2/NEW6-B-RETAIL-CLOSE-001",
   "new_v2_wrapper_required": true,

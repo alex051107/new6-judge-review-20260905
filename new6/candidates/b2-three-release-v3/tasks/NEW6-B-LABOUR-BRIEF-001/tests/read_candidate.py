@@ -6,6 +6,29 @@ from chart_reader import ParsePending,norm,num,eq,population,mean,formula_cache_
 NS={'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
 CODE=re.compile(r'^E\d{8}$')
 
+def labelled_code_list(values):
+    """Bind only an explicit list label followed entirely by authority codes.
+
+    These rows assert membership, never numerical results or an explanation.
+    Unknown labels and any extra numbers/prose stay on the normal reader path.
+    """
+    filled=[v for v in values if v is not None]
+    if not filled or not all(isinstance(v,str) for v in filled):return None
+    if len(filled)==1:
+        parts=filled[0].split(':',1)
+        if len(parts)!=2:return None
+        label,payload=parts
+    else:label,payload=filled[0],' '.join(filled[1:])
+    labels={
+      'previousshortlistcodes':'previous','previousshortlist':'previous','priorshortlistcodes':'previous',
+      'currentselectedcodes':'current','currentshortlistcodes':'current','currentshortlist':'current',
+      'authoritiesretained':'retained','retainedauthorities':'retained','retainedcodes':'retained',
+      'authoritiesentered':'entered','enteredauthorities':'entered','enteredcodes':'entered','newentrants':'entered',
+      'authoritiesleft':'left','leftauthorities':'left','leftcodes':'left','departedauthorities':'left'}
+    kind=labels.get(norm(label))
+    if kind is None or not re.fullmatch(r'\s*E\d{8}(?:[\s,;|]+E\d{8})*[\s,;|]*',payload):return None
+    return {'kind':kind,'codes':re.findall(r'E\d{8}',payload),'label':label}
+
 def historic(s):
     return bool(re.search(r'\b(previous|prior|historical|history|archive|archived|old)\b',str(s),re.I))
 
@@ -44,7 +67,13 @@ def read(path):
             vals=[c.value for c in row];filled=[v for v in vals if v is not None]
             if not filled:continue
             line=' || '.join(str(v) for v in filled)
-            lines.append({'sheet':sheet.title,'row':ri,'text':line,'historical':historic(sheet.title)})
+            entry={'sheet':sheet.title,'row':ri,'text':line,'historical':historic(sheet.title)}
+            code_list=labelled_code_list(vals)
+            if code_list:entry['code_list']=code_list
+            lines.append(entry)
+            if code_list:
+                active=None
+                continue
             headers={field(v):ci for ci,v in enumerate(vals) if field(v)}
             if 'code' in headers and len(headers)>1:
                 comparison='movement' in headers or {'old_rank','rank'}<=set(headers) or {'previous_selected','current_selected'}<=set(headers)
@@ -104,3 +133,44 @@ def read_charts(path):
             title=' '.join(x.text or '' for x in root.findall('.//{http://schemas.openxmlformats.org/drawingml/2006/chart}title//{http://schemas.openxmlformats.org/drawingml/2006/main}t'))
             out.append({**c,'title':title,'sheet':owners.get(c['chart'],''),'historical':historic(owners.get(c['chart'],''))})
     return out
+
+def embedded_chart_candidates(path,lines):
+    """Locate attached current-chart images requiring a visual reader.
+
+    Attachment and visible chart context are required; arbitrary media files or
+    an identified logo are not evidence of a business chart or its correctness.
+    """
+    rid='{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
+    draw={'x':'http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing',
+          'a':'http://schemas.openxmlformats.org/drawingml/2006/main'}
+    def target(base,value):return value.lstrip('/') if value.startswith('/') else posixpath.normpath(posixpath.dirname(base)+'/'+value)
+    def chart_words(value):return bool(re.search(r'\b(?:charts?|graphs?|plots?|visualisations?|visualizations?)\b',re.sub(r'[_-]+',' ',str(value)),re.I))
+    found=[]
+    with zipfile.ZipFile(path) as z:
+        def rels(part):
+            rp=posixpath.dirname(part)+'/_rels/'+posixpath.basename(part)+'.rels'
+            return {x.get('Id'):target(part,x.get('Target')) for x in ET.fromstring(z.read(rp)) if x.get('TargetMode')!='External'} if rp in z.namelist() else {}
+        br=rels('xl/workbook.xml')
+        for sheet in ET.fromstring(z.read('xl/workbook.xml')).findall('m:sheets/m:sheet',NS):
+            name=sheet.get('name')
+            if historic(name):continue
+            sp=br[sheet.get(rid+'id')];sr=rels(sp)
+            for drawing in ET.fromstring(z.read(sp)).findall('m:drawing',NS):
+                dp=sr[drawing.get(rid+'id')];dr=rels(dp)
+                for anchor in ET.fromstring(z.read(dp)):
+                    start=anchor.find('x:from',draw)
+                    row=int(start.find('x:row',draw).text)+1 if start is not None else None
+                    col=int(start.find('x:col',draw).text)+1 if start is not None else None
+                    nearby=[x['text'] for x in lines if x['sheet']==name and row is not None and row-4<=x['row']<=row+2]
+                    for pic in anchor.findall('.//x:pic',draw):
+                        props=pic.find('x:nvPicPr/x:cNvPr',draw)
+                        desc=' '.join(props.get(k,'') for k in ['name','descr','title']) if props is not None else ''
+                        near_chart=any(chart_words(x) for x in nearby)
+                        labelled_logo=bool(re.search(r'\b(?:logo|icon|badge)\b',desc,re.I)) and not chart_words(desc) and not near_chart
+                        explicit=chart_words(name) or chart_words(desc)
+                        review_context=bool(re.search(r'brief|report|summary|comparison|review',name,re.I)) and near_chart
+                        if labelled_logo or not (explicit or review_context):continue
+                        for blip in pic.findall('.//a:blip',draw):
+                            media=dr.get(blip.get(rid+'embed'))
+                            if media and media in z.namelist():found.append({'sheet':name,'row':row,'column':col,'drawing':dp,'media':media,'description':desc,'nearby_labels':nearby,'basis':'attached image in explicit current chart context; image contents require a supported reader'})
+    return found

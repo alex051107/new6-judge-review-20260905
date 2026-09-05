@@ -1,0 +1,86 @@
+{
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "task_version": "new6-c1-revision-v2",
+  "judge_version": "new6-c1-review-facts-v2.0",
+  "build_status": "CALIBRATED_READY",
+  "primary_profile": "capability_first",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "原印刷数据、原范围与限制保留",
+      "type": "positive",
+      "weight": 15
+    },
+    {
+      "id": "R002",
+      "description_zh": "有效报价版本、替换关系和待决选项判断",
+      "type": "positive",
+      "weight": 20
+    },
+    {
+      "id": "R003",
+      "description_zh": "当前成本链、费用基数与费率正确",
+      "type": "positive",
+      "weight": 15
+    },
+    {
+      "id": "R004",
+      "description_zh": "可核对的新旧成本差额与比较基准",
+      "type": "positive",
+      "weight": 10
+    },
+    {
+      "id": "R005",
+      "description_zh": "公开价格费率变化后成本链、核对及保护实际响应",
+      "type": "positive",
+      "weight": 35
+    },
+    {
+      "id": "R006",
+      "description_zh": "原估算与审阅对应材料可追溯",
+      "type": "positive",
+      "weight": 5
+    }
+  ],
+  "profiles": {
+    "capability_first": {
+      "R001": 15,
+      "R002": 20,
+      "R003": 15,
+      "R004": 10,
+      "R005": 35,
+      "R006": 5
+    },
+    "balanced": {
+      "R001": 20,
+      "R002": 20,
+      "R003": 20,
+      "R004": 10,
+      "R005": 25,
+      "R006": 5
+    },
+    "ongoing_use": {
+      "R001": 10,
+      "R002": 20,
+      "R003": 15,
+      "R004": 10,
+      "R005": 40,
+      "R006": 5
+    }
+  },
+  "penalties": [],
+  "weight_basis": "Before any new Agent output: 35 points for meeting-time continued use, 20 for revision/scope judgment, 10 for explainable reconciliation; 35 for source and baseline delivery. No target score or historical answer determines weights.",
+  "equivalence": "Business-equivalent layout/formula and explicitly identified original printed/recomputed comparison bases accepted; readable rounded displays accepted; static outputs earn baseline facts but not unfulfilled editable-use facts.",
+  "external_acceptance": "No claim of proven research novelty, public redistribution clearance, general agentic parsing or formal difficulty acceptance.",
+  "fact_denominators": {
+    "R001": 151,
+    "R002": 6,
+    "R003": 27,
+    "R004": 3,
+    "R005": 23,
+    "R006": 74
+  }
+}

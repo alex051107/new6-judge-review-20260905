@@ -9,6 +9,7 @@ from decimal import Decimal
 from functools import lru_cache
 import openpyxl
 ROOT=Path(__file__).resolve().parents[1]
+JUDGE_VERSION='new6-a2-facts-v1.2-direct-reference-controls'
 sys.path[:0]=[str(ROOT/'metadata'),str(ROOT.parents[1]/'common')]
 from oracle_recompute import compute
 from ooxml_edit import edit
@@ -22,8 +23,10 @@ ALIASES={
  'gdp_per_capita':['Real GDP per capita','GDP per capita','per capita GDP'],
  'gdp_growth':['Real Total GDP growth rate','GDP growth','GDP growth rate'],
  'pc_growth':['GDP per Capita Growth rate','GDP pc Growth','GDP per capita growth','per capita GDP growth'],
- 'investment':['Investment','annual investment'],
- 'capital':['Capital','capital stock']}
+ # Source GDP, investment and capital levels are real 2010 US$ millions.
+ # Accept this explicit unit suffix; do not strip arbitrary currency/scale text.
+ 'investment':['Investment','annual investment','investment (real $m)'],
+ 'capital':['Capital','capital stock','capital (real $m)']}
 ALIASES={k:{norm(v) for v in vals} for k,vals in ALIASES.items()}
 
 def equal(a,b):
@@ -116,7 +119,7 @@ def controls(w):
     headers=[(r,col) for r in range(max(1,c.row-10),c.row) for col in range(c.column+1,min(s.max_column,15)+1) if norm(s.cell(r,col).value)=='scenario' and norm(s.cell(r,col-1).value)=='baseline']
     if len(headers)!=1:continue
     _,col=headers[0];target=s.cell(c.row,col)
-    result['target' if token.startswith('target') else 'transition']=(s.title,target.coordinate)
+    result.setdefault('target' if token.startswith('target') else 'transition',[]).append((s.title,target.coordinate))
  return result
 
 def chart_facts(w):
@@ -195,7 +198,7 @@ def require_bound_source_layout(w,ref):
  old,new=keys(ref['data']),keys(w['data'])
  if Counter(v for r,v in old)==Counter(v for r,v in new) and old!=new:raise ValueError('Same source country records have been reordered; source protection requires key-based adapter extension, not a zero')
 
-def checks_for(w,target='.24',transition=2025):
+def checks_for(w,target='.24',transition=2025,control_bindings=None):
  attach_retained_source(w);ref=openpyxl.load_workbook(ROOT/'metadata/configured_source.xlsx',data_only=False);require_bound_source_layout(w,ref)
  facts,tables=discover(w);oracles={'baseline':compute(baseline=True),'scenario':compute(target,transition)};details={k:[] for k in ['R001','R002','R003','R004','R005','R006']}
  def add(cid,id,ok,actual=None,expected=None):details[cid].append({'id':id,'ok':bool(ok),'actual':actual,'expected':expected})
@@ -205,7 +208,7 @@ def checks_for(w,target='.24',transition=2025):
     cid='R002' if k in ['investment_share','capital_output_ratio','capital','investment'] else 'R003';key=(case,row['year'],k)
     add(cid,f'{case}:{row["year"]}:{k}',unit(facts,key,row[k]),facts.get(key,[]),str(row[k]))
  # Source assumptions are located by documented source label/meaning, not candidate answer values.
- expected_controls=controls(w);add('R001','identified_scenario_controls',set(expected_controls)=={'target','transition'},expected_controls)
+ expected_controls=control_bindings if control_bindings is not None else controls(w);add('R001','identified_scenario_controls',set(expected_controls)=={'target','transition'},expected_controls)
  for key,expected in [('target',float(target)),('transition',transition)]:
   sc=expected_controls.get(key);add('R001','initial_'+key,bool(sc) and equal(w[sc[0]][sc[1]].value,expected),w[sc[0]][sc[1]].value if sc else None,expected)
  for sn in ['InputDataA_GeneralAssumptions']:
@@ -260,8 +263,12 @@ def evaluate(path,evidence_dir,completed_run=True):
   raw=openpyxl.load_workbook(path,data_only=False); attach_retained_source(raw)
   unsupported=[f'{s.title}!{c.coordinate}: {c.value}' for s in raw for row in s for c in row if c.data_type=='f' and re.search(r'(_xlfn\.)?(LAMBDA|PY)\(',str(c.value),re.I)]
   if unsupported:raise RecalcUnavailable('Legal formula feature not supported by this recalculation adapter: '+unsupported[0])
-  fresh,receipt=recalculate_xlsx(path,evidence_dir/'base');w=openpyxl.load_workbook(fresh,data_only=True);details,before,_=checks_for(w);ctrl=controls(w);probes=[]
+  # Visible labels may themselves be formulas in the source model. Locate them
+  # in the fresh value view, then resolve aliases only in the original formulas.
+  fresh,receipt=recalculate_xlsx(path,evidence_dir/'base');w=openpyxl.load_workbook(fresh,data_only=True)
+  ctrl=controls(w,formula_workbook=raw)
   if set(ctrl)!={'target','transition'}:raise ValueError('Dynamic controls could not be bound uniquely by visible labels')
+  details,before,_=checks_for(w,control_bindings=ctrl);probes=[]
   for name,target,year in [('target_026','.26',2025),('transition_2027','.24',2027),('joint','.26',2027)]:
    mutated=evidence_dir/name/'mutated.xlsx';patch=defaultdict(dict)
    for key,value in [('target',float(target)),('transition',year)]:sn,co=ctrl[key];patch[sn][co]=value
@@ -304,14 +311,14 @@ def evaluate(path,evidence_dir,completed_run=True):
    units.append({'id':name+':chart_response_delta_and_declared_series','ok':chart_updated})
    details['R004']+=units;probes.append({'name':name,'changes':dict(patch),'receipt':rec})
   scores={cid:str(Decimal(sum(u['ok'] for u in us))/Decimal(len(us))) for cid,us in details.items()}
-  evidence={'base_native_recalc':receipt,'dynamic_probes':probes,'fact_units':details,'fixed_scope':'2 cases x 17 years; per metric denominator fixed; report claims all checked; no result chosen by gold closeness','adapter_limit':'English source labels or English case/metric table headers; unrecognized material layout needs parser extension and JUDGE_ERROR, not capability failure'}
+  evidence={'judge_version':JUDGE_VERSION,'control_bindings':ctrl,'control_aliases':getattr(raw,'_new6_control_aliases',[]),'base_native_recalc':receipt,'dynamic_probes':probes,'fact_units':details,'fixed_scope':'2 cases x 17 years; per metric denominator fixed; report claims all checked; no result chosen by gold closeness','adapter_limit':'English source labels or English case/metric table headers; unrecognized material layout needs parser extension and JUDGE_ERROR, not capability failure'}
   result=score_profiles(ROOT/'rubric.json',scores,evidence=evidence)
- except (RecalcUnavailable,ValueError,KeyError,TypeError,openpyxl.utils.exceptions.InvalidFileException) as e:result=score_profiles(ROOT/'rubric.json',status='JUDGE_ERROR',evidence={'error_type':type(e).__name__,'error':str(e)})
+ except (RecalcUnavailable,ValueError,KeyError,TypeError,openpyxl.utils.exceptions.InvalidFileException) as e:result=score_profiles(ROOT/'rubric.json',status='JUDGE_ERROR',evidence={'judge_version':JUDGE_VERSION,'error_type':type(e).__name__,'error':str(e)})
  (evidence_dir/'evaluation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2,default=str));return result
 
 from layout_support import attach_retained_source, bind_controls
 _original_controls=controls
-def controls(w):return bind_controls(w,_original_controls)
+def controls(w,formula_workbook=None):return bind_controls(w,_original_controls,formula_workbook)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('answer',nargs='?',default='/app/output/answer.xlsx');p.add_argument('--evidence-dir',default='/tmp/new6-a2-evidence');p.add_argument('--input-dir');p.add_argument('--completed-run',action='store_true');a=p.parse_args();import layout_support;layout_support.INPUT_DIR=Path(a.input_dir) if a.input_dir else ROOT/'data/input_files';r=evaluate(a.answer,a.evidence_dir,completed_run=a.completed_run);print(json.dumps(r,ensure_ascii=False,default=str))

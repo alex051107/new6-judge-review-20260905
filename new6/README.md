@@ -23,23 +23,27 @@ python3 new6/repro/reproduce.py score --task A1 --answer /absolute/path/answer.x
 
 `--input-dir` 是 Agent 完成后的原输入目录，用于检查应受保护的信息，不是参考答案目录。A1/A2/B1/B2/C1/C2 均使用相同入口。
 
-## 当前结果
+## 当前版本与归档结果
 
-| 题 | 内容 | 最新实际主方案分数 | 状态 |
-|---|---|---:|---|
-| A1 | Damodaran Amazon 2018 估值恢复 | 0.627228 | 已评分 |
-| A2 | World Bank LTGM 长期情景恢复 | 0.317111 | 已评分 |
-| B1 | UCI 零售十月月结与月间分析 v2 | 0.682948 | 已评分 |
-| B2 | ONS LI01 两期地方劳动力比较 | 0.920833 | 已评分 |
-| C1 | Falmouth 成本 PDF 工作底稿 | — | 首尝没有生成答卷 |
-| C2 | USPS 零售价目表与动态报价 | 0.599156 | 第二次已评分；首次缺答卷 |
+当前六题采用 A1/A2/B1/C2 的原任务、B2“三期真实资料＋接手旧简报”v3，以及C1“原估算＋修订往来”v2。上面的75例套件固定为原发布参考、开发答卷和校准回放，不自动把B2/C1新任务义务加给旧答卷。`reproduce.py score --task B2/C1`仍对应该归档套件的任务版本。
 
-B1 第一版另保留原 Judge 和原答卷，主方案 0.95。八次调用供应商核对费用合计 **1.494950 美元**。缺答卷和解析限制使用空分数，不能冒充业务零分。六题已构建并有参考/校准；当前小样本不构成正式难度合格或 pass@8 结论。
+新版答卷须使用明确的版本入口，依赖与固定Linux镜像见 [评分环境](repro/README.md)：
 
-- [逐题 Judge 逻辑、配重和能力解释](docs/JUDGE_LOGIC_ZH.md)
-- [复现环境、状态、Harbor 新运行与限制](repro/README.md)
-- [六题业务结果与费用证据](NOW_REPORT_ZH.md)
-- [冻结文件清单](repro/manifest.json) 与 [校准断言](repro/suite.json)
+```bash
+python3 new6/candidates/b2-three-release-v3/score_submission.py --answer /absolute/path/answer.xlsx --input-dir /absolute/path/post-run-input --out /absolute/path/fresh-b2-score
+python3 new6/candidates/c1-revision-v2/score_submission.py --answer /absolute/path/answer.xlsx --input-dir /absolute/path/post-run-input --out /absolute/path/fresh-c1-score
+```
+
+两入口复用同一离线评分封装，保存原件哈希、三套分数和隔离重算证据，API0。新版本的参考/Oracle和校准分别存放在各候选目录，不声称已被原75例套件覆盖。新用户应在固定Docker环境运行，宿主机引擎不同可能产生差异；具体命令见各版README。
+
+- [唯一当前交付报告：六题阶段、实际分数、费用及阻塞](NOW_REPORT_ZH.md)
+- [当前每项配重与历史比例对照](docs/RUBRICS_CURRENT_ZH.md)
+- [新版C1：业务判断、19项校准与复跑](candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/README_ZH.md)
+- [新版B2：三期材料、旧简报与复跑](candidates/b2-three-release-v3/README_ZH.md)
+- [当前6×3×8队列及模型路由问题](campaigns/new6-current-v3-144/CAMPAIGN_ZH.md)
+- [原冻结套件清单](repro/manifest.json) 与 [原套件断言](repro/suite.json)
+
+历史8次开发尝试费用合计$1.494950；它们不是每题n=8。正常执行且确认缺Excel或文件损坏记0；供应商、环境、运输和合法解析限制保留空分。新版真实尝试持续收集，六题正式难度尚未验收。
 
 ## 资料与权限
 

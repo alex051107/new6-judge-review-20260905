@@ -1,7 +1,7 @@
 {
   "task_id": "NEW6-B-LABOUR-BRIEF-001",
   "task_version": "new6-b2-three-release-v3",
-  "judge_version": "new6-b2-three-release-v3.1-actual-equivalence",
+  "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
   "status": "FIRST_ATTEMPT_SCORED",
   "pass_rule": "unrounded normalized score >= 0.70; no hidden hurdle or cap",
   "independent_hurdles": [],

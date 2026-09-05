@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "judge_version": "new6-a2-facts-v1.2-direct-reference-controls",
+  "reference_alias_check": {
+    "passed": true,
+    "changed_headers": [
+      {
+        "sheet": "Scenario comparison",
+        "cell": "N3",
+        "before": "Baseline investment",
+        "after": "Baseline investment (real $m)"
+      },
+      {
+        "sheet": "Scenario comparison",
+        "cell": "O3",
+        "before": "Scenario investment",
+        "after": "Scenario investment (real $m)"
+      },
+      {
+        "sheet": "Scenario comparison",
+        "cell": "P3",
+        "before": "Baseline capital",
+        "after": "Baseline capital (real $m)"
+      },
+      {
+        "sheet": "Scenario comparison",
+        "cell": "Q3",
+        "before": "Scenario capital",
+        "after": "Scenario capital (real $m)"
+      }
+    ],
+    "facts_and_denominators_unchanged": true,
+    "different_currency_scale_or_nominal_labels_not_coerced": true
+  },
+  "api_calls": 0,
+  "new_native_recalculations": 0,
+  "reused_native_recalculations": 4,
+  "native_evidence_integrity_checks": 8,
+  "source_and_probe_xml_unchanged": true,
+  "prior_result": "/path/to/NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/actual_direct_reference_v12/A2-codex-R07/evaluation.json",
+  "result_file": "/path/to/NEW6/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/actual_direct_reference_v12_unit_aliases/A2-codex-R07/evaluation.json",
+  "evaluation_status": "SCORED",
+  "score_decimal": "1",
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "remaining_case": {
+    "case": "A2-codex-R01",
+    "status": "JUDGE_ERROR",
+    "score_decimal": null,
+    "reason": "Previous native source-load failure; no retry in this header-only check."
+  }
+}

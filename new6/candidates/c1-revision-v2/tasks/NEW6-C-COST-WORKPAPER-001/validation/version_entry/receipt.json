@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "validation_risk": "Version-pinned entry must call C1 v2 and preserve genuine missing-delivery zero",
+  "evaluation_status": "OUTPUT_MISSING",
+  "score_decimal": "0",
+  "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+  "checks": 1,
+  "api_calls": 0,
+  "native_recalculations": 0
+}

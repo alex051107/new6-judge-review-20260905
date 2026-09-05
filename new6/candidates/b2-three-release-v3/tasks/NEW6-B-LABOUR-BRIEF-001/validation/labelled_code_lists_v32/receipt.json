@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+  "checks": [
+    {
+      "id": "reference",
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "additional_correct_lists",
+      "passed": true,
+      "status": "SCORED",
+      "score": "1.0"
+    },
+    {
+      "id": "labels_without_reasons",
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.96"
+    },
+    {
+      "id": "contradictory_retained_list",
+      "passed": true,
+      "status": "SCORED",
+      "score": "0.96555555555555554"
+    },
+    {
+      "id": "unknown_numeric_row",
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    },
+    {
+      "id": "list_label_with_extra_number",
+      "passed": true,
+      "status": "JUDGE_ERROR",
+      "score": null
+    }
+  ],
+  "api_calls": 0,
+  "native_recalculations": 0,
+  "validation_budget": {
+    "focused_suite_invocations": 1,
+    "cases": 6,
+    "independent_reviews": 0,
+    "new_input_hashes": 0
+  },
+  "unchanged": "task instruction, sources, reference, weights, fixed fact denominators"
+}

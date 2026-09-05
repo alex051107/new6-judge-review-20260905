@@ -110,7 +110,7 @@
     }
   },
   "evidence": {
-    "candidate": "<local-path> Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/v2/reference_static.xlsx",
+    "candidate": "/home/benchmark-user/Desktop/UNC/02-\u79d1\u7814\u4e0e\u9879\u76ee/\u6587\u6d9b\u5f20 Lab/ExcelBench-P15-NEW6/new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/v2/reference_static.xlsx",
     "dynamic_tests": "not applicable; correct static accepted",
     "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
     "bridge": {

@@ -33,3 +33,11 @@ B2改为三期ONS真实发布资料加接手正确旧简报；January 2023使用
 ## 三期 B2 首答已收齐
 
 新首答N6B2T-CLAUDE-01__uRTrBVY于20:48Z完成，真实Excel已保存。Judge v3.1修复地理实体边界、排除表中的退出理由、公开精度与历史部分信用后，同原件主方案58.1681096681096685分（均衡57.0491，持续使用58.4488）。21初始校准＋10实际兼容检查通过；23供应商请求唯一匹配，实收$0.156904。没有追加API。详见candidates/b2-three-release-v3/ACTUAL_RESULT_ZH.md及samples/first_attempt，后续不得重复启动这份首答，也不要沿用临时待判/错误相对路径0分。三期版真实错误是误选Liverpool漏South Kesteven、若干公开精度变化错误、未交当前图和旧图、名单更新解释不完整。原144照常继续。
+
+## 最新用户选择：新版144槽位与C1修订往来
+
+当前以96个生成契约相同的A1/A2/B1/C2原批次槽位、24个新B2v3、24个新C1v2组成目标cohort；旧B2、旧C1和开发pilot不占新版槽位。B2 Codex/Claude各8已21:27:34Z启动3并发，证据在campaigns/new6-current-v3-144/runtime的launch/status-claude-codex。独立离线复评已启动，API0。原批次继续，不能因为构建C1暂停其他已就绪题。
+
+C1用户选定原PDF加项目编写修订往来：已含432000供暖款替换为当前458000，早期472000作废；设计风险12%；石棉18000尚未批准单列；价格时点相同且均不含VAT/后续加成。候选在candidates/c1-revision-v2，必须完整reference/独立Oracle/正反例后开跑。新义务与旧C1三份70.64/53.50/98.47区分，不声称旧C1只有缺输出。
+
+Qwen新增调用因具体路由证据暂停：17个grammar400；318个真实响应报qwen3.8:27b，与请求max不一致，空ID零token的max事件不证明身份。未经供应商映射及function tools兼容性核实，不擅自换模型/删工具/批量重试。Codex/Claude继续。新批次上限8个全局Agent并发，按实时内存压力调整，20分钟/任务、监测10美元停单次、重试0。读campaigns/new6-current-v3-144/CAMPAIGN_ZH.md，不能把原120复用计划继续当现行版。

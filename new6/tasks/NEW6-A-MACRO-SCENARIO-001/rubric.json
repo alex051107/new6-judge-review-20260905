@@ -1,7 +1,7 @@
 {
   "task_id": "NEW6-A-MACRO-SCENARIO-001",
   "task_version": "new6-a2-v1.0-zambia",
-  "judge_version": "new6-a2-facts-v1.1-retained-source-layout",
+  "judge_version": "new6-a2-facts-v1.2-direct-reference-controls",
   "status": "IMPLEMENTED_CALIBRATED_LOCAL_SMOKE_READY",
   "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
   "independent_hurdles": [],

@@ -8,7 +8,7 @@ import sys,json,argparse,re,hashlib
 from decimal import Decimal,ROUND_HALF_UP
 sys.path.insert(0,str(Path(__file__).resolve().parents[3]/'common'))
 from runtime import output_status,score_profiles
-from read_candidate import read,read_charts,ParsePending,norm,num,eq,population,mean,field,historic
+from read_candidate import read,read_charts,embedded_chart_candidates,ParsePending,norm,num,eq,population,mean,field,historic
 TASK=Path(__file__).resolve().parents[1]
 
 def published_equal(value,expected):
@@ -18,14 +18,17 @@ def published_equal(value,expected):
     return actual is not None and target is not None and actual.quantize(Decimal('.1'),rounding=ROUND_HALF_UP)==target.quantize(Decimal('.1'),rounding=ROUND_HALF_UP)
 
 def evaluate(path,input_dir=None):
-    evidence={'task_version':'new6-b2-three-release-v3','judge_version':'new6-b2-three-release-v3.1-actual-equivalence','candidate':str(path),'dynamic_tests':'Not required; correct static and formula implementations equally accepted.'}
+    evidence={'task_version':'new6-b2-three-release-v3','judge_version':'new6-b2-three-release-v3.2-labelled-code-lists','candidate':str(path),'dynamic_tests':'Not required; correct static and formula implementations equally accepted.'}
     status=output_status(path)
     if status:return score_profiles(TASK/'rubric.json',status=status,evidence=evidence)
     if input_dir is None:return score_profiles(TASK/'rubric.json',status='JUDGE_ERROR',evidence={**evidence,'reason':'Post-run input directory required to observe preservation.'})
     try:
         regions,lines,unbound=read(path);chart_evidence=read_charts(path)
+        image_evidence=embedded_chart_candidates(path,lines)
     except Exception as exc:
         return score_profiles(TASK/'rubric.json',status='JUDGE_ERROR',evidence={**evidence,'reason':str(exc),'exception':type(exc).__name__})
+    if image_evidence:
+        return score_profiles(TASK/'rubric.json',status='JUDGE_ERROR',evidence={**evidence,'reason':'Attached images may contain current chart evidence; this reader cannot assess their business figures. Treat as parsing pending, not chart absence.','embedded_chart_candidates':image_evidence})
     if unbound or not regions:
         return score_profiles(TASK/'rubric.json',status='JUDGE_ERROR',evidence={**evidence,'reason':'Potential authority results cannot be bound safely; supported-reader limit, not business failure.','unbound':unbound[:8]})
     truth=json.loads((TASK/'solution/oracle.json').read_text());expected={x['code']:x for x in truth['panel']}
@@ -132,6 +135,11 @@ def evaluate(path,input_dir=None):
         candidates.extend({**x,'movement':'Excluded','from_exclusion':True} for x in by.get(code,[]) if x['_loc'] in exclusion_locations and x.get('reason'))
         # Explicit authority-linked prose is an equally valid business brief.
         for line in current_lines:
+            listing=line.get('code_list')
+            if listing:
+                if listing['kind'] in ('retained','entered','left') and code in listing['codes']:
+                    candidates.append({'movement':listing['kind'],'reason':None,'_loc':f"{line['sheet']}!{line['row']}",'_text':line['text'],'from_code_list':True})
+                continue
             t=line['text'];body=t.lower()
             if len(re.findall(r'E\d{8}',t))>1:
                 segments=[part for part in t.split(';') if mentions(part,code)]
@@ -145,7 +153,7 @@ def evaluate(path,input_dir=None):
             return False
         labels=bool(candidates) and all(any(positive_word(str(x['movement']).lower(),w) for w in synonyms[want]) for x in candidates)
         if not candidates:
-            possible=[x for x in current_lines if mentions(x['text'],code) and re.search(r'\b(because|shortlist|comparison|review)\b',x['text'],re.I) and len(x['text'])>60]
+            possible=[x for x in current_lines if not x.get('code_list') and mentions(x['text'],code) and re.search(r'\b(because|shortlist|comparison|review)\b',x['text'],re.I) and len(x['text'])>60]
             if possible:
                 return score_profiles(TASK/'rubric.json',status='JUDGE_ERROR',evidence={**evidence,'reason':'Authority-linked explanation may be present but its meaning is not safely bound.','authority':code,'candidate_prose':possible})
         reason_text=[str(x.get('reason') or '').lower() for x in candidates]
@@ -158,6 +166,9 @@ def evaluate(path,input_dir=None):
         movement_checks.append({'code':code,'expected':want,'label':labels,'reason':bool(reason),'candidate':candidates})
     brief_lines=[x['text'] for x in current_lines if re.search(r'brief|summary|report|overview',x['sheet'],re.I)]
     count_claims=[]
+    list_targets={'previous':oldset,'current':newset,'retained':oldset&newset,'entered':newset-oldset,'left':oldset-newset}
+    list_claims=[{'sheet':x['sheet'],'row':x['row'],**x['code_list'],'correct':population(x['code_list']['codes'],list_targets[x['code_list']['kind']])==1} for x in current_lines if x.get('code_list')]
+    count_claims.extend(x['correct'] for x in list_claims)
     wanted_counts={'current selected count':5,'retained from previous count':1,'entered count':4,'left count':4,'qualifying authorities':truth['counts']['eligible'],'three-period comparable count':truth['counts']['three_period_comparable'],'in-scope union':truth['counts']['union']}
     for line in brief_lines:
         for label,value in wanted_counts.items():
@@ -210,7 +221,7 @@ def evaluate(path,input_dir=None):
       context={'periods':periods,'definitions':definitions,'sources':source_ids,'units':units,'scope':scope_ok,'sampling_limits':limits},
       exclusion_facts=exclusions,selection_facts=selection,support_obligations=[{'code':c,'field':k,'correct':v} for (c,k),v in zip(obligations,support)],
       source_value_mismatches=mismatches,optional_displayed_errors=optional_errors,chart_facts=chart_checks,chart_evidence=chart_evidence,
-      movement_facts=movement_checks,brief_facts={'exists':bool(brief_lines),'claims':count_claims},
+      movement_facts=movement_checks,brief_facts={'exists':bool(brief_lines),'claims':count_claims,'labelled_code_lists':list_claims},
       preservation={'external_available':external_available,'embedded_available':embedded_available,'historical_components':historical_components,'embedded_consistent':old_consistent,'sources_unchanged':protection},
       denominators={'current_selected':5,'required_support':len(obligations),'movement_authorities':len(oldset|newset),'unassessable_authorities':len(exclusions),'context_buckets':7},
       external_acceptance_gaps=['Formal difficulty validation pending','External negative-item and agentic parser acceptance not asserted'])
