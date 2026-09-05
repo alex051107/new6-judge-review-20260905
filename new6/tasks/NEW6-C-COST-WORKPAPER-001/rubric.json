@@ -1,7 +1,7 @@
 {
   "task_id": "NEW6-C-COST-WORKPAPER-001",
   "task_version": "new6-c1-v1.0-falmouth",
-  "judge_version": "new6-c1-facts-v1.0",
+  "judge_version": "new6-c1-facts-v1.2-controls-and-notes",
   "status": "CALIBRATED_READY",
   "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
   "independent_hurdles": [],

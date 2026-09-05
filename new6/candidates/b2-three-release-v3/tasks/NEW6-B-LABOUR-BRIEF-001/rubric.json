@@ -1,0 +1,67 @@
+{
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "task_version": "new6-b2-three-release-v3",
+  "judge_version": "new6-b2-three-release-v3.1-actual-equivalence",
+  "status": "FIRST_ATTEMPT_SCORED",
+  "pass_rule": "unrounded normalized score >= 0.70; no hidden hurdle or cap",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "penalties": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+      "type": "positive",
+      "weight": 15
+    },
+    {
+      "id": "R002",
+      "description_zh": "连续恶化名单完整、无重复且排序符合公开业务口径",
+      "type": "positive",
+      "weight": 25
+    },
+    {
+      "id": "R003",
+      "description_zh": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+      "type": "positive",
+      "weight": 25
+    },
+    {
+      "id": "R004",
+      "description_zh": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+      "type": "positive",
+      "weight": 20
+    },
+    {
+      "id": "R005",
+      "description_zh": "旧分析仍可复核，原发布资料保留并可追溯",
+      "type": "positive",
+      "weight": 15
+    }
+  ],
+  "profiles": {
+    "capability_first": {
+      "R001": 15,
+      "R002": 25,
+      "R003": 25,
+      "R004": 20,
+      "R005": 15
+    },
+    "balanced": {
+      "R001": 20,
+      "R002": 20,
+      "R003": 25,
+      "R004": 20,
+      "R005": 15
+    },
+    "ongoing_use": {
+      "R001": 10,
+      "R002": 20,
+      "R003": 20,
+      "R004": 25,
+      "R005": 25
+    }
+  },
+  "equivalence": "Correct static or formula implementation accepted; semantic headers and geography identity, no reference coordinates required.",
+  "build_status": "BUILT_CALIBRATED_FIRST_ATTEMPT_SCORED"
+}

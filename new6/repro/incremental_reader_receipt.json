@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "missing_output",
+      "proper_status_accepted": true,
+      "improper_null_zero_rejected": true
+    },
+    {
+      "case": "bad_file",
+      "proper_status_accepted": true,
+      "improper_null_zero_rejected": true
+    },
+    {
+      "case": "unsupported_layout",
+      "proper_status_accepted": true,
+      "improper_null_zero_rejected": true
+    }
+  ],
+  "api_calls": 0,
+  "scope": "Reproduction assertion now accepts delivery zero and rejects pending zero; C1 17-case calibration and B2 versioned calibration are separate receipts. Other unchanged native suites not rerun.",
+  "prior_full_suite": "validation_receipt.json",
+  "release": "new6-20260905-repro-v2-reader-delivery-zero",
+  "linux_preflight": {
+    "python": "3.11.16",
+    "machine": "aarch64",
+    "libreoffice": "LibreOffice 7.4.7.2 40(Build:2)",
+    "packages": {
+      "openpyxl": "3.1.5",
+      "et-xmlfile": "2.0.0",
+      "lxml": "6.0.1"
+    },
+    "manifest_sha256": "64877a14fbdc827d1cbf93f99fd14fce03ff5613d1c6eac617e0dc943772a3ae"
+  }
+}

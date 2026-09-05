@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "version": "two-release-static",
+      "source": "candidates/b2-three-release-v3/comparison/old_static_result.json",
+      "scores_out_of_100": {
+        "capability_first": "92.08333333333333200",
+        "balanced": "90.41666666666666500",
+        "ongoing_use": "92.39583333333333200"
+      },
+      "highest_profile": "ongoing_use"
+    },
+    {
+      "version": "two-release-dynamic",
+      "source": "candidates/b2-priority-v2/validation/portable_chart_v21/actual_final/evaluation.json",
+      "scores_out_of_100": {
+        "capability_first": "76.7165868292102937500",
+        "balanced": "76.7165868292102937500",
+        "ongoing_use": "77.0915868292102937500"
+      },
+      "highest_profile": "ongoing_use"
+    },
+    {
+      "version": "three-release-handover",
+      "source": "candidates/b2-three-release-v3/samples/first_attempt/judge_result.json",
+      "scores_out_of_100": {
+        "capability_first": "58.168109668109668500",
+        "balanced": "57.049062049062049300",
+        "ongoing_use": "58.448773448773449600"
+      },
+      "highest_profile": "ongoing_use"
+    }
+  ],
+  "primary_profile": "capability_first",
+  "different_task_versions": true,
+  "natural_attempts_per_version": 1,
+  "api_calls": 0
+}

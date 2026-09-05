@@ -1,0 +1,30 @@
+{
+  "status": "REFERENCE_AND_ORACLE_VERIFIED",
+  "previousOutput": {
+    "file": "data/input_files/previous_briefing.xlsx",
+    "sheets": [
+      "Previous briefing",
+      "Previous data",
+      "Previous shortlist",
+      "Previous exclusions"
+    ]
+  },
+  "referenceOutput": {
+    "file": "solution/reference.xlsx",
+    "sheets": [
+      "Current briefing",
+      "Current data",
+      "Current shortlist",
+      "Shortlist changes",
+      "Current exclusions",
+      "Previous briefing",
+      "Previous data",
+      "Previous shortlist",
+      "Previous exclusions"
+    ]
+  },
+  "independent_shortlist_parity": true,
+  "independent_all_delta_parity": true,
+  "old_contains_only_first_two_releases": true,
+  "build_status": "BUILT_CALIBRATED_FIRST_ATTEMPT_SCORED"
+}
