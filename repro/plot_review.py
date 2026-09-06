@@ -21,26 +21,35 @@ COLORS = ['#216b82','#438ca0','#63a7b4','#94c4c9','#a17d4d','#caab7e','#6f79a8',
 def save(fig, name):
     fig.savefig(OUT/(name+'.png'), dpi=170, bbox_inches='tight', facecolor=fig.get_facecolor())
     fig.savefig(OUT/(name+'.svg'), bbox_inches='tight', facecolor=fig.get_facecolor())
+    svg = OUT / (name + '.svg')
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines()) + '\n')
     plt.close(fig)
 
-fig, ax = plt.subplots(figsize=(13,7.2));fig.patch.set_facecolor(BG)
+fig, ax = plt.subplots(figsize=(14,10.1));fig.patch.set_facecolor(BG)
 ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
-ax.text(.02,.96,'NEW6 测什么：让下一位同事接得住这份工作簿',fontsize=22,weight='bold',color=INK)
-ax.text(.02,.90,'以下用常见单步操作作对比，说明任务范围；不代表对其他评测的实测结论。',color=MUTED,fontsize=11)
-rows=[('A · 专业模型','填出当前估值或 GDP','恢复计算关系与年度时序','预测 → 再投资 / 资本 → 现金流 / 产出 → 结果','A1 / A2：改假设后，完整结果正确更新'),
-      ('B · 完整分析','汇总销售额或筛出一份名单','把同一批对象算全、解释清楚','明细 / 地区 → 口径 → 汇总 / 名单 → 图文与证据','B1 / B2：接受正确静态分析，重点是跨层一致'),
-      ('C · 文档规则','把 PDF 里的金额抄入 Excel','保留层级、限定语和计价规则','原文事实 → 有效范围 / 边界 → 工作计算 / 报价','C1 / C2：改价格、重量或区域后，结果仍可核对')]
-for i,(track,basic,main,chain,use) in enumerate(rows):
-    y=.70-i*.255
-    for x,w,color in [(.02,.26,'#e9eef1'),(.32,.66,'#ffffff')]:
-        ax.add_patch(FancyBboxPatch((x,y-.105),w,.205,boxstyle='round,pad=0.012',facecolor=color,edgecolor='none'))
-    ax.text(.04,y+.053,track,weight='bold',color=INK,fontsize=14)
-    ax.text(.04,y-.018,basic,color=MUTED,fontsize=12)
-    ax.annotate('',xy=(.316,y),xytext=(.288,y),arrowprops={'arrowstyle':'->','color':'#74909a','lw':2})
-    ax.text(.345,y+.052,main,weight='bold',color='#216b82',fontsize=15)
-    ax.text(.345,y-.012,chain,color=INK,fontsize=12)
-    ax.text(.345,y-.067,use,color=MUTED,fontsize=11)
-ax.text(.02,.016,'基础 / 重点 = 业务关注的层次     静态 / 动态 = 取得证据的方式；两组概念分别说明。',color=MUTED,fontsize=11)
+ax.text(.02,.965,'从单步操作，到一份经得起核对的业务交付',fontsize=23,weight='bold',color=INK)
+ax.text(.02,.92,'NEW6 在前 15 题的基础上重新选材：把业务要求、能力目标与核对方式放到同一道题里。',color=MUTED,fontsize=12)
+ax.text(.02,.866,'接到的工作',color=MUTED,fontsize=12)
+ax.text(.24,.866,'交付中必须成立的关系',color=MUTED,fontsize=12)
+ax.text(.78,.866,'怎样核对',color=MUTED,fontsize=12)
+rows=[
+ ('A1  估值审阅','年度经营预测','再投资与现金流','估值与情景差额','改增长率或折现率\n逐年检查结果更新'),
+ ('A2  增长情景','投资目标与过渡年','资本逐年积累','GDP及人均结果','改投资路径\n核对年度递推'),
+ ('B1  零售复盘','完整交易与贷项','发票 / 国家 / SKU','两月净额与贡献','从汇总追到原交易\n接受正确静态分析'),
+ ('B2  统计简报','三期可比地区数据','连续两段变化','名单与进出解释','逐地区核对条件\n接受正确静态分析'),
+ ('C1  工程成本','原估算与修订往来','有效报价与费用基数','当前成本与调节','改报价或费率\n检查总额与调节'),
+ ('C2  包裹报价','服务 / 重量 / 分区','完整价格与边界规则','逐件报价与合计','改重量或分区\n检查报价与范围')]
+for i,(task,a,b,c,check) in enumerate(rows):
+ y=.765-i*.127; color=['#216b82','#216b82','#626d9c','#626d9c','#977444','#977444'][i]
+ ax.add_patch(FancyBboxPatch((.015,y-.052),.97,.102,boxstyle='round,pad=0.01',facecolor='white',edgecolor='#e3e9ec'))
+ ax.text(.03,y,task,fontsize=14,weight='bold',color=color,va='center')
+ for x,txt in zip([.245,.425,.605],[a,b,c]):
+  ax.text(x,y,txt,fontsize=11.5,color=INK,va='center')
+ for x in [.403,.584]:
+  ax.annotate('',xy=(x+.013,y),xytext=(x-.011,y),arrowprops={'arrowstyle':'->','color':color,'lw':1.4})
+ ax.text(.795,y,check,fontsize=11.5,color=color,va='center',linespacing=1.6)
+ax.text(.025,.031,'A 看计算关系与年度时序    ·    B 看对象、口径和证据一致    ·    C 看文档条件如何进入计算',fontsize=13,color=INK)
+ax.text(.025,.001,'对比单步操作用于解释任务范围；动态更新按实际业务要求检查，不是六题统一标签。',fontsize=11,color=MUTED)
 save(fig,'abilities')
 
 release=json.loads((ROOT/'release.json').read_text())
@@ -91,3 +100,14 @@ fig.text(.035,.005,'来源：results/trials.json · 固定发布 new6-final-revi
 fig.subplots_adjust(top=.88,left=.125,right=.97,bottom=.11,hspace=.53,wspace=.35)
 save(fig,'score_distribution')
 print('Generated 3 figures from frozen release inputs.')
+
+# Numeric companion table: preserve score range and count without merging means.
+systems = ['codex', 'claude', 'qwen']
+lines = ['# 已评分原件的分数范围', '', '表中为已评分原件的最低—最高分，满分100，括号内为份数；只有一份时列单个分数。它展示已有分数跨度，不是均分或pass@8。未交付、待判和运行失败不进入这个范围；完整配置分组与均分见结果附件。', '', '| 题目 | GPT-5.6 sol | Opus 5 | Qwen 3.8 |', '|---|---|---|---|']
+for task in release['tasks']:
+    cells = [task]
+    for sys in systems:
+        vals = [float(r['score_decimal']) * 100 for r in rows if r['task'] == task and r['system'] == sys and r['status'] == 'SCORED']
+        cells.append((f'{min(vals):.2f}–{max(vals):.2f}（{len(vals)}份）' if len(vals)>1 else f'{vals[0]:.2f}（1份）') if vals else '暂无可评分答卷')
+    lines.append('| ' + ' | '.join(cells) + ' |')
+(ROOT / 'results/SCORE_RANGES.md').write_text('\n'.join(lines) + '\n')
