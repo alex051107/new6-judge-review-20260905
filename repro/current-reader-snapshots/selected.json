@@ -1,0 +1,291 @@
+[
+  {
+    "case": "A2-codex-R05",
+    "task": "A2",
+    "answer_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+    "same_original_in_fixed73": true,
+    "fixed_status": "SCORED",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-a2-facts-v1.3-real-gdp-labels",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R004": {
+        "selected": "0.7518248175182481751824817518248175182482",
+        "fixed": "1"
+      },
+      "R006": {
+        "selected": "0.7894736842105263157894736842105263157895",
+        "fixed": "1"
+      },
+      "R002": {
+        "selected": "0.5",
+        "fixed": "1"
+      }
+    },
+    "reproduction_class": "FIXED_DIFFERENT_CREDITS",
+    "selected_receipt": "results/current-effective-v2/receipts/A2-codex-R05.json",
+    "snapshot": "a2-v13",
+    "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/A2-codex-R05.zip"
+  },
+  {
+    "case": "C2-codex-R02",
+    "task": "C2",
+    "answer_sha256": "2950a925ff9b83f581ff76a24b38bf59a1c08a38f7a7c0a7015dc725cd78aa74",
+    "same_original_in_fixed73": true,
+    "fixed_status": "SCORED",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R001": {
+        "selected": "0.5833333333333333333333333333",
+        "fixed": "1"
+      },
+      "R006": {
+        "selected": "0.6153846153846153846153846154",
+        "fixed": "1"
+      },
+      "R002": {
+        "selected": "0.6",
+        "fixed": "1"
+      }
+    },
+    "reproduction_class": "FIXED_DIFFERENT_CREDITS",
+    "selected_receipt": "results/current-effective-v2/receipts/C2-codex-R02.json",
+    "snapshot": "c2-v24",
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/C2-codex-R02.zip"
+  },
+  {
+    "case": "C2-codex-R07",
+    "task": "C2",
+    "answer_sha256": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+    "same_original_in_fixed73": true,
+    "fixed_status": "SCORED",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R004": {
+        "selected": "0.7272727272727272727272727273",
+        "fixed": "1"
+      },
+      "R003": {
+        "selected": "0.9795918367346938775510204082",
+        "fixed": "1"
+      },
+      "R005": {
+        "selected": "0.9615384615384615384615384615",
+        "fixed": "1"
+      }
+    },
+    "reproduction_class": "FIXED_DIFFERENT_CREDITS",
+    "selected_receipt": "results/current-effective-v2/receipts/C2-codex-R07.json",
+    "snapshot": "c2-v24",
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/C2-codex-R07.zip"
+  },
+  {
+    "case": "A1-claude-R04",
+    "task": "A1",
+    "answer_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+    "same_original_in_fixed73": true,
+    "fixed_status": "JUDGE_ERROR",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-a1-v1.3-proven-formula-defects",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R005": {
+        "selected": "0.9702380952380952",
+        "fixed": "None"
+      },
+      "R006": {
+        "selected": "0.0",
+        "fixed": "None"
+      },
+      "R001": {
+        "selected": "1.0",
+        "fixed": "None"
+      },
+      "R004": {
+        "selected": "0.3870967741935484",
+        "fixed": "None"
+      },
+      "R003": {
+        "selected": "0.4084507042253521",
+        "fixed": "None"
+      },
+      "R002": {
+        "selected": "0.5303030303030303",
+        "fixed": "None"
+      }
+    },
+    "reproduction_class": "FIXED_UNSCORED",
+    "selected_receipt": "results/current-effective-v2/receipts/A1-claude-R04.json",
+    "snapshot": "a1-v13",
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/A1-claude-R04.zip"
+  },
+  {
+    "case": "B1-claude-R07",
+    "task": "B1",
+    "answer_sha256": "96ed6b6d7d49bfdce88d7601eab5c94f9a5d1fe386a0df206ef83fcca5bcadb2",
+    "same_original_in_fixed73": true,
+    "fixed_status": "SCORED",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R004": {
+        "selected": "0.42054263565891475",
+        "fixed": "0.3391472868217054"
+      }
+    },
+    "reproduction_class": "FIXED_DIFFERENT_CREDITS",
+    "selected_receipt": "results/current-effective-v2/receipts/B1-claude-R07.json",
+    "snapshot": "b1-v25",
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/B1-claude-R07.zip"
+  },
+  {
+    "case": "B1-qwen-R05",
+    "task": "B1",
+    "answer_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+    "same_original_in_fixed73": false,
+    "fixed_status": null,
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": null,
+    "reproduction_class": "OUTSIDE_FIXED73",
+    "selected_receipt": "results/current-effective-v2/receipts/B1-qwen-R05.json",
+    "snapshot": "b1-v25",
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "zip_repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R05.zip"
+  },
+  {
+    "case": "C2-qwen-R04",
+    "task": "C2",
+    "answer_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+    "same_original_in_fixed73": true,
+    "fixed_status": "JUDGE_ERROR",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R005": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R006": {
+        "selected": "0.9615384615384615384615384615",
+        "fixed": "None"
+      },
+      "R001": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R004": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R003": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R002": {
+        "selected": "1",
+        "fixed": "None"
+      }
+    },
+    "reproduction_class": "FIXED_UNSCORED",
+    "selected_receipt": "results/current-effective-v2/receipts/C2-qwen-R04.json",
+    "snapshot": "c2-v24",
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R04.zip"
+  },
+  {
+    "case": "B1-qwen-R04",
+    "task": "B1",
+    "answer_sha256": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+    "same_original_in_fixed73": false,
+    "fixed_status": null,
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": null,
+    "reproduction_class": "OUTSIDE_FIXED73",
+    "selected_receipt": "results/current-effective-v2/receipts/B1-qwen-R04.json",
+    "snapshot": "b1-v25",
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "zip_repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R04.zip"
+  },
+  {
+    "case": "C2-qwen-R07",
+    "task": "C2",
+    "answer_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+    "same_original_in_fixed73": true,
+    "fixed_status": "JUDGE_ERROR",
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": {
+      "R005": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R006": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R001": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R004": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R003": {
+        "selected": "1",
+        "fixed": "None"
+      },
+      "R002": {
+        "selected": "1",
+        "fixed": "None"
+      }
+    },
+    "reproduction_class": "FIXED_UNSCORED",
+    "selected_receipt": "results/current-effective-v2/receipts/C2-qwen-R07.json",
+    "snapshot": "c2-v24",
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "zip_repository_relative_path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R07.zip"
+  },
+  {
+    "case": "B1-qwen-R02",
+    "task": "B1",
+    "answer_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+    "same_original_in_fixed73": false,
+    "fixed_status": null,
+    "selected_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+    "selected_judge_commit": null,
+    "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+    "fixed_credits_equal_selected": false,
+    "credit_differences": null,
+    "reproduction_class": "OUTSIDE_FIXED73",
+    "selected_receipt": "results/current-effective-v2/receipts/B1-qwen-R02.json",
+    "snapshot": "b1-v25",
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "zip_repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R02.zip"
+  }
+]

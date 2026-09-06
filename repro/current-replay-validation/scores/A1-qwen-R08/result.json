@@ -1,0 +1,278 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.99,
+  "score_decimal": "0.99",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R006": 0.8,
+    "R004": 1.0,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "25.0",
+    "R003": "20.0",
+    "R004": "35.0",
+    "R005": "5.0",
+    "R006": "4.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "20.0",
+        "R004": "35.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "25.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "40.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/work/cases/A1-qwen-R08/answer.xlsx",
+    "judge_version": "new6-a1-offline-v1.4-base-controls",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": true,
+      "review_equity": true,
+      "difference": false,
+      "base_share": true,
+      "review_share": true
+    },
+    "candidate_formula_defects": [],
+    "native_baseline": {
+      "source": "/work/cases/A1-qwen-R08/answer.xlsx",
+      "source_sha256_before": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+      "isolated_input": "/work/scores/A1-qwen-R08/native/recalc-k_t77yqu/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///work/scores/A1-qwen-R08/native/recalc-k_t77yqu/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/work/scores/A1-qwen-R08/native/recalc-k_t77yqu/output",
+        "/work/scores/A1-qwen-R08/native/recalc-k_t77yqu/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1118,
+      "isolated_input_sha256": "b22a6ec95b26ac323371c9af01b7877df9d31f3d57ca0f04311bd45ea8747ad3",
+      "returncode": 0,
+      "output": "/work/scores/A1-qwen-R08/native/recalc-k_t77yqu/output/answer.xlsx",
+      "output_sha256": "e3ae0e6e5e360f5032c2ac90a9ff58383690ae7d4de0e57018ee48941782ed38",
+      "elapsed_seconds": 1.160571374988649,
+      "source_sha256_after": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 168,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/work/scores/A1-qwen-R08/native/growth_input_changed.xlsx",
+          "source_sha256_before": "f258346f8fad1b2e56cececd564e46b449afb38fd9a6467c272e3c2b007d782c",
+          "isolated_input": "/work/scores/A1-qwen-R08/native/recalc-s46qdtzd/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///work/scores/A1-qwen-R08/native/recalc-s46qdtzd/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/work/scores/A1-qwen-R08/native/recalc-s46qdtzd/output",
+            "/work/scores/A1-qwen-R08/native/recalc-s46qdtzd/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "6911f2184b599990ff8357ad6327c839eddda43fb757a020605ba43445200840",
+          "returncode": 0,
+          "output": "/work/scores/A1-qwen-R08/native/recalc-s46qdtzd/output/growth_input_changed.xlsx",
+          "output_sha256": "56613e601e302c42ca90842676a8457c2f5d0466e23ed59c51f4490db5114637",
+          "elapsed_seconds": 1.0374003339966293,
+          "source_sha256_after": "f258346f8fad1b2e56cececd564e46b449afb38fd9a6467c272e3c2b007d782c",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 130,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/work/scores/A1-qwen-R08/native/margin_input_changed.xlsx",
+          "source_sha256_before": "f18ab0fbb1a2e14d05435e071a98b5060a1066b4e9028dc409b1e82529061742",
+          "isolated_input": "/work/scores/A1-qwen-R08/native/recalc-9c9dzbjz/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///work/scores/A1-qwen-R08/native/recalc-9c9dzbjz/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/work/scores/A1-qwen-R08/native/recalc-9c9dzbjz/output",
+            "/work/scores/A1-qwen-R08/native/recalc-9c9dzbjz/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "a568b656db67db340eb87071f26129b88ec777884b637f0c5f8f7800631a6197",
+          "returncode": 0,
+          "output": "/work/scores/A1-qwen-R08/native/recalc-9c9dzbjz/output/margin_input_changed.xlsx",
+          "output_sha256": "535916a2629bf51c4ff1fb805be613bbbc0f0f2edda86a571a9516b6bb8f08aa",
+          "elapsed_seconds": 0.98810670900275,
+          "source_sha256_after": "f18ab0fbb1a2e14d05435e071a98b5060a1066b4e9028dc409b1e82529061742",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 74,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/work/scores/A1-qwen-R08/native/discount_input_changed.xlsx",
+          "source_sha256_before": "70e12d1b265d77a2f0454795fda20a0d6000fa615091a0e0b91614d2ade897c8",
+          "isolated_input": "/work/scores/A1-qwen-R08/native/recalc-e5ij1tfk/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///work/scores/A1-qwen-R08/native/recalc-e5ij1tfk/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/work/scores/A1-qwen-R08/native/recalc-e5ij1tfk/output",
+            "/work/scores/A1-qwen-R08/native/recalc-e5ij1tfk/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "dd7220efabdd1ba29b704776c1365d02f771e31857e4a0ebfd617a0a0b7a4d49",
+          "returncode": 0,
+          "output": "/work/scores/A1-qwen-R08/native/recalc-e5ij1tfk/output/discount_input_changed.xlsx",
+          "output_sha256": "5a3a0215ed2c4dfc030952f01bc654f0c96bc80f8dff61f9031e3972efacfdcc",
+          "elapsed_seconds": 0.9351559999922756,
+          "source_sha256_after": "70e12d1b265d77a2f0454795fda20a0d6000fa615091a0e0b91614d2ade897c8",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 504,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Review output",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

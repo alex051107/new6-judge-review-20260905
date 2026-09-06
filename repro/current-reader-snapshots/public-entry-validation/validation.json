@@ -1,0 +1,15 @@
+{
+  "entry_case": "B1-qwen-R02",
+  "archive_hash_verified": true,
+  "snapshot_file_hashes_verified": true,
+  "original_hash_verified": true,
+  "fixed_image_id_verified": true,
+  "fresh_score_status": "SCORED",
+  "all_criteria_match": true,
+  "reweight_command_executed": true,
+  "criteria": 8,
+  "agent_calls": 0,
+  "api_calls": 0,
+  "initial_actual_excel_runs": 10,
+  "public_export_smoke_runs": 1
+}

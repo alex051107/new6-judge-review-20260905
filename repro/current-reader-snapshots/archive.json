@@ -1,0 +1,22 @@
+{
+  "parts": [
+    {
+      "name": "current-readers-publicexport-v1.part01",
+      "size": 45000000
+    },
+    {
+      "name": "current-readers-publicexport-v1.part02",
+      "size": 45000000
+    },
+    {
+      "name": "current-readers-publicexport-v1.part03",
+      "size": 45000000
+    },
+    {
+      "name": "current-readers-publicexport-v1.part04",
+      "size": 556122
+    }
+  ],
+  "sha256": "fe6ecfd673445f4fe04255942f3282202119b8169a01b39c1ff4333cc6a9ee44",
+  "size": 135556122
+}

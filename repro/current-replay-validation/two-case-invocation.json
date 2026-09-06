@@ -1,0 +1,12 @@
+{
+  "image": "sha256:16d89ab96d5cd066a81496dfb7cfa4b0f77fe031ac7a57183fde686ce13e7f97",
+  "network": "none",
+  "cpus": 1,
+  "memory": "3g",
+  "cases": [
+    "A1-qwen-R08",
+    "B2-qwen-R08"
+  ],
+  "agent_calls": 0,
+  "api_calls": 0
+}

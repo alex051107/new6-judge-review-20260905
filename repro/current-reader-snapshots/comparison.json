@@ -1,0 +1,237 @@
+{
+  "scope": "Existing deployed reader-updates snapshot, validated now; historical immutable source identity remains unattested",
+  "cases": [
+    {
+      "case": "A2-codex-R05",
+      "snapshot": "a2-v13",
+      "answer_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+      "reproduction": {
+        "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+        "original_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.764838647714175950825970034575489819439115",
+      "receipt": "runs/A2-codex-R05/result.json"
+    },
+    {
+      "case": "C2-codex-R02",
+      "snapshot": "c2-v24",
+      "answer_sha256": "2950a925ff9b83f581ff76a24b38bf59a1c08a38f7a7c0a7015dc725cd78aa74",
+      "reproduction": {
+        "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+        "original_sha256": "2950a925ff9b83f581ff76a24b38bf59a1c08a38f7a7c0a7015dc725cd78aa74",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.300822867608581894296180010455",
+      "receipt": "runs/C2-codex-R02/result.json"
+    },
+    {
+      "case": "C2-codex-R07",
+      "snapshot": "c2-v24",
+      "answer_sha256": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+      "reproduction": {
+        "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+        "original_sha256": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.90058156129584701013272441845",
+      "receipt": "runs/C2-codex-R07/result.json"
+    },
+    {
+      "case": "A1-claude-R04",
+      "snapshot": "a1-v13",
+      "answer_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+      "reproduction": {
+        "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+        "original_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.498261674150474695",
+      "receipt": "runs/A1-claude-R04/result.json"
+    },
+    {
+      "case": "B1-claude-R07",
+      "snapshot": "b1-v25",
+      "answer_sha256": "96ed6b6d7d49bfdce88d7601eab5c94f9a5d1fe386a0df206ef83fcca5bcadb2",
+      "reproduction": {
+        "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+        "original_sha256": "96ed6b6d7d49bfdce88d7601eab5c94f9a5d1fe386a0df206ef83fcca5bcadb2",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.6271177479811771685",
+      "receipt": "runs/B1-claude-R07/result.json"
+    },
+    {
+      "case": "B1-qwen-R05",
+      "snapshot": "b1-v25",
+      "answer_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+      "reproduction": {
+        "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+        "original_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.998",
+      "receipt": "runs/B1-qwen-R05/result.json"
+    },
+    {
+      "case": "C2-qwen-R04",
+      "snapshot": "c2-v24",
+      "answer_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+      "reproduction": {
+        "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+        "original_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "0.998076923076923076923076923075",
+      "receipt": "runs/C2-qwen-R04/result.json"
+    },
+    {
+      "case": "B1-qwen-R04",
+      "snapshot": "b1-v25",
+      "answer_sha256": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+      "reproduction": {
+        "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+        "original_sha256": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+        "original_unchanged": true,
+        "native_preprocessing": {
+          "source": "/work/cases/B1-qwen-R04/answer.xlsx",
+          "source_sha256_before": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+          "isolated_input": "/work/runs/B1-qwen-R04/native/recalc-jp8dnkpd/input/answer.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///work/runs/B1-qwen-R04/native/recalc-jp8dnkpd/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/work/runs/B1-qwen-R04/native/recalc-jp8dnkpd/output",
+            "/work/runs/B1-qwen-R04/native/recalc-jp8dnkpd/input/answer.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 1,
+          "isolated_input_sha256": "4808ef2e168c702462cdfa99addbd8cce82fc329da4be0079c19717709098132",
+          "returncode": 0,
+          "output": "/work/runs/B1-qwen-R04/native/recalc-jp8dnkpd/output/answer.xlsx",
+          "output_sha256": "054d2f96f9d6c4b73226ebb51a17fec0300247ae04d9292c6f8ba86789d9ec2b",
+          "elapsed_seconds": 0.8546475009934511,
+          "source_sha256_after": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+          "original_unchanged": true
+        },
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "1.0",
+      "receipt": "runs/B1-qwen-R04/result.json"
+    },
+    {
+      "case": "C2-qwen-R07",
+      "snapshot": "c2-v24",
+      "answer_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+      "reproduction": {
+        "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+        "original_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+        "original_unchanged": true,
+        "native_preprocessing": null,
+        "api_calls": 0
+      },
+      "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "1",
+      "receipt": "runs/C2-qwen-R07/result.json"
+    },
+    {
+      "case": "B1-qwen-R02",
+      "snapshot": "b1-v25",
+      "answer_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+      "reproduction": {
+        "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+        "original_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+        "original_unchanged": true,
+        "native_preprocessing": {
+          "source": "/work/cases/B1-qwen-R02/answer.xlsx",
+          "source_sha256_before": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+          "isolated_input": "/work/runs/B1-qwen-R02/native/recalc-hgnogtqw/input/answer.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///work/runs/B1-qwen-R02/native/recalc-hgnogtqw/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/work/runs/B1-qwen-R02/native/recalc-hgnogtqw/output",
+            "/work/runs/B1-qwen-R02/native/recalc-hgnogtqw/input/answer.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 1,
+          "isolated_input_sha256": "880fc5da246af975079a3623327b12c5f61171d61c930af38e77330173056f30",
+          "returncode": 0,
+          "output": "/work/runs/B1-qwen-R02/native/recalc-hgnogtqw/output/answer.xlsx",
+          "output_sha256": "ca675c41033fb0fdbd75f1bfdc9cf6ab474a8e6db15125ecd11f67f5b4667967",
+          "elapsed_seconds": 1.0227341669960879,
+          "source_sha256_after": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+          "original_unchanged": true
+        },
+        "api_calls": 0
+      },
+      "judge_version": null,
+      "status": "SCORED",
+      "matches_selected": true,
+      "differences": {},
+      "score_decimal": "1.0",
+      "receipt": "runs/B1-qwen-R02/result.json"
+    }
+  ],
+  "matched": 10,
+  "total": 10,
+  "api_calls": 0,
+  "agent_calls": 0
+}

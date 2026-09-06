@@ -1,0 +1,22 @@
+{
+  "fresh_excel_cases": [
+    "A1-qwen-R08",
+    "B2-qwen-R08"
+  ],
+  "reused_previously_verified_receipts": [
+    "B2-codex-R05",
+    "B1-qwen-R02"
+  ],
+  "mixed_route_comparison_matches": 4,
+  "mixed_route_comparison_cases": 4,
+  "full78_replayed_this_round": false,
+  "index_routes": {
+    "fixed_34374_same_cohort": 66,
+    "current_snapshot": 10,
+    "fixed_34374_additional_originals": 2
+  },
+  "existing_reweight_function_reused": true,
+  "weight_content_matches_current_source": true,
+  "agent_calls": 0,
+  "api_calls": 0
+}

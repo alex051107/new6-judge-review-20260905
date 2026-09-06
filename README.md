@@ -106,9 +106,9 @@ B1的位图图表使用已保存的视觉读数记录，按图片哈希绑定，
 ## 下载、复跑与填写审查意见
 
 1. 进入上方任一题，下载输入、参考和真实答卷。先对照题面核对文件，再查看同一答卷的逐项回执。
-2. 按[固定环境复跑说明](repro/README.md)离线重新评分；运行不调用做题Agent。
+2. 按[统一复跑说明](repro/CURRENT_REPLAY.md)离线重新评分；入口重读原Excel，自动选择对应Judge，输出逐项依据和当前总分。
 3. 在该题页面的审查表中填写具体文件或单元格、意见和复核结果。当前为待人工审查，真实抽检量为0。
 
 [六题业务背景与来源](docs/BUSINESS.md) · [完整判据与method](docs/JUDGE.md) · [外发第2—5节要求核对](review/REQUIREMENTS.md)
 
-完整输入、参考及真实答卷见[六题材料下载](materials/README.md)，固定环境、73份原件和Judge见[公开复跑包](repro/fixed-34374/README.md)。这些入口无需私有仓库授权。当前逐题难度验收仍在推进，运行或读取异常分别保留。
+完整输入、参考及真实答卷见[六题材料下载](materials/README.md)。[公开环境与当前78份复跑入口](repro/CURRENT_REPLAY.md)按`new6-public-replay-v5`固定，保留每份答卷的输入与Judge；[验证记录](repro/CURRENT_SCORE_REPLAY.md)列出实际重评范围。这些入口无需私有仓库授权。逐题难度验收仍在推进，运行或读取异常分别保留。

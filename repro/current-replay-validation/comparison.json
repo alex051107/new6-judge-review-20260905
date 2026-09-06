@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "case": "B1-qwen-R02",
+      "route": "current-reader-snapshot",
+      "snapshot": "b1-v25",
+      "historical_code_identity": "LABEL_ONLY_NO_IMMUTABLE_COMMIT_ATTESTED",
+      "status": "SCORED",
+      "match": true,
+      "criteria_match": true,
+      "score": "1",
+      "expected_points": "100",
+      "score_difference": "0",
+      "total_match": true,
+      "pass_match": true,
+      "criterion_differences": {}
+    },
+    {
+      "case": "A1-qwen-R08",
+      "route": "fixed-34374",
+      "snapshot": "34374f08f331e7184010c40b401f1630a49df394",
+      "historical_code_identity": "IMMUTABLE_COMMIT",
+      "status": "SCORED",
+      "match": true,
+      "criteria_match": true,
+      "score": "0.993846153846153846153846153846153846153846153846",
+      "expected_points": "99.3846153846153846153846153846153846153846153846",
+      "score_difference": "0E-48",
+      "total_match": true,
+      "pass_match": true,
+      "criterion_differences": {}
+    },
+    {
+      "case": "B2-codex-R05",
+      "route": "fixed-34374",
+      "snapshot": "34374f08f331e7184010c40b401f1630a49df394",
+      "historical_code_identity": "LOCKED_COMMIT_AND_RELEASE",
+      "status": "SCORED",
+      "match": true,
+      "criteria_match": true,
+      "score": "0.879780219780219776263736263736263736263736263736",
+      "expected_points": "87.9780219780219776263736263736263736263736263736",
+      "score_difference": "0E-48",
+      "total_match": true,
+      "pass_match": true,
+      "criterion_differences": {}
+    },
+    {
+      "case": "B2-qwen-R08",
+      "route": "fixed-34374",
+      "snapshot": "34374f08f331e7184010c40b401f1630a49df394",
+      "historical_code_identity": "LOCKED_COMMIT_AND_RELEASE",
+      "status": "SCORED",
+      "match": true,
+      "criteria_match": true,
+      "score": "0.803956043956043946373626373626373626373626373626",
+      "expected_points": "80.3956043956043946373626373626373626373626373626",
+      "score_difference": "0E-48",
+      "total_match": true,
+      "pass_match": true,
+      "criterion_differences": {}
+    }
+  ],
+  "matched": 4,
+  "selected": 4,
+  "alpha": "0.60",
+  "score_comparison_tolerance": "1e-44 (serialization only; no pass tolerance)",
+  "source_records": "results/current-effective-v2/source_records.json",
+  "weights": "results/current-effective-v2/weights.json",
+  "agent_calls": 0,
+  "api_calls": 0
+}

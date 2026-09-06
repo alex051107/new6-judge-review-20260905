@@ -14,4 +14,6 @@
 
 随后从同一公开文件树，用发布的入口一次顺序重评B1-codex-R02、B2-codex-R05、C1-codex-R08、C2-codex-R01。四份均SCORED，原配重分数分别为1.0、0.876071428571428565、0.91747857128651830638585605473022691565737、1；逐项信用及总分与固定34374回执完全数值一致。评分使用一个1 CPU、3 GB、断网容器，未调用Agent或LLM。[实际命令、原件及逐项比较](public-validation/bc-excel-validation.json)与[四份新回执](public-validation/bc-true-excel-v1)可直接核对。
 
-当前78份所选成绩与固定73份包的对应已逐份检查，见[当前成绩复现范围](CURRENT_SCORE_REPLAY.md)。同版入口验证不替代其他版本的代码身份，尚缺快照的分项继续单列。
+当前78份所选成绩已接入[统一复评入口](CURRENT_REPLAY.md)。固定快照以外的10份已补齐实际部署代码，并重读原件，10/10逐项一致；A1-qwen-R08与B2-qwen-R08也已通过统一入口新实跑，分项、总分和pass均一致。跨版本比较另复用固定B2与补充B1的已有新回执，合计4/4通过。[实际验证记录](current-replay-validation/validation.json)和[10份快照比较](current-reader-snapshots/comparison.json)保留原始依据。
+
+本轮未重复全跑78份。当前可执行代码与历史回执身份分别记录；部分历史记录缺少不可变提交证明，见[逐份复现范围](CURRENT_SCORE_REPLAY.md)。

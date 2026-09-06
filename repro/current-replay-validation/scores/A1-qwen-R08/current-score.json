@@ -1,0 +1,12 @@
+{
+  "task": "A1",
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "status": "SCORED",
+  "alpha": "0.6",
+  "source_score_decimal": "0.99",
+  "original": "0.99",
+  "score": "0.993846153846153846153846153846153846153846153846",
+  "pass": true,
+  "focus_credit": "1",
+  "other_credit": "0.984615384615384615384615384615384615384615384615"
+}

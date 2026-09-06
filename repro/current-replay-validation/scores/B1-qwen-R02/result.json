@@ -1,0 +1,673 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 1.0,
+  "score_decimal": "1.0",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 1.0,
+    "R006": 1.0,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "15.0",
+    "R003": "10.0",
+    "R004": "15.0",
+    "R005": "8.0",
+    "R006": "7.0",
+    "R007": "25.0",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "15.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "15.0",
+        "R003": "15.0",
+        "R004": "10.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "12.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "10.0",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": true,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": true,
+        "Net recorded value change": true,
+        "Bridge residual": true
+      },
+      "candidate_bridge_closure": [
+        true
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [
+        {
+          "sheet": "candidate declared rules and source identities",
+          "header_row": null,
+          "row_count": 64415
+        }
+      ],
+      "invoices": [
+        {
+          "sheet": "Invoices_Oct",
+          "header_row": 4,
+          "row_count": 2640
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "Country",
+          "header_row": 5,
+          "row_count": 43
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "Exceptions",
+          "header_row": 4,
+          "row_count": 239
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "Invoices_Oct",
+          "header_row": 4,
+          "row_count": 3
+        }
+      ],
+      "report": [
+        {
+          "sheet": "Summary",
+          "header_row": 5,
+          "row_count": 3
+        },
+        {
+          "sheet": "Summary",
+          "header_row": 39,
+          "row_count": 0
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 3
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "Summary",
+          "header_row": 5,
+          "row_count": 0
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 18
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "SKU_Schedule",
+          "header_row": 4,
+          "row_count": 3073
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3,
+        1154979.3,
+        "1,154,979.30"
+      ],
+      "Signed credits": [
+        -84274.63,
+        -84274.63,
+        "-84,274.63"
+      ],
+      "Net recorded value": [
+        1070704.67,
+        1070704.67
+      ],
+      "Exception recorded amount": [],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [],
+    "candidate_country_self_consistency": 1.0,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 64177,
+    "chart_cache_self_consistency": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "titles": [
+          "Sep → Oct change in net recorded value: contributions (GBP)",
+          "GBP"
+        ],
+        "series": [
+          {
+            "name": "GBP",
+            "categories": [
+              "Quantity (continuing SKUs)",
+              "Price/mix (continuing SKUs)",
+              "New SKUs (Oct value)",
+              "Exited SKUs (−Sep value)",
+              "Signed credits (Oct − Sep)",
+              "Total change"
+            ],
+            "categories_cache": [
+              "Quantity (continuing SKUs)",
+              "Price/mix (continuing SKUs)",
+              "New SKUs (Oct value)",
+              "Exited SKUs (−Sep value)",
+              "Signed credits (Oct − Sep)",
+              "Total change"
+            ],
+            "categories_reference": "Summary!$H$31:$H$36",
+            "values": [
+              44947.3182539217,
+              -39397.5492539217,
+              98404.21,
+              -7564.851,
+              -45372.08,
+              51017.048
+            ],
+            "values_cache": [
+              "44947.3182539217",
+              "-39397.5492539217",
+              "98404.21",
+              "-7564.851",
+              "-45372.08",
+              "51017.048"
+            ],
+            "values_reference": "Summary!$I$31:$I$36"
+          }
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "titles": [
+          "September vs October 2011 (GBP)",
+          "GBP"
+        ],
+        "series": [
+          {
+            "name": "Sep 2011",
+            "categories": [
+              "Sales",
+              "Credits (signed)",
+              "Net recorded value"
+            ],
+            "categories_cache": [
+              "Sales",
+              "Credits (signed)",
+              "Net recorded value"
+            ],
+            "categories_reference": "Summary!$H$40:$H$42",
+            "values": [
+              1058590.172,
+              -38902.55,
+              1019687.622
+            ],
+            "values_cache": [
+              "1058590.172",
+              "-38902.55",
+              "1019687.622"
+            ],
+            "values_reference": "Summary!$J$40:$J$42"
+          },
+          {
+            "name": "Oct 2011",
+            "categories": [
+              "Sales",
+              "Credits (signed)",
+              "Net recorded value"
+            ],
+            "categories_cache": [
+              "Sales",
+              "Credits (signed)",
+              "Net recorded value"
+            ],
+            "categories_reference": "Summary!$H$40:$H$42",
+            "values": [
+              1154979.3,
+              -84274.63,
+              1070704.67
+            ],
+            "values_cache": [
+              "1154979.3",
+              "-84274.63",
+              "1070704.67"
+            ],
+            "values_reference": "Summary!$K$40:$K$42"
+          }
+        ]
+      }
+    ],
+    "chart_semantic_bindings": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "name": "GBP",
+        "binding": [
+          {
+            "category": "Quantity (continuing SKUs)",
+            "role": "bridge:Continuing SKU quantity effect",
+            "expected": "44947.3182539216640799958246319340036234498"
+          },
+          {
+            "category": "Price/mix (continuing SKUs)",
+            "role": "bridge:Continuing SKU price and mix effect",
+            "expected": "-39397.5492539216640799958246319340036234498"
+          },
+          {
+            "category": "New SKUs (Oct value)",
+            "role": "bridge:New SKU effect",
+            "expected": "98404.21"
+          },
+          {
+            "category": "Exited SKUs (−Sep value)",
+            "role": "bridge:Exited SKU effect",
+            "expected": "-7564.851"
+          },
+          {
+            "category": "Signed credits (Oct − Sep)",
+            "role": "bridge:Signed credit change",
+            "expected": "-45372.08"
+          },
+          {
+            "category": "Total change",
+            "role": "bridge:Net recorded value change",
+            "expected": "51017.048"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          44947.3182539217,
+          -39397.5492539217,
+          98404.21,
+          -7564.851,
+          -45372.08,
+          51017.048
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "name": "Sep 2011",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:sep:sale",
+            "expected": "1058590.172"
+          },
+          {
+            "category": "Credits (signed)",
+            "role": "period:sep:credit",
+            "expected": "-38902.55"
+          },
+          {
+            "category": "Net recorded value",
+            "role": "period:sep:net",
+            "expected": "1019687.622"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1058590.172,
+          -38902.55,
+          1019687.622
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "name": "Oct 2011",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:oct:sale",
+            "expected": "1154979.30"
+          },
+          {
+            "category": "Credits (signed)",
+            "role": "period:oct:credit",
+            "expected": "-84274.63"
+          },
+          {
+            "category": "Net recorded value",
+            "role": "period:oct:net",
+            "expected": "1070704.67"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1154979.3,
+          -84274.63,
+          1070704.67
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 238,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reader_v25_evidence": {
+    "recognized_narrative_formulas": [
+      {
+        "sheet": "Reconciliation",
+        "cell": "A45",
+        "value": "=implied october 2011 net recorded value"
+      }
+    ],
+    "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+    "source_amounts_unchanged": true,
+    "business_views": {
+      "monetary_bindings": [
+        {
+          "sheet": "Summary",
+          "label": "Quantity (continuing SKUs)",
+          "amount_cell": "Summary!I31",
+          "role": "Continuing SKU quantity effect"
+        },
+        {
+          "sheet": "Summary",
+          "label": "Price/mix (continuing SKUs)",
+          "amount_cell": "Summary!I32",
+          "role": "Continuing SKU price and mix effect"
+        },
+        {
+          "sheet": "Summary",
+          "label": "New SKUs (Oct value)",
+          "amount_cell": "Summary!I33",
+          "role": "New SKU effect"
+        },
+        {
+          "sheet": "Summary",
+          "label": "Exited SKUs (−Sep value)",
+          "amount_cell": "Summary!I34",
+          "role": "Exited SKU effect"
+        },
+        {
+          "sheet": "Summary",
+          "label": "Signed credits (Oct − Sep)",
+          "amount_cell": "Summary!I35",
+          "role": "Signed credit change"
+        },
+        {
+          "sheet": "Summary",
+          "label": "Total change",
+          "amount_cell": "Summary!I36",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "September 2011 net recorded value",
+          "amount_cell": "Bridge!B6",
+          "role": "September net recorded value"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Contribution 1 — quantity, continuing SKUs",
+          "amount_cell": "Bridge!B7",
+          "role": "Continuing SKU quantity effect"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Contribution 2 — price/mix, continuing SKUs",
+          "amount_cell": "Bridge!B8",
+          "role": "Continuing SKU price and mix effect"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Contribution 3 — new SKUs (340 SKUs)",
+          "amount_cell": "Bridge!B9",
+          "role": "New SKU effect"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Contribution 4 — exited SKUs (216 SKUs)",
+          "amount_cell": "Bridge!B10",
+          "role": "Exited SKU effect"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Contribution 5 — signed credits (Oct − Sep)",
+          "amount_cell": "Bridge!B11",
+          "role": "Signed credit change"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Sum of the five contributions",
+          "amount_cell": "Bridge!B12",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Total change in net recorded value (Oct net − Sep net)",
+          "amount_cell": "Bridge!B13",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "October 2011 net recorded value",
+          "amount_cell": "Bridge!B14",
+          "role": "October net recorded value"
+        },
+        {
+          "sheet": "Bridge",
+          "label": "Reconciliation difference (total change - sum of contributions)",
+          "amount_cell": "Bridge!B15",
+          "role": "Bridge residual"
+        }
+      ],
+      "bound_bridge_claims": 18,
+      "bound_report_claims": 3,
+      "traceability": {
+        "applied": true,
+        "declarations": {
+          "source": "• Primary source: retail_extract.csv — 64,415 line items spanning 2011-09-30 to 2011-11-01 (the extract intentionally contains adjacent-day transactions for context).",
+          "identity": "• Each source_row_id identifies one physical occurrence of a row. Identical business fields do not establish a duplicate transmission, so no de-duplication was performed.",
+          "no_dedup": "• Each source_row_id identifies one physical occurrence of a row. Identical business fields do not establish a duplicate transmission, so no de-duplication was performed.",
+          "scope": "Recorded transaction value = signed Quantity x UnitPrice (GBP). Period 1 Oct 2011 00:00 inclusive to 1 Nov 2011 00:00 exclusive. Source: UCI Online Retail extracts — see \"Scope & Traceability\".",
+          "sale": "• Sale: positive Quantity, positive UnitPrice, non-C InvoiceNo. Credit: negative Quantity, positive UnitPrice, C-prefixed InvoiceNo (case-insensitive). Amount = signed Quantity x UnitPrice.",
+          "credit": "• Sale: positive Quantity, positive UnitPrice, non-C InvoiceNo. Credit: negative Quantity, positive UnitPrice, C-prefixed InvoiceNo (case-insensitive). Amount = signed Quantity x UnitPrice.",
+          "exception": "• Exception: any other quantity/price/invoice combination, any non-positive UnitPrice, or any missing essential field. Essential fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, Country. Computable exception amounts are retained separately and are NOT included in the net.",
+          "amount": "Recorded transaction value = signed Quantity x UnitPrice (GBP). Period 1 Oct 2011 00:00 inclusive to 1 Nov 2011 00:00 exclusive. Source: UCI Online Retail extracts — see \"Scope & Traceability\".",
+          "attribution": "• Missing CustomerID is an attribution issue, not an exclusion reason: such lines stay in sales/credits."
+        },
+        "essential_fields_declaration": "• Exception: any other quantity/price/invoice combination, any non-positive UnitPrice, or any missing essential field. Essential fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, Country. Computable exception amounts are retained separately and are NOT included in the net.",
+        "source_occurrences": 64415,
+        "bound_occurrences": 64415,
+        "unmapped_invoice_or_country_occurrences": [],
+        "class_counts_from_candidate_rules": {
+          "outside_scope": 3673,
+          "sale": 59304,
+          "credit": 1200,
+          "exception": 238
+        },
+        "oracle_read": false
+      }
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/work/cases/B1-qwen-R02/answer.xlsx",
+      "source_sha256_before": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+      "isolated_input": "/work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/output",
+        "/work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1,
+      "isolated_input_sha256": "880fc5da246af975079a3623327b12c5f61171d61c930af38e77330173056f30",
+      "returncode": 0,
+      "output": "/work/runs/B1-qwen-R02/native/recalc-0kdt1wkc/output/answer.xlsx",
+      "output_sha256": "a157541ba9af1b45fb6ed2078f121d596b1051094fb37979dbf8d3d5a495a989",
+      "elapsed_seconds": 1.3853289589751512,
+      "source_sha256_after": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  }
+}

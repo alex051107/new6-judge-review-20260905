@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "case": "B1-qwen-R02",
+      "status": "SCORED",
+      "match": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      }
+    }
+  ],
+  "matched": 1,
+  "total": 1
+}
