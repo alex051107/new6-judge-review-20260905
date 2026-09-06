@@ -17,3 +17,5 @@
 当前78份所选成绩已接入[统一复评入口](CURRENT_REPLAY.md)。固定快照以外的10份已补齐实际部署代码，并重读原件，10/10逐项一致；A1-qwen-R08与B2-qwen-R08也已通过统一入口新实跑，分项、总分和pass均一致。跨版本比较另复用固定B2与补充B1的已有新回执，合计4/4通过。[实际验证记录](current-replay-validation/validation.json)和[10份快照比较](current-reader-snapshots/comparison.json)保留原始依据。
 
 本轮未重复全跑78份。当前可执行代码与历史回执身份分别记录；部分历史记录缺少不可变提交证明，见[逐份复现范围](CURRENT_SCORE_REPLAY.md)。
+
+固定版本`new6-public-replay-v5`（提交`b88065bc9ecdbce083455a80cfe342d15036c5f5`）上传后，新增53个文件入口已匿名回读，全部返回200或206且读取前缀与本地一致。检查包括补充Judge归档的四个分片、统一入口、逐份索引和新回执。[本次匿名访问记录](public-validation/anonymous-access-b88065b.json)可核对。

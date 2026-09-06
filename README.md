@@ -51,7 +51,7 @@ C轨检验源文规则是否被正确落实。C1需要分清有效报价、替�
 
 ![六题当前成绩](results/current-effective-v2/heatmap.png)
 
-图中同时标注均分和份数，颜色使用统一的0—100刻度。灰格没有有效分数；已评分低分与技术待判分别记录。[逐次结果、实际Judge与配重复算](results/current-effective-v2/README.md)保留完整来源。表内包括不同Judge与生成配置，正式Pass@1、Pass@8在同版样本核齐后填写。
+图中同时标注均分和份数，颜色使用统一的0—100刻度。灰格暂无可用评分记录；已评分低分与技术待判分别记录。[逐次结果、实际Judge与配重复算](results/current-effective-v2/README.md)保留完整来源。表内包括不同Judge与生成配置，正式Pass@1、Pass@8在同版样本核齐后填写。
 
 GPT-5.6 sol六题已有评分均分较高；Opus 5在五题低于60分，B1为67.02分。千问在A1、B1已有评分接近满分，B2为80.40分、C2为58.77分，A2与C1仍待判。现有成绩已能指导逐题审查，但不足以支持三系统完整六题排名。[各系统的具体弱项与读取风险](results/current-effective-v2/MEASUREMENT.md)给出逐项均值和可下载案例；[Judge方法、论文依据及扩量建议](docs/REVIEW_BRIEF.md)供组内讨论。
 

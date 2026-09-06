@@ -1,0 +1,325 @@
+{
+  "commit": "b88065bc9ecdbce083455a80cfe342d15036c5f5",
+  "checked": 53,
+  "passed": 53,
+  "checks": [
+    {
+      "path": "README.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "docs/REVIEW_BRIEF.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/CURRENT_REPLAY.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/CURRENT_SCORE_REPLAY.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/PUBLIC_VALIDATION.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/README.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/EXECUTABLE_IDENTITY.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/PUBLIC_EXPORT.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/README.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/SCAN.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/archive.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/compare.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/comparison.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/current-readers-publicexport-v1.part01",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/current-readers-publicexport-v1.part02",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/current-readers-publicexport-v1.part03",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/current-readers-publicexport-v1.part04",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/A1-claude-R04/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/A2-codex-R05/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/B1-claude-R07/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/B1-qwen-R02/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/B1-qwen-R04/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/B1-qwen-R05/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/C2-codex-R02/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/C2-codex-R07/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/C2-qwen-R04/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/expected-receipts/C2-qwen-R07/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/public-entry-validation/B1-qwen-R02-result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/public-entry-validation/comparison.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/public-entry-validation/current-score.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/public-entry-validation/invocation.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/public-entry-validation/validation.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/replay.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/run_batch.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/run_one.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/selected.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-reader-snapshots/snapshot-files.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-index.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/comparison.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/A1-qwen-R08/current-score.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/A1-qwen-R08/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B1-qwen-R02/current-score.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B1-qwen-R02/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B2-codex-R05/current-score.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B2-codex-R05/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B2-qwen-R08/current-score.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/scores/B2-qwen-R08/result.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/selected.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/two-case-invocation.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/current-replay-validation/validation.json",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/replay_current.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/replay_current_worker.py",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/current-effective-v2/README.md",
+      "status": 206,
+      "prefix_matches": true,
+      "authorization_sent": false
+    }
+  ]
+}
