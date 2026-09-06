@@ -1,0 +1,20 @@
+{
+  "case": "A2-codex-R03",
+  "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__taFhFmX",
+  "answer_sha256": "1ee8383c6b4480967a61f302168c0c088518a7efd281a13447d5e8d6f02a66bb",
+  "status": "SCORED",
+  "selected_judge_label": "new6-a2-facts-v1.3-real-gdp-labels",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "0.75",
+    "R003": "1",
+    "R004": "0.8759124087591240875912408759124087591241",
+    "R005": "1",
+    "R006": "0.8947368421052631578947368421052631578947"
+  },
+  "original_points": "88.2419323857087975412985017287744909719555",
+  "focus50_points": "87.9979230695351517479830964271993853246259375",
+  "focus60_points": "87.91658663081060315021129466000768344218275",
+  "focus70_points": "87.8352501920860545524394928928159815597395625"
+}

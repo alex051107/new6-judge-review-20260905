@@ -1,0 +1,22 @@
+{
+  "case": "B1-qwen-R02",
+  "trial_id": "N6GPAR-B1-QWEN-R02__GFrXsBh",
+  "answer_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "1.0",
+    "R003": "1.0",
+    "R004": "1.0",
+    "R005": "1.0",
+    "R006": "1.0",
+    "R007": "1.0",
+    "R008": "1.0"
+  },
+  "original_points": "100",
+  "focus50_points": "100",
+  "focus60_points": "100",
+  "focus70_points": "100"
+}

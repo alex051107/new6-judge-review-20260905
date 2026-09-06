@@ -1,0 +1,20 @@
+{
+  "case": "A1-claude-R04",
+  "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__gQJCtA3",
+  "answer_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+  "status": "SCORED",
+  "selected_judge_label": "new6-a1-v1.3-proven-formula-defects",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "0.5303030303030303",
+    "R003": "0.4084507042253521",
+    "R006": "0.0",
+    "R004": "0.3870967741935484",
+    "R005": "0.9702380952380952"
+  },
+  "original_points": "49.8261674150474695",
+  "focus50_points": "47.2608235698876319230769230769230769230769230769",
+  "focus60_points": "45.5505943397810735384615384615384615384615384615",
+  "focus70_points": "43.8403651096745151538461538461538461538461538462"
+}

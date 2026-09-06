@@ -1,0 +1,20 @@
+{
+  "case": "A2-codex-R02",
+  "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__Yk2M6RH",
+  "answer_sha256": "fd03ce232408b5280f8d8d864ddfb44f53a6b56763bd386086caf3ff1a639b67",
+  "status": "SCORED",
+  "selected_judge_label": "new6-a2-offline-v1.4-report-roles",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "original_points": "100",
+  "focus50_points": "100",
+  "focus60_points": "100",
+  "focus70_points": "100"
+}

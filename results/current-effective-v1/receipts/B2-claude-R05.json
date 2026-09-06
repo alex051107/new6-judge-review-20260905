@@ -1,0 +1,19 @@
+{
+  "case": "B2-claude-R05",
+  "trial_id": "N6V3-B2-CLAUDE-R05__GUFuDWZ",
+  "answer_sha256": "57ad4d33d16e8041f440286d7f0d33dbfc69c80699653c8a3c031ac0f87394d7",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b2-three-release-v3.2-labelled-code-lists",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "0.8571428571428571",
+    "R002": "0.1",
+    "R003": "0.7030303030303031",
+    "R004": "0.09000000000000001",
+    "R005": "0.8666666666666667"
+  },
+  "original_points": "47.7329004329004347",
+  "focus50_points": "46.4758574758574777032967032967032967032967032967",
+  "focus60_points": "45.6378288378288397054945054945054945054945054945",
+  "focus70_points": "44.7998001998002017076923076923076923076923076923"
+}

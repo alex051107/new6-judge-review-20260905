@@ -1,0 +1,19 @@
+{
+  "new_originals_scored_offline": 8,
+  "states": {
+    "JUDGE_ERROR": 7,
+    "SCORED": 1
+  },
+  "originals_hash_verified_unchanged": 8,
+  "scored_original_reconstruction_checks": 1,
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "same_fixed_image": "sha256:16d89ab96d5cd066a81496dfb7cfa4b0f77fe031ac7a57183fde686ce13e7f97",
+  "network": "none",
+  "max_concurrent_containers": 1,
+  "cpu_per_container": 1,
+  "memory_per_container": "3g",
+  "api_calls": 0,
+  "new_agent_calls": 0,
+  "unknowns_kept_null": 7,
+  "total_wall_seconds": 69.108
+}

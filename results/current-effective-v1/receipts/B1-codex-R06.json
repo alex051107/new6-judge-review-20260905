@@ -1,0 +1,22 @@
+{
+  "case": "B1-codex-R06",
+  "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__YVpN3S7",
+  "answer_sha256": "760e81f2718066138d02bda4cc28ef30ffbb53cab482f00a363f9a54f19d2de3",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b1-reader-v2.5-declared-traceability",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "1.0",
+    "R003": "1.0",
+    "R004": "1.0",
+    "R005": "1.0",
+    "R006": "1.0",
+    "R007": "1.0",
+    "R008": "1.0"
+  },
+  "original_points": "100",
+  "focus50_points": "100",
+  "focus60_points": "100",
+  "focus70_points": "100"
+}

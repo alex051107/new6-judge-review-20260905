@@ -1,0 +1,38 @@
+{
+  "43e4a9c77eff4d0f": {
+    "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 1,
+    "kwargs": {
+      "version": "0.22.3"
+    },
+    "provider_endpoint": "https://api.zcloudapi.com/v1"
+  },
+  "8bc199823babfb1b": {
+    "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 3,
+    "kwargs": {
+      "version": "0.22.3"
+    },
+    "provider_endpoint": "https://api.zcloudapi.com/v1"
+  },
+  "e5c00a4b8d2c76fd": {
+    "name": "qwen-coder",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 7,
+    "kwargs": {
+      "version": "0.22.3"
+    },
+    "provider_endpoint": "https://api.zcloudapi.com/v1"
+  },
+  "4e076136e05655d9": {
+    "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 2,
+    "kwargs": {
+      "version": "0.22.3"
+    },
+    "provider_endpoint": "https://api.zcloudapi.com/v1"
+  }
+}

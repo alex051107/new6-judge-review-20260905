@@ -1,0 +1,20 @@
+{
+  "case": "C2-codex-R05",
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__xYoGq7T",
+  "answer_sha256": "ef02ca99293fc095a7c1a775e9e006f660aaa01394da81e4a5fcb3abfcc9ff1c",
+  "status": "SCORED",
+  "selected_judge_label": "release_lock:new6-offline-reader-v1",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "original_points": "100",
+  "focus50_points": "100",
+  "focus60_points": "100",
+  "focus70_points": "100"
+}

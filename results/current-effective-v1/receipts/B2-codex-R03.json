@@ -1,0 +1,19 @@
+{
+  "case": "B2-codex-R03",
+  "trial_id": "N6V3-B2-CODEX-R03__BwqdpLX",
+  "answer_sha256": "b228afb98433fdc5627ca7a1043519c02f67e62f48c17497004bb1b201f01e77",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b2-three-release-v3.2-labelled-code-lists",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "0.8571428571428571",
+    "R002": "1.0",
+    "R003": "1.0",
+    "R004": "0.8",
+    "R005": "1.0"
+  },
+  "original_points": "93.8571428571428565",
+  "focus50_points": "92.6373626373626368681318681318681318681318681319",
+  "focus60_points": "91.8241758241758237802197802197802197802197802198",
+  "focus70_points": "91.0109890109890106923076923076923076923076923077"
+}

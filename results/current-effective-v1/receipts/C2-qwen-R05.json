@@ -1,0 +1,20 @@
+{
+  "case": "C2-qwen-R05",
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__VRwZ5X2",
+  "answer_sha256": "e0f017b34058a27b47c9fd0d393109d901125baedd7ca2c3ff5f9971e4980d99",
+  "status": "SCORED",
+  "selected_judge_label": "release_lock:new6-offline-reader-v1",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "0",
+    "R004": "0",
+    "R005": "0.6538461538461538461538461538",
+    "R006": "1"
+  },
+  "original_points": "53.269230769230769230769230769",
+  "focus50_points": "40.9763313609467455621301775146153846153846153846",
+  "focus60_points": "32.7810650887573964497041420116923076923076923077",
+  "focus70_points": "24.5857988165680473372781065087692307692307692308"
+}

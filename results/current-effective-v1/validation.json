@@ -1,0 +1,25 @@
+{
+  "snapshot_at": "2026-09-06T03:15:27.054608+00:00",
+  "slots": 144,
+  "scored": 77,
+  "status_counts": {
+    "SCORED": 77,
+    "JUDGE_ERROR": 29,
+    "OUTPUT_MISSING": 11,
+    "RUN_OR_COLLECTION_PENDING": 27
+  },
+  "source_counts": {
+    "1_CURRENT_DECLARED_SUCCESS": 55,
+    "2_SAME_ORIGINAL_FIXED_SUCCESS": 21,
+    "UNSCORED": 67,
+    "3_NEW_BATCH_FIXED_SUCCESS": 1
+  },
+  "unique_case_and_trial": 144,
+  "raw_receipts": 77,
+  "original_score_checks": 77,
+  "original_tolerance": "1e-24",
+  "unknowns_not_zero": true,
+  "agent_calls": 0,
+  "judge_calls": 0,
+  "api_calls": 0
+}

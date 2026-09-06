@@ -1,0 +1,20 @@
+{
+  "case": "C2-qwen-R08",
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__SogAnJ9",
+  "answer_sha256": "b6393015c9f8ce988c953cc0777dce32dee3c519731be504f7eed32da2ad2ec2",
+  "status": "SCORED",
+  "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "0",
+    "R002": "0.04",
+    "R003": "0.9795918367346938775510204082",
+    "R004": "0.7272727272727272727272727273",
+    "R005": "0.9615384615384615384615384615",
+    "R006": "1"
+  },
+  "original_points": "45.458156129584701013272441845",
+  "focus50_points": "51.7510291905896301500697105107692307692307692308",
+  "focus60_points": "55.9462778979262495746012229546153846153846153846",
+  "focus70_points": "60.1415266052628689991327353984615384615384615385"
+}

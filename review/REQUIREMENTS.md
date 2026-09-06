@@ -21,6 +21,8 @@
 
 ## 当前结果依据
 
-当前固定Judge统一核对73份现有原件，70份有完整数字，3份待判；其他运行槽位保留原状态。均分以本版已评分份数为分母，未交付与待判另列。[逐次数据与来源](../results/unified-scores-v3/SOURCE_NOTES.md)、[逐题配置分组](../results/unified-scores-v3/stratified_summary.csv)和[读取风险](../results/unified-scores-v3/LOW_SCORE_NOTES.md)共同用于复核。
+当前有效回执汇总77份评分，涵盖144个槽位，其余29份Judge待判、27份运行或收集待完成、11份缺输出。表内含不同Judge与配置，部分仅有版本标签而缺不可变提交，正式Pass@k留空。[当前逐次数据与来源](../results/current-effective-v1/SOURCE_NOTES.md)用于审查已有交付；[固定Judge的70份复跑快照](../results/unified-scores-v3/README.md)单独保留，固定环境对应该快照，不冒充全部77份同版重评。
 
 当前配重是已有结果后的离线比较，原权重与其他比较口径保留。统一Schema题包中的原rubric与当前报告配重分别记录，未事后改写原题与评分义务。当前逐题难度与人工抽检继续待验收。
+
+本次按离线、不调用在线LLM评分的约束执行。外发附件实际包含JUDGE_MODEL配置示例和agentic解析要求，因此不将本版取舍写成“附件明确禁止LLM”；与原要求的差异仍待确认。

@@ -1,0 +1,20 @@
+{
+  "case": "C2-qwen-R04",
+  "trial_id": "N6BUDGET-C2-QWEN-R04__YvUJuMX",
+  "answer_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+  "status": "SCORED",
+  "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "0.9615384615384615384615384615"
+  },
+  "original_points": "99.8076923076923076923076923075",
+  "focus50_points": "99.8520710059171597633136094673076923076923076923",
+  "focus60_points": "99.8816568047337278106508875738461538461538461538",
+  "focus70_points": "99.9112426035502958579881656803846153846153846154"
+}

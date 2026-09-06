@@ -1,0 +1,904 @@
+{
+  "audit_time_utc": "2026-09-06T03:48:47.739198+00:00",
+  "current_score_snapshot_at": "2026-09-06T03:15:27.054608+00:00",
+  "scope": "Read-only delivery audit; no scoring or status mutation",
+  "current_snapshot_count": 144,
+  "current_snapshot_status_counts": {
+    "codex": {
+      "SCORED": 35,
+      "JUDGE_ERROR": 13
+    },
+    "claude": {
+      "JUDGE_ERROR": 29,
+      "SCORED": 13,
+      "OUTPUT_MISSING": 6
+    },
+    "qwen": {
+      "SCORED": 7,
+      "RUN_OR_COLLECTION_PENDING": 27,
+      "OUTPUT_MISSING": 5,
+      "JUDGE_ERROR": 9
+    }
+  },
+  "claude_missing": [
+    {
+      "case": "B1-claude-R05",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__aA5LxC7",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 153595,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "Confirmed the case variants are the same physical item. Now let me build the full analysis pipeline.",
+      "output_collection_status": "failed",
+      "container_output_absence_explicit": true,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__aA5LxC7/result.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__aA5LxC7/agent/claude-code.txt",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__aA5LxC7/artifacts/manifest.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__aA5LxC7/trial.log"
+      ],
+      "score_changed_by_audit": false
+    },
+    {
+      "case": "A2-claude-R08",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CLAUDE__ayigMop",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 288896,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "Scenario investment path is already correct (31% → 24% by 2025); only the calculation block F:U (2020–2035) is missing. Let me restore it.",
+      "output_collection_status": "failed",
+      "container_output_absence_explicit": true,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__ayigMop/result.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__ayigMop/agent/claude-code.txt",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__ayigMop/artifacts/manifest.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__ayigMop/trial.log"
+      ],
+      "score_changed_by_audit": false
+    },
+    {
+      "case": "C2-claude-R04",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__JGUuWFH",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 132123,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "Both tables extract cleanly as text, so I can pull exact rates rather than transcribing from an image. Let me parse them.",
+      "output_collection_status": "failed",
+      "container_output_absence_explicit": true,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__JGUuWFH/result.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__JGUuWFH/agent/claude-code.txt",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__JGUuWFH/artifacts/manifest.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__JGUuWFH/trial.log"
+      ],
+      "score_changed_by_audit": false
+    },
+    {
+      "case": "C2-claude-R07",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__twHWxPA",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 237472,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "The rates and requests are clear. Now I'll build the workbook with live formulas so weight/zone edits recalculate.",
+      "output_collection_status": "failed",
+      "container_output_absence_explicit": true,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__twHWxPA/result.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__twHWxPA/agent/claude-code.txt",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__twHWxPA/artifacts/manifest.json",
+        "campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__twHWxPA/trial.log"
+      ],
+      "score_changed_by_audit": false
+    },
+    {
+      "case": "B2-claude-R02",
+      "trial_id": "N6V3-B2-CLAUDE-R02__Gw7ENJr",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 74737,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "Now let me extract the data from all three releases with rounding to one decimal as displayed.",
+      "output_collection_status": "failed",
+      "container_output_absence_explicit": true,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R02__Gw7ENJr/result.json",
+        "campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R02__Gw7ENJr/agent/claude-code.txt",
+        "campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R02__Gw7ENJr/artifacts/manifest.json",
+        "campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R02__Gw7ENJr/trial.log"
+      ],
+      "score_changed_by_audit": false
+    },
+    {
+      "case": "C1-claude-R02",
+      "trial_id": "N6C1V2-CLAUDE-R02__vNpHmQn",
+      "snapshot_status": "OUTPUT_MISSING",
+      "audit_classification": "CONFIRMED_NONDELIVERY_TOOL_CALL_TEXT_TERMINATION",
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "upstream_exception": null,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn",
+        "duration_ms": 386046,
+        "api_error_status": null
+      },
+      "final_text_has_literal_tool_call_fence": true,
+      "final_text_excerpt": "Source verified and arithmetic reproduces the printed chain exactly. Building the workbook now.",
+      "output_collection_status": "ok",
+      "container_output_absence_explicit": false,
+      "collected_output_files": [],
+      "evidence_files": [
+        "campaigns/c1-revision-v2-24/runtime/claude/jobs/new6-c1-revision-v2-claude/N6C1V2-CLAUDE-R02__vNpHmQn/result.json",
+        "campaigns/c1-revision-v2-24/runtime/claude/jobs/new6-c1-revision-v2-claude/N6C1V2-CLAUDE-R02__vNpHmQn/agent/claude-code.txt",
+        "campaigns/c1-revision-v2-24/runtime/claude/jobs/new6-c1-revision-v2-claude/N6C1V2-CLAUDE-R02__vNpHmQn/artifacts/manifest.json",
+        "campaigns/c1-revision-v2-24/runtime/claude/jobs/new6-c1-revision-v2-claude/N6C1V2-CLAUDE-R02__vNpHmQn/trial.log"
+      ],
+      "score_changed_by_audit": false
+    }
+  ],
+  "qwen_39_historical_no_excel": [
+    {
+      "case": "A1-qwen-R01",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:06:26.221329Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R02",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:06:40.942851Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R03",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:06:34.088518Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R04",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:07:02.911475Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R05",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:07:07.704838Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R06",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R06__APhqSLY",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T18:27:29.024605Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R06__APhqSLY/result.json",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R06__APhqSLY/agent/qwen-code.txt",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R06__APhqSLY/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R07",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R07__AygCGu8",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T18:27:28.879160Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R07__AygCGu8/result.json",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R07__AygCGu8/agent/qwen-code.txt",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R07__AygCGu8/config.json"
+      ]
+    },
+    {
+      "case": "A1-qwen-R08",
+      "historical_trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R08__72fBYCx",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T18:47:58.702771Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R08__72fBYCx/result.json",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R08__72fBYCx/agent/qwen-code.txt",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-FIN-RESTORE-001-QWEN-R08__72fBYCx/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R01",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:05:56.620626Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R02",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:05:11.764130Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R03",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T23:44:48.166728Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R05",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T23:45:15.812526Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R06",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:05:21.715282Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R07",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__Pvf4onL",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-05T19:09:44.835192Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Pvf4onL/result.json",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Pvf4onL/agent/qwen-code.txt",
+        "campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-A-MACRO-SCENARIO-001-QWEN-R__Pvf4onL/config.json"
+      ]
+    },
+    {
+      "case": "A2-qwen-R08",
+      "historical_trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "AGENT_TIMEOUT",
+      "exception_type": "AgentTimeoutError",
+      "evidence_excerpt": "Agent execution timed out after 1200.0 seconds",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:06:05.893418Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R01",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R01__N5nHJ3r",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:29:15.642610Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R01__N5nHJ3r/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R01__N5nHJ3r/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R01__N5nHJ3r/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R02",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R02__LqwoHKV",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:28:35.942172Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R02__LqwoHKV/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R02__LqwoHKV/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R02__LqwoHKV/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R04",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R04__vhJc5US",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:29:13.325057Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R04__vhJc5US/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R04__vhJc5US/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R04__vhJc5US/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R05",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R05__gEevwU3",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:32:40.461069Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R05__gEevwU3/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R05__gEevwU3/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R05__gEevwU3/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R07",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R07__4CQayB5",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "ACCOUNT_CONCURRENCY_LIMIT",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Concurrency limit exceeded for account, please retry later",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": true,
+      "finished_at": "2026-09-06T00:26:27.999957Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R07__4CQayB5/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R07__4CQayB5/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R07__4CQayB5/config.json"
+      ]
+    },
+    {
+      "case": "B1-qwen-R08",
+      "historical_trial_id": "N6BUDGET-B1-QWEN-R08__So7rPPg",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:28:03.915990Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R08__So7rPPg/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R08__So7rPPg/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-B1-QWEN-R08__So7rPPg/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R01",
+      "historical_trial_id": "N6V3-B2-QWEN-R01__rM3icuh",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:08:23.294566Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R01__rM3icuh/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R01__rM3icuh/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R01__rM3icuh/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R02",
+      "historical_trial_id": "N6V3-B2-QWEN-R02__mmSgNCS",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:08:58.177593Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R02__mmSgNCS/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R02__mmSgNCS/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R02__mmSgNCS/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R03",
+      "historical_trial_id": "N6V3-B2-QWEN-R03__3QptLQ7",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:07:42.177309Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R03__3QptLQ7/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R03__3QptLQ7/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R03__3QptLQ7/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R04",
+      "historical_trial_id": "N6V3-B2-QWEN-R04__BAyugYJ",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "ACCOUNT_CONCURRENCY_LIMIT",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Concurrency limit exceeded for account, please retry later",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": true,
+      "finished_at": "2026-09-06T00:26:10.345708Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R04__BAyugYJ/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R04__BAyugYJ/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R04__BAyugYJ/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R05",
+      "historical_trial_id": "N6V3-B2-QWEN-R05__efM8SDs",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "ACCOUNT_CONCURRENCY_LIMIT",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Concurrency limit exceeded for account, please retry later",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": true,
+      "finished_at": "2026-09-06T00:28:42.022625Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R05__efM8SDs/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R05__efM8SDs/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R05__efM8SDs/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R06",
+      "historical_trial_id": "N6V3-B2-QWEN-R06__opcP3rC",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:09:32.374464Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R06__opcP3rC/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R06__opcP3rC/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R06__opcP3rC/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R07",
+      "historical_trial_id": "N6V3-B2-QWEN-R07__44PqrSC",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:10:03.788924Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R07__44PqrSC/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R07__44PqrSC/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R07__44PqrSC/config.json"
+      ]
+    },
+    {
+      "case": "B2-qwen-R08",
+      "historical_trial_id": "N6V3-B2-QWEN-R08__kXeYdAi",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:10:37.211590Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R08__kXeYdAi/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R08__kXeYdAi/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R08__kXeYdAi/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R01",
+      "historical_trial_id": "N6C1V2-QWEN-R01__fk8E5xn",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:11:10.595680Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R01__fk8E5xn/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R01__fk8E5xn/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R01__fk8E5xn/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R02",
+      "historical_trial_id": "N6C1V2-QWEN-R02__GWLRobQ",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:11:40.814312Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R02__GWLRobQ/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R02__GWLRobQ/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R02__GWLRobQ/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R03",
+      "historical_trial_id": "N6C1V2-QWEN-R03__VLNaNcy",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:12:11.159610Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R03__VLNaNcy/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R03__VLNaNcy/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R03__VLNaNcy/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R04",
+      "historical_trial_id": "N6C1V2-QWEN-R04__7v486UV",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:12:39.502971Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R04__7v486UV/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R04__7v486UV/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R04__7v486UV/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R05",
+      "historical_trial_id": "N6C1V2-QWEN-R05__jJnpU9z",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:32:45.140571Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R05__jJnpU9z/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R05__jJnpU9z/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R05__jJnpU9z/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R06",
+      "historical_trial_id": "N6C1V2-QWEN-R06__mS7JXsg",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:37:04.136852Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R06__mS7JXsg/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R06__mS7JXsg/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R06__mS7JXsg/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R07",
+      "historical_trial_id": "N6C1V2-QWEN-R07__6Wh2gu4",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:29:20.500622Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R07__6Wh2gu4/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R07__6Wh2gu4/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R07__6Wh2gu4/config.json"
+      ]
+    },
+    {
+      "case": "C1-qwen-R08",
+      "historical_trial_id": "N6C1V2-QWEN-R08__vPFpbTJ",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "GRAMMAR_API_400",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Failed to initialize samplers: failed to parse grammar",
+      "timeout_override_sec": 1200.0,
+      "concurrency_error_literal_present": false,
+      "finished_at": "2026-09-06T00:29:50.983578Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R08__vPFpbTJ/result.json",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R08__vPFpbTJ/agent/qwen-code.txt",
+        "campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6C1V2-QWEN-R08__vPFpbTJ/config.json"
+      ]
+    },
+    {
+      "case": "C2-qwen-R01",
+      "historical_trial_id": "N6BUDGET-C2-QWEN-R01__pJ77K3R",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "ACCOUNT_CONCURRENCY_LIMIT",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Concurrency limit exceeded for account, please retry later",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": true,
+      "finished_at": "2026-09-06T00:25:29.595116Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R01__pJ77K3R/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R01__pJ77K3R/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R01__pJ77K3R/config.json"
+      ]
+    },
+    {
+      "case": "C2-qwen-R02",
+      "historical_trial_id": "N6BUDGET-C2-QWEN-R02__pD2mpY9",
+      "historical_snapshot_at": "2026-09-06T01:12:27.087058+00:00",
+      "classification": "ACCOUNT_CONCURRENCY_LIMIT",
+      "exception_type": "UnknownApiError",
+      "evidence_excerpt": "Concurrency limit exceeded for account, please retry later",
+      "timeout_override_sec": null,
+      "concurrency_error_literal_present": true,
+      "finished_at": "2026-09-06T00:28:59.456418Z",
+      "business_score": null,
+      "business_ability_inference": "NOT_ESTABLISHED",
+      "evidence_files": [
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R02__pD2mpY9/result.json",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R02__pD2mpY9/agent/qwen-code.txt",
+        "campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R02__pD2mpY9/config.json"
+      ]
+    }
+  ],
+  "qwen_39_counts": {
+    "GRAMMAR_API_400": 28,
+    "AGENT_TIMEOUT": 6,
+    "ACCOUNT_CONCURRENCY_LIMIT": 5
+  },
+  "qwen_39_interpretation": "39 is historical no-Excel slots, not 39 identical API errors or a current remaining count. Existing recovered outputs must not be replaced with old failures.",
+  "scoring_policy_note": "Confirmed non-delivery may retain historical outcome-policy zero, but this audit does not change scores and does not interpret these cases as proven low domain ability. Upstream failures remain non-scoring."
+}

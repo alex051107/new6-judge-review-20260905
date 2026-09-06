@@ -1,0 +1,22 @@
+{
+  "case": "B1-claude-R08",
+  "trial_id": "NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__kPxWvsW",
+  "answer_sha256": "3cf222ff506e2667b025e1ebaaa593bcb3437b145bbb5518ade00a52da75670e",
+  "status": "SCORED",
+  "selected_judge_label": "release_lock:new6-offline-reader-v1",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "0.35234029340992007",
+    "R002": "0.009472636815920397",
+    "R003": "1.0",
+    "R004": "0.5910852713178295",
+    "R005": "0.5",
+    "R006": "0.5142552200574401",
+    "R007": "0.3333333333333333",
+    "R008": "1.0"
+  },
+  "original_points": "48.464891429840862355",
+  "focus50_points": "49.3685978031742891741758241758241758241758241758",
+  "focus60_points": "49.9710687187299070536263736263736263736263736264",
+  "focus70_points": "50.5735396342855249330769230769230769230769230769"
+}

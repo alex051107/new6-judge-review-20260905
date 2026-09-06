@@ -1,0 +1,37 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "score_decimal": null,
+  "pass": null,
+  "criterion_scores": null,
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "original_answer_sha256": "018ab1b94bbeefd0c7af70963344311d3f68fb3df457e4e9dfd77651eae45fd9"
+}

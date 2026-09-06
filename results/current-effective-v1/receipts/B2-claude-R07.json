@@ -1,0 +1,19 @@
+{
+  "case": "B2-claude-R07",
+  "trial_id": "N6V3-B2-CLAUDE-R07__pPAotRG",
+  "answer_sha256": "48313c50d2a6292abdaf1ce608ff428aa3368370f48a2174c45bc26f6643c42a",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b2-offline-v3.3-chart-roles",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "0.1",
+    "R003": "0.6787878787878788",
+    "R004": "0.3344444444444445",
+    "R005": "1.0"
+  },
+  "original_points": "56.15858585858586",
+  "focus50_points": "57.4992784992785010989010989010989010989010989011",
+  "focus60_points": "58.3930735930735951648351648351648351648351648352",
+  "focus70_points": "59.2868686868686892307692307692307692307692307692"
+}
