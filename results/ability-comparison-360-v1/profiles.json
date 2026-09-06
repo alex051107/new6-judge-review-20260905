@@ -1,0 +1,1380 @@
+{
+  "P15_V3/P15-C-PO-ADDENDUM-001": {
+    "focus": [
+      "R003",
+      "R004",
+      "R007",
+      "R008"
+    ],
+    "ability": "修订范围、保护未改项与前后证据",
+    "profiles": {
+      "original": {
+        "R001": 6.666666666666667,
+        "R002": 10.0,
+        "R003": 16.666666666666668,
+        "R004": 10.0,
+        "R005": 10.0,
+        "R006": 13.333333333333334,
+        "R007": 13.333333333333334,
+        "R008": 10.0,
+        "R009": 10.0,
+        "P001": -23.333333333333332
+      },
+      "focus_50": {
+        "P001": -23.333333333333332,
+        "R008": 10.0,
+        "R007": 13.333333333333334,
+        "R003": 16.666666666666668,
+        "R004": 10.0,
+        "R001": 2.0,
+        "R006": 14.76923076923077,
+        "R005": 11.076923076923077,
+        "R002": 11.076923076923077,
+        "R009": 11.076923076923077
+      },
+      "focus_60": {
+        "P001": -23.333333333333332,
+        "R008": 12.0,
+        "R007": 16.0,
+        "R003": 20.0,
+        "R004": 12.0,
+        "R001": 2.0,
+        "R006": 11.692307692307692,
+        "R005": 8.76923076923077,
+        "R002": 8.76923076923077,
+        "R009": 8.76923076923077
+      },
+      "focus_70": {
+        "P001": -23.333333333333332,
+        "R008": 14.0,
+        "R007": 18.666666666666668,
+        "R003": 23.333333333333332,
+        "R004": 14.0,
+        "R001": 2.0,
+        "R006": 8.615384615384615,
+        "R005": 6.461538461538462,
+        "R002": 6.461538461538462,
+        "R009": 6.461538461538462
+      }
+    },
+    "descriptions": {
+      "R001": "Workbook opens and contains PO_Header, Base_Schedule, Revised_Schedule, Revision_Log, Provenance, and Checks.",
+      "R002": "The supplied base schedule remains intact with correct line IDs, descriptions, quantities, prices, and units.",
+      "R003": "The revised schedule contains every base line plus the insertion and applies each listed addendum change to the correct supplied line ID.",
+      "R004": "The protected unlisted PO-04 row remains unchanged in the revised schedule.",
+      "R005": "Every revised line total and at least one visibly identified revised-schedule total are formula-linked and evaluate correctly.",
+      "R006": "Both manifest-selected revised-schedule changes—a quantity and a distinct unit price—update the affected line and every declared revised total while preserving unrelated and protected rows; duplicate total cells are not required.",
+      "R007": "The revision log records each changed/inserted line with semantically correct change type and before/after evidence; concise labels such as Quantity or Unit price are accepted.",
+      "R008": "Each changed supplied line ID links once to the correct addendum file/page with a candidate-readable locator.",
+      "R009": "Revised IDs are unique and the revised, log, and provenance populations are complete without duplicates.",
+      "P001": "Penalty for contradictory source-file or addendum-page claims in provenance."
+    }
+  },
+  "P15_V3/P15-B-HEALTH-REPORT-001": {
+    "focus": [
+      "R003",
+      "R006",
+      "R007"
+    ],
+    "ability": "数据支持的指标、报告和图表",
+    "profiles": {
+      "original": {
+        "R001": 3.7037037037037037,
+        "R002": 14.814814814814815,
+        "R003": 14.814814814814815,
+        "R004": 11.11111111111111,
+        "R005": 11.11111111111111,
+        "R006": 11.11111111111111,
+        "R007": 14.814814814814815,
+        "R008": 11.11111111111111,
+        "R009": 7.407407407407407
+      },
+      "focus_50": {
+        "R006": 13.636363636363637,
+        "R003": 18.181818181818183,
+        "R007": 18.181818181818183,
+        "R001": 2.0,
+        "R002": 12.8,
+        "R008": 9.6,
+        "R005": 9.6,
+        "R009": 6.4,
+        "R004": 9.6
+      },
+      "focus_60": {
+        "R006": 16.363636363636363,
+        "R003": 21.818181818181817,
+        "R007": 21.818181818181817,
+        "R001": 2.0,
+        "R002": 10.133333333333333,
+        "R008": 7.6,
+        "R005": 7.6,
+        "R009": 5.066666666666666,
+        "R004": 7.6
+      },
+      "focus_70": {
+        "R006": 19.09090909090909,
+        "R003": 25.454545454545453,
+        "R007": 25.454545454545453,
+        "R001": 2.0,
+        "R002": 7.466666666666667,
+        "R008": 5.6,
+        "R005": 5.6,
+        "R009": 3.7333333333333334,
+        "R004": 5.6
+      }
+    },
+    "descriptions": {
+      "R001": "A readable workbook contains every requested analytical and report sheet.",
+      "R002": "Analytical_Data contains exactly the Vermont and New Hampshire 2012-2017 records with correct state/year alignment.",
+      "R003": "Both states' baseline mean, current mean, absolute change, and percent change equal the independent replay.",
+      "R004": "The Vermont comparison is supported by the supplied Vermont rows and the stated baseline/current periods.",
+      "R005": "The New Hampshire comparison is supported by the supplied New Hampshire rows and the stated baseline/current periods.",
+      "R006": "The numerical briefing claims agree with the period metrics and identify the supporting workbook evidence.",
+      "R007": "The chart compares both states using the correct current-period values.",
+      "R008": "Every supplied Vermont, New Hampshire, and geography-map source field is preserved exactly.",
+      "R009": "The workbook exposes reviewable checks for coverage, completeness, and metric consistency."
+    }
+  },
+  "P15_V3/P15-B-SALES-DISCOVERY-001": {
+    "focus": [
+      "R002",
+      "R003",
+      "R005",
+      "R006"
+    ],
+    "ability": "正确版本、记录范围与选择证据",
+    "profiles": {
+      "original": {
+        "R001": 4.0,
+        "R002": 12.0,
+        "R003": 16.0,
+        "R004": 12.0,
+        "R005": 12.0,
+        "R006": 12.0,
+        "R007": 12.0,
+        "R008": 12.0,
+        "R009": 8.0
+      },
+      "focus_50": {
+        "R006": 11.538461538461538,
+        "R005": 11.538461538461538,
+        "R002": 11.538461538461538,
+        "R003": 15.384615384615385,
+        "R001": 2.0,
+        "R008": 13.090909090909092,
+        "R004": 13.090909090909092,
+        "R009": 8.727272727272727,
+        "R007": 13.090909090909092
+      },
+      "focus_60": {
+        "R006": 13.846153846153847,
+        "R005": 13.846153846153847,
+        "R002": 13.846153846153847,
+        "R003": 18.46153846153846,
+        "R001": 2.0,
+        "R008": 10.363636363636363,
+        "R004": 10.363636363636363,
+        "R009": 6.909090909090909,
+        "R007": 10.363636363636363
+      },
+      "focus_70": {
+        "R006": 16.153846153846153,
+        "R005": 16.153846153846153,
+        "R002": 16.153846153846153,
+        "R003": 21.53846153846154,
+        "R001": 2.0,
+        "R008": 7.636363636363637,
+        "R004": 7.636363636363637,
+        "R009": 5.090909090909091,
+        "R007": 7.636363636363637
+      }
+    },
+    "descriptions": {
+      "R001": "A readable workbook contains every requested operating-review sheet.",
+      "R002": "The source-selection record identifies the only approved, complete 2024Q2 schema-1.1 release.",
+      "R003": "Consolidated_Data contains exactly the six records from the selected release and no mixed-release records.",
+      "R004": "All four operating KPIs equal the independent replay of the selected records.",
+      "R005": "The selection explanation addresses approval, reporting period, schema, and regional coverage.",
+      "R006": "The chosen release identifier and file remain visible with the selected records.",
+      "R007": "Regional record counts and recognized revenue close to the six selected records.",
+      "R008": "Every release-registry source field is preserved exactly from release_registry.csv.",
+      "R009": "The chosen-source reason, four required-region statuses, and evidence labels remain reviewable."
+    }
+  },
+  "P15_V3/P15-B-PUBLIC-PIVOT-001": {
+    "focus": [
+      "R003",
+      "R007",
+      "R009"
+    ],
+    "ability": "原生源绑定、刷新与透视图关系",
+    "profiles": {
+      "original": {
+        "R001": 3.125,
+        "R002": 12.5,
+        "R003": 12.5,
+        "R004": 12.5,
+        "R005": 12.5,
+        "R006": 12.5,
+        "R007": 9.375,
+        "R008": 12.5,
+        "R009": 12.5
+      },
+      "focus_50": {
+        "R009": 18.181818181818183,
+        "R003": 18.181818181818183,
+        "R007": 13.636363636363637,
+        "R001": 2.0,
+        "R006": 9.6,
+        "R002": 9.6,
+        "R008": 9.6,
+        "R005": 9.6,
+        "R004": 9.6
+      },
+      "focus_60": {
+        "R009": 21.818181818181817,
+        "R003": 21.818181818181817,
+        "R007": 16.363636363636363,
+        "R001": 2.0,
+        "R006": 7.6,
+        "R002": 7.6,
+        "R008": 7.6,
+        "R005": 7.6,
+        "R004": 7.6
+      },
+      "focus_70": {
+        "R009": 25.454545454545453,
+        "R003": 25.454545454545453,
+        "R007": 19.09090909090909,
+        "R001": 2.0,
+        "R006": 5.6,
+        "R002": 5.6,
+        "R008": 5.6,
+        "R005": 5.6,
+        "R004": 5.6
+      }
+    },
+    "descriptions": {
+      "R001": "The workbook opens and contains the native reporting objects requested by the task.",
+      "R002": "An Excel Table preserves exactly the eight supplied source events and six source fields.",
+      "R003": "A genuine PivotCache binds to that source table/range with the six source-field identities.",
+      "R004": "The native PivotTable places Region in rows and Program in columns.",
+      "R005": "Quarter is a page filter selected to exactly 2024Q2.",
+      "R006": "Participants and Spend are native SUM measures.",
+      "R007": "The PivotCache is refreshable and configured to refresh when the workbook opens.",
+      "R008": "GETPIVOTDATA-linked KPI cells have the Excel-calculated participant, spend, and split-specific focus values.",
+      "R009": "A clustered-column PivotChart is bound to the native PivotTable; a regular range chart does not qualify."
+    }
+  },
+  "P15_V3/P15-A-POLICY-EIA-001": {
+    "focus": [
+      "R004",
+      "R005",
+      "R008",
+      "R009",
+      "R012"
+    ],
+    "ability": "政策平衡、排放和情景传播（旧合同问题标记）",
+    "profiles": {
+      "original": {
+        "R001": 4.0,
+        "R002": 12.0,
+        "R003": 8.0,
+        "R004": 12.0,
+        "R005": 12.0,
+        "R006": 8.0,
+        "R007": 8.0,
+        "R008": 8.0,
+        "R009": 8.0,
+        "R010": 8.0,
+        "R011": 8.0,
+        "R012": 4.0,
+        "P001": -24.0
+      },
+      "focus_50": {
+        "P001": -24.0,
+        "R008": 9.090909090909092,
+        "R005": 13.636363636363637,
+        "R012": 4.545454545454546,
+        "R009": 9.090909090909092,
+        "R004": 13.636363636363637,
+        "R001": 2.0,
+        "R006": 7.384615384615385,
+        "R011": 7.384615384615385,
+        "R002": 11.076923076923077,
+        "R003": 7.384615384615385,
+        "R007": 7.384615384615385,
+        "R010": 7.384615384615385
+      },
+      "focus_60": {
+        "P001": -24.0,
+        "R008": 10.909090909090908,
+        "R005": 16.363636363636363,
+        "R012": 5.454545454545454,
+        "R009": 10.909090909090908,
+        "R004": 16.363636363636363,
+        "R001": 2.0,
+        "R006": 5.846153846153846,
+        "R011": 5.846153846153846,
+        "R002": 8.76923076923077,
+        "R003": 5.846153846153846,
+        "R007": 5.846153846153846,
+        "R010": 5.846153846153846
+      },
+      "focus_70": {
+        "P001": -24.0,
+        "R008": 12.727272727272727,
+        "R005": 19.09090909090909,
+        "R012": 6.363636363636363,
+        "R009": 12.727272727272727,
+        "R004": 19.09090909090909,
+        "R001": 2.0,
+        "R006": 4.3076923076923075,
+        "R011": 4.3076923076923075,
+        "R002": 6.461538461538462,
+        "R003": 4.3076923076923075,
+        "R007": 4.3076923076923075,
+        "R010": 4.3076923076923075
+      }
+    },
+    "descriptions": {
+      "R001": "A readable scenario workbook opens and retains all requested sheets.",
+      "R002": "Policy coal generation applies the documented displacement rate to the protected source value.",
+      "R003": "Policy wind and solar generation apply their documented uplift schedules.",
+      "R004": "Gas generation closes the policy demand balance and the results sheet reports the gas change.",
+      "R005": "Policy emissions match the independent replay and remain formula-linked.",
+      "R006": "The results sheet calculates absolute emissions reduction from the two scenarios.",
+      "R007": "The results sheet calculates emissions-intensity reduction from the two scenarios.",
+      "R008": "Changing the coal-displacement assumption updates coal, gas, policy emissions, and emissions reduction to the replayed values.",
+      "R009": "Base and policy modeled generation each balance to their corresponding demand.",
+      "R010": "Emissions use the protected coal and gas factors through workbook formulas.",
+      "R011": "Historical generation, demand, and emissions-factor inputs remain unchanged.",
+      "R012": "A distinct policy-demand-growth perturbation updates demand, balancing gas, emissions, intensity, and reported results while preserving source generation and the coal/renewable policy schedule.",
+      "P001": "Penalty for overwriting protected source values, hardcoding core scenario outputs, or breaking either demand balance."
+    }
+  },
+  "P15_V3/P15-C-RECEIPTS-001": {
+    "focus": [
+      "R002",
+      "R003",
+      "R004",
+      "R008"
+    ],
+    "ability": "票据和明细身份、完整性与来源",
+    "profiles": {
+      "original": {
+        "R001": 6.666666666666667,
+        "R002": 13.333333333333334,
+        "R003": 13.333333333333334,
+        "R004": 10.0,
+        "R005": 10.0,
+        "R006": 13.333333333333334,
+        "R007": 10.0,
+        "R008": 13.333333333333334,
+        "R009": 10.0,
+        "P001": -23.333333333333332
+      },
+      "focus_50": {
+        "P001": -23.333333333333332,
+        "R008": 13.333333333333334,
+        "R002": 13.333333333333334,
+        "R003": 13.333333333333334,
+        "R004": 10.0,
+        "R001": 2.0,
+        "R006": 14.76923076923077,
+        "R005": 11.076923076923077,
+        "R009": 11.076923076923077,
+        "R007": 11.076923076923077
+      },
+      "focus_60": {
+        "P001": -23.333333333333332,
+        "R008": 16.0,
+        "R002": 16.0,
+        "R003": 16.0,
+        "R004": 12.0,
+        "R001": 2.0,
+        "R006": 11.692307692307692,
+        "R005": 8.76923076923077,
+        "R009": 8.76923076923077,
+        "R007": 8.76923076923077
+      },
+      "focus_70": {
+        "P001": -23.333333333333332,
+        "R008": 18.666666666666668,
+        "R002": 18.666666666666668,
+        "R003": 18.666666666666668,
+        "R004": 14.0,
+        "R001": 2.0,
+        "R006": 8.615384615384615,
+        "R005": 6.461538461538462,
+        "R009": 6.461538461538462,
+        "R007": 6.461538461538462
+      }
+    },
+    "descriptions": {
+      "R001": "Workbook opens and exposes identifiable receipt identity, item, category, reconciliation, and source-traceability sections.",
+      "R002": "Each supplied receipt is represented once with the correct merchant, date, and source filename, independent of row order or candidate-assigned document ID.",
+      "R003": "Each receipt item is represented once with the correct source receipt, description, modifier, amount, and category.",
+      "R004": "Document and item IDs/linkage are non-empty, unique where required, and complete without duplicate source items.",
+      "R005": "Each document subtotal, tax, tip, and total agrees with the receipt-grounded amount, whether values are static or formula-linked.",
+      "R006": "Document totals, category totals, and the batch reconciliation agree with one another and with the supplied receipts.",
+      "R007": "Category-summary values agree with the receipt-grounded category totals independent of formula use or row order.",
+      "R008": "Each item links once to the correct receipt image with a candidate-readable locator; no private locator token is required.",
+      "R009": "Reconciliation document count, item count, and batch total evaluate correctly, whether static or formula-linked.",
+      "P001": "Penalty for provenance that cites a receipt filename outside the supplied sources."
+    }
+  },
+  "P15_V3/P15-C-STATEMENT-001": {
+    "focus": [
+      "R003",
+      "R004",
+      "R006",
+      "R009"
+    ],
+    "ability": "交易方向、完整性与余额来源闭合",
+    "profiles": {
+      "original": {
+        "R001": 6.666666666666667,
+        "R002": 10.0,
+        "R003": 16.666666666666668,
+        "R004": 10.0,
+        "R005": 10.0,
+        "R006": 10.0,
+        "R007": 13.333333333333334,
+        "R008": 10.0,
+        "R009": 13.333333333333334,
+        "P001": -23.333333333333332
+      },
+      "focus_50": {
+        "P001": -23.333333333333332,
+        "R006": 10.0,
+        "R009": 13.333333333333334,
+        "R003": 16.666666666666668,
+        "R004": 10.0,
+        "R001": 2.0,
+        "R008": 11.076923076923077,
+        "R005": 11.076923076923077,
+        "R002": 11.076923076923077,
+        "R007": 14.76923076923077
+      },
+      "focus_60": {
+        "P001": -23.333333333333332,
+        "R006": 12.0,
+        "R009": 16.0,
+        "R003": 20.0,
+        "R004": 12.0,
+        "R001": 2.0,
+        "R008": 8.76923076923077,
+        "R005": 8.76923076923077,
+        "R002": 8.76923076923077,
+        "R007": 11.692307692307692
+      },
+      "focus_70": {
+        "P001": -23.333333333333332,
+        "R006": 14.0,
+        "R009": 18.666666666666668,
+        "R003": 23.333333333333332,
+        "R004": 14.0,
+        "R001": 2.0,
+        "R008": 6.461538461538462,
+        "R005": 6.461538461538462,
+        "R002": 6.461538461538462,
+        "R007": 8.615384615384615
+      }
+    },
+    "descriptions": {
+      "R001": "Workbook opens and exposes identifiable statement identity, transaction, category, reconciliation, and source-traceability sections independent of fixed row positions.",
+      "R002": "Account identity, period, currency, and opening/statement closing balances match the supplied statement.",
+      "R003": "Each statement transaction is represented once with the correct date, description, debit/credit direction, amount, and page, independent of row order or candidate-assigned ID.",
+      "R004": "Transaction IDs are non-empty and unique, and transaction/provenance populations are complete without duplicates.",
+      "R005": "Every populated transaction net amount, when provided, evaluates to credit minus debit; a separate net formula column is not required.",
+      "R006": "Opening balance, total credits, total debits, and calculated closing balance are formula-linked and reconcile to the statement balance.",
+      "R007": "Both manifest-selected transaction changes—a credit and a distinct debit—update the formula-linked reconciliation while preserving unrelated balances.",
+      "R008": "Category labels are semantically valid and category values agree with the signed transaction table independent of formula use, label wording, or row order.",
+      "R009": "Each transaction ID links once to the correct statement file/page with a candidate-readable locator; no private locator token is required.",
+      "P001": "Penalty for fabricated statement provenance."
+    }
+  },
+  "P15_V3/P15-A-STAT-EXPERIMENT-001": {
+    "focus": [
+      "R004",
+      "R005",
+      "R006",
+      "R010"
+    ],
+    "ability": "配对推断、区间和结论一致性",
+    "profiles": {
+      "original": {
+        "R001": 4.3478260869565215,
+        "R002": 8.695652173913043,
+        "R003": 8.695652173913043,
+        "R004": 13.043478260869565,
+        "R005": 13.043478260869565,
+        "R006": 8.695652173913043,
+        "R007": 8.695652173913043,
+        "R008": 8.695652173913043,
+        "R009": 8.695652173913043,
+        "R010": 8.695652173913043,
+        "R011": 8.695652173913043
+      },
+      "focus_50": {
+        "R006": 10.0,
+        "R005": 15.0,
+        "R010": 10.0,
+        "R004": 15.0,
+        "R001": 2.0,
+        "R011": 8.0,
+        "R002": 8.0,
+        "R003": 8.0,
+        "R008": 8.0,
+        "R007": 8.0,
+        "R009": 8.0
+      },
+      "focus_60": {
+        "R006": 12.0,
+        "R005": 18.0,
+        "R010": 12.0,
+        "R004": 18.0,
+        "R001": 2.0,
+        "R011": 6.333333333333333,
+        "R002": 6.333333333333333,
+        "R003": 6.333333333333333,
+        "R008": 6.333333333333333,
+        "R007": 6.333333333333333,
+        "R009": 6.333333333333333
+      },
+      "focus_70": {
+        "R006": 14.0,
+        "R005": 21.0,
+        "R010": 14.0,
+        "R004": 21.0,
+        "R001": 2.0,
+        "R011": 4.666666666666667,
+        "R002": 4.666666666666667,
+        "R003": 4.666666666666667,
+        "R008": 4.666666666666667,
+        "R007": 4.666666666666667,
+        "R009": 4.666666666666667
+      }
+    },
+    "descriptions": {
+      "R001": "The workbook opens and the paired data and requested analysis are identifiable without relying on sheet names.",
+      "R002": "Every paired-difference row uses Group 2 minus Group 1 and is numerically correct.",
+      "R003": "Paired sample size and mean difference agree with the independent analysis.",
+      "R004": "Paired SD, SE, t statistic, and degrees of freedom agree with the independent analysis.",
+      "R005": "The two-sided paired-test p-value uses the declared method and agrees with the independent analysis.",
+      "R006": "Both 95% confidence-interval bounds agree with the independent paired analysis.",
+      "R007": "The planned paired sample size equals the declared normal-approximation result.",
+      "R008": "A chart is bound to all ten paired-difference rows, directly or through formula-linked helper cells.",
+      "R009": "The paired-difference calculation and its chart-linked value update when a source observation changes.",
+      "R010": "The decision summary applies the declared two-sided 0.05 rule to the calculated p-value.",
+      "R011": "All ten source pairs and their subject order match the supplied observations."
+    }
+  },
+  "P15_V3/P15-C-QUOTE-001": {
+    "focus": [
+      "R003",
+      "R004",
+      "R005",
+      "R007"
+    ],
+    "ability": "范围身份、包含排除与一致性",
+    "profiles": {
+      "original": {
+        "R001": 6.896551724137931,
+        "R002": 10.344827586206897,
+        "R003": 13.793103448275861,
+        "R004": 10.344827586206897,
+        "R005": 10.344827586206897,
+        "R006": 13.793103448275861,
+        "R007": 10.344827586206897,
+        "R008": 13.793103448275861,
+        "R009": 10.344827586206897,
+        "P001": -24.137931034482758
+      },
+      "focus_50": {
+        "P001": -24.137931034482758,
+        "R007": 11.538461538461538,
+        "R005": 11.538461538461538,
+        "R003": 15.384615384615385,
+        "R004": 11.538461538461538,
+        "R001": 2.0,
+        "R006": 13.714285714285714,
+        "R002": 10.285714285714286,
+        "R008": 13.714285714285714,
+        "R009": 10.285714285714286
+      },
+      "focus_60": {
+        "P001": -24.137931034482758,
+        "R007": 13.846153846153847,
+        "R005": 13.846153846153847,
+        "R003": 18.46153846153846,
+        "R004": 13.846153846153847,
+        "R001": 2.0,
+        "R006": 10.857142857142858,
+        "R002": 8.142857142857142,
+        "R008": 10.857142857142858,
+        "R009": 8.142857142857142
+      },
+      "focus_70": {
+        "P001": -24.137931034482758,
+        "R007": 16.153846153846153,
+        "R005": 16.153846153846153,
+        "R003": 21.53846153846154,
+        "R004": 16.153846153846153,
+        "R001": 2.0,
+        "R006": 8.0,
+        "R002": 6.0,
+        "R008": 8.0,
+        "R009": 6.0
+      }
+    },
+    "descriptions": {
+      "R001": "Workbook opens and exposes identifiable quote identity, scope, totals, and source-traceability sections.",
+      "R002": "Quote identity, customer, issue/valid-through dates, and currency match the supplied scan.",
+      "R003": "Each source scope row is represented once with the correct description and amount, independent of row order or candidate-assigned ID.",
+      "R004": "Base-scope versus optional-alternate semantics are preserved for every scope row.",
+      "R005": "Base-scope subtotal agrees with the included rows and excludes the optional alternate, whether values are static or formula-linked.",
+      "R006": "Discount, tax, and final base-scope total evaluate correctly under an equivalent positive-deduction or negative-signed-discount convention.",
+      "R007": "Displayed subtotal, discount, tax, final total, and optional alternate are arithmetically coherent and preserve the alternate-exclusion invariant.",
+      "R008": "Each scope-row ID links once to the supplied scan with a candidate-readable locator; no private locator token is required.",
+      "R009": "Scope IDs are non-empty and unique, and scope/provenance populations are complete without duplicates.",
+      "P001": "Penalty for contradictory source-file or page claims in quote provenance."
+    }
+  },
+  "P15_V3/P15-A-FIN-DEBUG-001": {
+    "focus": [
+      "R002",
+      "R006",
+      "R009",
+      "R012"
+    ],
+    "ability": "根因修复、局部性与传播",
+    "profiles": {
+      "original": {
+        "R001": 3.8461538461538463,
+        "R002": 15.384615384615385,
+        "R003": 7.6923076923076925,
+        "R004": 7.6923076923076925,
+        "R005": 11.538461538461538,
+        "R006": 7.6923076923076925,
+        "R007": 7.6923076923076925,
+        "R008": 7.6923076923076925,
+        "R009": 11.538461538461538,
+        "R010": 7.6923076923076925,
+        "R011": 7.6923076923076925,
+        "R012": 3.8461538461538463
+      },
+      "focus_50": {
+        "R006": 10.0,
+        "R002": 20.0,
+        "R012": 5.0,
+        "R009": 15.0,
+        "R001": 2.0,
+        "R011": 6.4,
+        "R003": 6.4,
+        "R008": 6.4,
+        "R005": 9.6,
+        "R007": 6.4,
+        "R004": 6.4,
+        "R010": 6.4
+      },
+      "focus_60": {
+        "R006": 12.0,
+        "R002": 24.0,
+        "R012": 6.0,
+        "R009": 18.0,
+        "R001": 2.0,
+        "R011": 5.066666666666666,
+        "R003": 5.066666666666666,
+        "R008": 5.066666666666666,
+        "R005": 7.6,
+        "R007": 5.066666666666666,
+        "R004": 5.066666666666666,
+        "R010": 5.066666666666666
+      },
+      "focus_70": {
+        "R006": 14.0,
+        "R002": 28.0,
+        "R012": 7.0,
+        "R009": 21.0,
+        "R001": 2.0,
+        "R011": 3.7333333333333334,
+        "R003": 3.7333333333333334,
+        "R008": 3.7333333333333334,
+        "R005": 5.6,
+        "R007": 3.7333333333333334,
+        "R004": 3.7333333333333334,
+        "R010": 3.7333333333333334
+      }
+    },
+    "descriptions": {
+      "R001": "The workbook opens and retains every required model sheet.",
+      "R002": "The repaired 2027 revenue formula produces the independent root-cause result.",
+      "R003": "The 2027 accounts-receivable result reconciles to the independent operating-model replay.",
+      "R004": "The 2027 interest expense reconciles to the independent debt-schedule replay.",
+      "R005": "The 2027 free-cash-flow output reconciles to the independent operating-model replay.",
+      "R006": "The repaired revenue and downstream cash-flow chain respond correctly to the declared 2027 price perturbation.",
+      "R007": "The summary free-cash-flow bridge ties exactly to contribution, working capital, and interest.",
+      "R008": "The 2027 debt-service coverage ratio agrees with the independent replay.",
+      "R009": "Only the declared root-cause formula cell differs from the starting workbook.",
+      "R010": "Every declared assumption cell remains unchanged.",
+      "R011": "Every declared downstream model output remains formula-linked.",
+      "R012": "The receivables and free-cash-flow chain responds correctly to the distinct 2027 DSO perturbation while revenue, contribution, and interest remain invariant."
+    }
+  },
+  "P15_V3/P15-A-ENG-SIZING-001": {
+    "focus": [
+      "R006",
+      "R007",
+      "R008",
+      "R012"
+    ],
+    "ability": "约束下的设备选择与两种输入变化",
+    "profiles": {
+      "original": {
+        "R001": 4.166666666666667,
+        "R002": 12.5,
+        "R003": 12.5,
+        "R004": 8.333333333333334,
+        "R005": 8.333333333333334,
+        "R006": 12.5,
+        "R007": 12.5,
+        "R008": 8.333333333333334,
+        "R009": 4.166666666666667,
+        "R010": 4.166666666666667,
+        "R011": 8.333333333333334,
+        "R012": 4.166666666666667
+      },
+      "focus_50": {
+        "R006": 16.666666666666668,
+        "R012": 5.555555555555555,
+        "R008": 11.11111111111111,
+        "R007": 16.666666666666668,
+        "R001": 2.0,
+        "R011": 6.857142857142857,
+        "R002": 10.285714285714286,
+        "R003": 10.285714285714286,
+        "R005": 6.857142857142857,
+        "R009": 3.4285714285714284,
+        "R004": 6.857142857142857,
+        "R010": 3.4285714285714284
+      },
+      "focus_60": {
+        "R006": 20.0,
+        "R012": 6.666666666666667,
+        "R008": 13.333333333333334,
+        "R007": 20.0,
+        "R001": 2.0,
+        "R011": 5.428571428571429,
+        "R002": 8.142857142857142,
+        "R003": 8.142857142857142,
+        "R005": 5.428571428571429,
+        "R009": 2.7142857142857144,
+        "R004": 5.428571428571429,
+        "R010": 2.7142857142857144
+      },
+      "focus_70": {
+        "R006": 23.333333333333332,
+        "R012": 7.777777777777778,
+        "R008": 15.555555555555555,
+        "R007": 23.333333333333332,
+        "R001": 2.0,
+        "R011": 4.0,
+        "R002": 6.0,
+        "R003": 6.0,
+        "R005": 4.0,
+        "R009": 2.0,
+        "R004": 4.0,
+        "R010": 2.0
+      }
+    },
+    "descriptions": {
+      "R001": "The workbook opens and contains the required sizing content in a deterministically identifiable layout.",
+      "R002": "Flow, diameter, and cross-sectional-area conversions agree with the independent SI replay.",
+      "R003": "Velocity, velocity head, friction head, and total dynamic head agree with the hydraulic replay.",
+      "R004": "Hydraulic and shaft power agree with the independent replay.",
+      "R005": "Safety-adjusted minimum flow and motor rating agree with the independent replay.",
+      "R006": "Each catalog row's eligibility status matches all three sizing constraints.",
+      "R007": "The selected pump is the first eligible catalog option.",
+      "R008": "Hydraulic sizing and pump selection respond correctly to the declared design-flow perturbation.",
+      "R009": "Every declared engineering output carries the required unit label.",
+      "R010": "Any check rows the workbook declares evaluate to PASS; a separate check sheet is optional.",
+      "R011": "The declared design inputs and catalog capacity values remain unchanged.",
+      "R012": "The hydraulic head, motor requirement, eligibility, and selection respond correctly to a distinct internal-diameter perturbation while design flow and catalog values remain invariant."
+    }
+  },
+  "P15_V3/P15-B-FIN-RECON-001": {
+    "focus": [
+      "R003",
+      "R004",
+      "R006",
+      "R007"
+    ],
+    "ability": "匹配、批准调整、异常和闭合",
+    "profiles": {
+      "original": {
+        "R001": 3.8461538461538463,
+        "R002": 15.384615384615385,
+        "R003": 15.384615384615385,
+        "R004": 11.538461538461538,
+        "R005": 11.538461538461538,
+        "R006": 11.538461538461538,
+        "R007": 11.538461538461538,
+        "R008": 11.538461538461538,
+        "R009": 7.6923076923076925
+      },
+      "focus_50": {
+        "R006": 11.538461538461538,
+        "R007": 11.538461538461538,
+        "R003": 15.384615384615385,
+        "R004": 11.538461538461538,
+        "R001": 2.0,
+        "R008": 12.0,
+        "R005": 12.0,
+        "R002": 16.0,
+        "R009": 8.0
+      },
+      "focus_60": {
+        "R006": 13.846153846153847,
+        "R007": 13.846153846153847,
+        "R003": 18.46153846153846,
+        "R004": 13.846153846153847,
+        "R001": 2.0,
+        "R008": 9.5,
+        "R005": 9.5,
+        "R002": 12.666666666666666,
+        "R009": 6.333333333333333
+      },
+      "focus_70": {
+        "R006": 16.153846153846153,
+        "R007": 16.153846153846153,
+        "R003": 21.53846153846154,
+        "R004": 16.153846153846153,
+        "R001": 2.0,
+        "R008": 7.0,
+        "R005": 7.0,
+        "R002": 9.333333333333334,
+        "R009": 4.666666666666667
+      }
+    },
+    "descriptions": {
+      "R001": "A readable workbook contains every requested reconciliation sheet.",
+      "R002": "All ten ledger/subledger records use the correct transaction-date FX rate and USD normalization.",
+      "R003": "Only in-period invoice pairs are matched, with correct source amounts, approved adjustment, differences, and the $1 tolerance status.",
+      "R004": "The variance bridge and final decision close to the matched and unmatched records.",
+      "R005": "The workbook shows the transaction-date FX evidence used for normalization.",
+      "R006": "The approved ADJ-105 evidence is retained and applied to INV-105 before tolerance is assessed.",
+      "R007": "Ledger-only and subledger-only exceptions remain distinct with correct identities and amounts.",
+      "R008": "Every ledger, subledger, FX-rate, and adjustment-evidence source field is preserved exactly.",
+      "R009": "Checks expose the matched difference, exception count, and final closure residual in reviewable form."
+    }
+  },
+  "P15_V3/P15-C-INVOICE-001": {
+    "focus": [
+      "R003",
+      "R005",
+      "R006",
+      "R007"
+    ],
+    "ability": "行身份、应付关系与更新",
+    "profiles": {
+      "original": {
+        "R001": 6.896551724137931,
+        "R002": 10.344827586206897,
+        "R003": 13.793103448275861,
+        "R004": 10.344827586206897,
+        "R005": 10.344827586206897,
+        "R006": 10.344827586206897,
+        "R007": 13.793103448275861,
+        "R008": 13.793103448275861,
+        "R009": 10.344827586206897,
+        "P001": -24.137931034482758
+      },
+      "focus_50": {
+        "P001": -24.137931034482758,
+        "R006": 10.714285714285714,
+        "R005": 10.714285714285714,
+        "R003": 14.285714285714286,
+        "R007": 14.285714285714286,
+        "R001": 2.0,
+        "R008": 14.76923076923077,
+        "R004": 11.076923076923077,
+        "R002": 11.076923076923077,
+        "R009": 11.076923076923077
+      },
+      "focus_60": {
+        "P001": -24.137931034482758,
+        "R006": 12.857142857142858,
+        "R005": 12.857142857142858,
+        "R003": 17.142857142857142,
+        "R007": 17.142857142857142,
+        "R001": 2.0,
+        "R008": 11.692307692307692,
+        "R004": 8.76923076923077,
+        "R002": 8.76923076923077,
+        "R009": 8.76923076923077
+      },
+      "focus_70": {
+        "P001": -24.137931034482758,
+        "R006": 15.0,
+        "R005": 15.0,
+        "R003": 20.0,
+        "R007": 20.0,
+        "R001": 2.0,
+        "R008": 8.615384615384615,
+        "R004": 6.461538461538462,
+        "R002": 6.461538461538462,
+        "R009": 6.461538461538462
+      }
+    },
+    "descriptions": {
+      "R001": "Workbook opens and exposes identifiable invoice header, line-item, calculation, and provenance sections independent of sheet names or fixed cell positions.",
+      "R002": "Invoice identity, parties, date, currency, and PO reference match the supplied invoice.",
+      "R003": "Each source line is represented once with the correct description, quantity, unit price, and page, independent of row order or candidate-assigned ID.",
+      "R004": "Every populated line total is a formula that evaluates to quantity multiplied by unit price.",
+      "R005": "Subtotal, discount, and taxable amount are formula-linked and evaluate correctly.",
+      "R006": "Tax and payable total are formula-linked; freight and final payable amount evaluate correctly.",
+      "R007": "Both manifest-selected source changes—a unit-price change and a distinct quantity change—update every declared downstream invoice total while preserving unrelated values.",
+      "R008": "Each line ID links once to the correct source file and page with a candidate-readable locator; no private locator token is required.",
+      "R009": "Line IDs are non-empty and unique, and the line/provenance populations are complete without duplicates.",
+      "P001": "Penalty for fabricated source-file or page provenance."
+    }
+  },
+  "P15_V3/P15-B-OPS-CLEAN-JOIN-001": {
+    "focus": [
+      "R002",
+      "R003",
+      "R007"
+    ],
+    "ability": "清洗政策、连接身份与异常",
+    "profiles": {
+      "original": {
+        "R001": 3.8461538461538463,
+        "R002": 15.384615384615385,
+        "R003": 15.384615384615385,
+        "R004": 11.538461538461538,
+        "R005": 11.538461538461538,
+        "R006": 11.538461538461538,
+        "R007": 11.538461538461538,
+        "R008": 11.538461538461538,
+        "R009": 7.6923076923076925
+      },
+      "focus_50": {
+        "R002": 18.181818181818183,
+        "R003": 18.181818181818183,
+        "R007": 13.636363636363637,
+        "R001": 2.0,
+        "R006": 10.285714285714286,
+        "R008": 10.285714285714286,
+        "R005": 10.285714285714286,
+        "R009": 6.857142857142857,
+        "R004": 10.285714285714286
+      },
+      "focus_60": {
+        "R002": 21.818181818181817,
+        "R003": 21.818181818181817,
+        "R007": 16.363636363636363,
+        "R001": 2.0,
+        "R006": 8.142857142857142,
+        "R008": 8.142857142857142,
+        "R005": 8.142857142857142,
+        "R009": 5.428571428571429,
+        "R004": 8.142857142857142
+      },
+      "focus_70": {
+        "R002": 25.454545454545453,
+        "R003": 25.454545454545453,
+        "R007": 19.09090909090909,
+        "R001": 2.0,
+        "R006": 6.0,
+        "R008": 6.0,
+        "R005": 6.0,
+        "R009": 4.0,
+        "R004": 6.0
+      }
+    },
+    "descriptions": {
+      "R001": "A readable workbook contains every requested operations sheet.",
+      "R002": "Clean_Data classifies each raw order with the required normalization and duplicate policy.",
+      "R003": "Joined_Data contains exactly the valid one-to-one joins with correct product, region, units, unit cost, and extended cost.",
+      "R004": "Each accepted order uses the correct units and product cost to produce its extended cost.",
+      "R005": "The accepted-order total is $3,940 and excludes duplicates and invalid joins.",
+      "R006": "A reviewable weekly order-cost view is present for the accepted records.",
+      "R007": "The four task-specific exceptions are complete and excluded from the accepted-order total.",
+      "R008": "Every raw-order, product-master, and location-master source field is preserved exactly.",
+      "R009": "Checks report the accepted count, exception count, and total cost in a reviewable form."
+    }
+  },
+  "P15_V3/P15-A-FIN-DCF-001": {
+    "focus": [
+      "R007",
+      "R008",
+      "R009",
+      "R010"
+    ],
+    "ability": "估值桥、敏感性和输入变化传播",
+    "profiles": {
+      "original": {
+        "R001": 3.7037037037037037,
+        "R002": 11.11111111111111,
+        "R003": 11.11111111111111,
+        "R004": 11.11111111111111,
+        "R005": 7.407407407407407,
+        "R006": 11.11111111111111,
+        "R007": 11.11111111111111,
+        "R008": 11.11111111111111,
+        "R009": 7.407407407407407,
+        "R010": 7.407407407407407,
+        "R011": 7.407407407407407
+      },
+      "focus_50": {
+        "R008": 15.0,
+        "R009": 10.0,
+        "R010": 10.0,
+        "R007": 15.0,
+        "R001": 2.0,
+        "R006": 9.0,
+        "R011": 6.0,
+        "R002": 9.0,
+        "R003": 9.0,
+        "R005": 6.0,
+        "R004": 9.0
+      },
+      "focus_60": {
+        "R008": 18.0,
+        "R009": 12.0,
+        "R010": 12.0,
+        "R007": 18.0,
+        "R001": 2.0,
+        "R006": 7.125,
+        "R011": 4.75,
+        "R002": 7.125,
+        "R003": 7.125,
+        "R005": 4.75,
+        "R004": 7.125
+      },
+      "focus_70": {
+        "R008": 21.0,
+        "R009": 14.0,
+        "R010": 14.0,
+        "R007": 21.0,
+        "R001": 2.0,
+        "R006": 5.25,
+        "R011": 3.5,
+        "R002": 5.25,
+        "R003": 5.25,
+        "R005": 3.5,
+        "R004": 5.25
+      }
+    },
+    "descriptions": {
+      "R001": "The workbook opens and contains every required DCF sheet.",
+      "R002": "Each forecast-period revenue formula agrees with the independent replay.",
+      "R003": "The EBIT-to-NOPAT bridge agrees with the independent replay in every forecast period.",
+      "R004": "The D&A, capex, NWC, and UFCF bridge agrees with the independent replay in every forecast period.",
+      "R005": "Forecast discount factors and present values agree with the independent replay.",
+      "R006": "The terminal FCF, terminal value, and discounted terminal value agree with the independent replay.",
+      "R007": "The forecast-PV, enterprise-value, net-debt, and equity-value bridge agrees with the independent replay.",
+      "R008": "Every declared WACC-by-terminal-growth sensitivity coordinate is formula-linked and correct.",
+      "R009": "The terminal forecast revenue responds correctly to the declared growth perturbation.",
+      "R010": "Enterprise value responds correctly to the declared WACC perturbation.",
+      "R011": "The declared historical source cells remain unchanged."
+    }
+  },
+  "NEW6_REPAIRED/A1": {
+    "focus": [
+      "R004"
+    ],
+    "ability": "估值输入变化传播",
+    "profiles": {
+      "original": {
+        "R001": 10.0,
+        "R002": 25.0,
+        "R003": 20.0,
+        "R004": 35.0,
+        "R005": 5.0,
+        "R006": 5.0
+      },
+      "focus_50": {
+        "R004": 50.0,
+        "R006": 3.8461538461538463,
+        "R002": 19.23076923076923,
+        "R003": 15.384615384615385,
+        "R005": 3.8461538461538463,
+        "R001": 7.6923076923076925
+      },
+      "focus_60": {
+        "R004": 60.0,
+        "R006": 3.076923076923077,
+        "R002": 15.384615384615385,
+        "R003": 12.307692307692308,
+        "R005": 3.076923076923077,
+        "R001": 6.153846153846154
+      },
+      "focus_70": {
+        "R004": 70.0,
+        "R006": 2.3076923076923075,
+        "R002": 11.538461538461538,
+        "R003": 9.23076923076923,
+        "R005": 2.3076923076923075,
+        "R001": 4.615384615384615
+      }
+    },
+    "descriptions": {
+      "R001": "源输入、时间与金额单位正确",
+      "R002": "逐年经营预测和费用关系正确",
+      "R003": "再投资、现金流与估值桥正确",
+      "R004": "声明的输入变化传到正确输出",
+      "R005": "历史、base和不相关模型内容保留",
+      "R006": "候选实际展示的两情景结论可核对"
+    }
+  },
+  "NEW6_REPAIRED/A2": {
+    "focus": [
+      "R004"
+    ],
+    "ability": "投资目标和过渡年的情景传播",
+    "profiles": {
+      "original": {
+        "R001": 15.0,
+        "R002": 35.0,
+        "R003": 20.0,
+        "R004": 20.0,
+        "R005": 5.0,
+        "R006": 5.0
+      },
+      "focus_50": {
+        "R004": 50.0,
+        "R006": 3.125,
+        "R002": 21.875,
+        "R003": 12.5,
+        "R005": 3.125,
+        "R001": 9.375
+      },
+      "focus_60": {
+        "R004": 60.0,
+        "R006": 2.5,
+        "R002": 17.5,
+        "R003": 10.0,
+        "R005": 2.5,
+        "R001": 7.5
+      },
+      "focus_70": {
+        "R004": 70.0,
+        "R006": 1.875,
+        "R002": 13.125,
+        "R003": 7.5,
+        "R005": 1.875,
+        "R001": 5.625
+      }
+    },
+    "descriptions": {
+      "R001": "国家、起年、初始输入和单位正确",
+      "R002": "年度投资及资本/产出递推正确",
+      "R003": "GDP与人均GDP结果和情景差异正确",
+      "R004": "目标与过渡年变化的正确传播",
+      "R005": "基础情景与源数据未被改变",
+      "R006": "图表、解释和引用与实际结果一致"
+    }
+  },
+  "NEW6_REPAIRED/B1": {
+    "focus": [
+      "R007",
+      "R008"
+    ],
+    "ability": "跨月贡献解释和SKU闭合",
+    "profiles": {
+      "original": {
+        "R001": 10.0,
+        "R002": 15.0,
+        "R003": 10.0,
+        "R004": 15.0,
+        "R005": 8.0,
+        "R006": 7.0,
+        "R007": 25.0,
+        "R008": 10.0
+      },
+      "focus_50": {
+        "R008": 14.285714285714286,
+        "R007": 35.714285714285715,
+        "R006": 5.384615384615385,
+        "R002": 11.538461538461538,
+        "R003": 7.6923076923076925,
+        "R005": 6.153846153846154,
+        "R001": 7.6923076923076925,
+        "R004": 11.538461538461538
+      },
+      "focus_60": {
+        "R008": 17.142857142857142,
+        "R007": 42.857142857142854,
+        "R006": 4.3076923076923075,
+        "R002": 9.23076923076923,
+        "R003": 6.153846153846154,
+        "R005": 4.923076923076923,
+        "R001": 6.153846153846154,
+        "R004": 9.23076923076923
+      },
+      "focus_70": {
+        "R008": 20.0,
+        "R007": 50.0,
+        "R006": 3.230769230769231,
+        "R002": 6.923076923076923,
+        "R003": 4.615384615384615,
+        "R005": 3.6923076923076925,
+        "R001": 4.615384615384615,
+        "R004": 6.923076923076923
+      }
+    },
+    "descriptions": {
+      "R001": "期间与源记录多重集合完整",
+      "R002": "销售、贷项与异常处理符合可见政策",
+      "R003": "发票级分组、身份与金额正确",
+      "R004": "国家与总体汇总和候选明细一致",
+      "R005": "报告/图表实际数值与分析一致",
+      "R006": "源文件保护、记录追踪和闭合证据",
+      "R007": "九至十月五项贡献、两端净額与闭合事实",
+      "R008": "SKU两月数量、销售额、群组和贡献可追溯"
+    }
+  },
+  "NEW6_REPAIRED/B2": {
+    "focus": [
+      "R004",
+      "R005"
+    ],
+    "ability": "旧简报更新与可复核",
+    "profiles": {
+      "original": {
+        "R001": 15.0,
+        "R002": 25.0,
+        "R003": 25.0,
+        "R004": 20.0,
+        "R005": 15.0
+      },
+      "focus_50": {
+        "R005": 21.428571428571427,
+        "R004": 28.571428571428573,
+        "R002": 19.23076923076923,
+        "R001": 11.538461538461538,
+        "R003": 19.23076923076923
+      },
+      "focus_60": {
+        "R005": 25.714285714285715,
+        "R004": 34.285714285714285,
+        "R002": 15.384615384615385,
+        "R001": 9.23076923076923,
+        "R003": 15.384615384615385
+      },
+      "focus_70": {
+        "R005": 30.0,
+        "R004": 40.0,
+        "R002": 11.538461538461538,
+        "R001": 6.923076923076923,
+        "R003": 11.538461538461538
+      }
+    },
+    "descriptions": {
+      "R001": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+      "R002": "连续恶化名单完整、无重复且排序符合公开业务口径",
+      "R003": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+      "R004": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+      "R005": "旧分析仍可复核，原发布资料保留并可追溯"
+    }
+  },
+  "NEW6_REPAIRED/C1": {
+    "focus": [
+      "R005"
+    ],
+    "ability": "会议改价后成本链更新",
+    "profiles": {
+      "original": {
+        "R001": 15.0,
+        "R002": 20.0,
+        "R003": 15.0,
+        "R004": 10.0,
+        "R005": 35.0,
+        "R006": 5.0
+      },
+      "focus_50": {
+        "R005": 50.0,
+        "R006": 3.8461538461538463,
+        "R002": 15.384615384615385,
+        "R003": 11.538461538461538,
+        "R001": 11.538461538461538,
+        "R004": 7.6923076923076925
+      },
+      "focus_60": {
+        "R005": 60.0,
+        "R006": 3.076923076923077,
+        "R002": 12.307692307692308,
+        "R003": 9.23076923076923,
+        "R001": 9.23076923076923,
+        "R004": 6.153846153846154
+      },
+      "focus_70": {
+        "R005": 70.0,
+        "R006": 2.3076923076923075,
+        "R002": 9.23076923076923,
+        "R003": 6.923076923076923,
+        "R001": 6.923076923076923,
+        "R004": 4.615384615384615
+      }
+    },
+    "descriptions": {
+      "R001": "原印刷数据、原范围与限制保留",
+      "R002": "有效报价版本、替换关系和待决选项判断",
+      "R003": "当前成本链、费用基数与费率正确",
+      "R004": "可核对的新旧成本差额与比较基准",
+      "R005": "公开价格费率变化后成本链、核对及保护实际响应",
+      "R006": "原估算与审阅对应材料可追溯"
+    }
+  },
+  "NEW6_REPAIRED/C2": {
+    "focus": [
+      "R004"
+    ],
+    "ability": "改请求后报价、选择与总额更新",
+    "profiles": {
+      "original": {
+        "R001": 35.0,
+        "R002": 10.0,
+        "R003": 10.0,
+        "R004": 35.0,
+        "R005": 5.0,
+        "R006": 5.0
+      },
+      "focus_50": {
+        "R004": 50.0,
+        "R006": 3.8461538461538463,
+        "R002": 7.6923076923076925,
+        "R003": 7.6923076923076925,
+        "R005": 3.8461538461538463,
+        "R001": 26.923076923076923
+      },
+      "focus_60": {
+        "R004": 60.0,
+        "R006": 3.076923076923077,
+        "R002": 6.153846153846154,
+        "R003": 6.153846153846154,
+        "R005": 3.076923076923077,
+        "R001": 21.53846153846154
+      },
+      "focus_70": {
+        "R004": 70.0,
+        "R006": 2.3076923076923075,
+        "R002": 4.615384615384615,
+        "R003": 4.615384615384615,
+        "R005": 2.3076923076923075,
+        "R001": 16.153846153846153
+      }
+    },
+    "descriptions": {
+      "R001": "完整的服务/重量/区域价格网格正确",
+      "R002": "版本、单位和重量边界身份正确",
+      "R003": "每条请求实际两产品价及选项总额正确",
+      "R004": "声明输入变化后实际应变化的报价和总额正确响应",
+      "R005": "请求范围、原始资费及应保持不变的输出得到保护",
+      "R006": "价目表和请求与原PDF来源可追溯"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_record_count": 431,
+  "scored": 418,
+  "old15_scored": 347,
+  "new6_scored": 71,
+  "legacy_contract_flagged": 24,
+  "recompute_runner": "python3 recompute.py",
+  "recomputed_scores_identical": true,
+  "source_code_changed": false,
+  "judge_calls": 0,
+  "agent_calls": 0,
+  "public_links_valid": true,
+  "public_path_and_key_scan": "passed"
+}

@@ -1,0 +1,639 @@
+{
+  "comparison": "Legacy ability-weights snapshot 71 versus fixed-34374 unified 70; separate datasets, not interchangeable",
+  "legacy": {
+    "dataset": "NEW6_REPAIRED",
+    "source_snapshot_at": "2026-09-06T01:19:42.710508+00:00",
+    "scored": 71,
+    "source_status_counts": {
+      "SCORED": 71,
+      "JUDGE_ERROR": 28,
+      "OUTPUT_MISSING": 12,
+      "RUN_OR_COLLECTION_PENDING": 33
+    },
+    "origins": {
+      "original_scored_receipt": 42,
+      "offline_reader_v1_repair": 29
+    },
+    "source_reference": "ExcelBench-P15-NEW6-Delivery-Interface/new6/offline_judge_repair/v2/weight_experiment/frozen_facts.json",
+    "contains_multiple_judge_versions": true
+  },
+  "unified": {
+    "scored": 70,
+    "status_counts": {
+      "SCORED": 70,
+      "JUDGE_ERROR": 30,
+      "OUTPUT_MISSING": 12,
+      "RUN_OR_COLLECTION_PENDING": 32
+    },
+    "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+    "source_reference": "results/unified-scores-v3/analysis.json"
+  },
+  "shared_cases": 70,
+  "only_legacy": [
+    {
+      "case": "A1-claude-R04",
+      "legacy": {
+        "snapshot": "NEW6_REPAIRED_71",
+        "original": "0.4982616741504747",
+        "focus_60": "0.45550594339781075",
+        "source_kind": "original_scored_receipt",
+        "receipt_version_fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        },
+        "same_judge_verified": false
+      },
+      "unified_status": "JUDGE_ERROR",
+      "unified_original": null,
+      "unified_focus_60": null,
+      "note": "New unified Judge returned pending; do not restore old numeric score"
+    }
+  ],
+  "only_unified": [],
+  "common_score_differences": [
+    {
+      "case": "A2-codex-R05",
+      "legacy": {
+        "snapshot": "NEW6_REPAIRED_71",
+        "original": "0.764838647714176",
+        "focus_60": "0.7583317326162121",
+        "source_kind": "original_scored_receipt",
+        "receipt_version_fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        },
+        "same_judge_verified": false
+      },
+      "unified": {
+        "snapshot": "UNIFIED_34374_70",
+        "original": "1",
+        "focus_60": "1",
+        "source_kind": "new_fixed_judge",
+        "judge_version": "new6-a2-offline-v1.4-report-roles",
+        "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+        "same_judge_verified": true
+      }
+    },
+    {
+      "case": "C1-claude-R03",
+      "legacy": {
+        "snapshot": "NEW6_REPAIRED_71",
+        "original": "0.41965177097627426",
+        "focus_60": "0.25824724367770724",
+        "source_kind": "original_scored_receipt",
+        "receipt_version_fields": {
+          "evidence.judge_version": "new6-c1-review-facts-v2.2-cumulative-movement"
+        },
+        "same_judge_verified": false
+      },
+      "unified": {
+        "snapshot": "UNIFIED_34374_70",
+        "original": "0.413102837937275023367738599526678996877675",
+        "focus_60": "0.254217131038323091303223753554879382693953846154",
+        "source_kind": "new_fixed_judge",
+        "judge_version": "new6-c1-offline-v2.5-control-views",
+        "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+        "same_judge_verified": true
+      }
+    },
+    {
+      "case": "C2-codex-R02",
+      "legacy": {
+        "snapshot": "NEW6_REPAIRED_71",
+        "original": "0.3008228676085819",
+        "focus_60": "0.18512176468220423",
+        "source_kind": "original_scored_receipt",
+        "receipt_version_fields": {},
+        "same_judge_verified": false
+      },
+      "unified": {
+        "snapshot": "UNIFIED_34374_70",
+        "original": "0.50588697017268445839874411303",
+        "focus_60": "0.311315058567805820553073300326153846153846153846",
+        "source_kind": "new_fixed_judge",
+        "judge_version": "release_lock:new6-offline-reader-v1",
+        "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+        "same_judge_verified": true
+      }
+    },
+    {
+      "case": "C2-codex-R07",
+      "legacy": {
+        "snapshot": "NEW6_REPAIRED_71",
+        "original": "0.900581561295847",
+        "focus_60": "0.833924317440801",
+        "source_kind": "original_scored_receipt",
+        "receipt_version_fields": {},
+        "same_judge_verified": false
+      },
+      "unified": {
+        "snapshot": "UNIFIED_34374_70",
+        "original": "1",
+        "focus_60": "1",
+        "source_kind": "new_fixed_judge",
+        "judge_version": "release_lock:new6-offline-reader-v1",
+        "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+        "same_judge_verified": true
+      }
+    }
+  ],
+  "unchanged_shared_original_scores": 66,
+  "version_field_audit": {
+    "receipts_read": 71,
+    "evidence_judge_version_present": 45,
+    "only_bridge_version_present": 11,
+    "no_version_field_present": 15,
+    "judge_commit_field_present": 0,
+    "bridge_version_is_not_whole_judge_identity": true,
+    "missing_any_version_cases": [
+      "C2-claude-R02",
+      "C2-claude-R06",
+      "C2-claude-R08",
+      "C2-codex-R01",
+      "C2-codex-R02",
+      "C2-codex-R03",
+      "C2-codex-R04",
+      "C2-codex-R05",
+      "C2-codex-R06",
+      "C2-codex-R07",
+      "C2-codex-R08",
+      "C2-qwen-R03",
+      "C2-qwen-R05",
+      "C2-qwen-R06",
+      "C2-qwen-R08"
+    ],
+    "per_receipt_fields": [
+      {
+        "case": "A1-claude-R01",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-claude-R02",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-a1-offline-v1.4-base-controls"
+        }
+      },
+      {
+        "case": "A1-claude-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-claude-R04",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-claude-R06",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-claude-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-claude-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R01",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R02",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R04",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R05",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R06",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A1-codex-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a1-v1.3-proven-formula-defects"
+        }
+      },
+      {
+        "case": "A2-claude-R01",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-a2-offline-v1.4-report-roles"
+        }
+      },
+      {
+        "case": "A2-claude-R02",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-a2-offline-v1.4-report-roles"
+        }
+      },
+      {
+        "case": "A2-codex-R02",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-a2-offline-v1.4-report-roles"
+        }
+      },
+      {
+        "case": "A2-codex-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        }
+      },
+      {
+        "case": "A2-codex-R04",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        }
+      },
+      {
+        "case": "A2-codex-R05",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        }
+      },
+      {
+        "case": "A2-codex-R06",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        }
+      },
+      {
+        "case": "A2-codex-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-a2-facts-v1.3-real-gdp-labels"
+        }
+      },
+      {
+        "case": "A2-codex-R08",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-a2-offline-v1.4-report-roles"
+        }
+      },
+      {
+        "case": "B1-claude-R06",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-claude-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-claude-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R01",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R02",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R04",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R05",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R06",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B1-codex-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.bridge.version": "new6-b1-v2"
+        }
+      },
+      {
+        "case": "B2-claude-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-b2-three-release-v3.2-labelled-code-lists"
+        }
+      },
+      {
+        "case": "B2-claude-R05",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-b2-three-release-v3.2-labelled-code-lists"
+        }
+      },
+      {
+        "case": "B2-claude-R07",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "B2-codex-R01",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "B2-codex-R02",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-b2-three-release-v3.2-labelled-code-lists"
+        }
+      },
+      {
+        "case": "B2-codex-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-b2-three-release-v3.2-labelled-code-lists"
+        }
+      },
+      {
+        "case": "B2-codex-R04",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-b2-three-release-v3.2-labelled-code-lists"
+        }
+      },
+      {
+        "case": "B2-codex-R05",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "B2-codex-R06",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "B2-codex-R07",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "B2-codex-R08",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-b2-offline-v3.3-chart-roles"
+        }
+      },
+      {
+        "case": "C1-claude-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-c1-review-facts-v2.2-cumulative-movement"
+        }
+      },
+      {
+        "case": "C1-claude-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {
+          "evidence.judge_version": "new6-c1-review-facts-v2.2-cumulative-movement"
+        }
+      },
+      {
+        "case": "C1-codex-R01",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R02",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R03",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R04",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R05",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R06",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R07",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C1-codex-R08",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {
+          "evidence.judge_version": "new6-c1-offline-v2.5-control-views"
+        }
+      },
+      {
+        "case": "C2-claude-R02",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-claude-R06",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-claude-R08",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R01",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R02",
+        "source_kind": "original_scored_receipt",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R03",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R04",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R05",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R06",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R07",
+        "source_kind": "original_scored_receipt",
+        "fields": {}
+      },
+      {
+        "case": "C2-codex-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {}
+      },
+      {
+        "case": "C2-qwen-R03",
+        "source_kind": "original_scored_receipt",
+        "fields": {}
+      },
+      {
+        "case": "C2-qwen-R05",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-qwen-R06",
+        "source_kind": "offline_reader_v1_repair",
+        "fields": {}
+      },
+      {
+        "case": "C2-qwen-R08",
+        "source_kind": "original_scored_receipt",
+        "fields": {}
+      }
+    ],
+    "conclusion": "45 explicit whole-Judge labels already show several versions; 11 B1 bridge-only labels and 15 C2 receipts without labels cannot establish full Judge identity. The 71-row set must not be claimed as one Judge release."
+  },
+  "score_scale": "0-1; multiply by 100 for displayed points",
+  "numerical_precision": "Legacy results.json stores float-derived decimal strings; unified table preserves recorded 48-digit decimal representations. Differences are compared at 1e-10.",
+  "new_judge_runs": 0,
+  "new_agent_runs": 0,
+  "api_calls": 0
+}
