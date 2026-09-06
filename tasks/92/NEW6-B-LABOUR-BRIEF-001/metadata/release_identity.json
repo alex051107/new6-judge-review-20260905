@@ -26,6 +26,10 @@
     "ons_li01_january2024.xlsx": {
       "sha256": "6ac4594b855f1232467756eababe0199f76c457dba9cf68e7d1cdea40a390530",
       "bytes": 137150
+    },
+    "previous_briefing.xlsx.inspect.ndjson": {
+      "sha256": "f71c6aae4de263acbbc3d4e78ef3afac5c0204e5c4fb469db477b615e23e6a66",
+      "bytes": 843981
     }
   },
   "main_weights": {

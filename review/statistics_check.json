@@ -1,0 +1,59 @@
+{
+  "scope": "固定138条生成记录；不包含后续运行；不重跑Agent、不改分、不改权重",
+  "status_counts": {
+    "SCORED": 42,
+    "JUDGE_ERROR": 54,
+    "OUTPUT_MISSING": 20,
+    "INFRASTRUCTURE_FAILURE": 22
+  },
+  "checked": {
+    "unique_ledger_ids": 138,
+    "unique_trial_ids": 138,
+    "scored_receipts_recomputed": 42,
+    "summary_groups_at_check": 23,
+    "score_receipt_mismatches": 0,
+    "weighted_score_mismatches_tolerance": "0 discrepancies above 1e-24",
+    "version_label_mismatches": 0,
+    "unknown_outcomes_filled_zero": 0,
+    "pass_threshold": "0.70",
+    "mean_denominator_policy": "SCORED + confirmed OUTPUT_MISSING; JUDGE_ERROR and INFRASTRUCTURE_FAILURE excluded",
+    "pass_at_k_formula": "1-C(n-c,k)/C(n,k)"
+  },
+  "known_business_judge_issue": "C2 has false negatives; arithmetic agreement does not validate business judgment",
+  "publication_fixes_requested": [
+    {
+      "issue": "generation_config_id originally omitted concurrency differences",
+      "affected_task_systems": [
+        "A1 Qwen 3.8",
+        "A2 Qwen 3.8",
+        "B1 Qwen 3.8"
+      ],
+      "resolution_owner": "main publisher: regroup using complete actual agent config; no score change"
+    },
+    {
+      "issue": "22 infrastructure rows originally pointed to nonexistent Judge receipts",
+      "resolution_owner": "main publisher: link actual run receipts"
+    },
+    {
+      "issue": "judge_commit RELEASE_COMMIT placeholder",
+      "resolution_owner": "main publisher: bind actual core Judge commit"
+    }
+  ],
+  "nondelivery_transfer_recheck": {
+    "trial_ids": [
+      "B1-qwen-R04",
+      "C2-qwen-R07",
+      "B1-qwen-R07",
+      "B1-qwen-R08",
+      "C1-claude-R02"
+    ],
+    "result": "Each has finished_at, successful input/output transfers, no expected answer, actual OUTPUT_MISSING receipt; absence-of-source flag need not also be true",
+    "interpretation": "Timeout nondelivery does not independently establish low business ability"
+  },
+  "difficulty": "NOT_VERIFIED for all six tasks",
+  "validation_budget": {
+    "planned": "one focused independent Decimal/identity/status/receipt/summary check, with targeted evidence follow-up for findings",
+    "executed": "one focused check plus targeted config and five nondelivery transfer reads",
+    "skipped": "No paid Agent, no Judge rescore, no hashes, no broad test suite"
+  }
+}

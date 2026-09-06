@@ -5,6 +5,8 @@ name = "alex051107/new6-a-macro-scenario-001"
 version = "0.1.0"
 description = "NEW6 source-based reconstructed task"
 [metadata]
+task_version = "new6-a2-v1.0-zambia"
+judge_version = "new6-a2-facts-v1.3-real-gdp-labels"
 task_id = "NEW6-A-MACRO-SCENARIO-001"
 track = "A"
 status = "BUILT_REFERENCE_AND_CALIBRATION_VERIFIED"

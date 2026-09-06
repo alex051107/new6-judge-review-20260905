@@ -5,6 +5,8 @@ name = "alex051107/new6-b-labour-brief-001"
 version = "0.1.0"
 description = "NEW6 source-based reconstructed task"
 [metadata]
+task_version = "new6-b2-three-release-v3"
+judge_version = "new6-b2-three-release-v3.2-labelled-code-lists"
 task_id = "NEW6-B-LABOUR-BRIEF-001"
 track = "B"
 status = "BUILT_REFERENCE_AND_CALIBRATION_VERIFIED"

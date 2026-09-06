@@ -1,0 +1,21 @@
+{
+  "agent": {
+    "name": "qwen-coder",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 2,
+    "override_timeout_sec": 1200.0,
+    "kwargs": {
+      "version": "0.22.3"
+    },
+    "env": {
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+      "OPENAI_BASE_URL": "https://api.zcloudapi.com/v1"
+    }
+  },
+  "harbor_version": "0.22.0",
+  "config_raw_sha256": "5d6d433af8357b78d649ab313261707c1e58694509a2dbd2b7aec47c49693db5",
+  "actual_model_counts": {},
+  "model_identity_status": "PROVIDER_MODEL_IDENTITY_PENDING",
+  "generation_config_id": "2a1351dd898f",
+  "grouping_includes_scheduler_concurrency": true
+}

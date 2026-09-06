@@ -1,0 +1,740 @@
+{
+  "api_calls": 0,
+  "checks": [
+    {
+      "id": "A2-codex-R07",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A2-codex-R07/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R08",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.99550893533304798",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.9992262355536532,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 0.9375,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R08/judge-result.json"
+    },
+    {
+      "id": "A2-codex-R05",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.764838647714175950825970034575489819439115",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.5",
+        "R003": "1",
+        "R004": "0.7518248175182481751824817518248175182482",
+        "R005": "1",
+        "R006": "0.7894736842105263157894736842105263157895"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A2-codex-R05/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R02",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.927453430258973205",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9154929577464789,
+        "R006": 0.0,
+        "R004": 0.9838709677419355,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R02/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R01",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.832222222222222215",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9166666666666666,
+        "R005": 0.96875,
+        "R006": 1.0,
+        "R007": 0.3888888888888889,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R01/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R07",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R07/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R05",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R05/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R02",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R02/judge-result.json"
+    },
+    {
+      "id": "A2-codex-R03",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.882419323857087975412985017287744909719555",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.75",
+        "R003": "1",
+        "R004": "0.8759124087591240875912408759124087591241",
+        "R005": "1",
+        "R006": "0.8947368421052631578947368421052631578947"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A2-codex-R03/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R07",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.98749999999999999",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9166666666666666,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R07/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R04",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.622493563531728034",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.8333333333333334,
+        "R003": 0.5492957746478874,
+        "R006": 0.0,
+        "R004": 0.44086021505376344,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R04/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R03",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.975471948167642045",
+      "criterion_scores": {
+        "R001": 0.9798799205436851,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9418604651162791,
+        "R005": 1.0,
+        "R006": 0.8125,
+        "R007": 1.0,
+        "R008": 0.9932988634583167
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R03/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R03",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.927453430258973205",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9154929577464789,
+        "R006": 0.0,
+        "R004": 0.9838709677419355,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R03/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R06",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.62843679308628741555",
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 0.24621212121212122,
+        "R004": 0.6744186046511628,
+        "R005": 1.0,
+        "R006": 0.5142552200574401,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R06/judge-result.json"
+    },
+    {
+      "id": "C2-codex-R08",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.296858974358974358974358974348",
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C2-codex-R08/judge-result.json"
+    },
+    {
+      "id": "B1-codex-R04",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.99946848899012908",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 0.9946848899012908
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-codex-R04/judge-result.json"
+    },
+    {
+      "id": "C2-codex-R02",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.300822867608581894296180010455",
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0.02040816326530612244897959184",
+        "R004": "0",
+        "R005": "0.07692307692307692307692307692",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C2-codex-R02/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R06",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.99",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R06/judge-result.json"
+    },
+    {
+      "id": "C2-codex-R07",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.90058156129584701013272441845",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0.9795918367346938775510204082",
+        "R004": "0.7272727272727272727272727273",
+        "R005": "0.9615384615384615384615384615",
+        "R006": "1"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C2-codex-R07/judge-result.json"
+    },
+    {
+      "id": "A2-codex-R06",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.882419323857087975412985017287744909719555",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.75",
+        "R003": "1",
+        "R004": "0.8759124087591240875912408759124087591241",
+        "R005": "1",
+        "R006": "0.8947368421052631578947368421052631578947"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A2-codex-R06/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R05",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.92321671967287597",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9225352112676056,
+        "R006": 0.0,
+        "R004": 0.967741935483871,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R05/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R01",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.927453430258973205",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9154929577464789,
+        "R006": 0.0,
+        "R004": 0.9838709677419355,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R01/judge-result.json"
+    },
+    {
+      "id": "A1-codex-R08",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.917995224933832405",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9154929577464789,
+        "R006": 0.0,
+        "R004": 0.956989247311828,
+        "R005": 0.9990079365079365
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-codex-R08/judge-result.json"
+    },
+    {
+      "id": "A2-codex-R04",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A2-codex-R04/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R04",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.498261674150474695",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.5303030303030303,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.3870967741935484,
+        "R005": 0.9702380952380952
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R04/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R01",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.8644441920339240",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.8450704225352113,
+        "R006": 0.0,
+        "R004": 0.8440860215053764,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R01/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R07",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.4214704322382650445",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.4772727272727273,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.20698924731182797,
+        "R005": 0.9603174603174602
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R07/judge-result.json"
+    },
+    {
+      "id": "B1-claude-R07",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.614908445655595766",
+      "criterion_scores": {
+        "R001": 0.3576715280300353,
+        "R002": 0.01439165831636654,
+        "R003": 0.999810606060606,
+        "R004": 0.3391472868217054,
+        "R005": 0.5,
+        "R006": 0.5161341496545835,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-claude-R07/judge-result.json"
+    },
+    {
+      "id": "B1-claude-R08",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.48464891429840862355",
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 1.0,
+        "R004": 0.5910852713178295,
+        "R005": 0.5,
+        "R006": 0.5142552200574401,
+        "R007": 0.3333333333333333,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-claude-R08/judge-result.json"
+    },
+    {
+      "id": "B1-claude-R06",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.5905876601180160341",
+      "criterion_scores": {
+        "R001": 0.3534065403339431,
+        "R002": 0.010460421215512114,
+        "R003": 0.6828598484848485,
+        "R004": 0.4883720930232558,
+        "R005": 0.5,
+        "R006": 0.5146433284172941,
+        "R007": 0.9444444444444444,
+        "R008": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B1-claude-R06/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R08",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.50272657859834142",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.6742424242424242,
+        "R003": 0.323943661971831,
+        "R006": 0.0,
+        "R004": 0.3629032258064516,
+        "R005": 0.8472222222222222
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R08/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R06",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.607575065085855634",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.2535211267605634,
+        "R006": 0.0,
+        "R004": 0.45698924731182794,
+        "R005": 0.9384920634920635
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R06/judge-result.json"
+    },
+    {
+      "id": "A1-claude-R03",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.3229607708977881575",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.16666666666666666,
+        "R003": 0.2676056338028169,
+        "R006": 0.0,
+        "R004": 0.25806451612903225,
+        "R005": 0.7490079365079365
+      },
+      "checks_passed": null,
+      "receipt": "run-1/A1-claude-R03/judge-result.json"
+    },
+    {
+      "id": "C2-qwen-R08",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.45458156129584701013272441845",
+      "criterion_scores": {
+        "R001": "0",
+        "R002": "0.04",
+        "R003": "0.9795918367346938775510204082",
+        "R004": "0.7272727272727272727272727273",
+        "R005": "0.9615384615384615384615384615",
+        "R006": "1"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C2-qwen-R08/judge-result.json"
+    },
+    {
+      "id": "C2-qwen-R03",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.499999999999999999999999999998",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C2-qwen-R03/judge-result.json"
+    },
+    {
+      "id": "B2-codex-R04",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.920793650793650785",
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.7111111111111111,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B2-codex-R04/judge-result.json"
+    },
+    {
+      "id": "B2-codex-R03",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.938571428571428565",
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.8,
+        "R005": 1.0
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B2-codex-R03/judge-result.json"
+    },
+    {
+      "id": "B2-codex-R02",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.896349206349206365",
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.888888888888889,
+        "R005": 0.6
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B2-codex-R02/judge-result.json"
+    },
+    {
+      "id": "B2-claude-R05",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.477329004329004347",
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.1,
+        "R003": 0.7030303030303031,
+        "R004": 0.09000000000000001,
+        "R005": 0.8666666666666667
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B2-claude-R05/judge-result.json"
+    },
+    {
+      "id": "B2-claude-R03",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.638823953823953826",
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "checks_passed": null,
+      "receipt": "run-1/B2-claude-R03/judge-result.json"
+    },
+    {
+      "id": "C1-claude-R08",
+      "task": "C1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.435458803174034962114432313107809796551525",
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C1-claude-R08/judge-result.json"
+    },
+    {
+      "id": "C1-claude-R03",
+      "task": "C1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "0.419651770976274287532565678261042499453085",
+      "criterion_scores": {
+        "R001": "0.4503311258278145695364238410596026490066",
+        "R002": "1",
+        "R003": "0.6296296296296296296296296296296296296296",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4864864864864864864864864864864864864865"
+      },
+      "checks_passed": null,
+      "receipt": "run-1/C1-claude-R03/judge-result.json"
+    }
+  ],
+  "consistency": [],
+  "all_assertions_passed": true,
+  "runtime": "runtime.txt",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/receipt.json"
+}

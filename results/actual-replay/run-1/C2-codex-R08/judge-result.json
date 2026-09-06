@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.29685897435897435,
+  "score_decimal": "0.296858974358974358974358974348",
+  "pass": false,
+  "criterion_scores": {
+    "R001": "0.5833333333333333333333333333",
+    "R002": "0.6",
+    "R003": "0",
+    "R004": "0",
+    "R005": "0.03846153846153846153846153846",
+    "R006": "0.6153846153846153846153846154"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.29685897435897435,
+      "score_decimal": "0.296858974358974358974358974348",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "20.4166666666666666666666666655",
+        "R002": "6.0",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "3.0769230769230769230769230770"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.326025641025641,
+      "score_decimal": "0.326025641025641025641025641013",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "23.3333333333333333333333333320",
+        "R002": "6.0",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "3.0769230769230769230769230770"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.2676923076923077,
+      "score_decimal": "0.267692307692307692307692307683",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "17.4999999999999999999999999990",
+        "R002": "6.0",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "3.0769230769230769230769230770"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "c951e64482861206c9b0f5f6123c1ea8663b7b9b28a9321349898f287b101815",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/run-1/C2-codex-R08/judge-result.json"
+}

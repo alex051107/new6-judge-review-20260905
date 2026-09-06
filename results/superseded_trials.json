@@ -1,0 +1,192 @@
+[
+  {
+    "selected_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R04__YWfgAse",
+    "superseded_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R04__4i3JhJB",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "B1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-B-RETAIL-CLOSE-001-QWEN-R04__4i3JhJB/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__2YT7Mi2",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__2YT7Mi2/result.json"
+  },
+  {
+    "selected_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R03__9xP4G26",
+    "superseded_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R03__qyxqKNF",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "B1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-B-RETAIL-CLOSE-001-QWEN-R03__qyxqKNF/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__r8YFiHJ",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__r8YFiHJ/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__x7WjvAg",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__x7WjvAg/result.json"
+  },
+  {
+    "selected_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R02__XE37rVq",
+    "superseded_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R02__9VYtBje",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "B1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-B-RETAIL-CLOSE-001-QWEN-R02__9VYtBje/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__pvb7ba2",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__pvb7ba2/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__qxeGUnQ",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__qxeGUnQ/result.json"
+  },
+  {
+    "selected_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R01__crS6VD2",
+    "superseded_trial": "NEW6-B-RETAIL-CLOSE-001-QWEN-R01__qt5pveq",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "B1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-B-RETAIL-CLOSE-001-QWEN-R01__qt5pveq/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw",
+    "superseded_trial": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__7K6vFUJ",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A2",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-MACRO-SCENARIO-001-QWEN-R__7K6vFUJ/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7",
+    "superseded_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R01__k8ioV7j",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-FIN-RESTORE-001-QWEN-R01__k8ioV7j/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5",
+    "superseded_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R03__DZ4dYiG",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-FIN-RESTORE-001-QWEN-R03__DZ4dYiG/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK",
+    "superseded_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R02__rUpwEyz",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-FIN-RESTORE-001-QWEN-R02__rUpwEyz/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF",
+    "superseded_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R04__4S2PZAK",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-FIN-RESTORE-001-QWEN-R04__4S2PZAK/result.json"
+  },
+  {
+    "selected_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG",
+    "superseded_trial": "NEW6-A-FIN-RESTORE-001-QWEN-R05__395snZz",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "A1",
+    "system": "qwen",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/NEW6-A-FIN-RESTORE-001-QWEN-R05__395snZz/result.json"
+  },
+  {
+    "selected_trial": "N6C1V2-CODEX-R07__zaagV2s",
+    "superseded_trial": "N6C1V2-CODEX-R07__EgdJkRX",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "C1",
+    "system": "codex",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/N6C1V2-CODEX-R07__EgdJkRX/result.json"
+  },
+  {
+    "selected_trial": "N6C1V2-CODEX-R05__SATdX2u",
+    "superseded_trial": "N6C1V2-CODEX-R05__4LHmX8N",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "C1",
+    "system": "codex",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/N6C1V2-CODEX-R05__4LHmX8N/result.json"
+  },
+  {
+    "selected_trial": "N6C1V2-CODEX-R06__mPDxW4N",
+    "superseded_trial": "N6C1V2-CODEX-R06__h9wEvts",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "C1",
+    "system": "codex",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/N6C1V2-CODEX-R06__h9wEvts/result.json"
+  },
+  {
+    "selected_trial": "N6C1V2-CODEX-R08__MEkom2h",
+    "superseded_trial": "N6C1V2-CODEX-R08__98oM8Qf",
+    "reason": "previously authorized infrastructure replacement; not an additional selected sample",
+    "task": "C1",
+    "system": "codex",
+    "selected_in_main_statistics": false,
+    "count_as_additional_independent_sample": false,
+    "archive_receipt": "results/archive/N6C1V2-CODEX-R08__98oM8Qf/result.json"
+  }
+]

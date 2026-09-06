@@ -1,0 +1,99 @@
+{
+  "task": "C1",
+  "system": "claude",
+  "attempt": 8,
+  "trial": "N6C1V2-CLAUDE-R08__adwpD6z",
+  "trial_dir": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R08__adwpD6z",
+  "generation": "new_generation",
+  "evaluation_status": "SCORED",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "source_output_absence_confirmed": false,
+  "raw_output_collection_status": "ok",
+  "score_decimal": "0.435458803174034962114432313107809796551525",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.43545880317403496,
+      "score_decimal": "0.435458803174034962114432313107809796551525",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "7.8476821192052980132450331125827814569540",
+        "R002": "20",
+        "R003": "10.0000000000000000000000000000000000000005",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.4949510769047193,
+      "score_decimal": "0.49495107690471928882524909014975240140804",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "10.4635761589403973509933774834437086092720",
+        "R002": "20",
+        "R003": "13.3333333333333333333333333333333333333340",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.40929986277668395,
+      "score_decimal": "0.409299862776683968736948869399200525028345",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "5.2317880794701986754966887417218543046360",
+        "R002": "20",
+        "R003": "10.0000000000000000000000000000000000000005",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": "0.5231788079470198675496688741721854304636",
+    "R002": "1",
+    "R003": "0.6666666666666666666666666666666666666667",
+    "R004": "0.3333333333333333333333333333333333333333",
+    "R005": "0",
+    "R006": "0.4729729729729729729729729729729729729730"
+  },
+  "sample_countable": true,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T23:20:20.751720+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-c1-review-facts-v2.2-cumulative-movement/C1-claude-R08/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C1-claude-R08/prior/receipt.json"
+}

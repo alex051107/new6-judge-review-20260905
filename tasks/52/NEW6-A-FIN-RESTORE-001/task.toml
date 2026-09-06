@@ -5,6 +5,8 @@ name = "alex051107/new6-a-fin-restore-001"
 version = "0.1.0"
 description = "NEW6 source-based reconstructed task"
 [metadata]
+task_version = "new6-a1-v1.1-historical-rate"
+judge_version = "new6-a1-v1.3-proven-formula-defects"
 task_id = "NEW6-A-FIN-RESTORE-001"
 track = "A"
 status = "BUILT_REFERENCE_AND_CALIBRATION_VERIFIED"

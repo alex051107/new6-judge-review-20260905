@@ -1,0 +1,22 @@
+{
+  "task": "B2",
+  "system": "qwen",
+  "attempt": 6,
+  "trial": "N6V3-B2-QWEN-R06__opcP3rC",
+  "trial_dir": "new6/campaigns/qwen-repair/runtime/qwen/jobs/new6-qwen-provider-repair1/N6V3-B2-QWEN-R06__opcP3rC",
+  "generation": "new_generation",
+  "evaluation_status": "RUN_OR_COLLECTION_PENDING",
+  "upstream_exception": "UnknownApiError",
+  "artifact_collection_ok": true,
+  "system_identity": "PROVIDER_MODEL_IDENTITY_PENDING",
+  "source_output_absence_confirmed": true,
+  "raw_output_collection_status": "failed",
+  "score_decimal": null,
+  "profiles": null,
+  "criterion_scores": null,
+  "sample_countable": false,
+  "api_calls": 0,
+  "scored_at": "2026-09-06T00:25:26.878853+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-b2-three-release-v3.2-labelled-code-lists/B2-qwen-R06/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B2-qwen-R06/prior/receipt.json"
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "trial": "A2-codex-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "1",
+    "replayed_score": "1"
+  },
+  {
+    "trial": "B1-codex-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.99550893533304798",
+    "replayed_score": "0.99550893533304798"
+  },
+  {
+    "trial": "A2-codex-R05",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.764838647714175950825970034575489819439115",
+    "replayed_score": "0.764838647714175950825970034575489819439115"
+  },
+  {
+    "trial": "A1-codex-R02",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.927453430258973205",
+    "replayed_score": "0.927453430258973205"
+  },
+  {
+    "trial": "B1-codex-R01",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.832222222222222215",
+    "replayed_score": "0.832222222222222215"
+  },
+  {
+    "trial": "A1-codex-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "1.0",
+    "replayed_score": "1.0"
+  },
+  {
+    "trial": "B1-codex-R05",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "1.0",
+    "replayed_score": "1.0"
+  },
+  {
+    "trial": "B1-codex-R02",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "1.0",
+    "replayed_score": "1.0"
+  },
+  {
+    "trial": "A2-codex-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.882419323857087975412985017287744909719555",
+    "replayed_score": "0.882419323857087975412985017287744909719555"
+  },
+  {
+    "trial": "B1-codex-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.98749999999999999",
+    "replayed_score": "0.98749999999999999"
+  },
+  {
+    "trial": "A1-codex-R04",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.622493563531728034",
+    "replayed_score": "0.622493563531728034"
+  },
+  {
+    "trial": "B1-codex-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.975471948167642045",
+    "replayed_score": "0.975471948167642045"
+  },
+  {
+    "trial": "A1-codex-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.927453430258973205",
+    "replayed_score": "0.927453430258973205"
+  },
+  {
+    "trial": "B1-codex-R06",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.62843679308628741555",
+    "replayed_score": "0.62843679308628741555"
+  },
+  {
+    "trial": "C2-codex-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.296858974358974358974358974348",
+    "replayed_score": "0.296858974358974358974358974348"
+  },
+  {
+    "trial": "B1-codex-R04",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.99946848899012908",
+    "replayed_score": "0.99946848899012908"
+  },
+  {
+    "trial": "C2-codex-R02",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.300822867608581894296180010455",
+    "replayed_score": "0.300822867608581894296180010455"
+  },
+  {
+    "trial": "A1-codex-R06",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.99",
+    "replayed_score": "0.99"
+  },
+  {
+    "trial": "C2-codex-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.90058156129584701013272441845",
+    "replayed_score": "0.90058156129584701013272441845"
+  },
+  {
+    "trial": "A2-codex-R06",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.882419323857087975412985017287744909719555",
+    "replayed_score": "0.882419323857087975412985017287744909719555"
+  },
+  {
+    "trial": "A1-codex-R05",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.92321671967287597",
+    "replayed_score": "0.92321671967287597"
+  },
+  {
+    "trial": "A1-codex-R01",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.927453430258973205",
+    "replayed_score": "0.927453430258973205"
+  },
+  {
+    "trial": "A1-codex-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.917995224933832405",
+    "replayed_score": "0.917995224933832405"
+  },
+  {
+    "trial": "A2-codex-R04",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "1",
+    "replayed_score": "1"
+  },
+  {
+    "trial": "A1-claude-R04",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.498261674150474695",
+    "replayed_score": "0.498261674150474695"
+  },
+  {
+    "trial": "A1-claude-R01",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.8644441920339240",
+    "replayed_score": "0.8644441920339240"
+  },
+  {
+    "trial": "A1-claude-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.4214704322382650445",
+    "replayed_score": "0.4214704322382650445"
+  },
+  {
+    "trial": "B1-claude-R07",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.614908445655595766",
+    "replayed_score": "0.614908445655595766"
+  },
+  {
+    "trial": "B1-claude-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.48464891429840862355",
+    "replayed_score": "0.48464891429840862355"
+  },
+  {
+    "trial": "B1-claude-R06",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.5905876601180160341",
+    "replayed_score": "0.5905876601180160341"
+  },
+  {
+    "trial": "A1-claude-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.50272657859834142",
+    "replayed_score": "0.50272657859834142"
+  },
+  {
+    "trial": "A1-claude-R06",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.607575065085855634",
+    "replayed_score": "0.607575065085855634"
+  },
+  {
+    "trial": "A1-claude-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.3229607708977881575",
+    "replayed_score": "0.3229607708977881575"
+  },
+  {
+    "trial": "C2-qwen-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.45458156129584701013272441845",
+    "replayed_score": "0.45458156129584701013272441845"
+  },
+  {
+    "trial": "C2-qwen-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.499999999999999999999999999998",
+    "replayed_score": "0.499999999999999999999999999998"
+  },
+  {
+    "trial": "B2-codex-R04",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.920793650793650785",
+    "replayed_score": "0.920793650793650785"
+  },
+  {
+    "trial": "B2-codex-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.938571428571428565",
+    "replayed_score": "0.938571428571428565"
+  },
+  {
+    "trial": "B2-codex-R02",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.896349206349206365",
+    "replayed_score": "0.896349206349206365"
+  },
+  {
+    "trial": "B2-claude-R05",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.477329004329004347",
+    "replayed_score": "0.477329004329004347"
+  },
+  {
+    "trial": "B2-claude-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.638823953823953826",
+    "replayed_score": "0.638823953823953826"
+  },
+  {
+    "trial": "C1-claude-R08",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.435458803174034962114432313107809796551525",
+    "replayed_score": "0.435458803174034962114432313107809796551525"
+  },
+  {
+    "trial": "C1-claude-R03",
+    "same_status": true,
+    "score_match_1e_12": true,
+    "old_score": "0.419651770976274287532565678261042499453085",
+    "replayed_score": "0.419651770976274287532565678261042499453085"
+  }
+]

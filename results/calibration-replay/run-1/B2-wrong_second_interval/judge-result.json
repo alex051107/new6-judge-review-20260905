@@ -1,0 +1,90 @@
+{
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.8989393939393939,
+  "score_decimal": "0.898939393939393975",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 0.7757575757575759,
+    "R004": 0.775,
+    "R005": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.8989393939393939,
+      "score_decimal": "0.898939393939393975",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.7757575757575759,
+        "R004": 0.775,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "19.3939393939393975",
+        "R004": "15.500",
+        "R005": "15.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.8989393939393939,
+      "score_decimal": "0.898939393939393975",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.7757575757575759,
+        "R004": 0.775,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "20.0",
+        "R002": "20.0",
+        "R003": "19.3939393939393975",
+        "R004": "15.500",
+        "R005": "15.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.8989015151515152,
+      "score_decimal": "0.89890151515151518",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.7757575757575759,
+        "R004": 0.775,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "15.5151515151515180",
+        "R004": "19.375",
+        "R005": "25.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "bcb4db154bd86341cbd46bee004c5ecf21ff4d98c9d20d2d3aeb5c1554148077",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/calibration-replay/run-1/B2-wrong_second_interval/judge-result.json"
+}

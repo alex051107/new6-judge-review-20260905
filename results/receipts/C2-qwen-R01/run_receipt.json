@@ -1,0 +1,30 @@
+{
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__Vt5BaQi",
+  "finished_at": "2026-09-05T21:56:13.264581Z",
+  "exception_type": "AgentTimeoutError",
+  "transfers": [
+    {
+      "source": "/logs/artifacts",
+      "destination": "artifacts/logs/artifacts",
+      "type": "directory",
+      "status": "empty",
+      "service": null
+    },
+    {
+      "source": "/app/output",
+      "destination": "artifacts/app/output",
+      "type": "file",
+      "status": "failed",
+      "service": null
+    },
+    {
+      "source": "/app/input",
+      "destination": "artifacts/app/input",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    }
+  ],
+  "source_output_absence_confirmed": true,
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-qwen-R01/run_receipt.json"
+}

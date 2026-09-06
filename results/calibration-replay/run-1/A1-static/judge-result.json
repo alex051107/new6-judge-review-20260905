@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.65,
+  "score_decimal": "0.65",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R006": 1.0,
+    "R004": 0.0,
+    "R005": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.65,
+      "score_decimal": "0.65",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 0.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "20.0",
+        "R004": "0.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.75,
+      "score_decimal": "0.75",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 0.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "0.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.6,
+      "score_decimal": "0.6",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 0.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "0.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "e1cce3be7fcc5c60fc20b955af703315acd93f076fa93b86281ea61ca1a8d892",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/calibration-replay/run-1/A1-static/judge-result.json"
+}

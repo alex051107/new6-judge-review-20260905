@@ -1,0 +1,162 @@
+{
+  "A1": [
+    {
+      "name": "equivalent_formula",
+      "path": "fixtures/equivalent_formula.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "wrong_terminal_period",
+      "path": "fixtures/wrong_terminal_period.xlsx",
+      "lose": [
+        "R003"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "static",
+      "path": "fixtures/static.xlsx",
+      "lose": [
+        "R004"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    }
+  ],
+  "A2": [
+    {
+      "name": "equivalent_layout",
+      "path": "fixtures/equivalent_layout.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "wrong_timing",
+      "path": "fixtures/wrong_timing.xlsx",
+      "lose": [
+        "R002"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "legal_formula_limit",
+      "path": "fixtures/legal_formula_limit.xlsx",
+      "lose": [],
+      "kind": "boundary",
+      "expected_status": "JUDGE_ERROR"
+    }
+  ],
+  "B1": [
+    {
+      "name": "equivalent_layout",
+      "path": "fixtures/v2/equivalent_layout.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "wrong_quantity_bridge",
+      "path": "fixtures/v2/wrong_quantity_bridge.xlsx",
+      "lose": [
+        "R007"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "unbound_bridge_header",
+      "path": "fixtures/v2/unbound_bridge_header.xlsx",
+      "lose": [],
+      "kind": "boundary",
+      "expected_status": "JUDGE_ERROR"
+    }
+  ],
+  "B2": [
+    {
+      "name": "equivalent_layout",
+      "path": "fixtures/equivalent_layout.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "wrong_second_interval",
+      "path": "fixtures/wrong_second_interval.xlsx",
+      "lose": [
+        "R003"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "unsupported_layout",
+      "path": "fixtures/unsupported_layout.xlsx",
+      "lose": [],
+      "kind": "boundary",
+      "expected_status": "JUDGE_ERROR"
+    }
+  ],
+  "C1": [
+    {
+      "name": "equivalent_layout",
+      "path": "fixtures/equivalent_layout.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "outdated_quote",
+      "path": "fixtures/outdated_quote.xlsx",
+      "lose": [
+        "R002"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "legal_layout_limit",
+      "path": "fixtures/legal_layout_limit.xlsx",
+      "lose": [],
+      "kind": "boundary",
+      "expected_status": "JUDGE_ERROR"
+    }
+  ],
+  "C2": [
+    {
+      "name": "equivalent_layout",
+      "path": "fixtures/equivalent_layout.xlsx",
+      "lose": [],
+      "kind": "equivalent",
+      "expected_status": "SCORED",
+      "expected_score": "1"
+    },
+    {
+      "name": "floor_weight",
+      "path": "fixtures/floor_weight.xlsx",
+      "lose": [
+        "R003"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    },
+    {
+      "name": "constant_quotes",
+      "path": "fixtures/constant_quotes.xlsx",
+      "lose": [
+        "R004"
+      ],
+      "kind": "business_error",
+      "expected_status": "SCORED"
+    }
+  ]
+}

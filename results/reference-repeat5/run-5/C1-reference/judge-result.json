@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 1.0,
+  "score_decimal": "1",
+  "pass": true,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "15",
+        "R002": "20",
+        "R003": "15",
+        "R004": "10",
+        "R005": "35",
+        "R006": "5"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "20",
+        "R002": "20",
+        "R003": "20",
+        "R004": "10",
+        "R005": "25",
+        "R006": "5"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "10",
+        "R002": "20",
+        "R003": "15",
+        "R004": "10",
+        "R005": "40",
+        "R006": "5"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-COST-WORKPAPER-001",
+    "original_sha256": "aac646f3f4055541ec3364b70eb2d90a6ad7c28bdb4b6ffeefa93a3cd50b05b8",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/reference-repeat5/run-5/C1-reference/judge-result.json"
+}

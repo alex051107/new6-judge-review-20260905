@@ -1,0 +1,90 @@
+{
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.9385714285714286,
+  "score_decimal": "0.938571428571428565",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 0.8,
+    "R005": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.9385714285714286,
+      "score_decimal": "0.938571428571428565",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.8,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "16.0",
+        "R005": "15.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.9314285714285714,
+      "score_decimal": "0.93142857142857142",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.8,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "17.1428571428571420",
+        "R002": "20.0",
+        "R003": "25.0",
+        "R004": "16.0",
+        "R005": "15.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9357142857142857,
+      "score_decimal": "0.93571428571428571",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.8,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "20.0",
+        "R005": "25.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "b228afb98433fdc5627ca7a1043519c02f67e62f48c17497004bb1b201f01e77",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B2-codex-R03/prior/verifier/judge-result.json"
+}

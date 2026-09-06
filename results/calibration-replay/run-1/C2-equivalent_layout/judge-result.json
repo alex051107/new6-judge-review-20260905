@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 1.0,
+  "score_decimal": "1",
+  "pass": true,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "35",
+        "R002": "10",
+        "R003": "10",
+        "R004": "35",
+        "R005": "5",
+        "R006": "5"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "40",
+        "R002": "10",
+        "R003": "15",
+        "R004": "25",
+        "R005": "5",
+        "R006": "5"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "30",
+        "R002": "10",
+        "R003": "10",
+        "R004": "40",
+        "R005": "5",
+        "R006": "5"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "656c050fda66057fba8870282a6cc98c55532d39251d8d8ce124a22df9bb1a11",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/calibration-replay/run-1/C2-equivalent_layout/judge-result.json"
+}

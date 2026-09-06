@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.6075750650858557,
+  "score_decimal": "0.607575065085855634",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 0.2535211267605634,
+    "R006": 0.0,
+    "R004": 0.45698924731182794,
+    "R005": 0.9384920634920635
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6075750650858557,
+      "score_decimal": "0.607575065085855634",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.2535211267605634,
+        "R006": 0.0,
+        "R004": 0.45698924731182794,
+        "R005": 0.9384920634920635
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "5.0704225352112680",
+        "R004": "15.99462365591397790",
+        "R005": "4.6924603174603175",
+        "R006": "0.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.624552196692701,
+      "score_decimal": "0.62455219669270101",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.2535211267605634,
+        "R006": 0.0,
+        "R004": 0.45698924731182794,
+        "R005": 0.9384920634920635
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "6.3380281690140850",
+        "R004": "11.42473118279569850",
+        "R005": "4.6924603174603175",
+        "R006": "0.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.580424527451447,
+      "score_decimal": "0.580424527451447031",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.2535211267605634,
+        "R006": 0.0,
+        "R004": 0.45698924731182794,
+        "R005": 0.9384920634920635
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "5.0704225352112680",
+        "R004": "18.27956989247311760",
+        "R005": "4.6924603174603175",
+        "R006": "0.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "958f837e9a99b0158716cfa8f399c3f7ee700be4686d7f34728124408ea2dace",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-claude-R06/prior/verifier/judge-result.json"
+}

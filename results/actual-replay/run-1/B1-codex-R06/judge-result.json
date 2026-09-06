@@ -1,0 +1,135 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.6284367930862874,
+  "score_decimal": "0.62843679308628741555",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 0.35234029340992007,
+    "R002": 0.009472636815920397,
+    "R003": 0.24621212121212122,
+    "R004": 0.6744186046511628,
+    "R005": 1.0,
+    "R006": 0.5142552200574401,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6284367930862874,
+      "score_decimal": "0.62843679308628741555",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 0.24621212121212122,
+        "R004": 0.6744186046511628,
+        "R005": 1.0,
+        "R006": 0.5142552200574401,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.52340293409920070",
+        "R002": "0.142089552238805955",
+        "R003": "2.46212121212121220",
+        "R004": "10.1162790697674420",
+        "R005": "8.0",
+        "R006": "3.5997865404020807",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.5746434835848313,
+      "score_decimal": "0.57464348358483134005",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 0.24621212121212122,
+        "R004": 0.6744186046511628,
+        "R005": 1.0,
+        "R006": 0.5142552200574401,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "5.28510440114880105",
+        "R002": "0.142089552238805955",
+        "R003": "3.69318181818181830",
+        "R004": "6.7441860465116280",
+        "R005": "8.0",
+        "R006": "3.5997865404020807",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.643580270583533,
+      "score_decimal": "0.64358027058353300664",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 0.24621212121212122,
+        "R004": 0.6744186046511628,
+        "R005": 1.0,
+        "R006": 0.5142552200574401,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.52340293409920070",
+        "R002": "0.113671641791044764",
+        "R003": "2.46212121212121220",
+        "R004": "10.1162790697674420",
+        "R005": "8.0",
+        "R006": "5.1425522005744010",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "760e81f2718066138d02bda4cc28ef30ffbb53cab482f00a363f9a54f19d2de3",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "760e81f2718066138d02bda4cc28ef30ffbb53cab482f00a363f9a54f19d2de3",
+      "isolated_input": "/logs/verifier/offline/native/recalc-95t3ngem/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-95t3ngem/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/recalc-95t3ngem/output",
+        "/logs/verifier/offline/native/recalc-95t3ngem/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 21557,
+      "isolated_input_sha256": "e4b0782bfdf1e6d5044de2bd0dfc30b1c1b6d3c784698786c67b62ad63dc7c0e",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/recalc-95t3ngem/output/answer.xlsx",
+      "output_sha256": "add7fa83d6fb0497c6d4acf13b6f5ae86e179dde2d508fd6168372f8c4d391c4",
+      "elapsed_seconds": 9.57905550400028,
+      "source_sha256_after": "760e81f2718066138d02bda4cc28ef30ffbb53cab482f00a363f9a54f19d2de3",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/run-1/B1-codex-R06/judge-result.json"
+}

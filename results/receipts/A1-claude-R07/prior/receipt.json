@@ -1,0 +1,99 @@
+{
+  "task": "A1",
+  "system": "claude",
+  "attempt": 7,
+  "trial": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__GGtFCUy",
+  "trial_dir": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__GGtFCUy",
+  "generation": "existing_unchanged_generation",
+  "evaluation_status": "SCORED",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "source_output_absence_confirmed": false,
+  "raw_output_collection_status": "ok",
+  "score_decimal": "0.4214704322382650445",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.421470432238265,
+      "score_decimal": "0.4214704322382650445",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.4772727272727273,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.20698924731182797,
+        "R005": 0.9603174603174602
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "11.9318181818181825",
+        "R003": "8.1690140845070420",
+        "R004": "7.24462365591397895",
+        "R005": "4.8015873015873010",
+        "R006": "0.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.47119404271834986,
+      "score_decimal": "0.4711940427183498525",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.4772727272727273,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.20698924731182797,
+        "R005": 0.9603174603174602
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "11.9318181818181825",
+        "R003": "10.2112676056338025",
+        "R004": "5.17473118279569925",
+        "R005": "4.8015873015873010",
+        "R006": "0.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.4079562582402201,
+      "score_decimal": "0.407956258240220078",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.4772727272727273,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.20698924731182797,
+        "R005": 0.9603174603174602
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "9.5454545454545460",
+        "R003": "8.1690140845070420",
+        "R004": "8.27956989247311880",
+        "R005": "4.8015873015873010",
+        "R006": "0.0"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 0.4772727272727273,
+    "R003": 0.4084507042253521,
+    "R006": 0.0,
+    "R004": 0.20698924731182797,
+    "R005": 0.9603174603174602
+  },
+  "sample_countable": true,
+  "api_calls": 0,
+  "scored_at": "2026-09-06T00:08:58.452123+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-a1-v1.3-proven-formula-defects/A1-claude-R07/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-claude-R07/prior/receipt.json"
+}

@@ -1,17 +1,41 @@
 {
+  "release": "new6-final-review-20260906-v1",
+  "captured_at": "2026-09-06T00:25:05.047468+00:00",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "primary_profile": "capability_first",
+  "pass_threshold": "0.70",
   "tasks": {
-    "B2": {
-      "path": "tasks/92/NEW6-B-LABOUR-BRIEF-001",
-      "task_id": "NEW6-B-LABOUR-BRIEF-001",
-      "task_version": "new6-b2-three-release-v3",
-      "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+    "A1": {
+      "path": "tasks/52/NEW6-A-FIN-RESTORE-001",
+      "task_id": "NEW6-A-FIN-RESTORE-001",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "judge_version": "new6-a1-v1.3-proven-formula-defects",
+      "primary_weights": {
+        "R001": 10,
+        "R002": 25,
+        "R003": 20,
+        "R004": 35,
+        "R005": 5,
+        "R006": 5
+      },
+      "criteria_count": 6,
+      "source_root": "tasks/NEW6-A-FIN-RESTORE-001"
+    },
+    "A2": {
+      "path": "tasks/54/NEW6-A-MACRO-SCENARIO-001",
+      "task_id": "NEW6-A-MACRO-SCENARIO-001",
+      "task_version": "new6-a2-v1.0-zambia",
+      "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
       "primary_weights": {
         "R001": 15,
-        "R002": 25,
-        "R003": 25,
+        "R002": 35,
+        "R003": 20,
         "R004": 20,
-        "R005": 15
-      }
+        "R005": 5,
+        "R006": 5
+      },
+      "criteria_count": 6,
+      "source_root": "tasks/NEW6-A-MACRO-SCENARIO-001"
     },
     "B1": {
       "path": "tasks/44/NEW6-B-RETAIL-CLOSE-001",
@@ -27,35 +51,24 @@
         "R006": 7,
         "R007": 25,
         "R008": 10
-      }
+      },
+      "criteria_count": 8,
+      "source_root": "tasks/NEW6-B-RETAIL-CLOSE-001"
     },
-    "A2": {
-      "path": "tasks/54/NEW6-A-MACRO-SCENARIO-001",
-      "task_id": "NEW6-A-MACRO-SCENARIO-001",
-      "task_version": "new6-a2-v1.0-zambia",
-      "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
+    "B2": {
+      "path": "tasks/92/NEW6-B-LABOUR-BRIEF-001",
+      "task_id": "NEW6-B-LABOUR-BRIEF-001",
+      "task_version": "new6-b2-three-release-v3",
+      "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
       "primary_weights": {
         "R001": 15,
-        "R002": 35,
-        "R003": 20,
-        "R004": 20,
-        "R005": 5,
-        "R006": 5
-      }
-    },
-    "A1": {
-      "path": "tasks/52/NEW6-A-FIN-RESTORE-001",
-      "task_id": "NEW6-A-FIN-RESTORE-001",
-      "task_version": "new6-a1-v1.1-historical-rate",
-      "judge_version": "new6-a1-v1.3-proven-formula-defects",
-      "primary_weights": {
-        "R001": 10,
         "R002": 25,
-        "R003": 20,
-        "R004": 35,
-        "R005": 5,
-        "R006": 5
-      }
+        "R003": 25,
+        "R004": 20,
+        "R005": 15
+      },
+      "criteria_count": 5,
+      "source_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001"
     },
     "C1": {
       "path": "tasks/23/NEW6-C-COST-WORKPAPER-001",
@@ -69,7 +82,9 @@
         "R004": 10,
         "R005": 35,
         "R006": 5
-      }
+      },
+      "criteria_count": 6,
+      "source_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001"
     },
     "C2": {
       "path": "tasks/49/NEW6-C-PARCEL-TARIFF-001",
@@ -83,7 +98,19 @@
         "R004": 35,
         "R005": 5,
         "R006": 5
-      }
+      },
+      "criteria_count": 6,
+      "source_root": "tasks/NEW6-C-PARCEL-TARIFF-001"
     }
-  }
+  },
+  "api_calls_this_release": 0,
+  "human_review_status": "待人工审查",
+  "judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "judge_repository": "alex051107/excelbench-p15-results",
+  "official_acceptance": "PENDING_HUMAN_AND_DIFFICULTY_REVIEW",
+  "known_judge_issues": [
+    "A1 review/base binding on actual R03",
+    "B1 partial bridge parsing on boundary fixture",
+    "C2 header and equivalent unit binding on actual R08"
+  ]
 }

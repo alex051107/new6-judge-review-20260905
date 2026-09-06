@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.764838647714176,
+  "score_decimal": "0.764838647714175950825970034575489819439115",
+  "pass": true,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "0.5",
+    "R003": "1",
+    "R004": "0.7518248175182481751824817518248175182482",
+    "R005": "1",
+    "R006": "0.7894736842105263157894736842105263157895"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.764838647714176,
+      "score_decimal": "0.764838647714175950825970034575489819439115",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.5",
+        "R003": "1",
+        "R004": "0.7518248175182481751824817518248175182482",
+        "R005": "1",
+        "R006": "0.7894736842105263157894736842105263157895"
+      },
+      "contributions_raw": {
+        "R001": "15",
+        "R002": "17.5",
+        "R003": "20",
+        "R004": "15.0364963503649635036496350364963503649640",
+        "R005": "5",
+        "R006": "3.9473684210526315789473684210526315789475"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.8022474068382636,
+      "score_decimal": "0.802247406838263542066845946984248943526705",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.5",
+        "R003": "1",
+        "R004": "0.7518248175182481751824817518248175182482",
+        "R005": "1",
+        "R006": "0.7894736842105263157894736842105263157895"
+      },
+      "contributions_raw": {
+        "R001": "20",
+        "R002": "15.0",
+        "R003": "20",
+        "R004": "11.2773722627737226277372262773722627737230",
+        "R005": "10",
+        "R006": "3.9473684210526315789473684210526315789475"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.7774298885900883,
+      "score_decimal": "0.777429888590088359585094122166730695351525",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.5",
+        "R003": "1",
+        "R004": "0.7518248175182481751824817518248175182482",
+        "R005": "1",
+        "R006": "0.7894736842105263157894736842105263157895"
+      },
+      "contributions_raw": {
+        "R001": "10",
+        "R002": "15.0",
+        "R003": "20",
+        "R004": "18.7956204379562043795620437956204379562050",
+        "R005": "10",
+        "R006": "3.9473684210526315789473684210526315789475"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+    "original_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/run-1/A2-codex-R05/judge-result.json"
+}

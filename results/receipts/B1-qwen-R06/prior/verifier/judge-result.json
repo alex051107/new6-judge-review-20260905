@@ -1,0 +1,72 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "JUDGE_ERROR",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+      "isolated_input": "/logs/verifier/offline/native/recalc-zldxxeck/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-zldxxeck/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/recalc-zldxxeck/output",
+        "/logs/verifier/offline/native/recalc-zldxxeck/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1,
+      "isolated_input_sha256": "5fb5b5f2336ad94c5d22faca93ea072a7a113d02379d85f9e568fe754572ba0d",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/recalc-zldxxeck/output/answer.xlsx",
+      "output_sha256": "a8dc7ce2632f408f9f3484a2ed4f11be72ce039ada1e61041458855d5120dedf",
+      "elapsed_seconds": 1.0765915420197416,
+      "source_sha256_after": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B1-qwen-R06/prior/verifier/judge-result.json"
+}

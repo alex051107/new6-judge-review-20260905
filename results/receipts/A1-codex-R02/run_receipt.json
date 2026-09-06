@@ -1,0 +1,30 @@
+{
+  "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R02__7LjkeLB",
+  "finished_at": "2026-09-05T18:06:12.664428Z",
+  "exception_type": null,
+  "transfers": [
+    {
+      "source": "/logs/artifacts",
+      "destination": "artifacts/logs/artifacts",
+      "type": "directory",
+      "status": "empty",
+      "service": null
+    },
+    {
+      "source": "/app/output",
+      "destination": "artifacts/app/output",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    },
+    {
+      "source": "/app/input",
+      "destination": "artifacts/app/input",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    }
+  ],
+  "source_output_absence_confirmed": false,
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-codex-R02/run_receipt.json"
+}

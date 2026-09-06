@@ -1,0 +1,26 @@
+{
+  "agent": {
+    "name": "claude-code",
+    "model_name": "claude-opus-5",
+    "n_concurrent": 2,
+    "override_timeout_sec": 1200.0,
+    "kwargs": {
+      "version": "2.1.251",
+      "max_budget_usd": "10",
+      "disallowed_tools": "WebSearch"
+    },
+    "env": {
+      "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}",
+      "ANTHROPIC_BASE_URL": "https://api.zcloudapi.com",
+      "ANTHROPIC_MAX_RETRIES": "0"
+    }
+  },
+  "harbor_version": "0.22.0",
+  "config_raw_sha256": "c5875373432c0bb00449715f77187be444f2c14cddb2203f5eab19c23c087a0d",
+  "actual_model_counts": {
+    "claude-opus-5-thinking-high": 14
+  },
+  "model_identity_status": "RESPONSE_MODEL_RECORDED",
+  "generation_config_id": "638cc5460598",
+  "grouping_includes_scheduler_concurrency": true
+}

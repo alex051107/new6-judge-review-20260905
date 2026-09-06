@@ -1,0 +1,90 @@
+{
+  "task": "B2",
+  "system": "claude",
+  "attempt": 3,
+  "trial": "N6V3-B2-CLAUDE-R03__hQUFHa7",
+  "trial_dir": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R03__hQUFHa7",
+  "generation": "new_generation",
+  "evaluation_status": "SCORED",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "score_decimal": "0.638823953823953826",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6388239538239538,
+      "score_decimal": "0.638823953823953826",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "17.5",
+        "R003": "16.9696969696969700",
+        "R004": "3.55555555555555560",
+        "R005": "13.0000000000000005"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.6466810966810966,
+      "score_decimal": "0.646681096681096681",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "17.1428571428571420",
+        "R002": "14.0",
+        "R003": "16.9696969696969700",
+        "R004": "3.55555555555555560",
+        "R005": "13.0000000000000005"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.6225829725829726,
+      "score_decimal": "0.62258297258297259",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "14.0",
+        "R003": "13.5757575757575760",
+        "R004": "4.44444444444444450",
+        "R005": "21.6666666666666675"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 0.7,
+    "R003": 0.6787878787878788,
+    "R004": 0.17777777777777778,
+    "R005": 0.8666666666666667
+  },
+  "sample_countable": true,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T21:50:51.388541+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-b2-three-release-v3.2-labelled-code-lists/B2-claude-R03/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B2-claude-R03/prior/receipt.json"
+}

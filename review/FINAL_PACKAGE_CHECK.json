@@ -1,0 +1,16 @@
+{
+  "scope": "Final release files in Git index, current Markdown entry links, selected trial paths and core manifest membership",
+  "json_parse": "PASS",
+  "toml_parse": "PASS",
+  "private_tracked_json": 1581,
+  "public_tracked_json": 764,
+  "toml_each": 6,
+  "current_entry_links": "PASS",
+  "selected_trial_answer_and_receipt_paths": "PASS",
+  "core_manifest_files_tracked": "PASS",
+  "personal_path_and_api_key_pattern_scan": "PASS",
+  "files_over_100MiB": 0,
+  "public_complete_replay_package": false,
+  "known_judge_defects": "PRESERVED; see LOW_SCORE_AUDIT.md",
+  "human_review": "待人工审查"
+}

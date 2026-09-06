@@ -1,0 +1,50 @@
+{
+  "task": "C1",
+  "system": "claude",
+  "attempt": 2,
+  "trial": "N6C1V2-CLAUDE-R02__vNpHmQn",
+  "trial_dir": "new6/campaigns/c1-revision-v2-24/runtime/claude/jobs/new6-c1-revision-v2-claude/N6C1V2-CLAUDE-R02__vNpHmQn",
+  "generation": "new_generation",
+  "evaluation_status": "OUTPUT_MISSING",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "source_output_absence_confirmed": false,
+  "raw_output_collection_status": "ok",
+  "score_decimal": "0",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "capability_first",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "balanced",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "ongoing_use",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "criterion_scores": null,
+  "sample_countable": true,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T23:20:27.306508+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-c1-review-facts-v2.2-cumulative-movement/C1-claude-R02/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C1-claude-R02/prior/receipt.json"
+}

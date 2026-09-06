@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.9338024382856277,
+  "score_decimal": "0.933802438285627705",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 0.9366197183098591,
+    "R006": 0.4,
+    "R004": 0.9327956989247311,
+    "R005": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.9338024382856277,
+      "score_decimal": "0.933802438285627705",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9366197183098591,
+        "R006": 0.4,
+        "R004": 0.9327956989247311,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "18.7323943661971820",
+        "R004": "32.6478494623655885",
+        "R005": "5.0",
+        "R006": "2.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.9373538543086476,
+      "score_decimal": "0.93735385430864755",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9366197183098591,
+        "R006": 0.4,
+        "R004": 0.9327956989247311,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "23.4154929577464775",
+        "R004": "23.3198924731182775",
+        "R005": "5.0",
+        "R006": "2.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9304422232318642,
+      "score_decimal": "0.93044222323186426",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9366197183098591,
+        "R006": 0.4,
+        "R004": 0.9327956989247311,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "18.7323943661971820",
+        "R004": "37.3118279569892440",
+        "R005": "5.0",
+        "R006": "2.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "66f8b14d2b82ce50c93d1a86bc98000b73e0d5197ae5f587b9843a0c3aaa573d",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/calibration-replay/run-1/A1-wrong_terminal_period/judge-result.json"
+}

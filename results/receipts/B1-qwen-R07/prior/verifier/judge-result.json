@@ -1,0 +1,48 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "OUTPUT_MISSING",
+  "normalized_score": 0.0,
+  "score_decimal": "0",
+  "pass": false,
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "capability_first",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "balanced",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "ongoing_use",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "sample_countable": true,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": null,
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B1-qwen-R07/prior/verifier/judge-result.json"
+}

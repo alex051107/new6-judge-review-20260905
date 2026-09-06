@@ -1,0 +1,50 @@
+{
+  "task": "A2",
+  "system": "claude",
+  "attempt": 6,
+  "trial": "NEW6-A-MACRO-SCENARIO-001-CLAUDE__ooELUEe",
+  "trial_dir": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__ooELUEe",
+  "generation": "existing_unchanged_generation",
+  "evaluation_status": "JUDGE_ERROR",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "source_output_absence_confirmed": false,
+  "raw_output_collection_status": "ok",
+  "score_decimal": null,
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "criterion_scores": null,
+  "sample_countable": false,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T23:43:58.138808+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-a2-facts-v1.3-real-gdp-labels/A2-claude-R06/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A2-claude-R06/prior/receipt.json"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "task": "A1",
+    "visible_input_sets_equal": true,
+    "input_files": 2,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  },
+  {
+    "task": "A2",
+    "visible_input_sets_equal": true,
+    "input_files": 3,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  },
+  {
+    "task": "B1",
+    "visible_input_sets_equal": true,
+    "input_files": 4,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  },
+  {
+    "task": "B2",
+    "visible_input_sets_equal": true,
+    "input_files": 6,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  },
+  {
+    "task": "C1",
+    "visible_input_sets_equal": true,
+    "input_files": 3,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  },
+  {
+    "task": "C2",
+    "visible_input_sets_equal": true,
+    "input_files": 3,
+    "all_nonempty": true,
+    "test_executable": true,
+    "business_rubric_unchanged": true
+  }
+]

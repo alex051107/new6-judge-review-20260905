@@ -1,0 +1,111 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.8055555555555556,
+  "score_decimal": "0.80555555555555555",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 1.0,
+    "R006": 1.0,
+    "R007": 0.2222222222222222,
+    "R008": 1.0
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.8055555555555556,
+      "score_decimal": "0.80555555555555555",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 0.2222222222222222,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "15.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "5.5555555555555550",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.8444444444444444,
+      "score_decimal": "0.84444444444444444",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 0.2222222222222222,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "15.0",
+        "R003": "15.0",
+        "R004": "10.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "4.4444444444444440",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.8444444444444444,
+      "score_decimal": "0.84444444444444444",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 0.2222222222222222,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "12.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "10.0",
+        "R007": "4.4444444444444440",
+        "R008": "15.0"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "d3f3e3f73cb1058091b37951a03f56e5bd5224912c807cbd4d03bb7a27c957e2",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/calibration-replay/run-1/B1-unbound_bridge_header/judge-result.json"
+}

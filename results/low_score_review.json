@@ -1,0 +1,89 @@
+{
+  "scope": "Targeted local verification of four real SCORED submissions; no new generation, scoring, weights, or score changes.",
+  "reviewed_submission_count": 4,
+  "local_business_errors_confirmed_count": 4,
+  "judge_binding_defects_confirmed_submission_count": 1,
+  "human_acceptance_status": "待人工审查",
+  "findings": [
+    {
+      "trial_id": "A1-claude-R03",
+      "system": "Opus 5",
+      "classification": "CONFIRMED_BUSINESS_ERROR_AND_JUDGE_MISBINDING",
+      "observed_score_100": 32.29607708977882,
+      "total_score_fairness": "NOT_FULLY_VALIDATED",
+      "evidence": [
+        {
+          "file": "results/answers/A1-claude-R03/output/answer.xlsx",
+          "cells": "Valuation output!C8,C38; Input sheet!B8,B11,B12,B15,B23,I24,B26",
+          "observed": "C8=(C3-B3)/C38; source inputs yield 208125*0.15/(208125/(34995+27050-27050))=5249.25. Native replay C8=5249.25.",
+          "conclusion": "Base first-year reinvestment is correct."
+        },
+        {
+          "file": "results/answers/A1-claude-R03/output/answer.xlsx",
+          "cells": "Valuation output!P3,Q8,Q38,AA2,AA8",
+          "observed": "P3 is empty; Q8=(Q3-P3)/Q38 gives 40244.25; AA8=AA2*AA7/AA40 while AA2 is Terminal year. Native replay AA8=#VALUE!.",
+          "conclusion": "Review first-year reinvestment uses full revenue, not revenue growth; terminal reinvestment multiplies text."
+        },
+        {
+          "file": "tasks/52/NEW6-A-FIN-RESTORE-001/tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+          "function": "year_regions/read",
+          "observed": "Receipt candidate_tables binds only row 2 as base, columns 1–27. Base year labels are C1:M1; review labels Q2:AA2. Row 1 contains REVIEW CASE but row-2 region inherits Valuation output as base. Receipt attributes Q4 and Q8 to base and reports review missing.",
+          "conclusion": "Confirmed case-binding defect; correct base values lose credit. The total score cannot establish low ability."
+        }
+      ]
+    },
+    {
+      "trial_id": "B1-claude-R08",
+      "system": "Opus 5",
+      "classification": "CONFIRMED_LOCAL_BUSINESS_ERROR",
+      "total_score_fairness": "NOT_FULLY_VALIDATED",
+      "evidence": [
+        {
+          "file": "results/answers/B1-claude-R08/output/answer.xlsx",
+          "cells": "Bridge Analysis!B10:B12,B17:B19",
+          "observed": "B10=96389.128; B11=-45372.07999999999; B12=96389.12799999979; B17=1019687.622; B18=1070704.67; B19=51017.04799999995.",
+          "independent_check": "96389.128-45372.08=51017.048; 1070704.67-1019687.622=51017.048.",
+          "conclusion": "Total change in the main bridge omits credits. The lower full-net change is correct and should retain credit."
+        }
+      ],
+      "requirement": "tasks/44/NEW6-B-RETAIL-CLOSE-001/data/input_files/review_brief.md"
+    },
+    {
+      "trial_id": "B2-claude-R05",
+      "system": "Opus 5",
+      "classification": "CONFIRMED_LOCAL_BUSINESS_ERROR",
+      "total_score_fairness": "NOT_FULLY_VALIDATED",
+      "evidence": [
+        {
+          "file": "results/answers/B2-claude-R05/output/answer.xlsx",
+          "cells": "Updated shortlist!D2:E2,J2,G3:H3,K3",
+          "observed": "West Lindsey 84.5 to 66.9 is reported as -17.5; Lambeth unemployment 3.8 to 3.8 is reported as +0.1.",
+          "independent_check": "Using the explicitly required one-decimal published rates gives -17.6 pp and 0.0 pp.",
+          "conclusion": "The supplied precision rule is violated; Lambeth does not have an unemployment increase in that interval. This affects sustained-deterioration selection."
+        }
+      ],
+      "requirement": "tasks/92/NEW6-B-LABOUR-BRIEF-001/data/input_files/review_brief.md"
+    },
+    {
+      "trial_id": "C1-claude-R03",
+      "system": "Opus 5",
+      "classification": "CONFIRMED_LOCAL_BUSINESS_ERROR",
+      "total_score_fairness": "NOT_FULLY_VALIDATED",
+      "evidence": [
+        {
+          "file": "results/answers/C1-claude-R03/output/answer.xlsx",
+          "cells": "Cost Breakdown!A9:B9",
+          "source": "tasks/23/NEW6-C-COST-WORKPAPER-001/data/input_files/Falmouth_OCE_October2024_RevA.pdf, page 5",
+          "observed": "Candidate labels 9600 as Rear Roof. Source page 5 labels 9600 as Central Lantern Feature and 400 as Rear Roof (refer to Pitched Roof for costs).",
+          "conclusion": "Confirmed amount-to-object mismatch against original PDF, not merely a mismatch with Judge extraction."
+        },
+        {
+          "file": "results/answers/C1-claude-R03/output/answer.xlsx",
+          "cells": "Reconciliation!B8; Working Calculation!C6",
+          "observed": "B8=458000-432000; C6=458000 is the editable current heating/ASHP package amount.",
+          "conclusion": "Changing C6 cannot change this reconciliation formula; the update dependency is broken."
+        }
+      ]
+    }
+  ]
+}

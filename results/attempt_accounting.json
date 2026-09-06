@@ -1,0 +1,136 @@
+{
+  "selected_current_cohort_attempts": 138,
+  "archived_superseded_attempts": 19,
+  "total_attempts_including_superseded": 157,
+  "planned_current_slots": 144,
+  "slots_without_selected_terminal_record": 6,
+  "attempts_are_not_all_valid_business_samples": true,
+  "per_task_system": [
+    {
+      "task": "A1",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "A1",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "A1",
+      "system": "qwen",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 5,
+      "total_attempts": 13
+    },
+    {
+      "task": "A2",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "A2",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "A2",
+      "system": "qwen",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 6,
+      "total_attempts": 14
+    },
+    {
+      "task": "B1",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "B1",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "B1",
+      "system": "qwen",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 4,
+      "total_attempts": 12
+    },
+    {
+      "task": "B2",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "B2",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "B2",
+      "system": "qwen",
+      "selected_attempts": 6,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 6
+    },
+    {
+      "task": "C1",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "C1",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 4,
+      "total_attempts": 12
+    },
+    {
+      "task": "C1",
+      "system": "qwen",
+      "selected_attempts": 4,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 4
+    },
+    {
+      "task": "C2",
+      "system": "claude",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "C2",
+      "system": "codex",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    },
+    {
+      "task": "C2",
+      "system": "qwen",
+      "selected_attempts": 8,
+      "archived_superseded_attempts": 0,
+      "total_attempts": 8
+    }
+  ]
+}

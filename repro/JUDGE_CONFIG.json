@@ -1,0 +1,15 @@
+{
+  "backend": "deterministic",
+  "llm_calls": false,
+  "llm_model": null,
+  "llm_provider": null,
+  "llm_protocol": null,
+  "timeout_sec": 600,
+  "retry_count": 0,
+  "network": "none",
+  "image": "new6-final-judge:v1",
+  "observed_image_id": "sha256:16d89ab96d5cd066a81496dfb7cfa4b0f77fe031ac7a57183fde686ce13e7f97",
+  "architecture": "arm64",
+  "fresh_build_image_id": "sha256:2502b48d13f87f3ad46669f0093abddfe7c07e10770215968e548e2108d95b3b",
+  "fresh_build_validation": "results/fresh-build-reference/receipt.json"
+}

@@ -5,6 +5,8 @@ name = "alex051107/new6-c-parcel-tariff-001"
 version = "0.1.0"
 description = "NEW6 source-based reconstructed task"
 [metadata]
+task_version = "new6-c2-natural-v2"
+judge_version = "new6-usps-facts-v2.1-wide-rate-layout"
 task_id = "NEW6-C-PARCEL-TARIFF-001"
 track = "C"
 status = "BUILT_REFERENCE_AND_CALIBRATION_VERIFIED"

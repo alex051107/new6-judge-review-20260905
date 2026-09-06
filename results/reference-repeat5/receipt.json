@@ -1,0 +1,826 @@
+{
+  "api_calls": 0,
+  "checks": [
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/B2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/B1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/A2-reference/judge-result.json"
+    },
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/A1-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/C2-reference/judge-result.json"
+    },
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-2/B2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-2/B1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-2/A2-reference/judge-result.json"
+    },
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-2/A1-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-2/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 2,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-2/C2-reference/judge-result.json"
+    },
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-3/B2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-3/B1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-3/A2-reference/judge-result.json"
+    },
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-3/A1-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-3/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 3,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-3/C2-reference/judge-result.json"
+    },
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-4/B2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-4/B1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-4/A2-reference/judge-result.json"
+    },
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-4/A1-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-4/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 4,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-4/C2-reference/judge-result.json"
+    },
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-5/B2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-5/B1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-5/A2-reference/judge-result.json"
+    },
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-5/A1-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-5/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 5,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-5/C2-reference/judge-result.json"
+    }
+  ],
+  "consistency": [
+    {
+      "id": "B2-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B2-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B2-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B2-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B2-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B2-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R006",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R007",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "B1-reference",
+      "criterion": "R008",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A2-reference",
+      "criterion": "R006",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "A1-reference",
+      "criterion": "R006",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C1-reference",
+      "criterion": "R006",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "total",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R001",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R002",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R003",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R004",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R005",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    },
+    {
+      "id": "C2-reference",
+      "criterion": "R006",
+      "n": 5,
+      "stddev": 0.0,
+      "below_0_05": true
+    }
+  ],
+  "all_assertions_passed": true,
+  "runtime": "runtime.txt",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/reference-repeat5/receipt.json"
+}

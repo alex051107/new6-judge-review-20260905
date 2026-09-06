@@ -1,0 +1,30 @@
+{
+  "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__oGZxSgZ",
+  "finished_at": "2026-09-05T19:32:27.474527Z",
+  "exception_type": null,
+  "transfers": [
+    {
+      "source": "/logs/artifacts",
+      "destination": "artifacts/logs/artifacts",
+      "type": "directory",
+      "status": "empty",
+      "service": null
+    },
+    {
+      "source": "/app/output",
+      "destination": "artifacts/app/output",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    },
+    {
+      "source": "/app/input",
+      "destination": "artifacts/app/input",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    }
+  ],
+  "source_output_absence_confirmed": false,
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B1-codex-R01/run_receipt.json"
+}

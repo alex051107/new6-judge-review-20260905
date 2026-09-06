@@ -1,0 +1,30 @@
+{
+  "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF",
+  "finished_at": "2026-09-06T00:07:02.911475Z",
+  "exception_type": "UnknownApiError",
+  "transfers": [
+    {
+      "source": "/logs/artifacts",
+      "destination": "artifacts/logs/artifacts",
+      "type": "directory",
+      "status": "empty",
+      "service": null
+    },
+    {
+      "source": "/app/output",
+      "destination": "artifacts/app/output",
+      "type": "file",
+      "status": "failed",
+      "service": null
+    },
+    {
+      "source": "/app/input",
+      "destination": "artifacts/app/input",
+      "type": "directory",
+      "status": "ok",
+      "service": null
+    }
+  ],
+  "source_output_absence_confirmed": true,
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-qwen-R04/run_receipt.json"
+}

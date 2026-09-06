@@ -1,0 +1,50 @@
+{
+  "task": "C2",
+  "system": "qwen",
+  "attempt": 4,
+  "trial": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__gskrjok",
+  "trial_dir": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__gskrjok",
+  "generation": "existing_unchanged_generation",
+  "evaluation_status": "OUTPUT_MISSING",
+  "upstream_exception": "AgentTimeoutError",
+  "artifact_collection_ok": true,
+  "system_identity": "PROVIDER_MODEL_IDENTITY_PENDING",
+  "source_output_absence_confirmed": true,
+  "raw_output_collection_status": "failed",
+  "score_decimal": "0",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "capability_first",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "balanced",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "OUTPUT_MISSING",
+      "profile": "ongoing_use",
+      "normalized_score": 0.0,
+      "score_decimal": "0",
+      "pass": false,
+      "sample_countable": true,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "criterion_scores": null,
+  "sample_countable": false,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T22:33:59.656669+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/C2-qwen-R04/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-qwen-R04/prior/receipt.json"
+}

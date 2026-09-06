@@ -1,0 +1,99 @@
+{
+  "task": "C2",
+  "system": "qwen",
+  "attempt": 3,
+  "trial": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU",
+  "trial_dir": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU",
+  "generation": "existing_unchanged_generation",
+  "evaluation_status": "SCORED",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "PROVIDER_MODEL_IDENTITY_PENDING",
+  "source_output_absence_confirmed": false,
+  "raw_output_collection_status": "ok",
+  "score_decimal": "0.499999999999999999999999999998",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.5,
+      "score_decimal": "0.499999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "35",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.55,
+      "score_decimal": "0.549999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "40",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.45,
+      "score_decimal": "0.449999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "30",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "0",
+    "R004": "0",
+    "R005": "0.03846153846153846153846153846",
+    "R006": "0.9615384615384615384615384615"
+  },
+  "sample_countable": false,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T22:14:49.866587+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/C2-qwen-R03/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-qwen-R03/prior/receipt.json"
+}

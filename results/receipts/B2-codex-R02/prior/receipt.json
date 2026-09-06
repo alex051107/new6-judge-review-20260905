@@ -1,0 +1,90 @@
+{
+  "task": "B2",
+  "system": "codex",
+  "attempt": 2,
+  "trial": "N6V3-B2-CODEX-R02__aUyEiMh",
+  "trial_dir": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R02__aUyEiMh",
+  "generation": "new_generation",
+  "evaluation_status": "SCORED",
+  "upstream_exception": null,
+  "artifact_collection_ok": true,
+  "system_identity": "REQUESTED_CONFIGURATION_RECORDED",
+  "score_decimal": "0.896349206349206365",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.8963492063492063,
+      "score_decimal": "0.896349206349206365",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.888888888888889,
+        "R005": 0.6
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "17.777777777777780",
+        "R005": "9.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.8892063492063492,
+      "score_decimal": "0.88920634920634922",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.888888888888889,
+        "R005": 0.6
+      },
+      "contributions_raw": {
+        "R001": "17.1428571428571420",
+        "R002": "20.0",
+        "R003": "25.0",
+        "R004": "17.777777777777780",
+        "R005": "9.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.857936507936508,
+      "score_decimal": "0.85793650793650796",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.888888888888889,
+        "R005": 0.6
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "22.222222222222225",
+        "R005": "15.0"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 0.888888888888889,
+    "R005": 0.6
+  },
+  "sample_countable": true,
+  "api_calls": 0,
+  "scored_at": "2026-09-05T21:51:53.366627+00:00",
+  "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-b2-three-release-v3.2-labelled-code-lists/B2-codex-R02/verifier/judge-result.json",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B2-codex-R02/prior/receipt.json"
+}

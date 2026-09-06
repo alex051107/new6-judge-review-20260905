@@ -1,0 +1,48 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "JUDGE_ERROR",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "d8b22414378d36581fa3cc61255b7da7d3f29a3b3fd62a1241b0850276e0800b",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-claude-R03/prior/verifier/judge-result.json"
+}

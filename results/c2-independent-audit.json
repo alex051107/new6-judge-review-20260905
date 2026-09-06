@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "C2-codex-R08",
+    "classification": "CONFIRMED_JUDGE_FALSE_NEGATIVE",
+    "recorded_score": "0.296858974358974358974358974348",
+    "price_grid_matches": 192,
+    "price_grid_total": 192,
+    "quote_value_matches": 36,
+    "quote_value_total": 36,
+    "zero_dynamic_control_tests": 4,
+    "original_editable_control": "Quotes!B5",
+    "observed_headers": [
+      "Quotes!H4 = Priority Mail Retail",
+      "Quotes!I4 = Ground Advantage Retail",
+      "Rate Sheet!A20 = Max actual weight (oz)",
+      "Rate Sheet!A26 = 16; J26 = 1 lb"
+    ],
+    "cause": "Exact header aliases omit Retail; rate key equates nominal unit labels instead of accepting explicitly equivalent ounce bounds. Quote table silently omitted although rate table bound.",
+    "rate_checks": [
+      {
+        "cell": "Rate Sheet!B6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 11,
+        "expected": "11.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 11.5,
+        "expected": "11.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 11.65,
+        "expected": "11.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 11.9,
+        "expected": "11.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 13.05,
+        "expected": "13.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 14.5,
+        "expected": "14.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 15.6,
+        "expected": "15.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I6",
+        "service": "priority",
+        "upper_oz": "16",
+        "actual": 16.95,
+        "expected": "16.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 11.95,
+        "expected": "11.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 12.65,
+        "expected": "12.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 13.45,
+        "expected": "13.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 14.35,
+        "expected": "14.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 16.85,
+        "expected": "16.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 18.15,
+        "expected": "18.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 19.45,
+        "expected": "19.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I7",
+        "service": "priority",
+        "upper_oz": "32",
+        "actual": 21.55,
+        "expected": "21.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 12.45,
+        "expected": "12.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 13.3,
+        "expected": "13.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 14,
+        "expected": "14.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 15.15,
+        "expected": "15.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 18.05,
+        "expected": "18.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 20.95,
+        "expected": "20.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 23.85,
+        "expected": "23.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I8",
+        "service": "priority",
+        "upper_oz": "48",
+        "actual": 27.1,
+        "expected": "27.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 13.45,
+        "expected": "13.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 14.05,
+        "expected": "14.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 15.05,
+        "expected": "15.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 16.35,
+        "expected": "16.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 20.75,
+        "expected": "20.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 25.35,
+        "expected": "25.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 28.4,
+        "expected": "28.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I9",
+        "service": "priority",
+        "upper_oz": "64",
+        "actual": 31.85,
+        "expected": "31.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 14.3,
+        "expected": "14.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 14.95,
+        "expected": "14.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 16.05,
+        "expected": "16.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 17.5,
+        "expected": "17.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 22.1,
+        "expected": "22.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 27,
+        "expected": "27.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 32.7,
+        "expected": "32.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I10",
+        "service": "priority",
+        "upper_oz": "80",
+        "actual": 36.9,
+        "expected": "36.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 14.9,
+        "expected": "14.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 15.35,
+        "expected": "15.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 16.45,
+        "expected": "16.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 18.2,
+        "expected": "18.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 23.25,
+        "expected": "23.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 29.65,
+        "expected": "29.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 37,
+        "expected": "37.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I11",
+        "service": "priority",
+        "upper_oz": "96",
+        "actual": 41.85,
+        "expected": "41.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 15.55,
+        "expected": "15.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 16.05,
+        "expected": "16.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 17.1,
+        "expected": "17.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 19.05,
+        "expected": "19.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 25.1,
+        "expected": "25.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 32.3,
+        "expected": "32.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 41.15,
+        "expected": "41.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I12",
+        "service": "priority",
+        "upper_oz": "112",
+        "actual": 46.75,
+        "expected": "46.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 16.25,
+        "expected": "16.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 16.5,
+        "expected": "16.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 17.6,
+        "expected": "17.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 19.7,
+        "expected": "19.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 26.4,
+        "expected": "26.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 35.1,
+        "expected": "35.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 45.35,
+        "expected": "45.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I13",
+        "service": "priority",
+        "upper_oz": "128",
+        "actual": 51.7,
+        "expected": "51.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 16.85,
+        "expected": "16.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 17.15,
+        "expected": "17.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 18.1,
+        "expected": "18.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 20.85,
+        "expected": "20.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 27.45,
+        "expected": "27.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 37.7,
+        "expected": "37.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 49.45,
+        "expected": "49.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I14",
+        "service": "priority",
+        "upper_oz": "144",
+        "actual": 56.45,
+        "expected": "56.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 17.8,
+        "expected": "17.80",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 18.25,
+        "expected": "18.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 19.2,
+        "expected": "19.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 21.75,
+        "expected": "21.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 28.65,
+        "expected": "28.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 40.6,
+        "expected": "40.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 53.55,
+        "expected": "53.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I15",
+        "service": "priority",
+        "upper_oz": "160",
+        "actual": 61.3,
+        "expected": "61.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 7.9,
+        "expected": "7.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.05,
+        "expected": "8.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.15,
+        "expected": "8.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.3,
+        "expected": "8.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.6,
+        "expected": "8.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.75,
+        "expected": "8.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 8.95,
+        "expected": "8.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I22",
+        "service": "ground",
+        "upper_oz": "4",
+        "actual": 9.45,
+        "expected": "9.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 7.9,
+        "expected": "7.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.05,
+        "expected": "8.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.15,
+        "expected": "8.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.3,
+        "expected": "8.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.6,
+        "expected": "8.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.75,
+        "expected": "8.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 8.95,
+        "expected": "8.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I23",
+        "service": "ground",
+        "upper_oz": "8",
+        "actual": 9.45,
+        "expected": "9.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 9.55,
+        "expected": "9.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 9.95,
+        "expected": "9.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 10.2,
+        "expected": "10.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 10.6,
+        "expected": "10.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 10.95,
+        "expected": "10.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 11.95,
+        "expected": "11.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I24",
+        "service": "ground",
+        "upper_oz": "12",
+        "actual": 12.9,
+        "expected": "12.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 9.55,
+        "expected": "9.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 9.95,
+        "expected": "9.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 10.2,
+        "expected": "10.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 10.6,
+        "expected": "10.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 10.95,
+        "expected": "10.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 11.95,
+        "expected": "11.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I25",
+        "service": "ground",
+        "upper_oz": "15.999",
+        "actual": 12.9,
+        "expected": "12.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 9.55,
+        "expected": "9.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 9.95,
+        "expected": "9.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 10.2,
+        "expected": "10.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 10.6,
+        "expected": "10.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 10.95,
+        "expected": "10.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 11.95,
+        "expected": "11.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I26",
+        "service": "ground",
+        "upper_oz": "16",
+        "actual": 12.9,
+        "expected": "12.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 10.8,
+        "expected": "10.80",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 11.5,
+        "expected": "11.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 12.2,
+        "expected": "12.20",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 13,
+        "expected": "13.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 14.1,
+        "expected": "14.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 15.1,
+        "expected": "15.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 16.45,
+        "expected": "16.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I27",
+        "service": "ground",
+        "upper_oz": "32",
+        "actual": 19.05,
+        "expected": "19.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 11.3,
+        "expected": "11.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 12,
+        "expected": "12.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 12.65,
+        "expected": "12.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 13.7,
+        "expected": "13.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 14.95,
+        "expected": "14.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 16.45,
+        "expected": "16.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 18.95,
+        "expected": "18.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I28",
+        "service": "ground",
+        "upper_oz": "48",
+        "actual": 22.4,
+        "expected": "22.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 12.25,
+        "expected": "12.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 12.75,
+        "expected": "12.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 13.65,
+        "expected": "13.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 14.85,
+        "expected": "14.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 16.4,
+        "expected": "16.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 18.3,
+        "expected": "18.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 20.9,
+        "expected": "20.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I29",
+        "service": "ground",
+        "upper_oz": "64",
+        "actual": 24.25,
+        "expected": "24.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 12.95,
+        "expected": "12.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 13.55,
+        "expected": "13.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 14.55,
+        "expected": "14.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 15.8,
+        "expected": "15.80",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 17.45,
+        "expected": "17.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 19.6,
+        "expected": "19.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 22.4,
+        "expected": "22.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I30",
+        "service": "ground",
+        "upper_oz": "80",
+        "actual": 26.05,
+        "expected": "26.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 13.5,
+        "expected": "13.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 13.9,
+        "expected": "13.90",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 14.85,
+        "expected": "14.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 16.35,
+        "expected": "16.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 18.4,
+        "expected": "18.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 21.05,
+        "expected": "21.05",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 24.35,
+        "expected": "24.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I31",
+        "service": "ground",
+        "upper_oz": "96",
+        "actual": 28.35,
+        "expected": "28.35",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 14,
+        "expected": "14.00",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 14.4,
+        "expected": "14.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 15.4,
+        "expected": "15.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 17.1,
+        "expected": "17.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 19.45,
+        "expected": "19.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 22.55,
+        "expected": "22.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 26.25,
+        "expected": "26.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I32",
+        "service": "ground",
+        "upper_oz": "112",
+        "actual": 30.6,
+        "expected": "30.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 14.6,
+        "expected": "14.60",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 14.85,
+        "expected": "14.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 15.8,
+        "expected": "15.80",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 17.65,
+        "expected": "17.65",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 20.4,
+        "expected": "20.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 24.1,
+        "expected": "24.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 28.45,
+        "expected": "28.45",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I33",
+        "service": "ground",
+        "upper_oz": "128",
+        "actual": 33.15,
+        "expected": "33.15",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 15.1,
+        "expected": "15.10",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 15.4,
+        "expected": "15.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 16.25,
+        "expected": "16.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 18.3,
+        "expected": "18.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 21.4,
+        "expected": "21.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 25.55,
+        "expected": "25.55",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 30.75,
+        "expected": "30.75",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I34",
+        "service": "ground",
+        "upper_oz": "144",
+        "actual": 35.7,
+        "expected": "35.70",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!B35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 15.95,
+        "expected": "15.95",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!C35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 16.3,
+        "expected": "16.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!D35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 17.25,
+        "expected": "17.25",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!E35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 19.4,
+        "expected": "19.40",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!F35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 22.85,
+        "expected": "22.85",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!G35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 27.5,
+        "expected": "27.50",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!H35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 33.3,
+        "expected": "33.30",
+        "matches": true
+      },
+      {
+        "cell": "Rate Sheet!I35",
+        "service": "ground",
+        "upper_oz": "160",
+        "actual": 39.45,
+        "expected": "39.45",
+        "matches": true
+      }
+    ],
+    "quote_checks": [
+      {
+        "request": "Q01",
+        "cell": "Quotes!H5",
+        "actual": 11,
+        "expected": "11.00",
+        "matches": true
+      },
+      {
+        "request": "Q01",
+        "cell": "Quotes!I5",
+        "actual": 7.9,
+        "expected": "7.90",
+        "matches": true
+      },
+      {
+        "request": "Q01",
+        "cell": "Quotes!K5",
+        "actual": 7.9,
+        "expected": "7.90",
+        "matches": true
+      },
+      {
+        "request": "Q02",
+        "cell": "Quotes!H6",
+        "actual": 11.5,
+        "expected": "11.50",
+        "matches": true
+      },
+      {
+        "request": "Q02",
+        "cell": "Quotes!I6",
+        "actual": 8.05,
+        "expected": "8.05",
+        "matches": true
+      },
+      {
+        "request": "Q02",
+        "cell": "Quotes!K6",
+        "actual": 8.05,
+        "expected": "8.05",
+        "matches": true
+      },
+      {
+        "request": "Q03",
+        "cell": "Quotes!H7",
+        "actual": 16.95,
+        "expected": "16.95",
+        "matches": true
+      },
+      {
+        "request": "Q03",
+        "cell": "Quotes!I7",
+        "actual": 9.45,
+        "expected": "9.45",
+        "matches": true
+      },
+      {
+        "request": "Q03",
+        "cell": "Quotes!K7",
+        "actual": 9.45,
+        "expected": "9.45",
+        "matches": true
+      },
+      {
+        "request": "Q04",
+        "cell": "Quotes!H8",
+        "actual": 16.95,
+        "expected": "16.95",
+        "matches": true
+      },
+      {
+        "request": "Q04",
+        "cell": "Quotes!I8",
+        "actual": 12.9,
+        "expected": "12.90",
+        "matches": true
+      },
+      {
+        "request": "Q04",
+        "cell": "Quotes!K8",
+        "actual": 12.9,
+        "expected": "12.90",
+        "matches": true
+      },
+      {
+        "request": "Q05",
+        "cell": "Quotes!H9",
+        "actual": 11.9,
+        "expected": "11.90",
+        "matches": true
+      },
+      {
+        "request": "Q05",
+        "cell": "Quotes!I9",
+        "actual": 10.6,
+        "expected": "10.60",
+        "matches": true
+      },
+      {
+        "request": "Q05",
+        "cell": "Quotes!K9",
+        "actual": 10.6,
+        "expected": "10.60",
+        "matches": true
+      },
+      {
+        "request": "Q06",
+        "cell": "Quotes!H10",
+        "actual": 13.05,
+        "expected": "13.05",
+        "matches": true
+      },
+      {
+        "request": "Q06",
+        "cell": "Quotes!I10",
+        "actual": 10.95,
+        "expected": "10.95",
+        "matches": true
+      },
+      {
+        "request": "Q06",
+        "cell": "Quotes!K10",
+        "actual": 10.95,
+        "expected": "10.95",
+        "matches": true
+      },
+      {
+        "request": "Q07",
+        "cell": "Quotes!H11",
+        "actual": 14.5,
+        "expected": "14.50",
+        "matches": true
+      },
+      {
+        "request": "Q07",
+        "cell": "Quotes!I11",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "request": "Q07",
+        "cell": "Quotes!K11",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "request": "Q08",
+        "cell": "Quotes!H12",
+        "actual": 14.5,
+        "expected": "14.50",
+        "matches": true
+      },
+      {
+        "request": "Q08",
+        "cell": "Quotes!I12",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "request": "Q08",
+        "cell": "Quotes!K12",
+        "actual": 11.35,
+        "expected": "11.35",
+        "matches": true
+      },
+      {
+        "request": "Q09",
+        "cell": "Quotes!H13",
+        "actual": 19.45,
+        "expected": "19.45",
+        "matches": true
+      },
+      {
+        "request": "Q09",
+        "cell": "Quotes!I13",
+        "actual": 16.45,
+        "expected": "16.45",
+        "matches": true
+      },
+      {
+        "request": "Q09",
+        "cell": "Quotes!K13",
+        "actual": 16.45,
+        "expected": "16.45",
+        "matches": true
+      },
+      {
+        "request": "Q10",
+        "cell": "Quotes!H14",
+        "actual": 13.45,
+        "expected": "13.45",
+        "matches": true
+      },
+      {
+        "request": "Q10",
+        "cell": "Quotes!I14",
+        "actual": 12.2,
+        "expected": "12.20",
+        "matches": true
+      },
+      {
+        "request": "Q10",
+        "cell": "Quotes!K14",
+        "actual": 12.2,
+        "expected": "12.20",
+        "matches": true
+      },
+      {
+        "request": "Q11",
+        "cell": "Quotes!H15",
+        "actual": 15.35,
+        "expected": "15.35",
+        "matches": true
+      },
+      {
+        "request": "Q11",
+        "cell": "Quotes!I15",
+        "actual": 13.9,
+        "expected": "13.90",
+        "matches": true
+      },
+      {
+        "request": "Q11",
+        "cell": "Quotes!K15",
+        "actual": 13.9,
+        "expected": "13.90",
+        "matches": true
+      },
+      {
+        "request": "Q12",
+        "cell": "Quotes!H16",
+        "actual": 61.3,
+        "expected": "61.30",
+        "matches": true
+      },
+      {
+        "request": "Q12",
+        "cell": "Quotes!I16",
+        "actual": 39.45,
+        "expected": "39.45",
+        "matches": true
+      },
+      {
+        "request": "Q12",
+        "cell": "Quotes!K16",
+        "actual": 39.45,
+        "expected": "39.45",
+        "matches": true
+      }
+    ],
+    "no_new_official_score": true
+  },
+  {
+    "id": "C2-codex-R02",
+    "classification": "JUDGE_BINDING_REVIEW_REQUIRED",
+    "recorded_score": "0.300822867608581894296180010455",
+    "zero_dynamic_control_tests": 4,
+    "reason": "No bound editable controls in Judge receipt; do not infer absent functionality."
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.3008228676085819,
+  "score_decimal": "0.300822867608581894296180010455",
+  "pass": false,
+  "criterion_scores": {
+    "R001": "0.5833333333333333333333333333",
+    "R002": "0.6",
+    "R003": "0.02040816326530612244897959184",
+    "R004": "0",
+    "R005": "0.07692307692307692307692307692",
+    "R006": "0.6153846153846153846153846154"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.3008228676085819,
+      "score_decimal": "0.300822867608581894296180010455",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0.02040816326530612244897959184",
+        "R004": "0",
+        "R005": "0.07692307692307692307692307692",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "20.4166666666666666666666666655",
+        "R002": "6.0",
+        "R003": "0.20408163265306122448979591840",
+        "R004": "0",
+        "R005": "0.38461538461538461538461538460",
+        "R006": "3.0769230769230769230769230770"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.3310099424385139,
+      "score_decimal": "0.331009942438513867085295656712",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0.02040816326530612244897959184",
+        "R004": "0",
+        "R005": "0.07692307692307692307692307692",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "23.3333333333333333333333333320",
+        "R002": "6.0",
+        "R003": "0.30612244897959183673469387760",
+        "R004": "0",
+        "R005": "0.38461538461538461538461538460",
+        "R006": "3.0769230769230769230769230770"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.2716562009419152,
+      "score_decimal": "0.27165620094191522762951334379",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0.02040816326530612244897959184",
+        "R004": "0",
+        "R005": "0.07692307692307692307692307692",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "contributions_raw": {
+        "R001": "17.4999999999999999999999999990",
+        "R002": "6.0",
+        "R003": "0.20408163265306122448979591840",
+        "R004": "0",
+        "R005": "0.38461538461538461538461538460",
+        "R006": "3.0769230769230769230769230770"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "2950a925ff9b83f581ff76a24b38bf59a1c08a38f7a7c0a7015dc725cd78aa74",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-codex-R02/prior/verifier/judge-result.json"
+}

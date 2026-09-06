@@ -1,0 +1,97 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "evaluation_status": "SCORED",
+  "normalized_score": 0.5,
+  "score_decimal": "0.499999999999999999999999999998",
+  "pass": false,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "0",
+    "R004": "0",
+    "R005": "0.03846153846153846153846153846",
+    "R006": "0.9615384615384615384615384615"
+  },
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.5,
+      "score_decimal": "0.499999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "35",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.55,
+      "score_decimal": "0.549999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "40",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.45,
+      "score_decimal": "0.449999999999999999999999999998",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "30",
+        "R002": "10",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.19230769230769230769230769230",
+        "R006": "4.8076923076923076923076923075"
+      }
+    }
+  },
+  "sample_countable": true,
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "6cc1e8135a1a80854c6b0a0d8a0e5a33efa55e6d44a4a63e42681ea9b1c5b305",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
+  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/run-1/C2-qwen-R03/judge-result.json"
+}
