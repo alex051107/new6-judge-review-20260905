@@ -1,0 +1,50 @@
+schema_version = "1.4"
+artifacts = ["/app/output", "/app/input"]
+[task]
+name = "alex051107/new6-b-labour-brief-001"
+version = "0.1.0"
+description = "NEW6 source-based reconstructed task"
+[metadata]
+task_id = "NEW6-B-LABOUR-BRIEF-001"
+track = "B"
+status = "BUILT_REFERENCE_AND_CALIBRATION_VERIFIED"
+difficulty_calibrated = false
+benchmark_authored_instruction = true
+sector_code = "92"
+sector = "Public Administration"
+occupation = "Statistical Analysts"
+task = "B2: NEW6-B-LABOUR-BRIEF-001"
+skills = ["statistical comparability", "evidence reporting"]
+difficulty_tier = "Advanced (design label; acceptance pending)"
+est_minutes = 120
+multimodal = false
+web_search_required = false
+
+[agent]
+timeout_sec = 1200.0
+[environment]
+build_timeout_sec = 1800.0
+storage_mb = 12288
+gpus = 0
+allow_internet = true
+mcp_servers = []
+network_mode = "public"
+os = "linux"
+workdir = "/app"
+cpus = 2
+memory_mb = 4096
+[verifier]
+timeout_sec = 600.0
+environment_mode = "separate"
+network_mode = "public"
+[verifier.environment]
+network_mode = "public"
+os = "linux"
+workdir = "/app"
+cpus = 2
+memory_mb = 4096
+
+[verifier.env]
+JUDGE_BACKEND = "deterministic"
+JUDGE_TIMEOUT_SEC = "600"
+JUDGE_MAX_RETRIES = "0"

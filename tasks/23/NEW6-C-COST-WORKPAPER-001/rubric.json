@@ -1,0 +1,85 @@
+{
+  "task_id": "23/NEW6-C-COST-WORKPAPER-001",
+  "rubric_version": "new6-c1-review-facts-v2.2-cumulative-movement-schema-export-1",
+  "pass_threshold": 0.7,
+  "criteria": [
+    {
+      "id": "R001",
+      "description": "原印刷数据、原范围与限制保留",
+      "weight": 15,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R001",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    },
+    {
+      "id": "R002",
+      "description": "有效报价版本、替换关系和待决选项判断",
+      "weight": 20,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R002",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    },
+    {
+      "id": "R003",
+      "description": "当前成本链、费用基数与费率正确",
+      "weight": 15,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R003",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    },
+    {
+      "id": "R004",
+      "description": "可核对的新旧成本差额与比较基准",
+      "weight": 10,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R004",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    },
+    {
+      "id": "R005",
+      "description": "公开价格费率变化后成本链、核对及保护实际响应",
+      "weight": 35,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R005",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    },
+    {
+      "id": "R006",
+      "description": "原估算与审阅对应材料可追溯",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/tests/evaluate.py",
+        "criterion_id": "R006",
+        "fact_contract": "tests/new6/tasks/NEW6-C-COST-WORKPAPER-001/rubric.json"
+      }
+    }
+  ]
+}

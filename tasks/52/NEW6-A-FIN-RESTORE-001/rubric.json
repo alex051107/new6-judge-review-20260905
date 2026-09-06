@@ -1,0 +1,85 @@
+{
+  "task_id": "52/NEW6-A-FIN-RESTORE-001",
+  "rubric_version": "new6-a1-v1.3-proven-formula-defects-schema-export-1",
+  "pass_threshold": 0.7,
+  "criteria": [
+    {
+      "id": "R001",
+      "description": "源输入、时间与金额单位正确",
+      "weight": 10,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R001",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    },
+    {
+      "id": "R002",
+      "description": "逐年经营预测和费用关系正确",
+      "weight": 25,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R002",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    },
+    {
+      "id": "R003",
+      "description": "再投资、现金流与估值桥正确",
+      "weight": 20,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R003",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    },
+    {
+      "id": "R004",
+      "description": "声明的输入变化传到正确输出",
+      "weight": 35,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R004",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    },
+    {
+      "id": "R005",
+      "description": "历史、base和不相关模型内容保留",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R005",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    },
+    {
+      "id": "R006",
+      "description": "候选实际展示的两情景结论可核对",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/tests/evaluate.py",
+        "criterion_id": "R006",
+        "fact_contract": "tests/new6/tasks/NEW6-A-FIN-RESTORE-001/rubric.json"
+      }
+    }
+  ]
+}

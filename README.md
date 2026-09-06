@@ -1,19 +1,18 @@
-# NEW6 independent design and Judge review
+# NEW6 · 六题与组内人工审查
 
-当前六题的公开代码与文本审查副本，原仓库固定提交 **5535c6bf6a20d5e1a25a642fe3cd6234219bdd7c**。当前任务为A1/A2/B1/C2原任务、B2三期旧简报v3、C1修订成本审阅v2。原144运行继续使用b1176f7的冻结材料；它与新版批次分开计数。
+本仓库展示当前六道题的业务要求、判分与审查材料。业务请求由项目基于真实材料重构，题面保留英语，组内说明使用中文。模型展示名统一为 GPT-5.6 sol、Opus 5、Qwen 3.8；真实模型 ID 与配置在逐次记录中保留。
 
-- [当前六题状态、实际分数、费用与阻塞](new6/NOW_REPORT_ZH.md)
-- [六题逐项配重与三套profile](new6/docs/RUBRICS_CURRENT_ZH.md)
-- [C1新版：业务判断、独立答案、19项校准与复跑](new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/README_ZH.md)
-- [C1候选题面](new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/instruction.md)、[可见往来说明](new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/data/input_files/review_correspondence.md)
-- [B2新版：三期材料与接手旧简报](new6/candidates/b2-three-release-v3/README_ZH.md)
-- [当前3系统各8次的运行规则与限制](new6/campaigns/new6-current-v3-144/CAMPAIGN_ZH.md)
-- [文件清单及审查范围](REVIEW_SCOPE.json)
+| 题目 | 业务说明 | 题面 | 版本 |
+|---|---|---|---|
+| A1 | [Amazon 估值模型恢复](docs/BUSINESS.md#a1--amazon-估值模型恢复) | [原题](tasks/52/NEW6-A-FIN-RESTORE-001/instruction.md) | [来源与版本](tasks/52/NEW6-A-FIN-RESTORE-001/metadata/release_identity.json) |
+| A2 | [LTGM 长期增长情景](docs/BUSINESS.md#a2--ltgm-长期增长情景) | [原题](tasks/54/NEW6-A-MACRO-SCENARIO-001/instruction.md) | [来源与版本](tasks/54/NEW6-A-MACRO-SCENARIO-001/metadata/release_identity.json) |
+| B1 | [零售月结与月度变化解释](docs/BUSINESS.md#b1--零售月结与月度变化解释) | [原题](tasks/44/NEW6-B-RETAIL-CLOSE-001/instruction.md) | [来源与版本](tasks/44/NEW6-B-RETAIL-CLOSE-001/metadata/release_identity.json) |
+| B2 | [三期地方劳动力简报更新](docs/BUSINESS.md#b2--三期地方劳动力简报更新) | [原题](tasks/92/NEW6-B-LABOUR-BRIEF-001/instruction.md) | [来源与版本](tasks/92/NEW6-B-LABOUR-BRIEF-001/metadata/release_identity.json) |
+| C1 | [工程估算与修订往来](docs/BUSINESS.md#c1--工程估算与修订往来) | [原题](tasks/23/NEW6-C-COST-WORKPAPER-001/instruction.md) | [来源与版本](tasks/23/NEW6-C-COST-WORKPAPER-001/metadata/release_identity.json) |
+| C2 | [邮政资费与可更新报价](docs/BUSINESS.md#c2--邮政资费与可更新报价) | [原题](tasks/49/NEW6-C-PARCEL-TARIFF-001/instruction.md) | [来源与版本](tasks/49/NEW6-C-PARCEL-TARIFF-001/metadata/release_identity.json) |
 
-C1独立原生计算19/19、校准19/19及Linux参考100已经通过，C1新版Claude和Codex各8次均已终态，其中Codex后4次为推理接口429失败，不能计作有效业务样本；B2 Codex继续。Judge v2.1新增6项读取校准通过，一份真实原件Linux主分41.9651770976，缺Excel的实际尝试为0；其余已保存答卷仍有布局解析待判。A2同原件R07修复合法参数引用和表头后100分；B2实际图片图不能当成缺图扣分。高分、业务失败和解析限制分别保留，当前不宣称六题正式难度合格。
+先读[六题业务说明](docs/BUSINESS.md)：每题说明谁使用工作簿、材料来路、正确交付、主要能力与失分造成的业务问题。
 
-**此公开镜像不含第三方原PDF/XLSX、候选答卷或中间重算二进制，不能单独完整复评分。** 完整材料在[私有原仓库固定版本](https://github.com/alex051107/excel-multimodal-benchmark/tree/5535c6bf6a20d5e1a25a642fe3cd6234219bdd7c/new6)，需要访问权或另行取得相应附件。文中的复跑命令针对完整仓库；缺二进制的判断须说明证据缺口。`CONSTRUCTOR_ONLY.md`及Oracle仅供审查/构造，不进入Agent输入。
+结果与复跑材料正在按本次固定版本核对。已算出的低分将对照原答卷、逐项回执与合法等价案例审查；接口失败、未跑完、收集失败、解析待判和确认未交付分别保留。低分本身不构成业务能力不足的证据。
 
-审查重点：每个track是否交出能被下游核验和继续使用的工作簿；公开义务与计分事实是否对应；高权重是否落在关键能力；合法实现是否被误罚，以及下一版最值得修改的一个业务因素。不要以最低分选profile，也不要用人工反例比例估计自然失败率。
-
-C1实际证据：[正常结束但未保存Excel](new6/campaigns/c1-revision-v2-24/C1_R02_DELIVERY_FAILURE.json)、[原件41.97分的业务失分与复跑](new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/REPORT_ZH.md)、[Linux独立回执](new6/campaigns/c1-revision-v2-24/C1_V21_LINUX_RECEIPT.json)。[完整请求系统配置](new6/campaigns/new6-current-v3-144/SYSTEM_CONFIGS.json)只含密钥占位符；B2新版Claude8次实收$1.089910已逐请求唯一用量归属。
+完整输入与原答卷按既有权限保留在私有结果仓库，本公开页面没有完整第三方二进制输入，不能单独完整复跑。公开仓库可见性不作更改。人工审查状态为**待人工审查**。

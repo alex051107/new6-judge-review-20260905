@@ -1,0 +1,39 @@
+{
+  "alias": "B1",
+  "task_version": "new6-b1-v2",
+  "judge_version": "new6-b1-reader-v2.3",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "selected_from": "active campaign frozen wrapper / explicit judge override",
+  "uncommitted_development_tree_not_imported": true,
+  "instruction_sha256": "f6039f8ce2d36a5bac0cdb59b7f69bad16a3263048f21bc17bf31ed87dd8df61",
+  "inputs": {
+    "source_context.md": {
+      "sha256": "f37dab502b4aceefd635fae5b8d3aae35065429ee28132fa146c0ac5c4f451e8",
+      "bytes": 947
+    },
+    "retail_extract.csv": {
+      "sha256": "afbf220b64194f6d13082f2fe5bead36f541dcbd5a2ac129fb857f8898ddc5a2",
+      "bytes": 7073952
+    },
+    "september_extract.csv": {
+      "sha256": "9eb1e30582b23871584b5d690ccebd3b9e6bbf394bfda7cc3c2ad36c9b5d4550",
+      "bytes": 5498494
+    },
+    "review_brief.md": {
+      "sha256": "44b73e56773e9f3998f22d028b7061f55df9d570246b1da207a890365f822ad5",
+      "bytes": 3367
+    }
+  },
+  "main_weights": {
+    "R001": 10,
+    "R002": 15,
+    "R003": 10,
+    "R004": 15,
+    "R005": 8,
+    "R006": 7,
+    "R007": 25,
+    "R008": 10
+  },
+  "est_minutes_basis": "release metadata estimate; no measured human timing",
+  "schema_export_changes_scoring": false
+}

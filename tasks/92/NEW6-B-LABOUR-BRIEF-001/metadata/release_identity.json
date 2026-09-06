@@ -1,0 +1,40 @@
+{
+  "alias": "B2",
+  "task_version": "new6-b2-three-release-v3",
+  "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "selected_from": "active campaign frozen wrapper / explicit judge override",
+  "uncommitted_development_tree_not_imported": true,
+  "instruction_sha256": "190b9cf629ae93811807648d02573a3b504ae62032ac86f0f9c17a54e6908cc7",
+  "inputs": {
+    "ons_li01_january2023_corrected.xlsx": {
+      "sha256": "37cfb71436bad2c1ca2fd1f46c44d9e18a728f57439715513e2189a50a626ed5",
+      "bytes": 141386
+    },
+    "ons_li01_january2025.xlsx": {
+      "sha256": "b02f28305546b56ca8101e106e612bfd9564dba6be3072f886b6c922630a6f2b",
+      "bytes": 136533
+    },
+    "review_brief.md": {
+      "sha256": "5cd61829876dbd343d25f42b63d615f1ebad9aeeecbd32aab9e079e324102377",
+      "bytes": 1446
+    },
+    "previous_briefing.xlsx": {
+      "sha256": "884c80d2532113ad2637d857ee369b8416fc7e1ec91532d1a8583d65cb78ac3d",
+      "bytes": 25205
+    },
+    "ons_li01_january2024.xlsx": {
+      "sha256": "6ac4594b855f1232467756eababe0199f76c457dba9cf68e7d1cdea40a390530",
+      "bytes": 137150
+    }
+  },
+  "main_weights": {
+    "R001": 15,
+    "R002": 25,
+    "R003": 25,
+    "R004": 20,
+    "R005": 15
+  },
+  "est_minutes_basis": "release metadata estimate; no measured human timing",
+  "schema_export_changes_scoring": false
+}

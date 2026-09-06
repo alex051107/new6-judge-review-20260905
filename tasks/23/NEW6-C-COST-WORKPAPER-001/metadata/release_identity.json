@@ -1,0 +1,33 @@
+{
+  "alias": "C1",
+  "task_version": "new6-c1-revision-v2",
+  "judge_version": "new6-c1-review-facts-v2.2-cumulative-movement",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "selected_from": "active campaign frozen wrapper / explicit judge override",
+  "uncommitted_development_tree_not_imported": true,
+  "instruction_sha256": "47dcf303d237c3a01bde92f57acc9ee875ad390fb314e176392f09829017a8be",
+  "inputs": {
+    "review_correspondence.md": {
+      "sha256": "cc4d89824c88dcafa12e179f4dddb35a2fcd84af2128c3df66d96ff4833d7ffe",
+      "bytes": 811
+    },
+    "Falmouth_OCE_October2024_RevA.pdf": {
+      "sha256": "d9473748ee612e6be28bd90c15c918b2347fec71642f0d317fcb5b6114a7c856",
+      "bytes": 503116
+    },
+    "review_brief.md": {
+      "sha256": "3be79be7684c56337150e7dd7a7a589cdf1e8b1710f9121db445ad7002f96fda",
+      "bytes": 1159
+    }
+  },
+  "main_weights": {
+    "R001": 15,
+    "R002": 20,
+    "R003": 15,
+    "R004": 10,
+    "R005": 35,
+    "R006": 5
+  },
+  "est_minutes_basis": "release metadata estimate; no measured human timing",
+  "schema_export_changes_scoring": false
+}

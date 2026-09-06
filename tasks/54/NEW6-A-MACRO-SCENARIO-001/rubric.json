@@ -1,0 +1,85 @@
+{
+  "task_id": "54/NEW6-A-MACRO-SCENARIO-001",
+  "rubric_version": "new6-a2-facts-v1.3-real-gdp-labels-schema-export-1",
+  "pass_threshold": 0.7,
+  "criteria": [
+    {
+      "id": "R001",
+      "description": "国家、起年、初始输入和单位正确",
+      "weight": 15,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R001",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    },
+    {
+      "id": "R002",
+      "description": "年度投资及资本/产出递推正确",
+      "weight": 35,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R002",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    },
+    {
+      "id": "R003",
+      "description": "GDP与人均GDP结果和情景差异正确",
+      "weight": 20,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R003",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    },
+    {
+      "id": "R004",
+      "description": "目标与过渡年变化的正确传播",
+      "weight": 20,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R004",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    },
+    {
+      "id": "R005",
+      "description": "基础情景与源数据未被改变",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R005",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    },
+    {
+      "id": "R006",
+      "description": "图表、解释和引用与实际结果一致",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/tests/evaluate.py",
+        "criterion_id": "R006",
+        "fact_contract": "tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/rubric.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "alias": "A1",
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "judge_version": "new6-a1-v1.3-proven-formula-defects",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "selected_from": "active campaign frozen wrapper / explicit judge override",
+  "uncommitted_development_tree_not_imported": true,
+  "instruction_sha256": "031c0023c2992416c7387a3c16e45cc2f03d2cfea31df21df937d30beab45243",
+  "inputs": {
+    "review_brief.md": {
+      "sha256": "959b637a31a56c41d8463008ea2e18bd4153e3c14c55f102f809a6335596d38f",
+      "bytes": 1067
+    },
+    "AmazonSept18_restore.xlsx": {
+      "sha256": "48b0e2fe984245aafabcbe157615c75e19d7ea43cf92162e2ad8673d29966b47",
+      "bytes": 173038
+    }
+  },
+  "main_weights": {
+    "R001": 10,
+    "R002": 25,
+    "R003": 20,
+    "R004": 35,
+    "R005": 5,
+    "R006": 5
+  },
+  "est_minutes_basis": "release metadata estimate; no measured human timing",
+  "schema_export_changes_scoring": false
+}

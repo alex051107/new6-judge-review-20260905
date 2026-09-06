@@ -1,0 +1,89 @@
+{
+  "tasks": {
+    "B2": {
+      "path": "tasks/92/NEW6-B-LABOUR-BRIEF-001",
+      "task_id": "NEW6-B-LABOUR-BRIEF-001",
+      "task_version": "new6-b2-three-release-v3",
+      "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+      "primary_weights": {
+        "R001": 15,
+        "R002": 25,
+        "R003": 25,
+        "R004": 20,
+        "R005": 15
+      }
+    },
+    "B1": {
+      "path": "tasks/44/NEW6-B-RETAIL-CLOSE-001",
+      "task_id": "NEW6-B-RETAIL-CLOSE-001",
+      "task_version": "new6-b1-v2",
+      "judge_version": "new6-b1-reader-v2.3",
+      "primary_weights": {
+        "R001": 10,
+        "R002": 15,
+        "R003": 10,
+        "R004": 15,
+        "R005": 8,
+        "R006": 7,
+        "R007": 25,
+        "R008": 10
+      }
+    },
+    "A2": {
+      "path": "tasks/54/NEW6-A-MACRO-SCENARIO-001",
+      "task_id": "NEW6-A-MACRO-SCENARIO-001",
+      "task_version": "new6-a2-v1.0-zambia",
+      "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
+      "primary_weights": {
+        "R001": 15,
+        "R002": 35,
+        "R003": 20,
+        "R004": 20,
+        "R005": 5,
+        "R006": 5
+      }
+    },
+    "A1": {
+      "path": "tasks/52/NEW6-A-FIN-RESTORE-001",
+      "task_id": "NEW6-A-FIN-RESTORE-001",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "judge_version": "new6-a1-v1.3-proven-formula-defects",
+      "primary_weights": {
+        "R001": 10,
+        "R002": 25,
+        "R003": 20,
+        "R004": 35,
+        "R005": 5,
+        "R006": 5
+      }
+    },
+    "C1": {
+      "path": "tasks/23/NEW6-C-COST-WORKPAPER-001",
+      "task_id": "NEW6-C-COST-WORKPAPER-001",
+      "task_version": "new6-c1-revision-v2",
+      "judge_version": "new6-c1-review-facts-v2.2-cumulative-movement",
+      "primary_weights": {
+        "R001": 15,
+        "R002": 20,
+        "R003": 15,
+        "R004": 10,
+        "R005": 35,
+        "R006": 5
+      }
+    },
+    "C2": {
+      "path": "tasks/49/NEW6-C-PARCEL-TARIFF-001",
+      "task_id": "NEW6-C-PARCEL-TARIFF-001",
+      "task_version": "new6-c2-natural-v2",
+      "judge_version": "new6-usps-facts-v2.1-wide-rate-layout",
+      "primary_weights": {
+        "R001": 35,
+        "R002": 10,
+        "R003": 10,
+        "R004": 35,
+        "R005": 5,
+        "R006": 5
+      }
+    }
+  }
+}

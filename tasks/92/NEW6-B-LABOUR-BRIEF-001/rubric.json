@@ -1,0 +1,72 @@
+{
+  "task_id": "92/NEW6-B-LABOUR-BRIEF-001",
+  "rubric_version": "new6-b2-three-release-v3.2-labelled-code-lists-schema-export-1",
+  "pass_threshold": 0.7,
+  "criteria": [
+    {
+      "id": "R001",
+      "description": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+      "weight": 15,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/tests/evaluate.py",
+        "criterion_id": "R001",
+        "fact_contract": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R002",
+      "description": "连续恶化名单完整、无重复且排序符合公开业务口径",
+      "weight": 25,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/tests/evaluate.py",
+        "criterion_id": "R002",
+        "fact_contract": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R003",
+      "description": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+      "weight": 25,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/tests/evaluate.py",
+        "criterion_id": "R003",
+        "fact_contract": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R004",
+      "description": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+      "weight": 20,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/tests/evaluate.py",
+        "criterion_id": "R004",
+        "fact_contract": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R005",
+      "description": "旧分析仍可复核，原发布资料保留并可追溯",
+      "weight": 15,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/tests/evaluate.py",
+        "criterion_id": "R005",
+        "fact_contract": "tests/new6/tasks/NEW6-B-LABOUR-BRIEF-001/rubric.json"
+      }
+    }
+  ]
+}

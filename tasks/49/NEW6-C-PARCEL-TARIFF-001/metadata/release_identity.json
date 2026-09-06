@@ -1,0 +1,33 @@
+{
+  "alias": "C2",
+  "task_version": "new6-c2-natural-v2",
+  "judge_version": "new6-usps-facts-v2.1-wide-rate-layout",
+  "source_base_commit": "f66ac2927725626e32256b203b2b6f5ea797fc89",
+  "selected_from": "active campaign frozen wrapper / explicit judge override",
+  "uncommitted_development_tree_not_imported": true,
+  "instruction_sha256": "147cedbff6533ec13a51444f00df6d1b5054cbb205792da95bd60be6381f4624",
+  "inputs": {
+    "USPS_Notice123_20260712_pages1_5_7.pdf": {
+      "sha256": "13c6e0d1ee75b0201e0fdc747ceaf4e0dec32d7778c0786471b0e5304e2cba1c",
+      "bytes": 856736
+    },
+    "quote_requests.csv": {
+      "sha256": "8493625bd112987b9789cd7afbcdfc9117854fe0090a117616ce277146b27cdc",
+      "bytes": 574
+    },
+    "review_brief.md": {
+      "sha256": "a2d438736456f43113a9dcf47aebb48fc4af62e114775580306a84f664df30de",
+      "bytes": 1017
+    }
+  },
+  "main_weights": {
+    "R001": 35,
+    "R002": 10,
+    "R003": 10,
+    "R004": 35,
+    "R005": 5,
+    "R006": 5
+  },
+  "est_minutes_basis": "release metadata estimate; no measured human timing",
+  "schema_export_changes_scoring": false
+}

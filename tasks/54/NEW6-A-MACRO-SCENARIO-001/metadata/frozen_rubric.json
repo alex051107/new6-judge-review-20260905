@@ -1,0 +1,95 @@
+{
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "task_version": "new6-a2-v1.0-zambia",
+  "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
+  "status": "IMPLEMENTED_CALIBRATED_LOCAL_SMOKE_READY",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "\u56fd\u5bb6\u3001\u8d77\u5e74\u3001\u521d\u59cb\u8f93\u5165\u548c\u5355\u4f4d\u6b63\u786e",
+      "type": "positive",
+      "weight": 15,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R002",
+      "description_zh": "\u5e74\u5ea6\u6295\u8d44\u53ca\u8d44\u672c/\u4ea7\u51fa\u9012\u63a8\u6b63\u786e",
+      "type": "positive",
+      "weight": 35,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R003",
+      "description_zh": "GDP\u4e0e\u4eba\u5747GDP\u7ed3\u679c\u548c\u60c5\u666f\u5dee\u5f02\u6b63\u786e",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R004",
+      "description_zh": "\u76ee\u6807\u4e0e\u8fc7\u6e21\u5e74\u53d8\u5316\u7684\u6b63\u786e\u4f20\u64ad",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R005",
+      "description_zh": "\u57fa\u7840\u60c5\u666f\u4e0e\u6e90\u6570\u636e\u672a\u88ab\u6539\u53d8",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R006",
+      "description_zh": "\u56fe\u8868\u3001\u89e3\u91ca\u548c\u5f15\u7528\u4e0e\u5b9e\u9645\u7ed3\u679c\u4e00\u81f4",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    }
+  ],
+  "penalties": [],
+  "negative_item_policy": "Do not copy legacy penalties. Add only a separately evidenced harmful action with visible policy basis, explicit non-overlap and cross-profile shared semantics; log external acceptance gap until reviewed.",
+  "profiles": {
+    "capability_first": {
+      "R001": 15,
+      "R002": 35,
+      "R003": 20,
+      "R004": 20,
+      "R005": 5,
+      "R006": 5
+    },
+    "balanced": {
+      "R001": 20,
+      "R002": 30,
+      "R003": 20,
+      "R004": 15,
+      "R005": 10,
+      "R006": 5
+    },
+    "ongoing_use": {
+      "R001": 10,
+      "R002": 30,
+      "R003": 20,
+      "R004": 25,
+      "R005": 10,
+      "R006": 5
+    }
+  },
+  "source_binding": [
+    "ltgm_training",
+    "ltgm_guide"
+  ],
+  "score_uncertainty": "If a required fact cannot be safely determined, report JUDGE_ERROR and no total. Unknown is not zero.",
+  "equivalence": "Accept business-equivalent layouts and formulas. Preserve source-native structure only where explicitly requested. No use of oracle values to choose candidate regions.",
+  "fact_denominators": {
+    "R001": 16,
+    "R002": 136,
+    "R003": 136,
+    "R004": 822,
+    "R005": 104,
+    "R006": 19
+  }
+}

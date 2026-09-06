@@ -1,0 +1,85 @@
+{
+  "task_id": "49/NEW6-C-PARCEL-TARIFF-001",
+  "rubric_version": "new6-usps-facts-v2.1-wide-rate-layout-schema-export-1",
+  "pass_threshold": 0.7,
+  "criteria": [
+    {
+      "id": "R001",
+      "description": "完整的服务/重量/区域价格网格正确",
+      "weight": 35,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R001",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R002",
+      "description": "版本、单位和重量边界身份正确",
+      "weight": 10,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R002",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R003",
+      "description": "每条请求实际两产品价及选项总额正确",
+      "weight": 10,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R003",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R004",
+      "description": "声明输入变化后实际应变化的报价和总额正确响应",
+      "weight": 35,
+      "type": "positive",
+      "dimension": "data_accuracy",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R004",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R005",
+      "description": "请求范围、原始资费及应保持不变的输出得到保护",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R005",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    },
+    {
+      "id": "R006",
+      "description": "价目表和请求与原PDF来源可追溯",
+      "weight": 5,
+      "type": "positive",
+      "dimension": "consistency_and_file_operations",
+      "method": "deterministic_program",
+      "method_params": {
+        "evaluator": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/tests/evaluate.py",
+        "criterion_id": "R006",
+        "fact_contract": "tests/new6/tasks/NEW6-C-PARCEL-TARIFF-001/rubric.json"
+      }
+    }
+  ]
+}
