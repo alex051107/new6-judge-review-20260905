@@ -2,7 +2,7 @@
 
 本目录可直接下载73份已有真实答卷、每次运行实际输入、评分回执和固定Judge公开导出包，不需要私有仓库权限。它对应34374固定快照；73份中70份可评分、3份待判。首页其他Judge版本的有效成绩另行记录，不由本命令重现。
 
-Judge业务代码源提交为 `34374f08f331e7184010c40b401f1630a49df394`。公开导出仅替换历史回执和一份历史诊断脚本中的个人路径，业务评分代码、规则、权重、输入及真实答卷保留。公开归档有自己的hash与冻结锁，详见[PUBLIC_EXPORT.json](PUBLIC_EXPORT.json)，不冒充原私有归档字节身份。
+Judge业务代码源提交为 `34374f08f331e7184010c40b401f1630a49df394`。公开包保留评分代码、规则、权重、输入及真实答卷。[公开文件清单](PUBLIC_EXPORT.json)列出当前归档的文件和hash，[打包核验](PACKAGE_VALIDATION.json)记录解包与完整性检查。公开导出使用自己的归档hash及文件锁。
 
 ## 准备环境
 
@@ -11,7 +11,6 @@ Judge业务代码源提交为 `34374f08f331e7184010c40b401f1630a49df394`。公�
 ```bash
 git clone https://github.com/alex051107/new6-judge-review-20260905.git
 cd new6-judge-review-20260905
-git checkout new6-public-replay-v4
 mkdir -p /tmp/new6-public-image
 curl -fL https://github.com/alex051107/new6-judge-review-20260905/releases/download/new6-public-replay-v4/new6-judge-34374-offline.tar.gz -o /tmp/new6-public-image/new6-judge-34374-offline.tar.gz
 docker load -i /tmp/new6-public-image/new6-judge-34374-offline.tar.gz

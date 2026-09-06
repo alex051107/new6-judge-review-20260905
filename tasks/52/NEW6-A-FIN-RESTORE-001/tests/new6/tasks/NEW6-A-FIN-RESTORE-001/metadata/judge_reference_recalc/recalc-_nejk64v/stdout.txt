@@ -1,1 +1,0 @@
-convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-_nejk64v/input/discount_input_changed.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-_nejk64v/output/discount_input_changed.xlsx using filter : Calc Office Open XML

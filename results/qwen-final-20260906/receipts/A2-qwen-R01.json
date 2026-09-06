@@ -1,0 +1,65 @@
+{
+  "case": "A2-qwen-R01",
+  "trial_id": "N6GPAR-A2-QWEN-R01__FzteeGC",
+  "answer_sha256": "83150b2fc74b6d91e1c6637c188eacd7179b7b61e664f69096ffec64162ee6a5",
+  "judge_label": "new6-a2-facts-v1.3-real-gdp-labels",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "TERMINAL_ARTIFACT_WITHOUT_RECORDED_EXCEPTION",
+  "upstream_exception_type": "",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-A-MACRO-SCENARIO-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
+      "error_type": "ValueError",
+      "error": "Dynamic controls could not be bound uniquely by visible labels"
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "original_sha256": "83150b2fc74b6d91e1c6637c188eacd7179b7b61e664f69096ffec64162ee6a5",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

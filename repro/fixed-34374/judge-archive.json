@@ -2,20 +2,24 @@
   "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
   "export_version": "publicexport-v4",
   "original_private_archive_sha256": "a45a766ad683767e859416b49e701e69945fa70366d1600a51ea72ffac6663b2",
-  "sha256": "235955c87af77951cc25fb48bed15586fa1e8f30c3f9401dbef72ade02987fd1",
-  "bytes": 110656321,
+  "sha256": "69a6ee3ac6fa877d0d474c7f26b5a2294e029be8810a42c2a039dfc14878400b",
+  "bytes": 110106768,
   "parts": [
     {
       "name": "judge-source-34374f0-publicexport-v4.part01",
-      "size": 45000000
+      "size": 45000000,
+      "sha256": "c90a355413b80b9354810c7abe115281ab35e8c3b36c853ab53d18c786164362"
     },
     {
       "name": "judge-source-34374f0-publicexport-v4.part02",
-      "size": 45000000
+      "size": 45000000,
+      "sha256": "5a8f6fce867d548baac48f77269f2402ed13ca80d45b7f583d4e4543731ba0a7"
     },
     {
       "name": "judge-source-34374f0-publicexport-v4.part03",
-      "size": 20656321
+      "size": 20106768,
+      "sha256": "146aa32acca5aeabab4232152a9c1896bdffc6610f0e41b454a084a9a51da097"
     }
-  ]
+  ],
+  "export_revision": "review-package-20260906"
 }

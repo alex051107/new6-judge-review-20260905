@@ -1,0 +1,9 @@
+{
+  "task": "A2",
+  "required_judge_source": "metadata/source/LTGMv4-42-TrainingVersion.xlsx",
+  "bytes": 2854185,
+  "sha256": "08bc78058b0fdbf4bfd5370222a3b2dea96b9ed5e411979333b591ebca5afefa",
+  "source_repository_file": "tasks/54/NEW6-A-MACRO-SCENARIO-001/tests/new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/source/LTGMv4-42-TrainingVersion.xlsx",
+  "business_logic_changes": 0,
+  "original_candidates_unchanged": true
+}

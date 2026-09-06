@@ -1,8 +1,0 @@
-{
-  "evaluator_args": [
-    "--input-dir",
-    "/app/input",
-    "--work-dir",
-    "/logs/verifier/a1_recalc"
-  ]
-}

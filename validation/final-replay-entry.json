@@ -1,0 +1,17 @@
+{
+  "selected": 1,
+  "matched": 1,
+  "checks": [
+    {
+      "case": "A2-qwen-R08",
+      "status": "SCORED",
+      "criteria_match": true,
+      "total_match": true,
+      "pass_match": true,
+      "match": true,
+      "current_score": "0.7583317326162120630042258932001536688436575"
+    }
+  ],
+  "agent_calls": 0,
+  "model_api_calls": 0
+}

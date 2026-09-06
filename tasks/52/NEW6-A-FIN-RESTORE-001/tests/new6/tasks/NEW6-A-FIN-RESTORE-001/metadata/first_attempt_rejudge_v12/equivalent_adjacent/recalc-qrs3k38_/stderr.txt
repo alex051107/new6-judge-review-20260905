@@ -1,1 +1,0 @@
-2026-09-05 12:06:19.815 soffice[25414:23969991] Task policy set failed: 4 ((os/kern) invalid argument)

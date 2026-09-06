@@ -1,0 +1,280 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 1.0,
+  "score_decimal": "1.0",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R006": 1.0,
+    "R004": 1.0,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "25.0",
+    "R003": "20.0",
+    "R004": "35.0",
+    "R005": "5.0",
+    "R006": "5.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "20.0",
+        "R004": "35.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "25.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "40.0",
+        "R005": "5.0",
+        "R006": "5.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/app/output/answer.xlsx",
+    "judge_version": "new6-a1-v1.3-proven-formula-defects",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": true,
+      "review_equity": true,
+      "difference": true,
+      "base_share": true,
+      "review_share": true
+    },
+    "candidate_formula_defects": [],
+    "native_baseline": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "f9729f492c85d06b2071eadb323f7043ca7b999c51c13638ad840aca3f8a5149",
+      "isolated_input": "/logs/verifier/offline/native/recalc-_0_aj8c5/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-_0_aj8c5/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/recalc-_0_aj8c5/output",
+        "/logs/verifier/offline/native/recalc-_0_aj8c5/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1079,
+      "isolated_input_sha256": "35263b0c5c8c4012eaf023442fe78668876300485a1521168d9c7f4b753a0dd3",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/recalc-_0_aj8c5/output/answer.xlsx",
+      "output_sha256": "e0469f622365b8df4c4da3ffa39347b29846ade6cf913157248fe5bf13e65c96",
+      "elapsed_seconds": 0.9163531670055818,
+      "source_sha256_after": "f9729f492c85d06b2071eadb323f7043ca7b999c51c13638ad840aca3f8a5149",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 168,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/growth_input_changed.xlsx",
+          "source_sha256_before": "2341aa50629a063f7436b79d886019fe247f113022a4f3a8b0619654bf3d24c9",
+          "isolated_input": "/logs/verifier/offline/native/recalc-30kafm5v/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-30kafm5v/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-30kafm5v/output",
+            "/logs/verifier/offline/native/recalc-30kafm5v/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "f7e328d77612889b086dda88eb2378d180672b59f5d504b75a1f0224bd38518f",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-30kafm5v/output/growth_input_changed.xlsx",
+          "output_sha256": "0efea3aac6bd5727806ce4cd0be0fcb73adf772f7f346853f55e2ea15273c524",
+          "elapsed_seconds": 0.7242175420105923,
+          "source_sha256_after": "2341aa50629a063f7436b79d886019fe247f113022a4f3a8b0619654bf3d24c9",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 130,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/margin_input_changed.xlsx",
+          "source_sha256_before": "b55aa14d6ff36c1b9d86d39cc5febb1534b6323114be19b6fed2e4f9cd28b4c5",
+          "isolated_input": "/logs/verifier/offline/native/recalc-gj8edv_0/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-gj8edv_0/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-gj8edv_0/output",
+            "/logs/verifier/offline/native/recalc-gj8edv_0/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "3724f8ff24bbb97667a5914e02a0323b39f1004557ff04b7b208d7a140e9c5e2",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-gj8edv_0/output/margin_input_changed.xlsx",
+          "output_sha256": "ec9b640e6558bd8ea8fe19e9480b46574069e27a5c13dad2da9af6f6f42f2a91",
+          "elapsed_seconds": 0.6916944590047933,
+          "source_sha256_after": "b55aa14d6ff36c1b9d86d39cc5febb1534b6323114be19b6fed2e4f9cd28b4c5",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 74,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/discount_input_changed.xlsx",
+          "source_sha256_before": "1c035835e202f5c378edcdaa9863522d6a69c191e8dca74f99dceb609021163f",
+          "isolated_input": "/logs/verifier/offline/native/recalc-eofhtmcg/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-eofhtmcg/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-eofhtmcg/output",
+            "/logs/verifier/offline/native/recalc-eofhtmcg/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "198e2bb5707980683b0b175517b6dea72d70fc49e37e96ed658faed2a073259b",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-eofhtmcg/output/discount_input_changed.xlsx",
+          "output_sha256": "71a06c097921885cbc4c5c85b20400b852fbefe6030a95cd9b713d833c93fa28",
+          "elapsed_seconds": 0.7177529589971527,
+          "source_sha256_after": "1c035835e202f5c378edcdaa9863522d6a69c191e8dca74f99dceb609021163f",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 504,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Review valuation",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "f9729f492c85d06b2071eadb323f7043ca7b999c51c13638ad840aca3f8a5149",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

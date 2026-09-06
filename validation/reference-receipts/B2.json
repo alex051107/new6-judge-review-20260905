@@ -1,0 +1,1093 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 1.0,
+  "score_decimal": "1.0",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "15.0",
+    "R002": "25.0",
+    "R003": "25.0",
+    "R004": "20.0",
+    "R005": "15.0"
+  },
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "20.0",
+        "R005": "15.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "20.0",
+        "R002": "20.0",
+        "R003": "25.0",
+        "R004": "20.0",
+        "R005": "15.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "25.0",
+        "R005": "25.0"
+      }
+    }
+  },
+  "evidence": {
+    "task_version": "new6-b2-three-release-v3",
+    "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+    "candidate": "/app/output/answer.xlsx",
+    "dynamic_tests": "Not required; correct static and formula implementations equally accepted.",
+    "regions": [
+      {
+        "sheet": "Current data",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "employment_2025": 4,
+          "unemployment_2023": 5,
+          "unemployment_2024": 6,
+          "unemployment_2025": 7,
+          "employment_change_23_24": 8,
+          "employment_change_24_25": 9,
+          "unemployment_change_23_24": 10,
+          "unemployment_change_24_25": 11,
+          "unemployment_change_23_25": 12,
+          "eligible": 13
+        }
+      },
+      {
+        "sheet": "Current shortlist",
+        "header_row": 1,
+        "role": "shortlist",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "employment_change_24_25": 4,
+          "unemployment_change_23_24": 5,
+          "unemployment_change_24_25": 6,
+          "unemployment_change_23_25": 7
+        }
+      },
+      {
+        "sheet": "Shortlist changes",
+        "header_row": 1,
+        "role": "movement",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "previous_selected": 2,
+          "current_selected": 3,
+          "movement": 4,
+          "reason": 5
+        }
+      },
+      {
+        "sheet": "Current exclusions",
+        "header_row": 1,
+        "role": "exclusions",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      },
+      {
+        "sheet": "Previous data",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "unemployment_2023": 4,
+          "unemployment_2024": 5,
+          "employment_change_23_24": 6,
+          "unemployment_change_23_24": 7
+        }
+      },
+      {
+        "sheet": "Previous shortlist",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4
+        }
+      },
+      {
+        "sheet": "Previous exclusions",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      }
+    ],
+    "context": {
+      "periods": [
+        true,
+        true,
+        true
+      ],
+      "definitions": [
+        true,
+        true
+      ],
+      "sources": [
+        true,
+        true,
+        true
+      ],
+      "units": true,
+      "scope": true,
+      "sampling_limits": true
+    },
+    "exclusion_facts": [
+      {
+        "code": "E06000053",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e06000053 || isles of scilly || unavailable",
+          "2023 employment: unavailable/suppressed ([c]); 2023 unemployment: unavailable/suppressed ([x]); 2024 employment: unavailable/suppressed ([c]); 2024 unemployment: unavailable/suppressed ([x]); 2025 employment: unavailable/suppressed ([c]); 2025 unemployment: unavailable/suppressed ([x])"
+        ]
+      },
+      {
+        "code": "E06000063",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e06000063 || cumberland || 79.6 || 77.8 || 2.6 || 2.9 || -1.8 || 0.3 || unavailable",
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000064",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e06000064 || westmorland and furness || 80.9 || 77.1 || 1.5 || 1.6 || -3.8 || 0.1 || unavailable",
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000065",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e06000065 || north yorkshire || 79.2 || 80.4 || 2.2 || 1.9 || 1.2 || -0.3 || unavailable",
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000066",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e06000066 || somerset || 79.3 || 80.1 || 2.6 || 2.5 || 0.8 || -0.1 || unavailable",
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000026",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000026 || allerdale || 79.4 || 3.2 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000027",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000027 || barrow-in-furness || 64.8 || 4.6 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000028",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000028 || carlisle || 86 || 3.2 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000029",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000029 || copeland || 75.7 || 3 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000030",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000030 || eden || 73.7 || 2.7 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000031",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000031 || south lakeland || 81.9 || 2.7 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000163",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000163 || craven || 69.8 || 2.8 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000164",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000164 || hambleton || 78.5 || 2.3 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000165",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000165 || harrogate || 79 || 2.5 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000166",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000166 || richmondshire || 91 || 2.2 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000167",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000167 || ryedale || 79.1 || 3 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000168",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000168 || scarborough || 73.8 || 3.8 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000169",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000169 || selby || 84.9 || 2.3 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000187",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000187 || mendip || 83.2 || 2.5 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000188",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000188 || sedgemoor || 74.2 || 2.8 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000189",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000189 || south somerset || 71.2 || 2.5 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000246",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e07000246 || somerset west and taunton || 77.6 || 2.7 || unavailable",
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E09000001",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "e09000001 || city of london || 100 || 100 || 0 || unavailable",
+          "2023 unemployment: unavailable/suppressed ([x]); 2024 unemployment: unavailable/suppressed ([x]); 2025 employment: unavailable/suppressed ([x]); 2025 unemployment: unavailable/suppressed ([x])"
+        ]
+      }
+    ],
+    "selection_facts": [
+      {
+        "sheet": "Current shortlist",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E07000141"
+        ],
+        "population": 1.0,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "support_obligations": [
+      {
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      }
+    ],
+    "source_value_mismatches": [],
+    "optional_displayed_errors": [],
+    "chart_facts": [
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "metric": "employment_change_23_24",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "metric": "employment_change_24_25",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "metric": "unemployment_change_23_24",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "metric": "unemployment_change_24_25",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "series": [
+          {
+            "name": "Employment change 2023–2024 (pp)",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              -17.6,
+              -7.6,
+              -7.2,
+              -4.5,
+              -0.3
+            ],
+            "values_cache": []
+          },
+          {
+            "name": "Employment change 2024–2025 (pp)",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              -6.7,
+              -4.8,
+              -1,
+              -11.1,
+              -11.4
+            ],
+            "values_cache": []
+          },
+          {
+            "name": "Unemployment change 2023–2024 (pp)",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              1.4,
+              2.4,
+              1.3,
+              1.5,
+              0.9
+            ],
+            "values_cache": []
+          },
+          {
+            "name": "Unemployment change 2024–2025 (pp)",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              1.6,
+              0.1,
+              1.1,
+              0.7,
+              1.1
+            ],
+            "values_cache": []
+          }
+        ],
+        "title": "Changes across both comparisons (pp)",
+        "sheet": "Current shortlist",
+        "historical": false
+      },
+      {
+        "chart": "xl/drawings/charts/chart2.xml",
+        "series": [
+          {
+            "name": "Employment change 2023–2024 (pp)",
+            "categories": [
+              "Great Yarmouth",
+              "Ashfield",
+              "Norwich",
+              "Harlow",
+              "Basildon"
+            ],
+            "categories_cache": [],
+            "values": [
+              -6.3,
+              -15.2,
+              -7.6,
+              -3.2,
+              -10.5
+            ],
+            "values_cache": []
+          },
+          {
+            "name": "Unemployment change 2023–2024 (pp)",
+            "categories": [
+              "Great Yarmouth",
+              "Ashfield",
+              "Norwich",
+              "Harlow",
+              "Basildon"
+            ],
+            "categories_cache": [],
+            "values": [
+              3,
+              2.5,
+              2.4,
+              2.3,
+              2.1
+            ],
+            "values_cache": []
+          }
+        ],
+        "title": "Previous shortlist changes (pp)",
+        "sheet": "Previous shortlist",
+        "historical": true
+      }
+    ],
+    "movement_facts": [
+      {
+        "code": "E07000008",
+        "expected": "entered",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000008",
+            "name": "Cambridge",
+            "previous_selected": "No",
+            "current_selected": "Yes",
+            "movement": "Entered",
+            "reason": "Both consecutive comparisons deteriorated; cumulative unemployment increase 2.2 pp ranks within the current five",
+            "_loc": "Shortlist changes!2",
+            "_text": "E07000008 || Cambridge || No || Yes || Entered || Both consecutive comparisons deteriorated; cumulative unemployment increase 2.2 pp ranks within the current five"
+          },
+          {
+            "movement": "changes from previous shortlist || e07000008 entered",
+            "reason": "changes from previous shortlist || e07000008 entered",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000066",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000066",
+            "name": "Basildon",
+            "previous_selected": "Yes",
+            "current_selected": "No",
+            "movement": "Left",
+            "reason": "Unemployment did not rise in the second comparison (-1.0 pp)",
+            "_loc": "Shortlist changes!3",
+            "_text": "E07000066 || Basildon || Yes || No || Left || Unemployment did not rise in the second comparison (-1.0 pp)"
+          },
+          {
+            "movement": " e07000066 left",
+            "reason": " e07000066 left",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000073",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000073",
+            "name": "Harlow",
+            "previous_selected": "Yes",
+            "current_selected": "No",
+            "movement": "Left",
+            "reason": "Unemployment did not rise in the second comparison (-0.4 pp)",
+            "_loc": "Shortlist changes!4",
+            "_text": "E07000073 || Harlow || Yes || No || Left || Unemployment did not rise in the second comparison (-0.4 pp)"
+          },
+          {
+            "movement": " e07000073 left",
+            "reason": " e07000073 left",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "expected": "entered",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000141",
+            "name": "South Kesteven",
+            "previous_selected": "No",
+            "current_selected": "Yes",
+            "movement": "Entered",
+            "reason": "Both consecutive comparisons deteriorated; cumulative unemployment increase 2.0 pp ranks within the current five",
+            "_loc": "Shortlist changes!5",
+            "_text": "E07000141 || South Kesteven || No || Yes || Entered || Both consecutive comparisons deteriorated; cumulative unemployment increase 2.0 pp ranks within the current five"
+          },
+          {
+            "movement": " e07000141 entered",
+            "reason": " e07000141 entered",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000142",
+        "expected": "entered",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000142",
+            "name": "West Lindsey",
+            "previous_selected": "No",
+            "current_selected": "Yes",
+            "movement": "Entered",
+            "reason": "Both consecutive comparisons deteriorated; cumulative unemployment increase 3.0 pp ranks within the current five",
+            "_loc": "Shortlist changes!6",
+            "_text": "E07000142 || West Lindsey || No || Yes || Entered || Both consecutive comparisons deteriorated; cumulative unemployment increase 3.0 pp ranks within the current five"
+          },
+          {
+            "movement": " e07000142 entered",
+            "reason": " e07000142 entered",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000145",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000145",
+            "name": "Great Yarmouth",
+            "previous_selected": "Yes",
+            "current_selected": "No",
+            "movement": "Left",
+            "reason": "Unemployment did not rise in the second comparison (-1.5 pp); Employment did not fall in the second comparison (11.3 pp)",
+            "_loc": "Shortlist changes!7",
+            "_text": "E07000145 || Great Yarmouth || Yes || No || Left || Unemployment did not rise in the second comparison (-1.5 pp); Employment did not fall in the second comparison (11.3 pp)"
+          },
+          {
+            "movement": " e07000145 left",
+            "reason": " e07000145 left",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000148",
+        "expected": "retained",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000148",
+            "name": "Norwich",
+            "previous_selected": "Yes",
+            "current_selected": "Yes",
+            "movement": "Retained",
+            "reason": "Both consecutive comparisons deteriorated; cumulative unemployment increase 2.5 pp ranks within the current five",
+            "_loc": "Shortlist changes!8",
+            "_text": "E07000148 || Norwich || Yes || Yes || Retained || Both consecutive comparisons deteriorated; cumulative unemployment increase 2.5 pp ranks within the current five"
+          },
+          {
+            "movement": " e07000148 retained",
+            "reason": " e07000148 retained",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000170",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E07000170",
+            "name": "Ashfield",
+            "previous_selected": "Yes",
+            "current_selected": "No",
+            "movement": "Left",
+            "reason": "Unemployment did not rise in the second comparison (-0.4 pp); Employment did not fall in the second comparison (9.5 pp)",
+            "_loc": "Shortlist changes!9",
+            "_text": "E07000170 || Ashfield || Yes || No || Left || Unemployment did not rise in the second comparison (-0.4 pp); Employment did not fall in the second comparison (9.5 pp)"
+          },
+          {
+            "movement": " e07000170 left",
+            "reason": " e07000170 left",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E09000020",
+        "expected": "entered",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "code": "E09000020",
+            "name": "Kensington and Chelsea",
+            "previous_selected": "No",
+            "current_selected": "Yes",
+            "movement": "Entered",
+            "reason": "Both consecutive comparisons deteriorated; cumulative unemployment increase 2.4 pp ranks within the current five",
+            "_loc": "Shortlist changes!10",
+            "_text": "E09000020 || Kensington and Chelsea || No || Yes || Entered || Both consecutive comparisons deteriorated; cumulative unemployment increase 2.4 pp ranks within the current five"
+          },
+          {
+            "movement": " e09000020 entered",
+            "reason": " e09000020 entered",
+            "_loc": "Current briefing!13",
+            "_text": "Changes from previous shortlist || E07000008 entered; E07000066 left; E07000073 left; E07000141 entered; E07000142 entered; E07000145 left; E07000148 retained; E07000170 left; E09000020 entered",
+            "from_prose": true
+          }
+        ]
+      }
+    ],
+    "brief_facts": {
+      "exists": true,
+      "claims": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "labelled_code_lists": [
+        {
+          "sheet": "Current briefing",
+          "row": 9,
+          "kind": "current",
+          "codes": [
+            "E07000142",
+            "E07000148",
+            "E09000020",
+            "E07000008",
+            "E07000141"
+          ],
+          "label": "Current selected codes",
+          "correct": true
+        }
+      ]
+    },
+    "preservation": {
+      "external_available": true,
+      "embedded_available": 1.0,
+      "historical_components": {
+        "data": true,
+        "shortlist": true,
+        "brief": true,
+        "exclusions": true,
+        "chart": true
+      },
+      "embedded_consistent": true,
+      "sources_unchanged": [
+        true,
+        true,
+        true
+      ]
+    },
+    "denominators": {
+      "current_selected": 5,
+      "required_support": 33,
+      "movement_authorities": 9,
+      "unassessable_authorities": 23,
+      "context_buckets": 7
+    },
+    "external_acceptance_gaps": [
+      "Formal difficulty validation pending",
+      "External negative-item and agentic parser acceptance not asserted"
+    ]
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "e67d74d27fe3ec5980fe633156c419fc9c1a8f0dd8420cc7e3426629b8037f11",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

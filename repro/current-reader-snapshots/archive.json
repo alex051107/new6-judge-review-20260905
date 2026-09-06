@@ -2,21 +2,26 @@
   "parts": [
     {
       "name": "current-readers-publicexport-v1.part01",
-      "size": 45000000
+      "size": 45000000,
+      "sha256": "b0d6653b43db26958545bb5a2bbfa64081ea36ce0c3db76e66735d7290ff13fd"
     },
     {
       "name": "current-readers-publicexport-v1.part02",
-      "size": 45000000
+      "size": 45000000,
+      "sha256": "98a7507827cc8e98e3e3b58a9c13947c3b6110e24e211086a284aa47104020c8"
     },
     {
       "name": "current-readers-publicexport-v1.part03",
-      "size": 45000000
+      "size": 45000000,
+      "sha256": "10d12a29f0b38651333e8dde1e03caf4d6db241810849fa2e85b39a53d6233db"
     },
     {
       "name": "current-readers-publicexport-v1.part04",
-      "size": 556122
+      "size": 490086,
+      "sha256": "96ad09a1f99f507cae0c277d7ceff0818b779733176d84956ce665877dcd903b"
     }
   ],
-  "sha256": "fe6ecfd673445f4fe04255942f3282202119b8169a01b39c1ff4333cc6a9ee44",
-  "size": 135556122
+  "sha256": "09826bd3a28d0d6a610c346c8f72ce19ae7a6750b0a56a4a0e933d3432a20c42",
+  "size": 135490086,
+  "export_revision": "review-package-20260906"
 }

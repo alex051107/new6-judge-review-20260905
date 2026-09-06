@@ -1,1 +1,0 @@
-convert new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/input/equivalent_transposed.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/output/equivalent_transposed.xlsx using filter : Calc Office Open XML

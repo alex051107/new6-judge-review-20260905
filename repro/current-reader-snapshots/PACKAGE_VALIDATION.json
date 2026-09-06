@@ -1,0 +1,19 @@
+{
+  "archive_sha256": "09826bd3a28d0d6a610c346c8f72ce19ae7a6750b0a56a4a0e933d3432a20c42",
+  "archive_bytes": 135490086,
+  "files": 579,
+  "protected_unchanged": 260,
+  "unpack_and_hash": "PASS",
+  "judge_logic_changes": 0,
+  "input_changes": 0,
+  "retained_runtime_and_data_files_identical_to_previous_public_commit": 260,
+  "comparison_base_commit": "0b8083e623230a57f981cbde252660a523073b09",
+  "offline_replay": {
+    "case": "B1-qwen-R02",
+    "status": "SCORED",
+    "criterion_scores_match": true,
+    "validated_before_final_nonruntime_metadata_omission": true
+  },
+  "agent_calls": 0,
+  "model_api_calls": 0
+}

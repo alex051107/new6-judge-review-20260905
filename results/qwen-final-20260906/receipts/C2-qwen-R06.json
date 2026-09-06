@@ -1,0 +1,532 @@
+{
+  "case": "C2-qwen-R06",
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__kfEkG6y",
+  "answer_sha256": "9b61bb7b40d0f9e705a352502cc110dcdd44b7f6e865b3fe6079a70437af0b68",
+  "judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "AgentTimeoutError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-C-PARCEL-TARIFF-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "baseline_recalc": {
+        "source": "[runtime path]",
+        "source_sha256_before": "9b61bb7b40d0f9e705a352502cc110dcdd44b7f6e865b3fe6079a70437af0b68",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 100,
+        "isolated_input_sha256": "9f54019bdd9542454bd37d4ca195bbd1b5b6ce42caf30436af103b9cd52e73ac",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "7c37b8d6d0111af9e81b1a64b7792b0ce9c54582783d21c81af2f8314980d194",
+        "elapsed_seconds": "0.39213262501289137",
+        "source_sha256_after": "9b61bb7b40d0f9e705a352502cc110dcdd44b7f6e865b3fe6079a70437af0b68",
+        "original_unchanged": true
+      },
+      "pending_reason": "Native errors outside proven non-arithmetic source headings",
+      "parse_evidence": {
+        "errors": [
+          {
+            "sheet": "Quotes",
+            "cell": "F3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L3",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L4",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L5",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L6",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L7",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L8",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L9",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L10",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L11",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L12",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L13",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "F14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "G14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "H14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "K14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L14",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "I15",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "J15",
+            "error": "#N/A"
+          },
+          {
+            "sheet": "Quotes",
+            "cell": "L15",
+            "error": "#N/A"
+          }
+        ]
+      },
+      "reader_adapter": {
+        "source_heading_errors": [],
+        "read_views": []
+      }
+    },
+    "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "reproduction": {
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "original_sha256": "9b61bb7b40d0f9e705a352502cc110dcdd44b7f6e865b3fe6079a70437af0b68",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

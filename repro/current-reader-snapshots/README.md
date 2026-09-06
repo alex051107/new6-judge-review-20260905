@@ -34,6 +34,6 @@ python3 repro/fixed-34374/public-summary/reweight_receipt.py --task B1 --receipt
 
 ## 文件与版本
 
-[逐次清单](selected.json)绑定case、原件hash、来源ZIP及快照；[公开导出记录](PUBLIC_EXPORT.json)保存源文件hash、公开hash和脱敏明细。[执行源码核对](EXECUTABLE_IDENTITY.json)确认118份Python源码逐字一致，唯一改动的Python文件是一份不由入口执行的历史诊断脚本。其余脱敏仅替换历史材料的个人路径；共105份文本，Python缓存不随包发布。评分业务代码、权重、独立答案和原件未改。
+[逐次清单](selected.json)绑定每份答卷、原件hash、来源ZIP及所用快照。[公开文件清单](PUBLIC_EXPORT.json)列出当前归档的全部保留文件及hash；[打包核验](PACKAGE_VALIDATION.json)记录解包与完整性检查。[执行源码核对](EXECUTABLE_IDENTITY.json)保留评分源码的身份依据。公开包保留复评所需代码、输入、独立答案和校准材料。
 
 这些快照包含Judge独立答案和核验材料，供复评者使用，不能整体给参测Agent查看。10份实跑验证支持这些原件的复现；历史提交身份和其他未重跑原件的表现另按证据记录。

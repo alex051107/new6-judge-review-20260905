@@ -1,0 +1,96 @@
+{
+  "case": "B1-qwen-R01",
+  "trial_id": "N6GRAMMAR-B1-QWEN-R01__SrhXusU",
+  "answer_sha256": "5eff0fe8b24c3706e2663c627fd78997f1be5c77df924b5760dccd3935835dd5",
+  "judge_label": "new6-b1-reader-v2.6-precision-labelled-register",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "UnknownApiError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-B-RETAIL-CLOSE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "dynamic_tests": "not applicable; correct static accepted",
+      "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+      "reason": "Repeated required header roles require explicit disambiguation: ['class']"
+    },
+    "reader_v26_evidence": {
+      "recognized_narrative_formulas": [],
+      "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+      "source_amounts_unchanged": true,
+      "business_views": {}
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "original_sha256": "5eff0fe8b24c3706e2663c627fd78997f1be5c77df924b5760dccd3935835dd5",
+      "original_unchanged": true,
+      "native_preprocessing": {
+        "source": "[runtime path]",
+        "source_sha256_before": "5eff0fe8b24c3706e2663c627fd78997f1be5c77df924b5760dccd3935835dd5",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 1,
+        "isolated_input_sha256": "bd2c4972a9c67b87a33cfe6736e660559b60a8d429280cf1cb21a8081d004beb",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "9c3e538712ba4019620d9b10120339896834e8236a4f489339a90eb503cf9d2b",
+        "elapsed_seconds": "4.036478418012848",
+        "source_sha256_after": "5eff0fe8b24c3706e2663c627fd78997f1be5c77df924b5760dccd3935835dd5",
+        "original_unchanged": true
+      },
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

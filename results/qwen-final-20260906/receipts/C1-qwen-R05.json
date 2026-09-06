@@ -1,0 +1,64 @@
+{
+  "case": "C1-qwen-R05",
+  "trial_id": "N6GPAR-C1-QWEN-R05__5BrpuSb",
+  "answer_sha256": "e412f4de88b77b7369d0684fee8b0bdbe3b97a1154bd9b580b9b34868f3ccf5e",
+  "judge_label": "new6-c1-review-facts-v2.5-precision-views",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "UnknownApiError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-C-COST-WORKPAPER-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "error_type": "ValueError",
+      "error": "A material candidate table remains unbound: ['Cost Summary', 'Elemental Analysis', 'Working Calculation', 'Reconciliation']"
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-C-COST-WORKPAPER-001",
+      "original_sha256": "e412f4de88b77b7369d0684fee8b0bdbe3b97a1154bd9b580b9b34868f3ccf5e",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

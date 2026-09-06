@@ -1,53 +1,56 @@
-# 复现分数与评分工作簿
+# 复现当前分数与评分工作簿
 
-所有下载入口均在本公开仓库，查看文件和下载固定环境不需要私有仓库授权。按下面的目的选择操作：
+当前结果有90份已评分答卷：67份GPT-5.6 sol和Opus 5保留原Judge路线，23份千问采用本批逐题固定的Judge快照。以下命令重新读取Excel并计算分数，不启动生成Agent，也不调用模型API。
 
-| 要做什么 | 入口 | 会重新读取Excel吗 |
-|---|---|---|
-| 核对首页分数的配重和均分 | [当前结果复算](../results/current-effective-v2/README.md) | 不会；使用已保存的分项事实 |
-| 复评首页78份答卷，查看逐项得失分 | [统一评分入口](CURRENT_REPLAY.md) | 会；自动选择对应Judge，重读各份Excel |
-| 复评34374固定批次 | [固定Judge与73份原件](fixed-34374/README.md) | 会；解包原件，用固定镜像评分 |
-| 给自己的工作簿评分 | [自有文件评分](fixed-34374/README.md#给自己的文件评分) | 会；文件和输入须对应所选题目 |
-| 核对六题参考及校准案例 | 下方基线入口 | 会；使用题包中记录的基线Judge |
+| 要核对什么 | 入口 |
+|---|---|
+| 当前90份已有分数的答卷 | [统一复评步骤](CURRENT_REPLAY.md) |
+| 千问全部43份最终文件，包括待判 | 下方千问命令及[逐次表](../results/qwen-final-20260906/README.md) |
+| 当前均分、通过次数和完整状态 | [当前结果](../results/current-effective-v3/README.md) |
+| 六题参考和校准案例 | 下方参考与校准命令 |
+| 自己的answer.xlsx | [自有文件评分](fixed-34374/README.md#给自己的文件评分)，使用该入口注明的固定Judge |
 
-首页78份评分记录保留各次实际Judge身份。统一入口包含66份固定34374答卷、10份补充部署快照答卷，以及2份使用34374与补充原件的答卷。补充快照10份已逐项重评一致，另两份已用统一入口实际重评一致。[逐份对应与验证范围](CURRENT_SCORE_REPLAY.md)列明证据及仍缺失的历史提交证明。
+## 获取文件与固定环境
 
-## 获取公开文件与固定环境
-
-先按照[统一入口的环境准备](CURRENT_REPLAY.md)克隆仓库、检出 `new6-public-replay-v5`，下载并加载已固定的v4环境镜像。只核对分项算术时不需要Docker，仅需Python标准库。
-
-从仓库根目录复评当前已评分原件：
+本仓库和环境镜像均公开。需要Python 3.12以上、Docker及Linux/arm64容器支持。x86原生环境尚未验证。
 
 ```bash
-python3 repro/replay_current.py --case A1-qwen-R08 B2-qwen-R08 --out /tmp/new6-current-check
+git clone https://github.com/alex051107/new6-judge-review-20260905.git
+cd new6-judge-review-20260905
+git checkout new6-public-replay-v6
+mkdir -p /tmp/new6-public-image
+curl -fL https://github.com/alex051107/new6-judge-review-20260905/releases/download/new6-public-replay-v4/new6-judge-34374-offline.tar.gz -o /tmp/new6-public-image/new6-judge-34374-offline.tar.gz
+docker load -i /tmp/new6-public-image/new6-judge-34374-offline.tar.gz
 ```
 
-命令直接生成逐项回执、当前配重总分和与已发布分数的比较。完整78份使用`--all`；运行时间取决于工作簿重算耗时。
+环境沿用固定依赖镜像，评分入口核对镜像及归档身份。容器使用1 CPU、3 GB内存、断网运行；原答卷和实际收集的输入只读。
 
-重读一份真实答卷，在 `repro/fixed-34374` 目录执行：
+## 复评当前答卷
 
 ```bash
-python3 replay.py --case A1-codex-R08 --out /tmp/new6-public-a1
-python3 public-summary/reweight_receipt.py --task A1 --receipt /tmp/new6-public-a1/scores/A1-codex-R08/result.json --output /tmp/new6-public-a1/current-score.json
+python3 repro/replay_final.py --case A2-qwen-R08 --out /tmp/excel-score-one
+python3 repro/replay_final.py --all --out /tmp/excel-score-all
 ```
 
-第一条从原工作簿读取事实并评分，逐项依据在 `result.json`；第二条使用该回执计算当前配重，总分在 `current-score.json`。输出目录应为新目录，每次保留独立回执。
+输出目录必须是新目录。`comparison.json`核对逐项事实、当前总分和通过结果；详细回执位于`qwen/scores/`或`retained/scores/`，每份都有`current-score.json`及Judge回执。
+
+千问本批收回43份最终文件，全部实际离线评过，其中23份有分数、20份待判；另5槽未收回最终文件。复查全部43份而不仅是已有分数的答卷：
+
+```bash
+python3 repro/qwen-final/replay.py --all --out /tmp/qwen-all-collected
+```
+
+该命令输出`summary.json`及各份`scores/<case>/judge-result.json`、`current-score.json`。待判保持空分，具体原因见回执。文件生成后有上游异常的试次单列，不当作正常完成的正式难度样本。
 
 ## 六题参考与随包校准
-
-以下命令在本仓库根目录执行，使用刚加载的固定依赖镜像。这里运行的是每个Harbor题包自身的基线Judge，与34374快照分别记录。
 
 ```bash
 python3 repro/replay.py verify --suite reference --image new6-judge:20260905 --out /tmp/new6-public-reference
 python3 repro/replay.py verify --suite calibration --image new6-judge:20260905 --out /tmp/new6-public-calibration
 ```
 
-六题参考在公开文件树中已逐题实际验证，均为满分。原始基线校准为17/18符合预期；B1的 `unbound_bridge_header` 保留已知读取问题，因此校准命令会返回非零退出码。详细回执见[公开题包验证](PUBLIC_VALIDATION.md)。这项差异保留供审查，不修改题目或分数来消除提示。
+清理后的六题参考已逐题实跑，均为满分，见[参考验证回执](../validation/reference-replay.json)。题包基线校准保留17/18的既有结果；B1的`unbound_bridge_header`仍有读取差项，校准命令会返回非零退出码。该问题供审查，不计入模型难度样本。
 
-评分容器不联网、不读取API Key。固定环境使用Python 3.11.16、LibreOffice 7.4.7.2、openpyxl 3.1.5、et-xmlfile 2.0.0、lxml 6.0.1。`repro/Dockerfile`记录基线依赖构建方式，release提供已核对的镜像。
+[实际验证范围](PUBLIC_VALIDATION.md)区分本批43份千问实跑、公开入口验证及非千问既有验证。完整90份没有在本轮全部重新评分。
 
-Judge只读取当前任务对应的输入和答卷，参考与Oracle留在评分侧。不要将整份公开审查仓库挂载给参测Agent。这里的“复跑”指离线核验文件，不会启动新的付费Agent。
-
-[全部78份当前已评分原件](../results/current-effective-v2/ANSWERS.md)逐份提供下载与回执，包含固定快照以外已回收的答卷。
-
-固定入口、补充部署快照和统一入口均已有真实答卷验证，六题参考也已验证。每项检查的答卷及版本见[公开环境验证](PUBLIC_VALIDATION.md)。本轮未重复全量评分。
+参考、Oracle和Judge仅供评分与人工审查使用。参测Agent只接触题面规定的输入，不应挂载整份审查仓库。

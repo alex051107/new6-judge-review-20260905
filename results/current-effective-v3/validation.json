@@ -1,0 +1,17 @@
+{
+  "slots": 144,
+  "scored": 90,
+  "non_qwen_scored": 67,
+  "qwen_scored": 23,
+  "statuses": {
+    "SCORED": 90,
+    "JUDGE_ERROR": 43,
+    "OUTPUT_MISSING": 6,
+    "FINAL_OUTPUT_NOT_COLLECTED": 5
+  },
+  "old_qwen_records_retained": 0,
+  "pass_decision": "Unrounded score>=70",
+  "unknown_filled_zero": false,
+  "judge_calls": 0,
+  "model_calls": 0
+}

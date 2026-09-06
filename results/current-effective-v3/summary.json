@@ -1,0 +1,309 @@
+[
+  {
+    "task": "A1",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "90.4508224864419503",
+    "mean_60_points": "90.8409114391338393192307692307692307692307692307625",
+    "passes_60": 7,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "A1",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 7,
+    "unscored": 1,
+    "status_counts": {
+      "SCORED": 7,
+      "JUDGE_ERROR": 1
+    },
+    "mean_original_points": "55.9107471775212089428571428571428571428571428571428571428571",
+    "mean_60_points": "50.5504160818303745142857142857142857142857142857142857142857",
+    "passes_60": 1,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "A1",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "91.117550734514616",
+    "mean_60_points": "90.7859451997343886923076923076923076923076923076923076923077",
+    "passes_60": 8,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "A2",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 7,
+    "unscored": 1,
+    "status_counts": {
+      "JUDGE_ERROR": 1,
+      "SCORED": 7
+    },
+    "mean_original_points": "93.1954887218045112781954887218045112781954285714285714285714",
+    "mean_60_points": "93.0263157894736842105263157894736842105262857142857142857143",
+    "passes_60": 7,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "A2",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 2,
+    "unscored": 6,
+    "status_counts": {
+      "SCORED": 2,
+      "JUDGE_ERROR": 5,
+      "OUTPUT_MISSING": 1
+    },
+    "mean_original_points": "32.3862666945379765429029852432713385008245",
+    "mean_60_points": "28.87561509909380578969966780411742107522975",
+    "passes_60": 0,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "A2",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 1,
+    "unscored": 7,
+    "status_counts": {
+      "JUDGE_ERROR": 3,
+      "FINAL_OUTPUT_NOT_COLLECTED": 4,
+      "SCORED": 1
+    },
+    "mean_original_points": "76.4838647714175950825970034575489819439115",
+    "mean_60_points": "75.83317326162120630042258932001536688436575",
+    "passes_60": 1,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B1",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "99.6691101738531985",
+    "mean_60_points": "99.779869658304725862637362637362637362637362637375",
+    "passes_60": 8,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B1",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 3,
+    "unscored": 5,
+    "status_counts": {
+      "JUDGE_ERROR": 4,
+      "OUTPUT_MISSING": 1,
+      "SCORED": 3
+    },
+    "mean_original_points": "57.1618107465867278716666666666666666666666666666666666666667",
+    "mean_60_points": "67.0242807687582949906227106227106227106227106227",
+    "passes_60": 2,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B1",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 3,
+    "unscored": 5,
+    "status_counts": {
+      "JUDGE_ERROR": 5,
+      "SCORED": 3
+    },
+    "mean_original_points": "99.9333333333333333333333333333333333333333333333333333333333",
+    "mean_60_points": "99.9589743589743589743589743589743589743589743589743589743590",
+    "passes_60": 3,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B2",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "90.4977678571428575875",
+    "mean_60_points": "88.0398351648351660978021978021978021978021978021875",
+    "passes_60": 8,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B2",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 3,
+    "unscored": 5,
+    "status_counts": {
+      "JUDGE_ERROR": 4,
+      "OUTPUT_MISSING": 1,
+      "SCORED": 3
+    },
+    "mean_original_points": "55.9246272246272257666666666666666666666666666666666666666667",
+    "mean_60_points": "53.8453546453546469186813186813186813186813186813333333333333",
+    "passes_60": 0,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "B2",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 5,
+    "unscored": 3,
+    "status_counts": {
+      "SCORED": 5,
+      "JUDGE_ERROR": 2,
+      "FINAL_OUTPUT_NOT_COLLECTED": 1
+    },
+    "mean_original_points": "94.3190476190476184",
+    "mean_60_points": "90.4967032967032954989010989010989010989010989010989010989011",
+    "passes_60": 5,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C1",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "89.85125953408058216581107453552025967804875",
+    "mean_60_points": "92.91850085040410407528173148674156448415067307695",
+    "passes_60": 8,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C1",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 2,
+    "unscored": 6,
+    "status_counts": {
+      "JUDGE_ERROR": 5,
+      "OUTPUT_MISSING": 1,
+      "SCORED": 2
+    },
+    "mean_original_points": "42.42808205556549927410854563172443967146",
+    "mean_60_points": "26.10958895727107647637448961952273210551384615385",
+    "passes_60": 0,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C1",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 1,
+    "unscored": 7,
+    "status_counts": {
+      "JUDGE_ERROR": 7,
+      "SCORED": 1
+    },
+    "mean_original_points": "79.880861281667501074353939312188664333785",
+    "mean_60_points": "77.5855467418957197246860362322498803926984615384615384615385",
+    "passes_60": 1,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C2",
+    "display_system": "GPT-5.6 sol",
+    "slots": 8,
+    "n": 8,
+    "unscored": 0,
+    "status_counts": {
+      "SCORED": 8
+    },
+    "mean_original_points": "78.6393190143190143190143190139125",
+    "mean_60_points": "73.3060144983221906298829375749076923076923076923",
+    "passes_60": 5,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C2",
+    "display_system": "Opus 5",
+    "slots": 8,
+    "n": 3,
+    "unscored": 5,
+    "status_counts": {
+      "JUDGE_ERROR": 3,
+      "SCORED": 3,
+      "OUTPUT_MISSING": 2
+    },
+    "mean_original_points": "63.3446860679003536146393289238333333333333333333333333333333",
+    "mean_60_points": "44.8088511000598912686824774723589743589743589743333333333333",
+    "passes_60": 0,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  },
+  {
+    "task": "C2",
+    "display_system": "Qwen 3.8",
+    "slots": 8,
+    "n": 5,
+    "unscored": 3,
+    "status_counts": {
+      "JUDGE_ERROR": 3,
+      "SCORED": 5
+    },
+    "mean_original_points": "77.06480091337234194377051519946",
+    "mean_60_points": "73.9979194431941684688937436196676923076923076923076923076923",
+    "passes_60": 3,
+    "pass_at_1": null,
+    "pass_at_8": null,
+    "pass_k_reason": "Model identity/configuration and complete homogeneous Judge population not certified; scoring coverage is not formal difficulty acceptance."
+  }
+]

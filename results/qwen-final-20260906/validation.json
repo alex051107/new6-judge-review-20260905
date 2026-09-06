@@ -1,0 +1,19 @@
+{
+  "selected_slots": 48,
+  "finals": 43,
+  "scored": 23,
+  "judge_pending": 20,
+  "no_final": 5,
+  "judge_labels": {
+    "A1": "new6-a1-v1.3-proven-formula-defects",
+    "A2": "new6-a2-facts-v1.3-real-gdp-labels",
+    "B1": "new6-b1-reader-v2.6-precision-labelled-register",
+    "B2": "new6-b2-three-release-v3.3-authority-chart-series",
+    "C1": "new6-c1-review-facts-v2.5-precision-views",
+    "C2": "new6-usps-facts-v2.4-natural-quote-layouts"
+  },
+  "old_score_fallbacks": 0,
+  "unknown_scores_are_null": true,
+  "pass_uses_unrounded": true,
+  "model_calls": 0
+}

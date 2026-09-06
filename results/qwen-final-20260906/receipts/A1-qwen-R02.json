@@ -1,0 +1,1054 @@
+{
+  "case": "A1-qwen-R02",
+  "trial_id": "N6A1IDLE2-A1-QWEN-R02__UozT73c",
+  "answer_sha256": "ad63dec041430760038a09a5d8199071030760da100a1e83500d07cf696c340a",
+  "judge_label": "new6-a1-v1.3-proven-formula-defects",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "UnknownApiError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "SCORED",
+    "profile": "capability_first",
+    "normalized_score": "0.864444192033924",
+    "score_decimal": "0.8644441920339240",
+    "pass": true,
+    "criterion_scores": {
+      "R001": "1.0",
+      "R002": "1.0",
+      "R003": "0.8450704225352113",
+      "R006": "0.0",
+      "R004": "0.8440860215053764",
+      "R005": "1.0"
+    },
+    "contributions_raw": {
+      "R001": "10.0",
+      "R002": "25.0",
+      "R003": "16.9014084507042260",
+      "R004": "29.5430107526881740",
+      "R005": "5.0",
+      "R006": "0.0"
+    },
+    "task_id": "NEW6-A-FIN-RESTORE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "SCORED",
+        "profile": "capability_first",
+        "normalized_score": "0.864444192033924",
+        "score_decimal": "0.8644441920339240",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "0.8450704225352113",
+          "R006": "0.0",
+          "R004": "0.8440860215053764",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "25.0",
+          "R003": "16.9014084507042260",
+          "R004": "29.5430107526881740",
+          "R005": "5.0",
+          "R006": "0.0"
+        }
+      },
+      "balanced": {
+        "evaluation_status": "SCORED",
+        "profile": "balanced",
+        "normalized_score": "0.872289111010147",
+        "score_decimal": "0.872289111010146925",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "0.8450704225352113",
+          "R006": "0.0",
+          "R004": "0.8440860215053764",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "15.0",
+          "R002": "25.0",
+          "R003": "21.1267605633802825",
+          "R004": "21.1021505376344100",
+          "R005": "5.0",
+          "R006": "0.0"
+        }
+      },
+      "ongoing_use": {
+        "evaluation_status": "SCORED",
+        "profile": "ongoing_use",
+        "normalized_score": "0.8566484931091928",
+        "score_decimal": "0.85664849310919282",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "0.8450704225352113",
+          "R006": "0.0",
+          "R004": "0.8440860215053764",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "20.0",
+          "R003": "16.9014084507042260",
+          "R004": "33.7634408602150560",
+          "R005": "5.0",
+          "R006": "0.0"
+        }
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "judge_version": "new6-a1-v1.3-proven-formula-defects",
+      "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+      "baseline_mismatches": [
+        {
+          "fact": [
+            "annual",
+            "base",
+            "reinvestment",
+            11
+          ],
+          "expected": "17844.81783021400858878991921875000000000",
+          "candidate": [
+            "3158.42275944158"
+          ]
+        },
+        {
+          "fact": [
+            "annual",
+            "base",
+            "fcff",
+            11
+          ],
+          "expected": "41637.90827049935337384314484375000000000",
+          "candidate": [
+            "56324.3033412718"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "terminal_cashflow"
+          ],
+          "expected": "41637.90827049935337384314484375000000000",
+          "candidate": [
+            "56324.3033412718"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "terminal_value"
+          ],
+          "expected": "925286.85045554118608540321875000000000",
+          "candidate": [
+            "1251651.1853616"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "terminal_pv"
+          ],
+          "expected": "435437.6542900388786507240160563612579707",
+          "candidate": [
+            "589023.885808898"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "total_pv"
+          ],
+          "expected": "642144.4152206583667697363167504474058831",
+          "candidate": [
+            "795730.646739518"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "operating_assets"
+          ],
+          "expected": "642144.4152206583667697363167504474058831",
+          "candidate": [
+            "795730.646739518"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "equity"
+          ],
+          "expected": "623759.2166495663427282324469997643306479",
+          "candidate": [
+            "777345.448168426"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "common_equity"
+          ],
+          "expected": "623759.2166495663427282324469997643306479",
+          "candidate": [
+            "777345.448168426"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "value_per_share"
+          ],
+          "expected": "1255.048725653050991404894259556869880579",
+          "candidate": [
+            "1564.07534842742"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "base",
+            "price_ratio"
+          ],
+          "expected": "1.569811561678478262528814932961250737685",
+          "candidate": [
+            "1.2596515903028"
+          ]
+        },
+        {
+          "fact": [
+            "annual",
+            "review",
+            "reinvestment",
+            11
+          ],
+          "expected": "14989.64697737976721458353214375000000000",
+          "candidate": [
+            "3158.42275944158"
+          ]
+        },
+        {
+          "fact": [
+            "annual",
+            "review",
+            "fcff",
+            11
+          ],
+          "expected": "34975.84294721945683402824166875000000000",
+          "candidate": [
+            "46807.0671651576"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "terminal_cashflow"
+          ],
+          "expected": "34975.84294721945683402824166875000000000",
+          "candidate": [
+            "46807.0671651576"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "terminal_value"
+          ],
+          "expected": "777240.95438265459631173870375000000000",
+          "candidate": [
+            "1040157.04811461"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "terminal_pv"
+          ],
+          "expected": "365767.6296036326580666081734873434566954",
+          "candidate": [
+            "489495.279114032"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "total_pv"
+          ],
+          "expected": "536747.5443416147702214619638605966476585",
+          "candidate": [
+            "660475.193852014"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "operating_assets"
+          ],
+          "expected": "536747.5443416147702214619638605966476585",
+          "candidate": [
+            "660475.193852014"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "equity"
+          ],
+          "expected": "518362.3457705227461799580941099135724233",
+          "candidate": [
+            "642089.995280922"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "common_equity"
+          ],
+          "expected": "518362.3457705227461799580941099135724233",
+          "candidate": [
+            "642089.995280922"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "value_per_share"
+          ],
+          "expected": "1042.982587063426048651827151126586664836",
+          "candidate": [
+            "1291.9315800421",
+            "Price as % of value"
+          ]
+        },
+        {
+          "fact": [
+            "bridge",
+            "review",
+            "price_ratio"
+          ],
+          "expected": "1.888996062290144872620078900330020189295",
+          "candidate": [
+            "1.52499561930037",
+            null
+          ]
+        }
+      ],
+      "baseline_denominators": {
+        "R001": 21,
+        "R002": 132,
+        "R003": 142,
+        "R006": 5
+      },
+      "summary_checks": {
+        "base_equity": false,
+        "review_equity": false,
+        "difference": false,
+        "base_share": false,
+        "review_share": false
+      },
+      "candidate_formula_defects": [],
+      "native_baseline": {
+        "source": "[runtime path]",
+        "source_sha256_before": "ad63dec041430760038a09a5d8199071030760da100a1e83500d07cf696c340a",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 1094,
+        "isolated_input_sha256": "02196df47874a1b6ce81fd904ec530cbafae89269a521c88c1e1c5c200ea148f",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "c01fa8a313c47bc94f2dcbdf5a33c83db2c58e731a2d592aa03cf242849a904a",
+        "elapsed_seconds": "0.9356115839909762",
+        "source_sha256_after": "ad63dec041430760038a09a5d8199071030760da100a1e83500d07cf696c340a",
+        "original_unchanged": true
+      },
+      "dynamic_tests": [
+        {
+          "control": "growth",
+          "input_change": "0.01",
+          "sheet": "Input sheet",
+          "cell": "B23",
+          "active_fact_count": 168,
+          "active_correct": 146,
+          "mismatches": [
+            {
+              "fact": [
+                "annual",
+                "base",
+                "reinvestment",
+                11
+              ],
+              "expected_delta": "1129.99498535033279414242479405000000000",
+              "before": [
+                "3158.42275944158"
+              ],
+              "after": [
+                "3358.42490649306"
+              ]
+            },
+            {
+              "fact": [
+                "annual",
+                "base",
+                "fcff",
+                11
+              ],
+              "expected_delta": "2636.65496581744318633232451945000000000",
+              "before": [
+                "56324.3033412718"
+              ],
+              "after": [
+                "59890.9511453881"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_cashflow"
+              ],
+              "expected_delta": "2636.65496581744318633232451945000000000",
+              "before": [
+                "56324.3033412718"
+              ],
+              "after": [
+                "59890.9511453881"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_value"
+              ],
+              "expected_delta": "58592.33257372095969627387821000000000",
+              "before": [
+                "1251651.1853616"
+              ],
+              "after": [
+                "1330910.02545307"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_pv"
+              ],
+              "expected_delta": "27573.4036885124544429760046492608511064",
+              "before": [
+                "589023.885808898"
+              ],
+              "after": [
+                "626322.895725866"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "total_pv"
+              ],
+              "expected_delta": "34970.6941121153616564427654616139259683",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "840426.947080088"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "operating_assets"
+              ],
+              "expected_delta": "34970.6941121153616564427654616139259683",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "840426.947080088"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "equity"
+              ],
+              "expected_delta": "34970.6941121153616564427654616139259683",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "822041.748508996"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "common_equity"
+              ],
+              "expected_delta": "34970.6941121153616564427654616139259683",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "822041.748508996"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "value_per_share"
+              ],
+              "expected_delta": "70.363569642083222648778200123971682029",
+              "before": [
+                "1564.07534842742"
+              ],
+              "after": [
+                "1654.00754227162"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "price_ratio"
+              ],
+              "expected_delta": "-0.083338252962648922556990030234979308306",
+              "before": [
+                "1.2596515903028"
+              ],
+              "after": [
+                "1.19116143647938"
+              ]
+            },
+            {
+              "fact": [
+                "annual",
+                "review",
+                "reinvestment",
+                11
+              ],
+              "expected_delta": "949.19578769427954707963682700200000000",
+              "before": [
+                "3158.42275944158"
+              ],
+              "after": [
+                "3358.42490649306"
+              ]
+            }
+          ],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "9607928a037c8d31df0df66c5254910d25d98c43f8b12a5795afc2c7adc20d0d",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "150d2e5cc5802335095a7be1e0404e46f957149c20b18620d8a7a502304e48c6",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "0f9ba5c3e705044aa3ee6d3849c222f18109c98e698516697638c5a132ab381e",
+            "elapsed_seconds": "0.8631976670003496",
+            "source_sha256_after": "9607928a037c8d31df0df66c5254910d25d98c43f8b12a5795afc2c7adc20d0d",
+            "original_unchanged": true
+          }
+        },
+        {
+          "control": "margin",
+          "input_change": "-0.01",
+          "sheet": "Input sheet",
+          "cell": "B24",
+          "active_fact_count": 130,
+          "active_correct": 108,
+          "mismatches": [
+            {
+              "fact": [
+                "annual",
+                "base",
+                "reinvestment",
+                11
+              ],
+              "expected_delta": "-1427.58542641712068710319353750000000000",
+              "before": [
+                "3158.42275944158"
+              ],
+              "after": [
+                "3158.42275944158"
+              ]
+            },
+            {
+              "fact": [
+                "annual",
+                "base",
+                "fcff",
+                11
+              ],
+              "expected_delta": "-3331.03266163994826990745158750000000000",
+              "before": [
+                "56324.3033412718"
+              ],
+              "after": [
+                "51565.6852532147"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_cashflow"
+              ],
+              "expected_delta": "-3331.03266163994826990745158750000000000",
+              "before": [
+                "56324.3033412718"
+              ],
+              "after": [
+                "51565.6852532147"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_value"
+              ],
+              "expected_delta": "-74022.94803644329488683225750000000000",
+              "before": [
+                "1251651.1853616"
+              ],
+              "after": [
+                "1145904.1167381"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_pv"
+              ],
+              "expected_delta": "-34835.0123432031102920579212845089006377",
+              "before": [
+                "589023.885808898"
+              ],
+              "after": [
+                "539259.582461465"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "total_pv"
+              ],
+              "expected_delta": "-52698.4354395217982741371764449253791124",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "728102.920295766"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "operating_assets"
+              ],
+              "expected_delta": "-52698.4354395217982741371764449253791124",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "728102.920295766"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "equity"
+              ],
+              "expected_delta": "-52698.4354395217982741371764449253791124",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "709717.721724674"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "common_equity"
+              ],
+              "expected_delta": "-52698.4354395217982741371764449253791124",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "709717.721724674"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "value_per_share"
+              ],
+              "expected_delta": "-106.033069294812471376533554215141607872",
+              "before": [
+                "1564.07534842742"
+              ],
+              "after": [
+                "1428.00346423476"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "price_ratio"
+              ],
+              "expected_delta": "0.144864812918924849998166406715604723389",
+              "before": [
+                "1.2596515903028"
+              ],
+              "after": [
+                "1.37968152693228"
+              ]
+            },
+            {
+              "fact": [
+                "annual",
+                "review",
+                "reinvestment",
+                11
+              ],
+              "expected_delta": "-1427.58542641712068710319353750000000000",
+              "before": [
+                "3158.42275944158"
+              ],
+              "after": [
+                "3158.42275944157"
+              ]
+            }
+          ],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "815a6d5dd50c9fb6868ad921bf45e3983314e683e3df85116006761da1eec6f9",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "f0a2358013da3909bf9337a95412307b47e575de3c840843dd51c3d1d4bcd700",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "4e9c1b8961e4255236af3207698e5710ad02ea3db70ad506afecc7541a3340f6",
+            "elapsed_seconds": "0.870844083983684",
+            "source_sha256_after": "815a6d5dd50c9fb6868ad921bf45e3983314e683e3df85116006761da1eec6f9",
+            "original_unchanged": true
+          }
+        },
+        {
+          "control": "discount",
+          "input_change": "0.005",
+          "sheet": "Input sheet",
+          "cell": "B29",
+          "active_fact_count": 74,
+          "active_correct": 60,
+          "mismatches": [
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "terminal_pv"
+              ],
+              "expected_delta": "-13867.8471569509564036222065610205992223",
+              "before": [
+                "589023.885808898"
+              ],
+              "after": [
+                "570264.614212349"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "total_pv"
+              ],
+              "expected_delta": "-18913.7203835886187621412741602911764914",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "771925.501916331"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "operating_assets"
+              ],
+              "expected_delta": "-18913.7203835886187621412741602911764914",
+              "before": [
+                "795730.646739518"
+              ],
+              "after": [
+                "771925.501916331"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "equity"
+              ],
+              "expected_delta": "-18913.7203835886187621412741602911764914",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "753540.303345239"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "common_equity"
+              ],
+              "expected_delta": "-18913.7203835886187621412741602911764914",
+              "before": [
+                "777345.448168426"
+              ],
+              "after": [
+                "753540.303345239"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "value_per_share"
+              ],
+              "expected_delta": "-38.055775419695409984187674366783051290",
+              "before": [
+                "1564.07534842742"
+              ],
+              "after": [
+                "1516.17767272684"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "base",
+                "price_ratio"
+              ],
+              "expected_delta": "0.049088531064228774184906199238555455019",
+              "before": [
+                "1.2596515903028"
+              ],
+              "after": [
+                "1.29944533245673"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "review",
+                "terminal_pv"
+              ],
+              "expected_delta": "-11648.9916118388033790426535112573033467",
+              "before": [
+                "489495.279114032"
+              ],
+              "after": [
+                "473905.801153357"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "review",
+                "total_pv"
+              ],
+              "expected_delta": "-15783.8619020075916285406887959554636970",
+              "before": [
+                "660475.193852014"
+              ],
+              "after": [
+                "640750.845601171"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "review",
+                "operating_assets"
+              ],
+              "expected_delta": "-15783.8619020075916285406887959554636970",
+              "before": [
+                "660475.193852014"
+              ],
+              "after": [
+                "640750.845601171"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "review",
+                "equity"
+              ],
+              "expected_delta": "-15783.8619020075916285406887959554636970",
+              "before": [
+                "642089.995280922"
+              ],
+              "after": [
+                "622365.647030079"
+              ]
+            },
+            {
+              "fact": [
+                "bridge",
+                "review",
+                "common_equity"
+              ],
+              "expected_delta": "-15783.8619020075916285406887959554636970",
+              "before": [
+                "642089.995280922"
+              ],
+              "after": [
+                "622365.647030079"
+              ]
+            }
+          ],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "a3a3c4bb7c3739938ad953243b23d3a6dba2b0da7cb127218bd75aa7dafcb536",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "c35c2703daf54a13aafa2424d060c9912de67835ce5e0266c78dc6f08392eb4e",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "b52a8a978ab84c97bcf9c8085110c3fa189415b9bd122e0ac9184bf1e255c2dd",
+            "elapsed_seconds": "0.8805490420199931",
+            "source_sha256_after": "a3a3c4bb7c3739938ad953243b23d3a6dba2b0da7cb127218bd75aa7dafcb536",
+            "original_unchanged": true
+          }
+        }
+      ],
+      "source_original_business_facts_preserved": true,
+      "zero_delta_invariance_count": 504,
+      "zero_delta_invariance_correct": 504,
+      "active_response_count": 372,
+      "candidate_tables": [
+        {
+          "sheet": "Valuation output",
+          "orientation": "years_in_columns",
+          "case": "base",
+          "header_row": 1,
+          "left_column": 1,
+          "right_column": 13,
+          "binding": "candidate consecutive year block plus local case/metric labels"
+        },
+        {
+          "sheet": "Review scenario",
+          "orientation": "years_in_columns",
+          "case": "review",
+          "header_row": 1,
+          "left_column": 1,
+          "right_column": 13,
+          "binding": "candidate consecutive year block plus local case/metric labels"
+        }
+      ],
+      "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+      "formal_difficulty_verified": false
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "original_sha256": "ad63dec041430760038a09a5d8199071030760da100a1e83500d07cf696c340a",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true,
+    "sample_countable": true
+  },
+  "current_60_points": "85.6614126446021076923076923076923076923076923076923076923077",
+  "current_60_pass": true
+}

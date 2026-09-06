@@ -1,0 +1,125 @@
+{
+  "case": "B1-qwen-R03",
+  "trial_id": "N6BUDGET-B1-QWEN-R03__fnWfwXa",
+  "answer_sha256": "a9b8a040e07578ead35e53b0879d9cf4008958b0e58ac4ec32d84d8485d658ba",
+  "judge_label": "new6-b1-reader-v2.6-precision-labelled-register",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "UnknownApiError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-B-RETAIL-CLOSE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "dynamic_tests": "not applicable; correct static accepted",
+      "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+      "reason": "Alternative occurrence traceability requires explicit candidate declarations: scope,sale,credit,exception,essential_fields"
+    },
+    "reader_v26_evidence": {
+      "recognized_narrative_formulas": [],
+      "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+      "source_amounts_unchanged": true,
+      "business_views": {
+        "monetary_bindings": [
+          {
+            "sheet": "Management Summary",
+            "label": "September net recorded value",
+            "amount_cell": "Management Summary!B23",
+            "role": "September net recorded value"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "  Continuing SKUs: quantity",
+            "amount_cell": "Management Summary!B24",
+            "role": "Continuing SKU quantity effect"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "  Continuing SKUs: price & transaction mix",
+            "amount_cell": "Management Summary!B25",
+            "role": "Continuing SKU price and mix effect"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "  New SKUs (October sales value)",
+            "amount_cell": "Management Summary!B26",
+            "role": "New SKU effect"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "  Exited SKUs (minus September sales value)",
+            "amount_cell": "Management Summary!B27",
+            "role": "Exited SKU effect"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "October net recorded value",
+            "amount_cell": "Management Summary!B29",
+            "role": "October net recorded value"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "Total change",
+            "amount_cell": "Management Summary!B30",
+            "role": "Net recorded value change"
+          },
+          {
+            "sheet": "Management Summary",
+            "label": "Reconciliation difference (bridge vs detail; exact)",
+            "amount_cell": "Management Summary!B31",
+            "role": "Bridge residual"
+          }
+        ],
+        "bound_bridge_claims": 10,
+        "bound_report_claims": 4
+      }
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "original_sha256": "a9b8a040e07578ead35e53b0879d9cf4008958b0e58ac4ec32d84d8485d658ba",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

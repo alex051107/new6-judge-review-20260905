@@ -1,0 +1,65 @@
+{
+  "case": "A2-qwen-R04",
+  "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__PFoKc4n",
+  "answer_sha256": "7f34425e01acb47529a65031d4ef87956ba93b0aac73383890977e49e8481bf5",
+  "judge_label": "new6-a2-facts-v1.3-real-gdp-labels",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "AgentTimeoutError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-A-MACRO-SCENARIO-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "judge_version": "new6-a2-facts-v1.3-real-gdp-labels",
+      "error_type": "ValueError",
+      "error": "Material candidate result table exists but cannot be safely bound: Scenario_Comparison"
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "original_sha256": "7f34425e01acb47529a65031d4ef87956ba93b0aac73383890977e49e8481bf5",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

@@ -1,0 +1,96 @@
+{
+  "case": "B1-qwen-R06",
+  "trial_id": "NEW6-B-RETAIL-CLOSE-001-QWEN-R06__MnV8uz7",
+  "answer_sha256": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+  "judge_label": "new6-b1-reader-v2.6-precision-labelled-register",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "AgentTimeoutError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-B-RETAIL-CLOSE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "dynamic_tests": "not applicable; correct static accepted",
+      "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+      "reason": "Repeated required header roles require explicit disambiguation: ['metric']"
+    },
+    "reader_v26_evidence": {
+      "recognized_narrative_formulas": [],
+      "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+      "source_amounts_unchanged": true,
+      "business_views": {}
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "original_sha256": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+      "original_unchanged": true,
+      "native_preprocessing": {
+        "source": "[runtime path]",
+        "source_sha256_before": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 1,
+        "isolated_input_sha256": "5fb5b5f2336ad94c5d22faca93ea072a7a113d02379d85f9e568fe754572ba0d",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "b5605c2c2454e946c37a110971c60e1d6360c3f2006d79cae5ebd9019e3382e2",
+        "elapsed_seconds": "0.7664976250089239",
+        "source_sha256_after": "4b5a9f0b03498de2856426059dd6a5a8a7fd9c6d1c1792e12c660752535c4496",
+        "original_unchanged": true
+      },
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

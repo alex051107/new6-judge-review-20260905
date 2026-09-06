@@ -1,7 +1,0 @@
-{
-  "risk": "Legitimate shared source citations and a global effective date are incorrectly treated as missing row fields",
-  "scope": "R006 source binding and R002 effective-date binding only; unchanged denominators, weights, business rules, dynamic tests and frozen wrapper",
-  "validation_budget": {"focused_runner_invocations":1,"new_fixture_native_baselines":1,"dynamic_recalculations":0,"full_suite_runs":0,"independent_reviews":0,"hash_runs":0,"agent_calls":0},
-  "checks": ["Legal shared table/group citations and global standard-format date retain source/date credit", "Explicit wrong page and missing source lose only intended source facts", "Substantive unbound citation returns pending", "Other baseline facts and original long-row citations remain unchanged"],
-  "early_stop": "Freeze after the focused source/date category passes; no dynamic or Agent run"
-}

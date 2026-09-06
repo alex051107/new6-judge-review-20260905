@@ -1,0 +1,64 @@
+{
+  "case": "C1-qwen-R03",
+  "trial_id": "N6GPAR-C1-QWEN-R03__dHeCevY",
+  "answer_sha256": "1e58c4db541b85c34861c79ceba46619c7f98bb865d42e826d46c787f66bc992",
+  "judge_label": "new6-c1-review-facts-v2.5-precision-views",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "TERMINAL_ARTIFACT_WITHOUT_RECORDED_EXCEPTION",
+  "upstream_exception_type": "",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-C-COST-WORKPAPER-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "error_type": "ValueError",
+      "error": "Material result labels cannot be safely bound: [{'sheet': 'Source References', 'label': 'Current package price — heating & ASHP scope'}, {'sheet': 'Source References', 'label': 'Earlier review price — heating & ASHP scope (superseded)'}, {'sheet': 'Source References', 'label': 'Printed cost limit (inflation excluded)'}]"
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-C-COST-WORKPAPER-001",
+      "original_sha256": "1e58c4db541b85c34861c79ceba46619c7f98bb865d42e826d46c787f66bc992",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

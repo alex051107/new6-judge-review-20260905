@@ -39,7 +39,7 @@ def main():
    package=ROOT/info['path'];inner=package/'tests/new6/tasks'/info['task_id']
    if a.suite=='reference':jobs.append({'id':task+'-reference','task':task,'answer':str(package/'solution/reference.xlsx'),'inputs':str(package/'data/input_files'),'expected_status':'SCORED','expected_score':'1'})
    else:
-    for case in json.loads((ROOT/'repro/calibration.json').read_text())[task]:jobs.append({**case,'id':task+'-'+case['name'],'task':task,'answer':str(inner/case['path']),'inputs':str(package/'data/input_files')})
+    for case in json.loads((ROOT/'repro/calibration.json').read_text())[task]:jobs.append({**case,'id':task+'-'+case['name'],'task':task,'answer':str(ROOT/'validation/calibration'/task/case['path']),'inputs':str(package/'data/input_files')})
  if a.limit:jobs=jobs[:a.limit]
  if not jobs:raise ValueError('No applicable workbooks')
  work=[(j,i) for i in range(1,a.repeat+1) for j in jobs]

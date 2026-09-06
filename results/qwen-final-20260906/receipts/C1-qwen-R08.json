@@ -1,0 +1,5358 @@
+{
+  "case": "C1-qwen-R08",
+  "trial_id": "N6SIX-C1-QWEN-R08__AKNpNV5",
+  "answer_sha256": "64de2384430268b1864f36166d4768466389bb1af894bc12b2144d627366bbc8",
+  "judge_label": "new6-c1-review-facts-v2.5-precision-views",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "UnknownApiError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "SCORED",
+    "profile": "capability_first",
+    "normalized_score": "0.798808612816675",
+    "score_decimal": "0.79880861281667501074353939312188664333785",
+    "pass": true,
+    "criterion_scores": {
+      "R001": "0.9801324503311258278145695364238410596026",
+      "R002": "1",
+      "R003": "0.9629629629629629629629629629629629629630",
+      "R004": "0",
+      "R005": "0.7391304347826086956521739130434782608696",
+      "R006": "0.9729729729729729729729729729729729729730"
+    },
+    "contributions_raw": {
+      "R001": "14.7019867549668874172185430463576158940390",
+      "R002": "20",
+      "R003": "14.4444444444444444444444444444444444444450",
+      "R004": "0",
+      "R005": "25.8695652173913043478260869565217391304360",
+      "R006": "4.8648648648648648648648648648648648648650"
+    },
+    "task_id": "NEW6-C-COST-WORKPAPER-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "SCORED",
+        "profile": "capability_first",
+        "normalized_score": "0.798808612816675",
+        "score_decimal": "0.79880861281667501074353939312188664333785",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "0.9801324503311258278145695364238410596026",
+          "R002": "1",
+          "R003": "0.9629629629629629629629629629629629629630",
+          "R004": "0",
+          "R005": "0.7391304347826086956521739130434782608696",
+          "R006": "0.9729729729729729729729729729729729729730"
+        },
+        "contributions_raw": {
+          "R001": "14.7019867549668874172185430463576158940390",
+          "R002": "20",
+          "R003": "14.4444444444444444444444444444444444444450",
+          "R004": "0",
+          "R005": "25.8695652173913043478260869565217391304360",
+          "R006": "4.8648648648648648648648648648648648648650"
+        }
+      },
+      "balanced": {
+        "evaluation_status": "SCORED",
+        "profile": "balanced",
+        "normalized_score": "0.8220503400031186",
+        "score_decimal": "0.82205034000311858071719862678687901837917",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "0.9801324503311258278145695364238410596026",
+          "R002": "1",
+          "R003": "0.9629629629629629629629629629629629629630",
+          "R004": "0",
+          "R005": "0.7391304347826086956521739130434782608696",
+          "R006": "0.9729729729729729729729729729729729729730"
+        },
+        "contributions_raw": {
+          "R001": "19.6026490066225165562913907284768211920520",
+          "R002": "20",
+          "R003": "19.2592592592592592592592592592592592592600",
+          "R004": "0",
+          "R005": "18.4782608695652173913043478260869565217400",
+          "R006": "4.8648648648648648648648648648648648648650"
+        }
+      },
+      "ongoing_use": {
+        "evaluation_status": "SCORED",
+        "profile": "ongoing_use",
+        "normalized_score": "0.7867585120392492",
+        "score_decimal": "0.7867585120392491541354196119528685034012",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "0.9801324503311258278145695364238410596026",
+          "R002": "1",
+          "R003": "0.9629629629629629629629629629629629629630",
+          "R004": "0",
+          "R005": "0.7391304347826086956521739130434782608696",
+          "R006": "0.9729729729729729729729729729729729729730"
+        },
+        "contributions_raw": {
+          "R001": "9.8013245033112582781456953642384105960260",
+          "R002": "20",
+          "R003": "14.4444444444444444444444444444444444444450",
+          "R004": "0",
+          "R005": "29.5652173913043478260869565217391304347840",
+          "R006": "4.8648648648648648648648648648648648648650"
+        }
+      }
+    },
+    "evidence": {
+      "judge_version": "new6-c1-review-facts-v2.5-precision-views",
+      "fact_units": {
+        "R001": [
+          {
+            "id": "document",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "revision",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "date",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "project",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "currency",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:listing:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:listing:printed_rate",
+            "ok": true,
+            "actual": [
+              0
+            ],
+            "expected": "0"
+          },
+          {
+            "id": "elements:pitched_roof:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:pitched_roof:printed",
+            "ok": true,
+            "actual": [
+              418900
+            ],
+            "expected": "418900"
+          },
+          {
+            "id": "elements:pitched_roof:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.2929"
+            ],
+            "expected": "0.2929"
+          },
+          {
+            "id": "elements:central_lantern:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:central_lantern:printed",
+            "ok": true,
+            "actual": [
+              9600
+            ],
+            "expected": "9600"
+          },
+          {
+            "id": "elements:central_lantern:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0067"
+            ],
+            "expected": "0.0067"
+          },
+          {
+            "id": "elements:rear_roof:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:rear_roof:printed",
+            "ok": true,
+            "actual": [
+              400
+            ],
+            "expected": "400"
+          },
+          {
+            "id": "elements:rear_roof:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0003"
+            ],
+            "expected": "0.0003"
+          },
+          {
+            "id": "elements:gutters:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:gutters:printed",
+            "ok": true,
+            "actual": [
+              16700
+            ],
+            "expected": "16700"
+          },
+          {
+            "id": "elements:gutters:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0117"
+            ],
+            "expected": "0.0117"
+          },
+          {
+            "id": "elements:parapet:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:parapet:printed",
+            "ok": true,
+            "actual": [
+              13800
+            ],
+            "expected": "13800"
+          },
+          {
+            "id": "elements:parapet:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0096"
+            ],
+            "expected": "0.0096"
+          },
+          {
+            "id": "elements:rainwater:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:rainwater:printed",
+            "ok": true,
+            "actual": [
+              47950
+            ],
+            "expected": "47950"
+          },
+          {
+            "id": "elements:rainwater:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0335"
+            ],
+            "expected": "0.0335"
+          },
+          {
+            "id": "elements:masonry:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:masonry:printed",
+            "ok": true,
+            "actual": [
+              110725
+            ],
+            "expected": "110725"
+          },
+          {
+            "id": "elements:masonry:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0774"
+            ],
+            "expected": "0.0774"
+          },
+          {
+            "id": "elements:rendered:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:rendered:printed",
+            "ok": true,
+            "actual": [
+              7200
+            ],
+            "expected": "7200"
+          },
+          {
+            "id": "elements:rendered:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.005"
+            ],
+            "expected": "0.005"
+          },
+          {
+            "id": "elements:windows:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:windows:printed",
+            "ok": true,
+            "actual": [
+              89450
+            ],
+            "expected": "89450"
+          },
+          {
+            "id": "elements:windows:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0625"
+            ],
+            "expected": "0.0625"
+          },
+          {
+            "id": "elements:rooflights:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:rooflights:printed",
+            "ok": true,
+            "actual": [
+              16100
+            ],
+            "expected": "16100"
+          },
+          {
+            "id": "elements:rooflights:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0113"
+            ],
+            "expected": "0.0113"
+          },
+          {
+            "id": "elements:lantern_light:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:lantern_light:printed",
+            "ok": true,
+            "actual": [
+              46950
+            ],
+            "expected": "46950"
+          },
+          {
+            "id": "elements:lantern_light:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0328"
+            ],
+            "expected": "0.0328"
+          },
+          {
+            "id": "elements:doors:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:doors:printed",
+            "ok": true,
+            "actual": [
+              15000
+            ],
+            "expected": "15000"
+          },
+          {
+            "id": "elements:doors:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0105"
+            ],
+            "expected": "0.0105"
+          },
+          {
+            "id": "elements:walls:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:walls:printed",
+            "ok": true,
+            "actual": [
+              18200
+            ],
+            "expected": "18200"
+          },
+          {
+            "id": "elements:walls:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.0127"
+            ],
+            "expected": "0.0127"
+          },
+          {
+            "id": "elements:services:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "elements:services:printed",
+            "ok": true,
+            "actual": [
+              619250
+            ],
+            "expected": "619250"
+          },
+          {
+            "id": "elements:services:printed_rate",
+            "ok": true,
+            "actual": [
+              "0.433"
+            ],
+            "expected": "0.433"
+          },
+          {
+            "id": "summary:building:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:building:printed",
+            "ok": true,
+            "actual": [
+              1430225,
+              1430225
+            ],
+            "expected": "1430225"
+          },
+          {
+            "id": "summary:preliminaries:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:preliminaries:printed",
+            "ok": true,
+            "actual": [
+              null,
+              182800
+            ],
+            "expected": "182800"
+          },
+          {
+            "id": "summary:overheads:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:overheads:printed",
+            "ok": true,
+            "actual": [
+              null,
+              161303,
+              161303
+            ],
+            "expected": "161303"
+          },
+          {
+            "id": "summary:overheads:printed_rate",
+            "ok": true,
+            "actual": [
+              null,
+              "0.1",
+              "0.1"
+            ],
+            "expected": "0.1"
+          },
+          {
+            "id": "summary:building_estimate:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:building_estimate:printed",
+            "ok": true,
+            "actual": [
+              1774328,
+              1774328
+            ],
+            "expected": "1774328"
+          },
+          {
+            "id": "summary:consultants:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "summary:base:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:base:printed",
+            "ok": true,
+            "actual": [
+              1774328,
+              1774328
+            ],
+            "expected": "1774328"
+          },
+          {
+            "id": "summary:design_risk:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:design_risk:printed",
+            "ok": true,
+            "actual": [
+              null,
+              177433,
+              177433
+            ],
+            "expected": "177433"
+          },
+          {
+            "id": "summary:design_risk:printed_rate",
+            "ok": true,
+            "actual": [
+              null,
+              "0.1",
+              "0.1"
+            ],
+            "expected": "0.1"
+          },
+          {
+            "id": "summary:construction_risk:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "summary:employer_risk:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "summary:inflation_excluded:unique",
+            "ok": true,
+            "actual": 4,
+            "expected": "1"
+          },
+          {
+            "id": "summary:inflation_excluded:printed",
+            "ok": true,
+            "actual": [
+              1951760,
+              1951760,
+              null,
+              1951760
+            ],
+            "expected": "1951760"
+          },
+          {
+            "id": "summary:inflation:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "summary:inflation:printed",
+            "ok": true,
+            "actual": [
+              null,
+              19518,
+              19518
+            ],
+            "expected": "19518"
+          },
+          {
+            "id": "summary:inflation:printed_rate",
+            "ok": true,
+            "actual": [
+              null,
+              "0.01",
+              "0.01"
+            ],
+            "expected": "0.01"
+          },
+          {
+            "id": "summary:vat_excluded:unique",
+            "ok": true,
+            "actual": 8,
+            "expected": "1"
+          },
+          {
+            "id": "summary:vat_excluded:printed",
+            "ok": true,
+            "actual": [
+              1971278,
+              1971278,
+              null,
+              1971278,
+              null,
+              1971278,
+              1971278,
+              1971278
+            ],
+            "expected": "1971278"
+          },
+          {
+            "id": "provisional:timber:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:timber:printed",
+            "ok": true,
+            "actual": [
+              2000
+            ],
+            "expected": "2000"
+          },
+          {
+            "id": "provisional:opening_vents:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:opening_vents:printed",
+            "ok": true,
+            "actual": [
+              1000
+            ],
+            "expected": "1000"
+          },
+          {
+            "id": "provisional:lantern_repairs:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:lantern_repairs:printed",
+            "ok": true,
+            "actual": [
+              2000
+            ],
+            "expected": "2000"
+          },
+          {
+            "id": "provisional:venturi:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:venturi:printed",
+            "ok": true,
+            "actual": [
+              10000
+            ],
+            "expected": "10000"
+          },
+          {
+            "id": "provisional:birds:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:birds:printed",
+            "ok": true,
+            "actual": [
+              25000
+            ],
+            "expected": "25000"
+          },
+          {
+            "id": "provisional:cills:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:cills:printed",
+            "ok": true,
+            "actual": [
+              1500
+            ],
+            "expected": "1500"
+          },
+          {
+            "id": "provisional:external_doors:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:external_doors:printed",
+            "ok": true,
+            "actual": [
+              15000
+            ],
+            "expected": "15000"
+          },
+          {
+            "id": "provisional:heating_plant_area:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:heating_plant_area:printed",
+            "ok": true,
+            "actual": [
+              2500
+            ],
+            "expected": "2500"
+          },
+          {
+            "id": "provisional:electrical:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:electrical:printed",
+            "ok": true,
+            "actual": [
+              85750
+            ],
+            "expected": "85750"
+          },
+          {
+            "id": "provisional:water:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:water:printed",
+            "ok": true,
+            "actual": [
+              43500
+            ],
+            "expected": "43500"
+          },
+          {
+            "id": "provisional:heating:unique",
+            "ok": true,
+            "actual": 2,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:heating:printed",
+            "ok": true,
+            "actual": [
+              432000,
+              432000
+            ],
+            "expected": "432000"
+          },
+          {
+            "id": "provisional:ventilation:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:ventilation:printed",
+            "ok": true,
+            "actual": [
+              55000
+            ],
+            "expected": "55000"
+          },
+          {
+            "id": "provisional:scaffolding:unique",
+            "ok": true,
+            "actual": 1,
+            "expected": "1"
+          },
+          {
+            "id": "provisional:scaffolding:printed",
+            "ok": true,
+            "actual": [
+              160000
+            ],
+            "expected": "160000"
+          },
+          {
+            "id": "listing:source_unpriced",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "consultants:source_unpriced",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "construction_risk:source_unpriced",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "employer_risk:source_unpriced",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "timber:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "opening_vents:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "lantern_repairs:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "venturi:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "birds:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "cills:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "external_doors:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "heating_plant_area:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "electrical:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "water:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "heating:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "ventilation:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "scaffolding:included_memorandum",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_a:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_b:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_c:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_d:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_e:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_f:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_g:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_h:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_i:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_j:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_k:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_l:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_m:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_n:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_o:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_p:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_q:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_r:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_0:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_1:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_2:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_3:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_4:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "excluded_services_5:excluded",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "guide:qualification",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qs:qualification",
+            "ok": false,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "drawings:qualification",
+            "ok": false,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "scope_basis:qualification",
+            "ok": false,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "phase:qualification",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "duration:qualification",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "price_basis:qualification",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "package_price:sources_and_unaffected_preserved",
+            "ok": true
+          },
+          {
+            "id": "risk_percentage:sources_and_unaffected_preserved",
+            "ok": true
+          },
+          {
+            "id": "price_and_allowances:sources_and_unaffected_preserved",
+            "ok": true
+          },
+          {
+            "id": "unapproved_option_price:sources_and_unaffected_preserved",
+            "ok": true
+          }
+        ],
+        "R002": [
+          {
+            "id": "effective_heating_price",
+            "ok": true,
+            "actual": [
+              458000
+            ],
+            "expected": 458000
+          },
+          {
+            "id": "any_displayed_earlier_quote_is_superseded",
+            "ok": true,
+            "actual": {
+              "displayed": true,
+              "values": [
+                472000
+              ],
+              "text": "working calculation editable inputs superseded [s2-1]  superseded [s2-1] 472,000 earlier review price (superseded); 458,000 current package price working calculation (inputs); cost breakdown 1 (m&e) and 2 (ps-11) review correspondence review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. heating & ashp — earlier review price (superseded; memorandum)"
+            },
+            "expected": null
+          },
+          {
+            "id": "same_scope_replacement",
+            "ok": true,
+            "actual": {
+              "text": "working calculation editable inputs current review position [s2-1]; 4q24 price date, excl vat [s2-4]  current review position [s2-1]; 4q24 price date, excl vat [s2-4] 472,000 earlier review price (superseded); 458,000 current package price working calculation (inputs); cost breakdown 1 (m&e) and 2 (ps-11) review correspondence review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. s2 paragraph 5 all package and option prices use the original estimate's price date (4q24) and exclude vat and subsequent fee or allowance additions. review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. heating & ashp — current package price",
+              "candidate_replacement_arithmetic": true
+            },
+            "expected": null
+          },
+          {
+            "id": "unapproved_option_price",
+            "ok": true,
+            "actual": [
+              18000,
+              18000,
+              18000
+            ],
+            "expected": 18000
+          },
+          {
+            "id": "option_awaits_approval_and_is_outside",
+            "ok": true,
+            "actual": "asbestos removal option — awaiting decision (excluded) awaiting a decision; not approved; outside the current cost limit [s2-3]; see 'options' asbestos removal option — awaiting decision (excluded) 18000 awaiting a decision; not approved; outside the current cost limit [s2-3]; see 'options' 18,000 asbestos removal option (awaiting decision) options; cost breakdown 3 review correspondence; outside the current cost limit review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. asbestos removal option — awaiting decision (excluded) working calculation editable inputs not approved for inclusion [s2-3]; see 'options'  not approved for inclusion [s2-3]; see 'options' 18,000 asbestos removal option (awaiting decision) options; cost breakdown 3 review correspondence; outside the current cost limit review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. asbestos removal option (awaiting decision — outside cost limit) options awaiting decision — outside the current cost limit an option awaiting approval remains outside the current cost limit when only its price changes [s3; s2-3]. all package and option prices use the original estimate's 4q24 price date and exclude vat and subsequent fee or allowance additions [s2-4]. asbestos removal amount (editable) 18000 review correspondence [s2-3]; 4q24 price date, excl vat [s2-4] status awaiting a decision — not approved keep separate [s2-3] original estimate treatment excluded (exclusion r) notes, qualifications and exclusions [s1-nqe] current review treatment outside the current cost limit not approved for inclusion [s2-3] amount (editable) 18000 review correspondence [s2-3]; 4q24 price date, excl vat [s2-4] 18,000 asbestos removal option (awaiting decision) options; cost breakdown 3 review correspondence; outside the current cost limit review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. s2 paragraph 5 all package and option prices use the original estimate's price date (4q24) and exclude vat and subsequent fee or allowance additions. review_correspondence.md — review correspondence (project-authored review scenario); sets the current review position. asbestos removal option",
+            "expected": null
+          },
+          {
+            "id": "option_price_change_does_not_approve_scope",
+            "ok": true
+          }
+        ],
+        "R003": [
+          {
+            "id": "element:listing",
+            "ok": true,
+            "actual": [
+              0
+            ],
+            "expected": "0"
+          },
+          {
+            "id": "element:pitched_roof",
+            "ok": true,
+            "actual": [
+              418900
+            ],
+            "expected": "418900"
+          },
+          {
+            "id": "element:central_lantern",
+            "ok": true,
+            "actual": [
+              9600
+            ],
+            "expected": "9600"
+          },
+          {
+            "id": "element:rear_roof",
+            "ok": true,
+            "actual": [
+              400
+            ],
+            "expected": "400"
+          },
+          {
+            "id": "element:gutters",
+            "ok": true,
+            "actual": [
+              16700
+            ],
+            "expected": "16700"
+          },
+          {
+            "id": "element:parapet",
+            "ok": true,
+            "actual": [
+              13800
+            ],
+            "expected": "13800"
+          },
+          {
+            "id": "element:rainwater",
+            "ok": true,
+            "actual": [
+              47950
+            ],
+            "expected": "47950"
+          },
+          {
+            "id": "element:masonry",
+            "ok": true,
+            "actual": [
+              110725
+            ],
+            "expected": "110725"
+          },
+          {
+            "id": "element:rendered",
+            "ok": true,
+            "actual": [
+              7200
+            ],
+            "expected": "7200"
+          },
+          {
+            "id": "element:windows",
+            "ok": true,
+            "actual": [
+              89450
+            ],
+            "expected": "89450"
+          },
+          {
+            "id": "element:rooflights",
+            "ok": true,
+            "actual": [
+              16100
+            ],
+            "expected": "16100"
+          },
+          {
+            "id": "element:lantern_light",
+            "ok": true,
+            "actual": [
+              46950
+            ],
+            "expected": "46950"
+          },
+          {
+            "id": "element:doors",
+            "ok": true,
+            "actual": [
+              15000
+            ],
+            "expected": "15000"
+          },
+          {
+            "id": "element:walls",
+            "ok": true,
+            "actual": [
+              18200
+            ],
+            "expected": "18200"
+          },
+          {
+            "id": "element:services",
+            "ok": true,
+            "actual": [
+              645250
+            ],
+            "expected": "645250"
+          },
+          {
+            "id": "working:building",
+            "ok": true,
+            "actual": [
+              1456225,
+              1456225
+            ],
+            "expected": "1456225"
+          },
+          {
+            "id": "working:preliminaries",
+            "ok": true,
+            "actual": [
+              182800,
+              182800
+            ],
+            "expected": "182800"
+          },
+          {
+            "id": "working:overheads",
+            "ok": true,
+            "actual": [
+              "163902.5"
+            ],
+            "expected": "163902.50"
+          },
+          {
+            "id": "working:building_estimate",
+            "ok": true,
+            "actual": [
+              "1802927.5"
+            ],
+            "expected": "1802927.50"
+          },
+          {
+            "id": "working:base",
+            "ok": true,
+            "actual": [
+              "1802927.5"
+            ],
+            "expected": "1802927.50"
+          },
+          {
+            "id": "working:design_risk",
+            "ok": true,
+            "actual": [
+              "216351.3"
+            ],
+            "expected": "216351.3000"
+          },
+          {
+            "id": "working:inflation_excluded",
+            "ok": true,
+            "actual": [
+              "2019278.8",
+              "2019278.8",
+              "2019278.8"
+            ],
+            "expected": "2019278.8000"
+          },
+          {
+            "id": "working:inflation",
+            "ok": true,
+            "actual": [
+              "20192.788"
+            ],
+            "expected": "20192.788000"
+          },
+          {
+            "id": "working:vat_excluded",
+            "ok": false,
+            "actual": [
+              "2039471.588",
+              "2058989.1905",
+              "2058989.1905",
+              "2039471.588",
+              "2039471.588",
+              2039472,
+              2039472
+            ],
+            "expected": "2039471.588000"
+          },
+          {
+            "id": "rate:overheads",
+            "ok": true,
+            "actual": [
+              "0.1"
+            ],
+            "expected": "0.10"
+          },
+          {
+            "id": "rate:design_risk",
+            "ok": true,
+            "actual": [
+              "0.12"
+            ],
+            "expected": "0.12"
+          },
+          {
+            "id": "rate:inflation",
+            "ok": true,
+            "actual": [
+              "0.01"
+            ],
+            "expected": "0.01"
+          }
+        ],
+        "R004": [
+          {
+            "id": "cost_limit_movement_correct",
+            "ok": false,
+            "actual": [
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "printed_original",
+                "actual": "87711.19050000003",
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "recomputed_original",
+                "actual": "87711.33799999999",
+                "expected": "68193.735500",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "printed_original",
+                "actual": "68193.588",
+                "expected": "68193.588000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "recomputed_original",
+                "actual": "68193.7355",
+                "expected": "68193.735500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!13",
+                "basis": "printed_original",
+                "actual": 68194,
+                "expected": "68193.588000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!14",
+                "basis": "printed_original",
+                "actual": "87711.1905",
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": false
+              }
+            ],
+            "expected": null
+          },
+          {
+            "id": "movement_matches_candidate_own_figures",
+            "ok": false,
+            "actual": [
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "printed_original",
+                "actual": "87711.19050000003",
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "recomputed_original",
+                "actual": "87711.33799999999",
+                "expected": "68193.735500",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "printed_original",
+                "actual": "68193.588",
+                "expected": "68193.588000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "recomputed_original",
+                "actual": "68193.7355",
+                "expected": "68193.735500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!13",
+                "basis": "printed_original",
+                "actual": 68194,
+                "expected": "68193.588000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!14",
+                "basis": "printed_original",
+                "actual": "87711.1905",
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": false
+              }
+            ],
+            "expected": null
+          },
+          {
+            "id": "no_contradictory_displayed_reconciliation",
+            "ok": false,
+            "actual": {
+              "reconciliations": [
+                {
+                  "stage": "building",
+                  "location": "Cost Breakdown!21",
+                  "basis": "printed_original",
+                  "actual": 26000,
+                  "expected": "26000",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "inflation_excluded",
+                  "location": "Reconciliation!21",
+                  "basis": "printed_original",
+                  "actual": "67518.8000000001",
+                  "expected": "67518.8000",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "inflation_excluded",
+                  "location": "Reconciliation!21",
+                  "basis": "recomputed_original",
+                  "actual": "67518.5500000001",
+                  "expected": "67518.5500",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Working Calculation!43",
+                  "basis": "printed_original",
+                  "actual": "87711.19050000003",
+                  "expected": "68193.588000",
+                  "correct": false,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Working Calculation!43",
+                  "basis": "recomputed_original",
+                  "actual": "87711.33799999999",
+                  "expected": "68193.735500",
+                  "correct": false,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Reconciliation!9",
+                  "basis": "printed_original",
+                  "actual": "68193.588",
+                  "expected": "68193.588000",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Reconciliation!9",
+                  "basis": "recomputed_original",
+                  "actual": "68193.7355",
+                  "expected": "68193.735500",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Cover & Basis!13",
+                  "basis": "printed_original",
+                  "actual": 68194,
+                  "expected": "68193.588000",
+                  "correct": true,
+                  "self_consistent": true
+                },
+                {
+                  "stage": "vat_excluded",
+                  "location": "Cover & Basis!14",
+                  "basis": "printed_original",
+                  "actual": "87711.1905",
+                  "expected": "68193.588000",
+                  "correct": false,
+                  "self_consistent": false
+                }
+              ],
+              "bridge_arithmetic": [
+                {
+                  "meaning": "Rounded current display: Building Works (RTP Scope of Works)",
+                  "actual": 1456225,
+                  "expected_from_candidate": 1456225,
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Main Contractors Preliminaries",
+                  "actual": 182800,
+                  "expected_from_candidate": 182800,
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Main Contractors Overheads & Profit (10%)",
+                  "actual": 163903,
+                  "expected_from_candidate": "163902.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Building Works Estimate",
+                  "actual": 1802928,
+                  "expected_from_candidate": "1802927.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Project Consultants Fees",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Base Cost Estimate",
+                  "actual": 1802928,
+                  "expected_from_candidate": "1802927.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Design Development Risks (original 10% / current 12%)",
+                  "actual": 216351,
+                  "expected_from_candidate": "216351.3",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Construction Risks",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Employer Change Risks",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: COST LIMIT (Inflation Excluded)",
+                  "actual": 2019279,
+                  "expected_from_candidate": "2019278.8",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: Inflation Allowance — 4Q24 to 1Q25 (1.00%)",
+                  "actual": 20193,
+                  "expected_from_candidate": "20192.788",
+                  "ok": true
+                },
+                {
+                  "meaning": "Rounded current display: COST LIMIT (VAT Excluded)",
+                  "actual": 2039472,
+                  "expected_from_candidate": "2039471.588",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                  "actual": 1971278,
+                  "expected_from_candidate": 1971278,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Memo: rounding in printed source (recomputed − printed)",
+                  "actual": "-0.147499999962747",
+                  "expected_from_candidate": "-0.147499999962747",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Memo: original cost limit (VAT excluded) — recomputed, full precision",
+                  "actual": "1971277.8525",
+                  "expected_from_candidate": "1971277.8525",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Heating & ASHP package price increase (original → current)",
+                  "actual": 26000,
+                  "expected_from_candidate": 26000,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Overheads & Profit at rate on the price increase",
+                  "actual": 2600,
+                  "expected_from_candidate": 2600,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Design Development rate increase (10% → current) on original base",
+                  "actual": 35487,
+                  "expected_from_candidate": "35486.55",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Design Development at current rate on the added base (lines 37 + 38)",
+                  "actual": 3432,
+                  "expected_from_candidate": 3432,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Increase in cost limit (inflation excluded)",
+                  "actual": 67519,
+                  "expected_from_candidate": "67518.55",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Inflation at rate on increased cost limit (inflation excluded)",
+                  "actual": 20193,
+                  "expected_from_candidate": "20192.788",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision",
+                  "actual": 2058989,
+                  "expected_from_candidate": "2058989.1905",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Check: current full precision − summary-chain current (E29)",
+                  "actual": "19517.6025",
+                  "expected_from_candidate": "19517.6025",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed reconciliation is zero: Check: current full precision − summary-chain current (E29)",
+                  "actual": "19517.6025",
+                  "expected_from_candidate": 0,
+                  "ok": false
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Rounding to whole £",
+                  "actual": "-19517.1905",
+                  "expected_from_candidate": "-19517.1905",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed",
+                  "actual": 2039472,
+                  "expected_from_candidate": 2039472,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 19517,
+                  "expected_from_candidate": 19517,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 19517,
+                  "expected_from_candidate": 0,
+                  "ok": false
+                },
+                {
+                  "meaning": "Displayed current agrees with full precision",
+                  "actual": 2039472,
+                  "expected_from_candidate": "2058989.1905",
+                  "ok": false
+                },
+                {
+                  "meaning": "Source rounding equals recomputed minus printed",
+                  "actual": "-0.147499999962747",
+                  "expected_from_candidate": "-0.1474999999627471",
+                  "ok": true
+                },
+                {
+                  "meaning": "Stated display rounding",
+                  "actual": "-19517.1905",
+                  "expected_from_candidate": "-19517.190500000026",
+                  "ok": true
+                },
+                {
+                  "meaning": "Cost-limit increment equals displayed package/allowance components",
+                  "actual": "67518.55",
+                  "expected_from_candidate": "67518.55",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                  "actual": 1971278,
+                  "expected_from_candidate": 1971278,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — recomputed (full-precision chain)",
+                  "actual": 1971278,
+                  "expected_from_candidate": "1971277.8525",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Rounding in printed source (recomputed − printed)",
+                  "actual": "-0.147499999962747",
+                  "expected_from_candidate": "-0.147499999962747",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision (review position)",
+                  "actual": 2039472,
+                  "expected_from_candidate": "2039471.588",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Movement vs printed original (current − printed)",
+                  "actual": 68194,
+                  "expected_from_candidate": "68193.588",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Movement vs recomputed original (current − recomputed)",
+                  "actual": 68194,
+                  "expected_from_candidate": "68193.7355",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Difference between the two movements (line 11 − line 10)",
+                  "actual": "0.147499999962747",
+                  "expected_from_candidate": "0.147499999962747",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed (whole £)",
+                  "actual": 2039472,
+                  "expected_from_candidate": 2039472,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed current agrees with full precision",
+                  "actual": 2039472,
+                  "expected_from_candidate": "2039471.588",
+                  "ok": true
+                },
+                {
+                  "meaning": "Source rounding equals recomputed minus printed",
+                  "actual": "-0.147499999962747",
+                  "expected_from_candidate": "-0.1474999999627471",
+                  "ok": true
+                },
+                {
+                  "meaning": "Difference between explicitly based movements",
+                  "actual": "0.147499999962747",
+                  "expected_from_candidate": "0.14749999999185093",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Original — as printed",
+                  "actual": 1951760,
+                  "expected_from_candidate": 1951760,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Original — recomputed (full precision)",
+                  "actual": 1951760,
+                  "expected_from_candidate": "1951760.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Rounding in printed source",
+                  "actual": "0.25",
+                  "expected_from_candidate": "0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current — full precision",
+                  "actual": 2019279,
+                  "expected_from_candidate": "2019278.8",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Movement vs printed original",
+                  "actual": 67519,
+                  "expected_from_candidate": "67518.8000000001",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Movement vs recomputed original",
+                  "actual": 67519,
+                  "expected_from_candidate": "67518.5500000001",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Difference between the two movements",
+                  "actual": "-0.25",
+                  "expected_from_candidate": "-0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed rounds full precision: Current — displayed (whole £)",
+                  "actual": 2019279,
+                  "expected_from_candidate": 2019279,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                  "actual": 0,
+                  "expected_from_candidate": 0,
+                  "ok": true
+                },
+                {
+                  "meaning": "Displayed current agrees with full precision",
+                  "actual": 2019279,
+                  "expected_from_candidate": "2019278.8",
+                  "ok": true
+                },
+                {
+                  "meaning": "Source rounding equals recomputed minus printed",
+                  "actual": "0.25",
+                  "expected_from_candidate": "0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Difference between explicitly based movements",
+                  "actual": "-0.25",
+                  "expected_from_candidate": "-0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Main Contractors Overheads & Profit (10%)",
+                  "actual": "0.5",
+                  "expected_from_candidate": "0.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Building Works Estimate",
+                  "actual": "0.5",
+                  "expected_from_candidate": "0.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Base Cost Estimate",
+                  "actual": "0.5",
+                  "expected_from_candidate": "0.5",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Design Development Risks (original 10%)",
+                  "actual": "0.25",
+                  "expected_from_candidate": "0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Cost Limit (Inflation Excluded)",
+                  "actual": "-0.25",
+                  "expected_from_candidate": "-0.25",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Inflation Allowance (1.00%)",
+                  "actual": "0.397499999999127",
+                  "expected_from_candidate": "0.3974999999991269",
+                  "ok": true
+                },
+                {
+                  "meaning": "Printed minus recomputed: Cost Limit (VAT Excluded)",
+                  "actual": "0.147499999962747",
+                  "expected_from_candidate": "0.1474999999627471",
+                  "ok": true
+                }
+              ]
+            },
+            "expected": null
+          }
+        ],
+        "R005": [
+          {
+            "id": "package_price:updated:building",
+            "ok": true,
+            "before": [
+              1456225,
+              1456225
+            ],
+            "after": [
+              1466225,
+              1466225
+            ],
+            "expected_after": "1466225",
+            "expected_delta": "10000"
+          },
+          {
+            "id": "package_price:updated:overheads",
+            "ok": true,
+            "before": [
+              "163902.5"
+            ],
+            "after": [
+              "164902.5"
+            ],
+            "expected_after": "164902.50",
+            "expected_delta": "1000.00"
+          },
+          {
+            "id": "package_price:updated:building_estimate",
+            "ok": true,
+            "before": [
+              "1802927.5"
+            ],
+            "after": [
+              "1813927.5"
+            ],
+            "expected_after": "1813927.50",
+            "expected_delta": "11000.00"
+          },
+          {
+            "id": "package_price:updated:base",
+            "ok": true,
+            "before": [
+              "1802927.5"
+            ],
+            "after": [
+              "1813927.5"
+            ],
+            "expected_after": "1813927.50",
+            "expected_delta": "11000.00"
+          },
+          {
+            "id": "package_price:updated:design_risk",
+            "ok": true,
+            "before": [
+              "216351.3"
+            ],
+            "after": [
+              "217671.3"
+            ],
+            "expected_after": "217671.3000",
+            "expected_delta": "1320.0000"
+          },
+          {
+            "id": "package_price:updated:inflation_excluded",
+            "ok": true,
+            "before": [
+              "2019278.8",
+              "2019278.8",
+              "2019278.8"
+            ],
+            "after": [
+              "2031598.8",
+              "2031598.8",
+              "2031598.8"
+            ],
+            "expected_after": "2031598.8000",
+            "expected_delta": "12320.0000"
+          },
+          {
+            "id": "package_price:updated:inflation",
+            "ok": true,
+            "before": [
+              "20192.788"
+            ],
+            "after": [
+              "20315.988"
+            ],
+            "expected_after": "20315.988000",
+            "expected_delta": "123.200000"
+          },
+          {
+            "id": "package_price:updated:vat_excluded",
+            "ok": false,
+            "before": [
+              "2039471.588",
+              "2058989.1905",
+              "2058989.1905",
+              "2039471.588",
+              "2039471.588",
+              2039472,
+              2039472
+            ],
+            "after": [
+              "2051914.788",
+              "2071432.3905",
+              "2071432.3905",
+              "2051914.788",
+              "2051914.788",
+              2051915,
+              2051915
+            ],
+            "expected_after": "2051914.788000",
+            "expected_delta": "12443.200000"
+          },
+          {
+            "id": "package_price:reconciliation_updates",
+            "ok": false,
+            "actual": [
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "printed_original",
+                "actual": "100154.39049999998",
+                "expected": "80636.788000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "recomputed_original",
+                "actual": "100154.53799999994",
+                "expected": "80636.935500",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "printed_original",
+                "actual": "80636.7879999999",
+                "expected": "80636.788000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "recomputed_original",
+                "actual": "80636.9354999999",
+                "expected": "80636.935500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!13",
+                "basis": "printed_original",
+                "actual": 80637,
+                "expected": "80636.788000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!14",
+                "basis": "printed_original",
+                "actual": "100154.3905",
+                "expected": "80636.788000",
+                "correct": false,
+                "self_consistent": false
+              }
+            ],
+            "cumulative_checks": [
+              {
+                "meaning": "Rounded current display: Building Works (RTP Scope of Works)",
+                "actual": 1466225,
+                "expected_from_candidate": 1466225,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Preliminaries",
+                "actual": 182800,
+                "expected_from_candidate": 182800,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Overheads & Profit (10%)",
+                "actual": 164903,
+                "expected_from_candidate": "164902.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Building Works Estimate",
+                "actual": 1813928,
+                "expected_from_candidate": "1813927.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Project Consultants Fees",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Base Cost Estimate",
+                "actual": 1813928,
+                "expected_from_candidate": "1813927.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Design Development Risks (original 10% / current 12%)",
+                "actual": 217671,
+                "expected_from_candidate": "217671.3",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Construction Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Employer Change Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (Inflation Excluded)",
+                "actual": 2031599,
+                "expected_from_candidate": "2031598.8",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Inflation Allowance — 4Q24 to 1Q25 (1.00%)",
+                "actual": 20316,
+                "expected_from_candidate": "20315.988",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (VAT Excluded)",
+                "actual": 2051915,
+                "expected_from_candidate": "2051914.788",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: rounding in printed source (recomputed − printed)",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: original cost limit (VAT excluded) — recomputed, full precision",
+                "actual": "1971277.8525",
+                "expected_from_candidate": "1971277.8525",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Heating & ASHP package price increase (original → current)",
+                "actual": 36000,
+                "expected_from_candidate": 36000,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Overheads & Profit at rate on the price increase",
+                "actual": 3600,
+                "expected_from_candidate": 3600,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development rate increase (10% → current) on original base",
+                "actual": 35487,
+                "expected_from_candidate": "35486.55",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development at current rate on the added base (lines 37 + 38)",
+                "actual": 4752,
+                "expected_from_candidate": 4752,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Increase in cost limit (inflation excluded)",
+                "actual": 79839,
+                "expected_from_candidate": "79838.55",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Inflation at rate on increased cost limit (inflation excluded)",
+                "actual": 20316,
+                "expected_from_candidate": "20315.988",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision",
+                "actual": 2071432,
+                "expected_from_candidate": "2071432.3905",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Check: current full precision − summary-chain current (E29)",
+                "actual": "19517.6025",
+                "expected_from_candidate": "19517.6025",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Check: current full precision − summary-chain current (E29)",
+                "actual": "19517.6025",
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding to whole £",
+                "actual": "-19517.3905",
+                "expected_from_candidate": "-19517.3905",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed",
+                "actual": 2051915,
+                "expected_from_candidate": 2051915,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 19517,
+                "expected_from_candidate": 19517,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 19517,
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2051915,
+                "expected_from_candidate": "2071432.3905",
+                "ok": false
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.1474999999627471",
+                "ok": true
+              },
+              {
+                "meaning": "Stated display rounding",
+                "actual": "-19517.3905",
+                "expected_from_candidate": "-19517.39049999998",
+                "ok": true
+              },
+              {
+                "meaning": "Cost-limit increment equals displayed package/allowance components",
+                "actual": "79838.55",
+                "expected_from_candidate": "79838.55",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — recomputed (full-precision chain)",
+                "actual": 1971278,
+                "expected_from_candidate": "1971277.8525",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source (recomputed − printed)",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision (review position)",
+                "actual": 2051915,
+                "expected_from_candidate": "2051914.788",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original (current − printed)",
+                "actual": 80637,
+                "expected_from_candidate": "80636.7879999999",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original (current − recomputed)",
+                "actual": 80637,
+                "expected_from_candidate": "80636.9354999999",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements (line 11 − line 10)",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed (whole £)",
+                "actual": 2051915,
+                "expected_from_candidate": 2051915,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2051915,
+                "expected_from_candidate": "2051914.788",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.1474999999627471",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.14750000000640284",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — as printed",
+                "actual": 1951760,
+                "expected_from_candidate": 1951760,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — recomputed (full precision)",
+                "actual": 1951760,
+                "expected_from_candidate": "1951760.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — full precision",
+                "actual": 2031599,
+                "expected_from_candidate": "2031598.8",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original",
+                "actual": 79839,
+                "expected_from_candidate": "79838.8000000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original",
+                "actual": 79839,
+                "expected_from_candidate": "79838.5500000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — displayed (whole £)",
+                "actual": 2031599,
+                "expected_from_candidate": 2031599,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2031599,
+                "expected_from_candidate": "2031598.8",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Main Contractors Overheads & Profit (10%)",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Building Works Estimate",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Base Cost Estimate",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Design Development Risks (original 10%)",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (Inflation Excluded)",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Inflation Allowance (1.00%)",
+                "actual": "0.397499999999127",
+                "expected_from_candidate": "0.3974999999991269",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (VAT Excluded)",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.1474999999627471",
+                "ok": true
+              }
+            ]
+          },
+          {
+            "id": "risk_percentage:updated:design_risk",
+            "ok": true,
+            "before": [
+              "216351.3"
+            ],
+            "after": [
+              "252409.85"
+            ],
+            "expected_after": "252409.8500",
+            "expected_delta": "36058.5500"
+          },
+          {
+            "id": "risk_percentage:updated:inflation_excluded",
+            "ok": true,
+            "before": [
+              "2019278.8",
+              "2019278.8",
+              "2019278.8"
+            ],
+            "after": [
+              "2055337.35",
+              "2055337.35",
+              "2055337.35"
+            ],
+            "expected_after": "2055337.3500",
+            "expected_delta": "36058.5500"
+          },
+          {
+            "id": "risk_percentage:updated:inflation",
+            "ok": true,
+            "before": [
+              "20192.788"
+            ],
+            "after": [
+              "20553.3735"
+            ],
+            "expected_after": "20553.373500",
+            "expected_delta": "360.585500"
+          },
+          {
+            "id": "risk_percentage:updated:vat_excluded",
+            "ok": false,
+            "before": [
+              "2039471.588",
+              "2058989.1905",
+              "2058989.1905",
+              "2039471.588",
+              "2039471.588",
+              2039472,
+              2039472
+            ],
+            "after": [
+              "2075890.7235",
+              "2095408.326",
+              "2095408.326",
+              "2075890.7235",
+              "2075890.7235",
+              2075891,
+              2075891
+            ],
+            "expected_after": "2075890.723500",
+            "expected_delta": "36419.135500"
+          },
+          {
+            "id": "risk_percentage:reconciliation_updates",
+            "ok": false,
+            "actual": [
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "printed_original",
+                "actual": "124130.32599999988",
+                "expected": "104612.723500",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "recomputed_original",
+                "actual": "124130.47349999985",
+                "expected": "104612.871000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "printed_original",
+                "actual": "104612.7235",
+                "expected": "104612.723500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "recomputed_original",
+                "actual": "104612.871",
+                "expected": "104612.871000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!13",
+                "basis": "printed_original",
+                "actual": 104613,
+                "expected": "104612.723500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!14",
+                "basis": "printed_original",
+                "actual": "124130.326",
+                "expected": "104612.723500",
+                "correct": false,
+                "self_consistent": false
+              }
+            ],
+            "cumulative_checks": [
+              {
+                "meaning": "Rounded current display: Building Works (RTP Scope of Works)",
+                "actual": 1456225,
+                "expected_from_candidate": 1456225,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Preliminaries",
+                "actual": 182800,
+                "expected_from_candidate": 182800,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Overheads & Profit (10%)",
+                "actual": 163903,
+                "expected_from_candidate": "163902.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Building Works Estimate",
+                "actual": 1802928,
+                "expected_from_candidate": "1802927.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Project Consultants Fees",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Base Cost Estimate",
+                "actual": 1802928,
+                "expected_from_candidate": "1802927.5",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Design Development Risks (original 10% / current 12%)",
+                "actual": 252410,
+                "expected_from_candidate": "252409.85",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Construction Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Employer Change Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (Inflation Excluded)",
+                "actual": 2055337,
+                "expected_from_candidate": "2055337.35",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Inflation Allowance — 4Q24 to 1Q25 (1.00%)",
+                "actual": 20553,
+                "expected_from_candidate": "20553.3735",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (VAT Excluded)",
+                "actual": 2075891,
+                "expected_from_candidate": "2075890.7235",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: rounding in printed source (recomputed − printed)",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: original cost limit (VAT excluded) — recomputed, full precision",
+                "actual": "1971277.8525",
+                "expected_from_candidate": "1971277.8525",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Heating & ASHP package price increase (original → current)",
+                "actual": 26000,
+                "expected_from_candidate": 26000,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Overheads & Profit at rate on the price increase",
+                "actual": 2600,
+                "expected_from_candidate": 2600,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development rate increase (10% → current) on original base",
+                "actual": 70973,
+                "expected_from_candidate": "70973.1",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development at current rate on the added base (lines 37 + 38)",
+                "actual": 4004,
+                "expected_from_candidate": 4004,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Increase in cost limit (inflation excluded)",
+                "actual": 103577,
+                "expected_from_candidate": "103577.1",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Inflation at rate on increased cost limit (inflation excluded)",
+                "actual": 20553,
+                "expected_from_candidate": "20553.3735",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision",
+                "actual": 2095408,
+                "expected_from_candidate": "2095408.326",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Check: current full precision − summary-chain current (E29)",
+                "actual": "19517.6025",
+                "expected_from_candidate": "19517.6025",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Check: current full precision − summary-chain current (E29)",
+                "actual": "19517.6025",
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding to whole £",
+                "actual": "-19517.3260000001",
+                "expected_from_candidate": "-19517.3260000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed",
+                "actual": 2075891,
+                "expected_from_candidate": 2075891,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 19517,
+                "expected_from_candidate": 19517,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 19517,
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2075891,
+                "expected_from_candidate": "2095408.326",
+                "ok": false
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.1474999999627471",
+                "ok": true
+              },
+              {
+                "meaning": "Stated display rounding",
+                "actual": "-19517.3260000001",
+                "expected_from_candidate": "-19517.325999999885",
+                "ok": true
+              },
+              {
+                "meaning": "Cost-limit increment equals displayed package/allowance components",
+                "actual": "103577.1",
+                "expected_from_candidate": "103577.1",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — recomputed (full-precision chain)",
+                "actual": 1971278,
+                "expected_from_candidate": "1971277.8525",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source (recomputed − printed)",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision (review position)",
+                "actual": 2075891,
+                "expected_from_candidate": "2075890.7235",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original (current − printed)",
+                "actual": 104613,
+                "expected_from_candidate": "104612.7235",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original (current − recomputed)",
+                "actual": 104613,
+                "expected_from_candidate": "104612.871",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements (line 11 − line 10)",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.147499999962747",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed (whole £)",
+                "actual": 2075891,
+                "expected_from_candidate": 2075891,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2075891,
+                "expected_from_candidate": "2075890.7235",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "-0.147499999962747",
+                "expected_from_candidate": "-0.1474999999627471",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.14750000000640284",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — as printed",
+                "actual": 1951760,
+                "expected_from_candidate": 1951760,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — recomputed (full precision)",
+                "actual": 1951760,
+                "expected_from_candidate": "1951760.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — full precision",
+                "actual": 2055337,
+                "expected_from_candidate": "2055337.35",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original",
+                "actual": 103577,
+                "expected_from_candidate": "103577.35",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original",
+                "actual": 103577,
+                "expected_from_candidate": "103577.1",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — displayed (whole £)",
+                "actual": 2055337,
+                "expected_from_candidate": 2055337,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2055337,
+                "expected_from_candidate": "2055337.35",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Main Contractors Overheads & Profit (10%)",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Building Works Estimate",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Base Cost Estimate",
+                "actual": "0.5",
+                "expected_from_candidate": "0.5",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Design Development Risks (original 10%)",
+                "actual": "0.25",
+                "expected_from_candidate": "0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (Inflation Excluded)",
+                "actual": "-0.25",
+                "expected_from_candidate": "-0.25",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Inflation Allowance (1.00%)",
+                "actual": "0.397499999999127",
+                "expected_from_candidate": "0.3974999999991269",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (VAT Excluded)",
+                "actual": "0.147499999962747",
+                "expected_from_candidate": "0.1474999999627471",
+                "ok": true
+              }
+            ]
+          },
+          {
+            "id": "price_and_allowances:updated:building",
+            "ok": true,
+            "before": [
+              1456225,
+              1456225
+            ],
+            "after": [
+              1443225,
+              1443225
+            ],
+            "expected_after": "1443225",
+            "expected_delta": "-13000"
+          },
+          {
+            "id": "price_and_allowances:updated:overheads",
+            "ok": true,
+            "before": [
+              "163902.5"
+            ],
+            "after": [
+              195123
+            ],
+            "expected_after": "195123.00",
+            "expected_delta": "31220.50"
+          },
+          {
+            "id": "price_and_allowances:updated:building_estimate",
+            "ok": true,
+            "before": [
+              "1802927.5"
+            ],
+            "after": [
+              1821148
+            ],
+            "expected_after": "1821148.00",
+            "expected_delta": "18220.50"
+          },
+          {
+            "id": "price_and_allowances:updated:base",
+            "ok": true,
+            "before": [
+              "1802927.5"
+            ],
+            "after": [
+              1821148
+            ],
+            "expected_after": "1821148.00",
+            "expected_delta": "18220.50"
+          },
+          {
+            "id": "price_and_allowances:updated:design_risk",
+            "ok": true,
+            "before": [
+              "216351.3"
+            ],
+            "after": [
+              "218537.76"
+            ],
+            "expected_after": "218537.7600",
+            "expected_delta": "2186.4600"
+          },
+          {
+            "id": "price_and_allowances:updated:inflation_excluded",
+            "ok": true,
+            "before": [
+              "2019278.8",
+              "2019278.8",
+              "2019278.8"
+            ],
+            "after": [
+              "2039685.76",
+              "2039685.76",
+              "2039685.76"
+            ],
+            "expected_after": "2039685.7600",
+            "expected_delta": "20406.9600"
+          },
+          {
+            "id": "price_and_allowances:updated:inflation",
+            "ok": true,
+            "before": [
+              "20192.788"
+            ],
+            "after": [
+              "30595.2864"
+            ],
+            "expected_after": "30595.2864000",
+            "expected_delta": "10402.4984000"
+          },
+          {
+            "id": "price_and_allowances:updated:vat_excluded",
+            "ok": false,
+            "before": [
+              "2039471.588",
+              "2058989.1905",
+              "2058989.1905",
+              "2039471.588",
+              "2039471.588",
+              2039472,
+              2039472
+            ],
+            "after": [
+              "2070281.0464",
+              "2100089.7484",
+              "2100089.7484",
+              "2070281.0464",
+              "2070281.0464",
+              2070281,
+              2070281
+            ],
+            "expected_after": "2070281.0464000",
+            "expected_delta": "30809.4584000"
+          },
+          {
+            "id": "price_and_allowances:reconciliation_updates",
+            "ok": false,
+            "actual": [
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "printed_original",
+                "actual": "128811.74839999992",
+                "expected": "99003.0464000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!43",
+                "basis": "recomputed_original",
+                "actual": "83034.24639999983",
+                "expected": "99003.1939000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "printed_original",
+                "actual": "99003.0464000001",
+                "expected": "99003.0464000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!9",
+                "basis": "recomputed_original",
+                "actual": "53225.5444",
+                "expected": "99003.1939000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!13",
+                "basis": "printed_original",
+                "actual": 99003,
+                "expected": "99003.0464000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cover & Basis!14",
+                "basis": "printed_original",
+                "actual": "128811.7484",
+                "expected": "99003.0464000",
+                "correct": false,
+                "self_consistent": false
+              }
+            ],
+            "cumulative_checks": [
+              {
+                "meaning": "Rounded current display: Building Works (RTP Scope of Works)",
+                "actual": 1443225,
+                "expected_from_candidate": 1443225,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Preliminaries",
+                "actual": 182800,
+                "expected_from_candidate": 182800,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Main Contractors Overheads & Profit (10%)",
+                "actual": 195123,
+                "expected_from_candidate": 195123,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Building Works Estimate",
+                "actual": 1821148,
+                "expected_from_candidate": 1821148,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Project Consultants Fees",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Base Cost Estimate",
+                "actual": 1821148,
+                "expected_from_candidate": 1821148,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Design Development Risks (original 10% / current 12%)",
+                "actual": 218538,
+                "expected_from_candidate": "218537.76",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Construction Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Employer Change Risks",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (Inflation Excluded)",
+                "actual": 2039686,
+                "expected_from_candidate": "2039685.76",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: Inflation Allowance — 4Q24 to 1Q25 (1.00%)",
+                "actual": 30595,
+                "expected_from_candidate": "30595.2864",
+                "ok": true
+              },
+              {
+                "meaning": "Rounded current display: COST LIMIT (VAT Excluded)",
+                "actual": 2070281,
+                "expected_from_candidate": "2070281.0464",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: rounding in printed source (recomputed − printed)",
+                "actual": "45777.5020000001",
+                "expected_from_candidate": "45777.5020000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Memo: original cost limit (VAT excluded) — recomputed, full precision",
+                "actual": "2017055.502",
+                "expected_from_candidate": "2017055.502",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Heating & ASHP package price increase (original → current)",
+                "actual": 13000,
+                "expected_from_candidate": 13000,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Overheads & Profit at rate on the price increase",
+                "actual": 1560,
+                "expected_from_candidate": 1560,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development rate increase (10% → current) on original base",
+                "actual": 36132,
+                "expected_from_candidate": "36131.76",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Design Development at current rate on the added base (lines 37 + 38)",
+                "actual": 1747,
+                "expected_from_candidate": "1747.2",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Increase in cost limit (inflation excluded)",
+                "actual": 52439,
+                "expected_from_candidate": "52438.96",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Inflation at rate on increased cost limit (inflation excluded)",
+                "actual": 30595,
+                "expected_from_candidate": "30595.2864",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision",
+                "actual": 2100090,
+                "expected_from_candidate": "2100089.7484",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Check: current full precision − summary-chain current (E29)",
+                "actual": "29808.7019999998",
+                "expected_from_candidate": "29808.7019999998",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Check: current full precision − summary-chain current (E29)",
+                "actual": "29808.7019999998",
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding to whole £",
+                "actual": "-29808.7483999999",
+                "expected_from_candidate": "-29808.7483999999",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed",
+                "actual": 2070281,
+                "expected_from_candidate": 2070281,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 29809,
+                "expected_from_candidate": 29809,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 29809,
+                "expected_from_candidate": 0,
+                "ok": false
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2070281,
+                "expected_from_candidate": "2100089.7484",
+                "ok": false
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "45777.5020000001",
+                "expected_from_candidate": "45777.502000000095",
+                "ok": true
+              },
+              {
+                "meaning": "Stated display rounding",
+                "actual": "-29808.7483999999",
+                "expected_from_candidate": "-29808.748399999924",
+                "ok": true
+              },
+              {
+                "meaning": "Cost-limit increment equals displayed package/allowance components",
+                "actual": "52438.96",
+                "expected_from_candidate": "52438.96",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — recomputed (full-precision chain)",
+                "actual": 2017056,
+                "expected_from_candidate": "2017055.502",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source (recomputed − printed)",
+                "actual": "45777.5020000001",
+                "expected_from_candidate": "45777.5020000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision (review position)",
+                "actual": 2070281,
+                "expected_from_candidate": "2070281.0464",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original (current − printed)",
+                "actual": 99003,
+                "expected_from_candidate": "99003.0464000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original (current − recomputed)",
+                "actual": 53226,
+                "expected_from_candidate": "53225.5444",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements (line 11 − line 10)",
+                "actual": "-45777.5020000001",
+                "expected_from_candidate": "-45777.5020000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed (whole £)",
+                "actual": 2070281,
+                "expected_from_candidate": 2070281,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2070281,
+                "expected_from_candidate": "2070281.0464",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "45777.5020000001",
+                "expected_from_candidate": "45777.502000000095",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "-45777.5020000001",
+                "expected_from_candidate": "-45777.502000000095",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — as printed",
+                "actual": 1951760,
+                "expected_from_candidate": 1951760,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Original — recomputed (full precision)",
+                "actual": 1987247,
+                "expected_from_candidate": "1987246.8",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Rounding in printed source",
+                "actual": "35486.8000000001",
+                "expected_from_candidate": "35486.8000000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — full precision",
+                "actual": 2039686,
+                "expected_from_candidate": "2039685.76",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs printed original",
+                "actual": 87926,
+                "expected_from_candidate": "87925.76",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Movement vs recomputed original",
+                "actual": 52439,
+                "expected_from_candidate": "52438.96",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Difference between the two movements",
+                "actual": "-35486.8000000001",
+                "expected_from_candidate": "-35486.8000000001",
+                "ok": true
+              },
+              {
+                "meaning": "Displayed rounds full precision: Current — displayed (whole £)",
+                "actual": 2039686,
+                "expected_from_candidate": 2039686,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+                "actual": 0,
+                "expected_from_candidate": 0,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed current agrees with full precision",
+                "actual": 2039686,
+                "expected_from_candidate": "2039685.76",
+                "ok": true
+              },
+              {
+                "meaning": "Source rounding equals recomputed minus printed",
+                "actual": "35486.8000000001",
+                "expected_from_candidate": "35486.80000000005",
+                "ok": true
+              },
+              {
+                "meaning": "Difference between explicitly based movements",
+                "actual": "-35486.8000000001",
+                "expected_from_candidate": "-35486.799999999996",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Main Contractors Overheads & Profit (10%)",
+                "actual": -32260,
+                "expected_from_candidate": -32260,
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Building Works Estimate",
+                "actual": -32260,
+                "expected_from_candidate": -32260,
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Base Cost Estimate",
+                "actual": -32260,
+                "expected_from_candidate": -32260,
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Design Development Risks (original 10%)",
+                "actual": "-3225.80000000002",
+                "expected_from_candidate": "-3225.7999999999884",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (Inflation Excluded)",
+                "actual": "-35486.8000000001",
+                "expected_from_candidate": "-35486.80000000005",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Inflation Allowance (1.00%)",
+                "actual": "-10290.702",
+                "expected_from_candidate": "-10290.702000000001",
+                "ok": true
+              },
+              {
+                "meaning": "Printed minus recomputed: Cost Limit (VAT Excluded)",
+                "actual": "-45777.5020000001",
+                "expected_from_candidate": "-45777.502000000095",
+                "ok": true
+              }
+            ]
+          }
+        ],
+        "R006": [
+          {
+            "id": "elements:listing:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:pitched_roof:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:central_lantern:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:rear_roof:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:gutters:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:parapet:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:rainwater:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:masonry:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:rendered:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:windows:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:rooflights:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:lantern_light:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:doors:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:walls:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "elements:services:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:building:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:preliminaries:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:overheads:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:building_estimate:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:consultants:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:base:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:design_risk:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:construction_risk:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:employer_risk:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:inflation_excluded:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:inflation:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "summary:vat_excluded:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:timber:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:opening_vents:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:lantern_repairs:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:venturi:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:birds:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:cills:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:external_doors:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:heating_plant_area:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:electrical:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:water:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:heating:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:ventilation:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "provisional:scaffolding:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_a:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_b:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_c:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_d:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_e:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_f:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_g:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_h:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_i:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_j:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_k:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_l:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_m:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_n:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_o:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_p:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_q:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_r:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_0:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_1:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_2:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_3:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_4:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "exclusions:excluded_services_5:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:guide:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:qs:source_page",
+            "ok": false,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:drawings:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:scope_basis:source_page",
+            "ok": false,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:phase:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:duration:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "qualifications:price_basis:source_page",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "correspondence:heating_price",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "correspondence:earlier_heating",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          },
+          {
+            "id": "correspondence:asbestos_option",
+            "ok": true,
+            "actual": null,
+            "expected": null
+          }
+        ]
+      },
+      "denominators": {
+        "R001": 151,
+        "R002": 6,
+        "R003": 27,
+        "R004": 3,
+        "R005": 23,
+        "R006": 74
+      },
+      "base_native_receipt": {
+        "source": "[runtime path]",
+        "source_sha256_before": "64de2384430268b1864f36166d4768466389bb1af894bc12b2144d627366bbc8",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 222,
+        "isolated_input_sha256": "5d4b416dc790f0fc5f320e43f71ee1d2b2ef10be41a2bf4367e40bc3de354c9f",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "041074537ef33bda4b34f04e011020e9200c16b2e89b4a18b9fc30725095421a",
+        "elapsed_seconds": "0.43148858298081905",
+        "source_sha256_after": "64de2384430268b1864f36166d4768466389bb1af894bc12b2144d627366bbc8",
+        "original_unchanged": true
+      },
+      "dynamic_probes": [
+        {
+          "name": "package_price",
+          "declared_changes": {
+            "heating_price": 468000
+          },
+          "control_edits": {
+            "Working Calculation": {
+              "C8": "468000.0"
+            }
+          },
+          "bound": true,
+          "edited_input_readback": true,
+          "native": {
+            "source": "[runtime path]",
+            "source_sha256_before": "069a4b464af3d3e49e6d94e5b073881735348ab42f3c4db263f49a83f4a4121c",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "6a08d7b45d91099635c2841536ab0f14c6b9a5c0a9f17d7fd0354eef90c4f6eb",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "0cb7c4c6b8600e9011703d7cc11399f4d6ab3edae9f3639f07677d4f7172c540",
+            "elapsed_seconds": "0.39801441700547",
+            "source_sha256_after": "069a4b464af3d3e49e6d94e5b073881735348ab42f3c4db263f49a83f4a4121c",
+            "original_unchanged": true
+          }
+        },
+        {
+          "name": "risk_percentage",
+          "declared_changes": {
+            "design_risk_rate": ".14"
+          },
+          "control_edits": {
+            "Working Calculation": {
+              "C10": "0.14"
+            }
+          },
+          "bound": true,
+          "edited_input_readback": true,
+          "native": {
+            "source": "[runtime path]",
+            "source_sha256_before": "491df943ed58e0028fcb9ef60e877ea8ab28170d5f4541e71ca20ffd1b52c52e",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "658a93196145a5fcd8f664374627eac2cc69d5de33ff06d657cac11890cce9f8",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "2724845e1a7d50f42f53d405bfed4bc892919dd0e90a3380ad96deea82e59018",
+            "elapsed_seconds": "0.3665007920062635",
+            "source_sha256_after": "491df943ed58e0028fcb9ef60e877ea8ab28170d5f4541e71ca20ffd1b52c52e",
+            "original_unchanged": true
+          }
+        },
+        {
+          "name": "price_and_allowances",
+          "declared_changes": {
+            "heating_price": 445000,
+            "overheads_rate": ".12",
+            "inflation_rate": ".015"
+          },
+          "control_edits": {
+            "Working Calculation": {
+              "C8": "445000.0",
+              "C9": "0.12",
+              "C11": "0.015"
+            }
+          },
+          "bound": true,
+          "edited_input_readback": true,
+          "native": {
+            "source": "[runtime path]",
+            "source_sha256_before": "a611c2dea31a3898f2730bcac591d176756350f32319a1e7431bf7e0e1e26dd1",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "997452fe284540b66e7d19d07f0c6d49ac4c1b6f5c289147755903a1e67c8782",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "58e19ac57f93337c776c4d976b2f89118d7e7ab9e43554702cc91cb5fcfef776",
+            "elapsed_seconds": "0.38874366699019447",
+            "source_sha256_after": "a611c2dea31a3898f2730bcac591d176756350f32319a1e7431bf7e0e1e26dd1",
+            "original_unchanged": true
+          }
+        },
+        {
+          "name": "unapproved_option_price",
+          "declared_changes": {
+            "asbestos_option": 22000
+          },
+          "control_edits": {
+            "Working Calculation": {
+              "C13": "22000.0"
+            }
+          },
+          "bound": true,
+          "edited_input_readback": false,
+          "native": {
+            "source": "[runtime path]",
+            "source_sha256_before": "0d17dd987140d3ffe27b7eb49b766cee3e29f98011f5356407c7357041992c3b",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "7b82bd68f121796ff36c85cd6dbfa0f0c3a31ff096b781820d8fc22f9af50cb4",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "4e368398d77a8ef5c1afcf9babda4d90ced2abbbefa703138127c025cc30bba6",
+            "elapsed_seconds": "0.4008333749952726",
+            "source_sha256_after": "0d17dd987140d3ffe27b7eb49b766cee3e29f98011f5356407c7357041992c3b",
+            "original_unchanged": true
+          }
+        }
+      ],
+      "candidate_broken_sheet_references": [],
+      "candidate_invalid_text_arithmetic": [],
+      "candidate_reconciliation": [
+        {
+          "stage": "building",
+          "location": "Cost Breakdown!21",
+          "basis": "printed_original",
+          "actual": 26000,
+          "expected": "26000",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "inflation_excluded",
+          "location": "Reconciliation!21",
+          "basis": "printed_original",
+          "actual": "67518.8000000001",
+          "expected": "67518.8000",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "inflation_excluded",
+          "location": "Reconciliation!21",
+          "basis": "recomputed_original",
+          "actual": "67518.5500000001",
+          "expected": "67518.5500",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Working Calculation!43",
+          "basis": "printed_original",
+          "actual": "87711.19050000003",
+          "expected": "68193.588000",
+          "correct": false,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Working Calculation!43",
+          "basis": "recomputed_original",
+          "actual": "87711.33799999999",
+          "expected": "68193.735500",
+          "correct": false,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Reconciliation!9",
+          "basis": "printed_original",
+          "actual": "68193.588",
+          "expected": "68193.588000",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Reconciliation!9",
+          "basis": "recomputed_original",
+          "actual": "68193.7355",
+          "expected": "68193.735500",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Cover & Basis!13",
+          "basis": "printed_original",
+          "actual": 68194,
+          "expected": "68193.588000",
+          "correct": true,
+          "self_consistent": true
+        },
+        {
+          "stage": "vat_excluded",
+          "location": "Cover & Basis!14",
+          "basis": "printed_original",
+          "actual": "87711.1905",
+          "expected": "68193.588000",
+          "correct": false,
+          "self_consistent": false
+        }
+      ],
+      "additional_candidate_claims": {
+        "('_native_formula_error', 'Working Calculation')": [
+          {
+            "sheet": "Working Calculation",
+            "cell": "A41",
+            "native_error": "#VALUE!",
+            "raw_formula": "= Increase in cost limit (inflation excluded)",
+            "candidate_original_unchanged": true
+          },
+          {
+            "sheet": "Working Calculation",
+            "cell": "A43",
+            "native_error": "#N/A",
+            "raw_formula": "= Current cost limit (VAT excluded) — full precision",
+            "candidate_original_unchanged": true
+          },
+          {
+            "sheet": "Working Calculation",
+            "cell": "A46",
+            "native_error": "#N/A",
+            "raw_formula": "= Current cost limit (VAT excluded) — displayed",
+            "candidate_original_unchanged": true
+          },
+          {
+            "sheet": "Working Calculation",
+            "cell": "A48",
+            "native_error": "#NAME?",
+            "raw_formula": "=\"Movement vs printed original: £\"&TEXT(ROUND(C43-C34,0),\"#,##0\")&\" (\"&TEXT(C43-C34,\"#,##0.00\")&\" full precision); vs recomputed original: £\"&TEXT(C43-D29,\"#,##0.00\")&\" The £\"&TEXT(C29-D29,\"#,##0.00\")&\" difference between the two movements is rounding in the printed source [S3]. The asbestos option remains outside this movement [S2-3].",
+            "candidate_original_unchanged": true
+          }
+        ],
+        "('_native_formula_error', 'Options')": [
+          {
+            "sheet": "Options",
+            "cell": "A24",
+            "native_error": "#VALUE!",
+            "raw_formula": "= Increase in Cost Limit (Inflation Excluded)",
+            "candidate_original_unchanged": true
+          },
+          {
+            "sheet": "Options",
+            "cell": "A26",
+            "native_error": "#VALUE!",
+            "raw_formula": "= Increase in Cost Limit (VAT Excluded)",
+            "candidate_original_unchanged": true
+          }
+        ],
+        "('_cover_cards', 'Cover & Basis')": [
+          {
+            "sheet": "Cover & Basis",
+            "row": 11,
+            "table": "key_figures",
+            "label": "Original cost limit (VAT excluded) — as printed",
+            "value": 1971278,
+            "cells": {
+              "value": "B11"
+            },
+            "context": "Cover & Basis Key figures",
+            "scope": "Original cost limit (VAT excluded) — as printed Source fact, preserved [S1-Summary]",
+            "source": "Original cost limit (VAT excluded) — as printed 1971278 Source fact, preserved [S1-Summary] 1,971,278 COST LIMIT (VAT Excluded), original as printed Cover & Basis; Working Calculation; Reconciliation A Printed Summary; source fact retained Falmouth_OCE_October2024_RevA.pdf — Order of Cost Estimate — Revision A, October 2024, Job No 3959: Renovation & Thermal Upgrade Works at Municipal Building, The Moor, Falmouth, for Falmouth Town Council; prepared by Wellers (Chartered Quantity Surveyors) and Pool Innovation Centre (Construction Cost Consultants). 4Q24 price date; excl VAT.",
+            "delta_sign": 1
+          },
+          {
+            "sheet": "Cover & Basis",
+            "row": 12,
+            "table": "key_figures",
+            "label": "Current cost limit (VAT excluded) — displayed (whole £)",
+            "value": 2039472,
+            "cells": {
+              "value": "B12"
+            },
+            "context": "Cover & Basis Key figures",
+            "scope": "Current cost limit (VAT excluded) — displayed (whole £) Review position; full precision on 'Working Calculation' [S2; S3]",
+            "source": "Current cost limit (VAT excluded) — displayed (whole £) 2039472 Review position; full precision on 'Working Calculation' [S2; S3] review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position. Conventions: full-precision working; whole-£ display; rounding visible; options outside the limit; result remains an estimate All sheets Workpaper conventions",
+            "delta_sign": 1
+          },
+          {
+            "sheet": "Cover & Basis",
+            "row": 13,
+            "table": "key_figures",
+            "label": "Movement in cost limit (displayed, whole £)",
+            "value": 68194,
+            "cells": {
+              "value": "B13"
+            },
+            "context": "Cover & Basis Key figures",
+            "scope": "Movement in cost limit (displayed, whole £) Driven by: heating & ASHP +26,000; O&P 10% thereon; design-development 10% → 12%; inflation 1.00% — see movement bridge on 'Working Calculation' [S2-1; S2-2]",
+            "source": "Movement in cost limit (displayed, whole £) 68194 Driven by: heating & ASHP +26,000; O&P 10% thereon; design-development 10% → 12%; inflation 1.00% — see movement bridge on 'Working Calculation' [S2-1; S2-2] 472,000 earlier review price (superseded); 458,000 current package price Working Calculation (inputs); Cost Breakdown 1 (M&E) and 2 (PS-11) Review correspondence review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position. 12% design-development risk (current review) Working Calculation (input; chain); Reconciliation Review correspondence; other rates as original [S2-2] review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position.",
+            "delta_sign": 1
+          },
+          {
+            "sheet": "Cover & Basis",
+            "row": 14,
+            "table": "key_figures",
+            "label": "Movement in cost limit (full precision, vs printed)",
+            "value": "87711.1905",
+            "cells": {
+              "value": "B14"
+            },
+            "context": "Cover & Basis Key figures",
+            "scope": "Movement in cost limit (full precision, vs printed) 68,193.59 vs printed original; 68,193.74 vs recalculated original; the 0.15 difference is printed-source rounding [S3]",
+            "source": "Movement in cost limit (full precision, vs printed) 87711.1905 68,193.59 vs printed original; 68,193.74 vs recalculated original; the 0.15 difference is printed-source rounding [S3] Conventions: full-precision working; whole-£ display; rounding visible; options outside the limit; result remains an estimate All sheets Workpaper conventions",
+            "delta_sign": 1
+          }
+        ],
+        "('_provisional_total', 'Cost Breakdown')": [
+          {
+            "sheet": "Cost Breakdown",
+            "row": 40,
+            "table": 25,
+            "context": "Cost Breakdown Provisional sums are included within the elemental costs. The source does not establish a sum-by-element allocation, so this table is memorandum detail only [S3]. The heating/ASHP update is shown within Mechanical and Electrical Services, consistent with the ZLC 'heating and ASHP' indicative pricing [S1-BOE]. * = as Planned Maintenance Schedule March 2024 costs [S1-BOE].",
+            "cells": {
+              "ref": "A40",
+              "label": "B40",
+              "printed": "D40",
+              "working": "E40",
+              "delta": "F40",
+              "scope": "H40"
+            },
+            "delta_sign": 1,
+            "ref": null,
+            "label": "Provisional sums — memorandum total (included within elemental costs; not an addition)",
+            "printed": 835250,
+            "working": 861250,
+            "delta": 26000,
+            "scope": "Cost Breakdown Provisional sums are included within the elemental costs. The source does not establish a sum-by-element allocation, so this table is memorandum detail only [S3]. The heating/ASHP update is shown within Mechanical and Electrical Services, consistent with the ZLC 'heating and ASHP' indicative pricing [S1-BOE]. * = as Planned Maintenance Schedule March 2024 costs [S1-BOE]. Memorandum only: the source lists these sums as included within the elemental costs; no element-by-element allocation is established [S1-BOE; S3].",
+            "source": "None Memorandum only: the source lists these sums as included within the elemental costs; no element-by-element allocation is established [S1-BOE; S3]. 835,250 provisional sums memorandum total (current 861,250) Cost Breakdown 2 (memorandum total) Sum of listed provisional sums; included within elemental costs [S3] Falmouth_OCE_October2024_RevA.pdf — Order of Cost Estimate — Revision A, October 2024, Job No 3959: Renovation & Thermal Upgrade Works at Municipal Building, The Moor, Falmouth, for Falmouth Town Council; prepared by Wellers (Chartered Quantity Surveyors) and Pool Innovation Centre (Construction Cost Consultants). 4Q24 price date; excl VAT. Conventions: full-precision working; whole-£ display; rounding visible; options outside the limit; result remains an estimate All sheets Workpaper conventions",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Provisional sums — memorandum total (included within elemental costs; not an addition)"
+          }
+        ],
+        "('_bridge_arithmetic', 'Working Calculation')": [
+          {
+            "meaning": "Rounded current display: Building Works (RTP Scope of Works)",
+            "actual": 1456225,
+            "expected_from_candidate": 1456225,
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Main Contractors Preliminaries",
+            "actual": 182800,
+            "expected_from_candidate": 182800,
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Main Contractors Overheads & Profit (10%)",
+            "actual": 163903,
+            "expected_from_candidate": "163902.5",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Building Works Estimate",
+            "actual": 1802928,
+            "expected_from_candidate": "1802927.5",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Project Consultants Fees",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Base Cost Estimate",
+            "actual": 1802928,
+            "expected_from_candidate": "1802927.5",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Design Development Risks (original 10% / current 12%)",
+            "actual": 216351,
+            "expected_from_candidate": "216351.3",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Construction Risks",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Employer Change Risks",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: COST LIMIT (Inflation Excluded)",
+            "actual": 2019279,
+            "expected_from_candidate": "2019278.8",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: Inflation Allowance — 4Q24 to 1Q25 (1.00%)",
+            "actual": 20193,
+            "expected_from_candidate": "20192.788",
+            "ok": true
+          },
+          {
+            "meaning": "Rounded current display: COST LIMIT (VAT Excluded)",
+            "actual": 2039472,
+            "expected_from_candidate": "2039471.588",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+            "actual": 1971278,
+            "expected_from_candidate": 1971278,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Memo: rounding in printed source (recomputed − printed)",
+            "actual": "-0.147499999962747",
+            "expected_from_candidate": "-0.147499999962747",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Memo: original cost limit (VAT excluded) — recomputed, full precision",
+            "actual": "1971277.8525",
+            "expected_from_candidate": "1971277.8525",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Heating & ASHP package price increase (original → current)",
+            "actual": 26000,
+            "expected_from_candidate": 26000,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Overheads & Profit at rate on the price increase",
+            "actual": 2600,
+            "expected_from_candidate": 2600,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Design Development rate increase (10% → current) on original base",
+            "actual": 35487,
+            "expected_from_candidate": "35486.55",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Design Development at current rate on the added base (lines 37 + 38)",
+            "actual": 3432,
+            "expected_from_candidate": 3432,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Increase in cost limit (inflation excluded)",
+            "actual": 67519,
+            "expected_from_candidate": "67518.55",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Inflation at rate on increased cost limit (inflation excluded)",
+            "actual": 20193,
+            "expected_from_candidate": "20192.788",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision",
+            "actual": 2058989,
+            "expected_from_candidate": "2058989.1905",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Check: current full precision − summary-chain current (E29)",
+            "actual": "19517.6025",
+            "expected_from_candidate": "19517.6025",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed reconciliation is zero: Check: current full precision − summary-chain current (E29)",
+            "actual": "19517.6025",
+            "expected_from_candidate": 0,
+            "ok": false
+          },
+          {
+            "meaning": "Displayed rounds full precision: Rounding to whole £",
+            "actual": "-19517.1905",
+            "expected_from_candidate": "-19517.1905",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed",
+            "actual": 2039472,
+            "expected_from_candidate": 2039472,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+            "actual": 19517,
+            "expected_from_candidate": 19517,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+            "actual": 19517,
+            "expected_from_candidate": 0,
+            "ok": false
+          },
+          {
+            "meaning": "Displayed current agrees with full precision",
+            "actual": 2039472,
+            "expected_from_candidate": "2058989.1905",
+            "ok": false
+          },
+          {
+            "meaning": "Source rounding equals recomputed minus printed",
+            "actual": "-0.147499999962747",
+            "expected_from_candidate": "-0.1474999999627471",
+            "ok": true
+          },
+          {
+            "meaning": "Stated display rounding",
+            "actual": "-19517.1905",
+            "expected_from_candidate": "-19517.190500000026",
+            "ok": true
+          },
+          {
+            "meaning": "Cost-limit increment equals displayed package/allowance components",
+            "actual": "67518.55",
+            "expected_from_candidate": "67518.55",
+            "ok": true
+          }
+        ],
+        "('_calculation_components', 'overheads_base')": [
+          {
+            "sheet": "Working Calculation",
+            "row": 19,
+            "table": 16,
+            "context": "Working Calculation Summary Chain — Original vs Current Review Position",
+            "cells": {
+              "label": "A19",
+              "ref": "B19",
+              "printed": "C19",
+              "recomputed_original": "D19",
+              "working": "E19",
+              "display_working": "F19"
+            },
+            "delta_sign": 1,
+            "label": "Memo: O&P base (Building Works + Preliminaries)",
+            "ref": "—",
+            "printed": 1613025,
+            "recomputed_original": 1613025,
+            "working": 1639025,
+            "display_working": 1639025,
+            "source": "— ",
+            "scope": "Working Calculation Summary Chain — Original vs Current Review Position ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Memo: O&P base (Building Works + Preliminaries)"
+          }
+        ],
+        "('_narrative_formula_error', 'Working Calculation')": [
+          {
+            "cell": "A41",
+            "original": "= Increase in cost limit (inflation excluded)",
+            "cached": "#VALUE!",
+            "restored_label_only": true
+          },
+          {
+            "cell": "A43",
+            "original": "= Current cost limit (VAT excluded) — full precision",
+            "cached": "#N/A",
+            "restored_label_only": true
+          },
+          {
+            "cell": "A46",
+            "original": "= Current cost limit (VAT excluded) — displayed",
+            "cached": "#N/A",
+            "restored_label_only": true
+          }
+        ],
+        "('_movement_components', 'Working Calculation')": [
+          {
+            "sheet": "Working Calculation",
+            "row": 37,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A37",
+              "ref": "B37",
+              "value": "C37",
+              "displayed": "D37"
+            },
+            "delta_sign": 1,
+            "label": "Heating & ASHP package price increase (original → current)",
+            "ref": "S2-1",
+            "value": 26000,
+            "displayed": 26000,
+            "source": "S2-1  472,000 earlier review price (superseded); 458,000 current package price Working Calculation (inputs); Cost Breakdown 1 (M&E) and 2 (PS-11) Review correspondence review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position.",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Heating & ASHP package price increase (original → current)"
+          },
+          {
+            "sheet": "Working Calculation",
+            "row": 38,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A38",
+              "ref": "B38",
+              "value": "C38",
+              "displayed": "D38"
+            },
+            "delta_sign": 1,
+            "label": "Overheads & Profit at rate on the price increase",
+            "ref": "S1-Summary",
+            "value": 2600,
+            "displayed": 2600,
+            "source": "S1-Summary  1,971,278 COST LIMIT (VAT Excluded), original as printed Cover & Basis; Working Calculation; Reconciliation A Printed Summary; source fact retained Falmouth_OCE_October2024_RevA.pdf — Order of Cost Estimate — Revision A, October 2024, Job No 3959: Renovation & Thermal Upgrade Works at Municipal Building, The Moor, Falmouth, for Falmouth Town Council; prepared by Wellers (Chartered Quantity Surveyors) and Pool Innovation Centre (Construction Cost Consultants). 4Q24 price date; excl VAT.",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Overheads & Profit at rate on the price increase"
+          },
+          {
+            "sheet": "Working Calculation",
+            "row": 39,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A39",
+              "ref": "B39",
+              "value": "C39",
+              "displayed": "D39"
+            },
+            "delta_sign": 1,
+            "label": "Design Development rate increase (10% → current) on original base",
+            "ref": "S2-2",
+            "value": "35486.55",
+            "displayed": 35487,
+            "source": "S2-2  12% design-development risk (current review) Working Calculation (input; chain); Reconciliation Review correspondence; other rates as original [S2-2] review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position.",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Design Development rate increase (10% → current) on original base"
+          },
+          {
+            "sheet": "Working Calculation",
+            "row": 40,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A40",
+              "ref": "B40",
+              "value": "C40",
+              "displayed": "D40"
+            },
+            "delta_sign": 1,
+            "label": "Design Development at current rate on the added base (lines 37 + 38)",
+            "ref": "S2-2",
+            "value": 3432,
+            "displayed": 3432,
+            "source": "S2-2  12% design-development risk (current review) Working Calculation (input; chain); Reconciliation Review correspondence; other rates as original [S2-2] review_correspondence.md — Review correspondence (project-authored review scenario); sets the current review position.",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Design Development at current rate on the added base (lines 37 + 38)"
+          },
+          {
+            "sheet": "Working Calculation",
+            "row": 41,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A41",
+              "ref": "B41",
+              "value": "C41",
+              "displayed": "D41"
+            },
+            "delta_sign": 1,
+            "label": "Increase in cost limit (inflation excluded)",
+            "ref": "—",
+            "value": "67518.55",
+            "displayed": 67519,
+            "source": "— ",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in cost limit (inflation excluded)"
+          },
+          {
+            "sheet": "Working Calculation",
+            "row": 42,
+            "table": 33,
+            "context": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review",
+            "cells": {
+              "label": "A42",
+              "ref": "B42",
+              "value": "C42",
+              "displayed": "D42"
+            },
+            "delta_sign": 1,
+            "label": "Inflation at rate on increased cost limit (inflation excluded)",
+            "ref": "S1-Summary",
+            "value": "20192.788",
+            "displayed": 20193,
+            "source": "S1-Summary  1,971,278 COST LIMIT (VAT Excluded), original as printed Cover & Basis; Working Calculation; Reconciliation A Printed Summary; source fact retained Falmouth_OCE_October2024_RevA.pdf — Order of Cost Estimate — Revision A, October 2024, Job No 3959: Renovation & Thermal Upgrade Works at Municipal Building, The Moor, Falmouth, for Falmouth Town Council; prepared by Wellers (Chartered Quantity Surveyors) and Pool Innovation Centre (Construction Cost Consultants). 4Q24 price date; excl VAT.",
+            "scope": "Working Calculation Movement in Cost Limit (VAT Excluded) — Printed Original to Current Review ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Inflation at rate on increased cost limit (inflation excluded)"
+          }
+        ],
+        "('_bridge_arithmetic', 'Reconciliation')": [
+          {
+            "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — as printed",
+            "actual": 1971278,
+            "expected_from_candidate": 1971278,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Original cost limit (VAT excluded) — recomputed (full-precision chain)",
+            "actual": 1971278,
+            "expected_from_candidate": "1971277.8525",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Rounding in printed source (recomputed − printed)",
+            "actual": "-0.147499999962747",
+            "expected_from_candidate": "-0.147499999962747",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — full precision (review position)",
+            "actual": 2039472,
+            "expected_from_candidate": "2039471.588",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Movement vs printed original (current − printed)",
+            "actual": 68194,
+            "expected_from_candidate": "68193.588",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Movement vs recomputed original (current − recomputed)",
+            "actual": 68194,
+            "expected_from_candidate": "68193.7355",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Difference between the two movements (line 11 − line 10)",
+            "actual": "0.147499999962747",
+            "expected_from_candidate": "0.147499999962747",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current cost limit (VAT excluded) — displayed (whole £)",
+            "actual": 2039472,
+            "expected_from_candidate": 2039472,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed current agrees with full precision",
+            "actual": 2039472,
+            "expected_from_candidate": "2039471.588",
+            "ok": true
+          },
+          {
+            "meaning": "Source rounding equals recomputed minus printed",
+            "actual": "-0.147499999962747",
+            "expected_from_candidate": "-0.1474999999627471",
+            "ok": true
+          },
+          {
+            "meaning": "Difference between explicitly based movements",
+            "actual": "0.147499999962747",
+            "expected_from_candidate": "0.14749999999185093",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Original — as printed",
+            "actual": 1951760,
+            "expected_from_candidate": 1951760,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Original — recomputed (full precision)",
+            "actual": 1951760,
+            "expected_from_candidate": "1951760.25",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Rounding in printed source",
+            "actual": "0.25",
+            "expected_from_candidate": "0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current — full precision",
+            "actual": 2019279,
+            "expected_from_candidate": "2019278.8",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Movement vs printed original",
+            "actual": 67519,
+            "expected_from_candidate": "67518.8000000001",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Movement vs recomputed original",
+            "actual": 67519,
+            "expected_from_candidate": "67518.5500000001",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Difference between the two movements",
+            "actual": "-0.25",
+            "expected_from_candidate": "-0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Displayed rounds full precision: Current — displayed (whole £)",
+            "actual": 2019279,
+            "expected_from_candidate": 2019279,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed check status: Cross-check: printed + displayed movement − displayed current",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed reconciliation is zero: Cross-check: printed + displayed movement − displayed current",
+            "actual": 0,
+            "expected_from_candidate": 0,
+            "ok": true
+          },
+          {
+            "meaning": "Displayed current agrees with full precision",
+            "actual": 2019279,
+            "expected_from_candidate": "2019278.8",
+            "ok": true
+          },
+          {
+            "meaning": "Source rounding equals recomputed minus printed",
+            "actual": "0.25",
+            "expected_from_candidate": "0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Difference between explicitly based movements",
+            "actual": "-0.25",
+            "expected_from_candidate": "-0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Main Contractors Overheads & Profit (10%)",
+            "actual": "0.5",
+            "expected_from_candidate": "0.5",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Building Works Estimate",
+            "actual": "0.5",
+            "expected_from_candidate": "0.5",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Base Cost Estimate",
+            "actual": "0.5",
+            "expected_from_candidate": "0.5",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Design Development Risks (original 10%)",
+            "actual": "0.25",
+            "expected_from_candidate": "0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Cost Limit (Inflation Excluded)",
+            "actual": "-0.25",
+            "expected_from_candidate": "-0.25",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Inflation Allowance (1.00%)",
+            "actual": "0.397499999999127",
+            "expected_from_candidate": "0.3974999999991269",
+            "ok": true
+          },
+          {
+            "meaning": "Printed minus recomputed: Cost Limit (VAT Excluded)",
+            "actual": "0.147499999962747",
+            "expected_from_candidate": "0.1474999999627471",
+            "ok": true
+          }
+        ],
+        "('_option_scenario', 'Options')": [
+          {
+            "sheet": "Options",
+            "row": 12,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A12",
+              "value": "B12",
+              "displayed": "C12"
+            },
+            "delta_sign": 1,
+            "label": "New Building Works (RTP Scope of Works)",
+            "value": 1474225,
+            "displayed": 1474225,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Building Works (RTP Scope of Works)"
+          },
+          {
+            "sheet": "Options",
+            "row": 13,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A13",
+              "value": "B13",
+              "displayed": "C13"
+            },
+            "delta_sign": 1,
+            "label": "New Main Contractors Overheads & Profit (10%)",
+            "value": "165702.5",
+            "displayed": 165703,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Main Contractors Overheads & Profit (10%)"
+          },
+          {
+            "sheet": "Options",
+            "row": 14,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A14",
+              "value": "B14",
+              "displayed": "C14"
+            },
+            "delta_sign": 1,
+            "label": "New Base (Building Works + O&P)",
+            "value": "1639927.5",
+            "displayed": 1639928,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Base (Building Works + O&P)"
+          },
+          {
+            "sheet": "Options",
+            "row": 15,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A15",
+              "value": "B15",
+              "displayed": "C15"
+            },
+            "delta_sign": 1,
+            "label": "New Design Development Risks (12%, current rate)",
+            "value": "196791.3",
+            "displayed": 196791,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Design Development Risks (12%, current rate)"
+          },
+          {
+            "sheet": "Options",
+            "row": 16,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A16",
+              "value": "B16",
+              "displayed": "C16"
+            },
+            "delta_sign": 1,
+            "label": "New Cost Limit (Inflation Excluded)",
+            "value": "1836718.8",
+            "displayed": 1836719,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Cost Limit (Inflation Excluded)"
+          },
+          {
+            "sheet": "Options",
+            "row": 17,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A17",
+              "value": "B17",
+              "displayed": "C17"
+            },
+            "delta_sign": 1,
+            "label": "New Inflation Allowance (1.00%)",
+            "value": "18367.188",
+            "displayed": "18367.19",
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Inflation Allowance (1.00%)"
+          },
+          {
+            "sheet": "Options",
+            "row": 18,
+            "table": 11,
+            "context": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit)",
+            "cells": {
+              "label": "A18",
+              "value": "B18",
+              "displayed": "C18"
+            },
+            "delta_sign": 1,
+            "label": "New Cost Limit (VAT Excluded) — indicative",
+            "value": "1855085.988",
+            "displayed": 1855086,
+            "source": " ",
+            "scope": "Options If approved — indicative impact (memorandum only; NOT part of the current cost limit) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: New Cost Limit (VAT Excluded) — indicative"
+          },
+          {
+            "sheet": "Options",
+            "row": 21,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A21",
+              "value": "B21",
+              "displayed": "C21"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Building Works",
+            "value": 18000,
+            "displayed": 18000,
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Building Works"
+          },
+          {
+            "sheet": "Options",
+            "row": 22,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A22",
+              "value": "B22",
+              "displayed": "C22"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Overheads & Profit",
+            "value": 1800,
+            "displayed": 1800,
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Overheads & Profit"
+          },
+          {
+            "sheet": "Options",
+            "row": 23,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A23",
+              "value": "B23",
+              "displayed": "C23"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Design Development Risks",
+            "value": -19560,
+            "displayed": -19560,
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Design Development Risks"
+          },
+          {
+            "sheet": "Options",
+            "row": 24,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A24",
+              "value": "B24",
+              "displayed": "C24"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Cost Limit (Inflation Excluded)",
+            "value": -182560,
+            "displayed": -182560,
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Cost Limit (Inflation Excluded)"
+          },
+          {
+            "sheet": "Options",
+            "row": 25,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A25",
+              "value": "B25",
+              "displayed": "C25"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Inflation Allowance",
+            "value": "-1825.6",
+            "displayed": "-1825.6",
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Inflation Allowance"
+          },
+          {
+            "sheet": "Options",
+            "row": 26,
+            "table": 11,
+            "context": "Options Movement summary if approved (new − current)",
+            "cells": {
+              "label": "A26",
+              "value": "B26",
+              "displayed": "C26"
+            },
+            "delta_sign": 1,
+            "label": "Increase in Cost Limit (VAT Excluded)",
+            "value": "-184385.6",
+            "displayed": -184386,
+            "source": " ",
+            "scope": "Options Movement summary if approved (new − current) ",
+            "document_locator": "Falmouth_OCE_October2024_RevA.pdf :: Increase in Cost Limit (VAT Excluded)"
+          }
+        ],
+        "('_narrative_formula_error', 'Options')": [
+          {
+            "cell": "A24",
+            "original": "= Increase in Cost Limit (Inflation Excluded)",
+            "cached": "#VALUE!",
+            "restored_label_only": true
+          },
+          {
+            "cell": "A26",
+            "original": "= Increase in Cost Limit (VAT Excluded)",
+            "cached": "#VALUE!",
+            "restored_label_only": true
+          }
+        ]
+      },
+      "basis_policy": "Printed source or explicitly labelled recomputed original; whole-pound displays accepted; original source must remain intact."
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-C-COST-WORKPAPER-001",
+      "original_sha256": "64de2384430268b1864f36166d4768466389bb1af894bc12b2144d627366bbc8",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true,
+    "sample_countable": true
+  },
+  "current_60_points": "77.5855467418957197246860362322498803926984615384615384615385",
+  "current_60_pass": true
+}

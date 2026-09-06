@@ -1,0 +1,131 @@
+{
+  "case": "C2-qwen-R01",
+  "trial_id": "N6GPAR-C2-QWEN-R01__rbAkKmj",
+  "answer_sha256": "eb3e097e414b89fad77928b7ee2a4aaca0a9d8fee02668c53dcbd7d6a21fade6",
+  "judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "TERMINAL_ARTIFACT_WITHOUT_RECORDED_EXCEPTION",
+  "upstream_exception_type": "",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-C-PARCEL-TARIFF-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "baseline_recalc": {
+        "source": "[runtime path]",
+        "source_sha256_before": "eb3e097e414b89fad77928b7ee2a4aaca0a9d8fee02668c53dcbd7d6a21fade6",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 75,
+        "isolated_input_sha256": "68379ae1a1045294c0b163f6521705853ce73b973ce1902a90b223356b88d5e0",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "75415be76fe37f908b42fd3bf9e454d902c703f9f2ab45237368b2d40058cba2",
+        "elapsed_seconds": "0.4068662089994177",
+        "source_sha256_after": "eb3e097e414b89fad77928b7ee2a4aaca0a9d8fee02668c53dcbd7d6a21fade6",
+        "original_unchanged": true
+      },
+      "pending_reason": "Rate extraction is only partially parsed: unbound wide rate grid requires semantic review or a layout adapter",
+      "parse_evidence": {
+        "bound_tables": [
+          {
+            "sheet": "Rates",
+            "header_row": 18,
+            "kind": "wide_rate",
+            "fields": {
+              "upper_bound": 1
+            },
+            "record_count": 112,
+            "nonempty_body_rows": 14,
+            "service_binding": [
+              "USPS Ground Advantage® — Retail — Parcels (weight not over)"
+            ],
+            "oracle_values_used_for_discovery": false
+          }
+        ],
+        "unbound_rate_grids": [
+          {
+            "sheet": "Rates",
+            "header_row": 5,
+            "zone_columns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "reason": "wide weight/zone grid has not been semantically bound"
+          }
+        ],
+        "parsed_rate_rows": 112,
+        "parsed_quote_rows": 0,
+        "oracle_values_used_for_discovery": false
+      },
+      "reader_adapter": {
+        "source_heading_errors": [],
+        "read_views": []
+      }
+    },
+    "judge_version": "new6-usps-facts-v2.4-natural-quote-layouts",
+    "reproduction": {
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "original_sha256": "eb3e097e414b89fad77928b7ee2a4aaca0a9d8fee02668c53dcbd7d6a21fade6",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}

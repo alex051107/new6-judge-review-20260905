@@ -1,8 +1,8 @@
 {
   "file_count": 182,
   "total_bytes": 276091869,
-  "judge_archive_bytes": 110656321,
-  "archive_files": 680,
+  "judge_archive_bytes": 110106768,
+  "archive_files": 651,
   "nested_judge_workbooks_scanned": 133,
   "personal_path_and_credential_pattern_hits": [],
   "source_73_zips_nested_scan": "passed prior to byte-preserving copy",
@@ -29,6 +29,8 @@
       "sha256": "17aa23610d25a84946f2f3627130d51ab8c9922fbffaf381e01caff118602e82",
       "authorization_sent": false
     },
-    "receipt": "../public-validation/anonymous-access-85d1808.json"
-  }
+    "receipt": "../public-validation/anonymous-access-85d1808.json",
+    "scope": "Earlier public version; latest package integrity and local replay are recorded separately."
+  },
+  "current_package_validation": "PACKAGE_VALIDATION.json"
 }

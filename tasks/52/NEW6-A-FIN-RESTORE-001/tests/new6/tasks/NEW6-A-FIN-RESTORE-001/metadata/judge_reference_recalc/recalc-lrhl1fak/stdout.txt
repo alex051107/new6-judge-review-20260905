@@ -1,1 +1,0 @@
-convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-lrhl1fak/input/growth_input_changed.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-lrhl1fak/output/growth_input_changed.xlsx using filter : Calc Office Open XML

@@ -1,0 +1,111 @@
+{
+  "api_calls": 0,
+  "checks": [
+    {
+      "id": "A1-reference",
+      "task": "A1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/A1-reference/judge-result.json"
+    },
+    {
+      "id": "A2-reference",
+      "task": "A2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/A2-reference/judge-result.json"
+    },
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/B1-reference/judge-result.json"
+    },
+    {
+      "id": "B2-reference",
+      "task": "B2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/B2-reference/judge-result.json"
+    },
+    {
+      "id": "C1-reference",
+      "task": "C1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/C1-reference/judge-result.json"
+    },
+    {
+      "id": "C2-reference",
+      "task": "C2",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "checks_passed": true,
+      "receipt": "run-1/C2-reference/judge-result.json"
+    }
+  ],
+  "consistency": [],
+  "all_assertions_passed": true,
+  "runtime": "runtime.txt"
+}

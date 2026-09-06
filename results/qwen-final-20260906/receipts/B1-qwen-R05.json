@@ -1,0 +1,1037 @@
+{
+  "case": "B1-qwen-R05",
+  "trial_id": "N6GPAR-B1-QWEN-R05__nvzJDsc",
+  "answer_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+  "judge_label": "new6-b1-reader-v2.6-precision-labelled-register",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "SCOREABLE_ARTIFACT_WITH_UPSTREAM_EXCEPTION",
+  "upstream_exception_type": "NonZeroAgentExitCodeError",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "SCORED",
+    "profile": "capability_first",
+    "normalized_score": "0.998",
+    "score_decimal": "0.998",
+    "pass": true,
+    "criterion_scores": {
+      "R001": "1.0",
+      "R002": "1.0",
+      "R003": "1.0",
+      "R004": "1.0",
+      "R005": "0.975",
+      "R006": "1.0",
+      "R007": "1.0",
+      "R008": "1.0"
+    },
+    "contributions_raw": {
+      "R001": "10.0",
+      "R002": "15.0",
+      "R003": "10.0",
+      "R004": "15.0",
+      "R005": "7.800",
+      "R006": "7.0",
+      "R007": "25.0",
+      "R008": "10.0"
+    },
+    "task_id": "NEW6-B-RETAIL-CLOSE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "SCORED",
+        "profile": "capability_first",
+        "normalized_score": "0.998",
+        "score_decimal": "0.998",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R004": "1.0",
+          "R005": "0.975",
+          "R006": "1.0",
+          "R007": "1.0",
+          "R008": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "15.0",
+          "R003": "10.0",
+          "R004": "15.0",
+          "R005": "7.800",
+          "R006": "7.0",
+          "R007": "25.0",
+          "R008": "10.0"
+        }
+      },
+      "balanced": {
+        "evaluation_status": "SCORED",
+        "profile": "balanced",
+        "normalized_score": "0.998",
+        "score_decimal": "0.998",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R004": "1.0",
+          "R005": "0.975",
+          "R006": "1.0",
+          "R007": "1.0",
+          "R008": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "15.0",
+          "R002": "15.0",
+          "R003": "15.0",
+          "R004": "10.0",
+          "R005": "7.800",
+          "R006": "7.0",
+          "R007": "20.0",
+          "R008": "10.0"
+        }
+      },
+      "ongoing_use": {
+        "evaluation_status": "SCORED",
+        "profile": "ongoing_use",
+        "normalized_score": "0.998",
+        "score_decimal": "0.998",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R004": "1.0",
+          "R005": "0.975",
+          "R006": "1.0",
+          "R007": "1.0",
+          "R008": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "12.0",
+          "R003": "10.0",
+          "R004": "15.0",
+          "R005": "7.800",
+          "R006": "10.0",
+          "R007": "20.0",
+          "R008": "15.0"
+        }
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "dynamic_tests": "not applicable; correct static accepted",
+      "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+      "bridge": {
+        "version": "new6-b1-v2",
+        "bridge_fact_count": 9,
+        "bridge_fact_results": {
+          "September net recorded value": true,
+          "Continuing SKU quantity effect": true,
+          "Continuing SKU price and mix effect": true,
+          "New SKU effect": true,
+          "Exited SKU effect": true,
+          "Signed credit change": true,
+          "October net recorded value": true,
+          "Net recorded value change": true,
+          "Bridge residual": true
+        },
+        "candidate_bridge_closure": [
+          true
+        ],
+        "sku_count": 3073,
+        "sku_fact_count": 27657,
+        "sku_mismatches": [],
+        "september_source_retained": true,
+        "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+        "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+        "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+      },
+      "candidate_tables": {
+        "records": [
+          {
+            "sheet": "Register-Oct file",
+            "header_row": 4,
+            "row_count": 64415
+          },
+          {
+            "sheet": "Register-Sep file",
+            "header_row": 4,
+            "row_count": 0
+          }
+        ],
+        "invoices": [
+          {
+            "sheet": "Invoices-October",
+            "header_row": 4,
+            "row_count": 2640
+          }
+        ],
+        "countries": [
+          {
+            "sheet": "Countries-October",
+            "header_row": 4,
+            "row_count": 43
+          }
+        ],
+        "queue": [
+          {
+            "sheet": "Exceptions-October",
+            "header_row": 4,
+            "row_count": 238
+          }
+        ],
+        "totals": [
+          {
+            "sheet": "Invoices-October",
+            "header_row": 4,
+            "row_count": 3
+          },
+          {
+            "sheet": "Summary",
+            "header_row": 6,
+            "row_count": 1
+          }
+        ],
+        "report": [
+          {
+            "sheet": "Bridge",
+            "header_row": 4,
+            "row_count": 13
+          },
+          {
+            "sheet": "Summary",
+            "header_row": 6,
+            "row_count": 2
+          },
+          {
+            "sheet": "explicit monetary/period views",
+            "header_row": null,
+            "row_count": 3
+          }
+        ],
+        "bridge": [
+          {
+            "sheet": "Summary",
+            "header_row": 18,
+            "row_count": 28
+          },
+          {
+            "sheet": "explicit labelled key/value claims",
+            "header_row": null,
+            "row_count": 0
+          },
+          {
+            "sheet": "Summary",
+            "header_row": 6,
+            "row_count": 0
+          },
+          {
+            "sheet": "explicit monetary/period views",
+            "header_row": null,
+            "row_count": 18
+          }
+        ],
+        "sku": [
+          {
+            "sheet": "SKU Schedule",
+            "header_row": 4,
+            "row_count": 3073
+          }
+        ]
+      },
+      "report_claims": {
+        "Gross sales": [
+          "1154979.3"
+        ],
+        "Signed credits": [
+          "-84274.63",
+          "-84274.63"
+        ],
+        "Net recorded value": [
+          "1070704.67",
+          "1070704.67",
+          "1,070,704.67"
+        ],
+        "Exception recorded amount": [],
+        "Source occurrences": [],
+        "In-scope occurrences": [],
+        "Outside-scope occurrences": [],
+        "Missing customer in scope": []
+      },
+      "report_fact_results": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "source_record_mismatches": [],
+      "outside_scope_facts_recovered_from_retained_input": {
+        "class": "outside_scope",
+        "count": 3673,
+        "amount": "72734.40",
+        "_source": "preserved candidate input and explicit October reporting scope"
+      },
+      "country_counts_recovered_from_candidate_detail": [],
+      "candidate_country_self_consistency": "1.0",
+      "source_protection": [
+        true
+      ],
+      "source_protection_method": "exact byte identity fast-path",
+      "source_linked_output_rows": 0,
+      "chart_cache_self_consistency": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "chart_evidence": [
+        {
+          "titles": [
+            "Change in net recorded value: September -> October 2011 (GBP)",
+            "bridge"
+          ],
+          "series": [
+            {
+              "name": "GBP",
+              "categories": [
+                "September net recorded value",
+                "Continuing SKU quantity effect",
+                "Continuing SKU price and mix effect",
+                "New SKU effect",
+                "Exited SKU effect",
+                "Signed credit change",
+                "October net recorded value"
+              ],
+              "values": [
+                "1019687.62",
+                "44947.32",
+                "-39397.55",
+                "98404.21",
+                "-7564.85",
+                "-45372.08",
+                "1070704.67"
+              ]
+            }
+          ],
+          "chart": "xl/media/image1.png",
+          "visual_sha256": "541f4bfc9baf51f8ad3cf6f3dcbdf569d82ff0b2286057abfc8cad46722ecc73",
+          "visual_receipt": "metadata/reader_v23/visual_claims.json"
+        },
+        {
+          "titles": [
+            "October 2011 - top 8 countries by net recorded value (GBP)"
+          ],
+          "series": [
+            {
+              "name": "Ordinary sales",
+              "categories": [
+                "United Kingdom",
+                "Netherlands",
+                "Germany",
+                "France",
+                "EIRE",
+                "Australia",
+                "Switzerland",
+                "Sweden"
+              ],
+              "values": [
+                936735,
+                39796,
+                31633,
+                32653,
+                23469,
+                16327,
+                7143,
+                5102
+              ],
+              "display_tolerance": "2500"
+            },
+            {
+              "name": "Credits (signed)",
+              "categories": [
+                "United Kingdom",
+                "Netherlands",
+                "Germany",
+                "France",
+                "EIRE",
+                "Australia",
+                "Switzerland",
+                "Sweden"
+              ],
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "display_tolerance": ".005",
+              "failure_evidence": "All negative credit bars clipped outside x-axis starting at zero; values intentionally not inferred."
+            },
+            {
+              "name": "Net",
+              "categories": [
+                "United Kingdom",
+                "Netherlands",
+                "Germany",
+                "France",
+                "EIRE",
+                "Australia",
+                "Switzerland",
+                "Sweden"
+              ],
+              "values": [
+                "877438.19",
+                "40708.65",
+                "30614.27",
+                "25032.04",
+                "23307.62",
+                "17150.53",
+                "8033.98",
+                "5766.16"
+              ]
+            }
+          ],
+          "chart": "xl/media/image2.png",
+          "visual_sha256": "1c7a27eac3b798b73a7f7c4822255679cf17198c4830ba37cf91be5464fa63da",
+          "visual_receipt": "metadata/reader_v23/visual_claims.json"
+        },
+        {
+          "titles": [
+            "October 2011 - daily net recorded value (sales + credits), no weekend trading (GBP)"
+          ],
+          "series": [
+            {
+              "name": "Net",
+              "categories": [
+                "2011-10-02",
+                "2011-10-03",
+                "2011-10-04",
+                "2011-10-05",
+                "2011-10-06",
+                "2011-10-07",
+                "2011-10-09",
+                "2011-10-10",
+                "2011-10-11",
+                "2011-10-12",
+                "2011-10-13",
+                "2011-10-14",
+                "2011-10-16",
+                "2011-10-17",
+                "2011-10-18",
+                "2011-10-19",
+                "2011-10-20",
+                "2011-10-21",
+                "2011-10-23",
+                "2011-10-24",
+                "2011-10-25",
+                "2011-10-26",
+                "2011-10-27",
+                "2011-10-28",
+                "2011-10-30",
+                "2011-10-31"
+              ],
+              "values": [
+                11667,
+                64167,
+                48500,
+                75083,
+                54917,
+                47500,
+                12417,
+                44333,
+                38333,
+                29417,
+                37167,
+                35333,
+                21833,
+                47167,
+                44750,
+                36083,
+                60917,
+                63000,
+                12833,
+                38500,
+                40833,
+                37917,
+                47500,
+                39667,
+                34500,
+                48500
+              ],
+              "display_tolerance": "1000"
+            }
+          ],
+          "chart": "xl/media/image3.png",
+          "visual_sha256": "690dc40bf80852ad463b32bb4827dbdbed2ec67fc3ff05b703d88279dfb50c45",
+          "visual_receipt": "metadata/reader_v23/visual_claims.json"
+        }
+      ],
+      "chart_semantic_bindings": [
+        {
+          "chart": "xl/media/image1.png",
+          "name": "GBP",
+          "binding": [
+            {
+              "category": "September net recorded value",
+              "role": "bridge:September net recorded value",
+              "expected": "1019687.622"
+            },
+            {
+              "category": "Continuing SKU quantity effect",
+              "role": "bridge:Continuing SKU quantity effect",
+              "expected": "44947.3182539216640799958246319340036234498"
+            },
+            {
+              "category": "Continuing SKU price and mix effect",
+              "role": "bridge:Continuing SKU price and mix effect",
+              "expected": "-39397.5492539216640799958246319340036234498"
+            },
+            {
+              "category": "New SKU effect",
+              "role": "bridge:New SKU effect",
+              "expected": "98404.21"
+            },
+            {
+              "category": "Exited SKU effect",
+              "role": "bridge:Exited SKU effect",
+              "expected": "-7564.851"
+            },
+            {
+              "category": "Signed credit change",
+              "role": "bridge:Signed credit change",
+              "expected": "-45372.08"
+            },
+            {
+              "category": "October net recorded value",
+              "role": "bridge:October net recorded value",
+              "expected": "1070704.67"
+            }
+          ],
+          "display_tolerance": "0.005",
+          "values": [
+            "1019687.62",
+            "44947.32",
+            "-39397.55",
+            "98404.21",
+            "-7564.85",
+            "-45372.08",
+            "1070704.67"
+          ],
+          "facts": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "chart": "xl/media/image2.png",
+          "name": "Ordinary sales",
+          "binding": [
+            {
+              "category": "United Kingdom",
+              "role": "country:United Kingdom:sale",
+              "expected": "938975.01"
+            },
+            {
+              "category": "Netherlands",
+              "role": "country:Netherlands:sale",
+              "expected": "40708.65"
+            },
+            {
+              "category": "Germany",
+              "role": "country:Germany:sale",
+              "expected": "31638.42"
+            },
+            {
+              "category": "France",
+              "role": "country:France:sale",
+              "expected": "33485.45"
+            },
+            {
+              "category": "EIRE",
+              "role": "country:EIRE:sale",
+              "expected": "24317.92"
+            },
+            {
+              "category": "Australia",
+              "role": "country:Australia:sale",
+              "expected": "17150.53"
+            },
+            {
+              "category": "Switzerland",
+              "role": "country:Switzerland:sale",
+              "expected": "8065.18"
+            },
+            {
+              "category": "Sweden",
+              "role": "country:Sweden:sale",
+              "expected": "5766.16"
+            }
+          ],
+          "display_tolerance": "2500",
+          "values": [
+            936735,
+            39796,
+            31633,
+            32653,
+            23469,
+            16327,
+            7143,
+            5102
+          ],
+          "facts": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "chart": "xl/media/image2.png",
+          "name": "Credits (signed)",
+          "binding": [
+            {
+              "category": "United Kingdom",
+              "role": "country:United Kingdom:credit",
+              "expected": "-61536.82"
+            },
+            {
+              "category": "Netherlands",
+              "role": "country:Netherlands:credit",
+              "expected": "0"
+            },
+            {
+              "category": "Germany",
+              "role": "country:Germany:credit",
+              "expected": "-1024.15"
+            },
+            {
+              "category": "France",
+              "role": "country:France:credit",
+              "expected": "-8453.41"
+            },
+            {
+              "category": "EIRE",
+              "role": "country:EIRE:credit",
+              "expected": "-1010.30"
+            },
+            {
+              "category": "Australia",
+              "role": "country:Australia:credit",
+              "expected": "0"
+            },
+            {
+              "category": "Switzerland",
+              "role": "country:Switzerland:credit",
+              "expected": "-31.20"
+            },
+            {
+              "category": "Sweden",
+              "role": "country:Sweden:credit",
+              "expected": "0"
+            }
+          ],
+          "display_tolerance": "0.005",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "facts": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "chart": "xl/media/image2.png",
+          "name": "Net",
+          "binding": [
+            {
+              "category": "United Kingdom",
+              "role": "country:United Kingdom:net",
+              "expected": "877438.19"
+            },
+            {
+              "category": "Netherlands",
+              "role": "country:Netherlands:net",
+              "expected": "40708.65"
+            },
+            {
+              "category": "Germany",
+              "role": "country:Germany:net",
+              "expected": "30614.27"
+            },
+            {
+              "category": "France",
+              "role": "country:France:net",
+              "expected": "25032.04"
+            },
+            {
+              "category": "EIRE",
+              "role": "country:EIRE:net",
+              "expected": "23307.62"
+            },
+            {
+              "category": "Australia",
+              "role": "country:Australia:net",
+              "expected": "17150.53"
+            },
+            {
+              "category": "Switzerland",
+              "role": "country:Switzerland:net",
+              "expected": "8033.98"
+            },
+            {
+              "category": "Sweden",
+              "role": "country:Sweden:net",
+              "expected": "5766.16"
+            }
+          ],
+          "display_tolerance": "0.005",
+          "values": [
+            "877438.19",
+            "40708.65",
+            "30614.27",
+            "25032.04",
+            "23307.62",
+            "17150.53",
+            "8033.98",
+            "5766.16"
+          ],
+          "facts": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "chart": "xl/media/image3.png",
+          "name": "Net",
+          "binding": [
+            {
+              "category": "2011-10-02",
+              "role": "daily_net:2011-10-02",
+              "expected": "11623.58"
+            },
+            {
+              "category": "2011-10-03",
+              "role": "daily_net:2011-10-03",
+              "expected": "64214.78"
+            },
+            {
+              "category": "2011-10-04",
+              "role": "daily_net:2011-10-04",
+              "expected": "48240.84"
+            },
+            {
+              "category": "2011-10-05",
+              "role": "daily_net:2011-10-05",
+              "expected": "75244.43"
+            },
+            {
+              "category": "2011-10-06",
+              "role": "daily_net:2011-10-06",
+              "expected": "55306.28"
+            },
+            {
+              "category": "2011-10-07",
+              "role": "daily_net:2011-10-07",
+              "expected": "47538.02"
+            },
+            {
+              "category": "2011-10-09",
+              "role": "daily_net:2011-10-09",
+              "expected": "11922.24"
+            },
+            {
+              "category": "2011-10-10",
+              "role": "daily_net:2011-10-10",
+              "expected": "44265.89"
+            },
+            {
+              "category": "2011-10-11",
+              "role": "daily_net:2011-10-11",
+              "expected": "38267.75"
+            },
+            {
+              "category": "2011-10-12",
+              "role": "daily_net:2011-10-12",
+              "expected": "29302.85"
+            },
+            {
+              "category": "2011-10-13",
+              "role": "daily_net:2011-10-13",
+              "expected": "37067.17"
+            },
+            {
+              "category": "2011-10-14",
+              "role": "daily_net:2011-10-14",
+              "expected": "35225.54"
+            },
+            {
+              "category": "2011-10-16",
+              "role": "daily_net:2011-10-16",
+              "expected": "21605.44"
+            },
+            {
+              "category": "2011-10-17",
+              "role": "daily_net:2011-10-17",
+              "expected": "47064.14"
+            },
+            {
+              "category": "2011-10-18",
+              "role": "daily_net:2011-10-18",
+              "expected": "44637.84"
+            },
+            {
+              "category": "2011-10-19",
+              "role": "daily_net:2011-10-19",
+              "expected": "36003.43"
+            },
+            {
+              "category": "2011-10-20",
+              "role": "daily_net:2011-10-20",
+              "expected": "60793.14"
+            },
+            {
+              "category": "2011-10-21",
+              "role": "daily_net:2011-10-21",
+              "expected": "62961.26"
+            },
+            {
+              "category": "2011-10-23",
+              "role": "daily_net:2011-10-23",
+              "expected": "12302.41"
+            },
+            {
+              "category": "2011-10-24",
+              "role": "daily_net:2011-10-24",
+              "expected": "38407.72"
+            },
+            {
+              "category": "2011-10-25",
+              "role": "daily_net:2011-10-25",
+              "expected": "40807.49"
+            },
+            {
+              "category": "2011-10-26",
+              "role": "daily_net:2011-10-26",
+              "expected": "37842.08"
+            },
+            {
+              "category": "2011-10-27",
+              "role": "daily_net:2011-10-27",
+              "expected": "47480.15"
+            },
+            {
+              "category": "2011-10-28",
+              "role": "daily_net:2011-10-28",
+              "expected": "39559.47"
+            },
+            {
+              "category": "2011-10-30",
+              "role": "daily_net:2011-10-30",
+              "expected": "34545.28"
+            },
+            {
+              "category": "2011-10-31",
+              "role": "daily_net:2011-10-31",
+              "expected": "48475.45"
+            }
+          ],
+          "display_tolerance": "1000",
+          "values": [
+            11667,
+            64167,
+            48500,
+            75083,
+            54917,
+            47500,
+            12417,
+            44333,
+            38333,
+            29417,
+            37167,
+            35333,
+            21833,
+            47167,
+            44750,
+            36083,
+            60917,
+            63000,
+            12833,
+            38500,
+            40833,
+            37917,
+            47500,
+            39667,
+            34500,
+            48500
+          ],
+          "facts": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "denominators": {
+        "source_occurrences": 64415,
+        "mandatory_delivered_in_scope_occurrences": 60742,
+        "outside_scope_occurrences_may_remain_in_original_input": 3673,
+        "invoice_class_groups": 2640,
+        "country_class_groups": 43,
+        "queue_occurrences": 238,
+        "raw_business_facts_direct_or_source_linked": 515320
+      },
+      "external_acceptance_gaps": [
+        "No external negative-item/agentic parser acceptance claimed",
+        "Calibration mutants are not natural Agent failures"
+      ]
+    },
+    "reader_v26_evidence": {
+      "recognized_narrative_formulas": [],
+      "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+      "source_amounts_unchanged": true,
+      "business_views": {
+        "monetary_bindings": [
+          {
+            "sheet": "Summary",
+            "label": "(1) Quantity, continuing SKUs",
+            "amount_cell": "Summary!C19",
+            "role": "Continuing SKU quantity effect"
+          },
+          {
+            "sheet": "Summary",
+            "label": "(2) Price & transaction mix, continuing SKUs",
+            "amount_cell": "Summary!C20",
+            "role": "Continuing SKU price and mix effect"
+          },
+          {
+            "sheet": "Summary",
+            "label": "(3) New SKUs",
+            "amount_cell": "Summary!C21",
+            "role": "New SKU effect"
+          },
+          {
+            "sheet": "Summary",
+            "label": "(4) Exited SKUs",
+            "amount_cell": "Summary!C22",
+            "role": "Exited SKU effect"
+          },
+          {
+            "sheet": "Summary",
+            "label": "(5) Credits (Oct signed - Sep signed)",
+            "amount_cell": "Summary!C23",
+            "role": "Signed credit change"
+          },
+          {
+            "sheet": "Summary",
+            "label": "Total change (Oct net - Sep net)",
+            "amount_cell": "Summary!C24",
+            "role": "Net recorded value change"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "September 2011 net recorded value",
+            "amount_cell": "Bridge!B5",
+            "role": "September net recorded value"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "(1) Quantity contribution - continuing SKUs",
+            "amount_cell": "Bridge!B7",
+            "role": "Continuing SKU quantity effect"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "(2) Price & transaction-mix contribution - continuing SKUs",
+            "amount_cell": "Bridge!B8",
+            "role": "Continuing SKU price and mix effect"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "(3) New SKUs (October only)",
+            "amount_cell": "Bridge!B9",
+            "role": "New SKU effect"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "(4) Exited SKUs (September only)",
+            "amount_cell": "Bridge!B10",
+            "role": "Exited SKU effect"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "(5) Credits change (Oct signed - Sep signed)",
+            "amount_cell": "Bridge!B11",
+            "role": "Signed credit change"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "October 2011 net recorded value",
+            "amount_cell": "Bridge!B13",
+            "role": "October net recorded value"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "Total change (Oct net - Sep net)",
+            "amount_cell": "Bridge!B15",
+            "role": "Net recorded value change"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "Sum of contributions (1)-(5)",
+            "amount_cell": "Bridge!B16",
+            "role": "Net recorded value change"
+          },
+          {
+            "sheet": "Bridge",
+            "label": "Reconciliation difference",
+            "amount_cell": "Bridge!B17",
+            "role": "Bridge residual"
+          }
+        ],
+        "bound_bridge_claims": 18,
+        "bound_report_claims": 3,
+        "traceability": {
+          "applied": false,
+          "reason": "explicit classified rows supplied"
+        }
+      }
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "original_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true,
+    "sample_countable": true
+  },
+  "current_60_points": "99.8769230769230769230769230769230769230769230769230769230769",
+  "current_60_pass": true
+}

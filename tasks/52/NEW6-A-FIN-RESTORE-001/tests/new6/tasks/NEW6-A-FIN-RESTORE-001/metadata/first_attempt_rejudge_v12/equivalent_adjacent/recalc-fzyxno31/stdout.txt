@@ -1,1 +1,0 @@
-convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/input/discount_input_changed.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/output/discount_input_changed.xlsx using filter : Calc Office Open XML

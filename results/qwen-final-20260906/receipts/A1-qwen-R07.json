@@ -1,0 +1,292 @@
+{
+  "case": "A1-qwen-R07",
+  "trial_id": "N6GPAR-A1-QWEN-R07__D2QzaFa",
+  "answer_sha256": "f9059da03472528d17e1af03089e56c60518a06ace8a4a8822951a20b0785c07",
+  "judge_label": "new6-a1-v1.3-proven-formula-defects",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "TERMINAL_ARTIFACT_WITHOUT_RECORDED_EXCEPTION",
+  "upstream_exception_type": "",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "SCORED",
+    "profile": "capability_first",
+    "normalized_score": "0.99",
+    "score_decimal": "0.99",
+    "pass": true,
+    "criterion_scores": {
+      "R001": "1.0",
+      "R002": "1.0",
+      "R003": "1.0",
+      "R006": "0.8",
+      "R004": "1.0",
+      "R005": "1.0"
+    },
+    "contributions_raw": {
+      "R001": "10.0",
+      "R002": "25.0",
+      "R003": "20.0",
+      "R004": "35.0",
+      "R005": "5.0",
+      "R006": "4.0"
+    },
+    "task_id": "NEW6-A-FIN-RESTORE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "SCORED",
+        "profile": "capability_first",
+        "normalized_score": "0.99",
+        "score_decimal": "0.99",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R006": "0.8",
+          "R004": "1.0",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "25.0",
+          "R003": "20.0",
+          "R004": "35.0",
+          "R005": "5.0",
+          "R006": "4.0"
+        }
+      },
+      "balanced": {
+        "evaluation_status": "SCORED",
+        "profile": "balanced",
+        "normalized_score": "0.99",
+        "score_decimal": "0.99",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R006": "0.8",
+          "R004": "1.0",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "15.0",
+          "R002": "25.0",
+          "R003": "25.0",
+          "R004": "25.0",
+          "R005": "5.0",
+          "R006": "4.0"
+        }
+      },
+      "ongoing_use": {
+        "evaluation_status": "SCORED",
+        "profile": "ongoing_use",
+        "normalized_score": "0.99",
+        "score_decimal": "0.99",
+        "pass": true,
+        "criterion_scores": {
+          "R001": "1.0",
+          "R002": "1.0",
+          "R003": "1.0",
+          "R006": "0.8",
+          "R004": "1.0",
+          "R005": "1.0"
+        },
+        "contributions_raw": {
+          "R001": "10.0",
+          "R002": "20.0",
+          "R003": "20.0",
+          "R004": "40.0",
+          "R005": "5.0",
+          "R006": "4.0"
+        }
+      }
+    },
+    "evidence": {
+      "candidate": "[runtime path]",
+      "judge_version": "new6-a1-v1.3-proven-formula-defects",
+      "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+      "baseline_mismatches": [],
+      "baseline_denominators": {
+        "R001": 21,
+        "R002": 132,
+        "R003": 142,
+        "R006": 5
+      },
+      "summary_checks": {
+        "base_equity": true,
+        "review_equity": true,
+        "difference": false,
+        "base_share": true,
+        "review_share": true
+      },
+      "candidate_formula_defects": [],
+      "native_baseline": {
+        "source": "[runtime path]",
+        "source_sha256_before": "f9059da03472528d17e1af03089e56c60518a06ace8a4a8822951a20b0785c07",
+        "isolated_input": "[runtime path]",
+        "engine": "/usr/bin/soffice",
+        "command": [
+          "/usr/bin/soffice",
+          "-env:UserInstallation=file://[runtime path]",
+          "--headless",
+          "--convert-to",
+          "xlsx",
+          "--outdir",
+          "[runtime path]",
+          "[runtime path]"
+        ],
+        "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+        "cleared_formula_cache_count": 1075,
+        "isolated_input_sha256": "425cc0dda218d14ab80cf510664d36478b72725aafa9c5270e3e623092bd024b",
+        "returncode": 0,
+        "output": "[runtime path]",
+        "output_sha256": "8bc2967723e3867cafc27ebd0e8ff796dd7dcb2b485cb996bb5f03082a08b8ce",
+        "elapsed_seconds": "0.9447528750170022",
+        "source_sha256_after": "f9059da03472528d17e1af03089e56c60518a06ace8a4a8822951a20b0785c07",
+        "original_unchanged": true
+      },
+      "dynamic_tests": [
+        {
+          "control": "growth",
+          "input_change": "0.01",
+          "sheet": "Input sheet",
+          "cell": "B23",
+          "active_fact_count": 168,
+          "active_correct": 168,
+          "mismatches": [],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "3f71dc9da8b3cf6052e5b05474be6d7b123882575beb2d0f6559919dba098aac",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "778b4bc2fc0db4f7afb23f46da45b6c2470dabd12396e89d93abd9830f644502",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "7539881980bf8adeeb0b1d9a14561d5095736a9c4ac816da349a4754b79998e6",
+            "elapsed_seconds": "0.898212168016471",
+            "source_sha256_after": "3f71dc9da8b3cf6052e5b05474be6d7b123882575beb2d0f6559919dba098aac",
+            "original_unchanged": true
+          }
+        },
+        {
+          "control": "margin",
+          "input_change": "-0.01",
+          "sheet": "Input sheet",
+          "cell": "B24",
+          "active_fact_count": 130,
+          "active_correct": 130,
+          "mismatches": [],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "95a72516164dcee34d04be5e6265caa52f6c07619a71ae0a739803f30939e0bd",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "4826da7e50943ca7c8d900675d3fdf8a64bb55ac599874fcc42118cf11eb3fa2",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "2bed41a44b9a3c25511f68399b02444bc164b8ab62bbc0cc290366946504bfd5",
+            "elapsed_seconds": "0.9194030009966809",
+            "source_sha256_after": "95a72516164dcee34d04be5e6265caa52f6c07619a71ae0a739803f30939e0bd",
+            "original_unchanged": true
+          }
+        },
+        {
+          "control": "discount",
+          "input_change": "0.005",
+          "sheet": "Input sheet",
+          "cell": "B29",
+          "active_fact_count": 74,
+          "active_correct": 74,
+          "mismatches": [],
+          "native_receipt": {
+            "source": "[runtime path]",
+            "source_sha256_before": "15d48170ed3de695c56330f51eba67670a2ce2ed42bc12c75e6de917f11f00ef",
+            "isolated_input": "[runtime path]",
+            "engine": "/usr/bin/soffice",
+            "command": [
+              "/usr/bin/soffice",
+              "-env:UserInstallation=file://[runtime path]",
+              "--headless",
+              "--convert-to",
+              "xlsx",
+              "--outdir",
+              "[runtime path]",
+              "[runtime path]"
+            ],
+            "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+            "cleared_formula_cache_count": 0,
+            "isolated_input_sha256": "5a0e1682f5d0c59ea622966e6acf0273ebd16ef9bce8c22e3274c78485f54ad5",
+            "returncode": 0,
+            "output": "[runtime path]",
+            "output_sha256": "f74fa8c7399b3acec68873cc34670ffb33469af9f774c117fc970048704d7593",
+            "elapsed_seconds": "0.9374770840222482",
+            "source_sha256_after": "15d48170ed3de695c56330f51eba67670a2ce2ed42bc12c75e6de917f11f00ef",
+            "original_unchanged": true
+          }
+        }
+      ],
+      "source_original_business_facts_preserved": true,
+      "zero_delta_invariance_count": 504,
+      "zero_delta_invariance_correct": 504,
+      "active_response_count": 372,
+      "candidate_tables": [
+        {
+          "sheet": "Valuation output",
+          "orientation": "years_in_columns",
+          "case": "base",
+          "header_row": 1,
+          "left_column": 1,
+          "right_column": 13,
+          "binding": "candidate consecutive year block plus local case/metric labels"
+        },
+        {
+          "sheet": "Valuation output (review)",
+          "orientation": "years_in_columns",
+          "case": "review",
+          "header_row": 1,
+          "left_column": 1,
+          "right_column": 13,
+          "binding": "candidate consecutive year block plus local case/metric labels"
+        }
+      ],
+      "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+      "formal_difficulty_verified": false
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "original_sha256": "f9059da03472528d17e1af03089e56c60518a06ace8a4a8822951a20b0785c07",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true,
+    "sample_countable": true
+  },
+  "current_60_points": "99.3846153846153846153846153846153846153846153846153846153846",
+  "current_60_pass": true
+}

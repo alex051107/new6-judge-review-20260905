@@ -158,8 +158,7 @@
     "concentrated_structure_category_runs": 1,
     "harbor_config_import_invocations": 1,
     "score_runner_invocations": 0,
-    "hash_invocations": 0,
-    "subagents": 0
+    "hash_invocations": 0
   },
   "fix_status": "Findings describe inspected snapshot; packaging fixes owned by lead agent and require targeted readback."
 }

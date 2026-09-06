@@ -1,0 +1,68 @@
+{
+  "case": "B2-qwen-R04",
+  "trial_id": "N6GPAR-B2-QWEN-R04__H9x2kVV",
+  "answer_sha256": "a66e036758bf52ab97bb35fcc781b439b07737156b298810d535732654b0f3a8",
+  "judge_label": "new6-b2-three-release-v3.3-authority-chart-series",
+  "judge_file_manifest": "../judge-files.json",
+  "generation_outcome_kind": "TERMINAL_ARTIFACT_WITHOUT_RECORDED_EXCEPTION",
+  "upstream_exception_type": "",
+  "difficulty_sample_certified": false,
+  "receipt": {
+    "evaluation_status": "JUDGE_ERROR",
+    "profile": "capability_first",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": null,
+    "sample_countable": false,
+    "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+    "task_id": "NEW6-B-LABOUR-BRIEF-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "capability_first",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "balanced": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "balanced",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      },
+      "ongoing_use": {
+        "evaluation_status": "JUDGE_ERROR",
+        "profile": "ongoing_use",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": null,
+        "sample_countable": false,
+        "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+      }
+    },
+    "evidence": {
+      "task_version": "new6-b2-three-release-v3",
+      "judge_version": "new6-b2-three-release-v3.3-authority-chart-series",
+      "candidate": "[runtime path]",
+      "dynamic_tests": "Not required; correct static and formula implementations equally accepted.",
+      "reason": "Current chart metric/period label cannot be bound.",
+      "series_name": "Unemp chg 1st cmp (pp)"
+    },
+    "reproduction": {
+      "task_root": "tasks/NEW6-B-LABOUR-BRIEF-001",
+      "original_sha256": "a66e036758bf52ab97bb35fcc781b439b07737156b298810d535732654b0f3a8",
+      "original_unchanged": true,
+      "native_preprocessing": null,
+      "api_calls": 0
+    },
+    "harbor_transport_reward_is_not_status": true
+  },
+  "current_60_points": null,
+  "current_60_pass": null
+}
