@@ -1,0 +1,11 @@
+{
+  "records": 54,
+  "scored": 29,
+  "pending_null": 25,
+  "original_and_60_parity": "54/54 exact at recorded 48-digit representation",
+  "receipt_original_tolerance": "1e-24",
+  "agent_calls": 0,
+  "judge_calls": 0,
+  "api_calls": 0,
+  "default_focus_weight": "0.60"
+}

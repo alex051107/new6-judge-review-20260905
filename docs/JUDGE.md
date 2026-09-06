@@ -1,5 +1,8 @@
 # 判分如何进行
 
+本页记录基线题包的业务判据与原权重。当前展示口径保留这些分项事实，再按[能力配重](../results/weight-sensitivity-v1/weights.json)汇总；[逐次Judge身份和来源](../results/weight-sensitivity-v1/SOURCE_NOTES.md)随结果记录。
+
+
 业务判分采用确定性程序，未使用LLM Judge。
 
 ```mermaid
