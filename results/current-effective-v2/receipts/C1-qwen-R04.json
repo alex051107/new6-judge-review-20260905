@@ -1,0 +1,10 @@
+{
+  "case": "C1-qwen-R04",
+  "trial_id": "N6GPAR-C1-QWEN-R04__tFc9yNi",
+  "answer_sha256": "226c99d652f9f4a8bec8e51aac9ba0d612406fcd95b7196efe2c9bbc5275e376",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": null,
+  "evaluation_status": "JUDGE_ERROR",
+  "criterion_scores": null,
+  "technical_reason": "A material candidate table remains unbound: ['Reconciliation', 'Source References']"
+}

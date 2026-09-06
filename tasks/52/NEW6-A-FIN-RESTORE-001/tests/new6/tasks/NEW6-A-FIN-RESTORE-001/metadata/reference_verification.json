@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "native_receipt": {
+    "source": "new6/tasks/NEW6-A-FIN-RESTORE-001/solution/reference_unrecalculated.xlsx",
+    "source_sha256_before": "4b035593a5d42adecc6b51cc741af9ad3fe9a8771f6a3da70066c85fccb224a8",
+    "isolated_input": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/input/reference_unrecalculated.xlsx",
+    "engine": "/opt/homebrew/bin/soffice",
+    "command": [
+      "/opt/homebrew/bin/soffice",
+      "-env:UserInstallation=file://new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/profile",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/output",
+      "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/input/reference_unrecalculated.xlsx"
+    ],
+    "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+    "cleared_formula_cache_count": 0,
+    "isolated_input_sha256": "9928f8cae142f74a7f53b00843f0e3809167165c5cd0b55dfdb1bc7e16ab21f5",
+    "returncode": 0,
+    "output": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/output/reference_unrecalculated.xlsx",
+    "output_sha256": "f9729f492c85d06b2071eadb323f7043ca7b999c51c13638ad840aca3f8a5149",
+    "elapsed_seconds": 3.581974041997455,
+    "source_sha256_after": "4b035593a5d42adecc6b51cc741af9ad3fe9a8771f6a3da70066c85fccb224a8",
+    "original_unchanged": true
+  },
+  "oracle_cases": [
+    "base",
+    "margin_minus_2pp"
+  ],
+  "comparison": "all annual revenue/margin/ebit/nopat/reinvestment/fcff and common equity"
+}

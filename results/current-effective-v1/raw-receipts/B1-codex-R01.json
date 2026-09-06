@@ -1,0 +1,633 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.9975,
+  "score_decimal": "0.99750",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 0.96875,
+    "R006": 1.0,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "15.0",
+    "R003": "10.0",
+    "R004": "15.0",
+    "R005": "7.75000",
+    "R006": "7.0",
+    "R007": "25.0",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.9975,
+      "score_decimal": "0.99750",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 0.96875,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "15.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "7.75000",
+        "R006": "7.0",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.9975,
+      "score_decimal": "0.99750",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 0.96875,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "15.0",
+        "R003": "15.0",
+        "R004": "10.0",
+        "R005": "7.75000",
+        "R006": "7.0",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9975,
+      "score_decimal": "0.99750",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 0.96875,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "12.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "7.75000",
+        "R006": "10.0",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/app/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": true,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": true,
+        "Net recorded value change": true,
+        "Bridge residual": true
+      },
+      "candidate_bridge_closure": [
+        true
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [
+        {
+          "sheet": "Transaction Detail",
+          "header_row": 1,
+          "row_count": 64415
+        },
+        {
+          "sheet": "September Detail",
+          "header_row": 1,
+          "row_count": 0
+        }
+      ],
+      "invoices": [
+        {
+          "sheet": "Invoice Analysis",
+          "header_row": 4,
+          "row_count": 2640
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "Country Analysis",
+          "header_row": 4,
+          "row_count": 43
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "Exception Register",
+          "header_row": 1,
+          "row_count": 238
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "Reconciliation",
+          "header_row": 4,
+          "row_count": 3
+        }
+      ],
+      "report": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 7,
+          "row_count": 3
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 19,
+          "row_count": 3
+        },
+        {
+          "sheet": "Reconciliation",
+          "header_row": 4,
+          "row_count": 4
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 4
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 7,
+          "row_count": 5
+        },
+        {
+          "sheet": "Bridge",
+          "header_row": 4,
+          "row_count": 11
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 7,
+          "row_count": 2
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 19,
+          "row_count": 2
+        },
+        {
+          "sheet": "Reconciliation",
+          "header_row": 4,
+          "row_count": 2
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 0
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "SKU Schedule",
+          "header_row": 4,
+          "row_count": 3073
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3,
+        1154979.3,
+        1154979.3,
+        1154979.3,
+        1154979.3,
+        "1,154,979.30",
+        "1,154,979.30"
+      ],
+      "Signed credits": [
+        -84274.63,
+        -84274.63,
+        -84274.63,
+        -84274.63,
+        -84274.63
+      ],
+      "Net recorded value": [
+        1070704.67,
+        1070704.67,
+        1070704.67,
+        "1,070,704.67",
+        "1,070,704.67"
+      ],
+      "Exception recorded amount": [
+        0
+      ],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [],
+    "candidate_country_self_consistency": 1.0,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 0,
+    "chart_cache_self_consistency": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "titles": [
+          "September vs October recorded value",
+          "Month",
+          "GBP"
+        ],
+        "series": [
+          {
+            "name": "September",
+            "categories": [
+              "Sales",
+              "Credits",
+              "Net"
+            ],
+            "categories_cache": [],
+            "categories_reference": "'Management Summary'!$A$20:$A$22",
+            "values": [
+              1058590.172,
+              -38902.55,
+              1019687.622
+            ],
+            "values_cache": [],
+            "values_reference": "'Management Summary'!$B$20:$B$22"
+          },
+          {
+            "name": "October",
+            "categories": [
+              "Sales",
+              "Credits",
+              "Net"
+            ],
+            "categories_cache": [],
+            "categories_reference": "'Management Summary'!$A$20:$A$22",
+            "values": [
+              1154979.3,
+              -84274.63,
+              1070704.67
+            ],
+            "values_cache": [],
+            "values_reference": "'Management Summary'!$C$20:$C$22"
+          }
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "titles": [
+          "Top countries by October net",
+          "GBP"
+        ],
+        "series": [
+          {
+            "name": "Net recorded GBP",
+            "categories": [
+              "United Kingdom",
+              "Netherlands",
+              "Germany",
+              "France",
+              "EIRE",
+              "Australia",
+              "Switzerland",
+              "Sweden"
+            ],
+            "categories_cache": [],
+            "categories_reference": "'Management Summary'!$F$21:$F$28",
+            "values": [
+              877438.19,
+              40708.65,
+              30614.27,
+              25032.04,
+              23307.62,
+              17150.53,
+              8033.98,
+              5766.16
+            ],
+            "values_cache": [],
+            "values_reference": "'Management Summary'!$G$21:$G$28"
+          }
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "titles": [
+          "Bridge contributions (GBP)",
+          "GBP",
+          "Component"
+        ],
+        "series": [
+          {
+            "name": "",
+            "categories": [
+              "Bridge component",
+              "Quantity contribution (continuing SKUs)",
+              "Price / transaction-mix contribution (continuing SKUs)",
+              "New SKU contribution",
+              "Exited SKU contribution"
+            ],
+            "categories_cache": [],
+            "categories_reference": "'Bridge'!$A$4:$A$8",
+            "values": [
+              "GBP",
+              44947.31825392167,
+              -39397.54925392166,
+              98404.21,
+              -7564.851
+            ],
+            "values_cache": [],
+            "values_reference": "'Bridge'!$B$4:$B$8"
+          }
+        ]
+      }
+    ],
+    "chart_semantic_bindings": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "name": "September",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:sep:sale",
+            "expected": "1058590.172"
+          },
+          {
+            "category": "Credits",
+            "role": "period:sep:credit",
+            "expected": "-38902.55"
+          },
+          {
+            "category": "Net",
+            "role": "period:sep:net",
+            "expected": "1019687.622"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1058590.172,
+          -38902.55,
+          1019687.622
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart1.xml",
+        "name": "October",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:oct:sale",
+            "expected": "1154979.30"
+          },
+          {
+            "category": "Credits",
+            "role": "period:oct:credit",
+            "expected": "-84274.63"
+          },
+          {
+            "category": "Net",
+            "role": "period:oct:net",
+            "expected": "1070704.67"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1154979.3,
+          -84274.63,
+          1070704.67
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "name": "Net recorded GBP",
+        "binding": [
+          {
+            "category": "United Kingdom",
+            "role": "country:United Kingdom:net",
+            "expected": "877438.19"
+          },
+          {
+            "category": "Netherlands",
+            "role": "country:Netherlands:net",
+            "expected": "40708.65"
+          },
+          {
+            "category": "Germany",
+            "role": "country:Germany:net",
+            "expected": "30614.27"
+          },
+          {
+            "category": "France",
+            "role": "country:France:net",
+            "expected": "25032.04"
+          },
+          {
+            "category": "EIRE",
+            "role": "country:EIRE:net",
+            "expected": "23307.62"
+          },
+          {
+            "category": "Australia",
+            "role": "country:Australia:net",
+            "expected": "17150.53"
+          },
+          {
+            "category": "Switzerland",
+            "role": "country:Switzerland:net",
+            "expected": "8033.98"
+          },
+          {
+            "category": "Sweden",
+            "role": "country:Sweden:net",
+            "expected": "5766.16"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          877438.19,
+          40708.65,
+          30614.27,
+          25032.04,
+          23307.62,
+          17150.53,
+          8033.98,
+          5766.16
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "name": "",
+        "binding": [
+          {
+            "category": "Bridge component",
+            "role": "invalid_header_in_chart_data",
+            "expected": null
+          },
+          {
+            "category": "Quantity contribution (continuing SKUs)",
+            "role": "bridge:Continuing SKU quantity effect",
+            "expected": "44947.3182539216640799958246319340036234498"
+          },
+          {
+            "category": "Price / transaction-mix contribution (continuing SKUs)",
+            "role": "bridge:Continuing SKU price and mix effect",
+            "expected": "-39397.5492539216640799958246319340036234498"
+          },
+          {
+            "category": "New SKU contribution",
+            "role": "bridge:New SKU effect",
+            "expected": "98404.21"
+          },
+          {
+            "category": "Exited SKU contribution",
+            "role": "bridge:Exited SKU effect",
+            "expected": "-7564.851"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          "GBP",
+          44947.31825392167,
+          -39397.54925392166,
+          98404.21,
+          -7564.851
+        ],
+        "facts": [
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    ],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 238,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reader_v25_evidence": {
+    "recognized_narrative_formulas": [],
+    "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+    "source_amounts_unchanged": true,
+    "business_views": {
+      "monetary_bindings": [],
+      "bound_bridge_claims": 0,
+      "bound_report_claims": 4,
+      "traceability": {
+        "applied": false,
+        "reason": "explicit classified rows supplied"
+      }
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "d211484e6e8b7da39e90a4144176e5f86acae05f159fbe2b0cde59fa491d820d",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

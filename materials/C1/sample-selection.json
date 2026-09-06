@@ -1,0 +1,47 @@
+{
+  "case": "C1-codex-R08",
+  "task": "C1",
+  "task_version": "new6-c1-revision-v2",
+  "system": "codex",
+  "trial_id": "N6C1V2-CODEX-R08__MEkom2h",
+  "config_id": "868f3be7850eba7a",
+  "requested_model": "gpt-5.6-sol",
+  "observed_model_ids": [],
+  "model_identity_status": "REQUESTED_ONLY",
+  "answer_sha256": "b096c904c8a8343d40400d48278272afde5c6bda6f8c44aeb478cf08c64def8e",
+  "answer_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R08__MEkom2h/artifacts/app/output/answer.xlsx",
+  "input_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R08__MEkom2h/artifacts/app/input",
+  "status": "SCORED",
+  "current_status": "SCORED",
+  "source": "current",
+  "judge_version": "new6-c1-review-facts-v2.4-inline-and-bridge",
+  "judge_code_commit": null,
+  "judge_code_identity_note": "Mutable development snapshot; no immutable code commit attested by source receipt",
+  "purpose": "Random real Agent output for human review; not a representative error-rate sample",
+  "random_seed": 20260906,
+  "sampling_rule": "Python random.Random(20260906); one persistent generator; task order A1,A2,B1,B2,C1,C2; within each task sort by (case,trial_id,answer_sha256), then choice once; no filtering by score,system,status",
+  "sampling_population_total": 73,
+  "task_population_n": 10,
+  "sample_file": "agent-answer.xlsx",
+  "copied_hash_matches_cohort": true,
+  "actual_configuration": {
+    "name": "codex",
+    "model_name": "gpt-5.6-sol",
+    "n_concurrent": 1,
+    "override_timeout_sec": "1200.0",
+    "kwargs": {
+      "version": "0.151.0",
+      "reasoning_effort": "high",
+      "web_search": "disabled",
+      "config": {
+        "features": {
+          "responses_websockets": false,
+          "responses_websockets_v2": false
+        }
+      }
+    },
+    "provider_endpoint": "https://api.zcloudapi.com/v1"
+  },
+  "unified_receipt_status": "PENDING_LEAD_EXPORT",
+  "unified_judge_commit": "34374f08f331e7184010c40b401f1630a49df394"
+}

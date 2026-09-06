@@ -1,0 +1,99 @@
+{
+  "8eebc75cd9a9db7d2d72061face9eeb84ea526d39c5a4c4f0ac676b9b88f7234": {
+    "evidence_image": "visual/codex-R08-image1.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "charts": [
+      {
+        "titles": [
+          "Top October countries by net (£)"
+        ],
+        "series": [
+          {
+            "name": "Net",
+            "categories": [
+              "United Kingdom",
+              "Netherlands",
+              "Germany",
+              "France",
+              "EIRE",
+              "Australia",
+              "Switzerland",
+              "Sweden"
+            ],
+            "values": [
+              877400,
+              40700,
+              30600,
+              25000,
+              23300,
+              17200,
+              8000,
+              5800
+            ],
+            "display_tolerance": 50,
+            "categories_cache": [],
+            "values_cache": []
+          }
+        ]
+      }
+    ]
+  },
+  "81ecb749102934b2f77467411db072fdc44f6bbfd23337cb3591b0ac540b3292": {
+    "evidence_image": "visual/codex-R08-image2.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "charts": [
+      {
+        "titles": [
+          "Movement contributions (£)"
+        ],
+        "series": [
+          {
+            "name": "GBP",
+            "categories": [
+              "Continuing quantity",
+              "Price/transactionmix",
+              "New SKUs",
+              "Exited SKUs",
+              "Signed credits"
+            ],
+            "values": [
+              44900,
+              -39400,
+              98400,
+              -7600,
+              -45400
+            ],
+            "display_tolerance": 50,
+            "categories_cache": [],
+            "values_cache": []
+          }
+        ]
+      }
+    ]
+  },
+  "1997663e814c6267a8d2497b80fb06421c688d5abeb8cc5556252f2062720fd4": {
+    "evidence_image": "visual/claude-R04-image1.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "pending": "Material raster panel has unlabelled bar/line magnitudes; visible image retained, numerical plot evidence not yet bounded. Do not convert this reader limit to a score of zero"
+  },
+  "b40ca047905b3f2c1f4532f134b3709680882d8c0587387f43fbb30df28749ce": {
+    "evidence_image": "visual/claude-R03-image1.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "pending": "Material raster panel has unlabelled bar/line magnitudes; visible image retained, numerical plot evidence not yet bounded. Do not convert this reader limit to a score of zero"
+  },
+  "10530d78d9bb2f0afe519a7d0e5440e29e441d1c148a8f4adfe75069bd55d5fc": {
+    "evidence_image": "visual/claude-R03-image2.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "pending": "Material raster panel has unlabelled bar/line magnitudes; visible image retained, numerical plot evidence not yet bounded. Do not convert this reader limit to a score of zero"
+  },
+  "e813613a220c728bfda0600fad23f3b4e8078502e2c9736deb63034cb4e14658": {
+    "evidence_image": "visual/claude-R03-image3.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "pending": "Material raster panel has unlabelled bar/line magnitudes; visible image retained, numerical plot evidence not yet bounded. Do not convert this reader limit to a score of zero"
+  },
+  "2a9f2ead0919c7101d337d4dadff07ddfec3250a7bc97f3c23b8f74367cb2f59": {
+    "evidence_image": "visual/claude-R01-image1.png",
+    "method": "Direct visual reading of retained pixels; labels and display precision transcribed independently of source oracle.",
+    "pending": "Material raster panel has unlabelled bar/line magnitudes; visible image retained, numerical plot evidence not yet bounded. Do not convert this reader limit to a score of zero"
+  }
+}

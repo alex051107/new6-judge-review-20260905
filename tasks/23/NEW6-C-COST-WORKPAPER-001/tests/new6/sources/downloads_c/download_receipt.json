@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "falmouth_oct2024",
+    "status": "BLOCKED_SOURCE",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "usps_july2026",
+    "status": "DOWNLOADED_NOT_YET_REVIEWED",
+    "resolved_url": "https://pe.usps.com/resources/PriceChange/July%202026%20Price%20Change%20-%20Notice123%20PDF%20-%207.10.26.pdf",
+    "final_url": "https://pe.usps.com/resources/PriceChange/July%202026%20Price%20Change%20-%20Notice123%20PDF%20-%207.10.26.pdf",
+    "content_type": "application/pdf",
+    "signature": "pdf",
+    "size": 1337931,
+    "sha256": "3fbb08717d4ef00cd14fd5b447564a2699d841ecf82bd90c1a5f0f31c16dd9ec",
+    "path": "new6/sources/downloads_c/usps_notice123_effective20260712.pdf"
+  }
+]

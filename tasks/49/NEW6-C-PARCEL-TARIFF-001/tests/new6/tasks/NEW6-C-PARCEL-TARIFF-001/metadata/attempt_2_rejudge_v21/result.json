@@ -1,0 +1,3957 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.5991557921245422,
+  "score_decimal": "0.59915579212454212454212454213",
+  "pass": false,
+  "criterion_scores": {
+    "R001": "0.9010416666666666666666666667",
+    "R002": "1",
+    "R003": "0.8571428571428571428571428571",
+    "R004": "0",
+    "R005": "1",
+    "R006": "0.9615384615384615384615384615"
+  },
+  "contributions_raw": {
+    "R001": "31.5364583333333333333333333345",
+    "R002": "10",
+    "R003": "8.5714285714285714285714285710",
+    "R004": "0",
+    "R005": "5",
+    "R006": "4.8076923076923076923076923075"
+  },
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.5991557921245422,
+      "score_decimal": "0.59915579212454212454212454213",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "31.5364583333333333333333333345",
+        "R002": "10",
+        "R003": "8.5714285714285714285714285710",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.6870650183150183,
+      "score_decimal": "0.68706501831501831501831501832",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "36.0416666666666666666666666680",
+        "R002": "10",
+        "R003": "12.8571428571428571428571428565",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.5541037087912087,
+      "score_decimal": "0.554103708791208791208791208795",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "27.0312500000000000000000000010",
+        "R002": "10",
+        "R003": "8.5714285714285714285714285710",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    }
+  },
+  "evidence": {
+    "baseline_recalc": {
+      "source": "new6/harbor_jobs/new6-first-20260905T144554Z/NEW6-C-PARCEL-TARIFF-001__M4SQfig/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "3448d6fed1ab4802cb665583e3cdff713a5f0705227fe44e5b48c00c2d48cbfc",
+      "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/baseline/recalc-0f4bj0_u/input/answer.xlsx",
+      "engine": "/opt/homebrew/bin/soffice",
+      "command": [
+        "/opt/homebrew/bin/soffice",
+        "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/baseline/recalc-0f4bj0_u/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/baseline/recalc-0f4bj0_u/output",
+        "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/baseline/recalc-0f4bj0_u/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 37,
+      "isolated_input_sha256": "c8c47240071a32a0dd2f619e6ceeb66483676e137b667f16d276209cab9cdd6b",
+      "returncode": 0,
+      "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/baseline/recalc-0f4bj0_u/output/answer.xlsx",
+      "output_sha256": "20ddad7380f27d322a4fcb2a26afd94ab3ea9b9d54958bd692940a7dceea5267",
+      "elapsed_seconds": 4.06407974998001,
+      "source_sha256_after": "3448d6fed1ab4802cb665583e3cdff713a5f0705227fe44e5b48c00c2d48cbfc",
+      "original_unchanged": true
+    },
+    "discovered_tables": [
+      {
+        "sheet": "Rates",
+        "header_row": 4,
+        "kind": "wide_rate",
+        "fields": {
+          "upper_bound": 1
+        },
+        "record_count": 80,
+        "nonempty_body_rows": 10,
+        "service_binding": [
+          "Priority Mail Retail",
+          "Notice 123 - Effective July 12, 2026"
+        ],
+        "oracle_values_used_for_discovery": false
+      },
+      {
+        "sheet": "Rates",
+        "header_row": 20,
+        "kind": "wide_rate",
+        "fields": {
+          "upper_bound": 1
+        },
+        "record_count": 112,
+        "nonempty_body_rows": 14,
+        "service_binding": [
+          "USPS Ground Advantage Retail",
+          "Notice 123 - Effective July 12, 2026"
+        ],
+        "oracle_values_used_for_discovery": false
+      },
+      {
+        "sheet": "Quotations",
+        "header_row": 4,
+        "kind": "quote",
+        "fields": {
+          "request_id": 1,
+          "weight": 2,
+          "weight_unit": 3,
+          "zone": 5,
+          "priority_usd": 6,
+          "ground_usd": 7,
+          "selected": 8,
+          "selected_usd": 9
+        },
+        "record_count": 12,
+        "nonempty_body_rows": 13
+      }
+    ],
+    "rate_delivery": {
+      "state": "BOUND",
+      "parsed_rate_rows": 192
+    },
+    "dynamic": [
+      {
+        "name": "four_ounce_boundary",
+        "declared_changes": {
+          "Q01": {
+            "weight": "4.1"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotations",
+            "B5",
+            "4.1"
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/mutated.xlsx",
+          "source_sha256_before": "fd88489aa8af1aee23c65ff15883914a15bd86b3e4ee0d8d77a9552f48a0c996",
+          "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/recalculated/recalc-rpdq9wb9/input/mutated.xlsx",
+          "engine": "/opt/homebrew/bin/soffice",
+          "command": [
+            "/opt/homebrew/bin/soffice",
+            "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/recalculated/recalc-rpdq9wb9/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/recalculated/recalc-rpdq9wb9/output",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/recalculated/recalc-rpdq9wb9/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "8e9b2f2af44b3251673aeb29dcfd577c01c89c3a0ce936a29f4599d36206ab1c",
+          "returncode": 0,
+          "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/four_ounce_boundary/recalculated/recalc-rpdq9wb9/output/mutated.xlsx",
+          "output_sha256": "377c666356e2515bf14215219695c151b3bf867f5cbb14c096be0734c6818116",
+          "elapsed_seconds": 2.5479872500000056,
+          "source_sha256_after": "fd88489aa8af1aee23c65ff15883914a15bd86b3e4ee0d8d77a9552f48a0c996",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "164.55"
+      },
+      {
+        "name": "eight_ounce_boundary",
+        "declared_changes": {
+          "Q03": {
+            "weight": "8.1"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotations",
+            "B7",
+            "8.1"
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/mutated.xlsx",
+          "source_sha256_before": "5014e8cb2a692c6f5fe74c3cf3eaf99415276e464c9742457de586140351a590",
+          "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/recalculated/recalc-103sf3tu/input/mutated.xlsx",
+          "engine": "/opt/homebrew/bin/soffice",
+          "command": [
+            "/opt/homebrew/bin/soffice",
+            "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/recalculated/recalc-103sf3tu/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/recalculated/recalc-103sf3tu/output",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/recalculated/recalc-103sf3tu/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "128b6eda5a9a2c66d0c7117caea3616827fa8b80cebcafd9200ce92f85a2ad86",
+          "returncode": 0,
+          "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/eight_ounce_boundary/recalculated/recalc-103sf3tu/output/mutated.xlsx",
+          "output_sha256": "23773542864c2cd5241276b6e9595b65c949217161ad794ad3941fd725fe93ed",
+          "elapsed_seconds": 2.3895309169893153,
+          "source_sha256_after": "5014e8cb2a692c6f5fe74c3cf3eaf99415276e464c9742457de586140351a590",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q01",
+            "same": true
+          },
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "168.00"
+      },
+      {
+        "name": "pound_boundary",
+        "declared_changes": {
+          "Q08": {
+            "weight": "1.01"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotations",
+            "B12",
+            "1.01"
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/mutated.xlsx",
+          "source_sha256_before": "90f1bdd4b4f5b5a281a05bc7436d39f199b9b8066f76a860e97c18fe42b84057",
+          "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/recalculated/recalc-127q01hx/input/mutated.xlsx",
+          "engine": "/opt/homebrew/bin/soffice",
+          "command": [
+            "/opt/homebrew/bin/soffice",
+            "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/recalculated/recalc-127q01hx/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/recalculated/recalc-127q01hx/output",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/recalculated/recalc-127q01hx/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "357afc772fad6628f99c66627106881dd8883171da21716178b443014d55705b",
+          "returncode": 0,
+          "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/pound_boundary/recalculated/recalc-127q01hx/output/mutated.xlsx",
+          "output_sha256": "0689532eac4dd83ff12f5025cec7c5d60a780a295a6f91a50a20dc6c9658dd45",
+          "elapsed_seconds": 2.3874214999959804,
+          "source_sha256_after": "90f1bdd4b4f5b5a281a05bc7436d39f199b9b8066f76a860e97c18fe42b84057",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q01",
+            "same": true
+          },
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "168.30"
+      },
+      {
+        "name": "weight_zone_joint",
+        "declared_changes": {
+          "Q01": {
+            "weight": "4.1",
+            "zone": "8"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotations",
+            "B5",
+            "4.1"
+          ],
+          [
+            "Quotations",
+            "E5",
+            "8"
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/mutated.xlsx",
+          "source_sha256_before": "4e5db8b9be6bfb9e7d47fb61cb3eee5eb7b8af9207970dddb628336cc07b73e3",
+          "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/recalculated/recalc-cbqg_y9g/input/mutated.xlsx",
+          "engine": "/opt/homebrew/bin/soffice",
+          "command": [
+            "/opt/homebrew/bin/soffice",
+            "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/recalculated/recalc-cbqg_y9g/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/recalculated/recalc-cbqg_y9g/output",
+            "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/recalculated/recalc-cbqg_y9g/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "e4c409ef7dc46858c5d38963725a81574c1e887da3b5de40dff5ecb7409fa07c",
+          "returncode": 0,
+          "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/attempt_2_rejudge_v21/weight_zone_joint/recalculated/recalc-cbqg_y9g/output/mutated.xlsx",
+          "output_sha256": "c50b56305f913c4ccf3cee3efc8d21311bdf4bed4fe109ddd27377399c40fde5",
+          "elapsed_seconds": 2.479747874982422,
+          "source_sha256_after": "4e5db8b9be6bfb9e7d47fb61cb3eee5eb7b8af9207970dddb628336cc07b73e3",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "166.10"
+      }
+    ],
+    "facts": {
+      "R001": [
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11
+          ],
+          "expected": "11.00"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            11.5
+          ],
+          "expected": "11.50"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            11.65
+          ],
+          "expected": "11.65"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            11.9
+          ],
+          "expected": "11.90"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            13.05
+          ],
+          "expected": "13.05"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            14.5
+          ],
+          "expected": "14.50"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            15.6
+          ],
+          "expected": "15.60"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            16.95
+          ],
+          "expected": "16.95"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12.65
+          ],
+          "expected": "12.65"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            13.45
+          ],
+          "expected": "13.45"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            14.35
+          ],
+          "expected": "14.35"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            16.85
+          ],
+          "expected": "16.85"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            18.15
+          ],
+          "expected": "18.15"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            19.45
+          ],
+          "expected": "19.45"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('8'))",
+          "correct": false,
+          "actual": [
+            21.35
+          ],
+          "expected": "21.55"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.45
+          ],
+          "expected": "12.45"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            13.3
+          ],
+          "expected": "13.30"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            14
+          ],
+          "expected": "14.00"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            15.15
+          ],
+          "expected": "15.15"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            18.05
+          ],
+          "expected": "18.05"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            20.95
+          ],
+          "expected": "20.95"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            23.85
+          ],
+          "expected": "23.85"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            27.1
+          ],
+          "expected": "27.10"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            13.45
+          ],
+          "expected": "13.45"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.05
+          ],
+          "expected": "14.05"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.05
+          ],
+          "expected": "15.05"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            16.35
+          ],
+          "expected": "16.35"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            20.75
+          ],
+          "expected": "20.75"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            25.35
+          ],
+          "expected": "25.35"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            28.4
+          ],
+          "expected": "28.40"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            31.85
+          ],
+          "expected": "31.85"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.3
+          ],
+          "expected": "14.30"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.95
+          ],
+          "expected": "14.95"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.05
+          ],
+          "expected": "16.05"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.5
+          ],
+          "expected": "17.50"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            22.1
+          ],
+          "expected": "22.10"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            27
+          ],
+          "expected": "27.00"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            32.7
+          ],
+          "expected": "32.70"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            36.9
+          ],
+          "expected": "36.90"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.9
+          ],
+          "expected": "14.90"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            15.35
+          ],
+          "expected": "15.35"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            18.2
+          ],
+          "expected": "18.20"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            23.25
+          ],
+          "expected": "23.25"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            29.65
+          ],
+          "expected": "29.65"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            37
+          ],
+          "expected": "37.00"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            41.85
+          ],
+          "expected": "41.85"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            15.55
+          ],
+          "expected": "15.55"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            16.05
+          ],
+          "expected": "16.05"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            17.1
+          ],
+          "expected": "17.10"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            19.05
+          ],
+          "expected": "19.05"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            25.1
+          ],
+          "expected": "25.10"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            32.3
+          ],
+          "expected": "32.30"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            41.15
+          ],
+          "expected": "41.15"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            46.75
+          ],
+          "expected": "46.75"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            16.25
+          ],
+          "expected": "16.25"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            16.5
+          ],
+          "expected": "16.50"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            17.6
+          ],
+          "expected": "17.60"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            19.7
+          ],
+          "expected": "19.70"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            26.4
+          ],
+          "expected": "26.40"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            35.1
+          ],
+          "expected": "35.10"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            45.35
+          ],
+          "expected": "45.35"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            51.7
+          ],
+          "expected": "51.70"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            16.85
+          ],
+          "expected": "16.85"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            17.15
+          ],
+          "expected": "17.15"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            18.1
+          ],
+          "expected": "18.10"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            20.85
+          ],
+          "expected": "20.85"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            27.45
+          ],
+          "expected": "27.45"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            37.7
+          ],
+          "expected": "37.70"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            49.45
+          ],
+          "expected": "49.45"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            56.45
+          ],
+          "expected": "56.45"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            17.8
+          ],
+          "expected": "17.80"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            18.25
+          ],
+          "expected": "18.25"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            19.2
+          ],
+          "expected": "19.20"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            21.75
+          ],
+          "expected": "21.75"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            28.65
+          ],
+          "expected": "28.65"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            40.6
+          ],
+          "expected": "40.60"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            53.55
+          ],
+          "expected": "53.55"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            61.3
+          ],
+          "expected": "61.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            7.9
+          ],
+          "expected": "7.90"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            8.05
+          ],
+          "expected": "8.05"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            8.15
+          ],
+          "expected": "8.15"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            8.3
+          ],
+          "expected": "8.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            8.6
+          ],
+          "expected": "8.60"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            8.75
+          ],
+          "expected": "8.75"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            8.95
+          ],
+          "expected": "8.95"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            9.45
+          ],
+          "expected": "9.45"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            7.9
+          ],
+          "expected": "7.90"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            8.05
+          ],
+          "expected": "8.05"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            8.15
+          ],
+          "expected": "8.15"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            8.3
+          ],
+          "expected": "8.30"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            8.6
+          ],
+          "expected": "8.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            8.75
+          ],
+          "expected": "8.75"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            8.95
+          ],
+          "expected": "8.95"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            9.45
+          ],
+          "expected": "9.45"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('6'))",
+          "correct": false,
+          "actual": [
+            11.15
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('6'))",
+          "correct": false,
+          "actual": [
+            11.15
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('6'))",
+          "correct": false,
+          "actual": [
+            11.15
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            10.8
+          ],
+          "expected": "10.80"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            11.5
+          ],
+          "expected": "11.50"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            12.2
+          ],
+          "expected": "12.20"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            13
+          ],
+          "expected": "13.00"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            14.1
+          ],
+          "expected": "14.10"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            15.1
+          ],
+          "expected": "15.10"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            19.05
+          ],
+          "expected": "19.05"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11.3
+          ],
+          "expected": "11.30"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12
+          ],
+          "expected": "12.00"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            12.65
+          ],
+          "expected": "12.65"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            13.7
+          ],
+          "expected": "13.70"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            14.95
+          ],
+          "expected": "14.95"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            18.95
+          ],
+          "expected": "18.95"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            22.4
+          ],
+          "expected": "22.40"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.25
+          ],
+          "expected": "12.25"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12.75
+          ],
+          "expected": "12.75"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            13.65
+          ],
+          "expected": "13.65"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            16.4
+          ],
+          "expected": "16.40"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            18.3
+          ],
+          "expected": "18.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            20.9
+          ],
+          "expected": "20.90"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            24.25
+          ],
+          "expected": "24.25"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.95
+          ],
+          "expected": "12.95"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('2'))",
+          "correct": false,
+          "actual": [
+            13.5
+          ],
+          "expected": "13.55"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('3'))",
+          "correct": false,
+          "actual": [
+            14.35
+          ],
+          "expected": "14.55"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('4'))",
+          "correct": false,
+          "actual": [
+            16.1
+          ],
+          "expected": "15.80"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('5'))",
+          "correct": false,
+          "actual": [
+            17.9
+          ],
+          "expected": "17.45"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('6'))",
+          "correct": false,
+          "actual": [
+            19.9
+          ],
+          "expected": "19.60"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('7'))",
+          "correct": false,
+          "actual": [
+            22.65
+          ],
+          "expected": "22.40"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('8'))",
+          "correct": false,
+          "actual": [
+            26.25
+          ],
+          "expected": "26.05"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            13.5
+          ],
+          "expected": "13.50"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            13.9
+          ],
+          "expected": "13.90"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            16.35
+          ],
+          "expected": "16.35"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            18.4
+          ],
+          "expected": "18.40"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            21.05
+          ],
+          "expected": "21.05"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            24.35
+          ],
+          "expected": "24.35"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            28.35
+          ],
+          "expected": "28.35"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14
+          ],
+          "expected": "14.00"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.4
+          ],
+          "expected": "14.40"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.4
+          ],
+          "expected": "15.40"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.1
+          ],
+          "expected": "17.10"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            19.45
+          ],
+          "expected": "19.45"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            22.55
+          ],
+          "expected": "22.55"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            26.25
+          ],
+          "expected": "26.25"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            30.6
+          ],
+          "expected": "30.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.6
+          ],
+          "expected": "14.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.8
+          ],
+          "expected": "15.80"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.65
+          ],
+          "expected": "17.65"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            20.4
+          ],
+          "expected": "20.40"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            24.1
+          ],
+          "expected": "24.10"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            28.45
+          ],
+          "expected": "28.45"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            33.15
+          ],
+          "expected": "33.15"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            15.1
+          ],
+          "expected": "15.10"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            15.4
+          ],
+          "expected": "15.40"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.25
+          ],
+          "expected": "16.25"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            18.3
+          ],
+          "expected": "18.30"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            21.4
+          ],
+          "expected": "21.40"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            25.55
+          ],
+          "expected": "25.55"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            30.75
+          ],
+          "expected": "30.75"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            35.7
+          ],
+          "expected": "35.70"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('1'))",
+          "correct": false,
+          "actual": [
+            15.65
+          ],
+          "expected": "15.95"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('2'))",
+          "correct": false,
+          "actual": [
+            15.9
+          ],
+          "expected": "16.30"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('3'))",
+          "correct": false,
+          "actual": [
+            16.75
+          ],
+          "expected": "17.25"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('4'))",
+          "correct": false,
+          "actual": [
+            18.9
+          ],
+          "expected": "19.40"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('5'))",
+          "correct": false,
+          "actual": [
+            22.1
+          ],
+          "expected": "22.85"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('6'))",
+          "correct": false,
+          "actual": [
+            26.6
+          ],
+          "expected": "27.50"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('7'))",
+          "correct": false,
+          "actual": [
+            32.5
+          ],
+          "expected": "33.30"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('8'))",
+          "correct": false,
+          "actual": [
+            38.05
+          ],
+          "expected": "39.45"
+        }
+      ],
+      "R002": [
+        {
+          "fact": "band_identity ('ground', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('4'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('8'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('12'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('15.999'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "effective_date",
+          "correct": true,
+          "actual": {
+            "binding": "shared",
+            "dates": [
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Rates",
+                "row": 2
+              },
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Rates",
+                "row": 18
+              },
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Quotations",
+                "row": 2
+              }
+            ]
+          },
+          "expected": null
+        }
+      ],
+      "R003": [
+        {
+          "fact": "Q01.priority_usd",
+          "correct": true,
+          "actual": 11,
+          "expected": "11.00"
+        },
+        {
+          "fact": "Q01.ground_usd",
+          "correct": true,
+          "actual": 7.9,
+          "expected": "7.90"
+        },
+        {
+          "fact": "Q01.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q01.selected_usd",
+          "correct": true,
+          "actual": 7.9,
+          "expected": "7.90"
+        },
+        {
+          "fact": "Q02.priority_usd",
+          "correct": true,
+          "actual": 11.5,
+          "expected": "11.50"
+        },
+        {
+          "fact": "Q02.ground_usd",
+          "correct": true,
+          "actual": 8.05,
+          "expected": "8.05"
+        },
+        {
+          "fact": "Q02.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q02.selected_usd",
+          "correct": true,
+          "actual": 8.05,
+          "expected": "8.05"
+        },
+        {
+          "fact": "Q03.priority_usd",
+          "correct": true,
+          "actual": 16.95,
+          "expected": "16.95"
+        },
+        {
+          "fact": "Q03.ground_usd",
+          "correct": true,
+          "actual": 9.45,
+          "expected": "9.45"
+        },
+        {
+          "fact": "Q03.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q03.selected_usd",
+          "correct": true,
+          "actual": 9.45,
+          "expected": "9.45"
+        },
+        {
+          "fact": "Q04.priority_usd",
+          "correct": true,
+          "actual": 16.95,
+          "expected": "16.95"
+        },
+        {
+          "fact": "Q04.ground_usd",
+          "correct": true,
+          "actual": 12.9,
+          "expected": "12.90"
+        },
+        {
+          "fact": "Q04.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q04.selected_usd",
+          "correct": true,
+          "actual": 12.9,
+          "expected": "12.90"
+        },
+        {
+          "fact": "Q05.priority_usd",
+          "correct": true,
+          "actual": 11.9,
+          "expected": "11.90"
+        },
+        {
+          "fact": "Q05.ground_usd",
+          "correct": true,
+          "actual": 10.6,
+          "expected": "10.60"
+        },
+        {
+          "fact": "Q05.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q05.selected_usd",
+          "correct": true,
+          "actual": 10.6,
+          "expected": "10.60"
+        },
+        {
+          "fact": "Q06.priority_usd",
+          "correct": true,
+          "actual": 13.05,
+          "expected": "13.05"
+        },
+        {
+          "fact": "Q06.ground_usd",
+          "correct": true,
+          "actual": 10.95,
+          "expected": "10.95"
+        },
+        {
+          "fact": "Q06.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q06.selected_usd",
+          "correct": true,
+          "actual": 10.95,
+          "expected": "10.95"
+        },
+        {
+          "fact": "Q07.priority_usd",
+          "correct": true,
+          "actual": 14.5,
+          "expected": "14.50"
+        },
+        {
+          "fact": "Q07.ground_usd",
+          "correct": false,
+          "actual": 11.15,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q07.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q07.selected_usd",
+          "correct": false,
+          "actual": 11.15,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q08.priority_usd",
+          "correct": true,
+          "actual": 14.5,
+          "expected": "14.50"
+        },
+        {
+          "fact": "Q08.ground_usd",
+          "correct": false,
+          "actual": 11.15,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q08.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q08.selected_usd",
+          "correct": false,
+          "actual": 11.15,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q09.priority_usd",
+          "correct": true,
+          "actual": 19.45,
+          "expected": "19.45"
+        },
+        {
+          "fact": "Q09.ground_usd",
+          "correct": true,
+          "actual": 16.45,
+          "expected": "16.45"
+        },
+        {
+          "fact": "Q09.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q09.selected_usd",
+          "correct": true,
+          "actual": 16.45,
+          "expected": "16.45"
+        },
+        {
+          "fact": "Q10.priority_usd",
+          "correct": true,
+          "actual": 13.45,
+          "expected": "13.45"
+        },
+        {
+          "fact": "Q10.ground_usd",
+          "correct": true,
+          "actual": 12.2,
+          "expected": "12.20"
+        },
+        {
+          "fact": "Q10.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q10.selected_usd",
+          "correct": true,
+          "actual": 12.2,
+          "expected": "12.20"
+        },
+        {
+          "fact": "Q11.priority_usd",
+          "correct": true,
+          "actual": 15.35,
+          "expected": "15.35"
+        },
+        {
+          "fact": "Q11.ground_usd",
+          "correct": true,
+          "actual": 13.9,
+          "expected": "13.90"
+        },
+        {
+          "fact": "Q11.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q11.selected_usd",
+          "correct": true,
+          "actual": 13.9,
+          "expected": "13.90"
+        },
+        {
+          "fact": "Q12.priority_usd",
+          "correct": true,
+          "actual": 61.3,
+          "expected": "61.30"
+        },
+        {
+          "fact": "Q12.ground_usd",
+          "correct": false,
+          "actual": 38.05,
+          "expected": "39.45"
+        },
+        {
+          "fact": "Q12.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q12.selected_usd",
+          "correct": false,
+          "actual": 38.05,
+          "expected": "39.45"
+        },
+        {
+          "fact": "batch_total",
+          "correct": false,
+          "actual": [
+            {
+              "value": 162.75,
+              "cell": "Quotations!I18"
+            }
+          ],
+          "expected": "164.55"
+        }
+      ],
+      "R004": [
+        {
+          "fact": "eight_ounce_boundary.Q03.ground_usd.delta",
+          "correct": false,
+          "actual": "0.00",
+          "expected": "3.45"
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.selected_usd.delta",
+          "correct": false,
+          "actual": "0.00",
+          "expected": "3.45"
+        },
+        {
+          "fact": "eight_ounce_boundary.batch_total.delta",
+          "correct": false,
+          "actual": {
+            "Quotations!I18": "0.00"
+          },
+          "expected": "3.45"
+        },
+        {
+          "fact": "pound_boundary.Q08.priority_usd.delta",
+          "correct": false,
+          "actual": "0.0",
+          "expected": "3.65"
+        },
+        {
+          "fact": "pound_boundary.Q08.ground_usd.delta",
+          "correct": false,
+          "actual": "0.00",
+          "expected": "3.75"
+        },
+        {
+          "fact": "pound_boundary.Q08.selected_usd.delta",
+          "correct": false,
+          "actual": "0.00",
+          "expected": "3.75"
+        },
+        {
+          "fact": "pound_boundary.batch_total.delta",
+          "correct": false,
+          "actual": {
+            "Quotations!I18": "0.00"
+          },
+          "expected": "3.75"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.priority_usd.delta",
+          "correct": false,
+          "actual": "0",
+          "expected": "5.95"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.ground_usd.delta",
+          "correct": false,
+          "actual": "0.0",
+          "expected": "1.55"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.selected_usd.delta",
+          "correct": false,
+          "actual": "0.0",
+          "expected": "1.55"
+        },
+        {
+          "fact": "weight_zone_joint.batch_total.delta",
+          "correct": false,
+          "actual": {
+            "Quotations!I18": "0.00"
+          },
+          "expected": "1.55"
+        }
+      ],
+      "R005": [
+        {
+          "fact": "request_scope Q01",
+          "correct": true,
+          "actual": {
+            "weight": 4,
+            "weight_unit": "oz",
+            "zone": 1
+          },
+          "expected": {
+            "request_id": "Q01",
+            "weight": "4",
+            "weight_unit": "oz",
+            "zone": "1",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q02",
+          "correct": true,
+          "actual": {
+            "weight": 4.1,
+            "weight_unit": "oz",
+            "zone": 2
+          },
+          "expected": {
+            "request_id": "Q02",
+            "weight": "4.1",
+            "weight_unit": "oz",
+            "zone": "2",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q03",
+          "correct": true,
+          "actual": {
+            "weight": 8,
+            "weight_unit": "oz",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q03",
+            "weight": "8",
+            "weight_unit": "oz",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q04",
+          "correct": true,
+          "actual": {
+            "weight": 8.1,
+            "weight_unit": "oz",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q04",
+            "weight": "8.1",
+            "weight_unit": "oz",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q05",
+          "correct": true,
+          "actual": {
+            "weight": 12,
+            "weight_unit": "oz",
+            "zone": 4
+          },
+          "expected": {
+            "request_id": "Q05",
+            "weight": "12",
+            "weight_unit": "oz",
+            "zone": "4",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q06",
+          "correct": true,
+          "actual": {
+            "weight": 12.1,
+            "weight_unit": "oz",
+            "zone": 5
+          },
+          "expected": {
+            "request_id": "Q06",
+            "weight": "12.1",
+            "weight_unit": "oz",
+            "zone": "5",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q07",
+          "correct": true,
+          "actual": {
+            "weight": 15.999,
+            "weight_unit": "oz",
+            "zone": 6
+          },
+          "expected": {
+            "request_id": "Q07",
+            "weight": "15.999",
+            "weight_unit": "oz",
+            "zone": "6",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q08",
+          "correct": true,
+          "actual": {
+            "weight": 1,
+            "weight_unit": "lb",
+            "zone": 6
+          },
+          "expected": {
+            "request_id": "Q08",
+            "weight": "1",
+            "weight_unit": "lb",
+            "zone": "6",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q09",
+          "correct": true,
+          "actual": {
+            "weight": 1.01,
+            "weight_unit": "lb",
+            "zone": 7
+          },
+          "expected": {
+            "request_id": "Q09",
+            "weight": "1.01",
+            "weight_unit": "lb",
+            "zone": "7",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q10",
+          "correct": true,
+          "actual": {
+            "weight": 2,
+            "weight_unit": "lb",
+            "zone": 3
+          },
+          "expected": {
+            "request_id": "Q10",
+            "weight": "2",
+            "weight_unit": "lb",
+            "zone": "3",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q11",
+          "correct": true,
+          "actual": {
+            "weight": 5.5,
+            "weight_unit": "lb",
+            "zone": 2
+          },
+          "expected": {
+            "request_id": "Q11",
+            "weight": "5.5",
+            "weight_unit": "lb",
+            "zone": "2",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q12",
+          "correct": true,
+          "actual": {
+            "weight": 10,
+            "weight_unit": "lb",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q12",
+            "weight": "10",
+            "weight_unit": "lb",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "extra_request_identity",
+          "correct": true,
+          "actual": [
+            "Q01",
+            "Q02",
+            "Q03",
+            "Q04",
+            "Q05",
+            "Q06",
+            "Q07",
+            "Q08",
+            "Q09",
+            "Q10",
+            "Q11",
+            "Q12"
+          ],
+          "expected": null
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.priority_usd.delta",
+          "correct": true,
+          "actual": "0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.ground_usd.delta",
+          "correct": true,
+          "actual": "0.0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.selected_usd.delta",
+          "correct": true,
+          "actual": "0.0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "four_ounce_boundary.batch_total.delta",
+          "correct": true,
+          "actual": {
+            "Quotations!I18": "0.00"
+          },
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.priority_usd.delta",
+          "correct": true,
+          "actual": "0.00",
+          "expected": "0.00"
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "eight_ounce_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "pound_boundary.Q08.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "pound_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "weight_zone_joint.Q01.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "weight_zone_joint.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        }
+      ],
+      "R006": [
+        {
+          "fact": "source_trace ('ground', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('4'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('8'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('12'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('15.999'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "USPS Ground Advantage Retail | Notice 123 - Effective July 12, 2026 | Weight | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            },
+            {
+              "binding": "row",
+              "citation": "Priority Mail Retail | Notice 123 - Effective July 12, 2026 | Weight (lbs) | zone table"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "request_source_trace",
+          "correct": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "pdf_identity_trace",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        }
+      ]
+    },
+    "denominators": {
+      "R001": 192,
+      "R002": 25,
+      "R003": 49,
+      "R004": 11,
+      "R005": 26,
+      "R006": 26
+    },
+    "candidate_self_consistency": {
+      "quotes": [
+        {
+          "request_id": "Q01",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q02",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q03",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q04",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q05",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q06",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q07",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q08",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q09",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q10",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q11",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q12",
+          "selected_price_matches_own_services": true
+        }
+      ],
+      "all_batch_totals_match_own_detail": true
+    }
+  }
+}

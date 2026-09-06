@@ -1,0 +1,25 @@
+{
+  "source": "new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/equivalent_transposed.xlsx",
+  "source_sha256_before": "78fe2c1d8341c9c8081503c26cfa6e2957d8c88b462b605b7684320866292dca",
+  "isolated_input": "new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/input/equivalent_transposed.xlsx",
+  "engine": "/opt/homebrew/bin/soffice",
+  "command": [
+    "/opt/homebrew/bin/soffice",
+    "-env:UserInstallation=file://new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/profile",
+    "--headless",
+    "--convert-to",
+    "xlsx",
+    "--outdir",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/output",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/input/equivalent_transposed.xlsx"
+  ],
+  "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+  "cleared_formula_cache_count": 0,
+  "isolated_input_sha256": "bee165b284961fbe49b23b98a9060c8c88d172ce0da5dc83ddb56df2a7f4542c",
+  "returncode": 0,
+  "output": "new6/tasks/NEW6-A-FIN-RESTORE-001/fixtures/validation/equivalent_transposed/recalc-5cdgzjmq/output/equivalent_transposed.xlsx",
+  "output_sha256": "de8e88c3f9fd6efc74838269321cf09ae41c214c252aab87969af8fbe81f333e",
+  "elapsed_seconds": 3.4385776249982882,
+  "source_sha256_after": "78fe2c1d8341c9c8081503c26cfa6e2957d8c88b462b605b7684320866292dca",
+  "original_unchanged": true
+}

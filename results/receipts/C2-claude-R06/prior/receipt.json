@@ -44,5 +44,5 @@
   "api_calls": 0,
   "scored_at": "2026-09-05T21:35:53.962887+00:00",
   "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/C2-claude-R06/verifier/judge-result.json",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-claude-R06/prior/receipt.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/C2-claude-R06/prior/receipt.json"
 }

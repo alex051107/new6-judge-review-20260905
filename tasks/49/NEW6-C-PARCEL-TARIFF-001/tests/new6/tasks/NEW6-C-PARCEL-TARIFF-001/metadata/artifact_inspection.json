@@ -1,0 +1,4 @@
+{
+  "table": "{\"kind\":\"table\",\"sheet\":\"Quotes\",\"address\":\"A5:L8\",\"rows\":4,\"cols\":12,\"values\":[[\"request_id\",\"weight\",\"weight_unit\",\"zone\",\"weight_oz\",\"priority_band_lb\",\"ground_band\",\"ground_unit\",\"priority_usd\",\"ground_usd\",\"selected\",\"selected_usd\"],[\"Q01\",4,\"oz\",1,4,1,4,\"oz\",11,7.9,\"ground\",7.9],[\"Q02\",4.1,\"oz\",2,4.1,1,8,\"oz\",11.5,8.05,\"ground\",8.05],[\"Q03\",8,\"oz\",8,8,1,8,\"oz\",16.95,9.45,\"ground\",9.45]]}",
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

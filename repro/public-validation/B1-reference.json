@@ -1,0 +1,27 @@
+{
+  "api_calls": 0,
+  "checks": [
+    {
+      "id": "B1-reference",
+      "task": "B1",
+      "run": 1,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "checks_passed": true,
+      "receipt": "run-1/B1-reference/judge-result.json"
+    }
+  ],
+  "consistency": [],
+  "all_assertions_passed": true,
+  "runtime": "runtime.txt"
+}

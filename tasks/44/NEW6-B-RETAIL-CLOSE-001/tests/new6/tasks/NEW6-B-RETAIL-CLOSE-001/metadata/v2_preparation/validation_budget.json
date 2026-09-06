@@ -1,0 +1,9 @@
+{
+  "version": "new6-b1-v2",
+  "time_limit_minutes": 20,
+  "batches": [
+    {"name":"source and oracle","categories":["independent source aggregation","exact rational bridge closure"],"runner_count":1,"independent_review_count":0,"hash_count":1,"trigger":"new September source extract and arithmetic factor","early_stop":"any nonzero residual or mismatched source totals"},
+    {"name":"reference and judge","categories":["reference semantic readback","changed-sheet visual review","bridge facts and equivalence calibration"],"runner_count":2,"independent_review_count":0,"hash_count":0,"trigger":"new task version includes public decomposition requirements","early_stop":"unknown evidence stays pending; do not claim difficulty without actual Agent attempt"}
+  ],
+  "preservation":"Keep v1 in its frozen commit and retain v1 fixture/validation evidence. Only changed verification categories rerun after repairs."
+}

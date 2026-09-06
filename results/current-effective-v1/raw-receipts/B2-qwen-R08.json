@@ -1,0 +1,1037 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.8719047619047618,
+  "score_decimal": "0.871904761904761895",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 0.7166666666666667,
+    "R005": 0.6666666666666666
+  },
+  "contributions_raw": {
+    "R001": "12.8571428571428565",
+    "R002": "25.0",
+    "R003": "25.0",
+    "R004": "14.3333333333333340",
+    "R005": "9.9999999999999990"
+  },
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.8719047619047618,
+      "score_decimal": "0.871904761904761895",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.7166666666666667,
+        "R005": 0.6666666666666666
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "14.3333333333333340",
+        "R005": "9.9999999999999990"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.8647619047619047,
+      "score_decimal": "0.86476190476190475",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.7166666666666667,
+        "R005": 0.6666666666666666
+      },
+      "contributions_raw": {
+        "R001": "17.1428571428571420",
+        "R002": "20.0",
+        "R003": "25.0",
+        "R004": "14.3333333333333340",
+        "R005": "9.9999999999999990"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.831547619047619,
+      "score_decimal": "0.831547619047619035",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.7166666666666667,
+        "R005": 0.6666666666666666
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "17.9166666666666675",
+        "R005": "16.6666666666666650"
+      }
+    }
+  },
+  "evidence": {
+    "task_version": "new6-b2-three-release-v3",
+    "judge_version": "new6-b2-offline-v3.3-chart-roles",
+    "candidate": "/submission/answer.xlsx",
+    "dynamic_tests": "Not required; correct static and formula implementations equally accepted.",
+    "regions": [
+      {
+        "sheet": "Shortlist (January 2025)",
+        "header_row": 1,
+        "role": "shortlist",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_2023": 3,
+          "employment_2024": 4,
+          "employment_2025": 5,
+          "unemployment_2023": 6,
+          "unemployment_2024": 7,
+          "unemployment_2025": 8,
+          "employment_change_23_25": 13,
+          "unemployment_change_23_25": 14
+        }
+      },
+      {
+        "sheet": "Changes from previous",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "reason": 7
+        }
+      },
+      {
+        "sheet": "Changes from previous",
+        "header_row": 10,
+        "role": "previous",
+        "columns": {
+          "code": 1,
+          "name": 2
+        }
+      },
+      {
+        "sheet": "Data (January 2025)",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "employment_2025": 4,
+          "unemployment_2023": 5,
+          "unemployment_2024": 6,
+          "unemployment_2025": 7,
+          "employment_change_23_25": 12,
+          "unemployment_change_23_25": 13
+        }
+      },
+      {
+        "sheet": "Exclusions (January 2025)",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1
+        }
+      },
+      {
+        "sheet": "History - previous data",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "unemployment_2023": 4,
+          "unemployment_2024": 5,
+          "employment_change_23_24": 6,
+          "unemployment_change_23_24": 7
+        }
+      },
+      {
+        "sheet": "History - previous shortlist",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4
+        }
+      },
+      {
+        "sheet": "History - previous exclusions",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      }
+    ],
+    "context": {
+      "periods": [
+        true,
+        true,
+        true
+      ],
+      "definitions": [
+        true,
+        true
+      ],
+      "sources": [
+        true,
+        true,
+        true
+      ],
+      "units": true,
+      "scope": true,
+      "sampling_limits": true
+    },
+    "exclusion_facts": [
+      {
+        "code": "E06000053",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000063",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000064",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000065",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000066",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000026",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000027",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000028",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000029",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000030",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000031",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000163",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000164",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000165",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000166",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000167",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000168",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000169",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000187",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000188",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000189",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000246",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E09000001",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      }
+    ],
+    "selection_facts": [
+      {
+        "sheet": "Shortlist (January 2025)",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E07000141"
+        ],
+        "population": 1.0,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "support_obligations": [
+      {
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      }
+    ],
+    "source_value_mismatches": [],
+    "optional_displayed_errors": [],
+    "chart_facts": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "metric": "unemployment_change_23_25",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "metric": "unemployment_2023",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "metric": "unemployment_2024",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "metric": "unemployment_2025",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "metric": "employment_2023",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "metric": "employment_2024",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "metric": "employment_2025",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "series": [
+          {
+            "name": "Cumulative unemployment change (pp)",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              3,
+              2.5,
+              2.4,
+              2.2,
+              2
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Top five: cumulative unemployment-rate increase, Oct 2021-Sep 2022 to Oct 2023-Sep 2024 (pp) pp Authority",
+        "sheet": "Charts",
+        "historical": false
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "series": [
+          {
+            "name": "West Lindsey",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              2.2,
+              3.6,
+              5.2
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Norwich",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              2.5,
+              4.9,
+              5
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Kensington and Chelsea",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              3.6,
+              4.9,
+              6
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Cambridge",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              2.8,
+              4.3,
+              5
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "South Kesteven",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              2.3,
+              3.2,
+              4.3
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Top five: unemployment rate by period (%) Observation period %",
+        "sheet": "Charts",
+        "historical": false
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "series": [
+          {
+            "name": "West Lindsey",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              84.5,
+              66.9,
+              60.2
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Norwich",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              85.7,
+              78.1,
+              73.3
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Kensington and Chelsea",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              70.6,
+              63.4,
+              62.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Cambridge",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              80,
+              75.5,
+              64.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "South Kesteven",
+            "categories": [
+              "Oct 2021-Sep 2022",
+              "Oct 2022-Sep 2023",
+              "Oct 2023-Sep 2024"
+            ],
+            "categories_cache": [],
+            "values": [
+              73.1,
+              72.8,
+              61.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Top five: employment rate by period (%) Observation period %",
+        "sheet": "Charts",
+        "historical": false
+      }
+    ],
+    "movement_facts": [
+      {
+        "code": "E07000008",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000066",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000073",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000142",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000145",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000148",
+        "expected": "retained",
+        "label": false,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000170",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E09000020",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "reason": "changes vs previous shortlist || norwich is the only authority carried over (previous rank 3, now rank 2). great yarmouth, ashfield, harlow and basildon dropped because in oct 2023-sep 2024 their unemployment rate fell (and employment rose at great yarmouth and ashfield). west lindsey, cambridge, kensington and chelsea and south kesteven newly qualify. details: changes from previous sheet.",
+            "_loc": "Briefing (January 2025 update)!8",
+            "_text": "Changes vs previous shortlist || Norwich is the only authority carried over (previous rank 3, now rank 2). Great Yarmouth, Ashfield, Harlow and Basildon dropped because in Oct 2023-Sep 2024 their unemployment rate fell (and employment rose at Great Yarmouth and Ashfield). West Lindsey, Cambridge, Kensington and Chelsea and South Kesteven newly qualify. Details: Changes from previous sheet.",
+            "from_prose": true
+          }
+        ]
+      }
+    ],
+    "brief_facts": {
+      "exists": true,
+      "claims": [
+        false
+      ],
+      "labelled_code_lists": []
+    },
+    "preservation": {
+      "external_available": true,
+      "embedded_available": 0.6,
+      "historical_components": {
+        "data": true,
+        "shortlist": false,
+        "brief": true,
+        "exclusions": true,
+        "chart": false
+      },
+      "embedded_consistent": false,
+      "sources_unchanged": [
+        true,
+        true,
+        true
+      ]
+    },
+    "denominators": {
+      "current_selected": 5,
+      "required_support": 33,
+      "movement_authorities": 9,
+      "unassessable_authorities": 23,
+      "context_buckets": 7
+    },
+    "external_acceptance_gaps": [
+      "Formal difficulty validation pending",
+      "External negative-item and agentic parser acceptance not asserted"
+    ]
+  },
+  "reproduction": {
+    "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "fa318bb347d7785915a3475ccc76e161c5b4b4070bd55b8a712d6696481d0902",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

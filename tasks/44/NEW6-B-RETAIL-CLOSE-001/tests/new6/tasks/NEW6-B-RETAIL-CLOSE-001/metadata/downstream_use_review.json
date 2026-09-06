@@ -1,0 +1,9 @@
+{
+  "handoff_recipient": "Trading analyst preparing the October management review",
+  "next_action": "Review invoice/country totals, inspect exceptions, and trace included/excluded occurrences to supplied source facts",
+  "visible_basis": "instruction.md and review_brief.md explicitly request these deliverables and permit correct static results",
+  "judge_checks": "Occurrence integrity, policy treatment, invoice/country totals, displayed report/chart facts, source preservation and traceability",
+  "original_requirement_gaps": "Parser uncertainty is pending review rather than candidate failure; compact source-linked traceability and encoding equivalence are covered by new positive fixtures",
+  "new_functionality": "v2 adds the publicly defined September-to-October arithmetic bridge and SKU schedule. v1 frozen at 683cdda and its first Agent attempt is v1 only.",
+  "no_prose_length_or_unrequested_dynamic_credit": true
+}

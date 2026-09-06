@@ -1,0 +1,17 @@
+{
+  "source_downloaded": true,
+  "source_visual_or_workbook_review_complete": true,
+  "source_rights_review_complete": true,
+  "agent_visible_package_ready": true,
+  "reference_ready": true,
+  "independent_oracle_ready": true,
+  "evaluator_ready": true,
+  "calibration_passed": true,
+  "agent_runs": 0,
+  "formal_difficulty_verified": false,
+  "human_acceptance_complete": false,
+  "task_version": "new6-b1-v1",
+  "fixture_count": 20,
+  "validation_receipt": "metadata/validation_receipt.json",
+  "difficulty_status": "NO_AGENT_ATTEMPTS"
+}

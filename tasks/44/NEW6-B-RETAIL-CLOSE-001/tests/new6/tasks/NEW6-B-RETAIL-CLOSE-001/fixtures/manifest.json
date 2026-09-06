@@ -1,0 +1,284 @@
+[
+  {
+    "name": "reference",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/reference.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "equivalent_layout",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_layout.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "equivalent_formula",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_formula.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "equivalent_free_text_report",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_free_text_report.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "partial_parse_core_table",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/partial_parse_core_table.xlsx",
+    "expected_status": "JUDGE_ERROR",
+    "loss": [],
+    "unchanged": [],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "missing_core_table",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/missing_core_table.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R001",
+      "R002",
+      "R004",
+      "R006"
+    ],
+    "unchanged": [
+      "R003",
+      "R005"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "equivalent_compact_in_scope_register",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_compact_in_scope_register.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "credit_sign_flip",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/credit_sign_flip.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R002",
+      "R004"
+    ],
+    "unchanged": [
+      "R001",
+      "R003",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "wrong_report_net",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/wrong_report_net.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R005"
+    ],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "drop_repeated_occurrence",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/drop_repeated_occurrence.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R001",
+      "R002",
+      "R004",
+      "R006"
+    ],
+    "unchanged": [
+      "R003",
+      "R005"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "duplicate_occurrence",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/duplicate_occurrence.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R001",
+      "R004"
+    ],
+    "unchanged": [
+      "R002",
+      "R003",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "outside_period_leak",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/outside_period_leak.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R001",
+      "R004"
+    ],
+    "unchanged": [
+      "R002",
+      "R003",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "mixed_final_report",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/mixed_final_report.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R005"
+    ],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "fabricated_credit_link",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/fabricated_credit_link.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R006"
+    ],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "stale_chart_cache",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/stale_chart_cache.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R005"
+    ],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "source_mutated",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/source_mutated.xlsx",
+    "expected_status": "SCORED",
+    "loss": [
+      "R006"
+    ],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/changed_inputs"
+  },
+  {
+    "name": "equivalent_source_encoding",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_source_encoding.xlsx",
+    "expected_status": "SCORED",
+    "loss": [],
+    "unchanged": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006"
+    ],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/equivalent_encoded_inputs"
+  },
+  {
+    "name": "output_missing",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/output_missing.xlsx",
+    "expected_status": "OUTPUT_MISSING",
+    "loss": [],
+    "unchanged": [],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "malformed_file",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/malformed_file.xlsx",
+    "expected_status": "MALFORMED_OUTPUT",
+    "loss": [],
+    "unchanged": [],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  {
+    "name": "legitimate_uncached_formula",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/legitimate_uncached_formula.xlsx",
+    "expected_status": "JUDGE_ERROR",
+    "loss": [],
+    "unchanged": [],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  }
+]

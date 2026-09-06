@@ -1,0 +1,96 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "build_status": "BUILD_PENDING",
+  "status": "FIRST_ATTEMPT_SCORED_AFTER_LAYOUT_REPAIR",
+  "source": "Exact official original preserved; one explicitly disclosed historical financing input in derived task",
+  "independent_oracle": "Original raw inputs and finite rating-band consistency; four cases each230 annual/bridge facts plus5 summary facts match native calculation",
+  "reference": "solution/reference.xlsx",
+  "candidate_input": "data/input_files/AmazonSept18_restore.xlsx",
+  "input_manifest": "metadata/mutation_manifest.json",
+  "construction_basis": "metadata/historical_rate_basis.json",
+  "verification": "metadata/historical_rescue/receipt.json",
+  "prior_original_engine_blocker": {
+    "task_id": "NEW6-A-FIN-RESTORE-001",
+    "build_status": "BUILD_PENDING",
+    "status": "BLOCKED_RECALC",
+    "source": "Exact official AmazonSept18.xlsx downloaded, ZIP/type/internal worksheets inspected, source hash recorded once.",
+    "independent_oracle": "Task-specific Decimal implementation; 115 annual/bridge original cached facts reproduced, no fresh-engine pass claimed.",
+    "reference": "UNVERIFIED candidate retained privately; solution/reference.xlsx does not exist.",
+    "blocking_evidence": "metadata/recalc_blocker.json",
+    "validation": {
+      "planned": [
+        "exact source/type/version review",
+        "fresh cache-cleared source recalc and independent Oracle parity",
+        "construction only after source gate",
+        "calibration only after reference"
+      ],
+      "actually_run": [
+        "exact source download/type/version/rights review",
+        "independent Decimal Oracle versus 115 original values",
+        "isolated full cache-cleared LibreOffice attempt showed inconsistent circular lease/rating outputs",
+        "isolated Excel scoped calculation attempt returned Parameter error (-50)"
+      ],
+      "skipped": [
+        "degraded input: source native recalculation gate failed",
+        "business evaluator/calibration/API: no validated reference"
+      ],
+      "source_hash_count": 1,
+      "independent_review_count": 0
+    },
+    "agent_calls": 0,
+    "agent_cost_usd": "0",
+    "first_attempt_score": null,
+    "formal_difficulty_qualified": false,
+    "external_redistribution_rights": "Not independently cleared; no public release claimed."
+  },
+  "validation": {
+    "planned_native_recalculations": 4,
+    "actual_native_recalculations": 4,
+    "cases": [
+      "baseline",
+      "growth +.01",
+      "margin -.01",
+      "initial cost of capital +.005"
+    ],
+    "original_source_hash_integrity": "Matches initial downloaded SHA256",
+    "independent_review_count": 0,
+    "full_judge_calibration_runs": 0,
+    "agent_calls": 0,
+    "skipped": "Original circular-engine investigation ended after bounded runtime inspection; no installation, global preferences or user workbook modification. Judge and fixture implementation owned by integration."
+  },
+  "agent_calls": 0,
+  "agent_cost_usd": "0",
+  "first_attempt_score": null,
+  "formal_difficulty_qualified": false,
+  "external_redistribution_rights": "Not independently cleared.",
+  "calibration": {
+    "status": "PASS",
+    "cases": 12,
+    "receipt": "fixtures/validation/receipt.json",
+    "source_protection": "fixtures/validation/source_protection.json",
+    "runner_arguments": "fixtures/validation/runner_argument_check.json",
+    "equivalent_transposed_full_score": 1,
+    "equivalent_formula_full_score": 1,
+    "static_primary_score": 0.65,
+    "static_criterion_scores": {
+      "R001": 1,
+      "R002": 1,
+      "R003": 1,
+      "R004": 0,
+      "R005": 1,
+      "R006": 1
+    },
+    "baseline_mutant_scope": "Five native baseline-only mutants have exact loss/keep assertions; no full score claimed for these cases",
+    "parser_delivery_boundary": "Unsupported legal formula JUDGE_ERROR; missing OUTPUT_MISSING; broken file MALFORMED_OUTPUT; normalized scores null",
+    "difficulty_claim": "No natural Agent failure evidence from calibration; no formal difficulty qualification",
+    "plan": "metadata/calibration_plan.json"
+  },
+  "same_original_rejudge": {
+    "receipt": "metadata/first_attempt_rejudge_v12/receipt.json",
+    "calibration": "metadata/first_attempt_rejudge_v12/calibration.json",
+    "actual_status": "SCORED",
+    "original_status_preserved": "JUDGE_ERROR",
+    "raw_primary_score": "0.627227981771371139",
+    "additional_agent_calls": 0
+  }
+}

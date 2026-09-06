@@ -1,0 +1,13 @@
+request_id,weight,weight_unit,zone,request_origin
+Q01,4,oz,1,project_authored_test_request
+Q02,4.1,oz,2,project_authored_test_request
+Q03,8,oz,8,project_authored_test_request
+Q04,8.1,oz,8,project_authored_test_request
+Q05,12,oz,4,project_authored_test_request
+Q06,12.1,oz,5,project_authored_test_request
+Q07,15.999,oz,6,project_authored_test_request
+Q08,1,lb,6,project_authored_test_request
+Q09,1.01,lb,7,project_authored_test_request
+Q10,2,lb,3,project_authored_test_request
+Q11,5.5,lb,2,project_authored_test_request
+Q12,10,lb,8,project_authored_test_request

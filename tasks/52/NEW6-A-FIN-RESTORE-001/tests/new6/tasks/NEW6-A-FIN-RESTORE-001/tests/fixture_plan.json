@@ -1,0 +1,51 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "not_executed": true,
+  "tests": [
+    {
+      "name": "reference",
+      "expectation": "SCORED, score=1.0, pass=true; independently verified against sources"
+    },
+    {
+      "name": "equivalent_layout",
+      "expectation": "Same facts and score as reference; genuine row/column/region alternative, within explicit source-native preservation rules"
+    },
+    {
+      "name": "equivalent_formula_or_static",
+      "expectation": "Dynamic tasks: supported equivalent dependency; static tasks: fully correct literal outputs must get 1.0"
+    },
+    {
+      "name": "wrong_terminal_period",
+      "single_change": "终值把末年和次年FCF多乘或少乘一次增长",
+      "expected": "终值准确性失分；相关真实结果失分；不按公式文本判错"
+    },
+    {
+      "name": "constant_forecast",
+      "single_change": "基线相同但用常数替代计算区",
+      "expected": "基线与动态分别记录；动态信用不得满分"
+    },
+    {
+      "name": "source_compensation",
+      "single_change": "改历史/假设来补错误估值",
+      "expected": "保护事实失分；不得因结果恰好正确全额给分"
+    },
+    {
+      "name": "contradictory_summary",
+      "single_change": "主体正确但另一个明确最终股权价值写错",
+      "expected": "实际结果一致性失分；不从多表择优"
+    },
+    {
+      "name": "output_missing",
+      "expectation": "OUTPUT_MISSING; score=null; pass=false only with completed-run/no-output evidence"
+    },
+    {
+      "name": "malformed_file",
+      "expectation": "MALFORMED_OUTPUT; score=null; pass=false; distinguish parser limitation"
+    },
+    {
+      "name": "legitimate_unsupported_formula",
+      "expectation": "JUDGE_ERROR; score=null; pass=null, not a successful negative business fixture"
+    }
+  ],
+  "quality_policy": "Assert expected changed and preserved facts, state and any declared score/pass; negative does not automatically require pass=false. No hidden hurdle. Tally tests separately from Agent attempts."
+}

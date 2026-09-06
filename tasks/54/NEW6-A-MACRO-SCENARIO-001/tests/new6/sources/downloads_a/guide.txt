@@ -1,0 +1,414 @@
+    Instructions for Using the Long Term Growth Model (LTGM) Spreadsheet (including poverty extension)
+Steven Pennings (spennings@worldbank.org) and Jorge Guzman (jguzmancorrea@worldbank.org), 12 May 2020
+
+Note: these instructions were originally designed for LTGM v4.4, but work for newer versions of the LTGM (with
+   minor adjustments). To follow the instructions word-for-word, download the Training version of LTGM (v4.4).
+
+Disclaimer: The views expressed here are the authors’ and do not necessarily represent those of the World Bank. Example simulations are purely illustrative
+and do not necessarily reflect the economic situation in example countries (or the World Bank’s view about economic prospects in that country).
+
+
+Spreadsheet Overview:
+    • InputDataA_GeneralAssumptions and InputDataB_ModelSpecAssumptions are the only two worksheets
+       (“tabs”) where the user enters modelling choices:
+           o Parameters and assumptions in InputDataA affect all Models (1-3).
+           o Assumptions in InputDataB affect only a specific model.
+    • GraphsB plots results of each model (and model-specific assumptions from InputDataB).
+    • GraphsA plots all general assumptions in InputDataA.
+    • Tabs Model1, Model1s, Model2, Model2s, Model3, Model3s are where the calculations take place.
+       Model1, 2, 3 reflect the “baseline” and Model1s, 2s, 3s are the “scenario” to be analyzed.
+           o Model 1: assume a path for the investment share of GDP (I/Y) → implied GDP growth.
+           o Model 2: assume a path of GDP growth → required investment share of GDP (I/Y).
+           o Model 3: assume a path for savings share of GDP (S/Y) (+ external sector)→ implied GDP growth.
+    • (NEW in LTGM v4.3) There are three working age to total population ratios to choose from: 15-64, 15-60
+       and 20-64.
+    • (NEW in LTGM v4.1) The DataSummary tab summarizes data from different sources and time horizons,
+       to give users an idea of trends, volatility and other measurement issues.
+    • (NEW in LTGM v4.1) Users can choose from different data sources/years for parameters/initial values
+       using the dropdown menus next to each variable in InputDataA and InputDataB. Missing data from the
+       default sources are interpolated based on income group medians, which triggers a red warning cell.
+    • Color coding is important: yellow indicates a cell the user can edit, red indicates one they shouldn’t
+       change, and grey indicates an inactive or summary cell.
+    • (NEW in LTGM v4) The model calculates how economic growth affects poverty rates.
+
+Steps to run a simulation:
+
+InputDataA_GeneralAssumptions Tab
+• Country, Year, and Parameters (top of InputDataA tab): Choose the country (from the drop-down menu),
+    initial year, and the three parameters required for the model (or use values pre-populated from data):
+         a. initial K/Y (should be between 1.5 and 3.5 for most countries)
+         b. depreciation rate δ (should be between 0.03 and 0.06 for most countries
+         c. labor share of income β (should be between 0.4 and 0.8 for most countries)
+    Users can also enter an initial value for real GDP per capita if they would like (eg using the most recent data).
+• Assumptions of future values of exogenous general growth drivers (left of InputDataA tab) If on
+    “automatic mode”, the user can set an initial value for the growth driver, a target future value and a year to
+    reach that value. The target and year achieved can vary across baseline and scenario. The model will then
+                                                          1
+    draw a smooth path between initial and target values (and will be constant at the target value after that
+    year). To set a constant growth rate just set the future growth rate equal to the current rate (the default), or
+    set the target year as the initial year. The user can use the pre-populated initial value from a historical
+    average, or choose an initial value (for example, using updated data) by editing the yellow cell.
+        a. Total factor productivity (A) TFP is one of the most important drivers of growth. Reasonable values
+             for long run annual TFP growth are between 0 and 0.02 (0%-2%) for most countries.1
+        b. Human capital growth (h) is also important and growth is between 0 and 0.02 for most countries.
+        c. Labor market participation rates by gender. These are best kept constant for most countries at the
+             initial value (where there is no effect on growth), the default. However, increased female labor force
+             participation can be important for growth in countries which have low initial participation rates.
+        d. Demographics. Calculated by demographers based on trends in births, deaths and the population
+             age structure. Best left on default (automatic) preloaded values for most users.
+        e. External balance. The external balance variables only affect growth in Model 3, but affect the
+             savings rate and either CAB or debt in Model 1 and 2. The user first needs to choose whether to
+             model the external sector via a future path of (i) external debt/foreign direct investment or (ii) the
+             current account balance (CAB). (ii) is the simpler option, and with CAB/Y=0, Model 1 and 3 are
+             identical. Depending on the option the user chooses from the drop-down menu, they need to select
+             initial values, future targets and the target year in a similar way as other variables above.
+    • Implied paths of exogenous growth drivers (right of InputDataA tab) Check the implications of the
+        choices made in (2) above for the future values of exogenous general growth drivers. If on automatic
+        mode, no changes are allowed here. If one wants to choose a particular non-linear path for a variable,
+        just change the drop-down menu to “manual” (previously was “automatic”) on the LHS. This will recolor
+        the region on the right to yellow, indicating which cells can be edited manually year-by-year.
+    • A summary of the choices for future exogenous growth drivers are shown in tab GraphsA.
+    • Effect of Growth on Poverty At the bottom of InputDataA the user can set the parameters related to
+        poverty, such as initial poverty headcount. The preloaded values are for extreme poverty (<$1.90/day
+        2011PPP) from the most recent households survey in PovcalNet, but the user can also input the poverty
+        rate at the national (or other) poverty line.2 How growth affects the poverty rate is governed by the
+        Growth Elasticity of Poverty (GEP), for which there are two options:
+             a. The default is that income follows a log-normal distribution (generally a good approximation
+                  empirically) which automatically generates a relation between growth and poverty (and a GEP).
+                        i. In this case, the user also has the option to select the path for future income inequality
+                           via the income Gini (or Shared Prosperity Premium). This is preloaded from the most
+                           recent household survey in PovcalNet or WDI but users can assume a different initial
+                           value, a future target or target year (or can choose a manual path for the Gini on the
+                           right). A lower Gini generally lowers poverty rates (other things equal) and increases the
+                           effect of growth on poverty
+             b. Alternatively, the user can input the Growth Elasticity of Poverty on “Manual” from the drop-
+                  down menu, and enter a path of GEP year-by-year in the yellow cells that appear on the right.
+
+
+
+1
+  Growth rates of many variables can be very volatile in the short term, but these variations even out over time. The user
+may choose different average over different horizons from the drop-down menu.
+2
+  Only the poverty headcount rate (not the value of the poverty line or specification in currency/period) affects simulations.
+                                                              2
+InputDataB_ModelSpecAssumptions Tab
+    • If using Model 1 (Input: Investment → Output: Growth), choose the initial investment share of GDP (or
+       leave blank to use the pre-populated value), the target investment share and also the target year. The
+       user can also choose a 20, 15, 10, 5-year average or the most recent available value for the investment-
+       to-GDP ratio from a drop down menu. The assumed paths of investment are shown on the right. If the
+       user prefers, choose manual (rather than automatic) and enter the investment share of GDP year-by-
+       year in the yellow cells that appear on the RHS. Investment rates are usually between 10-40% of GDP,
+       with investment rates of around 20%-25% being typical.
+    • If using Model 2 (Input: Growth target → Output: Investment), the user first needs to choose a target
+       from the drop-down menu: a [headline] GDP growth target, a GDP per capita (PC) target or a GDP per
+       capita (PC) level target. The user chooses initial values, target values, target years and automatic /
+       manual as above. Additionally, the user can choose a 20, 15, 10, 5-year average or the data point from
+       the most recent available year from a drop-down menu for each variable. Unrealistic growth targets
+       appear as unrealistically high required I/Y.
+    • If using Model 3 (Input: Savings → Output: Growth), follow the same process for Model 1 in Step 5
+       above, but apply it to savings rather than investment. Savings rates and investment rates are roughly
+       similar for most countries (the Feldstein-Horioka Puzzle): 10-40% with typical values of around 20%-25%.
+       The difference in Model 3 is that growth depends on the external sector assumptions in InputDataA tab
+       (CAB or External Debt/FDI), so the user of Model 3 needs to pay special attention to those assumptions.
+       Also, the user can choose a 20, 15, 10, 5-year average or the most recent available data point from a
+       drop-down menu.
+    • Results are plotted in GraphsB, as well as model-specific inputs (which vary by model). Also included is
+       the Marginal ICOR (number of ppts of investment/GDP required to boost growth by 1%) and the K/Y
+       ratio. High marginal ICORs and K/Y ratios mean investment will be inefficient at producing growth.
+
+
+
+Optional: Model 1, 1s, 2, 2s, 3 and 3s tabs – calculations at the heart of the model
+A feature of the LTGM is the transparency and simplicity of the calculations of growth rates and required I/Y.
+    • “Summary of Inputs based on User's choice” at the top of each of these tabs which contain all the
+        assumptions of inputs which are used in the model, and is linked to the RHS of InputDataA and
+        InputDataB.
+    • “Endogenously Generated Variables” is the core of the LTGM - how growth and I/Y are calculated. These
+        are the most important formulas, and reference only “Summary of Inputs”, or “Endogenously Generated
+        Variables” from previous periods. Click in the formula bar to see which cells are referenced.
+    • “Memorandum Items” are extra variables that are calculated in the model, but do not affect growth or
+        investment rates in current or future years.
+    • “Poverty-related calculations” are where the LTGM calculates the implications of growth for poverty
+        rates. This includes both assumptions which are linked to the RHS of InputDataA, as well as the
+        calculations of the poverty rates. For model 2 (with a poverty target), this part of the sheet calculated
+        the growth rate required to achieve the poverty target.
+
+On the next page are worked examples using the LTGM
+                                                       3
+                     Worked Examples and Exercises - Long Term Growth Model (LTGM)
+Note: To follow the worked examples exactly, download the Training version of LTGM v4.4 (xlsx) [not the latest].
+
+Below are some example scenarios to illustrate the way to LTGM spreadsheet works. In each part, the
+instructions help the user replicate the graphs below. There are also some questions on why the model generates
+these results. All the exercises are hypothetical do not necessarily reflect the economic situation in Zambia.
+
+(Exercise A) Model 1: With automatic path
+        Chart 1a: Input to model 1: Investment Path                    Chart 2a: Output from to model 1: PC GDP Path
+
+
+
+
+       1. Choose Zambia from the drop down menu in tab (worksheet) InputDataA_GeneralAssumptions
+       2. Make sure that all drop down menus are on “automatic” and the initial year for estimation is 2019.3
+       3. The user has the option to choose the depreciation rate, labor shares and the capital-to-output ratio
+          from different databases and methodologies such as PWT 8.1, PWT 9.0, PWT 9.1, and MFMOD by
+          clicking on the corresponding drop-down menus.
+       4. Keep universal parameters at default values (though you can type this in the yellow boxes to be sure):
+               a. Depreciation rate (𝛿) = 4.9% (choose PWT 8.1 from the drop-down menu)
+               b. Labor share (𝛽) = 61.8% (choose “Default PWT 8.1 / GTAP / Interpolated” from the drop-down
+                   menu)
+               c. Initial capital-to-output ratio (𝐾0 /𝑌0 ) = 2.42 (choose PWT 8.1 from the drop-down menu)
+       5. Set assumptions (LHS of tab InputDataA_GeneralAssumptions). Same values for baseline and scenarios.
+          All on automatic.
+               a. 0.006 (0.6%) Human capital growth for initial and target (choose” PWT 8.1 10-year average”
+                   from the drop-down menu)4
+               b. Set initial, target and scenario TFP to equal 0.01 (1%) (type into cells D/E29)
+               c. Leave demographics on automatic
+               d. Make sure there is no change in female or male participation rates (set target = initial)
+               e. Ignore external balance for now
+       6. Model 1 specific assumptions (LHS of InputDataB_ModelSpecAssumptions tab):
+               a. Baseline: constant investment rate of 31% GDP (D/E4 and D9 = 0.31)
+               b. Scenario: equal to 20% by 2022 (E9 = 0.20)
+
+3
+    In LTGM v4.3, the user can choose from a 15, 10 or a 5-year average for several variables.
+4
+    Note: if initial = target value, the path for the variable is constant, and it doesn’t matter which year the target is reached.
+                                                                   4
+   7. Draw Chart 1a (Investment graph) above:
+         o Baseline Investment: link to tab Model 1: Investment to GDP ratio from “Summary of Inputs
+             based on User's choice (and intermediate calculations)” from years 2019-50 (E10-AJ10)
+         o Scenario Investment: link to tab Model 1s: Investment to GDP ratio from “Summary of Inputs
+             based on User's choice (and intermediate calculations)” from years 2019-50 (E10-AJ10)
+         o This graph is also drawn automatically around Cell A3:A16 in tab GraphsB.
+   8. Draw Chart 2a (GDP PC growth graph) above:
+         o Baseline GDP PC growth: link to “GDP per Capita Growth rate” under “Endogenously Generated
+             Variables” in tab Model 1. From years 2020-50 (F23:AJ23) Final value in 2050 should be 2.8%
+         o Scenario GDP PC growth: link to “GDP per Capita Growth rate” under “Endogenously Generated
+             Variables” in tab Model 1s. From years 2020-50 (F23:AJ23) Final value in 2050 should be 2.5%
+         o This graph is also drawn automatically around Cell G3:J16 in tab GraphsB.
+
+(Exercise B) Model 1: With manual investment path
+         Chart 1b: Input to model 1: Investment Path       Chart 2b: Output from to model 1: PC GDP Path
+
+
+
+
+   1. Follow steps for Exercise A above but change the following:
+   2. Tab InputDataB_ModelSpecAssumptions: Choice for future Investment: “Manual” mode from dropdown
+      menu. Note that F3 changes to “manual” and cells I4:AN4 and I8:AN8 are available for editing (yellow).
+   3. Baseline: pickup, then fall in investment share of GDP “Investment to GDP Ratio -User defined, year by
+      year” enter (tab InputDataB_ModelSpecAssumptions Cells I4:AN4):
+          o 2019: 31%; 2020-24: 35%;            2025-29: 40%; 2030-34: 35%; 2035-39: 30% 2040+: 25%
+   4. Scenario: fall in investment share, then recovery tab: InputDataB_ModelSpecAssumptions “Investment
+      to GDP Ratio -User defined, year by year” enter (I8:AN8):
+              o 2019: 31%;         2020-24: 20%;     2025+ 25%
+   5. Chart 1a and Chart 2a should update automatically to Chart 1b and Chart 2b (changes can be also
+      observed in “GraphsB” tab).
+   6. GDP per capita growth by 2034 should be 3.0% (baseline) and 2.8% (scenario).
+   7. Q: Why is growth in scenario higher than baseline, when baseline has higher I/Y? (answer at end)i
+      • Hint: look at the marginal ICOR in sheet Model 1/1s, row 40 or look at the graph in “GraphsB”.
+
+
+
+
+                                                       5
+(Exercise C) Model 2: With automatic path                          Chart 3: Output from model 2: required I/Y Path
+    1. Start with automatic path in Model 1 (Example
+        A)
+    2. Tab:           InputDataB_ModelSpecAssumptions
+        “Model 2” on LHS
+             o Make sure output target variable= “GDP
+                Growth” (cell D20) & is on “Automatic”
+    3. Set headline GDP growth target: 6.5% (constant)
+             o Type initial= 0.065 (D/E13)
+             o Set target= 0.065 for both baseline
+                (D22) and scenario (E22) (not per capita)
+    4. InputDataA_GeneralAssumptions: Initial TFP
+        growth 0.01 (1%) (as Example A, cell D29)
+    5. Baseline: 0.01 (1%) TFP growth (D34) by 2019
+    6. Scenario: 0.02 (2%) TFP growth by 2022 (E34)
+    7. Generate Chart 3:
+             o Baseline I/Y path: link to Tab: Model2: Investment to GDP ratio from “Investment Ratio to reach
+                target growth rate” under “Endogenously Generated variables” from years 2019-49 (E18-AI18)
+             o Scenario Investment: as in Baseline but link to Tab: Model 2s (note the s) instead (E18-AI18)
+             o These charts are also automatically generated around cells A19:E32 and G19:K32 of tab
+                GraphsB.
+    8. By 2049: Required I/Y rate to produce 6.5% headline growth is 60% (baseline), vs 23% (scenario).
+    9. Baseline vs. scenario: the user will notice that when making simulations, the baseline works as the
+        business-as-usual simulation and the scenario is the one that experiences the changes in productivity. In
+        this case, to see what would happen if TFP growth were to increase from 1% to 2% growth by 2022: the
+        required I/Y would be lower and a 6.5% GDP growth would be achievable under this scenario with
+        higher productivity.
+    10. Q: Why is the required investment rate so much higher in the low productivity growth scenario than the
+        high productivity growth baseline? After all it is only 1ppt difference? (answer at endii). Hint: ICOR again.
+
+
+
+
+                                                         6
+(Exercise D) Model 3a: External debt (automatic path)
+         Chart 4: Input to model 3: Savings & Debt Path       Chart 5a: Output from model 3: GDP Growth Path
+
+
+
+
+    1. Start with automatic path as in Exercise A (remember to set the TFP growth targets back to 1%)
+    2. InputDataB: Set initial and target savings 25% GDP for both baseline and scenario (Cells D26, D31, E31)
+    3. InputDataA: Check initial & target CAB to equal -0.06 (-6%) (for both baseline and scenario D64, E64,
+        D69, E69)
+    4. InputDataA: Set initial and target FDI 6% GDP for both baseline and scenario (Cells D83, E83, D88, E88)
+    5. InputDataA: Check initial & target TFP to equal 0.01 (1%) (for both baseline and scenario, D29, E29, D34,
+        E34)
+    6. InputDataA: Check External Balance is on “Debt” from the drop-down menu (D60)
+            o Set initial external debt balance to 0.5 (in D73)
+    7. InputDataA: Baseline: 0.6 external debt to GDP by 2030 (D78, this is a smooth path, rather than a linear)
+    8. InputDataA: Scenario: 0.4 external debt to GDP by 2030 (E78, this is a smooth path, rather than a linear)
+    9. Create Chart 4 by linking three different lines to:
+            o Baseline: link to Model 3: “Debt to GDP Ratio (end of period)” under “Summary of Inputs based
+                on User's choice” (tab Model 3> Cells E31-AJ31)
+            o Scenario: link to Model 3s: “Debt to GDP Ratio (end of period)” under “Summary of Inputs based
+                on User's choice” (tab Model 3s> Cells E31-AJ31)
+            o Savings (both baseline and scenario): link to Model 3: “Gross National Savings Ratio to GDP”
+                under “Summary of Inputs based on User's choice” (Model 3> Cells E6-AJ6)
+            o This graph is a combination of automatically generated Tab: GraphsA J36:O49 (for external debt-
+                to-GDP) and tab: GraphsB A35:E48 (for savings).
+    10. Create Chart 5a (which is headline growth not per capita) by linking three different lines to:
+            o Baseline: link to Model 3: “Real Total GDP growth” under “Memorandum Items” for 2020-50
+                (Model 3> Cells F32-AJ32)
+            o Scenario: link to Model 3s: “Real Total GDP growth” under “Memorandum Items” for 2020-50
+                (Model 3s> Cells F32-AJ32)
+            o Total GDP Growth in plotted in tab GraphsB around cell AG35:AK48.
+    11. By 2022: GDP Growth rate should be 7.2% (baseline) vs 6.9% (scenario).
+    12. Q: The difference in the growth rate is ≈0.30ppt between baseline and scenario around 2022. Why do
+        these two very different debt paths have such a small effect on growth (answer at endiii)?
+
+                                                          7
+(Exercise E) Model 3b: FDI/Y scenario
+ Chart 6: Input to model 3: FDI paths          Chart 5b: Output from model 3: GDP Growth Path
+
+
+
+
+   1. InputDataB: Start with automatic path for savings as in Exercise E (D30)
+   2. InputDataA: Set a constant debt path of 0.5 (Input Data: D78 and E78 equal 0.5)
+   3. InputDataA: Check initial and target TFP to equal 1% (for both baseline and scenario, D29, E29, D34,
+      E34)
+   4. InputDataA_GeneralAssumptions : Check the Baseline: 6% FDI/Y (constant) (D83, E83, and D88)
+   5. InputDataA_GeneralAssumptions : Scenario: 3% FDI/Y by 2022 (change E88 and E89)
+   6. To generate Chart 6:
+          o Baseline FDI path: link to “Foreign Direct Investment Ratio to GDP under “Summary of Inputs
+              based on User's choice” in tab Model3 (Cells E13:AJ13).
+          o Scenario FDI path: link to “Foreign Direct Investment Ratio to GDP under “Summary of Inputs
+              based on User's choice” in Model3s (Cells E13:AJ13).
+          o This is also graphed automatically as in tab GraphsA around cell S36:Y49
+   7. Chart 5a should update automatically to generate Chart 5b (Growth rates)
+   8. By 2020: GDP Growth rate should be 7% (baseline) vs 6.7% (scenario) by 2022.
+   9. Q: The difference between growth rates is 0.30ppt in 2022 (with rounding). Why? (answer at endiv)
+
+
+
+
+                                                   8
+(Exercise F) Poverty extension - New in LTGM v4
+Changes in poverty rates are generated by GDP per capita growth in Model 1 and 3, and 2 (with a growth or GDP
+target), so here we use Model 1 and growth fundamentals from Exercise A (I/Y, TFP, Human capital growth, etc).
+
+Exercise F1 (from growth to poverty)                              Chart 7: Poverty Rates in Exercise A (Model 1)
+    1. Start from the simulation in Exercise A (Model 1)
+        above: InputDataB (Model 1):
+            a. Baseline: constant I/Y of 31% GDP (D/E4 and
+                 D9)
+            b. Scenario: I/Y equal to 20% by 2022 (E9)
+            c. All other parameters as in Exercise A.
+    2. Select poverty-specific parameters (bottom of
+        InputDataA_GeneralAssumptions):
+            a. Initial poverty rate at 0.575 (default) (D/E125)
+            b. Poverty line of $1.9/day (C130)
+            c. Set the Growth Elasticity of Poverty (GEP) on Automatic (the default) (D/E133)
+            d. Initial Gini coefficient of income at 0.571 (default) and constant over time (D/E137)
+    3. Chart 7: At the top right-hand side of GraphsB the poverty rate is calculated.
+    4. By 2049: the poverty rate is 0.26 under the baseline and 0.33 under the scenario (see “Poverty-related
+        calculations” in Model 1, and 1s respectively).
+
+
+
+
+                                                       9
+Exercise F2 (changing initial poverty rates and income inequality)
+The pre-loaded poverty rates are from the most recent household survey – which can be some years ago – so
+users may want to change the initial poverty rate. Alternatively, they might want to simulate poverty based on a
+national poverty line, which is often quite different from the international extreme poverty line (the default).
+
+Users can also reduce the Gini coefficient to stimulate the        Chart 8: Poverty Rates with declining inequality
+effect of pro-poor growth. In many cases, a higher growth
+rate alone is not sufficient to meet poverty reduction
+targets - income inequality also has to decline. To see this,
+consider the following scenario where the user wants to
+halve the rate of poverty by 2030 (from 60% to 30%).
+    1. Start from the simulation in Exercise A (Model 1)
+        and Exercise F1 above.
+    2. Set the scenario investment rate equal to the
+        baseline investment rate (constant I/Y of 31% GDP).
+        This will mean that the paths of GDP per capita
+        growth will be identical in baseline and scenario.
+    3. Change the initial poverty rate to 0.6 (D/E125) at the bottom on InputDataA.
+    4. Set the initial Gini coefficient to 0.571 (D/E137) (the pre-loaded default for Zambia), and assume it is
+        constant in the baseline. In the scenario, set the target Gini coefficient to 0.42 (E144) by 2030 (a
+        reduction in income inequality). The path for the Gini coefficient is plotted at the bottom of sheet
+        GraphsA.
+    5. By 2030: poverty is 0.469 in the baseline, which is not enough to meet the poverty reduction target. But
+        in the scenario, the poverty rate falls from 0.60 to 0.302 by 2030 with the additional effect of fall in
+        income inequality, which is sufficient to reach the growth target.
+    6. Chart 8: At the right of GraphsB (W3:AA16) the poverty rate is calculated.
+
+
+
+
+                                                        10
+i
+    Exercise B Answer: Growth is higher in the scenario in 2036 (despite lower investment in 2035), because investment is
+more efficient in the scenario than in the baseline due to lower (marginal) ICOR. The marginal ICOR can be seen in
+worksheet Model 1 (1s): row 40 for the year 2035. The marginal ICOR is around 8 for Model 1 but only around 6 for Model
+1s, which means that each extra investment is 1/3 less efficient in model 1 than model 1s at producing growth. That is an 8
+ppts of investment are required to produce an extra unit of growth in Model 1, but only an extra 6 ppts of Investment are
+needed in Model 1s. The reason for the difference is that in Model 1 investment was very high in the past (2019-34) which
+increased the capital-to-output ratio in Model 1 relative to model 1s (3.1 vs 2.4) – and the higher the K/Y ratio the less
+efficient investment. The marginal ICOR is given by (K/Y)/(1-β), where β is the labor share of output (and 1- β is the capital
+share) as in Model 1 (1s) cell D2.
+ii
+    Exercise C Answer: A 1ppt difference in productivity growth might not seem like much, but it is enough to tip the
+economy across two very different growth paths.
+            In the high productivity growth scenario, GDP per worker grows faster than capital per worker (on rows 22:23 of
+Model 2/2s sheets), which means than that the K/Y ratio is falling by 2022 (row 19). This means that each passing year,
+investment becomes more and more efficient, reducing the required I/Y ratio and helping the K/Y ratio fall further. This
+creates a virtuous cycle.
+            In the baseline (with low productivity growth), the reverse occurs. Capital per worker growth is faster than GDP per
+worker growth, and so the K/Y ratio starts rising. This increases the marginal ICOR which reduces the effectiveness of
+investment, and, hence, to achieve the same growth rate of 6.5% more investment is needed. But the next period the
+capital stock grows even faster, leading to an even bigger increase in K/Y and a further increase in the ICOR, etc. This
+creates as vicious cycle of ever less productive investment, which quickly generates I/Y ratios that are unrealistic.
+            A key result is that an investment-led growth strategy will quickly become unsustainable unless it is complemented
+by high rates of productivity growth (or other growth drivers like human capital or participation).
+iii
+    Exercise D Answer: Debt affects the investment in two ways. The most important effect is through the change in debt. At
+2022 debt the change in debt in the baseline is about 5ppts of GDP a year higher than under the scenario (because of the
+shape of the adjustment). The second (much smaller) effect is through the level of debt: a highly a fast-growing indebted
+economy can borrow more each year and still keep debt to GDP constant (because GDP is increasing). Combined these two
+factor mean investment is about 2.7ppts higher in the baseline by 2022. The marginal ICOR determines how much extra
+growth is generated by this extra investment. Around 2022, the marginal ICOR is around 6.6, and so the extra growth
+generated is 2.7ppt/6.6≈0.4ppt (the ICOR is also slightly lower in the scenario than baseline, which accounts for slightly
+smaller difference). Changes in external debt only having limited effects on growth is consistent with the well-known
+“Feldstein-Horioka Puzzle” that across countries high domestic investment rates usually go hand-in-hand with high savings
+rates.
+iv
+     Exercise E Answer: A fall in the FDI rate implies almost a one-for-one change in the investment rate. So a rough
+calculation is Δ(FDI/Y)/mICOR (in the previous year). The FDI difference is around 2ppts of GDP in 2021, and the marginal
+ICOR is around 6.5. Hence the difference in growth is 2ppt/6.5≈0.307ppt, which is pretty close to the 0.30ppt fall.
+
+
+
+
+                                                              11
+

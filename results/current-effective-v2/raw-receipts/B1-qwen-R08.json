@@ -1,0 +1,77 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "candidate": "/results/run/native/recalc-b08dje7u/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "reason": "Uncached or unsupported formula at Reconciliation!C12"
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "0e5731f9e61ed039ffbe1a81ef57a2bf199f559d2c880a31e408e9380f6b5eb0",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/submission/answer.xlsx",
+      "source_sha256_before": "0e5731f9e61ed039ffbe1a81ef57a2bf199f559d2c880a31e408e9380f6b5eb0",
+      "isolated_input": "/results/run/native/recalc-b08dje7u/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/run/native/recalc-b08dje7u/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/run/native/recalc-b08dje7u/output",
+        "/results/run/native/recalc-b08dje7u/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 3,
+      "isolated_input_sha256": "c2bd1c866225e3486c7218271385b00fddab80241faf096d45ad9524bd65479f",
+      "returncode": 0,
+      "output": "/results/run/native/recalc-b08dje7u/output/answer.xlsx",
+      "output_sha256": "4e3d07122c14f32ba1053e99c01a2b6a16c74fe632d016c7d84ebac079f8bb7f",
+      "elapsed_seconds": 7.109290628985036,
+      "source_sha256_after": "0e5731f9e61ed039ffbe1a81ef57a2bf199f559d2c880a31e408e9380f6b5eb0",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  }
+}

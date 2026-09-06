@@ -1,0 +1,51 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "error_type": "ValueError",
+    "error": "Material result labels cannot be safely bound: [{'sheet': 'Cover', 'label': 'Movement in cost limit (current - original printed)'}, {'sheet': 'Cover', 'label': 'Asbestos removal option - outside current cost limit'}, {'sheet': 'Reconciliation', 'label': 'Original printed cost limit'}]"
+  },
+  "reproduction": {
+    "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+    "original_sha256": "5f7f8654103eacaee062b81a176b17b2315b6e366b68925e42618a2da8d2b6ff",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

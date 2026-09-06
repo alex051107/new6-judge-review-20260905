@@ -1,0 +1,112 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    }
+  },
+  "evidence": {
+    "baseline_recalc": {
+      "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/fixtures/wide_rates_long_quotes.xlsx",
+      "source_sha256_before": "64b6727a2c5820655e564c45eea85ff395e26498f198cce706fd17baf46aad15",
+      "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/partial_parse_repair/wide/baseline/recalc-knih_vyi/input/wide_rates_long_quotes.xlsx",
+      "engine": "/opt/homebrew/bin/soffice",
+      "command": [
+        "/opt/homebrew/bin/soffice",
+        "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/partial_parse_repair/wide/baseline/recalc-knih_vyi/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/partial_parse_repair/wide/baseline/recalc-knih_vyi/output",
+        "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/partial_parse_repair/wide/baseline/recalc-knih_vyi/input/wide_rates_long_quotes.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 97,
+      "isolated_input_sha256": "3d7c5c3d5b06139157243879d1beceefca2273cf6ee45b8ff988cc2aed0c3c6b",
+      "returncode": 0,
+      "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/partial_parse_repair/wide/baseline/recalc-knih_vyi/output/wide_rates_long_quotes.xlsx",
+      "output_sha256": "61161c8518e3c738102cec64b424a22081543849b9598edaa3f13e9797f4c941",
+      "elapsed_seconds": 2.9672227920091245,
+      "source_sha256_after": "64b6727a2c5820655e564c45eea85ff395e26498f198cce706fd17baf46aad15",
+      "original_unchanged": true
+    },
+    "pending_reason": "Rate extraction is only partially parsed: unbound wide rate grid requires semantic review or a layout adapter",
+    "parse_evidence": {
+      "bound_tables": [
+        {
+          "sheet": "Quotes",
+          "header_row": 5,
+          "kind": "quote",
+          "fields": {
+            "request_id": 1,
+            "weight": 2,
+            "weight_unit": 3,
+            "zone": 4,
+            "priority_usd": 9,
+            "ground_usd": 10,
+            "selected": 11,
+            "selected_usd": 12
+          },
+          "record_count": 12,
+          "nonempty_body_rows": 13
+        }
+      ],
+      "unbound_rate_grids": [
+        {
+          "sheet": "Rates",
+          "header_row": 5,
+          "zone_columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "reason": "wide weight/zone grid has not been semantically bound"
+        },
+        {
+          "sheet": "Rates",
+          "header_row": 19,
+          "zone_columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "reason": "wide weight/zone grid has not been semantically bound"
+        }
+      ],
+      "parsed_rate_rows": 0,
+      "parsed_quote_rows": 12,
+      "oracle_values_used_for_discovery": false
+    }
+  }
+}

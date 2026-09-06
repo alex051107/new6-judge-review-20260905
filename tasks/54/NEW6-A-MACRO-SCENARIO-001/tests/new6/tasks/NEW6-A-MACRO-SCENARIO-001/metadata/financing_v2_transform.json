@@ -1,0 +1,16 @@
+{
+  "task_version": "new6-a2-v2.0-financing",
+  "archive": "metadata/versions/v1",
+  "source_method": "Model3 CAB branch savings minus current account",
+  "added_project_controls": {
+    "B3": 0.2,
+    "B4": 0.25,
+    "B5": 2028,
+    "B6": 0.04
+  },
+  "clear_previous_derived_cells": 272,
+  "additional_cleared_scenario_investment_cells": 17,
+  "new_blank_financing_result_cells": 85,
+  "reference_before_input": true,
+  "baseline_unchanged": true
+}

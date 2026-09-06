@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/input/margin_input_changed.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/output/margin_input_changed.xlsx using filter : Calc Office Open XML

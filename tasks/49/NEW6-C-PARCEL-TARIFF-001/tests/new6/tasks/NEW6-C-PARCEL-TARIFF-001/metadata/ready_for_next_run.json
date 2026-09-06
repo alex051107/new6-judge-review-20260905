@@ -1,0 +1,15 @@
+{
+  "ready": false,
+  "attempt": 2,
+  "task_version": "new6-c2-natural-v2",
+  "prompt_version": "natural-business-v2",
+  "judge_version": "new6-usps-facts-v2.0-downstream-use",
+  "basis": [
+    "metadata/measurement_v2/calibration/receipt.json",
+    "metadata/source_trace_repair/receipt.json",
+    "validation/harbor_reference_smoke_v2/receipt.json",
+    "metadata/visible_package_manifest_v2.json"
+  ],
+  "paid_launch": "COMPLETED as attempt2; original per-task two-attempt allowance consumed",
+  "result_receipt": "metadata/attempt_2.json"
+}

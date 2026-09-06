@@ -1,0 +1,17 @@
+{
+  "task_version": "new6-a2-v1.0-zambia",
+  "judge_version": "new6-a2-facts-v1.1-retained-source-layout",
+  "source_runtime": "rejudges/a2-v1-layout/new6/tasks/NEW6-A-MACRO-SCENARIO-001",
+  "candidate_original_unchanged": true,
+  "validation": "audited_code/metadata/layout_validation/receipt.json",
+  "changes": [
+    "new ordinary control and metric labels",
+    "actual retained input is source context for newly organized answer; no output guesses",
+    "absolute OOXML relationship target support",
+    "all presented bound comparison charts must agree with their series"
+  ],
+  "weights_changed": false,
+  "extra_agent_calls": 0,
+  "source_recalc_runs": 1,
+  "candidate_recalc_runs": 4
+}

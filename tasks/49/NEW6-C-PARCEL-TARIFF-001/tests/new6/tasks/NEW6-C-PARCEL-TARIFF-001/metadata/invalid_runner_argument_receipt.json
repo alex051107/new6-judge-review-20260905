@@ -1,0 +1,6 @@
+{
+  "command": "tests/calibrate.py --only unknown_fixture",
+  "returncode": 1,
+  "passed": true,
+  "assertion": "unknown fixture selection fails closed"
+}

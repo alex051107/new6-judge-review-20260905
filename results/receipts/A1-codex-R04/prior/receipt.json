@@ -95,5 +95,5 @@
   "api_calls": 0,
   "scored_at": "2026-09-06T00:07:41.161526+00:00",
   "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-a1-v1.3-proven-formula-defects/A1-codex-R04/verifier/judge-result.json",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-codex-R04/prior/receipt.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A1-codex-R04/prior/receipt.json"
 }

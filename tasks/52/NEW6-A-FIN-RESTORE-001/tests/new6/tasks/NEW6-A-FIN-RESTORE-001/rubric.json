@@ -1,0 +1,118 @@
+{
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "judge_version": "new6-a1-v1.3-proven-formula-defects",
+  "status": "IMPLEMENTED_AND_BIDIRECTIONALLY_CALIBRATED",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "\u6e90\u8f93\u5165\u3001\u65f6\u95f4\u4e0e\u91d1\u989d\u5355\u4f4d\u6b63\u786e",
+      "type": "positive",
+      "weight": 10,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R002",
+      "description_zh": "\u9010\u5e74\u7ecf\u8425\u9884\u6d4b\u548c\u8d39\u7528\u5173\u7cfb\u6b63\u786e",
+      "type": "positive",
+      "weight": 25,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R003",
+      "description_zh": "\u518d\u6295\u8d44\u3001\u73b0\u91d1\u6d41\u4e0e\u4f30\u503c\u6865\u6b63\u786e",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R004",
+      "description_zh": "\u58f0\u660e\u7684\u8f93\u5165\u53d8\u5316\u4f20\u5230\u6b63\u786e\u8f93\u51fa",
+      "type": "positive",
+      "weight": 35,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R005",
+      "description_zh": "\u5386\u53f2\u3001base\u548c\u4e0d\u76f8\u5173\u6a21\u578b\u5185\u5bb9\u4fdd\u7559",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R006",
+      "description_zh": "\u5019\u9009\u5b9e\u9645\u5c55\u793a\u7684\u4e24\u60c5\u666f\u7ed3\u8bba\u53ef\u6838\u5bf9",
+      "type": "positive",
+      "weight": 5,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    }
+  ],
+  "penalties": [],
+  "negative_item_policy": "Do not copy legacy penalties. Add only a separately evidenced harmful action with visible policy basis, explicit non-overlap and cross-profile shared semantics; log external acceptance gap until reviewed.",
+  "profiles": {
+    "capability_first": {
+      "R001": 10,
+      "R002": 25,
+      "R003": 20,
+      "R004": 35,
+      "R005": 5,
+      "R006": 5
+    },
+    "balanced": {
+      "R001": 15,
+      "R002": 25,
+      "R003": 25,
+      "R004": 25,
+      "R005": 5,
+      "R006": 5
+    },
+    "ongoing_use": {
+      "R001": 10,
+      "R002": 20,
+      "R003": 20,
+      "R004": 40,
+      "R005": 5,
+      "R006": 5
+    }
+  },
+  "source_binding": [
+    "nyu_amazon2018"
+  ],
+  "score_uncertainty": "If a required fact cannot be safely determined, report JUDGE_ERROR and no total. Unknown is not zero.",
+  "equivalence": "Accept business-equivalent layouts and formulas. Preserve source-native structure only where explicitly requested. No use of oracle values to choose candidate regions.",
+  "pre_rollout_weight_basis": "Frozen before any A1 Agent attempt. Historical source-derived lease financing rate is fixed and disclosed to make the native engine verifiable. Downstream what-if usability of both forecasts/valuations is an explicit primary deliverable, allocated35%; current numerical delivery and original basis retain65%. No extra hurdle/cap; legal equivalent formulas accepted.",
+  "fact_denominators": {
+    "R001": 21,
+    "R002": 132,
+    "R003": 142,
+    "R004": 372,
+    "R005": {
+      "source_basis_units": 1,
+      "zero_delta_and_other_input_units": 504,
+      "aggregation": "mean(source basis preserved, mean of unchanged response/input facts)"
+    },
+    "R006": 5
+  },
+  "numeric_tolerances": {
+    "ratios_and_rates_absolute": "0.00000001",
+    "monetary_absolute": "0.01",
+    "relative": "0.000000001",
+    "unit_choice": "Bound semantic metric determines rate or monetary tolerance; not candidate values"
+  },
+  "dynamic_scope": {
+    "growth_delta": ".01",
+    "target_margin_delta": "-.01",
+    "initial_discount_delta": ".005",
+    "active_units": [
+      168,
+      130,
+      74
+    ],
+    "invariants_scored_separately": true,
+    "only_visible_declared_inputs_changed": true
+  },
+  "same_original_parser_repair": "metadata/first_attempt_rejudge_v12/receipt.json"
+}

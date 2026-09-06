@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/growth_plus_1pp/recalculated/recalc-r20qx1xp/input/mutated.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/growth_plus_1pp/recalculated/recalc-r20qx1xp/output/mutated.xlsx using filter : Calc Office Open XML

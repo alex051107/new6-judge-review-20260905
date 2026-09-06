@@ -1,0 +1,333 @@
+{
+  "status": "FAIL",
+  "calibrated_cases": 6,
+  "results": [
+    {
+      "name": "reference",
+      "status": "SCORED",
+      "score": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R002_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R003_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R004_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R006_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 27.9,
+      "evidence": "metadata/calibration/reference/evaluation.json"
+    },
+    {
+      "name": "equivalent_formula",
+      "status": "SCORED",
+      "score": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R002_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R003_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R004_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R006_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 30.7,
+      "evidence": "metadata/calibration/equivalent_formula/evaluation.json"
+    },
+    {
+      "name": "equivalent_static_initialization",
+      "status": "SCORED",
+      "score": "1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R002_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R003_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R004_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R006_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 27.99,
+      "evidence": "metadata/calibration/equivalent_static_initialization/evaluation.json"
+    },
+    {
+      "name": "wrong_timing",
+      "status": "SCORED",
+      "score": "0.69723961040428464893448735621793857765924",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.6470588235294117647058823529411764705882",
+        "R003": "0.5294117647058823529411764705882352941176",
+        "R004": "0.5875912408759124087591240875912408759124",
+        "R005": "1",
+        "R006": "0.9473684210526315789473684210526315789474"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R002_loses",
+          "actual": "0.6470588235294117647058823529411764705882",
+          "ok": true
+        },
+        {
+          "assertion": "R003_loses",
+          "actual": "0.5294117647058823529411764705882352941176",
+          "ok": true
+        },
+        {
+          "assertion": "R004_loses",
+          "actual": "0.5875912408759124087591240875912408759124",
+          "ok": true
+        },
+        {
+          "assertion": "R006_loses",
+          "actual": "0.9473684210526315789473684210526315789474",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 28.79,
+      "evidence": "metadata/calibration/wrong_timing/evaluation.json"
+    },
+    {
+      "name": "wrong_transition_year",
+      "status": "SCORED",
+      "score": "0.68675630211746627194865652753610087907619",
+      "criterion_scores": {
+        "R001": "0.9375",
+        "R002": "0.625",
+        "R003": "0.5588235294117647058823529411764705882353",
+        "R004": "0.5912408759124087591240875912408759124088",
+        "R005": "1",
+        "R006": "0.9473684210526315789473684210526315789474"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R001_loses",
+          "actual": "0.9375",
+          "ok": true
+        },
+        {
+          "assertion": "R002_loses",
+          "actual": "0.625",
+          "ok": true
+        },
+        {
+          "assertion": "R003_loses",
+          "actual": "0.5588235294117647058823529411764705882353",
+          "ok": true
+        },
+        {
+          "assertion": "R004_loses",
+          "actual": "0.5912408759124087591240875912408759124088",
+          "ok": true
+        },
+        {
+          "assertion": "R006_loses",
+          "actual": "0.9473684210526315789473684210526315789474",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 25.4,
+      "evidence": "metadata/calibration/wrong_transition_year/evaluation.json"
+    },
+    {
+      "name": "constant_offset",
+      "status": "SCORED",
+      "score": "0.86706204379562043795620437956204379562044",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.75",
+        "R003": "0.875",
+        "R004": "0.8978102189781021897810218978102189781022",
+        "R005": "1",
+        "R006": "1"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R003_loses",
+          "actual": "0.875",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R002_preserved",
+          "actual": "0.75",
+          "ok": false
+        },
+        {
+          "assertion": "R004_preserved",
+          "actual": "0.8978102189781021897810218978102189781022",
+          "ok": false
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R006_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": false,
+      "seconds": 27.79,
+      "evidence": "metadata/calibration/constant_offset/evaluation.json"
+    }
+  ],
+  "agent_calls": 0,
+  "agent_cost_usd": "0",
+  "formal_difficulty_qualified": false
+}

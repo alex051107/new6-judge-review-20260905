@@ -10,4 +10,4 @@
 
 窄组：A1 R004、A2 R004、B1 R007/R008、B2 R004/R005、C1 R005、C2 R004。组内原权重比例不变，计算重点50/60/70；不改事实或处罚。Pass@k未在所选回执下认证完整同Judge同配置人口，因此留空。
 
-[77份原始评分回执与原件身份清单（需组内权限）](https://github.com/alex051107/excelbench-p15-results/tree/669b5d619318cabc8b5b89e8e492db2e1f3b6303/new6-final/current-effective-v1)。固定环境和答卷下载见[复跑入口](../../repro/README.md)。
+[77份原始回执公开导出](raw-receipts/README.md)。固定环境和答卷下载见[复跑入口](../../repro/README.md)。

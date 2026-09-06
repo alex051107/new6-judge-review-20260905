@@ -1,0 +1,33 @@
+{
+  "task_version": "new6-c1-revision-v2",
+  "judge_version": "new6-c1-review-facts-v2.0",
+  "design": "COMPLETE",
+  "build": "COMPLETE",
+  "independent_reference_oracle": "PASS_19_FACTS",
+  "calibration": "PASS_19_CASES",
+  "harbor_smoke": "PASS_LINUX_REFERENCE_100",
+  "actual_new_agent_samples": 1,
+  "formal_difficulty": "NOT_ESTABLISHED",
+  "api_calls": null,
+  "primary_score_rule": "unrounded >= 0.70, no hurdle/cap",
+  "source": "Actual supplied October 2024 Revision A PDF + explicitly project-authored review correspondence",
+  "reference_cost_limit": "2039471.588000",
+  "reference_movement_printed": "68193.588000",
+  "reference_movement_recomputed": "68193.735500",
+  "source_pdf_pages_rendered": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "old_task_and_runs_modified": false,
+  "actual_execution": "CODEX_AND_CLAUDE_EIGHT_EACH_QUEUED",
+  "actual_first_terminal_status": "OUTPUT_MISSING",
+  "actual_first_terminal_score": "0",
+  "api_calls_note": "Construction/calibration API0; actual generation now running, provider requests and fees pending attribution.",
+  "environment_setup_failures_before_agent": 7,
+  "environment_repair": "5 stale empty test networks removed, healthy runs untouched, seven never-started slots resubmitted once",
+  "qwen_status": "BLOCKED_PROVIDER_ROUTE",
+  "updated_at": "2026-09-05T22:05:41.454149+00:00",
+  "actual_new_agent_samples_note": "Snapshot count, not formal effective n; authoritative current records are the versioned campaign receipts."
+}

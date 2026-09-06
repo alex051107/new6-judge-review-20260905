@@ -1,0 +1,9 @@
+{
+  "evaluator_args": [
+    "--evidence-dir",
+    "/logs/verifier/task-evidence",
+    "--input-dir",
+    "/app/input",
+    "--completed-run"
+  ]
+}

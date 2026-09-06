@@ -1,0 +1,32 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    }
+  },
+  "evidence": {
+    "error_type": "KeyError",
+    "error": "'/xl/worksheets/sheet1.xml'"
+  }
+}

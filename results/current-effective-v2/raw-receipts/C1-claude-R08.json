@@ -1,0 +1,3526 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.43545880317403496,
+  "score_decimal": "0.435458803174034962114432313107809796551525",
+  "pass": false,
+  "criterion_scores": {
+    "R001": "0.5231788079470198675496688741721854304636",
+    "R002": "1",
+    "R003": "0.6666666666666666666666666666666666666667",
+    "R004": "0.3333333333333333333333333333333333333333",
+    "R005": "0",
+    "R006": "0.4729729729729729729729729729729729729730"
+  },
+  "contributions_raw": {
+    "R001": "7.8476821192052980132450331125827814569540",
+    "R002": "20",
+    "R003": "10.0000000000000000000000000000000000000005",
+    "R004": "3.3333333333333333333333333333333333333330",
+    "R005": "0",
+    "R006": "2.3648648648648648648648648648648648648650"
+  },
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.43545880317403496,
+      "score_decimal": "0.435458803174034962114432313107809796551525",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "7.8476821192052980132450331125827814569540",
+        "R002": "20",
+        "R003": "10.0000000000000000000000000000000000000005",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.4949510769047193,
+      "score_decimal": "0.49495107690471928882524909014975240140804",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "10.4635761589403973509933774834437086092720",
+        "R002": "20",
+        "R003": "13.3333333333333333333333333333333333333340",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.40929986277668395,
+      "score_decimal": "0.409299862776683968736948869399200525028345",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.5231788079470198675496688741721854304636",
+        "R002": "1",
+        "R003": "0.6666666666666666666666666666666666666667",
+        "R004": "0.3333333333333333333333333333333333333333",
+        "R005": "0",
+        "R006": "0.4729729729729729729729729729729729729730"
+      },
+      "contributions_raw": {
+        "R001": "5.2317880794701986754966887417218543046360",
+        "R002": "20",
+        "R003": "10.0000000000000000000000000000000000000005",
+        "R004": "3.3333333333333333333333333333333333333330",
+        "R005": "0",
+        "R006": "2.3648648648648648648648648648648648648650"
+      }
+    }
+  },
+  "evidence": {
+    "judge_version": "new6-c1-review-facts-v2.4-inline-and-bridge",
+    "fact_units": {
+      "R001": [
+        {
+          "id": "document",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "revision",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "date",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "project",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "currency",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:listing:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "elements:listing:printed_rate",
+          "ok": false,
+          "actual": [],
+          "expected": "0"
+        },
+        {
+          "id": "elements:pitched_roof:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:pitched_roof:printed",
+          "ok": true,
+          "actual": [
+            418900
+          ],
+          "expected": "418900"
+        },
+        {
+          "id": "elements:pitched_roof:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.2929"
+        },
+        {
+          "id": "elements:central_lantern:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:central_lantern:printed",
+          "ok": true,
+          "actual": [
+            9600
+          ],
+          "expected": "9600"
+        },
+        {
+          "id": "elements:central_lantern:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0067"
+        },
+        {
+          "id": "elements:rear_roof:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:rear_roof:printed",
+          "ok": true,
+          "actual": [
+            400
+          ],
+          "expected": "400"
+        },
+        {
+          "id": "elements:rear_roof:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0003"
+        },
+        {
+          "id": "elements:gutters:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:gutters:printed",
+          "ok": true,
+          "actual": [
+            16700
+          ],
+          "expected": "16700"
+        },
+        {
+          "id": "elements:gutters:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0117"
+        },
+        {
+          "id": "elements:parapet:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:parapet:printed",
+          "ok": true,
+          "actual": [
+            13800
+          ],
+          "expected": "13800"
+        },
+        {
+          "id": "elements:parapet:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0096"
+        },
+        {
+          "id": "elements:rainwater:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:rainwater:printed",
+          "ok": true,
+          "actual": [
+            47950
+          ],
+          "expected": "47950"
+        },
+        {
+          "id": "elements:rainwater:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0335"
+        },
+        {
+          "id": "elements:masonry:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:masonry:printed",
+          "ok": true,
+          "actual": [
+            110725
+          ],
+          "expected": "110725"
+        },
+        {
+          "id": "elements:masonry:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0774"
+        },
+        {
+          "id": "elements:rendered:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:rendered:printed",
+          "ok": true,
+          "actual": [
+            7200
+          ],
+          "expected": "7200"
+        },
+        {
+          "id": "elements:rendered:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.005"
+        },
+        {
+          "id": "elements:windows:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:windows:printed",
+          "ok": true,
+          "actual": [
+            89450
+          ],
+          "expected": "89450"
+        },
+        {
+          "id": "elements:windows:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0625"
+        },
+        {
+          "id": "elements:rooflights:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:rooflights:printed",
+          "ok": true,
+          "actual": [
+            16100
+          ],
+          "expected": "16100"
+        },
+        {
+          "id": "elements:rooflights:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0113"
+        },
+        {
+          "id": "elements:lantern_light:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:lantern_light:printed",
+          "ok": true,
+          "actual": [
+            46950
+          ],
+          "expected": "46950"
+        },
+        {
+          "id": "elements:lantern_light:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0328"
+        },
+        {
+          "id": "elements:doors:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:doors:printed",
+          "ok": true,
+          "actual": [
+            15000
+          ],
+          "expected": "15000"
+        },
+        {
+          "id": "elements:doors:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0105"
+        },
+        {
+          "id": "elements:walls:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:walls:printed",
+          "ok": true,
+          "actual": [
+            18200
+          ],
+          "expected": "18200"
+        },
+        {
+          "id": "elements:walls:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.0127"
+        },
+        {
+          "id": "elements:services:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "elements:services:printed",
+          "ok": true,
+          "actual": [
+            619250
+          ],
+          "expected": "619250"
+        },
+        {
+          "id": "elements:services:printed_rate",
+          "ok": false,
+          "actual": [
+            null
+          ],
+          "expected": "0.433"
+        },
+        {
+          "id": "summary:building:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:building:printed",
+          "ok": true,
+          "actual": [
+            1430225,
+            null
+          ],
+          "expected": "1430225"
+        },
+        {
+          "id": "summary:preliminaries:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:preliminaries:printed",
+          "ok": true,
+          "actual": [
+            182800,
+            null
+          ],
+          "expected": "182800"
+        },
+        {
+          "id": "summary:overheads:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:overheads:printed",
+          "ok": true,
+          "actual": [
+            161303,
+            null,
+            null
+          ],
+          "expected": "161303"
+        },
+        {
+          "id": "summary:overheads:printed_rate",
+          "ok": true,
+          "actual": [
+            0.1,
+            0.1,
+            null
+          ],
+          "expected": "0.1"
+        },
+        {
+          "id": "summary:building_estimate:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:building_estimate:printed",
+          "ok": true,
+          "actual": [
+            1774328,
+            null
+          ],
+          "expected": "1774328"
+        },
+        {
+          "id": "summary:consultants:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "summary:base:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:base:printed",
+          "ok": true,
+          "actual": [
+            1774328,
+            null
+          ],
+          "expected": "1774328"
+        },
+        {
+          "id": "summary:design_risk:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:design_risk:printed",
+          "ok": true,
+          "actual": [
+            177433,
+            null,
+            null
+          ],
+          "expected": "177433"
+        },
+        {
+          "id": "summary:design_risk:printed_rate",
+          "ok": true,
+          "actual": [
+            0.1,
+            0.1,
+            null
+          ],
+          "expected": "0.1"
+        },
+        {
+          "id": "summary:construction_risk:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "summary:employer_risk:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "summary:inflation_excluded:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:inflation_excluded:printed",
+          "ok": true,
+          "actual": [
+            1951760,
+            null
+          ],
+          "expected": "1951760"
+        },
+        {
+          "id": "summary:inflation:unique",
+          "ok": true,
+          "actual": 2,
+          "expected": "1"
+        },
+        {
+          "id": "summary:inflation:printed",
+          "ok": true,
+          "actual": [
+            19518,
+            null,
+            null
+          ],
+          "expected": "19518"
+        },
+        {
+          "id": "summary:inflation:printed_rate",
+          "ok": true,
+          "actual": [
+            0.01,
+            0.01,
+            null
+          ],
+          "expected": "0.01"
+        },
+        {
+          "id": "summary:vat_excluded:unique",
+          "ok": true,
+          "actual": 3,
+          "expected": "1"
+        },
+        {
+          "id": "summary:vat_excluded:printed",
+          "ok": true,
+          "actual": [
+            1971278,
+            null,
+            1971278
+          ],
+          "expected": "1971278"
+        },
+        {
+          "id": "provisional:timber:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:timber:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "2000"
+        },
+        {
+          "id": "provisional:opening_vents:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:opening_vents:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "1000"
+        },
+        {
+          "id": "provisional:lantern_repairs:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:lantern_repairs:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "2000"
+        },
+        {
+          "id": "provisional:venturi:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:venturi:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "10000"
+        },
+        {
+          "id": "provisional:birds:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:birds:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "25000"
+        },
+        {
+          "id": "provisional:cills:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:cills:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "1500"
+        },
+        {
+          "id": "provisional:external_doors:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:external_doors:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "15000"
+        },
+        {
+          "id": "provisional:heating_plant_area:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:heating_plant_area:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "2500"
+        },
+        {
+          "id": "provisional:electrical:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:electrical:printed",
+          "ok": true,
+          "actual": [
+            85750
+          ],
+          "expected": "85750"
+        },
+        {
+          "id": "provisional:water:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:water:printed",
+          "ok": true,
+          "actual": [
+            43500
+          ],
+          "expected": "43500"
+        },
+        {
+          "id": "provisional:heating:unique",
+          "ok": true,
+          "actual": 3,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:heating:printed",
+          "ok": true,
+          "actual": [
+            432000,
+            432000,
+            432000
+          ],
+          "expected": "432000"
+        },
+        {
+          "id": "provisional:ventilation:unique",
+          "ok": true,
+          "actual": 1,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:ventilation:printed",
+          "ok": true,
+          "actual": [
+            55000
+          ],
+          "expected": "55000"
+        },
+        {
+          "id": "provisional:scaffolding:unique",
+          "ok": false,
+          "actual": 0,
+          "expected": "1"
+        },
+        {
+          "id": "provisional:scaffolding:printed",
+          "ok": false,
+          "actual": [],
+          "expected": "160000"
+        },
+        {
+          "id": "listing:source_unpriced",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "consultants:source_unpriced",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "construction_risk:source_unpriced",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "employer_risk:source_unpriced",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "timber:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "opening_vents:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "lantern_repairs:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "venturi:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "birds:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "cills:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "external_doors:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "heating_plant_area:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "electrical:included_memorandum",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "water:included_memorandum",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "heating:included_memorandum",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "ventilation:included_memorandum",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "scaffolding:included_memorandum",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_a:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_b:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_c:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_d:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_e:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_f:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_g:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_h:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_i:excluded",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_j:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_k:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_l:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_m:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_n:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_o:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_p:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_q:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_r:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_0:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_1:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_2:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_3:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_4:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "excluded_services_5:excluded",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "guide:qualification",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qs:qualification",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "drawings:qualification",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "scope_basis:qualification",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "phase:qualification",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "duration:qualification",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "price_basis:qualification",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "package_price:sources_and_unaffected_preserved",
+          "ok": true
+        },
+        {
+          "id": "risk_percentage:sources_and_unaffected_preserved",
+          "ok": true
+        },
+        {
+          "id": "price_and_allowances:sources_and_unaffected_preserved",
+          "ok": true
+        },
+        {
+          "id": "unapproved_option_price:sources_and_unaffected_preserved",
+          "ok": true
+        }
+      ],
+      "R002": [
+        {
+          "id": "effective_heating_price",
+          "ok": true,
+          "actual": [
+            458000,
+            458000,
+            458000
+          ],
+          "expected": 458000
+        },
+        {
+          "id": "any_displayed_earlier_quote_is_superseded",
+          "ok": true,
+          "actual": {
+            "displayed": false,
+            "values": [],
+            "text": ""
+          },
+          "expected": null
+        },
+        {
+          "id": "same_scope_replacement",
+          "ok": true,
+          "actual": {
+            "text": "updated package price review_correspondence.md ::   heating & ashp package   heating & ashp package  review_correspondence.md :: heating & ashp package: heating & ashp package: editable input above review_correspondence.md :: heating & ashp package heating & ashp package",
+            "candidate_replacement_arithmetic": true
+          },
+          "expected": null
+        },
+        {
+          "id": "unapproved_option_price",
+          "ok": true,
+          "actual": [
+            18000
+          ],
+          "expected": 18000
+        },
+        {
+          "id": "option_awaits_approval_and_is_outside",
+          "ok": true,
+          "actual": "excluded from original; under review awaiting approval review_correspondence.md :: asbestos removal asbestos removal",
+          "expected": null
+        },
+        {
+          "id": "option_price_change_does_not_approve_scope",
+          "ok": true
+        }
+      ],
+      "R003": [
+        {
+          "id": "element:listing",
+          "ok": false,
+          "actual": [],
+          "expected": "0"
+        },
+        {
+          "id": "element:pitched_roof",
+          "ok": true,
+          "actual": [
+            418900
+          ],
+          "expected": "418900"
+        },
+        {
+          "id": "element:central_lantern",
+          "ok": true,
+          "actual": [
+            9600
+          ],
+          "expected": "9600"
+        },
+        {
+          "id": "element:rear_roof",
+          "ok": true,
+          "actual": [
+            400
+          ],
+          "expected": "400"
+        },
+        {
+          "id": "element:gutters",
+          "ok": true,
+          "actual": [
+            16700
+          ],
+          "expected": "16700"
+        },
+        {
+          "id": "element:parapet",
+          "ok": true,
+          "actual": [
+            13800
+          ],
+          "expected": "13800"
+        },
+        {
+          "id": "element:rainwater",
+          "ok": true,
+          "actual": [
+            47950
+          ],
+          "expected": "47950"
+        },
+        {
+          "id": "element:masonry",
+          "ok": true,
+          "actual": [
+            110725
+          ],
+          "expected": "110725"
+        },
+        {
+          "id": "element:rendered",
+          "ok": true,
+          "actual": [
+            7200
+          ],
+          "expected": "7200"
+        },
+        {
+          "id": "element:windows",
+          "ok": true,
+          "actual": [
+            89450
+          ],
+          "expected": "89450"
+        },
+        {
+          "id": "element:rooflights",
+          "ok": true,
+          "actual": [
+            16100
+          ],
+          "expected": "16100"
+        },
+        {
+          "id": "element:lantern_light",
+          "ok": true,
+          "actual": [
+            46950
+          ],
+          "expected": "46950"
+        },
+        {
+          "id": "element:doors",
+          "ok": true,
+          "actual": [
+            15000
+          ],
+          "expected": "15000"
+        },
+        {
+          "id": "element:walls",
+          "ok": true,
+          "actual": [
+            18200
+          ],
+          "expected": "18200"
+        },
+        {
+          "id": "element:services",
+          "ok": true,
+          "actual": [
+            645250
+          ],
+          "expected": "645250"
+        },
+        {
+          "id": "working:building",
+          "ok": false,
+          "actual": [
+            1444225,
+            1456225
+          ],
+          "expected": "1456225"
+        },
+        {
+          "id": "working:preliminaries",
+          "ok": true,
+          "actual": [
+            182800,
+            182800
+          ],
+          "expected": "182800"
+        },
+        {
+          "id": "working:overheads",
+          "ok": false,
+          "actual": [
+            162703,
+            163902.5
+          ],
+          "expected": "163902.50"
+        },
+        {
+          "id": "working:building_estimate",
+          "ok": false,
+          "actual": [
+            1789728,
+            1802927.5
+          ],
+          "expected": "1802927.50"
+        },
+        {
+          "id": "working:base",
+          "ok": false,
+          "actual": [
+            1789728,
+            1802927.5
+          ],
+          "expected": "1802927.50"
+        },
+        {
+          "id": "working:design_risk",
+          "ok": false,
+          "actual": [
+            214767,
+            216351.3
+          ],
+          "expected": "216351.3000"
+        },
+        {
+          "id": "working:inflation_excluded",
+          "ok": false,
+          "actual": [
+            2004495,
+            2019278.8
+          ],
+          "expected": "2019278.8000"
+        },
+        {
+          "id": "working:inflation",
+          "ok": false,
+          "actual": [
+            20045,
+            20192.788
+          ],
+          "expected": "20192.788000"
+        },
+        {
+          "id": "working:vat_excluded",
+          "ok": false,
+          "actual": [
+            2024540,
+            2039471.588,
+            2036200
+          ],
+          "expected": "2039471.588000"
+        },
+        {
+          "id": "rate:overheads",
+          "ok": true,
+          "actual": [
+            0.1,
+            0.1
+          ],
+          "expected": "0.10"
+        },
+        {
+          "id": "rate:design_risk",
+          "ok": true,
+          "actual": [
+            0.12,
+            0.12
+          ],
+          "expected": "0.12"
+        },
+        {
+          "id": "rate:inflation",
+          "ok": true,
+          "actual": [
+            0.01,
+            0.01
+          ],
+          "expected": "0.01"
+        }
+      ],
+      "R004": [
+        {
+          "id": "cost_limit_movement_correct",
+          "ok": false,
+          "actual": [
+            {
+              "stage": "vat_excluded",
+              "location": "Cost Breakdown!47",
+              "basis": "printed_original",
+              "actual": 53262,
+              "expected": "68193.588000",
+              "correct": false,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Working Calculation!28",
+              "basis": "recomputed_original",
+              "actual": 68193.7355,
+              "expected": "68193.735500",
+              "correct": true,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Reconciliation!13",
+              "basis": "printed_original",
+              "actual": 64922,
+              "expected": "68193.588000",
+              "correct": false,
+              "self_consistent": true
+            }
+          ],
+          "expected": null
+        },
+        {
+          "id": "movement_matches_candidate_own_figures",
+          "ok": true,
+          "actual": [
+            {
+              "stage": "vat_excluded",
+              "location": "Cost Breakdown!47",
+              "basis": "printed_original",
+              "actual": 53262,
+              "expected": "68193.588000",
+              "correct": false,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Working Calculation!28",
+              "basis": "recomputed_original",
+              "actual": 68193.7355,
+              "expected": "68193.735500",
+              "correct": true,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Reconciliation!13",
+              "basis": "printed_original",
+              "actual": 64922,
+              "expected": "68193.588000",
+              "correct": false,
+              "self_consistent": true
+            }
+          ],
+          "expected": null
+        },
+        {
+          "id": "no_contradictory_displayed_reconciliation",
+          "ok": false,
+          "actual": {
+            "reconciliations": [
+              {
+                "stage": "building",
+                "location": "Cost Breakdown!30",
+                "basis": "printed_original",
+                "actual": 14000,
+                "expected": "26000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "building",
+                "location": "Working Calculation!19",
+                "basis": "recomputed_original",
+                "actual": 26000,
+                "expected": "26000",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "preliminaries",
+                "location": "Cost Breakdown!33",
+                "basis": "printed_original",
+                "actual": 0,
+                "expected": "0",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "preliminaries",
+                "location": "Working Calculation!20",
+                "basis": "recomputed_original",
+                "actual": 0,
+                "expected": "0",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "overheads",
+                "location": "Cost Breakdown!34",
+                "basis": "printed_original",
+                "actual": 1400,
+                "expected": "2599.50",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "overheads",
+                "location": "Working Calculation!22",
+                "basis": "recomputed_original",
+                "actual": 2600,
+                "expected": "2600.00",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "building_estimate",
+                "location": "Cost Breakdown!35",
+                "basis": "printed_original",
+                "actual": 15400,
+                "expected": "28599.50",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "building_estimate",
+                "location": "Working Calculation!23",
+                "basis": "recomputed_original",
+                "actual": 28600,
+                "expected": "28600.00",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "base",
+                "location": "Cost Breakdown!38",
+                "basis": "printed_original",
+                "actual": 15400,
+                "expected": "28599.50",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "base",
+                "location": "Working Calculation!24",
+                "basis": "recomputed_original",
+                "actual": 28600,
+                "expected": "28600.00",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "design_risk",
+                "location": "Cost Breakdown!41",
+                "basis": "printed_original",
+                "actual": 37334,
+                "expected": "38918.3000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "design_risk",
+                "location": "Working Calculation!25",
+                "basis": "recomputed_original",
+                "actual": 38918.55,
+                "expected": "38918.5500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "inflation_excluded",
+                "location": "Cost Breakdown!44",
+                "basis": "printed_original",
+                "actual": 52735,
+                "expected": "67518.8000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "inflation_excluded",
+                "location": "Working Calculation!26",
+                "basis": "recomputed_original",
+                "actual": 67518.5500000001,
+                "expected": "67518.5500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "inflation",
+                "location": "Cost Breakdown!46",
+                "basis": "printed_original",
+                "actual": 527,
+                "expected": "674.788000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "inflation",
+                "location": "Working Calculation!27",
+                "basis": "recomputed_original",
+                "actual": 675.1855,
+                "expected": "675.185500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Cost Breakdown!47",
+                "basis": "printed_original",
+                "actual": 53262,
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Working Calculation!28",
+                "basis": "recomputed_original",
+                "actual": 68193.7355,
+                "expected": "68193.735500",
+                "correct": true,
+                "self_consistent": true
+              },
+              {
+                "stage": "vat_excluded",
+                "location": "Reconciliation!13",
+                "basis": "printed_original",
+                "actual": 64922,
+                "expected": "68193.588000",
+                "correct": false,
+                "self_consistent": true
+              }
+            ],
+            "bridge_arithmetic": [
+              {
+                "meaning": "Original cumulative agrees with original amount",
+                "actual": 1971278,
+                "expected_from_candidate": 1971278,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Heating & ASHP package price change cumulative",
+                "actual": 1997278,
+                "expected_from_candidate": 1997278,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "OH&P on heating adjustment (10%) cumulative",
+                "actual": 1999878,
+                "expected_from_candidate": 1999878,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Subtotal (before risk allowance change)",
+                "actual": 1999878,
+                "expected_from_candidate": 1999878,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Design development risk rate change (10% to 12%) cumulative",
+                "actual": 2035673,
+                "expected_from_candidate": 2035673,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Inflation allowance on adjustments (1%) cumulative",
+                "actual": 2036200,
+                "expected_from_candidate": 2036200,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Final cumulative agrees with last displayed subtotal",
+                "actual": 2036200,
+                "expected_from_candidate": 2036200,
+                "tolerance": 1.000001,
+                "ok": true
+              },
+              {
+                "meaning": "Percentage change agrees with displayed original and current limits",
+                "actual": 0.0329339646665767,
+                "expected_from_candidate": 0.03293396466657671,
+                "tolerance": 5.0001000000000005e-05,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed building components reconcile with the calculated total (printed)",
+                "actual": 1430225,
+                "expected_from_candidate": 1430225,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed OH&P base includes building works and preliminaries (printed)",
+                "actual": 1613025,
+                "expected_from_candidate": 1613025,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed building components reconcile with the calculated total (working)",
+                "actual": 1456225,
+                "expected_from_candidate": 1456225,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed OH&P base includes building works and preliminaries (working)",
+                "actual": 1639025,
+                "expected_from_candidate": 1639025,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed M&E component subtotal (printed)",
+                "actual": 619250,
+                "expected_from_candidate": 619250,
+                "ok": true
+              },
+              {
+                "meaning": "Displayed M&E component subtotal (working)",
+                "actual": 645250,
+                "expected_from_candidate": 645250,
+                "ok": true
+              }
+            ]
+          },
+          "expected": null
+        }
+      ],
+      "R005": [
+        {
+          "id": "package_price:updated:building",
+          "ok": false,
+          "before": [
+            1444225,
+            1456225
+          ],
+          "after": [
+            1444225,
+            1466225
+          ],
+          "expected_after": "1466225",
+          "expected_delta": "10000"
+        },
+        {
+          "id": "package_price:updated:overheads",
+          "ok": false,
+          "before": [
+            162703,
+            163902.5
+          ],
+          "after": [
+            162703,
+            164902.5
+          ],
+          "expected_after": "164902.50",
+          "expected_delta": "1000.00"
+        },
+        {
+          "id": "package_price:updated:building_estimate",
+          "ok": false,
+          "before": [
+            1789728,
+            1802927.5
+          ],
+          "after": [
+            1789728,
+            1813927.5
+          ],
+          "expected_after": "1813927.50",
+          "expected_delta": "11000.00"
+        },
+        {
+          "id": "package_price:updated:base",
+          "ok": false,
+          "before": [
+            1789728,
+            1802927.5
+          ],
+          "after": [
+            1789728,
+            1813927.5
+          ],
+          "expected_after": "1813927.50",
+          "expected_delta": "11000.00"
+        },
+        {
+          "id": "package_price:updated:design_risk",
+          "ok": false,
+          "before": [
+            214767,
+            216351.3
+          ],
+          "after": [
+            214767,
+            217671.3
+          ],
+          "expected_after": "217671.3000",
+          "expected_delta": "1320.0000"
+        },
+        {
+          "id": "package_price:updated:inflation_excluded",
+          "ok": false,
+          "before": [
+            2004495,
+            2019278.8
+          ],
+          "after": [
+            2004495,
+            2031598.8
+          ],
+          "expected_after": "2031598.8000",
+          "expected_delta": "12320.0000"
+        },
+        {
+          "id": "package_price:updated:inflation",
+          "ok": false,
+          "before": [
+            20045,
+            20192.788
+          ],
+          "after": [
+            20045,
+            20315.988
+          ],
+          "expected_after": "20315.988000",
+          "expected_delta": "123.200000"
+        },
+        {
+          "id": "package_price:updated:vat_excluded",
+          "ok": false,
+          "before": [
+            2024540,
+            2039471.588,
+            2036200
+          ],
+          "after": [
+            2024540,
+            2051914.788,
+            2036200
+          ],
+          "expected_after": "2051914.788000",
+          "expected_delta": "12443.200000"
+        },
+        {
+          "id": "package_price:reconciliation_updates",
+          "ok": false,
+          "actual": [
+            {
+              "stage": "vat_excluded",
+              "location": "Cost Breakdown!47",
+              "basis": "printed_original",
+              "actual": 53262,
+              "expected": "80636.788000",
+              "correct": false,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Working Calculation!28",
+              "basis": "recomputed_original",
+              "actual": 80636.9354999999,
+              "expected": "80636.935500",
+              "correct": true,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Reconciliation!13",
+              "basis": "printed_original",
+              "actual": 64922,
+              "expected": "80636.788000",
+              "correct": false,
+              "self_consistent": true
+            }
+          ],
+          "cumulative_checks": [
+            {
+              "meaning": "Original cumulative agrees with original amount",
+              "actual": 1971278,
+              "expected_from_candidate": 1971278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Heating & ASHP package price change cumulative",
+              "actual": 1997278,
+              "expected_from_candidate": 1997278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "OH&P on heating adjustment (10%) cumulative",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Subtotal (before risk allowance change)",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Design development risk rate change (10% to 12%) cumulative",
+              "actual": 2035673,
+              "expected_from_candidate": 2035673,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Inflation allowance on adjustments (1%) cumulative",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Final cumulative agrees with last displayed subtotal",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Percentage change agrees with displayed original and current limits",
+              "actual": 0.0329339646665767,
+              "expected_from_candidate": 0.03293396466657671,
+              "tolerance": 5.0001000000000005e-05,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (printed)",
+              "actual": 1430225,
+              "expected_from_candidate": 1430225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (printed)",
+              "actual": 1613025,
+              "expected_from_candidate": 1613025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (working)",
+              "actual": 1466225,
+              "expected_from_candidate": 1466225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (working)",
+              "actual": 1649025,
+              "expected_from_candidate": 1649025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (printed)",
+              "actual": 619250,
+              "expected_from_candidate": 619250,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (working)",
+              "actual": 645250,
+              "expected_from_candidate": 645250,
+              "ok": true
+            }
+          ]
+        },
+        {
+          "id": "risk_percentage:updated:design_risk",
+          "ok": false,
+          "before": [
+            214767,
+            216351.3
+          ],
+          "after": [
+            214767,
+            252409.85
+          ],
+          "expected_after": "252409.8500",
+          "expected_delta": "36058.5500"
+        },
+        {
+          "id": "risk_percentage:updated:inflation_excluded",
+          "ok": false,
+          "before": [
+            2004495,
+            2019278.8
+          ],
+          "after": [
+            2004495,
+            2055337.35
+          ],
+          "expected_after": "2055337.3500",
+          "expected_delta": "36058.5500"
+        },
+        {
+          "id": "risk_percentage:updated:inflation",
+          "ok": false,
+          "before": [
+            20045,
+            20192.788
+          ],
+          "after": [
+            20045,
+            20553.3735
+          ],
+          "expected_after": "20553.373500",
+          "expected_delta": "360.585500"
+        },
+        {
+          "id": "risk_percentage:updated:vat_excluded",
+          "ok": false,
+          "before": [
+            2024540,
+            2039471.588,
+            2036200
+          ],
+          "after": [
+            2024540,
+            2075890.7235,
+            2036200
+          ],
+          "expected_after": "2075890.723500",
+          "expected_delta": "36419.135500"
+        },
+        {
+          "id": "risk_percentage:reconciliation_updates",
+          "ok": false,
+          "actual": [
+            {
+              "stage": "vat_excluded",
+              "location": "Cost Breakdown!47",
+              "basis": "printed_original",
+              "actual": 53262,
+              "expected": "104612.723500",
+              "correct": false,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Working Calculation!28",
+              "basis": "recomputed_original",
+              "actual": 104612.871,
+              "expected": "104612.871000",
+              "correct": true,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Reconciliation!13",
+              "basis": "printed_original",
+              "actual": 64922,
+              "expected": "104612.723500",
+              "correct": false,
+              "self_consistent": true
+            }
+          ],
+          "cumulative_checks": [
+            {
+              "meaning": "Original cumulative agrees with original amount",
+              "actual": 1971278,
+              "expected_from_candidate": 1971278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Heating & ASHP package price change cumulative",
+              "actual": 1997278,
+              "expected_from_candidate": 1997278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "OH&P on heating adjustment (10%) cumulative",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Subtotal (before risk allowance change)",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Design development risk rate change (10% to 12%) cumulative",
+              "actual": 2035673,
+              "expected_from_candidate": 2035673,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Inflation allowance on adjustments (1%) cumulative",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Final cumulative agrees with last displayed subtotal",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Percentage change agrees with displayed original and current limits",
+              "actual": 0.0329339646665767,
+              "expected_from_candidate": 0.03293396466657671,
+              "tolerance": 5.0001000000000005e-05,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (printed)",
+              "actual": 1430225,
+              "expected_from_candidate": 1430225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (printed)",
+              "actual": 1613025,
+              "expected_from_candidate": 1613025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (working)",
+              "actual": 1456225,
+              "expected_from_candidate": 1456225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (working)",
+              "actual": 1639025,
+              "expected_from_candidate": 1639025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (printed)",
+              "actual": 619250,
+              "expected_from_candidate": 619250,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (working)",
+              "actual": 645250,
+              "expected_from_candidate": 645250,
+              "ok": true
+            }
+          ]
+        },
+        {
+          "id": "price_and_allowances:updated:building",
+          "ok": false,
+          "before": [
+            1444225,
+            1456225
+          ],
+          "after": [
+            1444225,
+            1443225
+          ],
+          "expected_after": "1443225",
+          "expected_delta": "-13000"
+        },
+        {
+          "id": "price_and_allowances:updated:overheads",
+          "ok": false,
+          "before": [
+            162703,
+            163902.5
+          ],
+          "after": [
+            162703,
+            195123
+          ],
+          "expected_after": "195123.00",
+          "expected_delta": "31220.50"
+        },
+        {
+          "id": "price_and_allowances:updated:building_estimate",
+          "ok": false,
+          "before": [
+            1789728,
+            1802927.5
+          ],
+          "after": [
+            1789728,
+            1821148
+          ],
+          "expected_after": "1821148.00",
+          "expected_delta": "18220.50"
+        },
+        {
+          "id": "price_and_allowances:updated:base",
+          "ok": false,
+          "before": [
+            1789728,
+            1802927.5
+          ],
+          "after": [
+            1789728,
+            1821148
+          ],
+          "expected_after": "1821148.00",
+          "expected_delta": "18220.50"
+        },
+        {
+          "id": "price_and_allowances:updated:design_risk",
+          "ok": false,
+          "before": [
+            214767,
+            216351.3
+          ],
+          "after": [
+            214767,
+            218537.76
+          ],
+          "expected_after": "218537.7600",
+          "expected_delta": "2186.4600"
+        },
+        {
+          "id": "price_and_allowances:updated:inflation_excluded",
+          "ok": false,
+          "before": [
+            2004495,
+            2019278.8
+          ],
+          "after": [
+            2004495,
+            2039685.76
+          ],
+          "expected_after": "2039685.7600",
+          "expected_delta": "20406.9600"
+        },
+        {
+          "id": "price_and_allowances:updated:inflation",
+          "ok": false,
+          "before": [
+            20045,
+            20192.788
+          ],
+          "after": [
+            20045,
+            30595.2864
+          ],
+          "expected_after": "30595.2864000",
+          "expected_delta": "10402.4984000"
+        },
+        {
+          "id": "price_and_allowances:updated:vat_excluded",
+          "ok": false,
+          "before": [
+            2024540,
+            2039471.588,
+            2036200
+          ],
+          "after": [
+            2024540,
+            2070281.0464,
+            2036200
+          ],
+          "expected_after": "2070281.0464000",
+          "expected_delta": "30809.4584000"
+        },
+        {
+          "id": "price_and_allowances:reconciliation_updates",
+          "ok": false,
+          "actual": [
+            {
+              "stage": "vat_excluded",
+              "location": "Cost Breakdown!47",
+              "basis": "printed_original",
+              "actual": 53262,
+              "expected": "99003.0464000",
+              "correct": false,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Working Calculation!28",
+              "basis": "recomputed_original",
+              "actual": 99003.1939000001,
+              "expected": "99003.1939000",
+              "correct": true,
+              "self_consistent": true
+            },
+            {
+              "stage": "vat_excluded",
+              "location": "Reconciliation!13",
+              "basis": "printed_original",
+              "actual": 64922,
+              "expected": "99003.0464000",
+              "correct": false,
+              "self_consistent": true
+            }
+          ],
+          "cumulative_checks": [
+            {
+              "meaning": "Original cumulative agrees with original amount",
+              "actual": 1971278,
+              "expected_from_candidate": 1971278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Heating & ASHP package price change cumulative",
+              "actual": 1997278,
+              "expected_from_candidate": 1997278,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "OH&P on heating adjustment (10%) cumulative",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Subtotal (before risk allowance change)",
+              "actual": 1999878,
+              "expected_from_candidate": 1999878,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Design development risk rate change (10% to 12%) cumulative",
+              "actual": 2035673,
+              "expected_from_candidate": 2035673,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Inflation allowance on adjustments (1%) cumulative",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Final cumulative agrees with last displayed subtotal",
+              "actual": 2036200,
+              "expected_from_candidate": 2036200,
+              "tolerance": 1.000001,
+              "ok": true
+            },
+            {
+              "meaning": "Percentage change agrees with displayed original and current limits",
+              "actual": 0.0329339646665767,
+              "expected_from_candidate": 0.03293396466657671,
+              "tolerance": 5.0001000000000005e-05,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (printed)",
+              "actual": 1430225,
+              "expected_from_candidate": 1430225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (printed)",
+              "actual": 1613025,
+              "expected_from_candidate": 1613025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed building components reconcile with the calculated total (working)",
+              "actual": 1443225,
+              "expected_from_candidate": 1443225,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed OH&P base includes building works and preliminaries (working)",
+              "actual": 1626025,
+              "expected_from_candidate": 1626025,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (printed)",
+              "actual": 619250,
+              "expected_from_candidate": 619250,
+              "ok": true
+            },
+            {
+              "meaning": "Displayed M&E component subtotal (working)",
+              "actual": 645250,
+              "expected_from_candidate": 645250,
+              "ok": true
+            }
+          ]
+        }
+      ],
+      "R006": [
+        {
+          "id": "elements:listing:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:pitched_roof:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:central_lantern:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:rear_roof:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:gutters:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:parapet:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:rainwater:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:masonry:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:rendered:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:windows:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:rooflights:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:lantern_light:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:doors:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:walls:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "elements:services:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:building:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:preliminaries:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:overheads:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:building_estimate:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:consultants:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:base:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:design_risk:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:construction_risk:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:employer_risk:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:inflation_excluded:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:inflation:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "summary:vat_excluded:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:timber:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:opening_vents:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:lantern_repairs:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:venturi:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:birds:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:cills:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:external_doors:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:heating_plant_area:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:electrical:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:water:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:heating:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:ventilation:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "provisional:scaffolding:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_a:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_b:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_c:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_d:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_e:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_f:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_g:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_h:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_i:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_j:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_k:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_l:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_m:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_n:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_o:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_p:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_q:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_r:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_0:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_1:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_2:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_3:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_4:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "exclusions:excluded_services_5:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:guide:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:qs:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:drawings:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:scope_basis:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:phase:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:duration:source_page",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "qualifications:price_basis:source_page",
+          "ok": false,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "correspondence:heating_price",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "correspondence:earlier_heating",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "id": "correspondence:asbestos_option",
+          "ok": true,
+          "actual": null,
+          "expected": null
+        }
+      ]
+    },
+    "denominators": {
+      "R001": 151,
+      "R002": 6,
+      "R003": 27,
+      "R004": 3,
+      "R005": 23,
+      "R006": 74
+    },
+    "base_native_receipt": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "e2d67bc27808e4887d99996b2deecb520ceb6458e68365cfdd55aecb9156f4f2",
+      "isolated_input": "/logs/verifier/offline/native/base/recalc-v9sawd4w/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/base/recalc-v9sawd4w/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/base/recalc-v9sawd4w/output",
+        "/logs/verifier/offline/native/base/recalc-v9sawd4w/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 71,
+      "isolated_input_sha256": "fa94a716b1bf7e13ca11385bf32dd75cac2e9ad17075c6407c9250a564302e0e",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/base/recalc-v9sawd4w/output/answer.xlsx",
+      "output_sha256": "fa7f90e3db65933f04bb66a804b0727ee8ecc38e1917b3856a83e1381d87be4a",
+      "elapsed_seconds": 0.6421857509994879,
+      "source_sha256_after": "e2d67bc27808e4887d99996b2deecb520ceb6458e68365cfdd55aecb9156f4f2",
+      "original_unchanged": true
+    },
+    "dynamic_probes": [
+      {
+        "name": "package_price",
+        "declared_changes": {
+          "heating_price": 468000
+        },
+        "control_edits": {
+          "Working Calculation": {
+            "E6": 468000.0
+          }
+        },
+        "bound": true,
+        "edited_input_readback": false,
+        "native": {
+          "source": "/logs/verifier/offline/native/package_price/mutated.xlsx",
+          "source_sha256_before": "60314f7bf51ddeb779da64cb897bbb67974fdfc9892cdc76699f0a6e656cd05e",
+          "isolated_input": "/logs/verifier/offline/native/package_price/recalc/recalc-asp5gc5e/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/package_price/recalc/recalc-asp5gc5e/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/package_price/recalc/recalc-asp5gc5e/output",
+            "/logs/verifier/offline/native/package_price/recalc/recalc-asp5gc5e/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "72dc0256b27da17e5915b306b4451d648da2ed7c38d6c766e7d9ad612f0fdbcc",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/package_price/recalc/recalc-asp5gc5e/output/mutated.xlsx",
+          "output_sha256": "4b7070b209c019c42693525cae6f10547a57ded3bbc8bcfc6a6cc49abf282ba3",
+          "elapsed_seconds": 0.3807888340088539,
+          "source_sha256_after": "60314f7bf51ddeb779da64cb897bbb67974fdfc9892cdc76699f0a6e656cd05e",
+          "original_unchanged": true
+        }
+      },
+      {
+        "name": "risk_percentage",
+        "declared_changes": {
+          "design_risk_rate": ".14"
+        },
+        "control_edits": {
+          "Working Calculation": {
+            "E9": 0.14
+          }
+        },
+        "bound": true,
+        "edited_input_readback": false,
+        "native": {
+          "source": "/logs/verifier/offline/native/risk_percentage/mutated.xlsx",
+          "source_sha256_before": "85300563f63e2ddc038cf1776d80afdc2a3d354d8229cddf6f440a079023e571",
+          "isolated_input": "/logs/verifier/offline/native/risk_percentage/recalc/recalc-w450wy8e/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/risk_percentage/recalc/recalc-w450wy8e/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/risk_percentage/recalc/recalc-w450wy8e/output",
+            "/logs/verifier/offline/native/risk_percentage/recalc/recalc-w450wy8e/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "fb59fa1832773902935836b5f0b3715336ea4595c85bf79fb9dfe1e96d3660fc",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/risk_percentage/recalc/recalc-w450wy8e/output/mutated.xlsx",
+          "output_sha256": "56e3b4bf4a7389aa502935ce25850ebe73fd32c16481eb4f51aa5d4f909624fd",
+          "elapsed_seconds": 0.44216108400723897,
+          "source_sha256_after": "85300563f63e2ddc038cf1776d80afdc2a3d354d8229cddf6f440a079023e571",
+          "original_unchanged": true
+        }
+      },
+      {
+        "name": "price_and_allowances",
+        "declared_changes": {
+          "heating_price": 445000,
+          "overheads_rate": ".12",
+          "inflation_rate": ".015"
+        },
+        "control_edits": {
+          "Working Calculation": {
+            "E6": 445000.0,
+            "E10": 0.12,
+            "E11": 0.015
+          }
+        },
+        "bound": true,
+        "edited_input_readback": false,
+        "native": {
+          "source": "/logs/verifier/offline/native/price_and_allowances/mutated.xlsx",
+          "source_sha256_before": "eb3d41cec8ee8604b01f850925b92ad72c460131030a77cb3840022c36f9dd20",
+          "isolated_input": "/logs/verifier/offline/native/price_and_allowances/recalc/recalc-zcz8uvao/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/price_and_allowances/recalc/recalc-zcz8uvao/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/price_and_allowances/recalc/recalc-zcz8uvao/output",
+            "/logs/verifier/offline/native/price_and_allowances/recalc/recalc-zcz8uvao/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "5c54d9357cc9dedae552b22c208129f1eee40536cd31cc8896d51d384fa4a6b6",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/price_and_allowances/recalc/recalc-zcz8uvao/output/mutated.xlsx",
+          "output_sha256": "1c54d90a8ac37c859767233fab01ea0f73145f2e6822d955203fabc159704631",
+          "elapsed_seconds": 0.38332995897508226,
+          "source_sha256_after": "eb3d41cec8ee8604b01f850925b92ad72c460131030a77cb3840022c36f9dd20",
+          "original_unchanged": true
+        }
+      },
+      {
+        "name": "unapproved_option_price",
+        "declared_changes": {
+          "asbestos_option": 22000
+        },
+        "control_edits": {
+          "Cost Breakdown": {
+            "C51": 22000.0
+          }
+        },
+        "bound": true,
+        "edited_input_readback": true,
+        "native": {
+          "source": "/logs/verifier/offline/native/unapproved_option_price/mutated.xlsx",
+          "source_sha256_before": "4df05baff4bd4380c17208c2389091ffa48f8191945a4dedf70f03d58e43b9f5",
+          "isolated_input": "/logs/verifier/offline/native/unapproved_option_price/recalc/recalc-iyaa4sye/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/unapproved_option_price/recalc/recalc-iyaa4sye/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/unapproved_option_price/recalc/recalc-iyaa4sye/output",
+            "/logs/verifier/offline/native/unapproved_option_price/recalc/recalc-iyaa4sye/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "67f398e5e97f2cbf82f5838ea39e97e1d544cd3df6a637dc9510aa78090d3158",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/unapproved_option_price/recalc/recalc-iyaa4sye/output/mutated.xlsx",
+          "output_sha256": "4739da290b75c54936350e6291792bf64931293486f7b6d5c2a9f8ea0130a00c",
+          "elapsed_seconds": 0.41050337499473244,
+          "source_sha256_after": "4df05baff4bd4380c17208c2389091ffa48f8191945a4dedf70f03d58e43b9f5",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "candidate_broken_sheet_references": [],
+    "candidate_invalid_text_arithmetic": [],
+    "candidate_reconciliation": [
+      {
+        "stage": "building",
+        "location": "Cost Breakdown!30",
+        "basis": "printed_original",
+        "actual": 14000,
+        "expected": "26000",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "building",
+        "location": "Working Calculation!19",
+        "basis": "recomputed_original",
+        "actual": 26000,
+        "expected": "26000",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "preliminaries",
+        "location": "Cost Breakdown!33",
+        "basis": "printed_original",
+        "actual": 0,
+        "expected": "0",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "preliminaries",
+        "location": "Working Calculation!20",
+        "basis": "recomputed_original",
+        "actual": 0,
+        "expected": "0",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "overheads",
+        "location": "Cost Breakdown!34",
+        "basis": "printed_original",
+        "actual": 1400,
+        "expected": "2599.50",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "overheads",
+        "location": "Working Calculation!22",
+        "basis": "recomputed_original",
+        "actual": 2600,
+        "expected": "2600.00",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "building_estimate",
+        "location": "Cost Breakdown!35",
+        "basis": "printed_original",
+        "actual": 15400,
+        "expected": "28599.50",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "building_estimate",
+        "location": "Working Calculation!23",
+        "basis": "recomputed_original",
+        "actual": 28600,
+        "expected": "28600.00",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "base",
+        "location": "Cost Breakdown!38",
+        "basis": "printed_original",
+        "actual": 15400,
+        "expected": "28599.50",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "base",
+        "location": "Working Calculation!24",
+        "basis": "recomputed_original",
+        "actual": 28600,
+        "expected": "28600.00",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "design_risk",
+        "location": "Cost Breakdown!41",
+        "basis": "printed_original",
+        "actual": 37334,
+        "expected": "38918.3000",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "design_risk",
+        "location": "Working Calculation!25",
+        "basis": "recomputed_original",
+        "actual": 38918.55,
+        "expected": "38918.5500",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "inflation_excluded",
+        "location": "Cost Breakdown!44",
+        "basis": "printed_original",
+        "actual": 52735,
+        "expected": "67518.8000",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "inflation_excluded",
+        "location": "Working Calculation!26",
+        "basis": "recomputed_original",
+        "actual": 67518.5500000001,
+        "expected": "67518.5500",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "inflation",
+        "location": "Cost Breakdown!46",
+        "basis": "printed_original",
+        "actual": 527,
+        "expected": "674.788000",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "inflation",
+        "location": "Working Calculation!27",
+        "basis": "recomputed_original",
+        "actual": 675.1855,
+        "expected": "675.185500",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "vat_excluded",
+        "location": "Cost Breakdown!47",
+        "basis": "printed_original",
+        "actual": 53262,
+        "expected": "68193.588000",
+        "correct": false,
+        "self_consistent": true
+      },
+      {
+        "stage": "vat_excluded",
+        "location": "Working Calculation!28",
+        "basis": "recomputed_original",
+        "actual": 68193.7355,
+        "expected": "68193.735500",
+        "correct": true,
+        "self_consistent": true
+      },
+      {
+        "stage": "vat_excluded",
+        "location": "Reconciliation!13",
+        "basis": "printed_original",
+        "actual": 64922,
+        "expected": "68193.588000",
+        "correct": false,
+        "self_consistent": true
+      }
+    ],
+    "additional_candidate_claims": {
+      "('_calculation_components', 'other_services')": [
+        {
+          "sheet": "Cost Breakdown",
+          "row": 27,
+          "table": 7,
+          "context": "Cost Breakdown Mechanical and Electrical Services",
+          "cells": {
+            "label": "A27",
+            "printed": "B27",
+            "working": "C27",
+            "delta": "D27",
+            "status": "F27",
+            "scope": "G27"
+          },
+          "delta_sign": 1,
+          "label": "  Above ground drainage, Fire Safety, etc.",
+          "printed": 3000,
+          "working": 3000,
+          "delta": 0,
+          "status": null,
+          "scope": "Provisional sum"
+        }
+      ],
+      "('_calculation_components', 'building_ex_services')": [
+        {
+          "sheet": "Working Calculation",
+          "row": 16,
+          "table": 15,
+          "context": "Working Calculation CALCULATED VALUES",
+          "cells": {
+            "label": "A16",
+            "printed": "B16",
+            "working": "C16",
+            "delta": "D16",
+            "scope": "E16"
+          },
+          "delta_sign": 1,
+          "label": "Building Works (excl M&E)",
+          "printed": 810975,
+          "working": 810975,
+          "delta": 0,
+          "scope": "Elemental costs excl M&E"
+        }
+      ],
+      "('_calculation_components', 'services_ex_heating')": [
+        {
+          "sheet": "Working Calculation",
+          "row": 17,
+          "table": 15,
+          "context": "Working Calculation CALCULATED VALUES",
+          "cells": {
+            "label": "A17",
+            "printed": "B17",
+            "working": "C17",
+            "delta": "D17",
+            "scope": "E17"
+          },
+          "delta_sign": 1,
+          "label": "M&E Services (excl Heating)",
+          "printed": 187250,
+          "working": 187250,
+          "delta": 0,
+          "scope": "Electrical, Water, Vent, Drainage"
+        }
+      ],
+      "('_calculation_components', 'overheads_base')": [
+        {
+          "sheet": "Working Calculation",
+          "row": 21,
+          "table": 15,
+          "context": "Working Calculation CALCULATED VALUES",
+          "cells": {
+            "label": "A21",
+            "printed": "B21",
+            "working": "C21",
+            "delta": "D21",
+            "scope": "E21"
+          },
+          "delta_sign": 1,
+          "label": "Subtotal (for OH&P calc)",
+          "printed": 1613025,
+          "working": 1639025,
+          "delta": 26000,
+          "scope": "Building Works + Prelims"
+        }
+      ],
+      "('_movement_components', 'Reconciliation')": [
+        {
+          "sheet": "Reconciliation",
+          "row": 7,
+          "table": 4,
+          "label": "Heating & ASHP package price change",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "increment": "B7",
+            "cumulative": "C7"
+          },
+          "delta_sign": 1,
+          "source": "Review correspondence",
+          "increment": 26000,
+          "cumulative": 1997278
+        },
+        {
+          "sheet": "Reconciliation",
+          "row": 8,
+          "table": 4,
+          "label": "OH&P on heating adjustment (10%)",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "increment": "B8",
+            "cumulative": "C8"
+          },
+          "delta_sign": 1,
+          "source": "Calculated",
+          "increment": 2600,
+          "cumulative": 1999878
+        },
+        {
+          "sheet": "Reconciliation",
+          "row": 9,
+          "table": 4,
+          "label": "Subtotal (before risk allowance change)",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "cumulative": "C9"
+          },
+          "delta_sign": 1,
+          "cumulative": 1999878
+        },
+        {
+          "sheet": "Reconciliation",
+          "row": 10,
+          "table": 4,
+          "label": "Design development risk rate change (10% to 12%)",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "increment": "B10",
+            "cumulative": "C10"
+          },
+          "delta_sign": 1,
+          "source": "Review correspondence; 2% on base cost",
+          "increment": 35795,
+          "cumulative": 2035673
+        },
+        {
+          "sheet": "Reconciliation",
+          "row": 11,
+          "table": 4,
+          "label": "Inflation allowance on adjustments (1%)",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "increment": "B11",
+            "cumulative": "C11"
+          },
+          "delta_sign": 1,
+          "source": "Calculated",
+          "increment": 527,
+          "cumulative": 2036200
+        },
+        {
+          "sheet": "Reconciliation",
+          "row": 16,
+          "table": 4,
+          "label": "Percentage Change",
+          "context": "Amount / cumulative cost-limit bridge",
+          "cells": {
+            "value": "B16"
+          },
+          "delta_sign": 1,
+          "value": 0.0329339646665767,
+          "number_format": "0.00%"
+        }
+      ],
+      "('_bridge_arithmetic', 'Reconciliation')": [
+        {
+          "meaning": "Original cumulative agrees with original amount",
+          "actual": 1971278,
+          "expected_from_candidate": 1971278,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Heating & ASHP package price change cumulative",
+          "actual": 1997278,
+          "expected_from_candidate": 1997278,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "OH&P on heating adjustment (10%) cumulative",
+          "actual": 1999878,
+          "expected_from_candidate": 1999878,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Subtotal (before risk allowance change)",
+          "actual": 1999878,
+          "expected_from_candidate": 1999878,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Design development risk rate change (10% to 12%) cumulative",
+          "actual": 2035673,
+          "expected_from_candidate": 2035673,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Inflation allowance on adjustments (1%) cumulative",
+          "actual": 2036200,
+          "expected_from_candidate": 2036200,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Final cumulative agrees with last displayed subtotal",
+          "actual": 2036200,
+          "expected_from_candidate": 2036200,
+          "tolerance": 1.000001,
+          "ok": true
+        },
+        {
+          "meaning": "Percentage change agrees with displayed original and current limits",
+          "actual": 0.0329339646665767,
+          "expected_from_candidate": 0.03293396466657671,
+          "tolerance": 5.0001000000000005e-05,
+          "ok": true
+        }
+      ],
+      "('review_source', 'heating_price')": [
+        {
+          "sheet": "Source References",
+          "row": 11,
+          "table": 11,
+          "label": "  Heating & ASHP Package",
+          "context": "Review correspondence source register",
+          "source": "review_correspondence.md",
+          "scope": "Updated package price superseding earlier review Current: £458,000 (was £472,000, orig £432,000)",
+          "cells": {},
+          "quoted_source_text": "Updated package price superseding earlier review Current: £458,000 (was £472,000, orig £432,000)",
+          "quoted_source_value": 458000.0,
+          "document_locator": "Falmouth_OCE_October2024_RevA.pdf ::   Heating & ASHP Package"
+        }
+      ],
+      "('review_source', 'asbestos_option')": [
+        {
+          "sheet": "Source References",
+          "row": 13,
+          "table": 13,
+          "label": "  Asbestos Removal Option",
+          "context": "Review correspondence source register",
+          "source": "review_correspondence.md",
+          "scope": "Option awaiting approval decision £18,000 (not in cost limit)",
+          "cells": {},
+          "quoted_source_text": "Option awaiting approval decision £18,000 (not in cost limit)",
+          "quoted_source_value": 18000.0,
+          "document_locator": "Falmouth_OCE_October2024_RevA.pdf ::   Asbestos Removal Option"
+        }
+      ],
+      "('_bridge_arithmetic', 'Working Calculation')": [
+        {
+          "meaning": "Displayed building components reconcile with the calculated total (printed)",
+          "actual": 1430225,
+          "expected_from_candidate": 1430225,
+          "ok": true
+        },
+        {
+          "meaning": "Displayed OH&P base includes building works and preliminaries (printed)",
+          "actual": 1613025,
+          "expected_from_candidate": 1613025,
+          "ok": true
+        },
+        {
+          "meaning": "Displayed building components reconcile with the calculated total (working)",
+          "actual": 1456225,
+          "expected_from_candidate": 1456225,
+          "ok": true
+        },
+        {
+          "meaning": "Displayed OH&P base includes building works and preliminaries (working)",
+          "actual": 1639025,
+          "expected_from_candidate": 1639025,
+          "ok": true
+        }
+      ],
+      "('_bridge_arithmetic', 'Cost Breakdown')": [
+        {
+          "meaning": "Displayed M&E component subtotal (printed)",
+          "actual": 619250,
+          "expected_from_candidate": 619250,
+          "ok": true
+        },
+        {
+          "meaning": "Displayed M&E component subtotal (working)",
+          "actual": 645250,
+          "expected_from_candidate": 645250,
+          "ok": true
+        }
+      ]
+    },
+    "basis_policy": "Printed source or explicitly labelled recomputed original; whole-pound displays accepted; original source must remain intact."
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-COST-WORKPAPER-001",
+    "original_sha256": "e2d67bc27808e4887d99996b2deecb520ceb6458e68365cfdd55aecb9156f4f2",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

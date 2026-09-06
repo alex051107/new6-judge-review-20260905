@@ -46,5 +46,5 @@
   "api_calls": 0,
   "scored_at": "2026-09-06T00:20:06.669119+00:00",
   "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-b1-reader-v2.3/B1-claude-R04/verifier/judge-result.json",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B1-claude-R04/prior/receipt.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/B1-claude-R04/prior/receipt.json"
 }

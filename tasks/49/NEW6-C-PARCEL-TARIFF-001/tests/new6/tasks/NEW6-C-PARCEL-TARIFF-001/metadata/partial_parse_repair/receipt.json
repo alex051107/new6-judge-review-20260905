@@ -1,0 +1,25 @@
+{
+  "judge_version": "new6-usps-facts-v1.1-partial-parse",
+  "passed": true,
+  "category": "partial semantic parsing",
+  "native_baseline_runs": 1,
+  "dynamic_recalc_runs": 0,
+  "agent_calls": 0,
+  "paid_cost_usd": "0",
+  "assertions": {
+    "legitimate_wide_grids_plus_long_quotes": "JUDGE_ERROR/null for all profiles",
+    "wide_fixture_source_prices_verified": 192,
+    "wide_fixture_quote_outputs_verified": 49,
+    "unbound_grid_detection": "Public field labels and row shape only; no Oracle value used to find candidate columns",
+    "clearly_empty_labelled_rate_table": "CONFIRMED_OMITTED with parsed rates empty, available for business omission grading",
+    "uncertain_rate_delivery": "JUDGE_ERROR/UNRESOLVED, not numeric zero",
+    "unchanged_long_reference": "192 bound rates and12 quotes remain readable"
+  },
+  "scope_preserved": [
+    "Frozen first-attempt wrapper unchanged",
+    "Agent-visible inputs unchanged",
+    "Original first-attempt result unchanged",
+    "No Agent retry or execution of failed Agent text"
+  ],
+  "known_limit": "This repair detects partial parsing and returns pending; it does not implement a wide-grid semantic adapter."
+}

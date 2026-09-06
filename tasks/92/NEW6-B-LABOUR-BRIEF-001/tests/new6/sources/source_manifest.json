@@ -1,0 +1,129 @@
+{
+  "nyu_amazon2018": {
+    "landing_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/covalsSpr2015.htm",
+    "selector": {
+      "anchor_text_contains": "Amazon.com in September 2018"
+    },
+    "filename": "amazon_september2018.source",
+    "kind": "workbook",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "public_author_completed_valuation_educational_case",
+    "rights": "Author permits downloading and changing inputs; redistribution not independently cleared. Retain attribution; no assertion of actual client commission.",
+    "local_sha256": "ab082bfcd5692300cedb7fb802e05ca47a9a6d5cfbf6296c7efa350233dfdc32",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "OFFICIAL_LANDING_AND_DOWNLOAD_LINK_VERIFIED; BINARY_NOT_INSPECTED",
+    "current_task_evidence": "tasks/NEW6-A-FIN-RESTORE-001/metadata/source_manifest.json",
+    "resolved_url": "https://pages.stern.nyu.edu/~adamodar/pc/blog/AmazonSept18.xlsx",
+    "recalculation_status": "DERIVED_HISTORY_RATE_MODEL_PASSED_BASE_AND_DECLARED_INPUT_CHANGES",
+    "original_circular_engine_verified": false,
+    "construction_adjustment": "Only historical lease financing rate fixed at unique source-method solution4.13%; original workbook unchanged and full source method retained; disclosed to candidate.",
+    "native_evidence": "tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/receipt.json"
+  },
+  "ltgm_training": {
+    "landing_url": "https://www.worldbank.org/en/research/brief/LTGM",
+    "selector": {
+      "anchor_text_contains": "Training version of LTGM"
+    },
+    "filename": "ltgm_training.source",
+    "kind": "workbook",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "required_version": "4.4, or explicit same-guide compatibility established before construction",
+    "source_type": "public_expert_model_with_project_scenario",
+    "rights": "Check workbook/source terms. Worked examples are illustrative, not World Bank forecasts.",
+    "local_sha256": "08bc78058b0fdbf4bfd5370222a3b2dea96b9ed5e411979333b591ebca5afefa",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "OFFICIAL_TRAINING_LINK_VERIFIED; BINARY_VERSION_AND_INTERNALS_PENDING",
+    "current_task_evidence": "tasks/NEW6-A-MACRO-SCENARIO-001/metadata/source_manifest.json",
+    "resolved_url": "https://thedocs.worldbank.org/en/doc/69bc4523b31b706a9c7d56cd3ad0ca86-0050022021/related/LTGMv4-42-TrainingVersion.xlsx"
+  },
+  "ltgm_guide": {
+    "url": "https://thedocs.worldbank.org/en/doc/285411589476081710-0050022020/original/InstructionsforLTGMandExampleSimulationsV43Public.pdf",
+    "filename": "ltgm_instructions_2020.pdf",
+    "kind": "pdf",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "official_model_guide",
+    "candidate_release": "Methods only; withhold worked output answers for the task.",
+    "local_sha256": "debd72dfd986007c47c9bb91482d1cdb7da38722a83207adb0611a6dd50e5c79",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "PDF_TEXT_AND_SELECTED_PAGE_VISUALLY_REVIEWED",
+    "current_task_evidence": "tasks/NEW6-A-MACRO-SCENARIO-001/metadata/source_manifest.json",
+    "resolved_url": "https://thedocs.worldbank.org/en/doc/285411589476081710-0050022020/original/InstructionsforLTGMandExampleSimulationsV43Public.pdf"
+  },
+  "retail_uci": {
+    "url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+    "landing_url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+    "filename": "online_retail_uci352.zip",
+    "kind": "zip",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "real_transaction_data_reconstructed_request",
+    "rights": "CC BY 4.0 per UCI landing page; retain Daqing Chen, dataset title, DOI 10.24432/C5BW33 and transformation attribution.",
+    "local_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "OFFICIAL_METADATA_AND_DOWNLOAD_LINK_VERIFIED; ROWS_NOT_INSPECTED",
+    "current_task_evidence": "tasks/NEW6-B-RETAIL-CLOSE-001/metadata/source_manifest.json",
+    "resolved_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip"
+  },
+  "ons_2024": {
+    "landing_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/li01regionallabourmarketlocalindicatorsforcountieslocalandunitaryauthorities",
+    "selector": {
+      "section_heading_contains": "January 2024 edition",
+      "anchor_text_contains": "xlsx"
+    },
+    "filename": "ons_li01_january2024.xlsx",
+    "kind": "xlsx",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "official_statistics_reconstructed_request",
+    "rights": "OGL per landing page, except noted material. Check workbook notices.",
+    "local_sha256": "6ac4594b855f1232467756eababe0199f76c457dba9cf68e7d1cdea40a390530",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "EXACT_EDITION_LISTED; BINARY_AND_OBSERVATION_PERIOD_PENDING",
+    "current_task_evidence": "tasks/NEW6-B-LABOUR-BRIEF-001/metadata/source_manifest.json",
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/li01regionallabourmarketlocalindicatorsforcountieslocalandunitaryauthorities/january2024/lmregtabli01january2024.xlsx"
+  },
+  "ons_2025": {
+    "landing_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/li01regionallabourmarketlocalindicatorsforcountieslocalandunitaryauthorities",
+    "selector": {
+      "section_heading_contains": "January 2025 edition",
+      "anchor_text_contains": "xlsx"
+    },
+    "filename": "ons_li01_january2025.xlsx",
+    "kind": "xlsx",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "official_statistics_reconstructed_request",
+    "rights": "OGL per landing page, except noted material. Check workbook notices.",
+    "local_sha256": "b02f28305546b56ca8101e106e612bfd9564dba6be3072f886b6c922630a6f2b",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "EXACT_EDITION_LISTED; BINARY_AND_OBSERVATION_PERIOD_PENDING",
+    "current_task_evidence": "tasks/NEW6-B-LABOUR-BRIEF-001/metadata/source_manifest.json",
+    "resolved_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/li01regionallabourmarketlocalindicatorsforcountieslocalandunitaryauthorities/january2025/lmregtabli01january2025.xlsx"
+  },
+  "falmouth_oct2024": {
+    "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-3589",
+    "landing_url": "https://www.find-tender.service.gov.uk/Notice/050708-2025",
+    "filename": "falmouth_cost_estimate_revisionA_oct2024.pdf",
+    "kind": "pdf",
+    "status": "USER_ATTACHMENT_SOURCE_IDENTITY_AND_REFERENCE_VERIFIED",
+    "source_type": "real_published_cost_document_reconstructed_workpaper",
+    "rights": "Third-party QS document. Public hosting does not establish redistribution permission; clear intended use separately.",
+    "local_sha256": "d9473748ee612e6be28bd90c15c918b2347fec71642f0d317fcb5b6114a7c856",
+    "downloaded_in_this_session": false,
+    "intake_design_status": "FIVE_PAGE_PDF_PARSED; SCREENSHOT_FETCH_FAILED; LOCAL_VISUAL_REVIEW_REQUIRED",
+    "acquisition": "user_attachment",
+    "current_task_evidence": "tasks/NEW6-C-COST-WORKPAPER-001/metadata/source_manifest.json"
+  },
+  "usps_july2026": {
+    "url": "https://pe.usps.com/resources/PriceChange/July%202026%20Price%20Change%20-%20Notice123%20PDF%20-%207.10.26.pdf",
+    "landing_url": "https://pe.usps.com/PriceChange/Index",
+    "filename": "usps_notice123_effective20260712.pdf",
+    "kind": "pdf",
+    "status": "DOWNLOADED_SOURCE_INSPECTED",
+    "source_type": "official_rate_schedule_with_project_authored_quote_requests",
+    "required_version": "Effective July 12, 2026; not October 2026 proposed prices",
+    "rights": "Retain USPS source identity and source date; quote requests are explicitly synthetic test inputs.",
+    "local_sha256": "3fbb08717d4ef00cd14fd5b447564a2699d841ecf82bd90c1a5f0f31c16dd9ec",
+    "downloaded_in_this_session": true,
+    "intake_design_status": "PDF_AND_PRINTED_PAGES_5_7_VISUALLY_REVIEWED",
+    "current_task_evidence": "tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_manifest.json",
+    "resolved_url": "https://pe.usps.com/resources/PriceChange/July%202026%20Price%20Change%20-%20Notice123%20PDF%20-%207.10.26.pdf"
+  }
+}

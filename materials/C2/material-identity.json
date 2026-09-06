@@ -1,0 +1,30 @@
+{
+  "task": "C2",
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "task_version": "new6-c2-natural-v2",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 558
+    },
+    {
+      "path": "data/input_files/USPS_Notice123_20260712_pages1_5_7.pdf",
+      "bytes": 856736
+    },
+    {
+      "path": "data/input_files/quote_requests.csv",
+      "bytes": 574
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 1017
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "fdfed85e88662de1cccfb2512cc759cdba5e6ca1e06c3334db5fb78dc1f67720",
+  "zip_sha256": "622d767858991f0a10a8c9d3363a5e45034f817d3e498907ecf20eba46b6d262",
+  "agent_output_sha256": "ed294111b5cac85e6da46a3a298bdaa6b808eff5fea521991adb9b3b7d55ed60",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

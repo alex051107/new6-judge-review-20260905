@@ -1,0 +1,86 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "task_version": "new6-v0.1-development",
+  "judge_version": "new6-facts-v0.1",
+  "status": "POLICY_DRAFT_PENDING_QUALITY_ANCHORS",
+  "pass_rule": "evaluation_status == SCORED and unrounded_normalized_score >= 0.70",
+  "independent_hurdles": [],
+  "score_caps": [],
+  "criteria": [
+    {
+      "id": "R001",
+      "description_zh": "期间与源记录多重集合完整",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R002",
+      "description_zh": "销售、贷项与异常处理符合可见政策",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R003",
+      "description_zh": "发票级分组、身份与金额正确",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R004",
+      "description_zh": "国家与总体汇总和候选明细一致",
+      "type": "positive",
+      "weight": 20,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R005",
+      "description_zh": "报告/图表实际数值与分析一致",
+      "type": "positive",
+      "weight": 10,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    },
+    {
+      "id": "R006",
+      "description_zh": "源文件保护、记录追踪和闭合证据",
+      "type": "positive",
+      "weight": 10,
+      "scoring": "Independent factual units; denominator fixed from visible scope before rollout; do not reuse unrelated booleans."
+    }
+  ],
+  "penalties": [],
+  "negative_item_policy": "Do not copy legacy penalties. Add only a separately evidenced harmful action with visible policy basis, explicit non-overlap and cross-profile shared semantics; log external acceptance gap until reviewed.",
+  "profiles": {
+    "capability_first": {
+      "R001": 20,
+      "R002": 20,
+      "R003": 20,
+      "R004": 20,
+      "R005": 10,
+      "R006": 10
+    },
+    "balanced": {
+      "R001": 25,
+      "R002": 15,
+      "R003": 20,
+      "R004": 20,
+      "R005": 10,
+      "R006": 10
+    },
+    "ongoing_use": {
+      "R001": 20,
+      "R002": 15,
+      "R003": 15,
+      "R004": 25,
+      "R005": 10,
+      "R006": 15
+    }
+  },
+  "source_binding": [
+    "retail_uci"
+  ],
+  "score_uncertainty": "If a required fact cannot be safely determined, report JUDGE_ERROR and no total. Unknown is not zero.",
+  "equivalence": "Accept business-equivalent layouts and formulas. Preserve source-native structure only where explicitly requested. No use of oracle values to choose candidate regions."
+}

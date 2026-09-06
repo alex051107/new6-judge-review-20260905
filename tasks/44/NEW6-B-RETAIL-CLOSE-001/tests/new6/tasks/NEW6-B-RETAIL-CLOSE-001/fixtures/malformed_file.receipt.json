@@ -1,0 +1,45 @@
+{
+  "fixture": "malformed_file",
+  "assertions_passed": true,
+  "expected": {
+    "name": "malformed_file",
+    "path": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/malformed_file.xlsx",
+    "expected_status": "MALFORMED_OUTPUT",
+    "loss": [],
+    "unchanged": [],
+    "input_dir": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/data/input_files"
+  },
+  "result": {
+    "evaluation_status": "MALFORMED_OUTPUT",
+    "normalized_score": null,
+    "score_decimal": null,
+    "pass": false,
+    "task_id": "NEW6-B-RETAIL-CLOSE-001",
+    "primary_profile": "capability_first",
+    "profiles": {
+      "capability_first": {
+        "evaluation_status": "MALFORMED_OUTPUT",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": false
+      },
+      "balanced": {
+        "evaluation_status": "MALFORMED_OUTPUT",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": false
+      },
+      "ongoing_use": {
+        "evaluation_status": "MALFORMED_OUTPUT",
+        "normalized_score": null,
+        "score_decimal": null,
+        "pass": false
+      }
+    },
+    "evidence": {
+      "candidate": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/fixtures/malformed_file.xlsx",
+      "dynamic_tests": "not applicable; correct static accepted",
+      "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links"
+    }
+  }
+}

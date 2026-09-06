@@ -1,0 +1,20 @@
+{
+  "case": "C2-claude-R08",
+  "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__ym4Nucw",
+  "answer_sha256": "ed1d582681a5163f1e202e06fbd332f4c66f9338f1198543d3dc13edda244c33",
+  "status": "SCORED",
+  "selected_judge_label": "new6-usps-facts-v2.4-natural-quote-layouts",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "0",
+    "R005": "1",
+    "R006": "0.9615384615384615384615384615"
+  },
+  "original_points": "64.8076923076923076923076923075",
+  "focus50_points": "49.8520710059171597633136094673076923076923076923",
+  "focus60_points": "39.8816568047337278106508875738461538461538461538",
+  "focus70_points": "29.9112426035502958579881656803846153846153846154"
+}

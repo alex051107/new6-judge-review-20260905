@@ -1,0 +1,593 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.923216719672876,
+  "score_decimal": "0.92321671967287597",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 0.9225352112676056,
+    "R006": 0.0,
+    "R004": 0.967741935483871,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "25.0",
+    "R003": "18.4507042253521120",
+    "R004": "33.870967741935485",
+    "R005": "5.0",
+    "R006": "0.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.923216719672876,
+      "score_decimal": "0.92321671967287597",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9225352112676056,
+        "R006": 0.0,
+        "R004": 0.967741935483871,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "18.4507042253521120",
+        "R004": "33.870967741935485",
+        "R005": "5.0",
+        "R006": "0.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.9225692866878692,
+      "score_decimal": "0.92256928668786915",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9225352112676056,
+        "R006": 0.0,
+        "R004": 0.967741935483871,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "23.0633802816901400",
+        "R004": "24.193548387096775",
+        "R005": "5.0",
+        "R006": "0.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9216038164470696,
+      "score_decimal": "0.92160381644706952",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 0.9225352112676056,
+        "R006": 0.0,
+        "R004": 0.967741935483871,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "18.4507042253521120",
+        "R004": "38.709677419354840",
+        "R005": "5.0",
+        "R006": "0.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/original/new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R05__7xBF9se/artifacts/app/output/answer.xlsx",
+    "judge_version": "new6-a1-offline-v1.4-base-controls",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "debt"
+        ],
+        "expected": "45435.19857109202404150386975068307523522",
+        "candidate": [
+          45772.4693000507
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          623421.945920608
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "common_equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          623421.945920608
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "value_per_share"
+        ],
+        "expected": "1255.048725653050991404894259556869880579",
+        "candidate": [
+          1254.37011251631
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "price_ratio"
+        ],
+        "expected": "1.569811561678478262528814932961250737685",
+        "candidate": [
+          1.57066082836407
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "operating_assets"
+        ],
+        "expected": "536747.5443416147702214619638605966476585",
+        "candidate": [
+          536747.544341615,
+          642144.415220658
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "debt"
+        ],
+        "expected": "45435.19857109202404150386975068307523522",
+        "candidate": [
+          45772.4693000507
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          518025.075041564,
+          623421.945920608
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "common_equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          518025.075041564,
+          623421.945920608
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "value_per_share"
+        ],
+        "expected": "1042.982587063426048651827151126586664836",
+        "candidate": [
+          1042.30397392669
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "price_ratio"
+        ],
+        "expected": "1.888996062290144872620078900330020189295",
+        "candidate": [
+          1.89022593147916,
+          1.57066082836407
+        ]
+      }
+    ],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": false,
+      "review_equity": false,
+      "difference": false,
+      "base_share": false,
+      "review_share": false
+    },
+    "candidate_formula_defects": [],
+    "native_baseline": {
+      "source": "/original/new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R05__7xBF9se/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "c723c4969955e40ef7c5d683f8f1b54fbcbff522eeafdc1dc56862f5066e5a1c",
+      "isolated_input": "/results/A1-codex-R05/native/recalc-vd8i0mgy/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/A1-codex-R05/native/recalc-vd8i0mgy/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/A1-codex-R05/native/recalc-vd8i0mgy/output",
+        "/results/A1-codex-R05/native/recalc-vd8i0mgy/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1092,
+      "isolated_input_sha256": "e18d9157d32867952936bb96a3ce0273d729c3b58503011063998b0a84327137",
+      "returncode": 0,
+      "output": "/results/A1-codex-R05/native/recalc-vd8i0mgy/output/answer.xlsx",
+      "output_sha256": "45e97ccd4f8a4589ec06d6d19436e8b3bc4013fc742d1269d3cf6c0994ce98a8",
+      "elapsed_seconds": 1.7996535839920398,
+      "source_sha256_after": "c723c4969955e40ef7c5d683f8f1b54fbcbff522eeafdc1dc56862f5066e5a1c",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 163,
+        "mismatches": [
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "-0.083338252962648922556990030234979308306",
+            "before": [
+              1.57066082836407
+            ],
+            "after": [
+              1.48723477521154
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "operating_assets"
+            ],
+            "expected_delta": "28769.1367366642401278033209596890967067",
+            "before": [
+              536747.544341615,
+              642144.415220658
+            ],
+            "after": [
+              565516.681078279,
+              677115.109332774
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "equity"
+            ],
+            "expected_delta": "28769.1367366642401278033209596890967067",
+            "before": [
+              518025.075041564,
+              623421.945920608
+            ],
+            "after": [
+              546794.211778229,
+              658392.640032724
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "common_equity"
+            ],
+            "expected_delta": "28769.1367366642401278033209596890967067",
+            "before": [
+              518025.075041564,
+              623421.945920608
+            ],
+            "after": [
+              546794.211778229,
+              658392.640032724
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "price_ratio"
+            ],
+            "expected_delta": "-0.099326739090236208839720368653916399805",
+            "before": [
+              1.89022593147916,
+              1.57066082836407
+            ],
+            "after": [
+              1.79077321761618,
+              1.48723477521154
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/A1-codex-R05/native/growth_input_changed.xlsx",
+          "source_sha256_before": "fa6b5276f8822a6e268661ccb0b309359651c4d901faceace199b504385dbbc7",
+          "isolated_input": "/results/A1-codex-R05/native/recalc-tcznfqya/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/A1-codex-R05/native/recalc-tcznfqya/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/A1-codex-R05/native/recalc-tcznfqya/output",
+            "/results/A1-codex-R05/native/recalc-tcznfqya/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "b40e948e3e8526dd8f42bbcde8c08cea493688ac503cbf696c78efedd7b28532",
+          "returncode": 0,
+          "output": "/results/A1-codex-R05/native/recalc-tcznfqya/output/growth_input_changed.xlsx",
+          "output_sha256": "392d3e997a03f6c125d439237d8b62ad95f3346fbb8399e948953171e10cb880",
+          "elapsed_seconds": 1.4555809169833083,
+          "source_sha256_after": "fa6b5276f8822a6e268661ccb0b309359651c4d901faceace199b504385dbbc7",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 128,
+        "mismatches": [
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "0.144864812918924849998166406715604723389",
+            "before": [
+              1.57066082836407
+            ],
+            "after": [
+              1.71568966761962
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "price_ratio"
+            ],
+            "expected_delta": "0.213774644814859040437410104541228520243",
+            "before": [
+              1.89022593147916,
+              1.57066082836407
+            ],
+            "after": [
+              2.10429480426356,
+              1.71568966761962
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/A1-codex-R05/native/margin_input_changed.xlsx",
+          "source_sha256_before": "67303239a065d4a93abffb2afa8302037a623c7078667798d942305d15064a9b",
+          "isolated_input": "/results/A1-codex-R05/native/recalc-7josi_ey/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/A1-codex-R05/native/recalc-7josi_ey/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/A1-codex-R05/native/recalc-7josi_ey/output",
+            "/results/A1-codex-R05/native/recalc-7josi_ey/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "5c4253e736c5c425031ac194bae8b51361f20f40b38e2b42062294daac76bc4a",
+          "returncode": 0,
+          "output": "/results/A1-codex-R05/native/recalc-7josi_ey/output/margin_input_changed.xlsx",
+          "output_sha256": "3f725f8d8b2029e9130389289fcbac7a0799cb45d9b63583e9baf57eb04acfc2",
+          "elapsed_seconds": 1.6440812920045573,
+          "source_sha256_after": "67303239a065d4a93abffb2afa8302037a623c7078667798d942305d15064a9b",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 69,
+        "mismatches": [
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "0.049088531064228774184906199238555455019",
+            "before": [
+              1.57066082836407
+            ],
+            "after": [
+              1.61980331885498
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "operating_assets"
+            ],
+            "expected_delta": "-15783.8619020075916285406887959554636970",
+            "before": [
+              536747.544341615,
+              642144.415220658
+            ],
+            "after": [
+              520963.682439607,
+              623230.69483707
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "equity"
+            ],
+            "expected_delta": "-15783.8619020075916285406887959554636970",
+            "before": [
+              518025.075041564,
+              623421.945920608
+            ],
+            "after": [
+              502241.213139556,
+              604508.225537019
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "common_equity"
+            ],
+            "expected_delta": "-15783.8619020075916285406887959554636970",
+            "before": [
+              518025.075041564,
+              623421.945920608
+            ],
+            "after": [
+              502241.213139556,
+              604508.225537019
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "review",
+              "price_ratio"
+            ],
+            "expected_delta": "0.059325366957858394485234064379632138063",
+            "before": [
+              1.89022593147916,
+              1.57066082836407
+            ],
+            "after": [
+              1.94962978820282,
+              1.61980331885498
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/A1-codex-R05/native/discount_input_changed.xlsx",
+          "source_sha256_before": "e80908aff425e6eb3c8803db464a3d09823f146f384c5c2f497bfacf3ed6e59b",
+          "isolated_input": "/results/A1-codex-R05/native/recalc-bxyd655b/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/A1-codex-R05/native/recalc-bxyd655b/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/A1-codex-R05/native/recalc-bxyd655b/output",
+            "/results/A1-codex-R05/native/recalc-bxyd655b/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "d52fd9f8214ac30f16e609495ac6ee95a21fb6ab3fe51ed2854514f928339c0e",
+          "returncode": 0,
+          "output": "/results/A1-codex-R05/native/recalc-bxyd655b/output/discount_input_changed.xlsx",
+          "output_sha256": "d4e3f8fed41d3f3f29f214a1c1d39cdbdacf006f0647dc15c02c2cdd0d0f729d",
+          "elapsed_seconds": 1.5663965010026004,
+          "source_sha256_after": "e80908aff425e6eb3c8803db464a3d09823f146f384c5c2f497bfacf3ed6e59b",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 504,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Review valuation",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "c723c4969955e40ef7c5d683f8f1b54fbcbff522eeafdc1dc56862f5066e5a1c",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

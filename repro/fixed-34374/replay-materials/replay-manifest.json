@@ -1,0 +1,4157 @@
+{
+  "schema_version": 1,
+  "purpose": "Offline scoring replay of all 73 existing original outputs; no agent calls",
+  "cohort_snapshot_at": "2026-09-06T02:10:34.823926+00:00",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "task_root_relative_to": "judge/new6",
+  "extraction_rule": "Extract each ZIP into a separate case directory; answer.xlsx and input/ are the run_case answer and input_dir. Do not merge inputs between cases.",
+  "records": [
+    {
+      "case": "A2-codex-R07",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__KuA3hX6",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a175fae421d9a684f2c9c244ae493f19d7f21036fd404c1aff39617ab079c753",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__KuA3hX6/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__KuA3hX6/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R07.zip",
+      "zip_sha256": "fe1425845905260ce551d0b96112cdf1c2dcfe43843abdad3cfd561eaaf281f1",
+      "zip_bytes": 3384161,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1560363
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R04",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__ousdxdq",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "1430c5e1ecbae182bbccda1780332055d6e6bb29a429da3bfab5189ad16bfd58",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__ousdxdq/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__ousdxdq/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R04.zip",
+      "zip_sha256": "d8f021bdda392a897220911bce56bf6d4b7a578de77690d5f0b2a080ce534896",
+      "zip_bytes": 597559,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 20925
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R08",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__sNyUHBV",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "def9558e24964c8fe9d46cd80f0d73ece3b85eb85d49d7abadd648c0a862ec04",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__sNyUHBV/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__sNyUHBV/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R08.zip",
+      "zip_sha256": "c6bb6da6d203bdac694b6ac6860e47a4893777b07a8ef42a9de1137854b3af13",
+      "zip_bytes": 12091133,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10580961
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R05",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__ejUm3mm",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__ejUm3mm/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__ejUm3mm/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R05.zip",
+      "zip_sha256": "9b65f998a157685abeb9d8e83ca3b681cf100ec3296b312d7769a9ee7f36325c",
+      "zip_bytes": 3383190,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1559330
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R02",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R02__7LjkeLB",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "2e41fe38e8c39205e769c67f2edb7da0d407f75939c54972c483b462e1e2b0dc",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R02__7LjkeLB/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R02__7LjkeLB/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R02.zip",
+      "zip_sha256": "1de41ae97e46e6bc7c0eef1f73f4131b73f59b1e6ee49dd4c1c744a86c2aedc7",
+      "zip_bytes": 314588,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 148171
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 2079
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R01",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__oGZxSgZ",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "d211484e6e8b7da39e90a4144176e5f86acae05f159fbe2b0cde59fa491d820d",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__oGZxSgZ/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__oGZxSgZ/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R01.zip",
+      "zip_sha256": "ee69731b6a3fc3e824bdacfffec4a417f05b8fd2847759e2080195c85d0f1665",
+      "zip_bytes": 11916695,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10305885
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R07",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R07__Kx3YnRc",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "6a0584476d700e8f05ca03c436a63e58eb834c91562cd4f0c3f04b901e4d1a8e",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R07__Kx3YnRc/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R07__Kx3YnRc/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R07.zip",
+      "zip_sha256": "0b42cfcdad2ab16e9138237f2e8bd5ea2fdc39e2a1f11ade24eb13d5d3fe396d",
+      "zip_bytes": 316488,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 150162
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1970
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R05",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__3Tw6aKg",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "817719b39be4380c7466698b521313635a553e5087d612ef612196281f4801d8",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__3Tw6aKg/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__3Tw6aKg/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R05.zip",
+      "zip_sha256": "29d951e4e544fcc52f1c0400e7e3225c213328a1c095ff6e1158161afc9c092a",
+      "zip_bytes": 11787340,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10317727
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R03",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__4GZxGZB",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "72695a14e39c930577bd14ac934e618dfc14815ab8ff1e6257c422a0da5de977",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__4GZxGZB/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__4GZxGZB/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R03.zip",
+      "zip_sha256": "df03aaebd4e7ff60d149f3acb0836ae3606a1a317001e9acfc2d28c697af82b0",
+      "zip_bytes": 603076,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 31874
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R02",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__g7FKEQf",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a9c9480e90db1f5dbae89919c196473d93507bfbbd7b8bb024609698c4b8e8df",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__g7FKEQf/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__g7FKEQf/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R02.zip",
+      "zip_sha256": "2176f4a5d7006b2a9e9afef9166e358f4eaf94f07a7d562ab5f2945b51fe2b89",
+      "zip_bytes": 13961309,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 12896647
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R06",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__PPAba2S",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "3f88f58d951a74327e121708e0045e42b18b6d986a205c7328cafddd4d584619",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__PPAba2S/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__PPAba2S/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R06.zip",
+      "zip_sha256": "8a5537c57ad27b9152b201695cdda1ec9d739c40a80d1a847abb26c83e4012a8",
+      "zip_bytes": 597264,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 20436
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R02",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__Yk2M6RH",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "fd03ce232408b5280f8d8d864ddfb44f53a6b56763bd386086caf3ff1a639b67",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__Yk2M6RH/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__Yk2M6RH/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R02.zip",
+      "zip_sha256": "c25dd64d9f6eb1800e68ead4f10b58496a8faefe8d35fe776f1c34923daea4d4",
+      "zip_bytes": 1928495,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 28054
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R03",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__taFhFmX",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "1ee8383c6b4480967a61f302168c0c088518a7efd281a13447d5e8d6f02a66bb",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__taFhFmX/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__taFhFmX/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R03.zip",
+      "zip_sha256": "4a49390e33d7296de7bad6d2ec2e4091a64e5d73470d2699e25a279a5c49a7dd",
+      "zip_bytes": 3386965,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1562135
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R07",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__FLJS6zS",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "21fb3549bf61578cef76eb9f400060fd81799efdcda1e151f375c21f5d4af97b",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__FLJS6zS/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__FLJS6zS/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R07.zip",
+      "zip_sha256": "375ec45d6c83b77ad5db9506f48c935f761280a83adb1d6c1c8936bf980e0309",
+      "zip_bytes": 11034078,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 9321254
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R04",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R04__rNSwGuP",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a1f3f94de9984d06e4426eeee71c340ca136e8c600db4eb53e66a463a2bbc8aa",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R04__rNSwGuP/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R04__rNSwGuP/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R04.zip",
+      "zip_sha256": "d4d9b43cd396ee04db8c5fa8bc06ae8810abd01ab01d616b1fe7308af675fe08",
+      "zip_bytes": 314205,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 147671
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 2019
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R03",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__i89H9aQ",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "6a27d6fa6307701c7975423d96137be65e3e3d0c8435eccca3c230b1ec1b0a5b",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__i89H9aQ/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__i89H9aQ/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R03.zip",
+      "zip_sha256": "1e95715f2a0a1ab3edccacf48da2a77c4dedee0891a593957172cf60cbc375e5",
+      "zip_bytes": 11940137,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10471364
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R03",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R03__q2MuEmE",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "0e4bca11cfc7dbf14e4e8f1e5def818177daf3aff219bd710e9152018ecd2d13",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R03__q2MuEmE/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R03__q2MuEmE/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R03.zip",
+      "zip_sha256": "5d7e0ab8b53c4fe89eaa7ece25ea72889156f5a8a591e760c1c2e9d6729e9dbf",
+      "zip_bytes": 316447,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 150552
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R06",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__YVpN3S7",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "760e81f2718066138d02bda4cc28ef30ffbb53cab482f00a363f9a54f19d2de3",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__YVpN3S7/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__YVpN3S7/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R06.zip",
+      "zip_sha256": "63d3baa235b5f3da267956e120d1dd902ee37b8763378dfe4e3d952c6ab5cc63",
+      "zip_bytes": 10748014,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10396742
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R08",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__J7TZcZg",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "5efb8c0a2bb077d673a9ad3efb5f8fc299681077c31570a6fc9f4037af7189c4",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__J7TZcZg/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__J7TZcZg/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R08.zip",
+      "zip_sha256": "3bbb2c09edf17c6ab8c3e677d1e2640cd700a31f831f0bbbb33f460a9052fcd7",
+      "zip_bytes": 3363632,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1540228
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R01",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__Sdo36Gk",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "ed294111b5cac85e6da46a3a298bdaa6b808eff5fea521991adb9b3b7d55ed60",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__Sdo36Gk/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__Sdo36Gk/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R01.zip",
+      "zip_sha256": "7136c635d5cc8f220fe7879ac2506fdcf3a9216b1694682cd9e4222c64c4ff7c",
+      "zip_bytes": 596518,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 19454
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R05",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__xYoGq7T",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "ef02ca99293fc095a7c1a775e9e006f660aaa01394da81e4a5fcb3abfcc9ff1c",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__xYoGq7T/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__xYoGq7T/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R05.zip",
+      "zip_sha256": "6cfcf9023a1d9a788c5961501d64cb4f4a739d574ef755740a696e00388fb190",
+      "zip_bytes": 611551,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 53484
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R08",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__7UpKMvg",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "c951e64482861206c9b0f5f6123c1ea8663b7b9b28a9321349898f287b101815",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__7UpKMvg/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__7UpKMvg/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R08.zip",
+      "zip_sha256": "42364f52661174e76ac82a22a9a359ef1d9eb856e9e69013cb23a87f3c271597",
+      "zip_bytes": 604899,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 37359
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "B1-codex-R04",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "codex",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CODEX-R0__JatSZGt",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "564e5b343e6ef1b4cee1a8242632133286625a0cdece92ba26a7627fc53f5270",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__JatSZGt/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-B-RETAIL-CLOSE-001-CODEX-R0__JatSZGt/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-codex-R04.zip",
+      "zip_sha256": "c7df57e1b7a7a430c629d30b81fd0ec24e8a597402c8500454c7f784531020ae",
+      "zip_bytes": 11869650,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 10329293
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R02",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__mmFw8de",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "2950a925ff9b83f581ff76a24b38bf59a1c08a38f7a7c0a7015dc725cd78aa74",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__mmFw8de/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__mmFw8de/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R02.zip",
+      "zip_sha256": "5258e528ca939f0382764a581d451daa3ea74e94c61ed07f1eda0d245b16b675",
+      "zip_bytes": 596072,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 20158
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R06",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R06__VUt9VS4",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "0cd2113f994b7ddec81e877ccec52f373705c635242b5a19ebfc6333902c2ebc",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R06__VUt9VS4/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R06__VUt9VS4/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R06.zip",
+      "zip_sha256": "d932925270a05336a221b2b677b39ecd9a5d33dbacd89e6e2ee1541172c36f67",
+      "zip_bytes": 316733,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 150237
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 2147
+        }
+      ]
+    },
+    {
+      "case": "C2-codex-R07",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "codex",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__tjkAVwu",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__tjkAVwu/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__tjkAVwu/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-codex-R07.zip",
+      "zip_sha256": "d76a9ce44c56f4aded05f84338f2fd075ed6699a7fc910e7e33de2f02cc61394",
+      "zip_bytes": 603293,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 34608
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R06",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__YyqXn6p",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "db7cf3abfd673e4493028bd04cbb6e4db7e4d842c5c6780ee944818e0a39e0a2",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__YyqXn6p/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__YyqXn6p/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R06.zip",
+      "zip_sha256": "7c71b6cd1b506a5700d6b166b3caf571b1acf6094a35c4fcec25db22db76a829",
+      "zip_bytes": 3384982,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1560572
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R05",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R05__7xBF9se",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "c723c4969955e40ef7c5d683f8f1b54fbcbff522eeafdc1dc56862f5066e5a1c",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R05__7xBF9se/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R05__7xBF9se/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R05.zip",
+      "zip_sha256": "19bbffecfecb551cc2ef8f9e0e697adaa6459db8c4771c6b3f6802cde488e5e5",
+      "zip_bytes": 317412,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 151787
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R01",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R01__c8VpyLQ",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "ed51e6b91f0a97cdd66235c069282cf1513cd285c8db0ddd89e461fe9214b2e3",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R01__c8VpyLQ/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R01__c8VpyLQ/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R01.zip",
+      "zip_sha256": "aa8925e51e4a533d5c475beb9f250588c1fee4737f8a22d0e65b56bc3e1a5619",
+      "zip_bytes": 314774,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 148782
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-codex-R08",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "codex",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R08__bF2niLj",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "510d623e625be84c32421d2a357df6fe59e17cf3505c20013ac186fd65c70667",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R08__bF2niLj/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-FIN-RESTORE-001-CODEX-R08__bF2niLj/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-codex-R08.zip",
+      "zip_sha256": "6e97133c4c46b015e4865770ba59d03011c6174200d3a92be2a6e8e3807a8985",
+      "zip_bytes": 320802,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 155063
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A2-codex-R04",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "codex",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__dzBCyfb",
+      "config_id": "8ca5d5a4e8e6d50d",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "bd4b25a929716ff0d742308da9b68a0dfe0769aee2015e3c65824cfc7bc6ee50",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__dzBCyfb/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-A-MACRO-SCENARIO-001-CODEX__dzBCyfb/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-codex-R04.zip",
+      "zip_sha256": "bc24ff104aebc18aee05a55b8ad81043c273fe569b4a7dff89cfbd0f2707f2c1",
+      "zip_bytes": 3387922,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 1562797
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R04",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__gQJCtA3",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__gQJCtA3/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__gQJCtA3/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R04.zip",
+      "zip_sha256": "b1a589d7045050ef8bdd7f9b90e6b5bc017ad29de13fbcd0001feea18b0b81f8",
+      "zip_bytes": 304150,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 138462
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R02",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__d2n7Tg4",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "25b8a2e9c080a9efdb5867b58853babd7ec5dfc9aa0a63b8385cad2d2b80410d",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__d2n7Tg4/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__d2n7Tg4/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R02.zip",
+      "zip_sha256": "d18714d2eee938a5aaa88b83734de91f15e6f40b881849361763d8df53507a69",
+      "zip_bytes": 309736,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 143925
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R01",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__pigPJxX",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "6c48f1b571c0eb6cf13d3946e64695175b45d0786dcf63017c3e20db21abedab",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__pigPJxX/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__pigPJxX/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R01.zip",
+      "zip_sha256": "db93ba1210558b836050d090e250ab1b136b1c597765df6a0424b95c18bb8a6c",
+      "zip_bytes": 307851,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 142019
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R07",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__GGtFCUy",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "f97bce7e50e0c78ed56fc58a46621da06539e14870104fb557c95505fe038f44",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__GGtFCUy/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__GGtFCUy/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R07.zip",
+      "zip_sha256": "a9b6780d9595b67bbfa0b04c51cfbd4a8b449b114409c9def96b0bfa55cb0ea8",
+      "zip_bytes": 303569,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 137660
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "B1-claude-R07",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "claude",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__6WPZDyV",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "96ed6b6d7d49bfdce88d7601eab5c94f9a5d1fe386a0df206ef83fcca5bcadb2",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__6WPZDyV/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__6WPZDyV/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-claude-R07.zip",
+      "zip_sha256": "3d27c3a82d624e11f2d7a6c7bc82f9c194ac6336291a1fee51cc95b34452e752",
+      "zip_bytes": 2356491,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 355043
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "C2-claude-R08",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "claude",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__ym4Nucw",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "ed1d582681a5163f1e202e06fbd332f4c66f9338f1198543d3dc13edda244c33",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__ym4Nucw/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__ym4Nucw/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-claude-R08.zip",
+      "zip_sha256": "024526b81b6836dceac800af14940b9829d61982fdb844a018507ec17b0b7ae9",
+      "zip_bytes": 587663,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 9518
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "A2-claude-R01",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "claude",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CLAUDE__foZNQkz",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "7a9814742dd06dd78c26ba3b7c731fdc7096f2b77489fe0e232c9bd2f4352069",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__foZNQkz/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__foZNQkz/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-claude-R01.zip",
+      "zip_sha256": "e95176a7501df44b7ae5b25d235c959b881a738c6b50da0e1dbb54b5a78afb31",
+      "zip_bytes": 1913499,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 12204
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "B1-claude-R08",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "claude",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__kPxWvsW",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "3cf222ff506e2667b025e1ebaaa593bcb3437b145bbb5518ade00a52da75670e",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__kPxWvsW/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__kPxWvsW/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-claude-R08.zip",
+      "zip_sha256": "b904b164e8f3534bc75d065f5296fbeedef99a447635757946f0fcdb07ce91b2",
+      "zip_bytes": 2455096,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 456340
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A2-claude-R02",
+      "task": "A2",
+      "task_version": "new6-a2-v1.0-zambia",
+      "system": "claude",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-CLAUDE__Mq5NNBj",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "b4c272fbb0eb6f0b2f8ff87b6d23e94b8f958aa91d818c7d84badd0047eee8fc",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__Mq5NNBj/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-MACRO-SCENARIO-001-CLAUDE__Mq5NNBj/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-MACRO-SCENARIO-001",
+      "zip_relative_path": "cases/A2-claude-R02.zip",
+      "zip_sha256": "33999ff8a0f3ef093ef866d0fe6fc5acdf9299f078bcd89de5b2008a1bbcdfa1",
+      "zip_bytes": 1916101,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 15001
+        },
+        {
+          "path": "input/LTGM_Zambia_restore.xlsx",
+          "bytes": 2524224
+        },
+        {
+          "path": "input/LTGM_instructions_methods_p1-3.pdf",
+          "bytes": 275347
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 346
+        }
+      ]
+    },
+    {
+      "case": "C2-claude-R02",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "claude",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__hTbK4kn",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "e3c3e70535bdf0a2909777b45b11f74da403a1bcbbfe03f98945aa430a0a3875",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__hTbK4kn/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__hTbK4kn/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-claude-R02.zip",
+      "zip_sha256": "624818c0def36d7963b255917034897506b973b5a3fae51448780a18479cbf3f",
+      "zip_bytes": 587931,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 9705
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "B1-claude-R06",
+      "task": "B1",
+      "task_version": "new6-b1-v2",
+      "system": "claude",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__48RD98S",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "1d47e9fc866fc10773f08cec50197e2dbdff90fda79e51f2ec7636858b63b12e",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__48RD98S/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__48RD98S/artifacts/app/input",
+      "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+      "zip_relative_path": "cases/B1-claude-R06.zip",
+      "zip_sha256": "59c0ee57b324f68028ff1fd37b558bd901e0df0a12282c471c8c929eedc73f8e",
+      "zip_bytes": 2446000,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 4,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 446207
+        },
+        {
+          "path": "input/retail_extract.csv",
+          "bytes": 7073952
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 3367
+        },
+        {
+          "path": "input/september_extract.csv",
+          "bytes": 5498494
+        },
+        {
+          "path": "input/source_context.md",
+          "bytes": 947
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R08",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__UavGXSg",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "f3afe61c9084149abc0b472f3d99ffbdeafa45fe24f88eab5e5dfa354c67540d",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__UavGXSg/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__UavGXSg/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R08.zip",
+      "zip_sha256": "ce6428150adc8ed0c2205cc58b1e164ba0d5bb62a4fcd0184a2106d89b283486",
+      "zip_bytes": 303193,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 136999
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "C2-claude-R06",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "claude",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__ADaM4ZC",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "72a562445127c85bea8ba5237cdc04a9e11fb45f7a899c4f921adb9e8ecee61f",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__ADaM4ZC/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-C-PARCEL-TARIFF-001-CLAUDE__ADaM4ZC/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-claude-R06.zip",
+      "zip_sha256": "222a66f63ff4e415719629dc1651ae14a36b1a8b050db2dbd3930cc1f730fb4f",
+      "zip_bytes": 587974,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 9837
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R06",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__cPm7haV",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "958f837e9a99b0158716cfa8f399c3f7ee700be4686d7f34728124408ea2dace",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__cPm7haV/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__cPm7haV/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R06.zip",
+      "zip_sha256": "730b039068454ebae5e06a169ea1c8eb735d312b8c5637e84efbe87a606d4119",
+      "zip_bytes": 304095,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 138156
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "A1-claude-R03",
+      "task": "A1",
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "system": "claude",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-CLAUDE-R0__Cd3aHWa",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "bcb5f63d83fbc21ab4d9cd6a8042a22eeede1ab5d162ec8bf9afc6bf4332905c",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__Cd3aHWa/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__Cd3aHWa/artifacts/app/input",
+      "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+      "zip_relative_path": "cases/A1-claude-R03.zip",
+      "zip_sha256": "f69e340a1d77a6ecde52652a80f81086759efaab222d0dff3510697fa6dfc925",
+      "zip_bytes": 299740,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 2,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 133321
+        },
+        {
+          "path": "input/AmazonSept18_restore.xlsx",
+          "bytes": 173038
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1067
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R04",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "N6BUDGET-C2-QWEN-R04__YvUJuMX",
+      "config_id": "e5c00a4b8d2c76fd",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY_NEW_GENERATION",
+      "answer_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+      "answer_relative_to_archive": "new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R04__YvUJuMX/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R04__YvUJuMX/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R04.zip",
+      "zip_sha256": "64e6dd139de2659934c6ad4b06af24ee6557242e1753621ec5b61d3114617e40",
+      "zip_bytes": 604164,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 7,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 26436
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R07",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "N6BUDGET-C2-QWEN-R07__GbGdnth",
+      "config_id": "e5c00a4b8d2c76fd",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY_NEW_GENERATION",
+      "answer_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+      "answer_relative_to_archive": "new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R07__GbGdnth/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R07__GbGdnth/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R07.zip",
+      "zip_sha256": "1905c25cecfe4ce8f0ff86be2de65ddd988cb24dbe83f762c5711dfb8de38dfd",
+      "zip_bytes": 594279,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 7,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 16247
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R08",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__SogAnJ9",
+      "config_id": "65581815cf47cb5d",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "PROVIDER_MODEL_IDENTITY_PENDING",
+      "answer_sha256": "b6393015c9f8ce988c953cc0777dce32dee3c519731be504f7eed32da2ad2ec2",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__SogAnJ9/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__SogAnJ9/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R08.zip",
+      "zip_sha256": "ab8d610f51939f07422a9c195d50e65906b91a5139ba8b180e47fa0c176178e6",
+      "zip_bytes": 594869,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 16978
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R03",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU",
+      "config_id": "65581815cf47cb5d",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "PROVIDER_MODEL_IDENTITY_PENDING",
+      "answer_sha256": "6cc1e8135a1a80854c6b0a0d8a0e5a33efa55e6d44a4a63e42681ea9b1c5b305",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R03.zip",
+      "zip_sha256": "5e200f5c5eb502f03fa9c43493f7b1c8135a9d3a649247da62a41feb89004038",
+      "zip_bytes": 593823,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 16051
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R06",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__kfEkG6y",
+      "config_id": "65581815cf47cb5d",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "PROVIDER_MODEL_IDENTITY_PENDING",
+      "answer_sha256": "9b61bb7b40d0f9e705a352502cc110dcdd44b7f6e865b3fe6079a70437af0b68",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__kfEkG6y/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__kfEkG6y/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R06.zip",
+      "zip_sha256": "68525bcdcd03f2c8fbbedb5852e4a335669f5216764cf38816536fd96c2d9759",
+      "zip_bytes": 591601,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 13497
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "C2-qwen-R05",
+      "task": "C2",
+      "task_version": "new6-c2-natural-v2",
+      "system": "qwen",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__VRwZ5X2",
+      "config_id": "65581815cf47cb5d",
+      "requested_model": "openai/qwen3.8-max",
+      "observed_model_ids": [],
+      "model_identity_status": "PROVIDER_MODEL_IDENTITY_PENDING",
+      "answer_sha256": "e0f017b34058a27b47c9fd0d393109d901125baedd7ca2c3ff5f9971e4980d99",
+      "answer_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__VRwZ5X2/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-144-v1/runtime-six/qwen/jobs/new6-144-qwen-remaining/NEW6-C-PARCEL-TARIFF-001-QWEN-R0__VRwZ5X2/artifacts/app/input",
+      "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+      "zip_relative_path": "cases/C2-qwen-R05.zip",
+      "zip_sha256": "64071c4d27a81f480b416be9372fdb5af0c3ae527204b2977d4206b8da43196d",
+      "zip_bytes": 592913,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 14873
+        },
+        {
+          "path": "input/USPS_Notice123_20260712_pages1_5_7.pdf",
+          "bytes": 856736
+        },
+        {
+          "path": "input/quote_requests.csv",
+          "bytes": 574
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1017
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R04",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R04__bswnWkn",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a636f0a88a28a484a13c0981e35888ab2b9055b17b044b281223d2b1b0ed5bc3",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R04__bswnWkn/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R04__bswnWkn/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R04.zip",
+      "zip_sha256": "578d4a0975fb32b61867785802825caea6aa57b729019c98efb2c6b03773567e",
+      "zip_bytes": 511080,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 69472
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R03",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R03__BwqdpLX",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "b228afb98433fdc5627ca7a1043519c02f67e62f48c17497004bb1b201f01e77",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R03__BwqdpLX/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R03__BwqdpLX/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R03.zip",
+      "zip_sha256": "e46ac140883ad14525b975cbcf83a0bca337c6fe8ef64fd190da77474399c7c0",
+      "zip_bytes": 508529,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 66267
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R01",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R01__cXmwPuW",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "8702b452adb46b3dfe5a191528d3738362f99689cb0f9c4826d4cd92591d8d3c",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R01__cXmwPuW/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R01__cXmwPuW/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R01.zip",
+      "zip_sha256": "56b653ddaf45a9b74e563a1f9d5ee190541b372a13177d46372b314562882071",
+      "zip_bytes": 508294,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 66734
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R07",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R07__ifCHHo3",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "3e4f00a1867f3640116b13044116e2afb8ca92638dd4299a811aaf321ba54dab",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R07__ifCHHo3/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R07__ifCHHo3/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R07.zip",
+      "zip_sha256": "c1f6284b1eddd8a1a8fd32c2b341f86bf4b6bbf10ba287966c7ebd64ea26c798",
+      "zip_bytes": 509784,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 67345
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R05",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R05__8BRWeXB",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "261ef53e7274b92f428b2dae6fe23630b931df5ec175df4402b9d42b783a3b47",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R05__8BRWeXB/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R05__8BRWeXB/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R05.zip",
+      "zip_sha256": "5972fa48159019cd761a20df3a00ece95a433acd65f4042eef9116bb9c0cc785",
+      "zip_bytes": 515589,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 74348
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R08",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R08__LBsp2Nj",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "c441f555db4632af4d6fbc1e30ba55635fc37387f01a81cc2bd50e3751893b9b",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R08__LBsp2Nj/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R08__LBsp2Nj/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R08.zip",
+      "zip_sha256": "c63edcb09c6dd72a48b00be4c30f2419310e88202dd02fc123feab89d78712da",
+      "zip_bytes": 562670,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 127905
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R06",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R06__qRTJBkD",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a19558813523e02c6ab92a93b6edaade6be8edee7adae7bc59dc91d37f5c5815",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R06__qRTJBkD/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R06__qRTJBkD/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R06.zip",
+      "zip_sha256": "5b4733c296c37b928fc1ca95c7d7c988e279623b0be0c28bd42a0afc9569a7c3",
+      "zip_bytes": 510387,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 69108
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-codex-R02",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "codex",
+      "trial_id": "N6V3-B2-CODEX-R02__aUyEiMh",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "cb17e6926480b406e0df753ccc9e59dcb3229513145c549c2ee708d431e6447a",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R02__aUyEiMh/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R02__aUyEiMh/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-codex-R02.zip",
+      "zip_sha256": "9f59802ede92a8147a34e0283b3630af412506f9ec48caeb433b7ae3049b21b9",
+      "zip_bytes": 510251,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 69054
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-claude-R05",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "claude",
+      "trial_id": "N6V3-B2-CLAUDE-R05__GUFuDWZ",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "57ad4d33d16e8041f440286d7f0d33dbfc69c80699653c8a3c031ac0f87394d7",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R05__GUFuDWZ/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R05__GUFuDWZ/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-claude-R05.zip",
+      "zip_sha256": "0cb4b9f1ec596d158642979b79a1895f9306898914efa4ee826dbd028c8e2175",
+      "zip_bytes": 499644,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 56530
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-claude-R07",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "claude",
+      "trial_id": "N6V3-B2-CLAUDE-R07__pPAotRG",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "48313c50d2a6292abdaf1ce608ff428aa3368370f48a2174c45bc26f6643c42a",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R07__pPAotRG/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R07__pPAotRG/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-claude-R07.zip",
+      "zip_sha256": "6f628b707602178242ca2986d2b7c474399a627b532f6ad00b670d3573ffa743",
+      "zip_bytes": 521364,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 78668
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "B2-claude-R03",
+      "task": "B2",
+      "task_version": "new6-b2-three-release-v3",
+      "system": "claude",
+      "trial_id": "N6V3-B2-CLAUDE-R03__hQUFHa7",
+      "config_id": "763cb251b6b4825d",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "e21a5a79a63354e7ff138345aac37435cb9ff271d1ed8d1b3582a63ddcf7e609",
+      "answer_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R03__hQUFHa7/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/new6-current-v3-144/runtime/claude/jobs/new6-current-v3-claude/N6V3-B2-CLAUDE-R03__hQUFHa7/artifacts/app/input",
+      "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+      "zip_relative_path": "cases/B2-claude-R03.zip",
+      "zip_sha256": "cb39c356b764423fb8580ce470d145a85ce648266fef32e4e398dae85e99235f",
+      "zip_bytes": 534866,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 6,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 2,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 91490
+        },
+        {
+          "path": "input/ons_li01_january2023_corrected.xlsx",
+          "bytes": 141386
+        },
+        {
+          "path": "input/ons_li01_january2024.xlsx",
+          "bytes": 137150
+        },
+        {
+          "path": "input/ons_li01_january2025.xlsx",
+          "bytes": 136533
+        },
+        {
+          "path": "input/previous_briefing.xlsx",
+          "bytes": 25205
+        },
+        {
+          "path": "input/previous_briefing.xlsx.inspect.ndjson",
+          "bytes": 843981
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1446
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R04",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R04__UfZoFwd",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "cb568eb7652ae20ee5c321b3b818e92168760dc2ceed6b69cbd389e24ab90718",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R04__UfZoFwd/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R04__UfZoFwd/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R04.zip",
+      "zip_sha256": "3b1c25b6d04cd9339105b22db431f0a4e4b2f91ec0acfbef2a31420385ad9e45",
+      "zip_bytes": 477954,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 22938
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R07",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R07__zaagV2s",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "96c5754f3d12d77269226e510bf8727dfd5136c50855764479a71bab6ee81f44",
+      "answer_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R07__zaagV2s/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R07__zaagV2s/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R07.zip",
+      "zip_sha256": "99ef60a90c82161fc9c1793e0454ec663555ffcaa984eeb86b8e546a8e012799",
+      "zip_bytes": 478949,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 22684
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R05",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R05__SATdX2u",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "d5ab665eee20bbd246b39700f9c2fc5d2e4231f03409f1127512850c63d6e785",
+      "answer_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R05__SATdX2u/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R05__SATdX2u/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R05.zip",
+      "zip_sha256": "5f9d0ff76c4ccd618803298bf196434019485cceca7e0dbfdd5f0e7ba3f5a2d2",
+      "zip_bytes": 477741,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 21508
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R06",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R06__mPDxW4N",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "b4dafcb6c2ddcd8505aed2eb987656387c97ff9007a0808344b7542c00a3295e",
+      "answer_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R06__mPDxW4N/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R06__mPDxW4N/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R06.zip",
+      "zip_sha256": "d2d5faa71fe70775ee97460f7fe17f6d0bf105c2a2317fac573c22ae37ac9507",
+      "zip_bytes": 482272,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 27444
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R01",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R01__acnPqWB",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "11bfca78c5f8b5a154fcb2530a3cc927a55f3fe4a10067abc9870e12aa5c2206",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R01__acnPqWB/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R01__acnPqWB/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R01.zip",
+      "zip_sha256": "449495fcc108405412edf8ae8d7d7ac05fd6fb7fb9c0d79c5bb5b982e6784af1",
+      "zip_bytes": 487057,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 32576
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R02",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R02__dJ3QSJi",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "a50281ab152ad8bfef89ef1d4edaa10407a6a1dfcd10a4e40bf4595f0edd4c40",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R02__dJ3QSJi/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R02__dJ3QSJi/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R02.zip",
+      "zip_sha256": "b21629d29312a17764ae6eb37908ff204dbad629a60d86f447649c0f73abac24",
+      "zip_bytes": 475636,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 19392
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R03",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R03__ukUzW8M",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "63af0d6488b6a2191e3cbc8779056d1b1ad1b712c57ac6eaf50143ae6f9a8a9b",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R03__ukUzW8M/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/codex/jobs/new6-c1-revision-v2-codex/N6C1V2-CODEX-R03__ukUzW8M/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R03.zip",
+      "zip_sha256": "add37c4d18be8d809cd9be3f2b009e8d95395efefa84167a0af260e716bb3e43",
+      "zip_bytes": 478791,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 23613
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-codex-R08",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "codex",
+      "trial_id": "N6C1V2-CODEX-R08__MEkom2h",
+      "config_id": "868f3be7850eba7a",
+      "requested_model": "gpt-5.6-sol",
+      "observed_model_ids": [],
+      "model_identity_status": "REQUESTED_ONLY",
+      "answer_sha256": "b096c904c8a8343d40400d48278272afde5c6bda6f8c44aeb478cf08c64def8e",
+      "answer_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R08__MEkom2h/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-codex-provider-retry1/runtime/codex/jobs/new6-c1-codex-provider-retry1/N6C1V2-CODEX-R08__MEkom2h/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-codex-R08.zip",
+      "zip_sha256": "147ce481ca160d8c91d78496a48e9f066c6fd146adde6a0c12c1afefda83ed00",
+      "zip_bytes": 488037,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "codex",
+        "model_name": "gpt-5.6-sol",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "0.151.0",
+          "reasoning_effort": "high",
+          "web_search": "disabled",
+          "config": {
+            "features": {
+              "responses_websockets": false,
+              "responses_websockets_v2": false
+            }
+          }
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 33262
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-claude-R08",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "claude",
+      "trial_id": "N6C1V2-CLAUDE-R08__adwpD6z",
+      "config_id": "d2b93fdc116ca2eb",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "e2d67bc27808e4887d99996b2deecb520ceb6458e68365cfdd55aecb9156f4f2",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R08__adwpD6z/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R08__adwpD6z/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-claude-R08.zip",
+      "zip_sha256": "41169afc9e341adbc1ac2a8a16cb599754bf70df0b171f18d6d72dcf7f208bba",
+      "zip_bytes": 470544,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 13640
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    },
+    {
+      "case": "C1-claude-R03",
+      "task": "C1",
+      "task_version": "new6-c1-revision-v2",
+      "system": "claude",
+      "trial_id": "N6C1V2-CLAUDE-R03__FdVp9qQ",
+      "config_id": "d2b93fdc116ca2eb",
+      "requested_model": "claude-opus-5",
+      "observed_model_ids": [
+        "claude-opus-5"
+      ],
+      "model_identity_status": "RESPONSE_MODEL_RECORDED",
+      "answer_sha256": "d4edc3b22af7487cde1c9606b825606e7099a5cb7e785df55b6c2cd9109d2c6e",
+      "answer_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R03__FdVp9qQ/artifacts/app/output/answer.xlsx",
+      "input_relative_to_archive": "new6/campaigns/c1-revision-v2-24/runtime/claude/repaired-jobs/new6-c1-revision-v2-claude-envrepair1/N6C1V2-CLAUDE-R03__FdVp9qQ/artifacts/app/input",
+      "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+      "zip_relative_path": "cases/C1-claude-R03.zip",
+      "zip_sha256": "895e2dd65b538e9d0ab398e55638b9c283c74cc2dd3befac5fe2de77d93cbeae",
+      "zip_bytes": 469289,
+      "answer": "answer.xlsx",
+      "input_dir": "input",
+      "input_file_count": 3,
+      "actual_configuration": {
+        "name": "claude-code",
+        "model_name": "claude-opus-5",
+        "n_concurrent": 1,
+        "override_timeout_sec": "1200.0",
+        "kwargs": {
+          "version": "2.1.251",
+          "max_budget_usd": "10",
+          "disallowed_tools": "WebSearch"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com"
+      },
+      "archive_members": [
+        {
+          "path": "answer.xlsx",
+          "bytes": 12370
+        },
+        {
+          "path": "input/Falmouth_OCE_October2024_RevA.pdf",
+          "bytes": 503116
+        },
+        {
+          "path": "input/review_brief.md",
+          "bytes": 1159
+        },
+        {
+          "path": "input/review_correspondence.md",
+          "bytes": 811
+        }
+      ]
+    }
+  ]
+}

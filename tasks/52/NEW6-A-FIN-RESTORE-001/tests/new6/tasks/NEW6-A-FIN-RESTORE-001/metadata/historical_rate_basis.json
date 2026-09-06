@@ -1,0 +1,277 @@
+{
+  "status": "DERIVED_INPUT_DISCLOSED",
+  "source": "metadata/source/AmazonSept18.xlsx",
+  "derived": "metadata/source/AmazonSept18_historical_rate_fixed.xlsx",
+  "original_source_untouched": true,
+  "changes": [
+    {
+      "sheet": "Operating lease converter",
+      "cell": "C15",
+      "original_formula": "='Cost of capital worksheet'!B23",
+      "replacement": "0.0413",
+      "meaning": "Historical pretax lease financing rate, independently solved from original inputs; not a cached derived forecast"
+    }
+  ],
+  "raw_basis": {
+    "revenue": "208125",
+    "ebit": "7385",
+    "interest": "1239",
+    "equity_book": "34995",
+    "debt": "27050",
+    "cash": "27050",
+    "nonoperating": "0",
+    "minority": "0",
+    "shares": "497",
+    "price": "1970.19",
+    "marginal_tax": "0.24",
+    "growth": "0.15",
+    "margin": "0.125",
+    "convergence": "5",
+    "riskfree": "0.03",
+    "discount": "0.0797",
+    "terminal_discount": "0.075",
+    "terminal_roc": "0.1",
+    "tax": "0.2020493956910141881240147136100893326327",
+    "lease_expense": "2200",
+    "leases": [
+      "2427",
+      "2376",
+      "2258",
+      "2039",
+      "1813",
+      "11935"
+    ],
+    "rd_current": "22620",
+    "rd_years": 2,
+    "rd_history": [
+      "16085",
+      "12540"
+    ],
+    "bands": [
+      [
+        "-100000",
+        "0.186"
+      ],
+      [
+        "0.2",
+        "0.1395"
+      ],
+      [
+        "0.65",
+        "0.1063"
+      ],
+      [
+        "0.8",
+        "0.0864"
+      ],
+      [
+        "1.25",
+        "0.0437"
+      ],
+      [
+        "1.5",
+        "0.0357"
+      ],
+      [
+        "1.75",
+        "0.0298"
+      ],
+      [
+        "2",
+        "0.0238"
+      ],
+      [
+        "2.25",
+        "0.0198"
+      ],
+      [
+        "2.5",
+        "0.0127"
+      ],
+      [
+        "3",
+        "0.0113"
+      ],
+      [
+        "4.25",
+        "0.0099"
+      ],
+      [
+        "5.5",
+        "0.009"
+      ],
+      [
+        "6.5",
+        "0.0072"
+      ],
+      [
+        "8.5",
+        "0.0054"
+      ]
+    ]
+  },
+  "tail_lease_years": 5,
+  "rating_band_trials": [
+    {
+      "rating_lower_bound": "-100000",
+      "spread": "0.186",
+      "rate": "0.216",
+      "lease_debt": "9066.203044068295011737606724673693867926",
+      "lease_ebit_adjustment": "1293.379695593170498826239327532630613207",
+      "coverage": "2.714283952812603219922114390800399818497",
+      "selected_lower_bound": "2.5",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "0.2",
+      "spread": "0.1395",
+      "rate": "0.1695",
+      "lease_debt": "10637.45691515994263270287317727117198089",
+      "lease_ebit_adjustment": "1136.254308484005736729712682272882801911",
+      "coverage": "2.801156213003221827611249741829059599400",
+      "selected_lower_bound": "2.5",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "0.65",
+      "spread": "0.1063",
+      "rate": "0.1363",
+      "lease_debt": "12059.77859468720592247031922004097991659",
+      "lease_ebit_adjustment": "994.022140531279407752968077995902008341",
+      "coverage": "2.906609476993043231873056165302015651477",
+      "selected_lower_bound": "2.5",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "0.8",
+      "spread": "0.0864",
+      "rate": "0.1164",
+      "lease_debt": "13067.45722336061656838581714451483848137",
+      "lease_ebit_adjustment": "893.254277663938343161418285548516151863",
+      "coverage": "2.999310960547389139830487491950776903497",
+      "selected_lower_bound": "2.5",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "1.25",
+      "spread": "0.0437",
+      "rate": "0.0737",
+      "lease_debt": "15741.66118833689470181710000696574482480",
+      "lease_ebit_adjustment": "625.83388116631052981828999930342551752",
+      "coverage": "3.339015508257304885509795654358034780657",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "1.5",
+      "spread": "0.0357",
+      "rate": "0.0657",
+      "lease_debt": "16337.55650812421884276303636165299601261",
+      "lease_ebit_adjustment": "566.244349187578115723696363834700398739",
+      "coverage": "3.438558141067144411035440939630318844497",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "1.75",
+      "spread": "0.0298",
+      "rate": "0.0598",
+      "lease_debt": "16799.57612252807177309310629860998275294",
+      "lease_ebit_adjustment": "520.042387747192822690689370139001724706",
+      "coverage": "3.523351204830292588450540388980606866807",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "2",
+      "spread": "0.0238",
+      "rate": "0.0538",
+      "lease_debt": "17290.26016067977052702504804717033299746",
+      "lease_ebit_adjustment": "470.973983932022947297495195282966700254",
+      "coverage": "3.621572953585051692215930992866646516142",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "2.25",
+      "spread": "0.0198",
+      "rate": "0.0498",
+      "lease_debt": "17629.62768170221055761311096847263008595",
+      "lease_ebit_adjustment": "437.037231829778944238688903152736991405",
+      "coverage": "3.694946532881705448937620051661856888946",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "2.5",
+      "spread": "0.0127",
+      "rate": "0.0427",
+      "lease_debt": "18257.42103824405019321111151323939657283",
+      "lease_ebit_adjustment": "374.257896175594980678888848676060342717",
+      "coverage": "3.843896321718726841060079305587607632601",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "3",
+      "spread": "0.0113",
+      "rate": "0.0413",
+      "lease_debt": "18385.19857109202404150386975068307523522",
+      "lease_ebit_adjustment": "361.480142890797595849613024931692476478",
+      "coverage": "3.876518247189816395161252784117121793390",
+      "selected_lower_bound": "3",
+      "self_consistent": true
+    },
+    {
+      "rating_lower_bound": "4.25",
+      "spread": "0.0099",
+      "rate": "0.0399",
+      "lease_debt": "18514.33005175021968174348844030023925082",
+      "lease_ebit_adjustment": "348.566994824978031825651155969976074918",
+      "coverage": "3.910341240002529337392501429919431176427",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "5.5",
+      "spread": "0.009",
+      "rate": "0.039",
+      "lease_debt": "18598.06633635201681224094854329116279239",
+      "lease_ebit_adjustment": "340.193366364798318775905145670883720761",
+      "coverage": "3.932747885470417520717693514306570001466",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "6.5",
+      "spread": "0.0072",
+      "rate": "0.0372",
+      "lease_debt": "18767.25853896896159610390762834871330611",
+      "lease_ebit_adjustment": "323.274146103103840389609237165128669389",
+      "coverage": "3.979199292499799945353298975016423638510",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    },
+    {
+      "rating_lower_bound": "8.5",
+      "spread": "0.0054",
+      "rate": "0.0354",
+      "lease_debt": "18938.77586252594230841127973031191122619",
+      "lease_ebit_adjustment": "306.122413747405769158872026968808877381",
+      "coverage": "4.027962102344581415012533208042690697553",
+      "selected_lower_bound": "3",
+      "self_consistent": false
+    }
+  ],
+  "unique_solution": {
+    "rating_lower_bound": "3",
+    "spread": "0.0113",
+    "rate": "0.0413",
+    "lease_debt": "18385.19857109202404150386975068307523522",
+    "lease_ebit_adjustment": "361.480142890797595849613024931692476478",
+    "coverage": "3.876518247189816395161252784117121793390",
+    "selected_lower_bound": "3",
+    "self_consistent": true
+  },
+  "scope": "Only future growth, operating-margin target and cost-of-capital assumptions are declared mutable; historical lease financing basis remains fixed."
+}

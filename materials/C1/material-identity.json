@@ -1,0 +1,30 @@
+{
+  "task": "C1",
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "task_version": "new6-c1-revision-v2",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 628
+    },
+    {
+      "path": "data/input_files/Falmouth_OCE_October2024_RevA.pdf",
+      "bytes": 503116
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 1159
+    },
+    {
+      "path": "data/input_files/review_correspondence.md",
+      "bytes": 811
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "aac646f3f4055541ec3364b70eb2d90a6ad7c28bdb4b6ffeefa93a3cd50b05b8",
+  "zip_sha256": "80d3c12afb51abdd0321344aaae297b672ff339ddbe9bc4aaade319e0ae332c0",
+  "agent_output_sha256": "b096c904c8a8343d40400d48278272afde5c6bda6f8c44aeb478cf08c64def8e",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

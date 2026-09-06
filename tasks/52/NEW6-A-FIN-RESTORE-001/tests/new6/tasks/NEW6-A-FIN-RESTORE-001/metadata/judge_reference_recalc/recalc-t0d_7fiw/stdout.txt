@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-t0d_7fiw/input/reference.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-t0d_7fiw/output/reference.xlsx using filter : Calc Office Open XML

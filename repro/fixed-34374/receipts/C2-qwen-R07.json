@@ -1,0 +1,78 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "baseline_recalc": {
+      "source": "/original/new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R07__GbGdnth/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+      "isolated_input": "/results/C2-qwen-R07/native/baseline/recalc-pg0oax9a/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/C2-qwen-R07/native/baseline/recalc-pg0oax9a/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/C2-qwen-R07/native/baseline/recalc-pg0oax9a/output",
+        "/results/C2-qwen-R07/native/baseline/recalc-pg0oax9a/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 99,
+      "isolated_input_sha256": "07e5504d6032d51356f45c12e8f11e5ad875d26cff1866fea48f2f3e96aee59d",
+      "returncode": 0,
+      "output": "/results/C2-qwen-R07/native/baseline/recalc-pg0oax9a/output/answer.xlsx",
+      "output_sha256": "da5e3a2c824eb517b2b0925f2d9d019653e783b5c456df995b6e9cd9ce617595",
+      "elapsed_seconds": 0.5469267500157002,
+      "source_sha256_after": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+      "original_unchanged": true
+    },
+    "formula_audit": {
+      "native_error_count": 0
+    },
+    "pending_reason": "No supported labelled tables; needs semantic review or layout adapter"
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

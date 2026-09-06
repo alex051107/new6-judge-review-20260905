@@ -1,0 +1,51 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-C-COST-WORKPAPER-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "error_type": "ValueError",
+    "error": "Material natural-review label remains unbound: [{'sheet': 'Cost Breakdown', 'label': 'Total provisional sums (memorandum — within elemental costs)', 'header': {'label': 2, 'printed': 3, 'working': 4}, 'context': 'Cost Breakdown Source: OCE RevA, Basis of Estimate'}, {'sheet': 'Reconciliation', 'label': 'Recalculated original cost limit (Inflation Excluded)', 'header': {'label': 1, 'printed': 2}, 'context': 'Reconciliation 2. BRIDGE — MOVEMENT IN THE COST LIMIT (full precision, from the recalculated original position)'}, {'sheet': 'Reconciliation', 'label': 'Main Contractors O&P (10%) on the elemental movement', 'header': {'label': 1, 'printed': 2}, 'context': 'Reconciliation 2. BRIDGE — MOVEMENT IN THE COST LIMIT (full precision, from the recalculated original position)'}]"
+  },
+  "reproduction": {
+    "task_root": "candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001",
+    "original_sha256": "962391b0e74abca624410b03ac8aacfc94f6feee4479f049781969e608b2e3fd",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

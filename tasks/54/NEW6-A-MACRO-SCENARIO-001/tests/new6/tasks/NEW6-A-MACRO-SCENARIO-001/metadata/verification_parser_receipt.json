@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "calibrated_cases": 3,
+  "results": [
+    {
+      "name": "malformed",
+      "status": "MALFORMED_OUTPUT",
+      "score": null,
+      "criterion_scores": {},
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "MALFORMED_OUTPUT",
+          "actual": "MALFORMED_OUTPUT",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 0.0,
+      "evidence": "metadata/calibration/malformed/evaluation.json"
+    },
+    {
+      "name": "missing",
+      "status": "OUTPUT_MISSING",
+      "score": null,
+      "criterion_scores": {},
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "OUTPUT_MISSING",
+          "actual": "OUTPUT_MISSING",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 0.0,
+      "evidence": "metadata/calibration/missing/evaluation.json"
+    },
+    {
+      "name": "unfilled_template",
+      "status": "SCORED",
+      "score": "0.56252570563377098822625477390341461209915",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "0.3823529411764705882352941176470588235294",
+        "R003": "0.5294117647058823529411764705882352941176",
+        "R004": "0.4562043795620437956204379562043795620438",
+        "R005": "1",
+        "R006": "0.6315789473684210526315789473684210526316"
+      },
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "SCORED",
+          "actual": "SCORED",
+          "ok": true
+        },
+        {
+          "assertion": "R002_loses",
+          "actual": "0.3823529411764705882352941176470588235294",
+          "ok": true
+        },
+        {
+          "assertion": "R003_loses",
+          "actual": "0.5294117647058823529411764705882352941176",
+          "ok": true
+        },
+        {
+          "assertion": "R004_loses",
+          "actual": "0.4562043795620437956204379562043795620438",
+          "ok": true
+        },
+        {
+          "assertion": "R006_loses",
+          "actual": "0.6315789473684210526315789473684210526316",
+          "ok": true
+        },
+        {
+          "assertion": "R001_preserved",
+          "actual": "1",
+          "ok": true
+        },
+        {
+          "assertion": "R005_preserved",
+          "actual": "1",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 35.8,
+      "evidence": "metadata/calibration/unfilled_template/evaluation.json"
+    }
+  ],
+  "agent_calls": 0,
+  "agent_cost_usd": "0",
+  "formal_difficulty_qualified": false
+}

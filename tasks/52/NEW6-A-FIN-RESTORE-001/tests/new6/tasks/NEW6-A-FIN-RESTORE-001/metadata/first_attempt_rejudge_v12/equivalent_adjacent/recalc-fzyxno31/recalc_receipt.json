@@ -1,0 +1,25 @@
+{
+  "source": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/discount_input_changed.xlsx",
+  "source_sha256_before": "daf7e735775b61d42d16402ed537e9de82dd208fedb74a27448c7699d7d5339d",
+  "isolated_input": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/input/discount_input_changed.xlsx",
+  "engine": "/opt/homebrew/bin/soffice",
+  "command": [
+    "/opt/homebrew/bin/soffice",
+    "-env:UserInstallation=file://new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/profile",
+    "--headless",
+    "--convert-to",
+    "xlsx",
+    "--outdir",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/output",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/input/discount_input_changed.xlsx"
+  ],
+  "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+  "cleared_formula_cache_count": 0,
+  "isolated_input_sha256": "a88adb781fd6a878c33c7ba5d67e5d0803113f0bcb3411ed6846a5592af40bd4",
+  "returncode": 0,
+  "output": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-fzyxno31/output/discount_input_changed.xlsx",
+  "output_sha256": "68036144b6e4e10dbd3867d0ff6efbfd4f0e1a0075777d60563721cf9a4c55fa",
+  "elapsed_seconds": 2.918901666998863,
+  "source_sha256_after": "daf7e735775b61d42d16402ed537e9de82dd208fedb74a27448c7699d7d5339d",
+  "original_unchanged": true
+}

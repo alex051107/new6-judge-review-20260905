@@ -1,0 +1,18 @@
+{
+  "a568e2740c218e2f": {
+    "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 1,
+    "kwargs": {
+      "version": "0.22.3"
+    }
+  },
+  "98e2a900f84cf581": {
+    "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+    "model_name": "openai/qwen3.8-max",
+    "n_concurrent": 3,
+    "kwargs": {
+      "version": "0.22.3"
+    }
+  }
+}

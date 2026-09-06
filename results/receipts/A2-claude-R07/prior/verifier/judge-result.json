@@ -44,5 +44,5 @@
     "api_calls": 0
   },
   "public_receipt_scope": "Executed score extract; full factual evidence and original files require group access.",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A2-claude-R07/prior/verifier/judge-result.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A2-claude-R07/prior/verifier/judge-result.json"
 }

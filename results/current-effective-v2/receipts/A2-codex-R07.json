@@ -1,0 +1,20 @@
+{
+  "case": "A2-codex-R07",
+  "trial_id": "NEW6-A-MACRO-SCENARIO-001-CODEX__KuA3hX6",
+  "answer_sha256": "a175fae421d9a684f2c9c244ae493f19d7f21036fd404c1aff39617ab079c753",
+  "status": "SCORED",
+  "selected_judge_label": "new6-a2-facts-v1.3-real-gdp-labels",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "original_points": "100",
+  "focus50_points": "100",
+  "focus60_points": "100",
+  "focus70_points": "100"
+}

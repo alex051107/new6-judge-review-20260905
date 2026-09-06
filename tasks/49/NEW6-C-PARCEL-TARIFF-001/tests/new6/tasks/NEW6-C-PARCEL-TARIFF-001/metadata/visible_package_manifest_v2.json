@@ -1,0 +1,29 @@
+{
+  "task_version": "new6-c2-natural-v2",
+  "prompt_version": "natural-business-v2",
+  "judge_version": "new6-usps-facts-v2.0-downstream-use",
+  "files": [
+    {
+      "path": "instruction.md",
+      "sha256": "147cedbff6533ec13a51444f00df6d1b5054cbb205792da95bd60be6381f4624",
+      "bytes": 558
+    },
+    {
+      "path": "data/input_files/USPS_Notice123_20260712_pages1_5_7.pdf",
+      "sha256": "13c6e0d1ee75b0201e0fdc747ceaf4e0dec32d7778c0786471b0e5304e2cba1c",
+      "bytes": 856736
+    },
+    {
+      "path": "data/input_files/quote_requests.csv",
+      "sha256": "8493625bd112987b9789cd7afbcdfc9117854fe0090a117616ce277146b27cdc",
+      "bytes": 574
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "sha256": "a2d438736456f43113a9dcf47aebb48fc4af62e114775580306a84f664df30de",
+      "bytes": 1017
+    }
+  ],
+  "frozen_wrapper": "harbor_wrappers/downstream-v2/NEW6-C-PARCEL-TARIFF-001",
+  "old_trial_unchanged": true
+}

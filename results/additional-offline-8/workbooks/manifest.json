@@ -1,0 +1,255 @@
+{
+  "description": "8份既有Agent原始答卷及该次运行实际输入；未经重新计算或修改，不包含Judge新结果。",
+  "source_manifest": "publication-360-v1/new8-offline/private-manifest.json",
+  "records": [
+    {
+      "case": "B1-qwen-R01",
+      "task": "B1",
+      "trial_id": "N6GRAMMAR-B1-QWEN-R01__SrhXusU",
+      "config_id": "43e4a9c77eff4d0f",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 1,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R01.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R01.zip",
+      "zip_bytes": 7106530,
+      "answer_sha256": "5eff0fe8b24c3706e2663c627fd78997f1be5c77df924b5760dccd3935835dd5",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "JUDGE_ERROR",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B1-qwen-R02",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R02__GFrXsBh",
+      "config_id": "8bc199823babfb1b",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 3,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R02.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R02.zip",
+      "zip_bytes": 2796347,
+      "answer_sha256": "9f45ca0754ad9fb0c5cb178d24373ca717dbb9d93a009e9bdf837784e6b07884",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "SCORED",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B1-qwen-R03",
+      "task": "B1",
+      "trial_id": "N6BUDGET-B1-QWEN-R03__fnWfwXa",
+      "config_id": "e5c00a4b8d2c76fd",
+      "configuration": {
+        "name": "qwen-coder",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 7,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R03.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R03.zip",
+      "zip_bytes": 7435425,
+      "answer_sha256": "a9b8a040e07578ead35e53b0879d9cf4008958b0e58ac4ec32d84d8485d658ba",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "JUDGE_ERROR",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B1-qwen-R04",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R04__mXF78nM",
+      "config_id": "8bc199823babfb1b",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 3,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R04.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R04.zip",
+      "zip_bytes": 2402506,
+      "answer_sha256": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "SCORED",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B1-qwen-R05",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R05__nvzJDsc",
+      "config_id": "8bc199823babfb1b",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 3,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R05.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R05.zip",
+      "zip_bytes": 10838312,
+      "answer_sha256": "ec08871e24c73c556d6e1c8fcf43e36ecf2c5d1ceac9d6a2811510116c3788be",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "SCORED",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B1-qwen-R07",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R07__v9DZcQj",
+      "config_id": "8bc199823babfb1b",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 3,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B1-qwen-R07.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B1-qwen-R07.zip",
+      "zip_bytes": 8594961,
+      "answer_sha256": "018ab1b94bbeefd0c7af70963344311d3f68fb3df457e4e9dfd77651eae45fd9",
+      "filecount": 5,
+      "input_filecount": 4,
+      "files": [
+        "answer.xlsx",
+        "input/retail_extract.csv",
+        "input/review_brief.md",
+        "input/september_extract.csv",
+        "input/source_context.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "JUDGE_ERROR",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "B2-qwen-R08",
+      "task": "B2",
+      "trial_id": "N6SIX-B2-QWEN-R08__aohdaFa",
+      "config_id": "4e076136e05655d9",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "B2-qwen-R08.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/B2-qwen-R08.zip",
+      "zip_bytes": 506932,
+      "answer_sha256": "fa318bb347d7785915a3475ccc76e161c5b4b4070bd55b8a712d6696481d0902",
+      "filecount": 7,
+      "input_filecount": 6,
+      "files": [
+        "answer.xlsx",
+        "input/ons_li01_january2023_corrected.xlsx",
+        "input/ons_li01_january2024.xlsx",
+        "input/ons_li01_january2025.xlsx",
+        "input/previous_briefing.xlsx",
+        "input/previous_briefing.xlsx.inspect.ndjson",
+        "input/review_brief.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "SCORED",
+      "matches_current_effective_answer_sha256": true
+    },
+    {
+      "case": "C1-qwen-R08",
+      "task": "C1",
+      "trial_id": "N6SIX-C1-QWEN-R08__AKNpNV5",
+      "config_id": "4e076136e05655d9",
+      "configuration": {
+        "import_path": "new6.runtime_adapters.qwen_grammar_v1.agent:QwenGrammarCompat",
+        "model_name": "openai/qwen3.8-max",
+        "n_concurrent": 2,
+        "kwargs": {
+          "version": "0.22.3"
+        },
+        "provider_endpoint": "https://api.zcloudapi.com/v1"
+      },
+      "zip_relative_path": "C1-qwen-R08.zip",
+      "repository_relative_path": "results/additional-offline-8/workbooks/C1-qwen-R08.zip",
+      "zip_bytes": 481457,
+      "answer_sha256": "64de2384430268b1864f36166d4768466389bb1af894bc12b2144d627366bbc8",
+      "filecount": 4,
+      "input_filecount": 3,
+      "files": [
+        "answer.xlsx",
+        "input/Falmouth_OCE_October2024_RevA.pdf",
+        "input/review_brief.md",
+        "input/review_correspondence.md"
+      ],
+      "source_kind": "original_agent_artifacts_app_output",
+      "current_effective_status": "JUDGE_ERROR",
+      "matches_current_effective_answer_sha256": true
+    }
+  ]
+}

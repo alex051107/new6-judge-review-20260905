@@ -1,0 +1,1315 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 1.0,
+  "score_decimal": "1.0",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 1.0,
+    "R006": 1.0,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "15.0",
+    "R003": "10.0",
+    "R004": "15.0",
+    "R005": "8.0",
+    "R006": "7.0",
+    "R007": "25.0",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "15.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "15.0",
+        "R003": "15.0",
+        "R004": "10.0",
+        "R005": "8.0",
+        "R006": "7.0",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1.0",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 1.0,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "12.0",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "10.0",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/logs/verifier/offline/native/recalc-9mv99goq/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": true,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": true,
+        "Net recorded value change": true,
+        "Bridge residual": true
+      },
+      "candidate_bridge_closure": [
+        true
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [
+        {
+          "sheet": "candidate declared rules and source identities",
+          "header_row": null,
+          "row_count": 64415
+        }
+      ],
+      "invoices": [
+        {
+          "sheet": "3. Invoice Analysis",
+          "header_row": 3,
+          "row_count": 2640
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "4. Country Analysis",
+          "header_row": 3,
+          "row_count": 43
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "5. Exception Register",
+          "header_row": 3,
+          "row_count": 238
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "8. Reconciliation",
+          "header_row": 12,
+          "row_count": 26
+        }
+      ],
+      "report": [
+        {
+          "sheet": "2. Mgmt Summary",
+          "header_row": 16,
+          "row_count": 4
+        },
+        {
+          "sheet": "6. Bridge",
+          "header_row": 4,
+          "row_count": 16
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "header_row": 4,
+          "row_count": 2
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 8
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "2. Mgmt Summary",
+          "header_row": 21,
+          "row_count": 22
+        },
+        {
+          "sheet": "explicit labelled key/value claims",
+          "header_row": null,
+          "row_count": 0
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 23
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "7. SKU Schedule",
+          "header_row": 3,
+          "row_count": 3073
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3,
+        1154979.3,
+        1154979.3
+      ],
+      "Signed credits": [
+        -84274.63,
+        -84274.63,
+        -84274.63,
+        "-84274.63"
+      ],
+      "Net recorded value": [
+        1070704.67,
+        1070704.67,
+        1070704.67,
+        "1070704.67"
+      ],
+      "Exception recorded amount": [
+        0
+      ],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [
+      {
+        "country": "United Kingdom",
+        "class": "sale",
+        "count_from_candidate_detail": 53337,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "United Kingdom",
+        "class": "credit",
+        "count_from_candidate_detail": 947,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "United Kingdom",
+        "class": "exception",
+        "count_from_candidate_detail": 237,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "Netherlands",
+        "class": "sale",
+        "count_from_candidate_detail": 278,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Netherlands",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Netherlands",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Germany",
+        "class": "sale",
+        "count_from_candidate_detail": 1286,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "Germany",
+        "class": "credit",
+        "count_from_candidate_detail": 36,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "Germany",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "France",
+        "class": "sale",
+        "count_from_candidate_detail": 887,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "France",
+        "class": "credit",
+        "count_from_candidate_detail": 11,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "France",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "EIRE",
+        "class": "sale",
+        "count_from_candidate_detail": 871,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "EIRE",
+        "class": "credit",
+        "count_from_candidate_detail": 58,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "EIRE",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "Australia",
+        "class": "sale",
+        "count_from_candidate_detail": 114,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Australia",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Australia",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Switzerland",
+        "class": "sale",
+        "count_from_candidate_detail": 381,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Switzerland",
+        "class": "credit",
+        "count_from_candidate_detail": 4,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Switzerland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Sweden",
+        "class": "sale",
+        "count_from_candidate_detail": 47,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Sweden",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Sweden",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Belgium",
+        "class": "sale",
+        "count_from_candidate_detail": 264,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Belgium",
+        "class": "credit",
+        "count_from_candidate_detail": 3,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Belgium",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Portugal",
+        "class": "sale",
+        "count_from_candidate_detail": 441,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Portugal",
+        "class": "credit",
+        "count_from_candidate_detail": 2,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Portugal",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Spain",
+        "class": "sale",
+        "count_from_candidate_detail": 306,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Spain",
+        "class": "credit",
+        "count_from_candidate_detail": 17,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Spain",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Cyprus",
+        "class": "sale",
+        "count_from_candidate_detail": 163,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Cyprus",
+        "class": "credit",
+        "count_from_candidate_detail": 1,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Cyprus",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Norway",
+        "class": "sale",
+        "count_from_candidate_detail": 120,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Norway",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Norway",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Italy",
+        "class": "sale",
+        "count_from_candidate_detail": 159,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Italy",
+        "class": "credit",
+        "count_from_candidate_detail": 10,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Italy",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Finland",
+        "class": "sale",
+        "count_from_candidate_detail": 114,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Finland",
+        "class": "credit",
+        "count_from_candidate_detail": 1,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Finland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Channel Islands",
+        "class": "sale",
+        "count_from_candidate_detail": 102,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Channel Islands",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Channel Islands",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Japan",
+        "class": "sale",
+        "count_from_candidate_detail": 16,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Japan",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Japan",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Denmark",
+        "class": "sale",
+        "count_from_candidate_detail": 23,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Denmark",
+        "class": "credit",
+        "count_from_candidate_detail": 6,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Denmark",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Iceland",
+        "class": "sale",
+        "count_from_candidate_detail": 47,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Iceland",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Iceland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Austria",
+        "class": "sale",
+        "count_from_candidate_detail": 54,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "Austria",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "Austria",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "RSA",
+        "class": "sale",
+        "count_from_candidate_detail": 57,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "RSA",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "RSA",
+        "class": "exception",
+        "count_from_candidate_detail": 1,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "Singapore",
+        "class": "sale",
+        "count_from_candidate_detail": 34,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "Singapore",
+        "class": "credit",
+        "count_from_candidate_detail": 2,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "Singapore",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "USA",
+        "class": "sale",
+        "count_from_candidate_detail": 125,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "USA",
+        "class": "credit",
+        "count_from_candidate_detail": 101,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "USA",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "Hong Kong",
+        "class": "sale",
+        "count_from_candidate_detail": 34,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Hong Kong",
+        "class": "credit",
+        "count_from_candidate_detail": 1,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Hong Kong",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Czech Republic",
+        "class": "sale",
+        "count_from_candidate_detail": 10,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Czech Republic",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Czech Republic",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Israel",
+        "class": "sale",
+        "count_from_candidate_detail": 34,
+        "explicit_total_line_count": 34
+      },
+      {
+        "country": "Israel",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 34
+      },
+      {
+        "country": "Israel",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 34
+      }
+    ],
+    "candidate_country_self_consistency": 1.0,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 64177,
+    "chart_cache_self_consistency": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "titles": [
+          "MoM bridge - the five contributions (GBP)"
+        ],
+        "series": [
+          {
+            "name": "",
+            "categories": [
+              "   1. Quantity - continuing SKUs",
+              "   2. Price & transaction mix - continuing SKUs",
+              "   3. New SKUs (October only)",
+              "   4. Exited SKUs (September only)",
+              "   5. Credits (October - September)"
+            ],
+            "categories_cache": [
+              "   1. Quantity - continuing SKUs",
+              "   2. Price & transaction mix - continuing SKUs",
+              "   3. New SKUs (October only)",
+              "   4. Exited SKUs (September only)",
+              "   5. Credits (October - September)"
+            ],
+            "categories_reference": "'2. Mgmt Summary'!$A$23:$A$27",
+            "values": [
+              44947.3182539217,
+              -39397.5492539217,
+              98404.21,
+              -7564.851,
+              -45372.08
+            ],
+            "values_cache": [
+              "44947.3182539217",
+              "-39397.5492539217",
+              "98404.21",
+              "-7564.851",
+              "-45372.08"
+            ],
+            "values_reference": "'2. Mgmt Summary'!$B$23:$B$27"
+          }
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "titles": [
+          "September vs October - sales / credits / net (GBP)"
+        ],
+        "series": [
+          {
+            "name": "September",
+            "categories": [
+              "Sales",
+              "Credits",
+              "Net recorded"
+            ],
+            "categories_cache": [
+              "Sales",
+              "Credits",
+              "Net recorded"
+            ],
+            "categories_reference": "'2. Mgmt Summary'!$D$5:$D$7",
+            "values": [
+              1058590.172,
+              -38902.55,
+              1019687.622
+            ],
+            "values_cache": [
+              "1058590.172",
+              "-38902.55",
+              "1019687.622"
+            ],
+            "values_reference": "'2. Mgmt Summary'!$E$5:$E$7"
+          },
+          {
+            "name": "October",
+            "categories": [
+              "Sales",
+              "Credits",
+              "Net recorded"
+            ],
+            "categories_cache": [
+              "Sales",
+              "Credits",
+              "Net recorded"
+            ],
+            "categories_reference": "'2. Mgmt Summary'!$D$5:$D$7",
+            "values": [
+              1154979.3,
+              -84274.63,
+              1070704.67
+            ],
+            "values_cache": [
+              "1154979.3",
+              "-84274.63",
+              "1070704.67"
+            ],
+            "values_reference": "'2. Mgmt Summary'!$F$5:$F$7"
+          }
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "titles": [
+          "Top 10 countries by net recorded value (October, GBP)"
+        ],
+        "series": [
+          {
+            "name": "Net (GBP)",
+            "categories": [
+              "United Kingdom",
+              "Netherlands",
+              "Germany",
+              "France",
+              "EIRE",
+              "Australia",
+              "Switzerland",
+              "Sweden",
+              "Belgium",
+              "Portugal"
+            ],
+            "categories_cache": [
+              "United Kingdom",
+              "Netherlands",
+              "Germany",
+              "France",
+              "EIRE",
+              "Australia",
+              "Switzerland",
+              "Sweden",
+              "Belgium",
+              "Portugal"
+            ],
+            "categories_reference": "'2. Mgmt Summary'!$A$34:$A$43",
+            "values": [
+              877438.19,
+              40708.65,
+              30614.27,
+              25032.04,
+              23307.62,
+              17150.53,
+              8033.98,
+              5766.16,
+              5651.38,
+              5584.63
+            ],
+            "values_cache": [
+              "877438.19",
+              "40708.65",
+              "30614.27",
+              "25032.04",
+              "23307.62",
+              "17150.53",
+              "8033.98",
+              "5766.16",
+              "5651.38",
+              "5584.63"
+            ],
+            "values_reference": "'2. Mgmt Summary'!$B$34:$B$43"
+          }
+        ]
+      }
+    ],
+    "chart_semantic_bindings": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "name": "",
+        "binding": [
+          {
+            "category": "   1. Quantity - continuing SKUs",
+            "role": "bridge:Continuing SKU quantity effect",
+            "expected": "44947.3182539216640799958246319340036234498"
+          },
+          {
+            "category": "   2. Price & transaction mix - continuing SKUs",
+            "role": "bridge:Continuing SKU price and mix effect",
+            "expected": "-39397.5492539216640799958246319340036234498"
+          },
+          {
+            "category": "   3. New SKUs (October only)",
+            "role": "bridge:New SKU effect",
+            "expected": "98404.21"
+          },
+          {
+            "category": "   4. Exited SKUs (September only)",
+            "role": "bridge:Exited SKU effect",
+            "expected": "-7564.851"
+          },
+          {
+            "category": "   5. Credits (October - September)",
+            "role": "bridge:Signed credit change",
+            "expected": "-45372.08"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          44947.3182539217,
+          -39397.5492539217,
+          98404.21,
+          -7564.851,
+          -45372.08
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "name": "September",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:sep:sale",
+            "expected": "1058590.172"
+          },
+          {
+            "category": "Credits",
+            "role": "period:sep:credit",
+            "expected": "-38902.55"
+          },
+          {
+            "category": "Net recorded",
+            "role": "period:sep:net",
+            "expected": "1019687.622"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1058590.172,
+          -38902.55,
+          1019687.622
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "name": "October",
+        "binding": [
+          {
+            "category": "Sales",
+            "role": "period:oct:sale",
+            "expected": "1154979.30"
+          },
+          {
+            "category": "Credits",
+            "role": "period:oct:credit",
+            "expected": "-84274.63"
+          },
+          {
+            "category": "Net recorded",
+            "role": "period:oct:net",
+            "expected": "1070704.67"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          1154979.3,
+          -84274.63,
+          1070704.67
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "name": "Net (GBP)",
+        "binding": [
+          {
+            "category": "United Kingdom",
+            "role": "country:United Kingdom:net",
+            "expected": "877438.19"
+          },
+          {
+            "category": "Netherlands",
+            "role": "country:Netherlands:net",
+            "expected": "40708.65"
+          },
+          {
+            "category": "Germany",
+            "role": "country:Germany:net",
+            "expected": "30614.27"
+          },
+          {
+            "category": "France",
+            "role": "country:France:net",
+            "expected": "25032.04"
+          },
+          {
+            "category": "EIRE",
+            "role": "country:EIRE:net",
+            "expected": "23307.62"
+          },
+          {
+            "category": "Australia",
+            "role": "country:Australia:net",
+            "expected": "17150.53"
+          },
+          {
+            "category": "Switzerland",
+            "role": "country:Switzerland:net",
+            "expected": "8033.98"
+          },
+          {
+            "category": "Sweden",
+            "role": "country:Sweden:net",
+            "expected": "5766.16"
+          },
+          {
+            "category": "Belgium",
+            "role": "country:Belgium:net",
+            "expected": "5651.38"
+          },
+          {
+            "category": "Portugal",
+            "role": "country:Portugal:net",
+            "expected": "5584.63"
+          }
+        ],
+        "display_tolerance": "0.005",
+        "values": [
+          877438.19,
+          40708.65,
+          30614.27,
+          25032.04,
+          23307.62,
+          17150.53,
+          8033.98,
+          5766.16,
+          5651.38,
+          5584.63
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 238,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reader_v25_evidence": {
+    "recognized_narrative_formulas": [
+      {
+        "sheet": "8. Reconciliation",
+        "cell": "A21",
+        "value": "=sales + credits + exceptions"
+      }
+    ],
+    "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+    "source_amounts_unchanged": true,
+    "business_views": {
+      "monetary_bindings": [
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "October net recorded value (sales + credits)",
+          "amount_cell": "2. Mgmt Summary!B5",
+          "role": "October net recorded value"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "September net recorded value",
+          "amount_cell": "2. Mgmt Summary!B17",
+          "role": "September net recorded value"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "Month-on-month change in net",
+          "amount_cell": "2. Mgmt Summary!B18",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "September net (start)",
+          "amount_cell": "2. Mgmt Summary!B22",
+          "role": "September net recorded value"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "   1. Quantity - continuing SKUs",
+          "amount_cell": "2. Mgmt Summary!B23",
+          "role": "Continuing SKU quantity effect"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "   2. Price & transaction mix - continuing SKUs",
+          "amount_cell": "2. Mgmt Summary!B24",
+          "role": "Continuing SKU price and mix effect"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "   3. New SKUs (October only)",
+          "amount_cell": "2. Mgmt Summary!B25",
+          "role": "New SKU effect"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "   4. Exited SKUs (September only)",
+          "amount_cell": "2. Mgmt Summary!B26",
+          "role": "Exited SKU effect"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "   5. Credits (October - September)",
+          "amount_cell": "2. Mgmt Summary!B27",
+          "role": "Signed credit change"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "October net (end)",
+          "amount_cell": "2. Mgmt Summary!B28",
+          "role": "October net recorded value"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "Total change (end - start)",
+          "amount_cell": "2. Mgmt Summary!B29",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "2. Mgmt Summary",
+          "label": "Reconciliation difference",
+          "amount_cell": "2. Mgmt Summary!B30",
+          "role": "Bridge residual"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "September net recorded value (start)",
+          "amount_cell": "6. Bridge!B5",
+          "role": "September net recorded value"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "1. Quantity - continuing SKUs",
+          "amount_cell": "6. Bridge!B6",
+          "role": "Continuing SKU quantity effect"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "2. Price & transaction mix - continuing SKUs",
+          "amount_cell": "6. Bridge!B7",
+          "role": "Continuing SKU price and mix effect"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "3. New SKUs (October only)",
+          "amount_cell": "6. Bridge!B8",
+          "role": "New SKU effect"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "4. Exited SKUs (September only)",
+          "amount_cell": "6. Bridge!B9",
+          "role": "Exited SKU effect"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "5. Credits (October - September)",
+          "amount_cell": "6. Bridge!B10",
+          "role": "Signed credit change"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "October net recorded value (end)",
+          "amount_cell": "6. Bridge!B11",
+          "role": "October net recorded value"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "Total change (end - start)",
+          "amount_cell": "6. Bridge!B12",
+          "role": "Net recorded value change"
+        },
+        {
+          "sheet": "6. Bridge",
+          "label": "Reconciliation difference",
+          "amount_cell": "6. Bridge!B13",
+          "role": "Bridge residual"
+        }
+      ],
+      "bound_bridge_claims": 23,
+      "bound_report_claims": 8,
+      "traceability": {
+        "applied": true,
+        "declarations": {
+          "source": "input/retail_extract.csv (64,415 rows; 30 Sep - 1 Nov 2011).",
+          "identity": "Each source_row_id is one physical occurrence; identical business fields are not treated as duplicate transmission. Each invoice number is a separate document.",
+          "no_dedup": "Each source_row_id is one physical occurrence; identical business fields are not treated as duplicate transmission. Each invoice number is a separate document.",
+          "scope": "1 Oct 2011 00:00 (inclusive) to 1 Nov 2011 00:00 (exclusive), using the supplied timestamps.",
+          "sale": "Positive quantity AND positive price AND NOT a C-prefixed invoice (case-insensitive).",
+          "credit": "Negative quantity AND positive price AND a C-prefixed invoice (case-insensitive).",
+          "exception": "Any other combination, a non-positive price, or a missing essential field. Essential fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, Country.",
+          "amount": "Signed Quantity x UnitPrice in GBP. Full precision retained; display rounded to 2dp only.",
+          "attribution": "An attribution gap, NOT a reason to exclude an otherwise valid sale or credit."
+        },
+        "essential_fields_declaration": "Any other combination, a non-positive price, or a missing essential field. Essential fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, Country.",
+        "source_occurrences": 64415,
+        "bound_occurrences": 64415,
+        "unmapped_invoice_or_country_occurrences": [],
+        "class_counts_from_candidate_rules": {
+          "outside_scope": 3673,
+          "sale": 59304,
+          "credit": 1200,
+          "exception": 238
+        },
+        "oracle_read": false
+      }
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+      "isolated_input": "/logs/verifier/offline/native/recalc-9mv99goq/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-9mv99goq/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/recalc-9mv99goq/output",
+        "/logs/verifier/offline/native/recalc-9mv99goq/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1,
+      "isolated_input_sha256": "4808ef2e168c702462cdfa99addbd8cce82fc329da4be0079c19717709098132",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/recalc-9mv99goq/output/answer.xlsx",
+      "output_sha256": "332faf2322653a58220978b0bbbf6578681ebbf6955b968bc79013d2593c0e73",
+      "elapsed_seconds": 1.1395398750028107,
+      "source_sha256_after": "cbe3a1720f719f3ed1afac1fdd0db44bb28790bea4939c5cdd65a846dc51f861",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

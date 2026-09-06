@@ -1,0 +1,10 @@
+{
+  "case": "C1-qwen-R01",
+  "trial_id": "N6C1IMAGE-C1-QWEN-R01__W3nENQW",
+  "answer_sha256": "5f7f8654103eacaee062b81a176b17b2315b6e366b68925e42618a2da8d2b6ff",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": null,
+  "evaluation_status": "JUDGE_ERROR",
+  "criterion_scores": null,
+  "technical_reason": "Material result labels cannot be safely bound: [{'sheet': 'Cover', 'label': 'Movement in cost limit (current - original printed)'}, {'sheet': 'Cover', 'label': 'Asbestos removal option - outside current cost limit'}, {'sheet': 'Reconciliation', 'label': 'Original printed cost limit'}]"
+}

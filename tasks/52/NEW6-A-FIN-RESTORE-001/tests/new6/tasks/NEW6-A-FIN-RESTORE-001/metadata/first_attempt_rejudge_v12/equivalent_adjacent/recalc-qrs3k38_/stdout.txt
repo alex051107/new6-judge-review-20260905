@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-qrs3k38_/input/equivalent_adjacent_cases.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/equivalent_adjacent/recalc-qrs3k38_/output/equivalent_adjacent_cases.xlsx using filter : Calc Office Open XML

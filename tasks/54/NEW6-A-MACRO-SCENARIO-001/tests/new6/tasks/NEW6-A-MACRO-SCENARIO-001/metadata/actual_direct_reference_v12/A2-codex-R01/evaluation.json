@@ -1,0 +1,45 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "judge_version": "new6-a2-facts-v1.2-direct-reference-controls",
+    "error_type": "RecalcUnavailable",
+    "error": "LibreOffice did not produce a workbook; see new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/actual_direct_reference_v12/A2-codex-R01/base/recalc-iswhj28z"
+  }
+}

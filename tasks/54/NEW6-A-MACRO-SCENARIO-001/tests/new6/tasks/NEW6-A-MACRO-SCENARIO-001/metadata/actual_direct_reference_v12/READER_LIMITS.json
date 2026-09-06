@@ -1,0 +1,52 @@
+{
+  "judge_version": "new6-a2-facts-v1.2-direct-reference-controls",
+  "scope": "Direct-reference control repair; fixed task and rubric weights preserved",
+  "records": [
+    {
+      "case": "A2-codex-R07",
+      "trial": "NEW6-A-MACRO-SCENARIO-001-CODEX__KuA3hX6",
+      "effective_evaluation_status": "JUDGE_ERROR",
+      "score_decimal": null,
+      "sample_countable": false,
+      "mechanical_result_file": "A2-codex-R07/evaluation.json",
+      "mechanical_intermediate_score_decimal": "0.764838647714175950825970034575489819439115",
+      "control_bindings": {
+        "target": [
+          "Scenario Review",
+          "B5"
+        ],
+        "transition": [
+          "Scenario Review",
+          "B6"
+        ]
+      },
+      "reason": "Controls are repaired, but the existing quantity reader does not bind four materially delivered investment/capital columns with explicit real-$m unit suffixes. Their missing facts are not proven missing delivery. Metric/unit interpretation is outside this control-only patch.",
+      "visible_columns": {
+        "Scenario Review!D8": "Baseline investment (real $m)",
+        "Scenario Review!E8": "Scenario investment (real $m)",
+        "Scenario Review!H8": "Baseline capital (real $m)",
+        "Scenario Review!I8": "Scenario capital (real $m)"
+      },
+      "unbound_fact_counts": {
+        "R002": 68,
+        "R004": 204,
+        "R006": 4
+      }
+    },
+    {
+      "case": "A2-codex-R01",
+      "trial": "NEW6-A-MACRO-SCENARIO-001-CODEX__iMDar7U",
+      "effective_evaluation_status": "JUDGE_ERROR",
+      "score_decimal": null,
+      "sample_countable": false,
+      "result_file": "A2-codex-R01/evaluation.json",
+      "reason": "LibreOffice did not create a recalculated workbook; stderr: Error: source file could not be loaded. Candidate/environment attribution remains unresolved; no repeated native retry."
+    }
+  ],
+  "calibration_receipt": "../direct_reference_controls_v12_checked/receipt.json",
+  "api_calls": 0,
+  "actual_native_calculations": 5,
+  "calibration_native_calculations": 8,
+  "original_files_modified": false,
+  "old_receipts_modified": false
+}

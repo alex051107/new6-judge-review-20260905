@@ -1,0 +1,34 @@
+{
+  "task": "B1",
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "task_version": "new6-b1-v2",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 776
+    },
+    {
+      "path": "data/input_files/retail_extract.csv",
+      "bytes": 7073952
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 3367
+    },
+    {
+      "path": "data/input_files/september_extract.csv",
+      "bytes": 5498494
+    },
+    {
+      "path": "data/input_files/source_context.md",
+      "bytes": 947
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "4cd1cc913987e2bdb2e1503204fe2872d4469be2cb59d1d8f35aea50bd2c100e",
+  "zip_sha256": "7db5d02e9c38f0227f7596b1f36580e494053be54dc68e04dac060abc266f74e",
+  "agent_output_sha256": "a9c9480e90db1f5dbae89919c196473d93507bfbbd7b8bb024609698c4b8e8df",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

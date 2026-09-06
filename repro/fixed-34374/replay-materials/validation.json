@@ -1,0 +1,15 @@
+{
+  "case_count": 73,
+  "all_cohort_cases_included": true,
+  "zip_integrity_pass": 73,
+  "zip_answer_hash_matches_cohort": 73,
+  "zip_member_lists_match_source": 73,
+  "total_zip_bytes": 153942850,
+  "largest_zip": "cases/B1-codex-R02.zip",
+  "largest_zip_bytes": 13961309,
+  "all_zip_under_100000000_bytes": true,
+  "validation_rounds": 1,
+  "judge_runs": 0,
+  "agent_calls": 0,
+  "publication": "prepared locally only"
+}

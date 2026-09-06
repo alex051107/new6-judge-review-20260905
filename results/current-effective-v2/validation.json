@@ -1,0 +1,9 @@
+{
+  "records": 144,
+  "scored": 78,
+  "unknowns_kept_null": 66,
+  "trial_and_summary_parity": "EXACT at recorded 48-digit decimal representation",
+  "judge_calls": 0,
+  "model_calls": 0,
+  "excel_files_read": 0
+}

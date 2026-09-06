@@ -1,0 +1,32 @@
+{
+  "status": "BLOCKED_RECALC",
+  "source_downloaded": true,
+  "independent_decimal_oracle": "implemented and reproduces 115 published/cached annual and bridge outputs",
+  "native_source_gate": "FAILED after invalidating all formula caches in an isolated copy",
+  "fresh_LibreOffice_evidence": {
+    "Synthetic rating!F5": 9585,
+    "formula": "=IF('Input sheet'!B14=\"Yes\",'Input sheet'!B9+'Operating lease converter'!F32,'Input sheet'!B9)",
+    "Input sheet!B9": 7385,
+    "Operating lease converter!F32": 323.881692506433,
+    "formula_implied_F5": 7708.881692506433,
+    "fresh_native_value_per_share": 1254.15497664836,
+    "independent_value_per_share": 1255.048725653051
+  },
+  "cause": "Source synthetic-rating/operating-lease cross-sheet circularity is not consistently iterated by available headless conversion; warm cache parity was insufficient.",
+  "Excel_probe": "An isolated local public-model copy opened; scoped worksheet calculate AppleScript returned Parameter error (-50). Probe closed, preexisting user workbook left open and untouched, no global iteration/calculation preference changed.",
+  "not_done": [
+    "No degraded task input released",
+    "No validated reference.xlsx",
+    "No executable business evaluator or calibration pass",
+    "No Agent/API run"
+  ],
+  "minimal_proposal": "Bind an isolated Excel-compatible iterative engine and require full cache-cleared source consistency plus all declared perturbations before continuing. A separately reviewed later version may explicitly supply independently solved historical lease-conversion facts as fixed inputs; that is a visible construction change, not silently used in this task.",
+  "current_task_resolution": {
+    "status": "RESOLVED_BY_DISCLOSED_DERIVED_INPUT",
+    "date": "2026-09-05",
+    "original_native_failure_retained": true,
+    "fixed_historical_input": "Operating lease converter!C15",
+    "basis": "Unique finite-band solution of original historical inputs; no forecast cache consumed",
+    "evidence": "metadata/historical_rescue/receipt.json"
+  }
+}

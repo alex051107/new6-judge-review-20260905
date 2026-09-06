@@ -1,0 +1,25 @@
+{
+  "source": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/margin_input_changed.xlsx",
+  "source_sha256_before": "49e35a092e16452db480407304c211b98300aa9ff253e926cdf9b0a8d85ddec7",
+  "isolated_input": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/input/margin_input_changed.xlsx",
+  "engine": "/opt/homebrew/bin/soffice",
+  "command": [
+    "/opt/homebrew/bin/soffice",
+    "-env:UserInstallation=file://new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/profile",
+    "--headless",
+    "--convert-to",
+    "xlsx",
+    "--outdir",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/output",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/input/margin_input_changed.xlsx"
+  ],
+  "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+  "cleared_formula_cache_count": 0,
+  "isolated_input_sha256": "594f34f500aa229fe864d76706d7b68d53a2c22398233d9775411e8082cc2426",
+  "returncode": 0,
+  "output": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/judge_reference_recalc/recalc-54r_4y7e/output/margin_input_changed.xlsx",
+  "output_sha256": "5edb5543c015e1e0c7d94259343283ca2ca9fa7e20e1e3ecd942d8cda3c082c9",
+  "elapsed_seconds": 2.571839790995,
+  "source_sha256_after": "49e35a092e16452db480407304c211b98300aa9ff253e926cdf9b0a8d85ddec7",
+  "original_unchanged": true
+}

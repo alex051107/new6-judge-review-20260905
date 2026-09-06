@@ -1,0 +1,19 @@
+{
+  "case_count": 8,
+  "total_zip_bytes": 40162470,
+  "maximum_zip_bytes": 10838312,
+  "all_original_hashes_match_source_and_current_effective": true,
+  "all_zip_files_byte_equal_to_source": true,
+  "all_zip_crc_checks_pass": true,
+  "scan_blob_count_including_embedded_archives": 328,
+  "personal_path_or_credential_pattern_hits": [],
+  "judge_runs": 0,
+  "agent_runs": 0,
+  "files_redacted": 0,
+  "required_missing_cases": [
+    "B1-qwen-R02",
+    "B1-qwen-R04",
+    "B1-qwen-R05",
+    "B2-qwen-R08"
+  ]
+}

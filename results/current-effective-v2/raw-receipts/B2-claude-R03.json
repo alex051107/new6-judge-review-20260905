@@ -1,0 +1,2963 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.6388239538239538,
+  "score_decimal": "0.638823953823953826",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 0.7,
+    "R003": 0.6787878787878788,
+    "R004": 0.17777777777777778,
+    "R005": 0.8666666666666667
+  },
+  "contributions_raw": {
+    "R001": "12.8571428571428565",
+    "R002": "17.5",
+    "R003": "16.9696969696969700",
+    "R004": "3.55555555555555560",
+    "R005": "13.0000000000000005"
+  },
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6388239538239538,
+      "score_decimal": "0.638823953823953826",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "17.5",
+        "R003": "16.9696969696969700",
+        "R004": "3.55555555555555560",
+        "R005": "13.0000000000000005"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.6466810966810966,
+      "score_decimal": "0.646681096681096681",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "17.1428571428571420",
+        "R002": "14.0",
+        "R003": "16.9696969696969700",
+        "R004": "3.55555555555555560",
+        "R005": "13.0000000000000005"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.6225829725829726,
+      "score_decimal": "0.62258297258297259",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 0.7,
+        "R003": 0.6787878787878788,
+        "R004": 0.17777777777777778,
+        "R005": 0.8666666666666667
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "14.0",
+        "R003": "13.5757575757575760",
+        "R004": "4.44444444444444450",
+        "R005": "21.6666666666666675"
+      }
+    }
+  },
+  "evidence": {
+    "task_version": "new6-b2-three-release-v3",
+    "judge_version": "new6-b2-three-release-v3.2-labelled-code-lists",
+    "candidate": "/app/output/answer.xlsx",
+    "dynamic_tests": "Not required; correct static and formula implementations equally accepted.",
+    "regions": [
+      {
+        "sheet": "Updated data",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "employment_2025": 4,
+          "unemployment_2023": 5,
+          "unemployment_2024": 6,
+          "unemployment_2025": 7,
+          "employment_change_23_24": 8,
+          "unemployment_change_23_24": 9,
+          "employment_change_24_25": 10,
+          "unemployment_change_24_25": 11
+        }
+      },
+      {
+        "sheet": "Updated shortlist",
+        "header_row": 1,
+        "role": "shortlist",
+        "columns": {
+          "code": 1,
+          "name": 2,
+          "employment_2023": 3,
+          "employment_2024": 4,
+          "employment_2025": 5,
+          "unemployment_2023": 6,
+          "unemployment_2024": 7,
+          "unemployment_2025": 8,
+          "employment_change_23_24": 9,
+          "unemployment_change_23_24": 10,
+          "employment_change_24_25": 11,
+          "unemployment_change_24_25": 12
+        }
+      },
+      {
+        "sheet": "Comparison",
+        "header_row": 4,
+        "role": "previous",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4
+        }
+      },
+      {
+        "sheet": "Comparison",
+        "header_row": 12,
+        "role": "shortlist",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4,
+          "employment_change_24_25": 5,
+          "unemployment_change_24_25": 6
+        }
+      },
+      {
+        "sheet": "Updated exclusions",
+        "header_row": 1,
+        "role": "exclusions",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      },
+      {
+        "sheet": "Previous data",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "unemployment_2023": 4,
+          "unemployment_2024": 5,
+          "employment_change_23_24": 6,
+          "unemployment_change_23_24": 7
+        }
+      },
+      {
+        "sheet": "Previous shortlist",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4
+        }
+      },
+      {
+        "sheet": "Previous exclusions",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      }
+    ],
+    "context": {
+      "periods": [
+        true,
+        true,
+        true
+      ],
+      "definitions": [
+        true,
+        true
+      ],
+      "sources": [
+        true,
+        true,
+        true
+      ],
+      "units": true,
+      "scope": false,
+      "sampling_limits": true
+    },
+    "exclusion_facts": [
+      {
+        "code": "E06000053",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 employment: suppressed ([c]); 2023 unemployment: suppressed ([x]); 2024 employment: suppressed ([c]); 2024 unemployment: suppressed ([x]); 2025 employment: suppressed ([c]); 2025 unemployment: suppressed ([x])"
+        ]
+      },
+      {
+        "code": "E06000063",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000064",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000065",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E06000066",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 employment: geography not present; 2023 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000026",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000027",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000028",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000029",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000030",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000031",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000163",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000164",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000165",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000166",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000167",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000168",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000169",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000187",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000188",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000189",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E07000246",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2024 employment: geography not present; 2024 unemployment: geography not present; 2025 employment: geography not present; 2025 unemployment: geography not present"
+        ]
+      },
+      {
+        "code": "E09000001",
+        "reason": true,
+        "not_imputed": true,
+        "candidate_reasons": [
+          "2023 unemployment: suppressed ([x]); 2024 unemployment: suppressed ([x]); 2025 employment: suppressed ([x]); 2025 unemployment: suppressed ([x])"
+        ]
+      }
+    ],
+    "selection_facts": [
+      {
+        "sheet": "Updated shortlist",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E08000012"
+        ],
+        "population": 0.6,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      {
+        "sheet": "Comparison",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E08000012"
+        ],
+        "population": 0.6,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ]
+      }
+    ],
+    "support_obligations": [
+      {
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "correct": false
+      },
+      {
+        "code": "E07000142",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "correct": false
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "correct": false
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "correct": false
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_25",
+        "correct": false
+      },
+      {
+        "code": "E07000145",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      }
+    ],
+    "source_value_mismatches": [
+      {
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "expected": "-17.6",
+        "candidate": [
+          {
+            "value": -17.54910758316852,
+            "location": "Updated data!169",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -17.54910758316852,
+            "location": "Updated shortlist!2",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -17.54910758316852,
+            "location": "Comparison!13",
+            "method": "explicit displayed result"
+          }
+        ]
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "expected": "-1.0",
+        "candidate": [
+          {
+            "value": -0.9350858931265194,
+            "location": "Updated data!301",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -0.9350858931265194,
+            "location": "Updated shortlist!4",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -0.9350858931265194,
+            "location": "Comparison!15",
+            "method": "explicit displayed result"
+          }
+        ]
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "expected": "-4.5",
+        "candidate": [
+          {
+            "value": -4.424722454438552,
+            "location": "Updated data!65",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -4.424722454438552,
+            "location": "Updated shortlist!5",
+            "method": "explicit displayed result"
+          },
+          {
+            "value": -4.424722454438552,
+            "location": "Comparison!16",
+            "method": "explicit displayed result"
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "expected": "1.1",
+        "candidate": [
+          {
+            "value": 1.018287519999999,
+            "location": "Updated data!168",
+            "method": "explicit displayed result"
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_25",
+        "expected": "2.0",
+        "candidate": [
+          {
+            "value": "1.909247699999999",
+            "location": "Updated data!168",
+            "method": "difference of candidate displayed published rates"
+          }
+        ]
+      }
+    ],
+    "optional_displayed_errors": [
+      {
+        "location": "Updated data!2",
+        "code": "E06000001",
+        "field": "unemployment_change_23_24",
+        "value": -1.65559349,
+        "expected": "-1.6"
+      },
+      {
+        "location": "Updated data!4",
+        "code": "E06000003",
+        "field": "employment_change_23_24",
+        "value": 6.25232324360708,
+        "expected": "6.2"
+      },
+      {
+        "location": "Updated data!5",
+        "code": "E06000004",
+        "field": "employment_change_23_24",
+        "value": 0.6905064574842896,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!9",
+        "code": "E06000008",
+        "field": "unemployment_change_23_24",
+        "value": -0.8404219900000003,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!10",
+        "code": "E06000009",
+        "field": "employment_change_24_25",
+        "value": -5.854834484685838,
+        "expected": "-5.8"
+      },
+      {
+        "location": "Updated data!10",
+        "code": "E06000009",
+        "field": "unemployment_change_24_25",
+        "value": 0.4562931800000003,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!11",
+        "code": "E06000010",
+        "field": "employment_change_23_24",
+        "value": 3.373439537404181,
+        "expected": "3.3"
+      },
+      {
+        "location": "Updated data!11",
+        "code": "E06000010",
+        "field": "employment_change_24_25",
+        "value": -2.162257327419439,
+        "expected": "-2.1"
+      },
+      {
+        "location": "Updated data!16",
+        "code": "E06000015",
+        "field": "unemployment_change_24_25",
+        "value": 1.30713908,
+        "expected": "1.4"
+      },
+      {
+        "location": "Updated data!17",
+        "code": "E06000016",
+        "field": "employment_change_24_25",
+        "value": 4.531204685224964,
+        "expected": "4.6"
+      },
+      {
+        "location": "Updated data!17",
+        "code": "E06000016",
+        "field": "unemployment_change_24_25",
+        "value": 1.16925555,
+        "expected": "1.1"
+      },
+      {
+        "location": "Updated data!18",
+        "code": "E06000017",
+        "field": "employment_change_23_24",
+        "value": -2.131250380887039,
+        "expected": "-2.2"
+      },
+      {
+        "location": "Updated data!18",
+        "code": "E06000017",
+        "field": "unemployment_change_24_25",
+        "value": 1.05912655,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!21",
+        "code": "E06000020",
+        "field": "unemployment_change_23_24",
+        "value": -0.8434150099999997,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!23",
+        "code": "E06000022",
+        "field": "unemployment_change_23_24",
+        "value": -0.06662675000000018,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!23",
+        "code": "E06000022",
+        "field": "employment_change_24_25",
+        "value": -6.155457622831435,
+        "expected": "-6.1"
+      },
+      {
+        "location": "Updated data!24",
+        "code": "E06000023",
+        "field": "unemployment_change_23_24",
+        "value": 0.4623530500000004,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!24",
+        "code": "E06000023",
+        "field": "employment_change_24_25",
+        "value": 2.657602406071078,
+        "expected": "2.6"
+      },
+      {
+        "location": "Updated data!24",
+        "code": "E06000023",
+        "field": "unemployment_change_24_25",
+        "value": -0.1758470500000002,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!25",
+        "code": "E06000024",
+        "field": "employment_change_23_24",
+        "value": 1.445264963896108,
+        "expected": "1.5"
+      },
+      {
+        "location": "Updated data!25",
+        "code": "E06000024",
+        "field": "employment_change_24_25",
+        "value": -9.128585242357104,
+        "expected": "-9.2"
+      },
+      {
+        "location": "Updated data!26",
+        "code": "E06000025",
+        "field": "unemployment_change_23_24",
+        "value": -0.08165815999999948,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!26",
+        "code": "E06000025",
+        "field": "unemployment_change_24_25",
+        "value": 0.1659221999999998,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!28",
+        "code": "E06000027",
+        "field": "unemployment_change_23_24",
+        "value": 0.1909860299999995,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!30",
+        "code": "E06000031",
+        "field": "employment_change_23_24",
+        "value": 4.527398629393389,
+        "expected": "4.6"
+      },
+      {
+        "location": "Updated data!35",
+        "code": "E06000036",
+        "field": "employment_change_23_24",
+        "value": 2.664749380772363,
+        "expected": "2.6"
+      },
+      {
+        "location": "Updated data!36",
+        "code": "E06000037",
+        "field": "unemployment_change_24_25",
+        "value": 0.2459932500000002,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!38",
+        "code": "E06000039",
+        "field": "employment_change_24_25",
+        "value": -1.649621531989823,
+        "expected": "-1.7"
+      },
+      {
+        "location": "Updated data!39",
+        "code": "E06000040",
+        "field": "employment_change_23_24",
+        "value": 0.6826349204689421,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!41",
+        "code": "E06000042",
+        "field": "unemployment_change_24_25",
+        "value": 0.2588834200000001,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!43",
+        "code": "E06000044",
+        "field": "employment_change_23_24",
+        "value": 6.15632336392234,
+        "expected": "6.1"
+      },
+      {
+        "location": "Updated data!43",
+        "code": "E06000044",
+        "field": "employment_change_24_25",
+        "value": -4.062645357598328,
+        "expected": "-4.0"
+      },
+      {
+        "location": "Updated data!45",
+        "code": "E06000046",
+        "field": "unemployment_change_23_24",
+        "value": -0.546677429999999,
+        "expected": "-0.6"
+      },
+      {
+        "location": "Updated data!45",
+        "code": "E06000046",
+        "field": "employment_change_24_25",
+        "value": 2.8582389610349,
+        "expected": "2.8"
+      },
+      {
+        "location": "Updated data!45",
+        "code": "E06000046",
+        "field": "unemployment_change_24_25",
+        "value": 0.2294620799999993,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!46",
+        "code": "E06000047",
+        "field": "employment_change_24_25",
+        "value": 0.2285543049546703,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!47",
+        "code": "E06000049",
+        "field": "employment_change_24_25",
+        "value": -1.895374109603452,
+        "expected": "-1.8"
+      },
+      {
+        "location": "Updated data!50",
+        "code": "E06000052",
+        "field": "employment_change_24_25",
+        "value": 1.636748533934437,
+        "expected": "1.7"
+      },
+      {
+        "location": "Updated data!52",
+        "code": "E06000054",
+        "field": "employment_change_23_24",
+        "value": -1.433921650324137,
+        "expected": "-1.5"
+      },
+      {
+        "location": "Updated data!53",
+        "code": "E06000055",
+        "field": "employment_change_24_25",
+        "value": 3.445942181527613,
+        "expected": "3.5"
+      },
+      {
+        "location": "Updated data!57",
+        "code": "E06000059",
+        "field": "employment_change_23_24",
+        "value": 4.156419649841723,
+        "expected": "4.1"
+      },
+      {
+        "location": "Updated data!57",
+        "code": "E06000059",
+        "field": "employment_change_24_25",
+        "value": -1.162492657265076,
+        "expected": "-1.1"
+      },
+      {
+        "location": "Updated data!58",
+        "code": "E06000060",
+        "field": "employment_change_23_24",
+        "value": -1.069737963528439,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!58",
+        "code": "E06000060",
+        "field": "employment_change_24_25",
+        "value": -0.3176834693624642,
+        "expected": "-0.4"
+      },
+      {
+        "location": "Updated data!59",
+        "code": "E06000061",
+        "field": "employment_change_23_24",
+        "value": 6.452899286305524,
+        "expected": "6.4"
+      },
+      {
+        "location": "Updated data!60",
+        "code": "E06000062",
+        "field": "employment_change_24_25",
+        "value": 0.8252604314154155,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!61",
+        "code": "E06000063",
+        "field": "employment_change_24_25",
+        "value": -1.731179727666586,
+        "expected": "-1.8"
+      },
+      {
+        "location": "Updated data!65",
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "value": -4.424722454438552,
+        "expected": "-4.5"
+      },
+      {
+        "location": "Updated data!67",
+        "code": "E07000010",
+        "field": "unemployment_change_23_24",
+        "value": 1.52723053,
+        "expected": "1.6"
+      },
+      {
+        "location": "Updated data!67",
+        "code": "E07000010",
+        "field": "employment_change_24_25",
+        "value": -3.172135713972366,
+        "expected": "-3.1"
+      },
+      {
+        "location": "Updated data!69",
+        "code": "E07000012",
+        "field": "unemployment_change_24_25",
+        "value": -1.149770670000001,
+        "expected": "-1.2"
+      },
+      {
+        "location": "Updated data!76",
+        "code": "E07000032",
+        "field": "unemployment_change_23_24",
+        "value": 0.3399433800000002,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!76",
+        "code": "E07000032",
+        "field": "unemployment_change_24_25",
+        "value": 0.8932435700000001,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!78",
+        "code": "E07000034",
+        "field": "employment_change_23_24",
+        "value": -3.937810581103165,
+        "expected": "-4.0"
+      },
+      {
+        "location": "Updated data!78",
+        "code": "E07000034",
+        "field": "unemployment_change_24_25",
+        "value": 0.5509501000000006,
+        "expected": "0.5"
+      },
+      {
+        "location": "Updated data!79",
+        "code": "E07000035",
+        "field": "employment_change_23_24",
+        "value": 11.26307079398659,
+        "expected": "11.2"
+      },
+      {
+        "location": "Updated data!79",
+        "code": "E07000035",
+        "field": "employment_change_24_25",
+        "value": -1.07589885382346,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!80",
+        "code": "E07000036",
+        "field": "employment_change_23_24",
+        "value": 1.450298365218572,
+        "expected": "1.4"
+      },
+      {
+        "location": "Updated data!80",
+        "code": "E07000036",
+        "field": "unemployment_change_23_24",
+        "value": 0.7877502600000001,
+        "expected": "0.7"
+      },
+      {
+        "location": "Updated data!80",
+        "code": "E07000036",
+        "field": "employment_change_24_25",
+        "value": 9.842354286068058,
+        "expected": "9.9"
+      },
+      {
+        "location": "Updated data!80",
+        "code": "E07000036",
+        "field": "unemployment_change_24_25",
+        "value": 0.1205644899999996,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!81",
+        "code": "E07000037",
+        "field": "unemployment_change_23_24",
+        "value": 0.24981944,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!81",
+        "code": "E07000037",
+        "field": "employment_change_24_25",
+        "value": -4.936092821982385,
+        "expected": "-5.0"
+      },
+      {
+        "location": "Updated data!82",
+        "code": "E07000038",
+        "field": "unemployment_change_24_25",
+        "value": 0.7484841999999996,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!84",
+        "code": "E07000040",
+        "field": "employment_change_23_24",
+        "value": 2.646119766527832,
+        "expected": "2.7"
+      },
+      {
+        "location": "Updated data!85",
+        "code": "E07000041",
+        "field": "employment_change_23_24",
+        "value": 6.741705041902705,
+        "expected": "6.8"
+      },
+      {
+        "location": "Updated data!85",
+        "code": "E07000041",
+        "field": "unemployment_change_23_24",
+        "value": -0.4322729100000005,
+        "expected": "-0.5"
+      },
+      {
+        "location": "Updated data!87",
+        "code": "E07000043",
+        "field": "employment_change_23_24",
+        "value": 3.386980162671023,
+        "expected": "3.3"
+      },
+      {
+        "location": "Updated data!87",
+        "code": "E07000043",
+        "field": "unemployment_change_24_25",
+        "value": 0.5266009,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!89",
+        "code": "E07000045",
+        "field": "employment_change_23_24",
+        "value": -2.170280731538156,
+        "expected": "-2.1"
+      },
+      {
+        "location": "Updated data!89",
+        "code": "E07000045",
+        "field": "unemployment_change_23_24",
+        "value": 0.49388298,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!89",
+        "code": "E07000045",
+        "field": "unemployment_change_24_25",
+        "value": -0.3813850299999997,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!90",
+        "code": "E07000046",
+        "field": "unemployment_change_24_25",
+        "value": 0.2600513800000002,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!91",
+        "code": "E07000047",
+        "field": "employment_change_23_24",
+        "value": 3.447708677056653,
+        "expected": "3.5"
+      },
+      {
+        "location": "Updated data!92",
+        "code": "E07000061",
+        "field": "employment_change_24_25",
+        "value": 6.761697960334672,
+        "expected": "6.7"
+      },
+      {
+        "location": "Updated data!92",
+        "code": "E07000061",
+        "field": "unemployment_change_24_25",
+        "value": -0.45738024,
+        "expected": "-0.4"
+      },
+      {
+        "location": "Updated data!95",
+        "code": "E07000064",
+        "field": "unemployment_change_23_24",
+        "value": 1.06971673,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!96",
+        "code": "E07000065",
+        "field": "employment_change_23_24",
+        "value": -0.9522767026653867,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!100",
+        "code": "E07000069",
+        "field": "unemployment_change_23_24",
+        "value": 0.05339734000000007,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!101",
+        "code": "E07000070",
+        "field": "unemployment_change_23_24",
+        "value": 0.05517945000000024,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!101",
+        "code": "E07000070",
+        "field": "unemployment_change_24_25",
+        "value": -0.05016765000000012,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!102",
+        "code": "E07000071",
+        "field": "unemployment_change_23_24",
+        "value": 1.03581338,
+        "expected": "1.1"
+      },
+      {
+        "location": "Updated data!102",
+        "code": "E07000071",
+        "field": "employment_change_24_25",
+        "value": 5.710724906648821,
+        "expected": "5.8"
+      },
+      {
+        "location": "Updated data!103",
+        "code": "E07000072",
+        "field": "employment_change_23_24",
+        "value": -6.871464801116275,
+        "expected": "-6.8"
+      },
+      {
+        "location": "Updated data!103",
+        "code": "E07000072",
+        "field": "employment_change_24_25",
+        "value": -3.439256673387106,
+        "expected": "-3.5"
+      },
+      {
+        "location": "Updated data!103",
+        "code": "E07000072",
+        "field": "unemployment_change_24_25",
+        "value": 0.1467152899999999,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!104",
+        "code": "E07000073",
+        "field": "employment_change_23_24",
+        "value": -3.147081487607252,
+        "expected": "-3.2"
+      },
+      {
+        "location": "Updated data!104",
+        "code": "E07000073",
+        "field": "unemployment_change_23_24",
+        "value": 2.36543427,
+        "expected": "2.3"
+      },
+      {
+        "location": "Updated data!105",
+        "code": "E07000074",
+        "field": "unemployment_change_24_25",
+        "value": -0.1133164500000001,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!108",
+        "code": "E07000077",
+        "field": "unemployment_change_23_24",
+        "value": 0.523647,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!109",
+        "code": "E07000078",
+        "field": "unemployment_change_24_25",
+        "value": -0.4495116299999995,
+        "expected": "-0.5"
+      },
+      {
+        "location": "Updated data!110",
+        "code": "E07000079",
+        "field": "employment_change_24_25",
+        "value": -0.9541143202690421,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!111",
+        "code": "E07000080",
+        "field": "unemployment_change_24_25",
+        "value": 0.2372517000000003,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!114",
+        "code": "E07000083",
+        "field": "unemployment_change_24_25",
+        "value": 0.05779176999999969,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!115",
+        "code": "E07000084",
+        "field": "employment_change_24_25",
+        "value": -4.622834342214958,
+        "expected": "-4.7"
+      },
+      {
+        "location": "Updated data!116",
+        "code": "E07000085",
+        "field": "unemployment_change_23_24",
+        "value": 0.1499513800000001,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!116",
+        "code": "E07000085",
+        "field": "unemployment_change_24_25",
+        "value": 0.0855425400000005,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!118",
+        "code": "E07000087",
+        "field": "employment_change_23_24",
+        "value": 3.242183155261799,
+        "expected": "3.3"
+      },
+      {
+        "location": "Updated data!118",
+        "code": "E07000087",
+        "field": "unemployment_change_24_25",
+        "value": 0.4406168399999997,
+        "expected": "0.5"
+      },
+      {
+        "location": "Updated data!119",
+        "code": "E07000088",
+        "field": "employment_change_23_24",
+        "value": 20.13757081506213,
+        "expected": "20.2"
+      },
+      {
+        "location": "Updated data!119",
+        "code": "E07000088",
+        "field": "unemployment_change_23_24",
+        "value": -0.5429046299999998,
+        "expected": "-0.6"
+      },
+      {
+        "location": "Updated data!120",
+        "code": "E07000089",
+        "field": "employment_change_24_25",
+        "value": 7.720004402092982,
+        "expected": "7.8"
+      },
+      {
+        "location": "Updated data!121",
+        "code": "E07000090",
+        "field": "employment_change_23_24",
+        "value": 0.7824706407013053,
+        "expected": "0.7"
+      },
+      {
+        "location": "Updated data!121",
+        "code": "E07000090",
+        "field": "unemployment_change_24_25",
+        "value": 0.8803518599999993,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!122",
+        "code": "E07000091",
+        "field": "unemployment_change_23_24",
+        "value": 0.2662919800000001,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!124",
+        "code": "E07000093",
+        "field": "unemployment_change_23_24",
+        "value": -0.2555511099999999,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!125",
+        "code": "E07000094",
+        "field": "employment_change_23_24",
+        "value": 0.5651400708610623,
+        "expected": "0.5"
+      },
+      {
+        "location": "Updated data!125",
+        "code": "E07000094",
+        "field": "unemployment_change_24_25",
+        "value": -0.3471244299999996,
+        "expected": "-0.4"
+      },
+      {
+        "location": "Updated data!126",
+        "code": "E07000095",
+        "field": "unemployment_change_23_24",
+        "value": 1.90926548,
+        "expected": "2.0"
+      },
+      {
+        "location": "Updated data!128",
+        "code": "E07000098",
+        "field": "employment_change_24_25",
+        "value": -7.183242200297045,
+        "expected": "-7.1"
+      },
+      {
+        "location": "Updated data!129",
+        "code": "E07000099",
+        "field": "unemployment_change_23_24",
+        "value": 0.6429733400000002,
+        "expected": "0.7"
+      },
+      {
+        "location": "Updated data!129",
+        "code": "E07000099",
+        "field": "employment_change_24_25",
+        "value": -4.344032206335882,
+        "expected": "-4.4"
+      },
+      {
+        "location": "Updated data!131",
+        "code": "E07000103",
+        "field": "employment_change_23_24",
+        "value": 6.741786625582577,
+        "expected": "6.8"
+      },
+      {
+        "location": "Updated data!131",
+        "code": "E07000103",
+        "field": "employment_change_24_25",
+        "value": -2.217070361404183,
+        "expected": "-2.3"
+      },
+      {
+        "location": "Updated data!132",
+        "code": "E07000105",
+        "field": "unemployment_change_24_25",
+        "value": -0.009935679999999891,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!133",
+        "code": "E07000106",
+        "field": "unemployment_change_23_24",
+        "value": 0.7432809200000001,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!134",
+        "code": "E07000107",
+        "field": "employment_change_23_24",
+        "value": 5.032879355801128,
+        "expected": "5.1"
+      },
+      {
+        "location": "Updated data!135",
+        "code": "E07000108",
+        "field": "unemployment_change_24_25",
+        "value": 0.8763396200000004,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!136",
+        "code": "E07000109",
+        "field": "unemployment_change_23_24",
+        "value": 0.7416159400000004,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!136",
+        "code": "E07000109",
+        "field": "employment_change_24_25",
+        "value": -7.544147241496091,
+        "expected": "-7.6"
+      },
+      {
+        "location": "Updated data!136",
+        "code": "E07000109",
+        "field": "unemployment_change_24_25",
+        "value": 0.1587033399999997,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!137",
+        "code": "E07000110",
+        "field": "employment_change_24_25",
+        "value": 6.550642349250538,
+        "expected": "6.5"
+      },
+      {
+        "location": "Updated data!138",
+        "code": "E07000111",
+        "field": "employment_change_23_24",
+        "value": 0.3720770439095986,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!138",
+        "code": "E07000111",
+        "field": "employment_change_24_25",
+        "value": 0.7318464053067828,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!138",
+        "code": "E07000111",
+        "field": "unemployment_change_24_25",
+        "value": 0.4851894400000001,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!142",
+        "code": "E07000115",
+        "field": "unemployment_change_23_24",
+        "value": 0.1384322099999999,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!143",
+        "code": "E07000116",
+        "field": "employment_change_23_24",
+        "value": 16.52167618049988,
+        "expected": "16.6"
+      },
+      {
+        "location": "Updated data!143",
+        "code": "E07000116",
+        "field": "unemployment_change_23_24",
+        "value": -0.1574185799999999,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!143",
+        "code": "E07000116",
+        "field": "unemployment_change_24_25",
+        "value": -0.0254739599999998,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!144",
+        "code": "E07000117",
+        "field": "employment_change_23_24",
+        "value": 4.363529683007599,
+        "expected": "4.3"
+      },
+      {
+        "location": "Updated data!144",
+        "code": "E07000117",
+        "field": "employment_change_24_25",
+        "value": 2.446701456392006,
+        "expected": "2.5"
+      },
+      {
+        "location": "Updated data!145",
+        "code": "E07000118",
+        "field": "unemployment_change_24_25",
+        "value": -0.2478295899999998,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!146",
+        "code": "E07000119",
+        "field": "employment_change_23_24",
+        "value": 9.961165024108482,
+        "expected": "9.9"
+      },
+      {
+        "location": "Updated data!148",
+        "code": "E07000121",
+        "field": "employment_change_24_25",
+        "value": -1.631841731498227,
+        "expected": "-1.7"
+      },
+      {
+        "location": "Updated data!149",
+        "code": "E07000122",
+        "field": "employment_change_24_25",
+        "value": 2.468015608403526,
+        "expected": "2.4"
+      },
+      {
+        "location": "Updated data!149",
+        "code": "E07000122",
+        "field": "unemployment_change_24_25",
+        "value": 0.6308200299999998,
+        "expected": "0.7"
+      },
+      {
+        "location": "Updated data!150",
+        "code": "E07000123",
+        "field": "unemployment_change_23_24",
+        "value": -1.35681111,
+        "expected": "-1.3"
+      },
+      {
+        "location": "Updated data!150",
+        "code": "E07000123",
+        "field": "employment_change_24_25",
+        "value": -8.65061072270494,
+        "expected": "-8.6"
+      },
+      {
+        "location": "Updated data!151",
+        "code": "E07000124",
+        "field": "employment_change_23_24",
+        "value": -5.856522582510891,
+        "expected": "-5.8"
+      },
+      {
+        "location": "Updated data!151",
+        "code": "E07000124",
+        "field": "unemployment_change_24_25",
+        "value": 0.13445324,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!155",
+        "code": "E07000128",
+        "field": "unemployment_change_23_24",
+        "value": -1.0672061,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!156",
+        "code": "E07000129",
+        "field": "employment_change_23_24",
+        "value": 2.026053671881527,
+        "expected": "2.1"
+      },
+      {
+        "location": "Updated data!156",
+        "code": "E07000129",
+        "field": "employment_change_24_25",
+        "value": -2.326479860872041,
+        "expected": "-2.4"
+      },
+      {
+        "location": "Updated data!158",
+        "code": "E07000131",
+        "field": "employment_change_23_24",
+        "value": -0.7608697360343086,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!158",
+        "code": "E07000131",
+        "field": "employment_change_24_25",
+        "value": -6.527310737514469,
+        "expected": "-6.6"
+      },
+      {
+        "location": "Updated data!159",
+        "code": "E07000132",
+        "field": "employment_change_23_24",
+        "value": -0.9346136979453519,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!160",
+        "code": "E07000133",
+        "field": "employment_change_23_24",
+        "value": -4.5888303735573,
+        "expected": "-4.5"
+      },
+      {
+        "location": "Updated data!162",
+        "code": "E07000135",
+        "field": "employment_change_23_24",
+        "value": -5.729444869050994,
+        "expected": "-5.8"
+      },
+      {
+        "location": "Updated data!162",
+        "code": "E07000135",
+        "field": "employment_change_24_25",
+        "value": 6.741444461402793,
+        "expected": "6.8"
+      },
+      {
+        "location": "Updated data!163",
+        "code": "E07000136",
+        "field": "employment_change_23_24",
+        "value": 0.8272508459739072,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!163",
+        "code": "E07000136",
+        "field": "employment_change_24_25",
+        "value": 1.687839586562475,
+        "expected": "1.6"
+      },
+      {
+        "location": "Updated data!163",
+        "code": "E07000136",
+        "field": "unemployment_change_24_25",
+        "value": -0.2419091400000006,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!164",
+        "code": "E07000137",
+        "field": "employment_change_23_24",
+        "value": 22.54358588068004,
+        "expected": "22.6"
+      },
+      {
+        "location": "Updated data!165",
+        "code": "E07000138",
+        "field": "employment_change_23_24",
+        "value": -4.050476480591584,
+        "expected": "-4.0"
+      },
+      {
+        "location": "Updated data!167",
+        "code": "E07000140",
+        "field": "unemployment_change_24_25",
+        "value": 1.34123715,
+        "expected": "1.4"
+      },
+      {
+        "location": "Updated data!168",
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "value": 1.018287519999999,
+        "expected": "1.1"
+      },
+      {
+        "location": "Updated data!169",
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "value": -17.54910758316852,
+        "expected": "-17.6"
+      },
+      {
+        "location": "Updated data!170",
+        "code": "E07000143",
+        "field": "employment_change_23_24",
+        "value": 0.9683124987611365,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!170",
+        "code": "E07000143",
+        "field": "employment_change_24_25",
+        "value": -2.689589562141578,
+        "expected": "-2.6"
+      },
+      {
+        "location": "Updated data!171",
+        "code": "E07000144",
+        "field": "employment_change_24_25",
+        "value": 0.3723139598531304,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!172",
+        "code": "E07000145",
+        "field": "unemployment_change_23_24",
+        "value": 3.068875960000001,
+        "expected": "3.0"
+      },
+      {
+        "location": "Updated data!173",
+        "code": "E07000146",
+        "field": "employment_change_23_24",
+        "value": 9.157863627450212,
+        "expected": "9.1"
+      },
+      {
+        "location": "Updated data!173",
+        "code": "E07000146",
+        "field": "employment_change_24_25",
+        "value": -2.153590394543926,
+        "expected": "-2.1"
+      },
+      {
+        "location": "Updated data!174",
+        "code": "E07000147",
+        "field": "unemployment_change_24_25",
+        "value": -0.2284886299999997,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!176",
+        "code": "E07000149",
+        "field": "employment_change_23_24",
+        "value": -3.564967757216451,
+        "expected": "-3.5"
+      },
+      {
+        "location": "Updated data!176",
+        "code": "E07000149",
+        "field": "employment_change_24_25",
+        "value": 0.8671063376716148,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!176",
+        "code": "E07000149",
+        "field": "unemployment_change_24_25",
+        "value": -1.150400230000001,
+        "expected": "-1.1"
+      },
+      {
+        "location": "Updated data!185",
+        "code": "E07000171",
+        "field": "unemployment_change_24_25",
+        "value": 1.34438767,
+        "expected": "1.4"
+      },
+      {
+        "location": "Updated data!189",
+        "code": "E07000175",
+        "field": "unemployment_change_23_24",
+        "value": -0.1457244500000003,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!190",
+        "code": "E07000176",
+        "field": "unemployment_change_23_24",
+        "value": 0.6322312699999999,
+        "expected": "0.7"
+      },
+      {
+        "location": "Updated data!190",
+        "code": "E07000176",
+        "field": "employment_change_24_25",
+        "value": -2.947158903512687,
+        "expected": "-3.0"
+      },
+      {
+        "location": "Updated data!191",
+        "code": "E07000177",
+        "field": "unemployment_change_23_24",
+        "value": -0.05124446999999988,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!191",
+        "code": "E07000177",
+        "field": "unemployment_change_24_25",
+        "value": 0.3690104299999999,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!192",
+        "code": "E07000178",
+        "field": "employment_change_23_24",
+        "value": 7.664258617882282,
+        "expected": "7.6"
+      },
+      {
+        "location": "Updated data!192",
+        "code": "E07000178",
+        "field": "employment_change_24_25",
+        "value": -7.577684316499429,
+        "expected": "-7.5"
+      },
+      {
+        "location": "Updated data!199",
+        "code": "E07000192",
+        "field": "unemployment_change_24_25",
+        "value": -0.6297553199999997,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!200",
+        "code": "E07000193",
+        "field": "employment_change_24_25",
+        "value": 3.460264576523116,
+        "expected": "3.4"
+      },
+      {
+        "location": "Updated data!200",
+        "code": "E07000193",
+        "field": "unemployment_change_24_25",
+        "value": -0.09323891000000017,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!201",
+        "code": "E07000194",
+        "field": "unemployment_change_23_24",
+        "value": 0.6822831300000001,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!201",
+        "code": "E07000194",
+        "field": "employment_change_24_25",
+        "value": 3.768589008660115,
+        "expected": "3.7"
+      },
+      {
+        "location": "Updated data!201",
+        "code": "E07000194",
+        "field": "unemployment_change_24_25",
+        "value": -0.3664054800000001,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!203",
+        "code": "E07000196",
+        "field": "employment_change_23_24",
+        "value": -2.653087110360531,
+        "expected": "-2.6"
+      },
+      {
+        "location": "Updated data!203",
+        "code": "E07000196",
+        "field": "unemployment_change_23_24",
+        "value": -0.4391650399999998,
+        "expected": "-0.5"
+      },
+      {
+        "location": "Updated data!203",
+        "code": "E07000196",
+        "field": "unemployment_change_24_25",
+        "value": -0.2515650799999998,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!204",
+        "code": "E07000197",
+        "field": "unemployment_change_24_25",
+        "value": -0.8586214000000001,
+        "expected": "-0.8"
+      },
+      {
+        "location": "Updated data!205",
+        "code": "E07000198",
+        "field": "unemployment_change_23_24",
+        "value": -0.77015726,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!206",
+        "code": "E07000199",
+        "field": "unemployment_change_24_25",
+        "value": 0.45124231,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!208",
+        "code": "E07000202",
+        "field": "unemployment_change_23_24",
+        "value": 1.438298479999999,
+        "expected": "1.5"
+      },
+      {
+        "location": "Updated data!208",
+        "code": "E07000202",
+        "field": "employment_change_24_25",
+        "value": -10.14795372490919,
+        "expected": "-10.2"
+      },
+      {
+        "location": "Updated data!209",
+        "code": "E07000203",
+        "field": "unemployment_change_24_25",
+        "value": 0.4166059600000001,
+        "expected": "0.5"
+      },
+      {
+        "location": "Updated data!210",
+        "code": "E07000207",
+        "field": "unemployment_change_23_24",
+        "value": 0.03556069000000006,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!212",
+        "code": "E07000209",
+        "field": "employment_change_24_25",
+        "value": -3.152240597341731,
+        "expected": "-3.1"
+      },
+      {
+        "location": "Updated data!213",
+        "code": "E07000210",
+        "field": "employment_change_23_24",
+        "value": 12.888837488473,
+        "expected": "12.8"
+      },
+      {
+        "location": "Updated data!214",
+        "code": "E07000211",
+        "field": "unemployment_change_23_24",
+        "value": 0.07743517000000022,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!214",
+        "code": "E07000211",
+        "field": "unemployment_change_24_25",
+        "value": 0.3188708399999998,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!215",
+        "code": "E07000212",
+        "field": "employment_change_24_25",
+        "value": -6.630842310629319,
+        "expected": "-6.7"
+      },
+      {
+        "location": "Updated data!216",
+        "code": "E07000213",
+        "field": "unemployment_change_24_25",
+        "value": 0.03061725999999965,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!218",
+        "code": "E07000215",
+        "field": "unemployment_change_23_24",
+        "value": 0.88806969,
+        "expected": "0.8"
+      },
+      {
+        "location": "Updated data!219",
+        "code": "E07000216",
+        "field": "employment_change_23_24",
+        "value": 11.05406976819924,
+        "expected": "11.0"
+      },
+      {
+        "location": "Updated data!220",
+        "code": "E07000217",
+        "field": "employment_change_23_24",
+        "value": 6.039980448319952,
+        "expected": "6.1"
+      },
+      {
+        "location": "Updated data!220",
+        "code": "E07000217",
+        "field": "employment_change_24_25",
+        "value": -2.748989250916068,
+        "expected": "-2.8"
+      },
+      {
+        "location": "Updated data!220",
+        "code": "E07000217",
+        "field": "unemployment_change_24_25",
+        "value": 0.1593276000000001,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!221",
+        "code": "E07000218",
+        "field": "unemployment_change_23_24",
+        "value": -0.6310562900000001,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!221",
+        "code": "E07000218",
+        "field": "employment_change_24_25",
+        "value": -5.578782607644371,
+        "expected": "-5.5"
+      },
+      {
+        "location": "Updated data!225",
+        "code": "E07000222",
+        "field": "unemployment_change_23_24",
+        "value": 0.02102068000000035,
+        "expected": "0.1"
+      },
+      {
+        "location": "Updated data!225",
+        "code": "E07000222",
+        "field": "employment_change_24_25",
+        "value": 13.15261571975144,
+        "expected": "13.1"
+      },
+      {
+        "location": "Updated data!225",
+        "code": "E07000222",
+        "field": "unemployment_change_24_25",
+        "value": -1.33503524,
+        "expected": "-1.4"
+      },
+      {
+        "location": "Updated data!227",
+        "code": "E07000224",
+        "field": "employment_change_23_24",
+        "value": 3.374901627474742,
+        "expected": "3.3"
+      },
+      {
+        "location": "Updated data!227",
+        "code": "E07000224",
+        "field": "unemployment_change_23_24",
+        "value": -0.1879875999999996,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!227",
+        "code": "E07000224",
+        "field": "employment_change_24_25",
+        "value": -9.190327168487187,
+        "expected": "-9.1"
+      },
+      {
+        "location": "Updated data!227",
+        "code": "E07000224",
+        "field": "unemployment_change_24_25",
+        "value": 1.0624816,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!229",
+        "code": "E07000226",
+        "field": "unemployment_change_23_24",
+        "value": 0.5429140800000001,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!229",
+        "code": "E07000226",
+        "field": "unemployment_change_24_25",
+        "value": -0.1239982999999998,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!230",
+        "code": "E07000227",
+        "field": "employment_change_23_24",
+        "value": -9.412845875698338,
+        "expected": "-9.5"
+      },
+      {
+        "location": "Updated data!230",
+        "code": "E07000227",
+        "field": "employment_change_24_25",
+        "value": 6.604221859650096,
+        "expected": "6.7"
+      },
+      {
+        "location": "Updated data!231",
+        "code": "E07000228",
+        "field": "unemployment_change_24_25",
+        "value": -0.06180921999999978,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!232",
+        "code": "E07000229",
+        "field": "unemployment_change_24_25",
+        "value": -0.2860273699999998,
+        "expected": "-0.2"
+      },
+      {
+        "location": "Updated data!233",
+        "code": "E07000234",
+        "field": "employment_change_23_24",
+        "value": 13.65662752247589,
+        "expected": "13.6"
+      },
+      {
+        "location": "Updated data!235",
+        "code": "E07000236",
+        "field": "employment_change_24_25",
+        "value": -0.1706906395255459,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!235",
+        "code": "E07000236",
+        "field": "unemployment_change_24_25",
+        "value": -0.2360534400000005,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!236",
+        "code": "E07000237",
+        "field": "unemployment_change_23_24",
+        "value": -0.7341060600000007,
+        "expected": "-0.8"
+      },
+      {
+        "location": "Updated data!237",
+        "code": "E07000238",
+        "field": "unemployment_change_24_25",
+        "value": -0.1548318100000001,
+        "expected": "-0.1"
+      },
+      {
+        "location": "Updated data!238",
+        "code": "E07000239",
+        "field": "employment_change_23_24",
+        "value": 13.65055108885939,
+        "expected": "13.6"
+      },
+      {
+        "location": "Updated data!242",
+        "code": "E07000243",
+        "field": "employment_change_24_25",
+        "value": 10.11588618855779,
+        "expected": "10.2"
+      },
+      {
+        "location": "Updated data!243",
+        "code": "E07000244",
+        "field": "employment_change_23_24",
+        "value": 5.44354504893046,
+        "expected": "5.5"
+      },
+      {
+        "location": "Updated data!244",
+        "code": "E07000245",
+        "field": "employment_change_23_24",
+        "value": -6.266444899500158,
+        "expected": "-6.2"
+      },
+      {
+        "location": "Updated data!246",
+        "code": "E08000001",
+        "field": "unemployment_change_23_24",
+        "value": -0.6402169500000001,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!247",
+        "code": "E08000002",
+        "field": "employment_change_24_25",
+        "value": -8.070062069182285,
+        "expected": "-8.0"
+      },
+      {
+        "location": "Updated data!247",
+        "code": "E08000002",
+        "field": "unemployment_change_24_25",
+        "value": 0.9407328400000003,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!248",
+        "code": "E08000003",
+        "field": "employment_change_23_24",
+        "value": 6.63112212060679,
+        "expected": "6.7"
+      },
+      {
+        "location": "Updated data!249",
+        "code": "E08000004",
+        "field": "unemployment_change_23_24",
+        "value": -0.9389307100000002,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!249",
+        "code": "E08000004",
+        "field": "unemployment_change_24_25",
+        "value": 0.8288935799999999,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!253",
+        "code": "E08000008",
+        "field": "unemployment_change_23_24",
+        "value": -0.5396632700000001,
+        "expected": "-0.6"
+      },
+      {
+        "location": "Updated data!254",
+        "code": "E08000009",
+        "field": "employment_change_23_24",
+        "value": 1.055627805635154,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!258",
+        "code": "E08000013",
+        "field": "unemployment_change_23_24",
+        "value": 0.3410096999999999,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!260",
+        "code": "E08000015",
+        "field": "employment_change_23_24",
+        "value": 3.337298450161498,
+        "expected": "3.4"
+      },
+      {
+        "location": "Updated data!262",
+        "code": "E08000017",
+        "field": "employment_change_24_25",
+        "value": 0.4667188665874136,
+        "expected": "0.4"
+      },
+      {
+        "location": "Updated data!264",
+        "code": "E08000019",
+        "field": "employment_change_24_25",
+        "value": -4.155963012658887,
+        "expected": "-4.1"
+      },
+      {
+        "location": "Updated data!264",
+        "code": "E08000019",
+        "field": "unemployment_change_24_25",
+        "value": -0.4434792199999995,
+        "expected": "-0.5"
+      },
+      {
+        "location": "Updated data!265",
+        "code": "E08000021",
+        "field": "employment_change_23_24",
+        "value": 2.255073422555938,
+        "expected": "2.2"
+      },
+      {
+        "location": "Updated data!266",
+        "code": "E08000022",
+        "field": "unemployment_change_23_24",
+        "value": -1.52508947,
+        "expected": "-1.6"
+      },
+      {
+        "location": "Updated data!266",
+        "code": "E08000022",
+        "field": "unemployment_change_24_25",
+        "value": 0.8433154199999997,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!267",
+        "code": "E08000023",
+        "field": "employment_change_23_24",
+        "value": -6.834775737321685,
+        "expected": "-6.9"
+      },
+      {
+        "location": "Updated data!268",
+        "code": "E08000024",
+        "field": "unemployment_change_23_24",
+        "value": -0.5524205100000001,
+        "expected": "-0.5"
+      },
+      {
+        "location": "Updated data!268",
+        "code": "E08000024",
+        "field": "employment_change_24_25",
+        "value": 2.40644692746821,
+        "expected": "2.5"
+      },
+      {
+        "location": "Updated data!269",
+        "code": "E08000025",
+        "field": "employment_change_23_24",
+        "value": 1.838316294634751,
+        "expected": "1.9"
+      },
+      {
+        "location": "Updated data!271",
+        "code": "E08000027",
+        "field": "unemployment_change_23_24",
+        "value": -0.2354611499999999,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!271",
+        "code": "E08000027",
+        "field": "unemployment_change_24_25",
+        "value": 0.1305316799999998,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!272",
+        "code": "E08000028",
+        "field": "employment_change_24_25",
+        "value": -3.734894328286074,
+        "expected": "-3.8"
+      },
+      {
+        "location": "Updated data!273",
+        "code": "E08000029",
+        "field": "unemployment_change_24_25",
+        "value": -0.82848627,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!274",
+        "code": "E08000030",
+        "field": "unemployment_change_23_24",
+        "value": 0.5226316899999999,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!274",
+        "code": "E08000030",
+        "field": "unemployment_change_24_25",
+        "value": -1.32358893,
+        "expected": "-1.4"
+      },
+      {
+        "location": "Updated data!275",
+        "code": "E08000031",
+        "field": "employment_change_24_25",
+        "value": -4.64760518495104,
+        "expected": "-4.7"
+      },
+      {
+        "location": "Updated data!277",
+        "code": "E08000033",
+        "field": "employment_change_23_24",
+        "value": 1.614731912802952,
+        "expected": "1.7"
+      },
+      {
+        "location": "Updated data!277",
+        "code": "E08000033",
+        "field": "unemployment_change_23_24",
+        "value": -0.5239426800000002,
+        "expected": "-0.6"
+      },
+      {
+        "location": "Updated data!277",
+        "code": "E08000033",
+        "field": "unemployment_change_24_25",
+        "value": -0.4983724599999997,
+        "expected": "-0.4"
+      },
+      {
+        "location": "Updated data!278",
+        "code": "E08000034",
+        "field": "employment_change_23_24",
+        "value": 2.044118842498079,
+        "expected": "2.1"
+      },
+      {
+        "location": "Updated data!278",
+        "code": "E08000034",
+        "field": "employment_change_24_25",
+        "value": 3.574437371607758,
+        "expected": "3.5"
+      },
+      {
+        "location": "Updated data!278",
+        "code": "E08000034",
+        "field": "unemployment_change_24_25",
+        "value": -0.7655635899999997,
+        "expected": "-0.7"
+      },
+      {
+        "location": "Updated data!279",
+        "code": "E08000035",
+        "field": "employment_change_23_24",
+        "value": 1.160172054476121,
+        "expected": "1.1"
+      },
+      {
+        "location": "Updated data!279",
+        "code": "E08000035",
+        "field": "unemployment_change_23_24",
+        "value": 0.05187789999999959,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!281",
+        "code": "E08000037",
+        "field": "employment_change_23_24",
+        "value": 0.3580587702784044,
+        "expected": "0.3"
+      },
+      {
+        "location": "Updated data!283",
+        "code": "E09000002",
+        "field": "unemployment_change_23_24",
+        "value": 2.278950379999999,
+        "expected": "2.2"
+      },
+      {
+        "location": "Updated data!283",
+        "code": "E09000002",
+        "field": "employment_change_24_25",
+        "value": -6.860947812616075,
+        "expected": "-6.8"
+      },
+      {
+        "location": "Updated data!287",
+        "code": "E09000006",
+        "field": "employment_change_23_24",
+        "value": -5.769545769385658,
+        "expected": "-5.7"
+      },
+      {
+        "location": "Updated data!288",
+        "code": "E09000007",
+        "field": "unemployment_change_23_24",
+        "value": 0.1459461200000005,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!290",
+        "code": "E09000009",
+        "field": "employment_change_23_24",
+        "value": 3.417397766105807,
+        "expected": "3.5"
+      },
+      {
+        "location": "Updated data!293",
+        "code": "E09000012",
+        "field": "employment_change_24_25",
+        "value": 4.048173636268899,
+        "expected": "4.1"
+      },
+      {
+        "location": "Updated data!294",
+        "code": "E09000013",
+        "field": "employment_change_23_24",
+        "value": -4.943770509212371,
+        "expected": "-5.0"
+      },
+      {
+        "location": "Updated data!295",
+        "code": "E09000014",
+        "field": "employment_change_24_25",
+        "value": -1.467308398870713,
+        "expected": "-1.4"
+      },
+      {
+        "location": "Updated data!296",
+        "code": "E09000015",
+        "field": "unemployment_change_24_25",
+        "value": -0.35740281,
+        "expected": "-0.3"
+      },
+      {
+        "location": "Updated data!297",
+        "code": "E09000016",
+        "field": "unemployment_change_23_24",
+        "value": 0.9776499800000007,
+        "expected": "0.9"
+      },
+      {
+        "location": "Updated data!297",
+        "code": "E09000016",
+        "field": "unemployment_change_24_25",
+        "value": -0.4540307600000002,
+        "expected": "-0.4"
+      },
+      {
+        "location": "Updated data!298",
+        "code": "E09000017",
+        "field": "unemployment_change_24_25",
+        "value": -2.1489177,
+        "expected": "-2.2"
+      },
+      {
+        "location": "Updated data!301",
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "value": -0.9350858931265194,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated data!303",
+        "code": "E09000022",
+        "field": "employment_change_23_24",
+        "value": -1.550449205170224,
+        "expected": "-1.5"
+      },
+      {
+        "location": "Updated data!303",
+        "code": "E09000022",
+        "field": "unemployment_change_23_24",
+        "value": 0.06070703000000011,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!305",
+        "code": "E09000024",
+        "field": "employment_change_24_25",
+        "value": 7.41912963326692,
+        "expected": "7.5"
+      },
+      {
+        "location": "Updated data!306",
+        "code": "E09000025",
+        "field": "unemployment_change_23_24",
+        "value": -0.05338399000000038,
+        "expected": "0.0"
+      },
+      {
+        "location": "Updated data!306",
+        "code": "E09000025",
+        "field": "unemployment_change_24_25",
+        "value": 1.57792072,
+        "expected": "1.5"
+      },
+      {
+        "location": "Updated data!308",
+        "code": "E09000027",
+        "field": "unemployment_change_24_25",
+        "value": 0.2677097400000004,
+        "expected": "0.2"
+      },
+      {
+        "location": "Updated data!309",
+        "code": "E09000028",
+        "field": "unemployment_change_23_24",
+        "value": -0.8444165200000002,
+        "expected": "-0.9"
+      },
+      {
+        "location": "Updated data!310",
+        "code": "E09000029",
+        "field": "employment_change_23_24",
+        "value": 0.9251513681509351,
+        "expected": "1.0"
+      },
+      {
+        "location": "Updated data!310",
+        "code": "E09000029",
+        "field": "employment_change_24_25",
+        "value": -2.946935033428232,
+        "expected": "-3.0"
+      },
+      {
+        "location": "Updated data!311",
+        "code": "E09000030",
+        "field": "employment_change_23_24",
+        "value": -2.435834229778209,
+        "expected": "-2.5"
+      },
+      {
+        "location": "Updated data!311",
+        "code": "E09000030",
+        "field": "unemployment_change_24_25",
+        "value": 0.6865467699999996,
+        "expected": "0.6"
+      },
+      {
+        "location": "Updated data!312",
+        "code": "E09000031",
+        "field": "unemployment_change_24_25",
+        "value": -1.36128563,
+        "expected": "-1.3"
+      },
+      {
+        "location": "Updated data!313",
+        "code": "E09000032",
+        "field": "employment_change_23_24",
+        "value": -1.654336554513193,
+        "expected": "-1.6"
+      },
+      {
+        "location": "Updated data!313",
+        "code": "E09000032",
+        "field": "unemployment_change_24_25",
+        "value": 1.14302034,
+        "expected": "1.2"
+      },
+      {
+        "location": "Updated shortlist!2",
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "value": -17.54910758316852,
+        "expected": "-17.6"
+      },
+      {
+        "location": "Updated shortlist!4",
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "value": -0.9350858931265194,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Updated shortlist!5",
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "value": -4.424722454438552,
+        "expected": "-4.5"
+      },
+      {
+        "location": "Comparison!13",
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "value": -17.54910758316852,
+        "expected": "-17.6"
+      },
+      {
+        "location": "Comparison!15",
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "value": -0.9350858931265194,
+        "expected": "-1.0"
+      },
+      {
+        "location": "Comparison!16",
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "value": -4.424722454438552,
+        "expected": "-4.5"
+      }
+    ],
+    "chart_facts": [],
+    "chart_evidence": [],
+    "movement_facts": [
+      {
+        "code": "E07000008",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "reason": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "_loc": "Comparison!22",
+            "_text": "• Authorities added: || E07000008, E07000142, E08000012, E09000020",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000066",
+        "expected": "left",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "reason": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "_loc": "Comparison!21",
+            "_text": "• Authorities dropped: || E07000066, E07000073, E07000145, E07000170",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000073",
+        "expected": "left",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "reason": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "_loc": "Comparison!21",
+            "_text": "• Authorities dropped: || E07000066, E07000073, E07000145, E07000170",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "expected": "entered",
+        "label": false,
+        "reason": false,
+        "candidate": []
+      },
+      {
+        "code": "E07000142",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "reason": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "_loc": "Comparison!22",
+            "_text": "• Authorities added: || E07000008, E07000142, E08000012, E09000020",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000145",
+        "expected": "left",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "reason": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "_loc": "Comparison!21",
+            "_text": "• Authorities dropped: || E07000066, E07000073, E07000145, E07000170",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000148",
+        "expected": "retained",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "retained",
+            "reason": null,
+            "_loc": "Comparison!20",
+            "_text": "• Authorities retained: || E07000148",
+            "from_code_list": true
+          }
+        ]
+      },
+      {
+        "code": "E07000170",
+        "expected": "left",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "reason": "• authorities dropped: || e07000066, e07000073, e07000145, e07000170",
+            "_loc": "Comparison!21",
+            "_text": "• Authorities dropped: || E07000066, E07000073, E07000145, E07000170",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E09000020",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "reason": "• authorities added: || e07000008, e07000142, e08000012, e09000020",
+            "_loc": "Comparison!22",
+            "_text": "• Authorities added: || E07000008, E07000142, E08000012, E09000020",
+            "from_prose": true
+          }
+        ]
+      }
+    ],
+    "brief_facts": {
+      "exists": true,
+      "claims": [
+        true,
+        false
+      ],
+      "labelled_code_lists": [
+        {
+          "sheet": "Comparison",
+          "row": 20,
+          "kind": "retained",
+          "codes": [
+            "E07000148"
+          ],
+          "label": "• Authorities retained:",
+          "correct": true
+        }
+      ]
+    },
+    "preservation": {
+      "external_available": false,
+      "embedded_available": 0.8,
+      "historical_components": {
+        "data": true,
+        "shortlist": true,
+        "brief": true,
+        "exclusions": true,
+        "chart": false
+      },
+      "embedded_consistent": true,
+      "sources_unchanged": [
+        true,
+        true,
+        true
+      ]
+    },
+    "denominators": {
+      "current_selected": 5,
+      "required_support": 33,
+      "movement_authorities": 9,
+      "unassessable_authorities": 23,
+      "context_buckets": 7
+    },
+    "external_acceptance_gaps": [
+      "Formal difficulty validation pending",
+      "External negative-item and agentic parser acceptance not asserted"
+    ]
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "e21a5a79a63354e7ff138345aac37435cb9ff271d1ed8d1b3582a63ddcf7e609",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

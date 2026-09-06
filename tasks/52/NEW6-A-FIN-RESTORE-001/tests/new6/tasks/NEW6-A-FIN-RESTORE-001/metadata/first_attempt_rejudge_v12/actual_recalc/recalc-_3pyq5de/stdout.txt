@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/actual_recalc/recalc-_3pyq5de/input/answer.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/first_attempt_rejudge_v12/actual_recalc/recalc-_3pyq5de/output/answer.xlsx using filter : Calc Office Open XML

@@ -1,0 +1,44 @@
+{
+  "judge_version": "new6-usps-facts-v1.2-shared-source",
+  "passed": true,
+  "native_baseline_runs": 1,
+  "dynamic_recalculations": 0,
+  "full_judge_runs": 0,
+  "agent_calls": 0,
+  "assertions": {
+    "legal_shared_sources": "26/26 R006 facts; Priority printed-page locator and Ground equivalent Retail service/weight-table locator",
+    "global_effective_date": "07/12/2026 and native Excel datetime both accepted without per-row dates",
+    "baseline_quotes": "49/49 unchanged correct quote outputs",
+    "prices_and_request_identity": "192 rate prices and 12 request identities unchanged in all three fixtures",
+    "wrong_page": "Only 10 Priority band-source facts lose credit;14 Ground bands and both origin facts remain correct",
+    "missing_source": "24 band source facts lose credit; both origin facts retained",
+    "substantive_unbound_reference": "ParsePending for semantic binding, not business zero"
+  },
+  "recalc": {
+    "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/fixtures/shared_source.xlsx",
+    "source_sha256_before": "1189717b268f2e13bbf99eb86dc351f4a1833bea5f5e1f8fec67141041fdc82e",
+    "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_trace_repair/baseline/recalc-1gkuxxgo/input/shared_source.xlsx",
+    "engine": "/opt/homebrew/bin/soffice",
+    "command": [
+      "/opt/homebrew/bin/soffice",
+      "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_trace_repair/baseline/recalc-1gkuxxgo/profile",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_trace_repair/baseline/recalc-1gkuxxgo/output",
+      "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_trace_repair/baseline/recalc-1gkuxxgo/input/shared_source.xlsx"
+    ],
+    "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+    "cleared_formula_cache_count": 97,
+    "isolated_input_sha256": "f6d8d664e2ad2048a55b2e08bbce15a84e71d6291e17061206092d41d1b5222d",
+    "returncode": 0,
+    "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/source_trace_repair/baseline/recalc-1gkuxxgo/output/shared_source.xlsx",
+    "output_sha256": "b9c29cbecf0a40773483b7d1f5ee4bc87e77856988f4771b4e275526d18f4d90",
+    "elapsed_seconds": 2.934629915980622,
+    "source_sha256_after": "1189717b268f2e13bbf99eb86dc351f4a1833bea5f5e1f8fec67141041fdc82e",
+    "original_unchanged": true
+  },
+  "scope": "Weights, denominators, input obligations, frozen wrapper and historical OUTPUT_MISSING result unchanged",
+  "limits": "Not a general layout or citation language interpreter; unresolved substantive source locators remain pending"
+}

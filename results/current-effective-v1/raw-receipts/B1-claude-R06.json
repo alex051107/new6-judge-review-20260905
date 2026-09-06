@@ -1,0 +1,785 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.6030876601180161,
+  "score_decimal": "0.6030876601180160441",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 0.3534065403339431,
+    "R002": 0.010460421215512114,
+    "R003": 0.6828598484848485,
+    "R004": 0.5717054263565892,
+    "R005": 0.5,
+    "R006": 0.5146433284172941,
+    "R007": 0.9444444444444444,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "3.5340654033394310",
+    "R002": "0.156906318232681710",
+    "R003": "6.8285984848484850",
+    "R004": "8.5755813953488380",
+    "R005": "4.0",
+    "R006": "3.6025032989210587",
+    "R007": "23.6111111111111100",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6030876601180161,
+      "score_decimal": "0.6030876601180160441",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.3534065403339431,
+        "R002": 0.010460421215512114,
+        "R003": 0.6828598484848485,
+        "R004": 0.5717054263565892,
+        "R005": 0.5,
+        "R006": 0.5146433284172941,
+        "R007": 0.9444444444444444,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.5340654033394310",
+        "R002": "0.156906318232681710",
+        "R003": "6.8285984848484850",
+        "R004": "8.5755813953488380",
+        "R005": "4.0",
+        "R006": "3.6025032989210587",
+        "R007": "23.6111111111111100",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.579093486018904,
+      "score_decimal": "0.5790934860189039441",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.3534065403339431,
+        "R002": 0.010460421215512114,
+        "R003": 0.6828598484848485,
+        "R004": 0.5717054263565892,
+        "R005": 0.5,
+        "R006": 0.5146433284172941,
+        "R007": 0.9444444444444444,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "5.3010981050091465",
+        "R002": "0.156906318232681710",
+        "R003": "10.2428977272727275",
+        "R004": "5.7170542635658920",
+        "R005": "4.0",
+        "R006": "3.6025032989210587",
+        "R007": "18.8888888888888880",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.6209909251118473,
+      "score_decimal": "0.62099092511184728368",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.3534065403339431,
+        "R002": 0.010460421215512114,
+        "R003": 0.6828598484848485,
+        "R004": 0.5717054263565892,
+        "R005": 0.5,
+        "R006": 0.5146433284172941,
+        "R007": 0.9444444444444444,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.5340654033394310",
+        "R002": "0.125525054586145368",
+        "R003": "6.8285984848484850",
+        "R004": "8.5755813953488380",
+        "R005": "4.0",
+        "R006": "5.1464332841729410",
+        "R007": "18.8888888888888880",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/app/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": true,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": true,
+        "Net recorded value change": true,
+        "Bridge residual": false
+      },
+      "candidate_bridge_closure": [
+        true
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [
+        {
+          "sheet": "Source Data Sample",
+          "header_row": 4,
+          "row_count": 100
+        }
+      ],
+      "invoices": [
+        {
+          "sheet": "Invoice Analysis",
+          "header_row": 4,
+          "row_count": 2402
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "Country Analysis",
+          "header_row": 4,
+          "row_count": 41
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "Exception Register",
+          "header_row": 4,
+          "row_count": 238
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "Transaction Reconciliation",
+          "header_row": 6,
+          "row_count": 5
+        },
+        {
+          "sheet": "Transaction Reconciliation",
+          "header_row": 17,
+          "row_count": 0
+        }
+      ],
+      "report": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 9,
+          "row_count": 4
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 16,
+          "row_count": 0
+        },
+        {
+          "sheet": "Bridge Analysis",
+          "header_row": 22,
+          "row_count": 0
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 3
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "Bridge Analysis",
+          "header_row": 4,
+          "row_count": 10
+        },
+        {
+          "sheet": "explicit labelled key/value claims",
+          "header_row": null,
+          "row_count": 1
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 9,
+          "row_count": 0
+        },
+        {
+          "sheet": "explicit monetary/period views",
+          "header_row": null,
+          "row_count": 2
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "SKU Bridge Schedule",
+          "header_row": 4,
+          "row_count": 3073
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3
+      ],
+      "Signed credits": [
+        -84274.62999999999,
+        -84274.62999999999,
+        -84274.62999999999
+      ],
+      "Net recorded value": [
+        1070704.67,
+        1070704.67
+      ],
+      "Exception recorded amount": [
+        0
+      ],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [
+      {
+        "country": "United Kingdom",
+        "class": "sale",
+        "count_from_candidate_detail": 100,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "United Kingdom",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "United Kingdom",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54521
+      },
+      {
+        "country": "Netherlands",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Netherlands",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Netherlands",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 278
+      },
+      {
+        "country": "Germany",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "Germany",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "Germany",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 1322
+      },
+      {
+        "country": "France",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "France",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "France",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 898
+      },
+      {
+        "country": "EIRE",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "EIRE",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "EIRE",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 929
+      },
+      {
+        "country": "Australia",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Australia",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Australia",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 114
+      },
+      {
+        "country": "Switzerland",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Switzerland",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Switzerland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 385
+      },
+      {
+        "country": "Sweden",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Sweden",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Sweden",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Belgium",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Belgium",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Belgium",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 267
+      },
+      {
+        "country": "Portugal",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Portugal",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Portugal",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 443
+      },
+      {
+        "country": "Spain",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Spain",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Spain",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 323
+      },
+      {
+        "country": "Cyprus",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Cyprus",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Cyprus",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 164
+      },
+      {
+        "country": "Norway",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Norway",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Norway",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 120
+      },
+      {
+        "country": "Italy",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Italy",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Italy",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 169
+      },
+      {
+        "country": "Finland",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Finland",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Finland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 115
+      },
+      {
+        "country": "Channel Islands",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Channel Islands",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Channel Islands",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 102
+      },
+      {
+        "country": "Japan",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Japan",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Japan",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 16
+      },
+      {
+        "country": "Denmark",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Denmark",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Denmark",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 29
+      },
+      {
+        "country": "Iceland",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Iceland",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Iceland",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 47
+      },
+      {
+        "country": "Austria",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "Austria",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "Austria",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 54
+      },
+      {
+        "country": "RSA",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "RSA",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "RSA",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 58
+      },
+      {
+        "country": "Singapore",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "Singapore",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "Singapore",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 36
+      },
+      {
+        "country": "USA",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "USA",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "USA",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 226
+      },
+      {
+        "country": "Hong Kong",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Hong Kong",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Hong Kong",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 35
+      },
+      {
+        "country": "Czech Republic",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Czech Republic",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Czech Republic",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 10
+      },
+      {
+        "country": "Israel",
+        "class": "sale",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 34
+      },
+      {
+        "country": "Israel",
+        "class": "credit",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 34
+      },
+      {
+        "country": "Israel",
+        "class": "exception",
+        "count_from_candidate_detail": 0,
+        "explicit_total_line_count": 34
+      }
+    ],
+    "candidate_country_self_consistency": 0.0,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 0,
+    "chart_cache_self_consistency": [],
+    "chart_evidence": [],
+    "chart_semantic_bindings": [],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 10050,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reader_v25_evidence": {
+    "recognized_narrative_formulas": [],
+    "heading_rule": "no other formulas and no defined names; isolated narrative label only",
+    "source_amounts_unchanged": true,
+    "business_views": {
+      "monetary_bindings": [],
+      "bound_bridge_claims": 2,
+      "bound_report_claims": 3,
+      "traceability": {
+        "applied": false,
+        "reason": "explicit classified rows supplied"
+      }
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "1d47e9fc866fc10773f08cec50197e2dbdff90fda79e51f2ec7636858b63b12e",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

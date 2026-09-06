@@ -1,0 +1,59 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "status": "LOCAL_REFERENCE_AND_CALIBRATION_PASSED",
+  "source_validation": {
+    "exact_edition": "July12 2026 Final",
+    "pdf_xlsx_price_parity": "192/192",
+    "rendered_visual_pages": [
+      5,
+      7
+    ]
+  },
+  "oracle": {
+    "method": "Independent Decimal linear band scan over separately verified rates",
+    "baseline_batch_usd": "164.55",
+    "source_boundary_15_9995_oz_checked": true
+  },
+  "reference_scores": {
+    "capability_first": "1",
+    "balanced": "1",
+    "ongoing_use": "1"
+  },
+  "calibration_cases": 18,
+  "calibration_passed": true,
+  "response_denominator": 24,
+  "constant_quote_score": "0.93125",
+  "constant_offset_score": "0.8489795918367346938775510204",
+  "constant_offset_response_credit": "1",
+  "paid_agent_attempts": 0,
+  "actual_agent_score": null,
+  "cost_usd": "0",
+  "harbor_docker_parity": "ROOT_INTEGRATION_PENDING",
+  "formal_difficulty": "NOT_ESTABLISHED",
+  "planned_and_actual_checks": {
+    "source_representation_check_runs": 1,
+    "combined_calibration_runner": "One initial run; evaluator-only fixes re-used previously verified native outputs; boundary helper change refreshed affected native fixture version; final18 cases pass",
+    "new_risk_checks": [
+      "15.9995oz reference method boundary",
+      "Conditional unsupported function only after declared input change",
+      "Unknown runner selection fails nonzero"
+    ],
+    "independent_review": "root combined review before freeze",
+    "duplicate_checks_skipped": "No repeated source download/hash/price extraction after parity; unchanged native output results reused for fact scoring repairs"
+  },
+  "known_limits": [
+    "Long labelled table parser with aliases and reordered layout support; unrecognized valid presentation requires adapter/semantic review",
+    "External negative-action and general agentic parsing acceptance pending",
+    "Local source provenance documented; public redistribution clearance pending"
+  ],
+  "calibration_receipt": "metadata/calibration/receipt.json",
+  "measurement_v2": {
+    "passed": true,
+    "receipt": "metadata/measurement_v2/calibration/receipt.json",
+    "source_reference_repair": "metadata/source_trace_repair/receipt.json",
+    "native_reuse_cases": 9,
+    "new_full_native_case": "service_grid_swap",
+    "agent_samples": 0,
+    "unchanged_tests_not_repeated": "18-case original full calibration; parser status cases unchanged by new response partition"
+  }
+}

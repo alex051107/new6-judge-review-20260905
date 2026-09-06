@@ -1,0 +1,25 @@
+{
+  "source": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/mutated.xlsx",
+  "source_sha256_before": "47331ce7bdc7c05f329453bb88c2aac6f6f31181c0f2581caba02708d42ae758",
+  "isolated_input": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/recalculated/recalc-27h8k0ud/input/mutated.xlsx",
+  "engine": "/opt/homebrew/bin/soffice",
+  "command": [
+    "/opt/homebrew/bin/soffice",
+    "-env:UserInstallation=file://new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/recalculated/recalc-27h8k0ud/profile",
+    "--headless",
+    "--convert-to",
+    "xlsx",
+    "--outdir",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/recalculated/recalc-27h8k0ud/output",
+    "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/recalculated/recalc-27h8k0ud/input/mutated.xlsx"
+  ],
+  "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+  "cleared_formula_cache_count": 0,
+  "isolated_input_sha256": "e07ee45a74c6fa9284be2c2ba57582b63e0e061fd37fdb8cc7b56c6c698ba068",
+  "returncode": 0,
+  "output": "new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/historical_rescue/discount_plus_half_pp/recalculated/recalc-27h8k0ud/output/mutated.xlsx",
+  "output_sha256": "92991407b47f28a1ffe801d27af9d0fd022ec0cde077562e0e1f50c7151fbe92",
+  "elapsed_seconds": 2.6876734170073178,
+  "source_sha256_after": "47331ce7bdc7c05f329453bb88c2aac6f6f31181c0f2581caba02708d42ae758",
+  "original_unchanged": true
+}

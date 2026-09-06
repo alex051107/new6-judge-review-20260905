@@ -1,0 +1,28 @@
+{
+  "source_original_untouched": true,
+  "changes": {
+    "InputDataA_GeneralAssumptions": {
+      "B3": "Zambia",
+      "D7": 2019,
+      "D11": 0.049,
+      "E11": 0.049,
+      "D14": 0.618,
+      "E14": 0.618,
+      "I11": 2.42,
+      "J11": 2.42,
+      "D20": 0.006,
+      "E20": 0.006,
+      "D29": 0.01,
+      "E29": 0.01
+    },
+    "InputDataB_ModelSpecAssumptions": {
+      "D4": 0.31,
+      "E4": 0.31,
+      "D9": 0.31,
+      "E9": 0.24,
+      "D10": 2025,
+      "E10": 2025
+    }
+  },
+  "meaning": "Visible illustrative Zambia case, exact guide parameters and project .24/2025 target; baseline constant .31"
+}

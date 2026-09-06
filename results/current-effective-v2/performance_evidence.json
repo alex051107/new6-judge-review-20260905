@@ -1,0 +1,1057 @@
+{
+  "source": "results/current-effective-v2/source_records.json",
+  "scored": 78,
+  "unknown": 66,
+  "groups": [
+    {
+      "task": "A1",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 8,
+      "unscored_slots": 0,
+      "status_counts": {
+        "SCORED": 8
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 91.46505376344086,
+      "other_credit_pct": 89.9046979526733,
+      "criterion_means": {
+        "R001": {
+          "description": "源输入、时间与金额单位正确",
+          "credit_pct": 100.0
+        },
+        "R002": {
+          "description": "逐年经营预测和费用关系正确",
+          "credit_pct": 97.91666666666667
+        },
+        "R003": {
+          "description": "再投资、现金流与估值桥正确",
+          "credit_pct": 89.1725352112676
+        },
+        "R004": {
+          "description": "声明的输入变化传到正确输出",
+          "credit_pct": 91.46505376344086
+        },
+        "R005": {
+          "description": "历史、base和不相关模型内容保留",
+          "credit_pct": 99.9875992063492
+        },
+        "R006": {
+          "description": "候选实际展示的两情景结论可核对",
+          "credit_pct": 22.5
+        }
+      },
+      "weakest_ids": [
+        "R006",
+        "R003",
+        "R004"
+      ],
+      "interpretation": "计算链及输入变化传播较强，最弱的是两情景结论的完整可核对展示。",
+      "cases": [
+        "A1-codex-R02",
+        "A1-codex-R07",
+        "A1-codex-R04",
+        "A1-codex-R03",
+        "A1-codex-R06",
+        "A1-codex-R05",
+        "A1-codex-R01",
+        "A1-codex-R08"
+      ],
+      "judge_labels": [
+        "new6-a1-v1.3-proven-formula-defects"
+      ]
+    },
+    {
+      "task": "A1",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 7,
+      "unscored_slots": 1,
+      "status_counts": {
+        "SCORED": 7,
+        "JUDGE_ERROR": 1
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 41.97388632872504,
+      "other_credit_pct": 63.41521071148838,
+      "criterion_means": {
+        "R001": {
+          "description": "源输入、时间与金额单位正确",
+          "credit_pct": 97.95918367346938
+        },
+        "R002": {
+          "description": "逐年经营预测和费用关系正确",
+          "credit_pct": 69.26406926406926
+        },
+        "R003": {
+          "description": "再投资、现金流与估值桥正确",
+          "credit_pct": 47.484909456740446
+        },
+        "R004": {
+          "description": "声明的输入变化传到正确输出",
+          "credit_pct": 41.97388632872504
+        },
+        "R005": {
+          "description": "历史、base和不相关模型内容保留",
+          "credit_pct": 92.21938775510203
+        },
+        "R006": {
+          "description": "候选实际展示的两情景结论可核对",
+          "credit_pct": 0.0
+        }
+      },
+      "weakest_ids": [
+        "R006",
+        "R004",
+        "R003"
+      ],
+      "interpretation": "已评分答卷同时失分于变化传播、现金流估值桥与两情景结论；R03已知base/review错绑会影响归因，不能把所有缺分直接算成业务错误。",
+      "cases": [
+        "A1-claude-R04",
+        "A1-claude-R02",
+        "A1-claude-R01",
+        "A1-claude-R07",
+        "A1-claude-R08",
+        "A1-claude-R06",
+        "A1-claude-R03"
+      ],
+      "judge_labels": [
+        "new6-a1-offline-v1.4-base-controls",
+        "new6-a1-v1.3-proven-formula-defects"
+      ]
+    },
+    {
+      "task": "A1",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 1,
+      "unscored_slots": 7,
+      "status_counts": {
+        "OUTPUT_MISSING": 2,
+        "SCORED": 1,
+        "RUN_OR_COLLECTION_PENDING": 5
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 100.0,
+      "other_credit_pct": 98.46153846153847,
+      "criterion_means": {
+        "R001": {
+          "description": "源输入、时间与金额单位正确",
+          "credit_pct": 100.0
+        },
+        "R002": {
+          "description": "逐年经营预测和费用关系正确",
+          "credit_pct": 100.0
+        },
+        "R003": {
+          "description": "再投资、现金流与估值桥正确",
+          "credit_pct": 100.0
+        },
+        "R004": {
+          "description": "声明的输入变化传到正确输出",
+          "credit_pct": 100.0
+        },
+        "R005": {
+          "description": "历史、base和不相关模型内容保留",
+          "credit_pct": 100.0
+        },
+        "R006": {
+          "description": "候选实际展示的两情景结论可核对",
+          "credit_pct": 80.0
+        }
+      },
+      "weakest_ids": [
+        "R006",
+        "R001",
+        "R002"
+      ],
+      "interpretation": "唯一已评分答卷的输入、年度经营、估值链及变化传播均满分；结论核对项80%，不能据此称千问整体弱。",
+      "cases": [
+        "A1-qwen-R08"
+      ],
+      "judge_labels": [
+        "new6-a1-offline-v1.4-base-controls"
+      ]
+    },
+    {
+      "task": "A2",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 7,
+      "unscored_slots": 1,
+      "status_counts": {
+        "SCORED": 7,
+        "JUDGE_ERROR": 1
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 92.85714285714286,
+      "other_credit_pct": 93.28007518796993,
+      "criterion_means": {
+        "R001": {
+          "description": "国家、起年、初始输入和单位正确",
+          "credit_pct": 100.0
+        },
+        "R002": {
+          "description": "年度投资及资本/产出递推正确",
+          "credit_pct": 85.71428571428571
+        },
+        "R003": {
+          "description": "GDP与人均GDP结果和情景差异正确",
+          "credit_pct": 100.0
+        },
+        "R004": {
+          "description": "目标与过渡年变化的正确传播",
+          "credit_pct": 92.85714285714286
+        },
+        "R005": {
+          "description": "基础情景与源数据未被改变",
+          "credit_pct": 100.0
+        },
+        "R006": {
+          "description": "图表、解释和引用与实际结果一致",
+          "credit_pct": 92.4812030075188
+        }
+      },
+      "weakest_ids": [
+        "R002",
+        "R006",
+        "R004"
+      ],
+      "interpretation": "年度递推与变化传播整体较强，少数递推关系失分；该小样本未显示普遍能力缺口。",
+      "cases": [
+        "A2-codex-R07",
+        "A2-codex-R05",
+        "A2-codex-R02",
+        "A2-codex-R03",
+        "A2-codex-R08",
+        "A2-codex-R06",
+        "A2-codex-R04"
+      ],
+      "judge_labels": [
+        "new6-a2-facts-v1.3-real-gdp-labels",
+        "new6-a2-offline-v1.4-report-roles"
+      ]
+    },
+    {
+      "task": "A2",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 2,
+      "unscored_slots": 6,
+      "status_counts": {
+        "JUDGE_ERROR": 5,
+        "SCORED": 2,
+        "OUTPUT_MISSING": 1
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 25.364963503649633,
+      "other_credit_pct": 34.14159249226006,
+      "criterion_means": {
+        "R001": {
+          "description": "国家、起年、初始输入和单位正确",
+          "credit_pct": 100.0
+        },
+        "R002": {
+          "description": "年度投资及资本/产出递推正确",
+          "credit_pct": 25.735294117647058
+        },
+        "R003": {
+          "description": "GDP与人均GDP结果和情景差异正确",
+          "credit_pct": 0.0
+        },
+        "R004": {
+          "description": "目标与过渡年变化的正确传播",
+          "credit_pct": 25.364963503649633
+        },
+        "R005": {
+          "description": "基础情景与源数据未被改变",
+          "credit_pct": 18.75
+        },
+        "R006": {
+          "description": "图表、解释和引用与实际结果一致",
+          "credit_pct": 47.36842105263158
+        }
+      },
+      "weakest_ids": [
+        "R003",
+        "R005",
+        "R004"
+      ],
+      "interpretation": "两份已评分答卷的GDP/人均GDP情景结果项为0，变化传播与base保护也偏低，失分涉及模型关系及情景管理。",
+      "cases": [
+        "A2-claude-R01",
+        "A2-claude-R02"
+      ],
+      "judge_labels": [
+        "new6-a2-offline-v1.4-report-roles"
+      ]
+    },
+    {
+      "task": "A2",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 0,
+      "unscored_slots": 8,
+      "status_counts": {
+        "RUN_OR_COLLECTION_PENDING": 4,
+        "OUTPUT_MISSING": 3,
+        "JUDGE_ERROR": 1
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": null,
+      "other_credit_pct": null,
+      "criterion_means": {},
+      "weakest_ids": [],
+      "interpretation": "无有效分项，无法评价能力；已回收答卷仍为Judge待判。",
+      "cases": [],
+      "judge_labels": []
+    },
+    {
+      "task": "B1",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 8,
+      "unscored_slots": 0,
+      "status_counts": {
+        "SCORED": 8
+      },
+      "focus_ids": [
+        "R007",
+        "R008"
+      ],
+      "focus_credit_pct": 99.95708483342717,
+      "other_credit_pct": 99.51404689562106,
+      "criterion_means": {
+        "R001": {
+          "description": "期间与源记录多重集合完整",
+          "credit_pct": 99.98460503505912
+        },
+        "R002": {
+          "description": "销售、贷项与异常处理符合可见政策",
+          "credit_pct": 99.98053241579139
+        },
+        "R003": {
+          "description": "发票级分组、身份与金额正确",
+          "credit_pct": 100.0
+        },
+        "R004": {
+          "description": "国家与总体汇总和候选明细一致",
+          "credit_pct": 98.86143410852713
+        },
+        "R005": {
+          "description": "报告/图表实际数值与分析一致",
+          "credit_pct": 99.609375
+        },
+        "R006": {
+          "description": "源文件保护、记录追踪和闭合证据",
+          "credit_pct": 98.4375
+        },
+        "R007": {
+          "description": "九至十月五项贡献、两端净額与闭合事实",
+          "credit_pct": 100.0
+        },
+        "R008": {
+          "description": "SKU两月数量、销售额、群组和贡献可追溯",
+          "credit_pct": 99.84979691699509
+        }
+      },
+      "weakest_ids": [
+        "R006",
+        "R004",
+        "R005"
+      ],
+      "interpretation": "贡献分解与SKU追踪几乎全对，原始明细及汇总也高；目前测到能力，但没有测出明显困难。",
+      "cases": [
+        "B1-codex-R08",
+        "B1-codex-R01",
+        "B1-codex-R05",
+        "B1-codex-R02",
+        "B1-codex-R07",
+        "B1-codex-R03",
+        "B1-codex-R06",
+        "B1-codex-R04"
+      ],
+      "judge_labels": [
+        "new6-b1-reader-v2.5-declared-traceability"
+      ]
+    },
+    {
+      "task": "B1",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 3,
+      "unscored_slots": 5,
+      "status_counts": {
+        "JUDGE_ERROR": 4,
+        "SCORED": 3,
+        "OUTPUT_MISSING": 1
+      },
+      "focus_ids": [
+        "R007",
+        "R008"
+      ],
+      "focus_credit_pct": 82.8042328042328,
+      "other_credit_pct": 43.35435271554653,
+      "criterion_means": {
+        "R001": {
+          "description": "期间与源记录多重集合完整",
+          "credit_pct": 35.447278725796615
+        },
+        "R002": {
+          "description": "销售、贷项与异常处理符合可见政策",
+          "credit_pct": 1.1441572115933016
+        },
+        "R003": {
+          "description": "发票级分组、身份与金额正确",
+          "credit_pct": 89.42234848484848
+        },
+        "R004": {
+          "description": "国家与总体汇总和候选明细一致",
+          "credit_pct": 52.77777777777778
+        },
+        "R005": {
+          "description": "报告/图表实际数值与分析一致",
+          "credit_pct": 50.0
+        },
+        "R006": {
+          "description": "源文件保护、记录追踪和闭合证据",
+          "credit_pct": 51.501089937643926
+        },
+        "R007": {
+          "description": "九至十月五项贡献、两端净額与闭合事实",
+          "credit_pct": 75.92592592592592
+        },
+        "R008": {
+          "description": "SKU两月数量、销售额、群组和贡献可追溯",
+          "credit_pct": 100.0
+        }
+      },
+      "weakest_ids": [
+        "R002",
+        "R001",
+        "R005"
+      ],
+      "interpretation": "最弱是销售/贷项/异常政策口径，其次源记录完整性；贡献分析相对较好。提高重点组权重会淡化这类真实交易口径问题。",
+      "cases": [
+        "B1-claude-R07",
+        "B1-claude-R08",
+        "B1-claude-R06"
+      ],
+      "judge_labels": [
+        "new6-b1-reader-v2.5-declared-traceability",
+        "release_lock:new6-offline-reader-v1"
+      ]
+    },
+    {
+      "task": "B1",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 3,
+      "unscored_slots": 5,
+      "status_counts": {
+        "SCORED": 3,
+        "JUDGE_ERROR": 5
+      },
+      "focus_ids": [
+        "R007",
+        "R008"
+      ],
+      "focus_credit_pct": 100.0,
+      "other_credit_pct": 99.8974358974359,
+      "criterion_means": {
+        "R001": {
+          "description": "期间与源记录多重集合完整",
+          "credit_pct": 100.0
+        },
+        "R002": {
+          "description": "销售、贷项与异常处理符合可见政策",
+          "credit_pct": 100.0
+        },
+        "R003": {
+          "description": "发票级分组、身份与金额正确",
+          "credit_pct": 100.0
+        },
+        "R004": {
+          "description": "国家与总体汇总和候选明细一致",
+          "credit_pct": 100.0
+        },
+        "R005": {
+          "description": "报告/图表实际数值与分析一致",
+          "credit_pct": 99.16666666666667
+        },
+        "R006": {
+          "description": "源文件保护、记录追踪和闭合证据",
+          "credit_pct": 100.0
+        },
+        "R007": {
+          "description": "九至十月五项贡献、两端净額与闭合事实",
+          "credit_pct": 100.0
+        },
+        "R008": {
+          "description": "SKU两月数量、销售额、群组和贡献可追溯",
+          "credit_pct": 100.0
+        }
+      },
+      "weakest_ids": [
+        "R005",
+        "R001",
+        "R002"
+      ],
+      "interpretation": "三份可评分答卷贡献分析满分，其余组几乎满分；另外五份待判不能充当低分样本。",
+      "cases": [
+        "B1-qwen-R05",
+        "B1-qwen-R04",
+        "B1-qwen-R02"
+      ],
+      "judge_labels": [
+        "new6-b1-reader-v2.5-declared-traceability"
+      ]
+    },
+    {
+      "task": "B2",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 8,
+      "unscored_slots": 0,
+      "status_counts": {
+        "SCORED": 8
+      },
+      "focus_ids": [
+        "R004",
+        "R005"
+      ],
+      "focus_credit_pct": 84.10714285714286,
+      "other_credit_pct": 93.93887362637362,
+      "criterion_means": {
+        "R001": {
+          "description": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+          "credit_pct": 85.71428571428571
+        },
+        "R002": {
+          "description": "连续恶化名单完整、无重复且排序符合公开业务口径",
+          "credit_pct": 95.3125
+        },
+        "R003": {
+          "description": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+          "credit_pct": 97.5
+        },
+        "R004": {
+          "description": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+          "credit_pct": 79.6875
+        },
+        "R005": {
+          "description": "旧分析仍可复核，原发布资料保留并可追溯",
+          "credit_pct": 90.0
+        }
+      },
+      "weakest_ids": [
+        "R004",
+        "R001",
+        "R005"
+      ],
+      "interpretation": "主要缺分在新旧名单变化理由与图文一致，名单和数值较强。",
+      "cases": [
+        "B2-codex-R04",
+        "B2-codex-R03",
+        "B2-codex-R01",
+        "B2-codex-R07",
+        "B2-codex-R05",
+        "B2-codex-R08",
+        "B2-codex-R06",
+        "B2-codex-R02"
+      ],
+      "judge_labels": [
+        "new6-b2-offline-v3.3-chart-roles",
+        "new6-b2-three-release-v3.2-labelled-code-lists"
+      ]
+    },
+    {
+      "task": "B2",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 3,
+      "unscored_slots": 5,
+      "status_counts": {
+        "SCORED": 3,
+        "JUDGE_ERROR": 4,
+        "OUTPUT_MISSING": 1
+      },
+      "focus_ids": [
+        "R004",
+        "R005"
+      ],
+      "focus_credit_pct": 50.51851851851852,
+      "other_credit_pct": 58.83560883560884,
+      "criterion_means": {
+        "R001": {
+          "description": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+          "credit_pct": 90.47619047619047
+        },
+        "R002": {
+          "description": "连续恶化名单完整、无重复且排序符合公开业务口径",
+          "credit_pct": 30.0
+        },
+        "R003": {
+          "description": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+          "credit_pct": 68.68686868686869
+        },
+        "R004": {
+          "description": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+          "credit_pct": 20.074074074074076
+        },
+        "R005": {
+          "description": "旧分析仍可复核，原发布资料保留并可追溯",
+          "credit_pct": 91.11111111111111
+        }
+      },
+      "weakest_ids": [
+        "R004",
+        "R002",
+        "R003"
+      ],
+      "interpretation": "名单完整性、排序及变化解释同时薄弱，重点是完整分析对象和跨发布口径一致。",
+      "cases": [
+        "B2-claude-R05",
+        "B2-claude-R07",
+        "B2-claude-R03"
+      ],
+      "judge_labels": [
+        "new6-b2-offline-v3.3-chart-roles",
+        "new6-b2-three-release-v3.2-labelled-code-lists"
+      ]
+    },
+    {
+      "task": "B2",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 1,
+      "unscored_slots": 7,
+      "status_counts": {
+        "RUN_OR_COLLECTION_PENDING": 7,
+        "SCORED": 1
+      },
+      "focus_ids": [
+        "R004",
+        "R005"
+      ],
+      "focus_credit_pct": 69.52380952380952,
+      "other_credit_pct": 96.7032967032967,
+      "criterion_means": {
+        "R001": {
+          "description": "三期来源、实际期间、地区范围、指标定义及资料不足原因",
+          "credit_pct": 85.71428571428571
+        },
+        "R002": {
+          "description": "连续恶化名单完整、无重复且排序符合公开业务口径",
+          "credit_pct": 100.0
+        },
+        "R003": {
+          "description": "当前名单和退出地区的支撑数据及候选其他显示数字正确",
+          "credit_pct": 100.0
+        },
+        "R004": {
+          "description": "新旧名单变化有理由，当前图表和简报与当前事实一致",
+          "credit_pct": 71.66666666666667
+        },
+        "R005": {
+          "description": "旧分析仍可复核，原发布资料保留并可追溯",
+          "credit_pct": 66.66666666666666
+        }
+      },
+      "weakest_ids": [
+        "R005",
+        "R004",
+        "R001"
+      ],
+      "interpretation": "唯一可评分答卷基础事实较完整，旧分析可追溯与当前图文变化说明较弱；n=1只支持该答卷判断。",
+      "cases": [
+        "B2-qwen-R08"
+      ],
+      "judge_labels": [
+        "new6-b2-offline-v3.3-chart-roles"
+      ]
+    },
+    {
+      "task": "C1",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 8,
+      "unscored_slots": 0,
+      "status_counts": {
+        "SCORED": 8
+      },
+      "focus_ids": [
+        "R005"
+      ],
+      "focus_credit_pct": 97.82608695652173,
+      "other_credit_pct": 85.55712169122765,
+      "criterion_means": {
+        "R001": {
+          "description": "原印刷数据、原范围与限制保留",
+          "credit_pct": 66.88741721854305
+        },
+        "R002": {
+          "description": "有效报价版本、替换关系和待决选项判断",
+          "credit_pct": 87.5
+        },
+        "R003": {
+          "description": "当前成本链、费用基数与费率正确",
+          "credit_pct": 99.07407407407408
+        },
+        "R004": {
+          "description": "可核对的新旧成本差额与比较基准",
+          "credit_pct": 100.0
+        },
+        "R005": {
+          "description": "公开价格费率变化后成本链、核对及保护实际响应",
+          "credit_pct": 97.82608695652173
+        },
+        "R006": {
+          "description": "原估算与审阅对应材料可追溯",
+          "credit_pct": 64.35810810810811
+        }
+      },
+      "weakest_ids": [
+        "R006",
+        "R001",
+        "R002"
+      ],
+      "interpretation": "价格/费率变化后的成本链响应较强，原印刷信息与材料追溯相对薄弱；不能仅凭重点组高分代表全体文档字段都保留。",
+      "cases": [
+        "C1-codex-R04",
+        "C1-codex-R07",
+        "C1-codex-R05",
+        "C1-codex-R06",
+        "C1-codex-R01",
+        "C1-codex-R02",
+        "C1-codex-R03",
+        "C1-codex-R08"
+      ],
+      "judge_labels": [
+        "new6-c1-review-facts-v2.4-inline-and-bridge"
+      ]
+    },
+    {
+      "task": "C1",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 2,
+      "unscored_slots": 6,
+      "status_counts": {
+        "SCORED": 2,
+        "JUDGE_ERROR": 5,
+        "OUTPUT_MISSING": 1
+      },
+      "focus_ids": [
+        "R005"
+      ],
+      "focus_credit_pct": 0.0,
+      "other_credit_pct": 65.27397239317769,
+      "criterion_means": {
+        "R001": {
+          "description": "原印刷数据、原范围与限制保留",
+          "credit_pct": 48.34437086092715
+        },
+        "R002": {
+          "description": "有效报价版本、替换关系和待决选项判断",
+          "credit_pct": 100.0
+        },
+        "R003": {
+          "description": "当前成本链、费用基数与费率正确",
+          "credit_pct": 62.96296296296296
+        },
+        "R004": {
+          "description": "可核对的新旧成本差额与比较基准",
+          "credit_pct": 33.333333333333336
+        },
+        "R005": {
+          "description": "公开价格费率变化后成本链、核对及保护实际响应",
+          "credit_pct": 0.0
+        },
+        "R006": {
+          "description": "原估算与审阅对应材料可追溯",
+          "credit_pct": 47.972972972972975
+        }
+      },
+      "weakest_ids": [
+        "R005",
+        "R004",
+        "R006"
+      ],
+      "interpretation": "两份重点更新响应项均0，新旧差额也偏弱；当前有效报价识别优于后续工作计算。",
+      "cases": [
+        "C1-claude-R08",
+        "C1-claude-R03"
+      ],
+      "judge_labels": [
+        "new6-c1-review-facts-v2.4-inline-and-bridge"
+      ]
+    },
+    {
+      "task": "C1",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 0,
+      "unscored_slots": 8,
+      "status_counts": {
+        "JUDGE_ERROR": 6,
+        "RUN_OR_COLLECTION_PENDING": 2
+      },
+      "focus_ids": [
+        "R005"
+      ],
+      "focus_credit_pct": null,
+      "other_credit_pct": null,
+      "criterion_means": {},
+      "weakest_ids": [],
+      "interpretation": "六份回收答卷均技术待判，无法从当前分项判断成本工作底稿能力。",
+      "cases": [],
+      "judge_labels": []
+    },
+    {
+      "task": "C2",
+      "system": "codex",
+      "display_system": "GPT-5.6 sol",
+      "n": 8,
+      "unscored_slots": 0,
+      "status_counts": {
+        "SCORED": 8
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 64.77272727272727,
+      "other_credit_pct": 86.10594533671457,
+      "criterion_means": {
+        "R001": {
+          "description": "完整的服务/重量/区域价格网格正确",
+          "credit_pct": 89.58333333333333
+        },
+        "R002": {
+          "description": "版本、单位和重量边界身份正确",
+          "credit_pct": 90.0
+        },
+        "R003": {
+          "description": "每条请求实际两产品价及选项总额正确",
+          "credit_pct": 73.21428571428571
+        },
+        "R004": {
+          "description": "声明输入变化后实际应变化的报价和总额正确响应",
+          "credit_pct": 64.77272727272727
+        },
+        "R005": {
+          "description": "请求范围、原始资费及应保持不变的输出得到保护",
+          "credit_pct": 75.48076923076923
+        },
+        "R006": {
+          "description": "价目表和请求与原PDF来源可追溯",
+          "credit_pct": 90.38461538461539
+        }
+      },
+      "weakest_ids": [
+        "R004",
+        "R003",
+        "R005"
+      ],
+      "interpretation": "报价更新响应弱于价目与身份读取，但R02/R08有已核实表头/单位等价读取风险；64.77%的重点组均值不能全归因为模型不会报价更新。",
+      "cases": [
+        "C2-codex-R04",
+        "C2-codex-R03",
+        "C2-codex-R06",
+        "C2-codex-R01",
+        "C2-codex-R05",
+        "C2-codex-R08",
+        "C2-codex-R02",
+        "C2-codex-R07"
+      ],
+      "judge_labels": [
+        "new6-usps-facts-v2.4-natural-quote-layouts",
+        "release_lock:new6-offline-reader-v1"
+      ]
+    },
+    {
+      "task": "C2",
+      "system": "claude",
+      "display_system": "Opus 5",
+      "n": 3,
+      "unscored_slots": 5,
+      "status_counts": {
+        "JUDGE_ERROR": 3,
+        "SCORED": 3,
+        "OUTPUT_MISSING": 2
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 15.151515151515152,
+      "other_credit_pct": 89.294855022877,
+      "criterion_means": {
+        "R001": {
+          "description": "完整的服务/重量/区域价格网格正确",
+          "credit_pct": 96.52777777777777
+        },
+        "R002": {
+          "description": "版本、单位和重量边界身份正确",
+          "credit_pct": 100.0
+        },
+        "R003": {
+          "description": "每条请求实际两产品价及选项总额正确",
+          "credit_pct": 48.97959183673469
+        },
+        "R004": {
+          "description": "声明输入变化后实际应变化的报价和总额正确响应",
+          "credit_pct": 15.151515151515152
+        },
+        "R005": {
+          "description": "请求范围、原始资费及应保持不变的输出得到保护",
+          "credit_pct": 91.02564102564102
+        },
+        "R006": {
+          "description": "价目表和请求与原PDF来源可追溯",
+          "credit_pct": 96.15384615384616
+        }
+      },
+      "weakest_ids": [
+        "R004",
+        "R003",
+        "R005"
+      ],
+      "interpretation": "价目表与边界身份总体较好，实际报价及更新响应显著较弱。R08静态报价全对、更新项0，直接体现可抄对价格但未形成可更新报价的差别。",
+      "cases": [
+        "C2-claude-R08",
+        "C2-claude-R02",
+        "C2-claude-R06"
+      ],
+      "judge_labels": [
+        "new6-usps-facts-v2.4-natural-quote-layouts",
+        "release_lock:new6-offline-reader-v1"
+      ]
+    },
+    {
+      "task": "C2",
+      "system": "qwen",
+      "display_system": "Qwen 3.8",
+      "n": 6,
+      "unscored_slots": 2,
+      "status_counts": {
+        "SCORED": 6,
+        "RUN_OR_COLLECTION_PENDING": 2
+      },
+      "focus_ids": [
+        "R004"
+      ],
+      "focus_credit_pct": 45.45454545454545,
+      "other_credit_pct": 78.74846033087792,
+      "criterion_means": {
+        "R001": {
+          "description": "完整的服务/重量/区域价格网格正确",
+          "credit_pct": 83.33333333333333
+        },
+        "R002": {
+          "description": "版本、单位和重量边界身份正确",
+          "credit_pct": 84.0
+        },
+        "R003": {
+          "description": "每条请求实际两产品价及选项总额正确",
+          "credit_pct": 49.65986394557823
+        },
+        "R004": {
+          "description": "声明输入变化后实际应变化的报价和总额正确响应",
+          "credit_pct": 45.45454545454545
+        },
+        "R005": {
+          "description": "请求范围、原始资费及应保持不变的输出得到保护",
+          "credit_pct": 74.35897435897436
+        },
+        "R006": {
+          "description": "价目表和请求与原PDF来源可追溯",
+          "credit_pct": 98.71794871794872
+        }
+      },
+      "weakest_ids": [
+        "R004",
+        "R003",
+        "R005"
+      ],
+      "interpretation": "更新及实际报价均值低于价目抽取，但R04/R07更新满分，R03/R05/R06更新和报价为0，表现分化，不能概括为千问都不会。R08价目网格0而报价接近全对仍需人工核对读取范围。",
+      "cases": [
+        "C2-qwen-R04",
+        "C2-qwen-R07",
+        "C2-qwen-R08",
+        "C2-qwen-R03",
+        "C2-qwen-R06",
+        "C2-qwen-R05"
+      ],
+      "judge_labels": [
+        "new6-usps-facts-v2.4-natural-quote-layouts",
+        "release_lock:new6-offline-reader-v1"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "case": "C2-claude-R08",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CLAUDE__ym4Nucw",
+      "answer_sha256": "ed1d582681a5163f1e202e06fbd332f4c66f9338f1198543d3dc13edda244c33",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "public_receipt": "results/current-effective-v2/receipts/C2-claude-R08.json",
+      "private_original_locator": "new6-final/current-effective-v2/previous-manifest-v1.json records[case=C2-claude-R08].answer_path",
+      "private_receipt": "new6-final/current-effective-v2/receipts/C2-claude-R08.json",
+      "note": "价目网格/身份/实际静态报价均满分，更新R004为0。原回执dynamic显示控制值成功改写、重算完成，支持核对更新后输出是否继续正确。"
+    },
+    {
+      "case": "C2-qwen-R07",
+      "trial_id": "N6BUDGET-C2-QWEN-R07__GbGdnth",
+      "answer_sha256": "ca7ab5ad6ea25e1a81849101efec9fc7511f65a7d112d321ae2b835096857ae1",
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "public_receipt": "results/current-effective-v2/receipts/C2-qwen-R07.json",
+      "private_original_locator": "new6-final/current-effective-v2/previous-manifest-v1.json records[case=C2-qwen-R07].answer_path",
+      "private_receipt": "new6-final/current-effective-v2/receipts/C2-qwen-R07.json",
+      "note": "六项全部满分，是千问可完成报价更新的反证，不能从其均值推断全系统不会。"
+    },
+    {
+      "case": "C2-codex-R08",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-CODEX-R__7UpKMvg",
+      "answer_sha256": "c951e64482861206c9b0f5f6123c1ea8663b7b9b28a9321349898f287b101815",
+      "criterion_scores": {
+        "R001": "0.5833333333333333333333333333",
+        "R002": "0.6",
+        "R003": "0",
+        "R004": "0",
+        "R005": "0.03846153846153846153846153846",
+        "R006": "0.6153846153846153846153846154"
+      },
+      "public_receipt": "results/current-effective-v2/receipts/C2-codex-R08.json",
+      "private_original_locator": "new6-final/current-effective-v2/previous-manifest-v1.json records[case=C2-codex-R08].answer_path",
+      "private_receipt": "new6-final/current-effective-v2/receipts/C2-codex-R08.json",
+      "note": "原件价格及报价存在合法等价实现，已知读取风险；不作为未经人工确认的纯业务失败案例。"
+    }
+  ],
+  "validation": "One arithmetic check: per-group mean 60 equals .6 focus + .4 remainder; difference < 1e-40 percentage points. No Judge calls."
+}

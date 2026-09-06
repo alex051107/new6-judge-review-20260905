@@ -1,0 +1,48 @@
+{
+  "task_version": "new6-b1-v2",
+  "judge_version": "new6-b1-reader-v2.1",
+  "passed": true,
+  "checks": [
+    {
+      "case": "reference",
+      "passed": true
+    },
+    {
+      "case": "equivalent_actual_layout",
+      "passed": true
+    },
+    {
+      "case": "wrong_invoice_amount",
+      "passed": true
+    },
+    {
+      "case": "wrong_bridge_quantity",
+      "passed": true
+    },
+    {
+      "case": "duplicate_sku",
+      "passed": true
+    },
+    {
+      "case": "mixed_bridge_claim",
+      "passed": true
+    },
+    {
+      "case": "unbound_bridge_amount",
+      "passed": true
+    }
+  ],
+  "native_formula_checks": 13,
+  "native_formula_all_passed": true,
+  "agent_generation_calls": 0,
+  "original_unchanged": true,
+  "validation_budget": {
+    "categories": "Actual native formula receipt plus independent range-sum audit; reference, legitimate relocated actual layout, two isolated business errors, duplicates/mixed claims, parser uncertainty.",
+    "runner_count": 1,
+    "independent_review_count": 0,
+    "hash_count": 0,
+    "early_stop": "Any unsupported layout retains null score; any failed fixture prevents completion.",
+    "actual": "One combined focused runner. Existing v2 calibration not rerun; no duplicate native recalculation."
+  },
+  "semantics": "Weights and source populations unchanged. Missing category counts recover solely from candidate detail. Blank quantities/values for the explicitly inactive month of a new/exited SKU are zero, not an omission. Zero-population wide categories do not invent source groups."
+}

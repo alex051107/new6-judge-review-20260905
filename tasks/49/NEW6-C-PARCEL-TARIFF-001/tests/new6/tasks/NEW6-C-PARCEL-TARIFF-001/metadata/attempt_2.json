@@ -1,0 +1,148 @@
+{
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "attempt": 2,
+  "provider": "ZCloud",
+  "requested_model": "claude-opus-5",
+  "cli": "Claude Code 2.1.251",
+  "harbor_version": "0.22.0",
+  "task_version": "new6-c2-natural-v2",
+  "judge_version": "new6-usps-facts-v2.0-downstream-use",
+  "frozen_task_package": "harbor_wrappers/downstream-v2/NEW6-C-PARCEL-TARIFF-001",
+  "instruction_sha256": "147cedbff6533ec13a51444f00df6d1b5054cbb205792da95bd60be6381f4624",
+  "trial_path": "harbor_jobs/new6-first-20260905T144554Z/NEW6-C-PARCEL-TARIFF-001__M4SQfig",
+  "output_exists": true,
+  "output_sha256": "3448d6fed1ab4802cb665583e3cdff713a5f0705227fe44e5b48c00c2d48cbfc",
+  "original_evaluation_status": "JUDGE_ERROR",
+  "original_score": null,
+  "original_score_decimal": null,
+  "original_pass": null,
+  "profile_results": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null
+    }
+  },
+  "criterion_scores": null,
+  "judge_receipt": "harbor_jobs/new6-first-20260905T144554Z/NEW6-C-PARCEL-TARIFF-001__M4SQfig/verifier/judge-result.json",
+  "client_cost_usd": 0.45169275000000003,
+  "provider_cost_usd": 0.074252,
+  "provider_cost_status": "EXACT_REQUEST_USAGE_ATTRIBUTION",
+  "observed_response_models": [
+    "claude-opus-5"
+  ],
+  "observed_cli_versions": [
+    "2.1.251"
+  ],
+  "started_at": "2026-09-05T14:45:56.318435Z",
+  "finished_at": "2026-09-05T14:48:31.712373Z",
+  "input_tokens": 170553,
+  "cached_tokens": 136678,
+  "output_tokens": 6866,
+  "exception_info": null,
+  "additional_agent_calls": 0,
+  "formal_difficulty_verified": false,
+  "recorded_at": "2026-09-05T14:48:53.971451+00:00",
+  "rejudge_version": "new6-usps-facts-v2.1-wide-rate-layout",
+  "rejudge_status": "SCORED",
+  "rejudge_score_decimal": "0.59915579212454212454212454213",
+  "rejudge_pass": false,
+  "rejudge_profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.5991557921245422,
+      "score_decimal": "0.59915579212454212454212454213",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "31.5364583333333333333333333345",
+        "R002": "10",
+        "R003": "8.5714285714285714285714285710",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.6870650183150183,
+      "score_decimal": "0.68706501831501831501831501832",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "36.0416666666666666666666666680",
+        "R002": "10",
+        "R003": "12.8571428571428571428571428565",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.5541037087912087,
+      "score_decimal": "0.554103708791208791208791208795",
+      "pass": false,
+      "criterion_scores": {
+        "R001": "0.9010416666666666666666666667",
+        "R002": "1",
+        "R003": "0.8571428571428571428571428571",
+        "R004": "0",
+        "R005": "1",
+        "R006": "0.9615384615384615384615384615"
+      },
+      "contributions_raw": {
+        "R001": "27.0312500000000000000000000010",
+        "R002": "10",
+        "R003": "8.5714285714285714285714285710",
+        "R004": "0",
+        "R005": "5",
+        "R006": "4.8076923076923076923076923075"
+      }
+    }
+  },
+  "rejudge_receipt": "metadata/attempt_2_rejudge_v21/result.json",
+  "rejudge_reason": "Labelled weight by zone matrices are a legal layout; source and response facts unchanged",
+  "business_failures": {
+    "wrong_source_prices": "19/192",
+    "wrong_quote_or_total_facts": "7/49",
+    "active_response_missing": "11/11",
+    "preserved_scope_and_invariance": "26/26",
+    "batch_total_actual": "162.75",
+    "batch_total_expected": "164.55"
+  },
+  "classification": "SCORED_BUSINESS_EXTRACTION_AND_CONTINUITY_FAILURE",
+  "difficulty_evidence": "Single natural business failure under all three prespecified profiles; no repeated-sample qualification",
+  "provider_cost_quota": 37126,
+  "provider_cost_attribution": "validation/provider_attribution_current.json"
+}

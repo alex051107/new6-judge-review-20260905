@@ -1,0 +1,42 @@
+{
+  "task": "B2",
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "task_version": "new6-b2-three-release-v3",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 611
+    },
+    {
+      "path": "data/input_files/ons_li01_january2023_corrected.xlsx",
+      "bytes": 141386
+    },
+    {
+      "path": "data/input_files/ons_li01_january2024.xlsx",
+      "bytes": 137150
+    },
+    {
+      "path": "data/input_files/ons_li01_january2025.xlsx",
+      "bytes": 136533
+    },
+    {
+      "path": "data/input_files/previous_briefing.xlsx",
+      "bytes": 25205
+    },
+    {
+      "path": "data/input_files/previous_briefing.xlsx.inspect.ndjson",
+      "bytes": 843981
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 1446
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "e67d74d27fe3ec5980fe633156c419fc9c1a8f0dd8420cc7e3426629b8037f11",
+  "zip_sha256": "3929f5628dca07fea9a6ce7eb476eb6c4ef9701e129326d44d9838f5ee72b84a",
+  "agent_output_sha256": "261ef53e7274b92f428b2dae6fe23630b931df5ec175df4402b9d42b783a3b47",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

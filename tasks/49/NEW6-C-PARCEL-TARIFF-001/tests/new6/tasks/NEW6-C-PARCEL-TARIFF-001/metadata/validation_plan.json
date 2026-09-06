@@ -1,0 +1,9 @@
+{
+  "batch": "USPS source, reference, semantic evaluator and calibration",
+  "source_check": {"runner_count": 1, "command": "metadata/prepare_sources.py", "risk": "Wrong edition, unit/zone binding or transcribed price", "stop": "Any of 192 prices differs from official machine table"},
+  "reference_and_calibration": {"runner_count": 1, "command": "tests/calibrate.py", "risk": "Wrong native formulas, false positives, false negatives, hidden layout coupling or parser failure treated as business error", "stop": "Any declared fact loss/invariant/status assertion fails", "repair_budget": "Rerun affected failing categories once after repair"},
+  "independent_review_count": 0,
+  "hash_budget": "Source import once; excerpt generation once; isolation hashes for each required dynamic test only",
+  "paid_agent_calls": 0,
+  "paid_call_gate": "No approved complete provider/model/CLI and hard currency-denominated cap available"
+}

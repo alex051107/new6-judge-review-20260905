@@ -736,5 +736,5 @@
   "consistency": [],
   "all_assertions_passed": true,
   "runtime": "runtime.txt",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/receipt.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/actual-replay/receipt.json"
 }

@@ -12,4 +12,4 @@ C1 当前重点组 R002/R004/R005 与原题的 20 分版本范围、10 分解释
 
 ## 组内原回执与源代码
 
-[原始回执、运行身份和锁定源代码归档（需组内权限）](https://github.com/alex051107/excelbench-p15-results/tree/5b9fb023ce2e6e6180e4c668926ca0ee97c2a1af/new6-final/results/weight-sensitivity-v1)。该目录保留原回执和release_lock对应的代码／输入／合同；公开source_records.json只含分项信用和结果身份。原件按试次与SHA-256对应到既有私有完整包。
+[公开分项记录](source_records.json)保留该历史比较的信用与身份；[固定代码与原件](../../repro/fixed-34374/README.md)提供公开复核入口。

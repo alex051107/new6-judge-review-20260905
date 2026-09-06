@@ -1,0 +1,996 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.9500793650793651,
+  "score_decimal": "0.950079365079365075",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 0.7857142857142857,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R004": 0.9111111111111111,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "11.7857142857142855",
+    "R002": "25.0",
+    "R003": "25.0",
+    "R004": "18.2222222222222220",
+    "R005": "15.0"
+  },
+  "task_id": "NEW6-B-LABOUR-BRIEF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.9500793650793651,
+      "score_decimal": "0.950079365079365075",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.7857142857142857,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9111111111111111,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "11.7857142857142855",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "18.2222222222222220",
+        "R005": "15.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.9393650793650794,
+      "score_decimal": "0.93936507936507936",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.7857142857142857,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9111111111111111,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.7142857142857140",
+        "R002": "20.0",
+        "R003": "25.0",
+        "R004": "18.2222222222222220",
+        "R005": "15.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9563492063492064,
+      "score_decimal": "0.956349206349206345",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.7857142857142857,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R004": 0.9111111111111111,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "7.8571428571428570",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "22.7777777777777775",
+        "R005": "25.0"
+      }
+    }
+  },
+  "evidence": {
+    "task_version": "new6-b2-three-release-v3",
+    "judge_version": "new6-b2-offline-v3.3-chart-roles",
+    "candidate": "/original/new6/campaigns/new6-current-v3-144/runtime/codex/jobs/new6-current-v3-codex/N6V3-B2-CODEX-R07__ifCHHo3/artifacts/app/output/answer.xlsx",
+    "dynamic_tests": "Not required; correct static and formula implementations equally accepted.",
+    "regions": [
+      {
+        "sheet": "Updated briefing",
+        "header_row": 12,
+        "role": "shortlist",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_2023": 3,
+          "employment_2024": 4,
+          "employment_2025": 5,
+          "employment_change_23_24": 6,
+          "employment_change_24_25": 7,
+          "unemployment_2023": 8,
+          "unemployment_2024": 9,
+          "unemployment_2025": 10,
+          "unemployment_change_23_24": 11,
+          "unemployment_change_24_25": 12,
+          "unemployment_change_23_25": 13
+        }
+      },
+      {
+        "sheet": "Updated briefing",
+        "header_row": 20,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 4,
+          "employment_change_24_25": 5,
+          "unemployment_change_23_24": 6,
+          "unemployment_change_24_25": 7,
+          "reason": 8
+        }
+      },
+      {
+        "sheet": "Previous data",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "unemployment_2023": 4,
+          "unemployment_2024": 5,
+          "employment_change_23_24": 6,
+          "unemployment_change_23_24": 7
+        }
+      },
+      {
+        "sheet": "Previous shortlist",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "old_rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_change_23_24": 3,
+          "unemployment_change_23_24": 4
+        }
+      },
+      {
+        "sheet": "Previous exclusions",
+        "header_row": 1,
+        "role": "previous",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "reason": 2
+        }
+      },
+      {
+        "sheet": "Updated data",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1,
+          "employment_2023": 2,
+          "employment_2024": 3,
+          "employment_2025": 4,
+          "employment_change_23_24": 5,
+          "employment_change_24_25": 6,
+          "unemployment_2023": 7,
+          "unemployment_2024": 8,
+          "unemployment_2025": 9,
+          "unemployment_change_23_24": 10,
+          "unemployment_change_24_25": 11
+        }
+      },
+      {
+        "sheet": "Updated shortlist",
+        "header_row": 4,
+        "role": "shortlist",
+        "columns": {
+          "rank": 0,
+          "code": 1,
+          "name": 2,
+          "employment_2023": 3,
+          "employment_2024": 4,
+          "employment_2025": 5,
+          "employment_change_23_24": 6,
+          "employment_change_24_25": 7,
+          "unemployment_2023": 8,
+          "unemployment_2024": 9,
+          "unemployment_2025": 10,
+          "unemployment_change_23_24": 11,
+          "unemployment_change_24_25": 12,
+          "unemployment_change_23_25": 13
+        }
+      },
+      {
+        "sheet": "Updated exclusions",
+        "header_row": 1,
+        "role": "data",
+        "columns": {
+          "code": 0,
+          "name": 1
+        }
+      }
+    ],
+    "context": {
+      "periods": [
+        true,
+        true,
+        true
+      ],
+      "definitions": [
+        false,
+        true
+      ],
+      "sources": [
+        true,
+        true,
+        true
+      ],
+      "units": true,
+      "scope": true,
+      "sampling_limits": true
+    },
+    "exclusion_facts": [
+      {
+        "code": "E06000053",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000063",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000064",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000065",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E06000066",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000026",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000027",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000028",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000029",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000030",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000031",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000163",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000164",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000165",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000166",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000167",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000168",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000169",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000187",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000188",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000189",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E07000246",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      },
+      {
+        "code": "E09000001",
+        "reason": false,
+        "not_imputed": true,
+        "candidate_reasons": []
+      }
+    ],
+    "selection_facts": [
+      {
+        "sheet": "Updated briefing",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E07000141"
+        ],
+        "population": 1.0,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "sheet": "Updated shortlist",
+        "codes": [
+          "E07000142",
+          "E07000148",
+          "E09000020",
+          "E07000008",
+          "E07000141"
+        ],
+        "population": 1.0,
+        "order": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "support_obligations": [
+      {
+        "code": "E07000142",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000142",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000148",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E09000020",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000008",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_24",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000141",
+        "field": "unemployment_change_23_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000145",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000170",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000073",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "employment_change_24_25",
+        "correct": true
+      },
+      {
+        "code": "E07000066",
+        "field": "unemployment_change_24_25",
+        "correct": true
+      }
+    ],
+    "source_value_mismatches": [],
+    "optional_displayed_errors": [],
+    "chart_facts": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "metric": "employment_2023",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart1.xml",
+        "metric": "employment_2024",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart1.xml",
+        "metric": "employment_2025",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "metric": "unemployment_change_23_25",
+        "facts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "chart_evidence": [
+      {
+        "chart": "xl/charts/chart1.xml",
+        "series": [
+          {
+            "name": "West Lindsey",
+            "categories": [
+              "Employment 2023",
+              "Employment 2024",
+              "Employment 2025"
+            ],
+            "categories_cache": [],
+            "values": [
+              84.5,
+              66.9,
+              60.2
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Norwich",
+            "categories": [
+              "Employment 2023",
+              "Employment 2024",
+              "Employment 2025"
+            ],
+            "categories_cache": [],
+            "values": [
+              85.7,
+              78.1,
+              73.3
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Kensington and Chelsea",
+            "categories": [
+              "Employment 2023",
+              "Employment 2024",
+              "Employment 2025"
+            ],
+            "categories_cache": [],
+            "values": [
+              70.6,
+              63.4,
+              62.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Cambridge",
+            "categories": [
+              "Employment 2023",
+              "Employment 2024",
+              "Employment 2025"
+            ],
+            "categories_cache": [],
+            "values": [
+              80,
+              75.5,
+              64.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "South Kesteven",
+            "categories": [
+              "Employment 2023",
+              "Employment 2024",
+              "Employment 2025"
+            ],
+            "categories_cache": [],
+            "values": [
+              73.1,
+              72.8,
+              61.4
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Selected authorities: employment rate Observation period Percent",
+        "sheet": "Updated briefing",
+        "historical": false
+      },
+      {
+        "chart": "xl/charts/chart2.xml",
+        "series": [
+          {
+            "name": "Cumulative unemp change",
+            "categories": [
+              "West Lindsey",
+              "Norwich",
+              "Kensington and Chelsea",
+              "Cambridge",
+              "South Kesteven"
+            ],
+            "categories_cache": [],
+            "values": [
+              3,
+              2.5,
+              2.4,
+              2.2,
+              2
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Cumulative unemployment-rate increase Percentage points Authority",
+        "sheet": "Updated briefing",
+        "historical": false
+      },
+      {
+        "chart": "xl/charts/chart3.xml",
+        "series": [
+          {
+            "name": "Employment change 2023–2024 (pp)",
+            "categories": [
+              "Great Yarmouth",
+              "Ashfield",
+              "Norwich",
+              "Harlow",
+              "Basildon"
+            ],
+            "categories_cache": [],
+            "values": [
+              -6.3,
+              -15.2,
+              -7.6,
+              -3.2,
+              -10.5
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          },
+          {
+            "name": "Unemployment change 2023–2024 (pp)",
+            "categories": [
+              "Great Yarmouth",
+              "Ashfield",
+              "Norwich",
+              "Harlow",
+              "Basildon"
+            ],
+            "categories_cache": [],
+            "values": [
+              3,
+              2.5,
+              2.4,
+              2.3,
+              2.1
+            ],
+            "values_cache": [],
+            "point_count_consistent": true
+          }
+        ],
+        "title": "Previous shortlist changes (pp) ",
+        "sheet": "Previous shortlist",
+        "historical": true
+      }
+    ],
+    "movement_facts": [
+      {
+        "code": "E07000008",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "reason": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "_loc": "Updated briefing!29",
+            "_text": "• || Kensington and Chelsea, Cambridge and South Kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000066",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "5 || e07000066 || basildon || dropped from updated shortlist || -10.5 || -1.4 || 2.1 || -1 || does not qualify because unemployment did not rise in 2024–25.",
+            "reason": "5 || e07000066 || basildon || dropped from updated shortlist || -10.5 || -1.4 || 2.1 || -1 || does not qualify because unemployment did not rise in 2024–25.",
+            "_loc": "Updated briefing!25",
+            "_text": "5 || E07000066 || Basildon || Dropped from updated shortlist || -10.5 || -1.4 || 2.1 || -1 || Does not qualify because unemployment did not rise in 2024–25.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000073",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "4 || e07000073 || harlow || dropped from updated shortlist || -3.2 || -5.7 || 2.3 || -0.4 || does not qualify because unemployment did not rise in 2024–25.",
+            "reason": "4 || e07000073 || harlow || dropped from updated shortlist || -3.2 || -5.7 || 2.3 || -0.4 || does not qualify because unemployment did not rise in 2024–25.",
+            "_loc": "Updated briefing!24",
+            "_text": "4 || E07000073 || Harlow || Dropped from updated shortlist || -3.2 || -5.7 || 2.3 || -0.4 || Does not qualify because unemployment did not rise in 2024–25.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000141",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "reason": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "_loc": "Updated briefing!29",
+            "_text": "• || Kensington and Chelsea, Cambridge and South Kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000142",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• || west lindsey is new to the top five and has the largest cumulative unemployment increase (3.0 pp); it was 19th in the prior one-comparison ranking.",
+            "reason": "• || west lindsey is new to the top five and has the largest cumulative unemployment increase (3.0 pp); it was 19th in the prior one-comparison ranking.",
+            "_loc": "Updated briefing!28",
+            "_text": "• || West Lindsey is new to the top five and has the largest cumulative unemployment increase (3.0 pp); it was 19th in the prior one-comparison ranking.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000145",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "1 || e07000145 || great yarmouth || dropped from updated shortlist || -6.3 || 11.3 || 3 || -1.5 || does not qualify because unemployment did not rise in 2024–25.",
+            "reason": "1 || e07000145 || great yarmouth || dropped from updated shortlist || -6.3 || 11.3 || 3 || -1.5 || does not qualify because unemployment did not rise in 2024–25.",
+            "_loc": "Updated briefing!21",
+            "_text": "1 || E07000145 || Great Yarmouth || Dropped from updated shortlist || -6.3 || 11.3 || 3 || -1.5 || Does not qualify because unemployment did not rise in 2024–25.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000148",
+        "expected": "retained",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "3 || e07000148 || norwich || still qualifies || -7.6 || -4.8 || 2.4 || 0.1 || continued deterioration in both comparisons; retained in top five by cumulative increase.",
+            "reason": "3 || e07000148 || norwich || still qualifies || -7.6 || -4.8 || 2.4 || 0.1 || continued deterioration in both comparisons; retained in top five by cumulative increase.",
+            "_loc": "Updated briefing!23",
+            "_text": "3 || E07000148 || Norwich || Still qualifies || -7.6 || -4.8 || 2.4 || 0.1 || Continued deterioration in both comparisons; retained in top five by cumulative increase.",
+            "from_prose": true
+          },
+          {
+            "movement": "• || norwich is the only previous top-five authority retained; its cumulative increase is 2.5 pp and it is second in the updated ranking.",
+            "reason": "• || norwich is the only previous top-five authority retained; its cumulative increase is 2.5 pp and it is second in the updated ranking.",
+            "_loc": "Updated briefing!30",
+            "_text": "• || Norwich is the only previous top-five authority retained; its cumulative increase is 2.5 pp and it is second in the updated ranking.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E07000170",
+        "expected": "left",
+        "label": true,
+        "reason": true,
+        "candidate": [
+          {
+            "movement": "2 || e07000170 || ashfield || dropped from updated shortlist || -15.2 || 9.5 || 2.5 || -0.4 || does not qualify because unemployment did not rise in 2024–25.",
+            "reason": "2 || e07000170 || ashfield || dropped from updated shortlist || -15.2 || 9.5 || 2.5 || -0.4 || does not qualify because unemployment did not rise in 2024–25.",
+            "_loc": "Updated briefing!22",
+            "_text": "2 || E07000170 || Ashfield || Dropped from updated shortlist || -15.2 || 9.5 || 2.5 || -0.4 || Does not qualify because unemployment did not rise in 2024–25.",
+            "from_prose": true
+          }
+        ]
+      },
+      {
+        "code": "E09000020",
+        "expected": "entered",
+        "label": true,
+        "reason": false,
+        "candidate": [
+          {
+            "movement": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "reason": "• || kensington and chelsea, cambridge and south kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "_loc": "Updated briefing!29",
+            "_text": "• || Kensington and Chelsea, Cambridge and South Kesteven are new to the top five (prior one-comparison ranks 22, 13 and 43 respectively).",
+            "from_prose": true
+          }
+        ]
+      }
+    ],
+    "brief_facts": {
+      "exists": true,
+      "claims": [],
+      "labelled_code_lists": []
+    },
+    "preservation": {
+      "external_available": false,
+      "embedded_available": 1.0,
+      "historical_components": {
+        "data": true,
+        "shortlist": true,
+        "brief": true,
+        "exclusions": true,
+        "chart": true
+      },
+      "embedded_consistent": true,
+      "sources_unchanged": [
+        true,
+        true,
+        true
+      ]
+    },
+    "denominators": {
+      "current_selected": 5,
+      "required_support": 33,
+      "movement_authorities": 9,
+      "unassessable_authorities": 23,
+      "context_buckets": 7
+    },
+    "external_acceptance_gaps": [
+      "Formal difficulty validation pending",
+      "External negative-item and agentic parser acceptance not asserted"
+    ]
+  },
+  "reproduction": {
+    "task_root": "candidates/b2-three-release-v3/tasks/NEW6-B-LABOUR-BRIEF-001",
+    "original_sha256": "3e4f00a1867f3640116b13044116e2afb8ca92638dd4299a811aaf321ba54dab",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

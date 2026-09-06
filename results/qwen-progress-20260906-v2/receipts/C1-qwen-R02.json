@@ -1,0 +1,10 @@
+{
+  "case": "C1-qwen-R02",
+  "trial_id": "N6GPAR-C1-QWEN-R02__eWXn9B2",
+  "answer_sha256": "962391b0e74abca624410b03ac8aacfc94f6feee4479f049781969e608b2e3fd",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": null,
+  "evaluation_status": "JUDGE_ERROR",
+  "criterion_scores": null,
+  "technical_reason": "Material natural-review label remains unbound: [{'sheet': 'Cost Breakdown', 'label': 'Total provisional sums (memorandum — within elemental costs)', 'header': {'label': 2, 'printed': 3, 'working': 4}, 'context': 'Cost Breakdown Source: OCE RevA, Basis of Estimate'}, {'sheet': 'Reconciliation', 'label': 'Recalculated original cost limit (Inflation Excluded)', 'header': {'label': 1, 'printed': 2}, 'context': 'Reconciliation 2. BRIDGE — MOVEMENT IN THE COST LIMIT (full precision, from the recalculated original position)'}, {'sheet': 'Reconciliation', 'label': 'Main Contractors O&P (10%) on the elemental movement', 'header': {'label': 1, 'printed': 2}, 'context': 'Reconciliation 2. BRIDGE — MOVEMENT IN THE COST LIMIT (full precision, from the recalculated original position)'}]"
+}

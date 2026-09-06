@@ -1,0 +1,22 @@
+{
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "files": [
+    {
+      "path": "instruction.md",
+      "size": 554,
+      "sha256": "031c0023c2992416c7387a3c16e45cc2f03d2cfea31df21df937d30beab45243"
+    },
+    {
+      "path": "data/input_files/AmazonSept18_restore.xlsx",
+      "size": 173038,
+      "sha256": "48b0e2fe984245aafabcbe157615c75e19d7ea43cf92162e2ad8673d29966b47"
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "size": 1067,
+      "sha256": "959b637a31a56c41d8463008ea2e18bd4153e3c14c55f102f809a6335596d38f"
+    }
+  ],
+  "no_private_oracle_or_reference_mounted": true,
+  "historical_rate_construction_is_visible": true
+}

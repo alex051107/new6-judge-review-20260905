@@ -1,0 +1,144 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "attempt": 2,
+  "provider": "ZCloud",
+  "requested_model": "claude-opus-5",
+  "cli": "Claude Code 2.1.251",
+  "harbor_version": "0.22.0",
+  "task_version": "new6-b1-v2",
+  "judge_version": "new6-b1-bridge-facts-v2",
+  "frozen_task_package": "harbor_wrappers/bridge-v2/NEW6-B-RETAIL-CLOSE-001",
+  "instruction_sha256": "f6039f8ce2d36a5bac0cdb59b7f69bad16a3263048f21bc17bf31ed87dd8df61",
+  "trial_path": "harbor_jobs/new6-first-20260905T150832Z/NEW6-B-RETAIL-CLOSE-001__w6ASgFa",
+  "output_exists": true,
+  "output_sha256": "00b721f3f0fbe40310cabe1c3f7a1f476b31dc6117f7e1641c6743fd93500ba7",
+  "original_evaluation_status": "JUDGE_ERROR",
+  "original_score": null,
+  "original_score_decimal": null,
+  "original_pass": null,
+  "profile_results": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6829482397006256,
+      "score_decimal": "0.6829482397006255775",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.4589649858122249,
+        "R002": 0.10984434720083147,
+        "R003": 1.0,
+        "R004": 0.6124031007751938,
+        "R005": 0.5,
+        "R006": 0.5530660560428471,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "4.5896498581222490",
+        "R002": "1.64766520801247205",
+        "R003": "10.0",
+        "R004": "9.1860465116279070",
+        "R005": "4.0",
+        "R006": "3.8714623922999297",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.6752763339524771,
+      "score_decimal": "0.6752763339524771325",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.4589649858122249,
+        "R002": 0.10984434720083147,
+        "R003": 1.0,
+        "R004": 0.6124031007751938,
+        "R005": 0.5,
+        "R006": 0.5530660560428471,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "6.8844747871833735",
+        "R002": "1.64766520801247205",
+        "R003": "15.0",
+        "R004": "6.1240310077519380",
+        "R005": "4.0",
+        "R006": "3.8714623922999297",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.696244890965886,
+      "score_decimal": "0.6962448909658860464",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.4589649858122249,
+        "R002": 0.10984434720083147,
+        "R003": 1.0,
+        "R004": 0.6124031007751938,
+        "R005": 0.5,
+        "R006": 0.5530660560428471,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "4.5896498581222490",
+        "R002": "1.31813216640997764",
+        "R003": "10.0",
+        "R004": "9.1860465116279070",
+        "R005": "4.0",
+        "R006": "5.5306605604284710",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "criterion_scores": {
+    "R001": 0.4589649858122249,
+    "R002": 0.10984434720083147,
+    "R003": 1.0,
+    "R004": 0.6124031007751938,
+    "R005": 0.5,
+    "R006": 0.5530660560428471,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "judge_receipt": "harbor_jobs/new6-first-20260905T150832Z/NEW6-B-RETAIL-CLOSE-001__w6ASgFa/verifier/judge-result.json",
+  "client_cost_usd": 1.1761775,
+  "provider_cost_usd": 0.193346,
+  "provider_cost_status": "EXACT_REQUEST_USAGE_ATTRIBUTION",
+  "observed_response_models": [
+    "claude-opus-5"
+  ],
+  "observed_cli_versions": [
+    "2.1.251"
+  ],
+  "started_at": "2026-09-05T15:08:35.205777Z",
+  "finished_at": "2026-09-05T15:17:23.321528Z",
+  "input_tokens": 1005649,
+  "cached_tokens": 947785,
+  "output_tokens": 13628,
+  "exception_info": null,
+  "additional_agent_calls": 0,
+  "formal_difficulty_verified": false,
+  "recorded_at": "2026-09-05T15:17:42.828489+00:00",
+  "provider_cost_quota": 96673,
+  "provider_cost_attribution": "validation/provider_attribution_current.json",
+  "rejudge_status": "SCORED",
+  "rejudge_judge_version": "new6-b1-reader-v2.2",
+  "rejudge_score": 0.6829482397006256,
+  "rejudge_score_decimal": "0.6829482397006255775",
+  "rejudge_pass": false,
+  "rejudge_receipt": "metadata/attempt_2_rejudge_v22/same_original_receipt.json",
+  "rejudge_calibration_receipt": "metadata/attempt_2_rejudge_v22/validation_receipt.json",
+  "native_recalculation_receipt": "metadata/attempt_2_rejudge_v21/recalc.json",
+  "actual_delivery_audit": "metadata/attempt_2_rejudge_v22/actual_delivery_audit.json",
+  "original_unchanged": true,
+  "prior_rejudge_v21": "metadata/attempt_2_rejudge_v21/same_original_receipt.json"
+}

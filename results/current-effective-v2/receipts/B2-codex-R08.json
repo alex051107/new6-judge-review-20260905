@@ -1,0 +1,19 @@
+{
+  "case": "B2-codex-R08",
+  "trial_id": "N6V3-B2-CODEX-R08__LBsp2Nj",
+  "answer_sha256": "c441f555db4632af4d6fbc1e30ba55635fc37387f01a81cc2bd50e3751893b9b",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b2-offline-v3.3-chart-roles",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "0.8571428571428571",
+    "R002": "0.875",
+    "R003": "1.0",
+    "R004": "0.888888888888889",
+    "R005": "1.0"
+  },
+  "original_points": "92.5099206349206365",
+  "focus50_points": "92.7731990231990258791208791208791208791208791209",
+  "focus60_points": "92.9487179487179521318681318681318681318681318681",
+  "focus70_points": "93.1242368742368783846153846153846153846153846154"
+}

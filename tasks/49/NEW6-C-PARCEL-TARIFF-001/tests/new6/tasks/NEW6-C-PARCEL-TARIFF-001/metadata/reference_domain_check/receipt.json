@@ -1,0 +1,51 @@
+{
+  "kind": "reference_source_method_check_only_not_candidate_mutation",
+  "risk": "Ground ounce upper bound 15.999, then pound band",
+  "weight_oz": "15.9995",
+  "oracle": {
+    "status": "in_scope",
+    "priority": "14.50",
+    "priority_band": [
+      "1",
+      "lb"
+    ],
+    "ground": "11.35",
+    "ground_band": [
+      "1",
+      "lb"
+    ],
+    "selected": "ground",
+    "selected_usd": "11.35"
+  },
+  "actual": {
+    "priority_usd": 14.5,
+    "ground_usd": 11.35,
+    "selected_usd": 11.35
+  },
+  "passed": true,
+  "recalc": {
+    "source": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/15_9995_oz.xlsx",
+    "source_sha256_before": "02bc72254fcd186095ccc70d1d1cb1a288bf872791f4a7df1e5ad416e741f9c2",
+    "isolated_input": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/native/recalc-4uax8cyi/input/15_9995_oz.xlsx",
+    "engine": "/opt/homebrew/bin/soffice",
+    "command": [
+      "/opt/homebrew/bin/soffice",
+      "-env:UserInstallation=file://new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/native/recalc-4uax8cyi/profile",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/native/recalc-4uax8cyi/output",
+      "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/native/recalc-4uax8cyi/input/15_9995_oz.xlsx"
+    ],
+    "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+    "cleared_formula_cache_count": 0,
+    "isolated_input_sha256": "ec1f27f2e8dd2675c90180d886f22880105035b12b2e3a39932a66653089fa1f",
+    "returncode": 0,
+    "output": "new6/tasks/NEW6-C-PARCEL-TARIFF-001/metadata/reference_domain_check/native/recalc-4uax8cyi/output/15_9995_oz.xlsx",
+    "output_sha256": "de8006af615b92edca3c013879baea74fade71bb6a026b6415c3002db67e6176",
+    "elapsed_seconds": 3.167380958009744,
+    "source_sha256_after": "02bc72254fcd186095ccc70d1d1cb1a288bf872791f4a7df1e5ad416e741f9c2",
+    "original_unchanged": true
+  }
+}

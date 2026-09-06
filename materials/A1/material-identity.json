@@ -1,0 +1,26 @@
+{
+  "task": "A1",
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "task_version": "new6-a1-v1.1-historical-rate",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 554
+    },
+    {
+      "path": "data/input_files/AmazonSept18_restore.xlsx",
+      "bytes": 173038
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 1067
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "f9729f492c85d06b2071eadb323f7043ca7b999c51c13638ad840aca3f8a5149",
+  "zip_sha256": "998bfcbb4ac0de5e66611624755cd55d8e430b49d22724339b468771dbb172af",
+  "agent_output_sha256": "510d623e625be84c32421d2a357df6fe59e17cf3505c20013ac186fd65c70667",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

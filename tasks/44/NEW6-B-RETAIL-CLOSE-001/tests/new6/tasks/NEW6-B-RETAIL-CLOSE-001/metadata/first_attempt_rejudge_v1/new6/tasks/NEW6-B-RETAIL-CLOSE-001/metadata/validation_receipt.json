@@ -1,0 +1,16 @@
+{
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "status": "CALIBRATION_PASSED",
+  "fixture_count": 20,
+  "failed": [],
+  "missing": [],
+  "agent_attempts": 0,
+  "profiles": "same candidate facts, fixed 3 profiles; only raw >=0.70 is pass",
+  "actual_checks": "one combined runner covering the declared categories; after defects rerun affected cases only",
+  "source_oracle": "All source occurrences classified and forward Decimal results independently checked using reverse document-first grouping.",
+  "real_fixture_anchors": {
+    "credit": "Online Retail:372166",
+    "repeated_looking_occurrence": "Online Retail:370974",
+    "outside": "Online Retail:369046"
+  }
+}

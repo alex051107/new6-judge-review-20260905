@@ -1,0 +1,262 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.4846489142984086,
+  "score_decimal": "0.48464891429840862355",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 0.35234029340992007,
+    "R002": 0.009472636815920397,
+    "R003": 1.0,
+    "R004": 0.5910852713178295,
+    "R005": 0.5,
+    "R006": 0.5142552200574401,
+    "R007": 0.3333333333333333,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "3.52340293409920070",
+    "R002": "0.142089552238805955",
+    "R003": "10.0",
+    "R004": "8.8662790697674425",
+    "R005": "4.0",
+    "R006": "3.5997865404020807",
+    "R007": "8.3333333333333325",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.4846489142984086,
+      "score_decimal": "0.48464891429840862355",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 1.0,
+        "R004": 0.5910852713178295,
+        "R005": 0.5,
+        "R006": 0.5142552200574401,
+        "R007": 0.3333333333333333,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.52340293409920070",
+        "R002": "0.142089552238805955",
+        "R003": "10.0",
+        "R004": "8.8662790697674425",
+        "R005": "4.0",
+        "R006": "3.5997865404020807",
+        "R007": "8.3333333333333325",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.5060449987363465,
+      "score_decimal": "0.50604499873634648705",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 1.0,
+        "R004": 0.5910852713178295,
+        "R005": 0.5,
+        "R006": 0.5142552200574401,
+        "R007": 0.3333333333333333,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "5.28510440114880105",
+        "R002": "0.142089552238805955",
+        "R003": "15.0",
+        "R004": "5.9108527131782950",
+        "R005": "4.0",
+        "R006": "3.5997865404020807",
+        "R007": "6.6666666666666660",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.5331257251289876,
+      "score_decimal": "0.53312572512898754964",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.35234029340992007,
+        "R002": 0.009472636815920397,
+        "R003": 1.0,
+        "R004": 0.5910852713178295,
+        "R005": 0.5,
+        "R006": 0.5142552200574401,
+        "R007": 0.3333333333333333,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "3.52340293409920070",
+        "R002": "0.113671641791044764",
+        "R003": "10.0",
+        "R004": "8.8662790697674425",
+        "R005": "4.0",
+        "R006": "5.1425522005744010",
+        "R007": "6.6666666666666660",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/original/new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-B-RETAIL-CLOSE-001-CLAUDE-R__kPxWvsW/artifacts/app/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": false,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": false,
+        "Net recorded value change": false,
+        "Bridge residual": true
+      },
+      "candidate_bridge_closure": [
+        false
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [],
+      "invoices": [
+        {
+          "sheet": "Invoice Analysis",
+          "header_row": 3,
+          "row_count": 2640
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "Country Analysis",
+          "header_row": 3,
+          "row_count": 43
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "Exception Register",
+          "header_row": 3,
+          "row_count": 238
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 6,
+          "row_count": 2
+        }
+      ],
+      "report": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 6,
+          "row_count": 3
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "Bridge Analysis",
+          "header_row": 4,
+          "row_count": 14
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 6,
+          "row_count": 2
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "SKU Schedule",
+          "header_row": 3,
+          "row_count": 3073
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3
+      ],
+      "Signed credits": [
+        -84274.62999999999
+      ],
+      "Net recorded value": [
+        1070704.67,
+        "1070704.67"
+      ],
+      "Exception recorded amount": [
+        "0"
+      ],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [],
+    "candidate_country_self_consistency": 0.023255813953488372,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 0,
+    "chart_cache_self_consistency": [],
+    "chart_evidence": [],
+    "chart_semantic_bindings": [],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 10050,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "3cf222ff506e2667b025e1ebaaa593bcb3437b145bbb5518ade00a52da75670e",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

@@ -1,0 +1,1 @@
+convert new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/input/reference_unrecalculated.xlsx as a Calc document -> new6/tasks/NEW6-A-FIN-RESTORE-001/metadata/reference_recalc/recalc-lzp18e39/output/reference_unrecalculated.xlsx using filter : Calc Office Open XML

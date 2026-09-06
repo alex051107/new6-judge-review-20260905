@@ -1,0 +1,2994 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.6963135894218356,
+  "score_decimal": "0.696313589421835675",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 0.8571428571428571,
+    "R002": 1.0,
+    "R003": 0.8169014084507042,
+    "R006": 0.0,
+    "R004": 0.4220430107526882,
+    "R005": 0.9900793650793651
+  },
+  "contributions_raw": {
+    "R001": "8.5714285714285710",
+    "R002": "25.0",
+    "R003": "16.3380281690140840",
+    "R004": "14.7715053763440870",
+    "R005": "4.9503968253968255",
+    "R006": "0.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.6963135894218356,
+      "score_decimal": "0.696313589421835675",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 0.8169014084507042,
+        "R006": 0.0,
+        "R004": 0.4220430107526882,
+        "R005": 0.9900793650793651
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "25.0",
+        "R003": "16.3380281690140840",
+        "R004": "14.7715053763440870",
+        "R005": "4.9503968253968255",
+        "R006": "0.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.7378115016262449,
+      "score_decimal": "0.73781150162624492",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 0.8169014084507042,
+        "R006": 0.0,
+        "R004": 0.4220430107526882,
+        "R005": 0.9900793650793651
+      },
+      "contributions_raw": {
+        "R001": "12.8571428571428565",
+        "R002": "25.0",
+        "R003": "20.4225352112676050",
+        "R004": "10.5510752688172050",
+        "R005": "4.9503968253968255",
+        "R006": "0.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.6674157399594701,
+      "score_decimal": "0.667415739959470085",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 0.8571428571428571,
+        "R002": 1.0,
+        "R003": 0.8169014084507042,
+        "R006": 0.0,
+        "R004": 0.4220430107526882,
+        "R005": 0.9900793650793651
+      },
+      "contributions_raw": {
+        "R001": "8.5714285714285710",
+        "R002": "20.0",
+        "R003": "16.3380281690140840",
+        "R004": "16.8817204301075280",
+        "R005": "4.9503968253968255",
+        "R006": "0.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/original/new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__d2n7Tg4/artifacts/app/output/answer.xlsx",
+    "judge_version": "new6-a1-offline-v1.4-base-controls",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          11
+        ],
+        "expected": "17844.81783021400858878991921875000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          11
+        ],
+        "expected": "41637.90827049935337384314484375000000000",
+        "candidate": [
+          null
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_cashflow"
+        ],
+        "expected": "41637.90827049935337384314484375000000000",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_value"
+        ],
+        "expected": "925286.85045554118608540321875000000000",
+        "candidate": [
+          0,
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_pv"
+        ],
+        "expected": "435437.6542900388786507240160563612579707",
+        "candidate": [
+          0,
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "total_pv"
+        ],
+        "expected": "642144.4152206583667697363167504474058831",
+        "candidate": [
+          206706.76093062
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "operating_assets"
+        ],
+        "expected": "642144.4152206583667697363167504474058831",
+        "candidate": [
+          206706.76093062,
+          206706.76093062
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          188321.562359527,
+          188321.562359527
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "options"
+        ],
+        "expected": "0",
+        "candidate": [
+          41499.9694373109
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "common_equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          146821.592922217
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "value_per_share"
+        ],
+        "expected": "1255.048725653050991404894259556869880579",
+        "candidate": [
+          295.415690065212,
+          295.415690065212
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "price"
+        ],
+        "expected": "1970.19",
+        "candidate": [
+          979184.43
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "price_ratio"
+        ],
+        "expected": "1.569811561678478262528814932961250737685",
+        "candidate": [
+          null
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          11
+        ],
+        "expected": "14989.64697737976721458353214375000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          11
+        ],
+        "expected": "34975.84294721945683402824166875000000000",
+        "candidate": [
+          null
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_cashflow"
+        ],
+        "expected": "34975.84294721945683402824166875000000000",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_value"
+        ],
+        "expected": "777240.95438265459631173870375000000000",
+        "candidate": [
+          0,
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_pv"
+        ],
+        "expected": "365767.6296036326580666081734873434566954",
+        "candidate": [
+          0,
+          0
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "total_pv"
+        ],
+        "expected": "536747.5443416147702214619638605966476585",
+        "candidate": [
+          170979.914737982
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "operating_assets"
+        ],
+        "expected": "536747.5443416147702214619638605966476585",
+        "candidate": [
+          170979.914737982,
+          170979.914737982
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          152594.71616689,
+          152594.71616689
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "options"
+        ],
+        "expected": "0",
+        "candidate": [
+          41499.9694373109
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "common_equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          111094.746729579
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "value_per_share"
+        ],
+        "expected": "1042.982587063426048651827151126586664836",
+        "candidate": [
+          223.530677524304,
+          223.530677524304
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "price"
+        ],
+        "expected": "1970.19",
+        "candidate": [
+          979184.43
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "price_ratio"
+        ],
+        "expected": "1.888996062290144872620078900330020189295",
+        "candidate": [
+          null
+        ]
+      }
+    ],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": false,
+      "review_equity": false,
+      "difference": false,
+      "base_share": false,
+      "review_share": false
+    },
+    "candidate_formula_defects": [
+      {
+        "sheet": "Input sheet (Base)",
+        "cell": "I23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Base)",
+        "cell": "I25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B7"
+          ],
+          [
+            "Valuation output",
+            "B39"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Base)",
+        "cell": "J30",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Base)",
+        "cell": "J31",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M5"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Base)",
+        "cell": "J32",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L40"
+          ]
+        ]
+      },
+      {
+        "sheet": "Valuation output (Base)",
+        "cell": "M40",
+        "reason": "division_by_blank_or_zero_scalar_alias",
+        "reference": [
+          "Valuation output (Base)",
+          "M39"
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M2"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B6"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M6"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F12",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M2"
+          ],
+          [
+            "Valuation output",
+            "M40"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B13",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B40"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F13",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M40"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C14",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F14",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B18",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C18",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E18",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F18",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B19",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C19",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E19",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F19",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B20",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C20",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E20",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F20",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B21",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C21",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E21",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F21",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B22",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C22",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E22",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F22",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B26",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C26",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E26",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F26",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "B27",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "C27",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "E27",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "F27",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M8"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D29",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B18"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D30",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B19"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D31",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B20"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D32",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B21"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D33",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B24"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "G33",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B22"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D34",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B25"
+          ],
+          [
+            "Valuation output",
+            "B26"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D35",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B27"
+          ],
+          [
+            "Valuation output",
+            "B28"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D37",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B30"
+          ]
+        ]
+      },
+      {
+        "sheet": "Stories to Numbers",
+        "cell": "D38",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B32"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B2",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D2",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F2",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H2",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "C3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C2"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B4",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D4",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F4",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H4",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B6",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D6",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F6",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H6",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B8",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D8",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F8",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H8",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H11",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "B12",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D12",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "F12",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H12",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L7"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "G15",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B39"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D16",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D18",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D19",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D20",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D21",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D22",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "D25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L38"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H28",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "C12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H29",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "D12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H30",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "E12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H31",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "F12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H32",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "G12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H33",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "H12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H34",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "I12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H35",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "J12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H36",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "K12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "H37",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Summary Sheet",
+        "cell": "E49",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B18"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B2",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B39"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B3",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L39"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L5"
+          ],
+          [
+            "Valuation output",
+            "B5"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L40"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B8",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L13"
+          ]
+        ]
+      },
+      {
+        "sheet": "Diagnostics",
+        "cell": "B9",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B33"
+          ],
+          [
+            "Valuation output",
+            "B34"
+          ]
+        ]
+      },
+      {
+        "sheet": "R& D converter",
+        "cell": "D40",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B21"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B4",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B18"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B19"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B10",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B28"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B16",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B12"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B17",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B10"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B24",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B21"
+          ]
+        ]
+      },
+      {
+        "sheet": "Cost of capital worksheet",
+        "cell": "B31",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B14"
+          ]
+        ]
+      },
+      {
+        "sheet": "Synthetic rating",
+        "cell": "F5",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B14"
+          ],
+          [
+            "Input sheet",
+            "B9"
+          ],
+          [
+            "Input sheet",
+            "B9"
+          ]
+        ]
+      },
+      {
+        "sheet": "Synthetic rating",
+        "cell": "F6",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B14"
+          ]
+        ]
+      },
+      {
+        "sheet": "Synthetic rating",
+        "cell": "F7",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Input sheet",
+            "B28"
+          ]
+        ]
+      },
+      {
+        "sheet": "Valuation output (Review)",
+        "cell": "M40",
+        "reason": "division_by_blank_or_zero_scalar_alias",
+        "reference": [
+          "Valuation output (Review)",
+          "M39"
+        ]
+      },
+      {
+        "sheet": "Input sheet (Review)",
+        "cell": "I23",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B4"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Review)",
+        "cell": "I25",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "B7"
+          ],
+          [
+            "Valuation output",
+            "B39"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Review)",
+        "cell": "J30",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M3"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Review)",
+        "cell": "J31",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "M5"
+          ]
+        ]
+      },
+      {
+        "sheet": "Input sheet (Review)",
+        "cell": "J32",
+        "reason": "reference_to_nonexistent_sheet",
+        "references": [
+          [
+            "Valuation output",
+            "L40"
+          ]
+        ]
+      }
+    ],
+    "control_binding": [
+      {
+        "control": "growth",
+        "method": "explicit base-case input; review must respond as required by the existing brief",
+        "candidates": [
+          [
+            "Input sheet (Base)",
+            "B23",
+            0.15
+          ],
+          [
+            "Input sheet (Review)",
+            "B23",
+            0.15
+          ]
+        ],
+        "selected": [
+          "Input sheet (Base)",
+          "B23",
+          0.15
+        ]
+      },
+      {
+        "control": "margin",
+        "method": "explicit base-case input; review must respond as required by the existing brief",
+        "candidates": [
+          [
+            "Input sheet (Base)",
+            "B24",
+            0.125
+          ],
+          [
+            "Input sheet (Review)",
+            "B24",
+            0.105
+          ]
+        ],
+        "selected": [
+          "Input sheet (Base)",
+          "B24",
+          0.125
+        ]
+      },
+      {
+        "control": "discount",
+        "method": "explicit base-case input; review must respond as required by the existing brief",
+        "candidates": [
+          [
+            "Input sheet (Base)",
+            "B29",
+            0.0797
+          ],
+          [
+            "Input sheet (Review)",
+            "B29",
+            0.0797
+          ]
+        ],
+        "selected": [
+          "Input sheet (Base)",
+          "B29",
+          0.0797
+        ]
+      }
+    ],
+    "native_baseline": {
+      "source": "/original/new6/campaigns/new6-144-v1/runtime-six/claude/jobs/new6-144-claude/NEW6-A-FIN-RESTORE-001-CLAUDE-R0__d2n7Tg4/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "25b8a2e9c080a9efdb5867b58853babd7ec5dfc9aa0a63b8385cad2d2b80410d",
+      "isolated_input": "/results/run/A1-claude-R02/native/recalc-qz6_wg53/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/run/A1-claude-R02/native/recalc-qz6_wg53/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/run/A1-claude-R02/native/recalc-qz6_wg53/output",
+        "/results/run/A1-claude-R02/native/recalc-qz6_wg53/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1131,
+      "isolated_input_sha256": "5531e6490c5178ab04c33d0bc530f2cc9c75887d78f0fffc42f8a2d628fd6266",
+      "returncode": 0,
+      "output": "/results/run/A1-claude-R02/native/recalc-qz6_wg53/output/answer.xlsx",
+      "output_sha256": "be81284c8861e1f78021369cf42a9757608b9c383c8d16e0191416a647248025",
+      "elapsed_seconds": 0.9922931670153048,
+      "source_sha256_after": "25b8a2e9c080a9efdb5867b58853babd7ec5dfc9aa0a63b8385cad2d2b80410d",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet (Base)",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 73,
+        "mismatches": [
+          {
+            "fact": [
+              "annual",
+              "base",
+              "reinvestment",
+              11
+            ],
+            "expected_delta": "1129.99498535033279414242479405000000000",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              11
+            ],
+            "expected_delta": "2636.65496581744318633232451945000000000",
+            "before": [
+              null
+            ],
+            "after": [
+              null
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_cashflow"
+            ],
+            "expected_delta": "2636.65496581744318633232451945000000000",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_value"
+            ],
+            "expected_delta": "58592.33257372095969627387821000000000",
+            "before": [
+              0,
+              0
+            ],
+            "after": [
+              0,
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_pv"
+            ],
+            "expected_delta": "27573.4036885124544429760046492608511064",
+            "before": [
+              0,
+              0
+            ],
+            "after": [
+              0,
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "total_pv"
+            ],
+            "expected_delta": "34970.6941121153616564427654616139259683",
+            "before": [
+              206706.76093062
+            ],
+            "after": [
+              214104.051354223
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "operating_assets"
+            ],
+            "expected_delta": "34970.6941121153616564427654616139259683",
+            "before": [
+              206706.76093062,
+              206706.76093062
+            ],
+            "after": [
+              214104.051354223,
+              214104.051354223
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "equity"
+            ],
+            "expected_delta": "34970.6941121153616564427654616139259683",
+            "before": [
+              188321.562359527,
+              188321.562359527
+            ],
+            "after": [
+              195718.85278313,
+              195718.85278313
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "common_equity"
+            ],
+            "expected_delta": "34970.6941121153616564427654616139259683",
+            "before": [
+              146821.592922217
+            ],
+            "after": [
+              154218.88334582
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "value_per_share"
+            ],
+            "expected_delta": "70.363569642083222648778200123971682029",
+            "before": [
+              295.415690065212,
+              295.415690065212
+            ],
+            "after": [
+              310.299574217331,
+              310.299574217331
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "-0.083338252962648922556990030234979308306",
+            "before": [
+              null
+            ],
+            "after": [
+              null
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "growth",
+              1
+            ],
+            "expected_delta": "0.01",
+            "before": [
+              0.15
+            ],
+            "after": [
+              0.15
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/run/A1-claude-R02/native/growth_input_changed.xlsx",
+          "source_sha256_before": "d0ddee1e701e732a8dc34063dbb70a590b4b8d40bc05f257d6c2acb2e059cf49",
+          "isolated_input": "/results/run/A1-claude-R02/native/recalc-337i6yox/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/A1-claude-R02/native/recalc-337i6yox/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/A1-claude-R02/native/recalc-337i6yox/output",
+            "/results/run/A1-claude-R02/native/recalc-337i6yox/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "0d6d90bea7489d11d20c0c202d9f7db167e71b04c2cd7931b18bcdc6998f27f3",
+          "returncode": 0,
+          "output": "/results/run/A1-claude-R02/native/recalc-337i6yox/output/growth_input_changed.xlsx",
+          "output_sha256": "483221971c2104576a9cb57277c8f99b4094173fc8d3d6dbd66ca9e8e55b9905",
+          "elapsed_seconds": 0.9197783340059686,
+          "source_sha256_after": "d0ddee1e701e732a8dc34063dbb70a590b4b8d40bc05f257d6c2acb2e059cf49",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet (Base)",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 54,
+        "mismatches": [
+          {
+            "fact": [
+              "annual",
+              "base",
+              "reinvestment",
+              11
+            ],
+            "expected_delta": "-1427.58542641712068710319353750000000000",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              11
+            ],
+            "expected_delta": "-3331.03266163994826990745158750000000000",
+            "before": [
+              null
+            ],
+            "after": [
+              null
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_cashflow"
+            ],
+            "expected_delta": "-3331.03266163994826990745158750000000000",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_value"
+            ],
+            "expected_delta": "-74022.94803644329488683225750000000000",
+            "before": [
+              0,
+              0
+            ],
+            "after": [
+              0,
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_pv"
+            ],
+            "expected_delta": "-34835.0123432031102920579212845089006377",
+            "before": [
+              0,
+              0
+            ],
+            "after": [
+              0,
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "total_pv"
+            ],
+            "expected_delta": "-52698.4354395217982741371764449253791124",
+            "before": [
+              206706.76093062
+            ],
+            "after": [
+              188843.337834301
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "operating_assets"
+            ],
+            "expected_delta": "-52698.4354395217982741371764449253791124",
+            "before": [
+              206706.76093062,
+              206706.76093062
+            ],
+            "after": [
+              188843.337834301,
+              188843.337834301
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "equity"
+            ],
+            "expected_delta": "-52698.4354395217982741371764449253791124",
+            "before": [
+              188321.562359527,
+              188321.562359527
+            ],
+            "after": [
+              170458.139263209,
+              170458.139263209
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "common_equity"
+            ],
+            "expected_delta": "-52698.4354395217982741371764449253791124",
+            "before": [
+              146821.592922217
+            ],
+            "after": [
+              128958.169825898
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "value_per_share"
+            ],
+            "expected_delta": "-106.033069294812471376533554215141607872",
+            "before": [
+              295.415690065212,
+              295.415690065212
+            ],
+            "after": [
+              259.473188865376,
+              259.473188865376
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "0.144864812918924849998166406715604723389",
+            "before": [
+              null
+            ],
+            "after": [
+              null
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "margin",
+              1
+            ],
+            "expected_delta": "-0.00200000000000000000000000000000000000000",
+            "before": [
+              0.0827089927414421
+            ],
+            "after": [
+              0.0827089927414421
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/run/A1-claude-R02/native/margin_input_changed.xlsx",
+          "source_sha256_before": "9b65d166c97e8dd9c79710be582e823f1aca8acf2cdfd7d7480f2716162af74c",
+          "isolated_input": "/results/run/A1-claude-R02/native/recalc-_s_e5f8k/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/A1-claude-R02/native/recalc-_s_e5f8k/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/A1-claude-R02/native/recalc-_s_e5f8k/output",
+            "/results/run/A1-claude-R02/native/recalc-_s_e5f8k/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "1c43b616de9b09d386285bde958a8ddd6bba1c30e536d8b07d33c27d1ce9ffc8",
+          "returncode": 0,
+          "output": "/results/run/A1-claude-R02/native/recalc-_s_e5f8k/output/margin_input_changed.xlsx",
+          "output_sha256": "8dd17f14e32227c172a5aa8055a106e40e5e382219c720c21c591dd4349d88c7",
+          "elapsed_seconds": 0.9721288750006352,
+          "source_sha256_after": "9b65d166c97e8dd9c79710be582e823f1aca8acf2cdfd7d7480f2716162af74c",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet (Base)",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 30,
+        "mismatches": [
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "terminal_pv"
+            ],
+            "expected_delta": "-13867.8471569509564036222065610205992223",
+            "before": [
+              0,
+              0
+            ],
+            "after": [
+              0,
+              0
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "total_pv"
+            ],
+            "expected_delta": "-18913.7203835886187621412741602911764914",
+            "before": [
+              206706.76093062
+            ],
+            "after": [
+              201660.887703982
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "operating_assets"
+            ],
+            "expected_delta": "-18913.7203835886187621412741602911764914",
+            "before": [
+              206706.76093062,
+              206706.76093062
+            ],
+            "after": [
+              201660.887703982,
+              201660.887703982
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "equity"
+            ],
+            "expected_delta": "-18913.7203835886187621412741602911764914",
+            "before": [
+              188321.562359527,
+              188321.562359527
+            ],
+            "after": [
+              183275.68913289,
+              183275.68913289
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "common_equity"
+            ],
+            "expected_delta": "-18913.7203835886187621412741602911764914",
+            "before": [
+              146821.592922217
+            ],
+            "after": [
+              141775.719695579
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "value_per_share"
+            ],
+            "expected_delta": "-38.055775419695409984187674366783051290",
+            "before": [
+              295.415690065212,
+              295.415690065212
+            ],
+            "after": [
+              285.26302763737,
+              285.26302763737
+            ]
+          },
+          {
+            "fact": [
+              "bridge",
+              "base",
+              "price_ratio"
+            ],
+            "expected_delta": "0.049088531064228774184906199238555455019",
+            "before": [
+              null
+            ],
+            "after": [
+              null
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "discount",
+              1
+            ],
+            "expected_delta": "0.0050",
+            "before": [
+              0.0797
+            ],
+            "after": [
+              0.0797
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "discount_factor",
+              1
+            ],
+            "expected_delta": "-0.0042693057943983104683403694481339073569",
+            "before": [
+              0.92618319903677
+            ],
+            "after": [
+              0.92618319903677
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "pv",
+              1
+            ],
+            "expected_delta": "-45.027876359645141749882461409222575035",
+            "before": [
+              9768.34749746142
+            ],
+            "after": [
+              9768.34749746142
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "discount",
+              2
+            ],
+            "expected_delta": "0.0050",
+            "before": [
+              0.0797
+            ],
+            "after": [
+              0.0797
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "review",
+              "discount_factor",
+              2
+            ],
+            "expected_delta": "-0.0078900916246780041989953620170579678257",
+            "before": [
+              0.857815318177984
+            ],
+            "after": [
+              0.857815318177984
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/results/run/A1-claude-R02/native/discount_input_changed.xlsx",
+          "source_sha256_before": "7cb912e74b959c72e45627343912222a0b0466a65312640f84ca7c27d1b00520",
+          "isolated_input": "/results/run/A1-claude-R02/native/recalc-nz55a6q_/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/A1-claude-R02/native/recalc-nz55a6q_/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/A1-claude-R02/native/recalc-nz55a6q_/output",
+            "/results/run/A1-claude-R02/native/recalc-nz55a6q_/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "d8d5770b1d562bce50ef3a0867ef615f9887806225516a508b0bcfe0d7333aa6",
+          "returncode": 0,
+          "output": "/results/run/A1-claude-R02/native/recalc-nz55a6q_/output/discount_input_changed.xlsx",
+          "output_sha256": "ba8c30d7b255ac206729dc51fe27f0998a168d171ed793549986fbc8c7dcad10",
+          "elapsed_seconds": 0.9756588339805603,
+          "source_sha256_after": "7cb912e74b959c72e45627343912222a0b0466a65312640f84ca7c27d1b00520",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 494,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output (Base)",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Valuation output (Review)",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "25b8a2e9c080a9efdb5867b58853babd7ec5dfc9aa0a63b8385cad2d2b80410d",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

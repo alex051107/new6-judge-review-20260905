@@ -46,5 +46,5 @@
   "api_calls": 0,
   "scored_at": "2026-09-05T23:44:11.311818+00:00",
   "receipt": "new6/campaigns/new6-current-v3-144/runtime/regrade/new6-a2-facts-v1.3-real-gdp-labels/A2-claude-R01/verifier/judge-result.json",
-  "full_private_receipt": "https://github.com/alex051107/excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A2-claude-R01/prior/receipt.json"
+  "full_private_receipt": "internal-archive:excelbench-p15-results/blob/new6-final-review-20260906-v1/new6-final/results/receipts/A2-claude-R01/prior/receipt.json"
 }

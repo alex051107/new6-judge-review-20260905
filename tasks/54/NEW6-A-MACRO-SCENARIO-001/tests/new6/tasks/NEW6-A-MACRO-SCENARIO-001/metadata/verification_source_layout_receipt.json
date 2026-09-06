@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "calibrated_cases": 1,
+  "results": [
+    {
+      "name": "source_rows_reordered",
+      "status": "JUDGE_ERROR",
+      "score": null,
+      "criterion_scores": {},
+      "assertions": [
+        {
+          "assertion": "status",
+          "expected": "JUDGE_ERROR",
+          "actual": "JUDGE_ERROR",
+          "ok": true
+        }
+      ],
+      "passed": true,
+      "seconds": 7.55,
+      "evidence": "metadata/calibration/source_rows_reordered/evaluation.json"
+    }
+  ],
+  "agent_calls": 0,
+  "agent_cost_usd": "0",
+  "formal_difficulty_qualified": false
+}

@@ -1,0 +1,622 @@
+{
+  "status": "PASS",
+  "facts": [
+    {
+      "year": 2019,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2019,
+      "metric": "capital_output_ratio",
+      "actual": 2.42,
+      "expected": 2.42,
+      "ok": true
+    },
+    {
+      "year": 2019,
+      "metric": "gdp_per_capita",
+      "actual": 1653.82940051561,
+      "expected": 1653.82940051561,
+      "ok": true
+    },
+    {
+      "year": 2019,
+      "metric": "gdp_growth",
+      "actual": 0.0136694397886081,
+      "expected": 0.01366943978860815,
+      "ok": true
+    },
+    {
+      "year": 2020,
+      "metric": "investment_share",
+      "actual": 0.245555555555556,
+      "expected": 0.24555555555555555,
+      "ok": true
+    },
+    {
+      "year": 2020,
+      "metric": "capital_output_ratio",
+      "actual": 2.40510470570279,
+      "expected": 2.405104705702788,
+      "ok": true
+    },
+    {
+      "year": 2020,
+      "metric": "gdp_per_capita",
+      "actual": 1697.85130231594,
+      "expected": 1697.851302315943,
+      "ok": true
+    },
+    {
+      "year": 2020,
+      "metric": "gdp_growth",
+      "actual": 0.0566774884993537,
+      "expected": 0.05667748849935401,
+      "ok": true
+    },
+    {
+      "year": 2020,
+      "metric": "pc_growth",
+      "actual": 0.0266181637517195,
+      "expected": 0.026618163751719808,
+      "ok": true
+    },
+    {
+      "year": 2021,
+      "metric": "investment_share",
+      "actual": 0.251111111111111,
+      "expected": 0.2511111111111111,
+      "ok": true
+    },
+    {
+      "year": 2021,
+      "metric": "capital_output_ratio",
+      "actual": 2.39494457526654,
+      "expected": 2.394944575266542,
+      "ok": true
+    },
+    {
+      "year": 2021,
+      "metric": "gdp_per_capita",
+      "actual": 1744.62762548708,
+      "expected": 1744.6276254870813,
+      "ok": true
+    },
+    {
+      "year": 2021,
+      "metric": "gdp_growth",
+      "actual": 0.0575652383926342,
+      "expected": 0.057565238392634235,
+      "ok": true
+    },
+    {
+      "year": 2021,
+      "metric": "pc_growth",
+      "actual": 0.0275503061471478,
+      "expected": 0.027550306147148027,
+      "ok": true
+    },
+    {
+      "year": 2022,
+      "metric": "investment_share",
+      "actual": 0.256666666666667,
+      "expected": 0.25666666666666665,
+      "ok": true
+    },
+    {
+      "year": 2022,
+      "metric": "capital_output_ratio",
+      "actual": 2.39043732433519,
+      "expected": 2.39043732433519,
+      "ok": true
+    },
+    {
+      "year": 2022,
+      "metric": "gdp_per_capita",
+      "actual": 1793.50012328939,
+      "expected": 1793.5001232893906,
+      "ok": true
+    },
+    {
+      "year": 2022,
+      "metric": "gdp_growth",
+      "actual": 0.0578413315617283,
+      "expected": 0.0578413315617284,
+      "ok": true
+    },
+    {
+      "year": 2022,
+      "metric": "pc_growth",
+      "actual": 0.0280131399321757,
+      "expected": 0.028013139932175815,
+      "ok": true
+    },
+    {
+      "year": 2023,
+      "metric": "investment_share",
+      "actual": 0.262222222222222,
+      "expected": 0.26222222222222225,
+      "ok": true
+    },
+    {
+      "year": 2023,
+      "metric": "capital_output_ratio",
+      "actual": 2.39043257578725,
+      "expected": 2.390432575787251,
+      "ok": true
+    },
+    {
+      "year": 2023,
+      "metric": "gdp_per_capita",
+      "actual": 1844.84840049381,
+      "expected": 1844.8484004938127,
+      "ok": true
+    },
+    {
+      "year": 2023,
+      "metric": "gdp_growth",
+      "actual": 0.058374366102431,
+      "expected": 0.058374366102430755,
+      "ok": true
+    },
+    {
+      "year": 2023,
+      "metric": "pc_growth",
+      "actual": 0.0286302055615399,
+      "expected": 0.0286302055615398,
+      "ok": true
+    },
+    {
+      "year": 2024,
+      "metric": "investment_share",
+      "actual": 0.251666666666667,
+      "expected": 0.25166666666666665,
+      "ok": true
+    },
+    {
+      "year": 2024,
+      "metric": "capital_output_ratio",
+      "actual": 2.39382931716691,
+      "expected": 2.3938293171669085,
+      "ok": true
+    },
+    {
+      "year": 2024,
+      "metric": "gdp_per_capita",
+      "actual": 1899.52627565091,
+      "expected": 1899.5262756509103,
+      "ok": true
+    },
+    {
+      "year": 2024,
+      "metric": "gdp_growth",
+      "actual": 0.0591914735160333,
+      "expected": 0.05919147351603342,
+      "ok": true
+    },
+    {
+      "year": 2024,
+      "metric": "pc_growth",
+      "actual": 0.0296381399915904,
+      "expected": 0.029638139991590522,
+      "ok": true
+    },
+    {
+      "year": 2025,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2025,
+      "metric": "capital_output_ratio",
+      "actual": 2.39067448738558,
+      "expected": 2.3906744873855765,
+      "ok": true
+    },
+    {
+      "year": 2025,
+      "metric": "gdp_per_capita",
+      "actual": 1952.97843357468,
+      "expected": 1952.978433574683,
+      "ok": true
+    },
+    {
+      "year": 2025,
+      "metric": "gdp_growth",
+      "actual": 0.0575251296788697,
+      "expected": 0.0575251296788695,
+      "ok": true
+    },
+    {
+      "year": 2025,
+      "metric": "pc_growth",
+      "actual": 0.0281397307365261,
+      "expected": 0.028139730736526047,
+      "ok": true
+    },
+    {
+      "year": 2026,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2026,
+      "metric": "capital_output_ratio",
+      "actual": 2.38344862813193,
+      "expected": 2.383448628131931,
+      "ok": true
+    },
+    {
+      "year": 2026,
+      "metric": "gdp_per_capita",
+      "actual": 2002.78220847087,
+      "expected": 2002.7822084708682,
+      "ok": true
+    },
+    {
+      "year": 2026,
+      "metric": "gdp_growth",
+      "actual": 0.0545775595229452,
+      "expected": 0.05457755952294502,
+      "ok": true
+    },
+    {
+      "year": 2026,
+      "metric": "pc_growth",
+      "actual": 0.0255014464266385,
+      "expected": 0.025501446426638482,
+      "ok": true
+    },
+    {
+      "year": 2027,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2027,
+      "metric": "capital_output_ratio",
+      "actual": 2.37599688143704,
+      "expected": 2.3759968814370445,
+      "ok": true
+    },
+    {
+      "year": 2027,
+      "metric": "gdp_per_capita",
+      "actual": 2055.0351863874,
+      "expected": 2055.0351863874007,
+      "ok": true
+    },
+    {
+      "year": 2027,
+      "metric": "gdp_growth",
+      "actual": 0.0549928179356005,
+      "expected": 0.05499281793560061,
+      "ok": true
+    },
+    {
+      "year": 2027,
+      "metric": "pc_growth",
+      "actual": 0.0260901947778074,
+      "expected": 0.02609019477780752,
+      "ok": true
+    },
+    {
+      "year": 2028,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2028,
+      "metric": "capital_output_ratio",
+      "actual": 2.36901453212258,
+      "expected": 2.3690145321225824,
+      "ok": true
+    },
+    {
+      "year": 2028,
+      "metric": "gdp_per_capita",
+      "actual": 2109.28059532857,
+      "expected": 2109.2805953285697,
+      "ok": true
+    },
+    {
+      "year": 2028,
+      "metric": "gdp_growth",
+      "actual": 0.0551108911970535,
+      "expected": 0.05511089119705374,
+      "ok": true
+    },
+    {
+      "year": 2028,
+      "metric": "pc_growth",
+      "actual": 0.0263963407052548,
+      "expected": 0.02639634070525493,
+      "ok": true
+    },
+    {
+      "year": 2029,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2029,
+      "metric": "capital_output_ratio",
+      "actual": 2.3634991042319,
+      "expected": 2.3634991042318974,
+      "ok": true
+    },
+    {
+      "year": 2029,
+      "metric": "gdp_per_capita",
+      "actual": 2164.84317658143,
+      "expected": 2164.8431765814294,
+      "ok": true
+    },
+    {
+      "year": 2029,
+      "metric": "gdp_growth",
+      "actual": 0.0547635984227473,
+      "expected": 0.054763598422747195,
+      "ok": true
+    },
+    {
+      "year": 2029,
+      "metric": "pc_growth",
+      "actual": 0.0263419581898752,
+      "expected": 0.026341958189875093,
+      "ok": true
+    },
+    {
+      "year": 2030,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2030,
+      "metric": "capital_output_ratio",
+      "actual": 2.35983193493089,
+      "expected": 2.359831934930885,
+      "ok": true
+    },
+    {
+      "year": 2030,
+      "metric": "gdp_per_capita",
+      "actual": 2221.24871020413,
+      "expected": 2221.248710204134,
+      "ok": true
+    },
+    {
+      "year": 2030,
+      "metric": "gdp_growth",
+      "actual": 0.0541800080340864,
+      "expected": 0.05418000803408671,
+      "ok": true
+    },
+    {
+      "year": 2030,
+      "metric": "pc_growth",
+      "actual": 0.0260552515918386,
+      "expected": 0.026055251591838816,
+      "ok": true
+    },
+    {
+      "year": 2031,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2031,
+      "metric": "capital_output_ratio",
+      "actual": 2.35810823024639,
+      "expected": 2.358108230246386,
+      "ok": true
+    },
+    {
+      "year": 2031,
+      "metric": "gdp_per_capita",
+      "actual": 2278.30251929246,
+      "expected": 2278.3025192924592,
+      "ok": true
+    },
+    {
+      "year": 2031,
+      "metric": "gdp_growth",
+      "actual": 0.0534716508154973,
+      "expected": 0.053471650815497485,
+      "ok": true
+    },
+    {
+      "year": 2031,
+      "metric": "pc_growth",
+      "actual": 0.0256854663893451,
+      "expected": 0.02568546638934528,
+      "ok": true
+    },
+    {
+      "year": 2032,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2032,
+      "metric": "capital_output_ratio",
+      "actual": 2.35760387348827,
+      "expected": 2.357603873488267,
+      "ok": true
+    },
+    {
+      "year": 2032,
+      "metric": "gdp_per_capita",
+      "actual": 2336.40326539749,
+      "expected": 2336.4032653974923,
+      "ok": true
+    },
+    {
+      "year": 2032,
+      "metric": "gdp_growth",
+      "actual": 0.0530017170743622,
+      "expected": 0.05300171707436224,
+      "ok": true
+    },
+    {
+      "year": 2032,
+      "metric": "pc_growth",
+      "actual": 0.0255017696785398,
+      "expected": 0.02550176967853988,
+      "ok": true
+    },
+    {
+      "year": 2033,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2033,
+      "metric": "capital_output_ratio",
+      "actual": 2.35799498658014,
+      "expected": 2.3579949865801373,
+      "ok": true
+    },
+    {
+      "year": 2033,
+      "metric": "gdp_per_capita",
+      "actual": 2395.84999483238,
+      "expected": 2395.849994832387,
+      "ok": true
+    },
+    {
+      "year": 2033,
+      "metric": "gdp_growth",
+      "actual": 0.052623647553709,
+      "expected": 0.052623647553708644,
+      "ok": true
+    },
+    {
+      "year": 2033,
+      "metric": "pc_growth",
+      "actual": 0.0254436938671123,
+      "expected": 0.025443693867112028,
+      "ok": true
+    },
+    {
+      "year": 2034,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2034,
+      "metric": "capital_output_ratio",
+      "actual": 2.35881757266211,
+      "expected": 2.358817572662112,
+      "ok": true
+    },
+    {
+      "year": 2034,
+      "metric": "gdp_per_capita",
+      "actual": 2457.14075072367,
+      "expected": 2457.1407507236686,
+      "ok": true
+    },
+    {
+      "year": 2034,
+      "metric": "gdp_growth",
+      "actual": 0.052414252381572,
+      "expected": 0.052414252381571644,
+      "ok": true
+    },
+    {
+      "year": 2034,
+      "metric": "pc_growth",
+      "actual": 0.0255820506390134,
+      "expected": 0.02558205063901307,
+      "ok": true
+    },
+    {
+      "year": 2035,
+      "metric": "investment_share",
+      "actual": 0.24,
+      "expected": 0.24,
+      "ok": true
+    },
+    {
+      "year": 2035,
+      "metric": "capital_output_ratio",
+      "actual": 2.35958942325405,
+      "expected": 2.3595894232540493,
+      "ok": true
+    },
+    {
+      "year": 2035,
+      "metric": "gdp_per_capita",
+      "actual": 2520.78947632383,
+      "expected": 2520.7894763238332,
+      "ok": true
+    },
+    {
+      "year": 2035,
+      "metric": "gdp_growth",
+      "actual": 0.0524015267779523,
+      "expected": 0.052401526777952095,
+      "ok": true
+    },
+    {
+      "year": 2035,
+      "metric": "pc_growth",
+      "actual": 0.0259035733225375,
+      "expected": 0.02590357332253724,
+      "ok": true
+    }
+  ],
+  "fact_count": 84,
+  "native_receipt": {
+    "source": "new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe.xlsx",
+    "source_sha256_before": "e0cb049ab5a5da52e127485204cb5ecb8800ad09c19286d3efedf1ede6aa8b9f",
+    "isolated_input": "new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe_recalc/recalc-5nl_8166/input/financing_source_probe.xlsx",
+    "engine": "/Applications/LibreOffice.app/Contents/MacOS/soffice",
+    "command": [
+      "/Applications/LibreOffice.app/Contents/MacOS/soffice",
+      "-env:UserInstallation=file://new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe_recalc/recalc-5nl_8166/profile",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe_recalc/recalc-5nl_8166/output",
+      "new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe_recalc/recalc-5nl_8166/input/financing_source_probe.xlsx"
+    ],
+    "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+    "cleared_formula_cache_count": 0,
+    "isolated_input_sha256": "7025a4695a8a4ddb8b9af34d807b4f7dc6733fd57c9d20d8774349c9712ed992",
+    "returncode": 0,
+    "output": "new6/tasks/NEW6-A-MACRO-SCENARIO-001/metadata/financing_source_probe_recalc/recalc-5nl_8166/output/financing_source_probe.xlsx",
+    "output_sha256": "9d7e26eca2891fe56799fb90d2175e78dd7b0ad198a00b93dfe80e7baf8a372e",
+    "elapsed_seconds": 4.07108320799307,
+    "source_sha256_after": "e0cb049ab5a5da52e127485204cb5ecb8800ad09c19286d3efedf1ede6aa8b9f",
+    "original_unchanged": true
+  },
+  "source_method": "Official Instructions pages2\u20133: Model3 savings plus external sector; source Submodel3s row19 CAB branch I/Y = savings/Y minus CAB/Y; independently cross-referenced source Model2 row36 savings=investment+CAB.",
+  "project_policy": "Savings 20% in 2019 linearly to25% in2028; maximum CAB deficit4%GDP; planned investment as original scenario; unfunded planned investment deferred.",
+  "source_initial_memo_boundary": "Original Model3 initial per-worker growth memo is unavailable; source Model1 historical2019 initialization remains the task basis. No fabricated source value."
+}

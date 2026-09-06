@@ -1,0 +1,854 @@
+{
+  "identity": {
+    "document": "Order of Cost Estimate",
+    "revision": "A",
+    "date": "October 2024",
+    "project": "Municipal Building, The Moor, Falmouth",
+    "currency": "GBP",
+    "client": "Falmouth Town Council",
+    "job": "3959"
+  },
+  "elements": [
+    {
+      "id": "listing",
+      "label": "Grade 2 Listing",
+      "amount": null,
+      "rate": 0,
+      "page": 5,
+      "scope": "Source dash; not separately priced",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Grade 2 Listing",
+      "aliases": []
+    },
+    {
+      "id": "pitched_roof",
+      "label": "Pitched Roof",
+      "amount": 418900,
+      "rate": 0.2929,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Pitched Roof",
+      "aliases": []
+    },
+    {
+      "id": "central_lantern",
+      "label": "Central Lantern Feature",
+      "amount": 9600,
+      "rate": 0.0067,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Central Lantern Feature",
+      "aliases": []
+    },
+    {
+      "id": "rear_roof",
+      "label": "Rear Roof (refer to Pitched Roof for costs)",
+      "amount": 400,
+      "rate": 0.0003,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Rear Roof (refer to Pitched Roof for costs)",
+      "aliases": [
+        "Rear Roof"
+      ]
+    },
+    {
+      "id": "gutters",
+      "label": "Valley and Parapet Gutters",
+      "amount": 16700,
+      "rate": 0.0117,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Valley and Parapet Gutters",
+      "aliases": []
+    },
+    {
+      "id": "parapet",
+      "label": "Parapet Walls",
+      "amount": 13800,
+      "rate": 0.0096,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Parapet Walls",
+      "aliases": []
+    },
+    {
+      "id": "rainwater",
+      "label": "Rainwater Goods",
+      "amount": 47950,
+      "rate": 0.0335,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Rainwater Goods",
+      "aliases": []
+    },
+    {
+      "id": "masonry",
+      "label": "Masonry",
+      "amount": 110725,
+      "rate": 0.0774,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Masonry",
+      "aliases": []
+    },
+    {
+      "id": "rendered",
+      "label": "Rendered Masonry",
+      "amount": 7200,
+      "rate": 0.005,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Rendered Masonry",
+      "aliases": []
+    },
+    {
+      "id": "windows",
+      "label": "Windows",
+      "amount": 89450,
+      "rate": 0.0625,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Windows",
+      "aliases": []
+    },
+    {
+      "id": "rooflights",
+      "label": "Rooflights",
+      "amount": 16100,
+      "rate": 0.0113,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Rooflights",
+      "aliases": [
+        "Rooflghts"
+      ]
+    },
+    {
+      "id": "lantern_light",
+      "label": "Lantern Light and Skylight",
+      "amount": 46950,
+      "rate": 0.0328,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Lantern Light and Skylight",
+      "aliases": []
+    },
+    {
+      "id": "doors",
+      "label": "Doors",
+      "amount": 15000,
+      "rate": 0.0105,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Doors",
+      "aliases": []
+    },
+    {
+      "id": "walls",
+      "label": "Walls",
+      "amount": 18200,
+      "rate": 0.0127,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Walls",
+      "aliases": []
+    },
+    {
+      "id": "services",
+      "label": "Mechanical and Electrical Services",
+      "amount": 619250,
+      "rate": 0.433,
+      "page": 5,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Mechanical and Electrical Services",
+      "aliases": [
+        "M&E Services",
+        "Mechanical & Electrical Services"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "id": "building",
+      "label": "Building Works",
+      "amount": 1430225,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Building Works",
+      "aliases": []
+    },
+    {
+      "id": "preliminaries",
+      "label": "Main Contractors Preliminaries",
+      "amount": 182800,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Main Contractors Preliminaries",
+      "aliases": [
+        "Preliminaries"
+      ]
+    },
+    {
+      "id": "overheads",
+      "label": "Main Contractors Overheads & Profit",
+      "amount": 161303,
+      "rate": 0.1,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Main Contractors Overheads & Profit",
+      "aliases": [
+        "Overheads and Profit",
+        "OH&P",
+        "Overheads & Profit"
+      ]
+    },
+    {
+      "id": "building_estimate",
+      "label": "Building Works Estimate",
+      "amount": 1774328,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Building Works Estimate",
+      "aliases": []
+    },
+    {
+      "id": "consultants",
+      "label": "Project Consultants Fees",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 2,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Project Consultants Fees",
+      "aliases": []
+    },
+    {
+      "id": "base",
+      "label": "Base Cost Estimate",
+      "amount": 1774328,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Base Cost Estimate",
+      "aliases": []
+    },
+    {
+      "id": "design_risk",
+      "label": "Design Development Risks",
+      "amount": 177433,
+      "rate": 0.1,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Design Development Risks",
+      "aliases": [
+        "Design Development Risk",
+        "Design risk"
+      ]
+    },
+    {
+      "id": "construction_risk",
+      "label": "Construction Risks",
+      "amount": "-",
+      "rate": null,
+      "page": 2,
+      "scope": "Source dash; no separate priced allowance",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Construction Risks",
+      "aliases": []
+    },
+    {
+      "id": "employer_risk",
+      "label": "Employer Change Risks",
+      "amount": "-",
+      "rate": null,
+      "page": 2,
+      "scope": "Source dash; no separate priced allowance",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Employer Change Risks",
+      "aliases": []
+    },
+    {
+      "id": "inflation_excluded",
+      "label": "COST LIMIT (Inflation Excluded)",
+      "amount": 1951760,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "COST LIMIT (Inflation Excluded)",
+      "aliases": []
+    },
+    {
+      "id": "inflation",
+      "label": "Inflation Allowance - 4Q24 to 1Q25",
+      "amount": 19518,
+      "rate": 0.01,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Inflation Allowance - 4Q24 to 1Q25",
+      "aliases": [
+        "Inflation Allowance",
+        "Inflation"
+      ]
+    },
+    {
+      "id": "vat_excluded",
+      "label": "COST LIMIT (VAT Excluded)",
+      "amount": 1971278,
+      "rate": null,
+      "page": 2,
+      "scope": "",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "COST LIMIT (VAT Excluded)",
+      "aliases": [
+        "Final Cost Limit",
+        "Cost Limit excluding VAT"
+      ]
+    }
+  ],
+  "provisional": [
+    {
+      "id": "timber",
+      "label": "Structural appraisal of existing timbers",
+      "amount": 2000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Structural appraisal of existing timbers",
+      "aliases": []
+    },
+    {
+      "id": "opening_vents",
+      "label": "Improve ventilation to opening vents on central lantern",
+      "amount": 1000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Improve ventilation to opening vents on central lantern",
+      "aliases": []
+    },
+    {
+      "id": "lantern_repairs",
+      "label": "General repairs to central lantern",
+      "amount": 2000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "General repairs to central lantern",
+      "aliases": []
+    },
+    {
+      "id": "venturi",
+      "label": "Venturi System",
+      "amount": 10000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Venturi System",
+      "aliases": []
+    },
+    {
+      "id": "birds",
+      "label": "Bird deterrent measures",
+      "amount": 25000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Bird deterrent measures",
+      "aliases": []
+    },
+    {
+      "id": "cills",
+      "label": "Repairs to external cills",
+      "amount": 1500,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Repairs to external cills",
+      "aliases": []
+    },
+    {
+      "id": "external_doors",
+      "label": "External doors (pair of) - 3nr",
+      "amount": 15000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "External doors (pair of) - 3nr",
+      "aliases": []
+    },
+    {
+      "id": "heating_plant_area",
+      "label": "External area for heating plant",
+      "amount": 2500,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "External area for heating plant",
+      "aliases": []
+    },
+    {
+      "id": "electrical",
+      "label": "Electrical Power and Lighting",
+      "amount": 85750,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Electrical Power and Lighting",
+      "aliases": []
+    },
+    {
+      "id": "water",
+      "label": "Water Services",
+      "amount": 43500,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Water Services",
+      "aliases": []
+    },
+    {
+      "id": "heating",
+      "label": "Heating",
+      "amount": 432000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Heating",
+      "aliases": []
+    },
+    {
+      "id": "ventilation",
+      "label": "Ventilation",
+      "amount": 55000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Ventilation",
+      "aliases": []
+    },
+    {
+      "id": "scaffolding",
+      "label": "Scaffolding (enclosed)",
+      "amount": 160000,
+      "rate": null,
+      "page": 4,
+      "scope": "Included within elemental costs; memorandum only",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Scaffolding (enclosed)",
+      "aliases": []
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "excluded_a",
+      "label": "Objets d'art & all other art/decorative installations",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Objets d'art & all other art/decorative installations",
+      "aliases": [
+        "Art installations"
+      ]
+    },
+    {
+      "id": "excluded_b",
+      "label": "Additional fit out items including specialist joinery",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Additional fit out items including specialist joinery",
+      "aliases": [
+        "Additional fit out"
+      ]
+    },
+    {
+      "id": "excluded_c",
+      "label": "CCTV, smart systems",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "CCTV, smart systems",
+      "aliases": [
+        "CCTV and smart systems"
+      ]
+    },
+    {
+      "id": "excluded_d",
+      "label": "Specialist lighting installations and light fittings above standard",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Specialist lighting installations and light fittings above standard",
+      "aliases": [
+        "Specialist lighting"
+      ]
+    },
+    {
+      "id": "excluded_e",
+      "label": "Soil investigation/contamination reports and resulting requirements",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Soil investigation/contamination reports and resulting requirements",
+      "aliases": [
+        "Soil investigation and contamination"
+      ]
+    },
+    {
+      "id": "excluded_f",
+      "label": "De-canting of building/rooms and re-install",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "De-canting of building/rooms and re-install",
+      "aliases": [
+        "Decanting and reinstallation"
+      ]
+    },
+    {
+      "id": "excluded_g",
+      "label": "M & E consultants or structural engineer design/specification/reports",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "M & E consultants or structural engineer design/specification/reports",
+      "aliases": [
+        "M&E and structural design fees"
+      ]
+    },
+    {
+      "id": "excluded_h",
+      "label": "Works/costs with onerous planning conditions particularly material specification",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Works/costs with onerous planning conditions particularly material specification",
+      "aliases": [
+        "Onerous planning conditions"
+      ]
+    },
+    {
+      "id": "excluded_i",
+      "label": "Professional Fees: Architect, Structural Engineer, Quantity Surveyor",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Professional Fees: Architect, Structural Engineer, Quantity Surveyor",
+      "aliases": [
+        "Professional fees"
+      ]
+    },
+    {
+      "id": "excluded_j",
+      "label": "Ecologist fees",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Ecologist fees",
+      "aliases": []
+    },
+    {
+      "id": "excluded_k",
+      "label": "CC Planning/Building Regulations Application/Inspection Fees",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "CC Planning/Building Regulations Application/Inspection Fees",
+      "aliases": [
+        "Planning and building regulation fees"
+      ]
+    },
+    {
+      "id": "excluded_l",
+      "label": "Legal fees",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Legal fees",
+      "aliases": []
+    },
+    {
+      "id": "excluded_m",
+      "label": "Interest and other financing costs",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Interest and other financing costs",
+      "aliases": [
+        "Financing costs"
+      ]
+    },
+    {
+      "id": "excluded_n",
+      "label": "Increased foreign trade tariff costs surrounding UK withdrawal from EU",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Increased foreign trade tariff costs surrounding UK withdrawal from EU",
+      "aliases": [
+        "Brexit tariff costs"
+      ]
+    },
+    {
+      "id": "excluded_o",
+      "label": "Increased costs from conflict in Ukraine and Middle East",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Increased costs from conflict in Ukraine and Middle East",
+      "aliases": [
+        "Ukraine and Middle East conflict costs"
+      ]
+    },
+    {
+      "id": "excluded_p",
+      "label": "Value Added Tax where applicable",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Value Added Tax where applicable",
+      "aliases": [
+        "VAT"
+      ]
+    },
+    {
+      "id": "excluded_q",
+      "label": "Dry rot treatment",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Dry rot treatment",
+      "aliases": [
+        "Dry rot"
+      ]
+    },
+    {
+      "id": "excluded_r",
+      "label": "Asbestos removal",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 3,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Asbestos removal",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_0",
+      "label": "Above ground drainage",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Above ground drainage",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_1",
+      "label": "Fire Safety",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Fire Safety",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_2",
+      "label": "Security/Access Control",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Security/Access Control",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_3",
+      "label": "AWC Call Alarms",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "AWC Call Alarms",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_4",
+      "label": "Lightning Protection",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Lightning Protection",
+      "aliases": []
+    },
+    {
+      "id": "excluded_services_5",
+      "label": "Lift Works",
+      "amount": "Excluded",
+      "rate": null,
+      "page": 4,
+      "scope": "Excluded",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Lift Works",
+      "aliases": []
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "guide",
+      "label": "Guide to probable current cost",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Estimate is a guide only to probable current cost",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Guide to probable current cost",
+      "aliases": []
+    },
+    {
+      "id": "qs",
+      "label": "Consultation with the Quantity Surveyor",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Study in consultation with the Quantity Surveyor",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Consultation with the Quantity Surveyor",
+      "aliases": []
+    },
+    {
+      "id": "drawings",
+      "label": "Pre-planning drawings",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Based on RTP pre-planning drawings; no input from another designer",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Pre-planning drawings",
+      "aliases": []
+    },
+    {
+      "id": "scope_basis",
+      "label": "Works as envisaged",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Works as envisaged in drawings and specifications in Basis of Estimate",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Works as envisaged",
+      "aliases": []
+    },
+    {
+      "id": "phase",
+      "label": "Single phase contractor",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Single phase; local medium sized proficient contractor",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Single phase contractor",
+      "aliases": []
+    },
+    {
+      "id": "duration",
+      "label": "Contract duration",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Contract duration not to exceed 45 weeks",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Contract duration",
+      "aliases": []
+    },
+    {
+      "id": "price_basis",
+      "label": "Price basis and inflation period",
+      "amount": null,
+      "rate": null,
+      "page": 3,
+      "scope": "Rates at 4Q24 with inflation to 1Q25; BCIS indices not representative of Cornwall cost increases",
+      "source": "Falmouth_OCE_October2024_RevA.pdf",
+      "locator": "Price basis and inflation period",
+      "aliases": []
+    }
+  ]
+}

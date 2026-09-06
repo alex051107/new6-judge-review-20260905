@@ -1,0 +1,7 @@
+__pycache__/
+node_modules/
+**/recalc-*/
+**/mutated.xlsx
+**/*_stdout.json*
+**/*.inspect.ndjson
+metadata/previews/

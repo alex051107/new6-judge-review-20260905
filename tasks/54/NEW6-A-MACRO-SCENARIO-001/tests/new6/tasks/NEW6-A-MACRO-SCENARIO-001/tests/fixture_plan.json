@@ -1,0 +1,51 @@
+{
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "not_executed": true,
+  "tests": [
+    {
+      "name": "reference",
+      "expectation": "SCORED, score=1.0, pass=true; independently verified against sources"
+    },
+    {
+      "name": "equivalent_layout",
+      "expectation": "Same facts and score as reference; genuine row/column/region alternative, within explicit source-native preservation rules"
+    },
+    {
+      "name": "equivalent_formula_or_static",
+      "expectation": "Dynamic tasks: supported equivalent dependency; static tasks: fully correct literal outputs must get 1.0"
+    },
+    {
+      "name": "wrong_transition_endpoint",
+      "single_change": "2025没有达到.24或提前一年达到",
+      "expected": "年度路径事实失分"
+    },
+    {
+      "name": "wrong_timing",
+      "single_change": "资本使用错误年度投资或折旧时点",
+      "expected": "递推关系及受影响结果失分；根因只解释一次"
+    },
+    {
+      "name": "overwritten_baseline",
+      "single_change": "把base也改成scenario",
+      "expected": "保护与双情景结果失分"
+    },
+    {
+      "name": "stale_chart",
+      "single_change": "数据完整更新但图缺2035或仍引用旧系列",
+      "expected": "实际图表事实失分"
+    },
+    {
+      "name": "output_missing",
+      "expectation": "OUTPUT_MISSING; score=null; pass=false only with completed-run/no-output evidence"
+    },
+    {
+      "name": "malformed_file",
+      "expectation": "MALFORMED_OUTPUT; score=null; pass=false; distinguish parser limitation"
+    },
+    {
+      "name": "legitimate_unsupported_formula",
+      "expectation": "JUDGE_ERROR; score=null; pass=null, not a successful negative business fixture"
+    }
+  ],
+  "quality_policy": "Assert expected changed and preserved facts, state and any declared score/pass; negative does not automatically require pass=false. No hidden hurdle. Tally tests separately from Agent attempts."
+}

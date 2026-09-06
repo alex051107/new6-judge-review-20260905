@@ -1,0 +1,2785 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.4982616741504747,
+  "score_decimal": "0.498261674150474695",
+  "pass": false,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 0.5303030303030303,
+    "R003": 0.4084507042253521,
+    "R006": 0.0,
+    "R004": 0.3870967741935484,
+    "R005": 0.9702380952380952
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "13.2575757575757575",
+    "R003": "8.1690140845070420",
+    "R004": "13.5483870967741940",
+    "R005": "4.8511904761904760",
+    "R006": "0.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.4982616741504747,
+      "score_decimal": "0.498261674150474695",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.5303030303030303,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.3870967741935484,
+        "R005": 0.9702380952380952
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "13.2575757575757575",
+        "R003": "8.1690140845070420",
+        "R004": "13.5483870967741940",
+        "R005": "4.8511904761904760",
+        "R006": "0.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.5299745319423874,
+      "score_decimal": "0.52997453194238746",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.5303030303030303,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.3870967741935484,
+        "R005": 0.9702380952380952
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "13.2575757575757575",
+        "R003": "10.2112676056338025",
+        "R004": "9.6774193548387100",
+        "R005": "4.8511904761904760",
+        "R006": "0.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.4911013613450006,
+      "score_decimal": "0.4911013613450006",
+      "pass": false,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.5303030303030303,
+        "R003": 0.4084507042253521,
+        "R006": 0.0,
+        "R004": 0.3870967741935484,
+        "R005": 0.9702380952380952
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "10.6060606060606060",
+        "R003": "8.1690140845070420",
+        "R004": "15.4838709677419360",
+        "R005": "4.8511904761904760",
+        "R006": "0.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/app/output/answer.xlsx",
+    "judge_version": "new6-a1-v1.3-proven-formula-defects",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          5
+        ],
+        "expected": "0.2020493956910141881240147136100893326327",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          5
+        ],
+        "expected": "41754.13332196875615803993694167104571729",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          5
+        ],
+        "expected": "32573.16226415625615803993694167104571729",
+        "candidate": [
+          43145.7432732422
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          5
+        ],
+        "expected": "0.0797",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          5
+        ],
+        "expected": "0.6815292396969493031771420830777647540205",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          5
+        ],
+        "expected": "22199.56251241577297875770438380312647816",
+        "candidate": [
+          31748.6709322236
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          6
+        ],
+        "expected": "0.126",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          6
+        ],
+        "expected": "471359.0426941406250",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          6
+        ],
+        "expected": "58919.88033676757812500000000000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          6
+        ],
+        "expected": "0.2096395165528113504992117708880714661062",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          6
+        ],
+        "expected": "46567.94510761812742216237519705727798213",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          6
+        ],
+        "expected": "8868.818041846874999999999999999999999999",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          6
+        ],
+        "expected": "37699.12706577125242216237519705727798213",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          6
+        ],
+        "expected": "0.07876",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          6
+        ],
+        "expected": "0.6317709589685836545451648958783832863848",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          6
+        ],
+        "expected": "23817.21365862079141813660289053182528794",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          7
+        ],
+        "expected": "0.102",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          7
+        ],
+        "expected": "519437.6650489429687500",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          7
+        ],
+        "expected": "64929.70813111787109375000000000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          7
+        ],
+        "expected": "0.2172296374146085128744088281660535995796",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          7
+        ],
+        "expected": "50825.05117635877782222970310036784025223",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          7
+        ],
+        "expected": "8084.138807477756249999999999999999999999",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          7
+        ],
+        "expected": "42740.91236888102157222970310036784025223",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          7
+        ],
+        "expected": "0.07782",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          7
+        ],
+        "expected": "0.5861562774568885848705395111228064856700",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          7
+        ],
+        "expected": "25052.85408925438522902863792728485072407",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          8
+        ],
+        "expected": "0.078",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          8
+        ],
+        "expected": "559953.8029227605203125000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          8
+        ],
+        "expected": "69994.22536534506503906250000000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          8
+        ],
+        "expected": "0.2248197582764056752496058854440357330531",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          8
+        ],
+        "expected": "54258.14053796392480480491329479768786127",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          8
+        ],
+        "expected": "6812.551326819196237500000000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          8
+        ],
+        "expected": "47445.58921114472856730491329479768786127",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          8
+        ],
+        "expected": "0.07688",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          8
+        ],
+        "expected": "0.5443097443140262470010953041404859275592",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          8
+        ],
+        "expected": "25825.09653234650947015066116156873611288",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          9
+        ],
+        "expected": "0.054",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          9
+        ],
+        "expected": "590191.3082805895884093750000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          9
+        ],
+        "expected": "73773.91353507369855117187500000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          9
+        ],
+        "expected": "0.2324098791382028376248029427220178665265",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          9
+        ],
+        "expected": "56628.12720683499382157750180635838150289",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          9
+        ],
+        "expected": "5084.259459446141684325000000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          9
+        ],
+        "expected": "51543.86774738885213725250180635838150289",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          9
+        ],
+        "expected": "0.07594",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          9
+        ],
+        "expected": "0.5058922842482166728638170382553729088603",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          9
+        ],
+        "expected": "26075.64499371452880264241836871774849107",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          10
+        ],
+        "expected": "0.03",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          10
+        ],
+        "expected": "607897.047529007276061656250000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          10
+        ],
+        "expected": "75987.13094112590950770703125000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "tax",
+          10
+        ],
+        "expected": "0.2400000000000000000000000000000000000000",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          10
+        ],
+        "expected": "57750.21951525569122585734375000000000000",
+        "candidate": [
+          52326.7143310547
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          10
+        ],
+        "expected": "2977.116372364574075154750000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          10
+        ],
+        "expected": "54773.10314289111715070259375000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount",
+          10
+        ],
+        "expected": "0.0750",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "discount_factor",
+          10
+        ],
+        "expected": "0.4705974737192713235942484076794166594049",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "pv",
+          10
+        ],
+        "expected": "25776.08396680964004021918199755293723993",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "growth",
+          11
+        ],
+        "expected": "0.03",
+        "candidate": [
+          0.01
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "revenue",
+          11
+        ],
+        "expected": "626133.95895487749434350593750000",
+        "candidate": [
+          422799.851794922
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "ebit",
+          11
+        ],
+        "expected": "78266.74486935968679293824218750000000000",
+        "candidate": [
+          52849.9814743652
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "nopat",
+          11
+        ],
+        "expected": "59482.72610071336196263306406250000000000",
+        "candidate": [
+          40165.9859205176
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "reinvestment",
+          11
+        ],
+        "expected": "17844.81783021400858878991921875000000000",
+        "candidate": [
+          41861.371464844
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "base",
+          "fcff",
+          11
+        ],
+        "expected": "41637.90827049935337384314484375000000000",
+        "candidate": [
+          -1695.38554432642
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_cashflow"
+        ],
+        "expected": "41637.90827049935337384314484375000000000",
+        "candidate": [
+          -1695.38554432642
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_value"
+        ],
+        "expected": "925286.85045554118608540321875000000000",
+        "candidate": [
+          -26082.8545280987,
+          -26082.8545280987
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "terminal_pv"
+        ],
+        "expected": "435437.6542900388786507240160563612579707",
+        "candidate": [
+          -19192.9933885095,
+          -19192.9933885095
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "forecast_pv"
+        ],
+        "expected": "206706.7609306194881190123006940861479124",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "total_pv"
+        ],
+        "expected": "642144.4152206583667697363167504474058831",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "operating_assets"
+        ],
+        "expected": "642144.4152206583667697363167504474058831",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "debt"
+        ],
+        "expected": "45435.19857109202404150386975068307523522",
+        "candidate": [
+          27050
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "common_equity"
+        ],
+        "expected": "623759.2166495663427282324469997643306479",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "value_per_share"
+        ],
+        "expected": "1255.048725653050991404894259556869880579",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "base",
+          "price_ratio"
+        ],
+        "expected": "1.569811561678478262528814932961250737685",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          5
+        ],
+        "expected": "0.2020493956910141881240147136100893326327",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          5
+        ],
+        "expected": "35073.47199045375517275354703100367840252",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          5
+        ],
+        "expected": "25892.50093264125517275354703100367840252",
+        "candidate": [
+          34773.4689802734
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          5
+        ],
+        "expected": "0.0797",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          5
+        ],
+        "expected": "0.6815292396969493031771420830777647540205",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          5
+        ],
+        "expected": "17646.49647447554538040936273558741414094",
+        "candidate": [
+          25587.9570050486
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          6
+        ],
+        "expected": "0.126",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          6
+        ],
+        "expected": "471359.0426941406250",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          6
+        ],
+        "expected": "49492.69948288476562500000000000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          6
+        ],
+        "expected": "0.2096395165528113504992117708880714661062",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          6
+        ],
+        "expected": "39117.07389039922703461639516552811350499",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          6
+        ],
+        "expected": "8868.818041846874999999999999999999999999",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          6
+        ],
+        "expected": "30248.25584855235203461639516552811350499",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          6
+        ],
+        "expected": "0.07876",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          6
+        ],
+        "expected": "0.6317709589685836545451648958783832863848",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          6
+        ],
+        "expected": "19109.96960456698855147084413039408864133",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          7
+        ],
+        "expected": "0.102",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          7
+        ],
+        "expected": "519437.6650489429687500",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          7
+        ],
+        "expected": "54540.95483013901171875000000000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          7
+        ],
+        "expected": "0.2172296374146085128744088281660535995796",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          7
+        ],
+        "expected": "42693.04298814137337067295060430898581188",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          7
+        ],
+        "expected": "8084.138807477756249999999999999999999999",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          7
+        ],
+        "expected": "34608.90418066361712067295060430898581188",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          7
+        ],
+        "expected": "0.07782",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          7
+        ],
+        "expected": "0.5861562774568885848705395111228064856700",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          7
+        ],
+        "expected": "20286.22644139993445583061519334003560888",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          8
+        ],
+        "expected": "0.078",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          8
+        ],
+        "expected": "559953.8029227605203125000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          8
+        ],
+        "expected": "58795.14930688985463281250000000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          8
+        ],
+        "expected": "0.2248197582764056752496058854440357330531",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          8
+        ],
+        "expected": "45576.83805188969683603612716763005780347",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          8
+        ],
+        "expected": "6812.551326819196237500000000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          8
+        ],
+        "expected": "38764.28672507050059853612716763005780347",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          8
+        ],
+        "expected": "0.07688",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          8
+        ],
+        "expected": "0.5443097443140262470010953041404859275592",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          8
+        ],
+        "expected": "21099.77899583872604068931495048666895441",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          9
+        ],
+        "expected": "0.054",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          9
+        ],
+        "expected": "590191.3082805895884093750000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          9
+        ],
+        "expected": "61970.08736946190678298437500000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          9
+        ],
+        "expected": "0.2324098791382028376248029427220178665265",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          9
+        ],
+        "expected": "47567.62685374139481012510151734104046243",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          9
+        ],
+        "expected": "5084.259459446141684325000000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          9
+        ],
+        "expected": "42483.36739429525312580010151734104046243",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          9
+        ],
+        "expected": "0.07594",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          9
+        ],
+        "expected": "0.5058922842482166728638170382553729088603",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          9
+        ],
+        "expected": "21492.00777365623428083228879797822786462",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          10
+        ],
+        "expected": "0.03",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          10
+        ],
+        "expected": "607897.047529007276061656250000",
+        "candidate": [
+          418613.714648437
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          10
+        ],
+        "expected": "63829.18999054576398647390625000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "tax",
+          10
+        ],
+        "expected": "0.2400000000000000000000000000000000000000",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          10
+        ],
+        "expected": "48510.18439281478062972016875000000000000",
+        "candidate": [
+          43954.4400380859
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          10
+        ],
+        "expected": "2977.116372364574075154750000000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          10
+        ],
+        "expected": "45533.06802045020655456541875000000000000",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount",
+          10
+        ],
+        "expected": "0.0750",
+        "candidate": [
+          0
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "discount_factor",
+          10
+        ],
+        "expected": "0.4705974737192713235942484076794166594049",
+        "candidate": [
+          0.735847120100797
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "pv",
+          10
+        ],
+        "expected": "21427.74678111160962928268696897346281914",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "growth",
+          11
+        ],
+        "expected": "0.03",
+        "candidate": [
+          0.01
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "revenue",
+          11
+        ],
+        "expected": "626133.95895487749434350593750000",
+        "candidate": [
+          422799.851794922
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "ebit",
+          11
+        ],
+        "expected": "65744.06569026213690606812343750000000000",
+        "candidate": [
+          44393.9844384668
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "nopat",
+          11
+        ],
+        "expected": "49965.48992459922404861177381250000000000",
+        "candidate": [
+          33739.4281732348
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "reinvestment",
+          11
+        ],
+        "expected": "14989.64697737976721458353214375000000000",
+        "candidate": [
+          41861.371464844
+        ]
+      },
+      {
+        "fact": [
+          "annual",
+          "review",
+          "fcff",
+          11
+        ],
+        "expected": "34975.84294721945683402824166875000000000",
+        "candidate": [
+          -8121.94329160923
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_cashflow"
+        ],
+        "expected": "34975.84294721945683402824166875000000000",
+        "candidate": [
+          -8121.94329160923
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_value"
+        ],
+        "expected": "777240.95438265459631173870375000000000",
+        "candidate": [
+          -124952.973717065,
+          -124952.973717065
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "terminal_pv"
+        ],
+        "expected": "365767.6296036326580666081734873434566954",
+        "candidate": [
+          -91946.2858577328,
+          -91946.2858577328
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "forecast_pv"
+        ],
+        "expected": "170979.9147379821121548537903732531909631",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "total_pv"
+        ],
+        "expected": "536747.5443416147702214619638605966476585",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "operating_assets"
+        ],
+        "expected": "536747.5443416147702214619638605966476585",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "debt"
+        ],
+        "expected": "45435.19857109202404150386975068307523522",
+        "candidate": [
+          27050
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "common_equity"
+        ],
+        "expected": "518362.3457705227461799580941099135724233",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "value_per_share"
+        ],
+        "expected": "1042.982587063426048651827151126586664836",
+        "candidate": [
+          "#DIV/0!",
+          "#DIV/0!"
+        ]
+      },
+      {
+        "fact": [
+          "bridge",
+          "review",
+          "price_ratio"
+        ],
+        "expected": "1.888996062290144872620078900330020189295",
+        "candidate": [
+          "#DIV/0!"
+        ]
+      }
+    ],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": false,
+      "review_equity": false,
+      "difference": false,
+      "base_share": false,
+      "review_share": false
+    },
+    "candidate_formula_defects": [
+      {
+        "sheet": "Valuation output",
+        "cell": "H2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "I2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "J2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "K2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "L2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "G6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "H6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "I6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "J6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "K6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "L6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "G12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "H12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "I12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "J12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "K12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "L12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "H38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "I38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "J38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "K38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Valuation output",
+        "cell": "L38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "H2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "I2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "J2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "K2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "L2",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "G6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "H6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "I6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "J6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "K6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "L6",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "G12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "H12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "I12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "J12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "K12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "L12",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "H38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "I38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "J38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "K38",
+        "reason": "direct_self_reference_without_initial_value"
+      },
+      {
+        "sheet": "Review Scenario",
+        "cell": "L38",
+        "reason": "direct_self_reference_without_initial_value"
+      }
+    ],
+    "native_baseline": {
+      "source": "/app/output/answer.xlsx",
+      "source_sha256_before": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+      "isolated_input": "/logs/verifier/offline/native/recalc-ji7jftgp/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-ji7jftgp/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/logs/verifier/offline/native/recalc-ji7jftgp/output",
+        "/logs/verifier/offline/native/recalc-ji7jftgp/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1108,
+      "isolated_input_sha256": "9dae0597e7e2b330147ad2830b0eec10dacbc9ac2df628bbcfd1b43dd47c0c08",
+      "returncode": 0,
+      "output": "/logs/verifier/offline/native/recalc-ji7jftgp/output/answer.xlsx",
+      "output_sha256": "562cafcdfddc32506f3b1b666a7ac289994ea1405e5a7efdeeec92c6ee2cb749",
+      "elapsed_seconds": 1.2408534999995027,
+      "source_sha256_after": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 64,
+        "mismatches": [
+          {
+            "fact": [
+              "annual",
+              "base",
+              "nopat",
+              5
+            ],
+            "expected_delta": "1847.24496038331951195480819758276405675",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              54641.700936
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              5
+            ],
+            "expected_delta": "890.08411368381951195480819758276405675",
+            "before": [
+              43145.7432732422
+            ],
+            "after": [
+              44503.569031488
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              5
+            ],
+            "expected_delta": "606.61834926526650139689395853662433182",
+            "before": [
+              31748.6709322236
+            ],
+            "after": [
+              32747.8231060274
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "growth",
+              6
+            ],
+            "expected_delta": "0.008",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "revenue",
+              6
+            ],
+            "expected_delta": "24350.4681972513750",
+            "before": [
+              418613.714648437
+            ],
+            "after": [
+              437133.607488
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "ebit",
+              6
+            ],
+            "expected_delta": "3043.80852465642187500000000000000000000",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              54641.700936
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "nopat",
+              6
+            ],
+            "expected_delta": "2405.70597706812362565685759327377824488",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              54641.700936
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "reinvestment",
+              6
+            ],
+            "expected_delta": "980.377103386533000000000000000000000000",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              6
+            ],
+            "expected_delta": "1425.32887368159062565685759327377824488",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              6
+            ],
+            "expected_delta": "900.48138937142974593431104871609219302",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "growth",
+              7
+            ],
+            "expected_delta": "0.006",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "revenue",
+              7
+            ],
+            "expected_delta": "29808.4730187193672500",
+            "before": [
+              418613.714648437
+            ],
+            "after": [
+              437133.607488
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/growth_input_changed.xlsx",
+          "source_sha256_before": "7fd1dbc9a1a200d727c4e36d961749a78e77520dd4088b8219b75e659f6f99c7",
+          "isolated_input": "/logs/verifier/offline/native/recalc-462uu09p/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-462uu09p/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-462uu09p/output",
+            "/logs/verifier/offline/native/recalc-462uu09p/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "06e841d7f366fe11d73ec20bcb1425b5b17f5fb4a32d72b2006948adda0a294b",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-462uu09p/output/growth_input_changed.xlsx",
+          "output_sha256": "3c7e74d4607f912185aa2d07ff889f5e9bda8693e26978ab04ae0af7aaea4b39",
+          "elapsed_seconds": 1.0388542920118198,
+          "source_sha256_after": "7fd1dbc9a1a200d727c4e36d961749a78e77520dd4088b8219b75e659f6f99c7",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 56,
+        "mismatches": [
+          {
+            "fact": [
+              "annual",
+              "base",
+              "nopat",
+              5
+            ],
+            "expected_delta": "-3340.33066575750049264319495533368365739",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              5
+            ],
+            "expected_delta": "-3340.33066575750049264319495533368365739",
+            "before": [
+              43145.7432732422
+            ],
+            "after": [
+              38959.6061267578
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              5
+            ],
+            "expected_delta": "-2276.53301897011379917417082410785616861",
+            "before": [
+              31748.6709322236
+            ],
+            "after": [
+              28668.3139686361
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "ebit",
+              6
+            ],
+            "expected_delta": "-4713.59042694140625000000000000000000000",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "nopat",
+              6
+            ],
+            "expected_delta": "-3725.43560860945019377299001576458223857",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              6
+            ],
+            "expected_delta": "-3725.43560860945019377299001576458223857",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              6
+            ],
+            "expected_delta": "-2353.62202702690143333287938006886832330",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "ebit",
+              7
+            ],
+            "expected_delta": "-5194.37665048942968750000000000000000000",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "nopat",
+              7
+            ],
+            "expected_delta": "-4066.00409410870222577837624802942722017",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "fcff",
+              7
+            ],
+            "expected_delta": "-4066.00409410870222577837624802942722017",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              7
+            ],
+            "expected_delta": "-2383.31382392722538659901136697240755759",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "ebit",
+              8
+            ],
+            "expected_delta": "-5599.53802922760520312500000000000000000",
+            "before": [
+              52326.7143310547
+            ],
+            "after": [
+              48140.5771845703
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/margin_input_changed.xlsx",
+          "source_sha256_before": "c89ef8a9ecdd53ec0d9bf9fe339140bcd741637021d28855dfe68ff7a44895c4",
+          "isolated_input": "/logs/verifier/offline/native/recalc-okl11qlj/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-okl11qlj/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-okl11qlj/output",
+            "/logs/verifier/offline/native/recalc-okl11qlj/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "491ac6059d298da253a788b2ac32f3d51cca1baf6df426cc7f85e9b81d674505",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-okl11qlj/output/margin_input_changed.xlsx",
+          "output_sha256": "bacbf2b9de99a67ad55d0054f71fa9d7ceac26374899f07692f888c896bccba3",
+          "elapsed_seconds": 1.025654917000793,
+          "source_sha256_after": "c89ef8a9ecdd53ec0d9bf9fe339140bcd741637021d28855dfe68ff7a44895c4",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 24,
+        "mismatches": [
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount",
+              5
+            ],
+            "expected_delta": "0.0050",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount_factor",
+              5
+            ],
+            "expected_delta": "-0.0155636356297521457256493504891114979096",
+            "before": [
+              0.735847120100797
+            ],
+            "after": [
+              0.722372890731689
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              5
+            ],
+            "expected_delta": "-506.95682878812038273238886503971749648",
+            "before": [
+              31748.6709322236
+            ],
+            "after": [
+              31167.3152910593
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount",
+              6
+            ],
+            "expected_delta": "0.00400",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount_factor",
+              6
+            ],
+            "expected_delta": "-0.0167079680313518049649322195801701494838",
+            "before": [
+              0.735847120100797
+            ],
+            "after": [
+              0.722372890731689
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              6
+            ],
+            "expected_delta": "-629.87580982477565990366922618010846932",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount",
+              7
+            ],
+            "expected_delta": "0.00300",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount_factor",
+              7
+            ],
+            "expected_delta": "-0.0170855802665776639214150719949099470225",
+            "before": [
+              0.735847120100797
+            ],
+            "after": [
+              0.722372890731689
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              7
+            ],
+            "expected_delta": "-730.25328894527877772027387397580625889",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount",
+              8
+            ],
+            "expected_delta": "0.00200",
+            "before": [
+              0
+            ],
+            "after": [
+              0
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "discount_factor",
+              8
+            ],
+            "expected_delta": "-0.0168454320732664581931422054382238236667",
+            "before": [
+              0.735847120100797
+            ],
+            "after": [
+              0.722372890731689
+            ]
+          },
+          {
+            "fact": [
+              "annual",
+              "base",
+              "pv",
+              8
+            ],
+            "expected_delta": "-799.24145023244244562632646622774697757",
+            "before": [
+              "#DIV/0!"
+            ],
+            "after": [
+              "#DIV/0!"
+            ]
+          }
+        ],
+        "native_receipt": {
+          "source": "/logs/verifier/offline/native/discount_input_changed.xlsx",
+          "source_sha256_before": "238a85e4690e2bd042b176212f5ce4fab441654887e82553c82b5e8eecad405e",
+          "isolated_input": "/logs/verifier/offline/native/recalc-15pmu7e1/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///logs/verifier/offline/native/recalc-15pmu7e1/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/logs/verifier/offline/native/recalc-15pmu7e1/output",
+            "/logs/verifier/offline/native/recalc-15pmu7e1/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "ebc4eb7581bdc9b3012d9a0c10fa017251aec28b55fbde90a89a9bd7fa00fa3e",
+          "returncode": 0,
+          "output": "/logs/verifier/offline/native/recalc-15pmu7e1/output/discount_input_changed.xlsx",
+          "output_sha256": "fddff8cf99f861fef90b4b0163feefa3732fc30e0f7f1746102e615de4d72f10",
+          "elapsed_seconds": 1.0556112509802915,
+          "source_sha256_after": "238a85e4690e2bd042b176212f5ce4fab441654887e82553c82b5e8eecad405e",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 474,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Review Scenario",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "35989e3f33dbf1d59c32bf9ae7dbff2e10aae35f5faad39c6caa52860d16a0d0",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  },
+  "harbor_transport_reward_is_not_status": true,
+  "sample_countable": true
+}

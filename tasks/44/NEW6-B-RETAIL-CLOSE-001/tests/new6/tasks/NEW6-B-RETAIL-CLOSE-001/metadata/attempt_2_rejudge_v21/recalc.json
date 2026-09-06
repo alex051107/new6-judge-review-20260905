@@ -1,0 +1,25 @@
+{
+  "source": "new6/harbor_jobs/new6-first-20260905T150832Z/NEW6-B-RETAIL-CLOSE-001__w6ASgFa/artifacts/app/output/answer.xlsx",
+  "source_sha256_before": "00b721f3f0fbe40310cabe1c3f7a1f476b31dc6117f7e1641c6743fd93500ba7",
+  "isolated_input": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/metadata/attempt_2_rejudge_v21/recalc-1xutrjtq/input/answer.xlsx",
+  "engine": "/opt/homebrew/bin/soffice",
+  "command": [
+    "/opt/homebrew/bin/soffice",
+    "-env:UserInstallation=file://new6/tasks/NEW6-B-RETAIL-CLOSE-001/metadata/attempt_2_rejudge_v21/recalc-1xutrjtq/profile",
+    "--headless",
+    "--convert-to",
+    "xlsx",
+    "--outdir",
+    "new6/tasks/NEW6-B-RETAIL-CLOSE-001/metadata/attempt_2_rejudge_v21/recalc-1xutrjtq/output",
+    "new6/tasks/NEW6-B-RETAIL-CLOSE-001/metadata/attempt_2_rejudge_v21/recalc-1xutrjtq/input/answer.xlsx"
+  ],
+  "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+  "cleared_formula_cache_count": 13,
+  "isolated_input_sha256": "94940e0347c02ec89608ef5dc0da2bd2a681ab2ca6cde681bec27bef9415f9d0",
+  "returncode": 0,
+  "output": "new6/tasks/NEW6-B-RETAIL-CLOSE-001/metadata/attempt_2_rejudge_v21/recalc-1xutrjtq/output/answer.xlsx",
+  "output_sha256": "6522b8e3e973340319bd13c21424897862fab83e1db2e7ac7a325fddc4ed0589",
+  "elapsed_seconds": 3.6424295830074698,
+  "source_sha256_after": "00b721f3f0fbe40310cabe1c3f7a1f476b31dc6117f7e1641c6743fd93500ba7",
+  "original_unchanged": true
+}

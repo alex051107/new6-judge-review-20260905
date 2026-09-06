@@ -1,0 +1,24 @@
+{
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "task_version": "new6-a2-v1.0-zambia",
+  "judge_version": "new6-a2-facts-v1.0",
+  "frozen_wrapper": "new6/harbor_wrappers/first-ready-v1/NEW6-A-MACRO-SCENARIO-001",
+  "files": [
+    {
+      "path": "instruction.md",
+      "sha256": "49e09826717ce74ca6f185158ca0bb1286ead5a6d37da02798aa61d4f9e9ef34"
+    },
+    {
+      "path": "environment/input/LTGM_Zambia_restore.xlsx",
+      "sha256": "4f3ad1c62e845b0bc61a8aae4ad7a5b2e774c8170f7e4738a3f241ee977f4c48"
+    },
+    {
+      "path": "environment/input/LTGM_instructions_methods_p1-3.pdf",
+      "sha256": "f07196c210fad28077e962919632ab5ddaa3e0bbd3333f183fa7b047d98015a6"
+    },
+    {
+      "path": "environment/input/review_brief.md",
+      "sha256": "a00134d72266e0743b1cd09625b9f15cee1138235c41badd087b6650dd5ad573"
+    }
+  ]
+}

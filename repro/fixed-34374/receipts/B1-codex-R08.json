@@ -1,0 +1,500 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.995508935333048,
+  "score_decimal": "0.99550893533304798",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 0.9992262355536532,
+    "R003": 1.0,
+    "R004": 1.0,
+    "R005": 1.0,
+    "R006": 0.9375,
+    "R007": 1.0,
+    "R008": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "14.9883935333047980",
+    "R003": "10.0",
+    "R004": "15.0",
+    "R005": "8.0",
+    "R006": "6.5625",
+    "R007": "25.0",
+    "R008": "10.0"
+  },
+  "task_id": "NEW6-B-RETAIL-CLOSE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.995508935333048,
+      "score_decimal": "0.99550893533304798",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.9992262355536532,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 0.9375,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "14.9883935333047980",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "6.5625",
+        "R007": "25.0",
+        "R008": "10.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.995508935333048,
+      "score_decimal": "0.99550893533304798",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.9992262355536532,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 0.9375,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "14.9883935333047980",
+        "R003": "15.0",
+        "R004": "10.0",
+        "R005": "8.0",
+        "R006": "6.5625",
+        "R007": "20.0",
+        "R008": "10.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.9936571482664384,
+      "score_decimal": "0.993657148266438384",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 0.9992262355536532,
+        "R003": 1.0,
+        "R004": 1.0,
+        "R005": 1.0,
+        "R006": 0.9375,
+        "R007": 1.0,
+        "R008": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "11.9907148266438384",
+        "R003": "10.0",
+        "R004": "15.0",
+        "R005": "8.0",
+        "R006": "9.3750",
+        "R007": "20.0",
+        "R008": "15.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/results/scores/B1-codex-R08/native/recalc-fyc8546p/output/answer.xlsx",
+    "dynamic_tests": "not applicable; correct static accepted",
+    "reader": "semantic headers and occurrence IDs, no private candidate coordinates or inferred credit links",
+    "bridge": {
+      "version": "new6-b1-v2",
+      "bridge_fact_count": 9,
+      "bridge_fact_results": {
+        "September net recorded value": true,
+        "Continuing SKU quantity effect": true,
+        "Continuing SKU price and mix effect": true,
+        "New SKU effect": true,
+        "Exited SKU effect": true,
+        "Signed credit change": true,
+        "October net recorded value": true,
+        "Net recorded value change": true,
+        "Bridge residual": true
+      },
+      "candidate_bridge_closure": [
+        true
+      ],
+      "sku_count": 3073,
+      "sku_fact_count": 27657,
+      "sku_mismatches": [],
+      "september_source_retained": true,
+      "equivalence": "Static/formula values and layouts receive the same facts; weighted prices may be recovered from sales quantities/values; blank non-applicable effects equal zero.",
+      "parser_boundary": "Unbound plausible bridge/SKU evidence yields JUDGE_ERROR; no score from guessed coordinates.",
+      "interpretation_boundary": "No keyword or prose-length points. Descriptive-versus-causal wording requires review when material; numeric facts do not prove causal claims."
+    },
+    "candidate_tables": {
+      "records": [
+        {
+          "sheet": "Oct Detail",
+          "header_row": 4,
+          "row_count": 64415
+        },
+        {
+          "sheet": "Sep Detail",
+          "header_row": 4,
+          "row_count": 0
+        }
+      ],
+      "invoices": [
+        {
+          "sheet": "Oct Invoice Analysis",
+          "header_row": 4,
+          "row_count": 2640
+        }
+      ],
+      "countries": [
+        {
+          "sheet": "Oct Country Analysis",
+          "header_row": 4,
+          "row_count": 43
+        }
+      ],
+      "queue": [
+        {
+          "sheet": "Oct Exceptions",
+          "header_row": 4,
+          "row_count": 238
+        }
+      ],
+      "totals": [
+        {
+          "sheet": "Oct Invoice Analysis",
+          "header_row": 4,
+          "row_count": 3
+        }
+      ],
+      "report": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 5,
+          "row_count": 1
+        },
+        {
+          "sheet": "Management Summary",
+          "header_row": 11,
+          "row_count": 11
+        },
+        {
+          "sheet": "Reconciliation",
+          "header_row": 11,
+          "row_count": 29
+        }
+      ],
+      "bridge": [
+        {
+          "sheet": "Management Summary",
+          "header_row": 11,
+          "row_count": 5
+        },
+        {
+          "sheet": "MoM Bridge",
+          "header_row": 4,
+          "row_count": 19
+        },
+        {
+          "sheet": "explicit labelled key/value claims",
+          "header_row": null,
+          "row_count": 6
+        }
+      ],
+      "sku": [
+        {
+          "sheet": "SKU Bridge Schedule",
+          "header_row": 4,
+          "row_count": 3074
+        }
+      ]
+    },
+    "report_claims": {
+      "Gross sales": [
+        1154979.3,
+        1154979.3,
+        1154979.3,
+        "1154979.3"
+      ],
+      "Signed credits": [
+        -84274.63,
+        -84274.63,
+        -84274.63,
+        "-84274.63"
+      ],
+      "Net recorded value": [
+        1070704.67,
+        1070704.67,
+        1070704.67
+      ],
+      "Exception recorded amount": [
+        0
+      ],
+      "Source occurrences": [],
+      "In-scope occurrences": [],
+      "Outside-scope occurrences": [],
+      "Missing customer in scope": []
+    },
+    "report_fact_results": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_record_mismatches": [],
+    "outside_scope_facts_recovered_from_retained_input": {
+      "class": "outside_scope",
+      "count": 3673,
+      "amount": "72734.40",
+      "_source": "preserved candidate input and explicit October reporting scope"
+    },
+    "country_counts_recovered_from_candidate_detail": [],
+    "candidate_country_self_consistency": 1.0,
+    "source_protection": [
+      true
+    ],
+    "source_protection_method": "exact byte identity fast-path",
+    "source_linked_output_rows": 0,
+    "chart_cache_self_consistency": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "chart_evidence": [
+      {
+        "titles": [
+          "Top October countries by net (£)"
+        ],
+        "series": [
+          {
+            "name": "Net",
+            "categories": [
+              "United Kingdom",
+              "Netherlands",
+              "Germany",
+              "France",
+              "EIRE",
+              "Australia",
+              "Switzerland",
+              "Sweden"
+            ],
+            "values": [
+              877400,
+              40700,
+              30600,
+              25000,
+              23300,
+              17200,
+              8000,
+              5800
+            ],
+            "display_tolerance": 50,
+            "categories_cache": [],
+            "values_cache": []
+          }
+        ],
+        "chart": "xl/media/image1.png",
+        "visual_sha256": "8eebc75cd9a9db7d2d72061face9eeb84ea526d39c5a4c4f0ac676b9b88f7234",
+        "visual_receipt": "metadata/reader_v23/visual_claims.json"
+      },
+      {
+        "titles": [
+          "Movement contributions (£)"
+        ],
+        "series": [
+          {
+            "name": "GBP",
+            "categories": [
+              "Continuing quantity",
+              "Price/transactionmix",
+              "New SKUs",
+              "Exited SKUs",
+              "Signed credits"
+            ],
+            "values": [
+              44900,
+              -39400,
+              98400,
+              -7600,
+              -45400
+            ],
+            "display_tolerance": 50,
+            "categories_cache": [],
+            "values_cache": []
+          }
+        ],
+        "chart": "xl/media/image2.png",
+        "visual_sha256": "81ecb749102934b2f77467411db072fdc44f6bbfd23337cb3591b0ac540b3292",
+        "visual_receipt": "metadata/reader_v23/visual_claims.json"
+      }
+    ],
+    "chart_semantic_bindings": [
+      {
+        "chart": "xl/media/image1.png",
+        "name": "Net",
+        "binding": [
+          {
+            "category": "United Kingdom",
+            "role": "country:United Kingdom:net",
+            "expected": "877438.19"
+          },
+          {
+            "category": "Netherlands",
+            "role": "country:Netherlands:net",
+            "expected": "40708.65"
+          },
+          {
+            "category": "Germany",
+            "role": "country:Germany:net",
+            "expected": "30614.27"
+          },
+          {
+            "category": "France",
+            "role": "country:France:net",
+            "expected": "25032.04"
+          },
+          {
+            "category": "EIRE",
+            "role": "country:EIRE:net",
+            "expected": "23307.62"
+          },
+          {
+            "category": "Australia",
+            "role": "country:Australia:net",
+            "expected": "17150.53"
+          },
+          {
+            "category": "Switzerland",
+            "role": "country:Switzerland:net",
+            "expected": "8033.98"
+          },
+          {
+            "category": "Sweden",
+            "role": "country:Sweden:net",
+            "expected": "5766.16"
+          }
+        ],
+        "display_tolerance": "50",
+        "values": [
+          877400,
+          40700,
+          30600,
+          25000,
+          23300,
+          17200,
+          8000,
+          5800
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "chart": "xl/media/image2.png",
+        "name": "GBP",
+        "binding": [
+          {
+            "category": "Continuing quantity",
+            "role": "bridge:Continuing SKU quantity effect",
+            "expected": "44947.3182539216640799958246319340036234498"
+          },
+          {
+            "category": "Price/transactionmix",
+            "role": "bridge:Continuing SKU price and mix effect",
+            "expected": "-39397.5492539216640799958246319340036234498"
+          },
+          {
+            "category": "New SKUs",
+            "role": "bridge:New SKU effect",
+            "expected": "98404.21"
+          },
+          {
+            "category": "Exited SKUs",
+            "role": "bridge:Exited SKU effect",
+            "expected": "-7564.851"
+          },
+          {
+            "category": "Signed credits",
+            "role": "bridge:Signed credit change",
+            "expected": "-45372.08"
+          }
+        ],
+        "display_tolerance": "50",
+        "values": [
+          44900,
+          -39400,
+          98400,
+          -7600,
+          -45400
+        ],
+        "facts": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "denominators": {
+      "source_occurrences": 64415,
+      "mandatory_delivered_in_scope_occurrences": 60742,
+      "outside_scope_occurrences_may_remain_in_original_input": 3673,
+      "invoice_class_groups": 2640,
+      "country_class_groups": 43,
+      "queue_occurrences": 238,
+      "raw_business_facts_direct_or_source_linked": 515320
+    },
+    "external_acceptance_gaps": [
+      "No external negative-item/agentic parser acceptance claimed",
+      "Calibration mutants are not natural Agent failures"
+    ]
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-B-RETAIL-CLOSE-001",
+    "original_sha256": "def9558e24964c8fe9d46cd80f0d73ece3b85eb85d49d7abadd648c0a862ec04",
+    "original_unchanged": true,
+    "native_preprocessing": {
+      "source": "/cases/B1-codex-R08/answer.xlsx",
+      "source_sha256_before": "def9558e24964c8fe9d46cd80f0d73ece3b85eb85d49d7abadd648c0a862ec04",
+      "isolated_input": "/results/scores/B1-codex-R08/native/recalc-fyc8546p/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/scores/B1-codex-R08/native/recalc-fyc8546p/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/scores/B1-codex-R08/native/recalc-fyc8546p/output",
+        "/results/scores/B1-codex-R08/native/recalc-fyc8546p/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 72,
+      "isolated_input_sha256": "8a8302e6b264d9212087c1decde036bec897316889eed9448ad8106fe462302d",
+      "returncode": 0,
+      "output": "/results/scores/B1-codex-R08/native/recalc-fyc8546p/output/answer.xlsx",
+      "output_sha256": "fefc575873abe3756e5f5315ce20e2899bb5a093eef2b2d2548ddb323b0ed3bc",
+      "elapsed_seconds": 16.014104882982792,
+      "source_sha256_after": "def9558e24964c8fe9d46cd80f0d73ece3b85eb85d49d7abadd648c0a862ec04",
+      "original_unchanged": true
+    },
+    "api_calls": 0
+  }
+}

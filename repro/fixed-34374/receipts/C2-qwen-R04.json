@@ -1,0 +1,115 @@
+{
+  "evaluation_status": "JUDGE_ERROR",
+  "profile": "capability_first",
+  "normalized_score": null,
+  "score_decimal": null,
+  "pass": null,
+  "sample_countable": false,
+  "outcome_policy_version": "new6-outcome-v2-delivery-zero",
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "capability_first",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "balanced": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "balanced",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    },
+    "ongoing_use": {
+      "evaluation_status": "JUDGE_ERROR",
+      "profile": "ongoing_use",
+      "normalized_score": null,
+      "score_decimal": null,
+      "pass": null,
+      "sample_countable": false,
+      "outcome_policy_version": "new6-outcome-v2-delivery-zero"
+    }
+  },
+  "evidence": {
+    "baseline_recalc": {
+      "source": "/original/new6/campaigns/budget-only-recovery-v1/runtime/qwen/jobs/new6-budget-only-recovery-qwen/N6BUDGET-C2-QWEN-R04__YvUJuMX/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+      "isolated_input": "/results/C2-qwen-R04/native/baseline/recalc-xq50jzp4/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/C2-qwen-R04/native/baseline/recalc-xq50jzp4/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/C2-qwen-R04/native/baseline/recalc-xq50jzp4/output",
+        "/results/C2-qwen-R04/native/baseline/recalc-xq50jzp4/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 188,
+      "isolated_input_sha256": "c51582b6999a0fba49163cae64db44f61cfcc2d1ff23b8246963446fcd07b5ea",
+      "returncode": 0,
+      "output": "/results/C2-qwen-R04/native/baseline/recalc-xq50jzp4/output/answer.xlsx",
+      "output_sha256": "047137798ba50972c5d8097eae58f095f2fb36864a9e5dec63a80a762e0bc882",
+      "elapsed_seconds": 0.647018791991286,
+      "source_sha256_after": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+      "original_unchanged": true
+    },
+    "pending_reason": "Formula engine or legal implementation could not be resolved; manual/native distinction required: Source_Extract!A4: #VALUE!, Source_Extract!A62: #N/A, Source_Extract!A137: #VALUE!",
+    "parse_evidence": {
+      "formula_audit": {
+        "audit_version": "tariff-formula-audit-v1",
+        "classification": "UNRESOLVED",
+        "native_error_count": 3,
+        "root_count": 0,
+        "dependent_error_count": 0,
+        "unresolved_error_count": 3,
+        "roots": [],
+        "dependent_errors": [],
+        "unresolved_errors": [
+          {
+            "sheet": "Source_Extract",
+            "cell": "A4",
+            "native_error": "#VALUE!",
+            "formula": "=== Source page 1 (table of contents) ===",
+            "reason": "No direct defect proved by this bounded audit"
+          },
+          {
+            "sheet": "Source_Extract",
+            "cell": "A62",
+            "native_error": "#N/A",
+            "formula": "=== Source page 5 (Priority Mail — Retail) ===",
+            "reason": "No direct defect proved by this bounded audit"
+          },
+          {
+            "sheet": "Source_Extract",
+            "cell": "A137",
+            "native_error": "#VALUE!",
+            "formula": "=== Source page 7 (USPS Ground Advantage-Retail) ===",
+            "reason": "No direct defect proved by this bounded audit"
+          }
+        ],
+        "changes_to_original": false,
+        "recalculation_performed": false,
+        "oracle_values_used": false,
+        "score_computed": false,
+        "integration_boundary": "Only direct roots prove a candidate defect. Dependencies are observed native errors. This audit does not resolve layouts, assign rubric points, replace error values or make unknown functions scoreable."
+      }
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "16accf756f6ff7531b8b433db8e21af7173e57bd9c661576eb772dddab080158",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

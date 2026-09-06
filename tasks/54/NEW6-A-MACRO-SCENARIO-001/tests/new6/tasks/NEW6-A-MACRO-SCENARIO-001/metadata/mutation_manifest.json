@@ -1,0 +1,1639 @@
+{
+  "changes": [
+    {
+      "sheet": "Submodel1s",
+      "cell": "F21",
+      "original_formula": "=((1-$D$3)+E10/E24)/((1+F8)*(1+F9)*(1+F15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G21",
+      "original_formula": "=((1-$D$3)+F10/F24)/((1+G8)*(1+G9)*(1+G15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H21",
+      "original_formula": "=((1-$D$3)+G10/G24)/((1+H8)*(1+H9)*(1+H15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I21",
+      "original_formula": "=((1-$D$3)+H10/H24)/((1+I8)*(1+I9)*(1+I15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J21",
+      "original_formula": "=((1-$D$3)+I10/I24)/((1+J8)*(1+J9)*(1+J15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K21",
+      "original_formula": "=((1-$D$3)+J10/J24)/((1+K8)*(1+K9)*(1+K15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L21",
+      "original_formula": "=((1-$D$3)+K10/K24)/((1+L8)*(1+L9)*(1+L15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M21",
+      "original_formula": "=((1-$D$3)+L10/L24)/((1+M8)*(1+M9)*(1+M15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N21",
+      "original_formula": "=((1-$D$3)+M10/M24)/((1+N8)*(1+N9)*(1+N15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O21",
+      "original_formula": "=((1-$D$3)+N10/N24)/((1+O8)*(1+O9)*(1+O15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P21",
+      "original_formula": "=((1-$D$3)+O10/O24)/((1+P8)*(1+P9)*(1+P15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q21",
+      "original_formula": "=((1-$D$3)+P10/P24)/((1+Q8)*(1+Q9)*(1+Q15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R21",
+      "original_formula": "=((1-$D$3)+Q10/Q24)/((1+R8)*(1+R9)*(1+R15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S21",
+      "original_formula": "=((1-$D$3)+R10/R24)/((1+S8)*(1+S9)*(1+S15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T21",
+      "original_formula": "=((1-$D$3)+S10/S24)/((1+T8)*(1+T9)*(1+T15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U21",
+      "original_formula": "=((1-$D$3)+T10/T24)/((1+U8)*(1+U9)*(1+U15))-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F22",
+      "original_formula": "=(1+F7)*(1+F21)^(1-$D$2)*(1+F6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G22",
+      "original_formula": "=(1+G7)*(1+G21)^(1-$D$2)*(1+G6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H22",
+      "original_formula": "=(1+H7)*(1+H21)^(1-$D$2)*(1+H6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I22",
+      "original_formula": "=(1+I7)*(1+I21)^(1-$D$2)*(1+I6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J22",
+      "original_formula": "=(1+J7)*(1+J21)^(1-$D$2)*(1+J6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K22",
+      "original_formula": "=(1+K7)*(1+K21)^(1-$D$2)*(1+K6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L22",
+      "original_formula": "=(1+L7)*(1+L21)^(1-$D$2)*(1+L6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M22",
+      "original_formula": "=(1+M7)*(1+M21)^(1-$D$2)*(1+M6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N22",
+      "original_formula": "=(1+N7)*(1+N21)^(1-$D$2)*(1+N6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O22",
+      "original_formula": "=(1+O7)*(1+O21)^(1-$D$2)*(1+O6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P22",
+      "original_formula": "=(1+P7)*(1+P21)^(1-$D$2)*(1+P6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q22",
+      "original_formula": "=(1+Q7)*(1+Q21)^(1-$D$2)*(1+Q6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R22",
+      "original_formula": "=(1+R7)*(1+R21)^(1-$D$2)*(1+R6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S22",
+      "original_formula": "=(1+S7)*(1+S21)^(1-$D$2)*(1+S6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T22",
+      "original_formula": "=(1+T7)*(1+T21)^(1-$D$2)*(1+T6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U22",
+      "original_formula": "=(1+U7)*(1+U21)^(1-$D$2)*(1+U6)^$D$2-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F23",
+      "original_formula": "=(1+F22)*(1+F9)*(1+F15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G23",
+      "original_formula": "=(1+G22)*(1+G9)*(1+G15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H23",
+      "original_formula": "=(1+H22)*(1+H9)*(1+H15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I23",
+      "original_formula": "=(1+I22)*(1+I9)*(1+I15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J23",
+      "original_formula": "=(1+J22)*(1+J9)*(1+J15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K23",
+      "original_formula": "=(1+K22)*(1+K9)*(1+K15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L23",
+      "original_formula": "=(1+L22)*(1+L9)*(1+L15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M23",
+      "original_formula": "=(1+M22)*(1+M9)*(1+M15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N23",
+      "original_formula": "=(1+N22)*(1+N9)*(1+N15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O23",
+      "original_formula": "=(1+O22)*(1+O9)*(1+O15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P23",
+      "original_formula": "=(1+P22)*(1+P9)*(1+P15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q23",
+      "original_formula": "=(1+Q22)*(1+Q9)*(1+Q15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R23",
+      "original_formula": "=(1+R22)*(1+R9)*(1+R15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S23",
+      "original_formula": "=(1+S22)*(1+S9)*(1+S15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T23",
+      "original_formula": "=(1+T22)*(1+T9)*(1+T15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U23",
+      "original_formula": "=(1+U22)*(1+U9)*(1+U15)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F24",
+      "original_formula": "=(1+Submodel1s!F21)/(1+Submodel1s!F22)*E24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G24",
+      "original_formula": "=(1+Submodel1s!G21)/(1+Submodel1s!G22)*F24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H24",
+      "original_formula": "=(1+Submodel1s!H21)/(1+Submodel1s!H22)*G24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I24",
+      "original_formula": "=(1+Submodel1s!I21)/(1+Submodel1s!I22)*H24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J24",
+      "original_formula": "=(1+Submodel1s!J21)/(1+Submodel1s!J22)*I24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K24",
+      "original_formula": "=(1+Submodel1s!K21)/(1+Submodel1s!K22)*J24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L24",
+      "original_formula": "=(1+Submodel1s!L21)/(1+Submodel1s!L22)*K24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M24",
+      "original_formula": "=(1+Submodel1s!M21)/(1+Submodel1s!M22)*L24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N24",
+      "original_formula": "=(1+Submodel1s!N21)/(1+Submodel1s!N22)*M24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O24",
+      "original_formula": "=(1+Submodel1s!O21)/(1+Submodel1s!O22)*N24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P24",
+      "original_formula": "=(1+Submodel1s!P21)/(1+Submodel1s!P22)*O24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q24",
+      "original_formula": "=(1+Submodel1s!Q21)/(1+Submodel1s!Q22)*P24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R24",
+      "original_formula": "=(1+Submodel1s!R21)/(1+Submodel1s!R22)*Q24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S24",
+      "original_formula": "=(1+Submodel1s!S21)/(1+Submodel1s!S22)*R24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T24",
+      "original_formula": "=(1+Submodel1s!T21)/(1+Submodel1s!T22)*S24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U24",
+      "original_formula": "=(1+Submodel1s!U21)/(1+Submodel1s!U22)*T24",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F30",
+      "original_formula": "=F7+$D$2*(F9+F15+F6)+(1-$D$2)*(E10/E24-$D$3-F8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G30",
+      "original_formula": "=G7+$D$2*(G9+G15+G6)+(1-$D$2)*(F10/F24-$D$3-G8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H30",
+      "original_formula": "=H7+$D$2*(H9+H15+H6)+(1-$D$2)*(G10/G24-$D$3-H8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I30",
+      "original_formula": "=I7+$D$2*(I9+I15+I6)+(1-$D$2)*(H10/H24-$D$3-I8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J30",
+      "original_formula": "=J7+$D$2*(J9+J15+J6)+(1-$D$2)*(I10/I24-$D$3-J8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K30",
+      "original_formula": "=K7+$D$2*(K9+K15+K6)+(1-$D$2)*(J10/J24-$D$3-K8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L30",
+      "original_formula": "=L7+$D$2*(L9+L15+L6)+(1-$D$2)*(K10/K24-$D$3-L8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M30",
+      "original_formula": "=M7+$D$2*(M9+M15+M6)+(1-$D$2)*(L10/L24-$D$3-M8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N30",
+      "original_formula": "=N7+$D$2*(N9+N15+N6)+(1-$D$2)*(M10/M24-$D$3-N8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O30",
+      "original_formula": "=O7+$D$2*(O9+O15+O6)+(1-$D$2)*(N10/N24-$D$3-O8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P30",
+      "original_formula": "=P7+$D$2*(P9+P15+P6)+(1-$D$2)*(O10/O24-$D$3-P8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q30",
+      "original_formula": "=Q7+$D$2*(Q9+Q15+Q6)+(1-$D$2)*(P10/P24-$D$3-Q8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R30",
+      "original_formula": "=R7+$D$2*(R9+R15+R6)+(1-$D$2)*(Q10/Q24-$D$3-R8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S30",
+      "original_formula": "=S7+$D$2*(S9+S15+S6)+(1-$D$2)*(R10/R24-$D$3-S8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T30",
+      "original_formula": "=T7+$D$2*(T9+T15+T6)+(1-$D$2)*(S10/S24-$D$3-T8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U30",
+      "original_formula": "=U7+$D$2*(U9+U15+U6)+(1-$D$2)*(T10/T24-$D$3-U8)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F31",
+      "original_formula": "=(1+F23)*(1+F8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G31",
+      "original_formula": "=(1+G23)*(1+G8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H31",
+      "original_formula": "=(1+H23)*(1+H8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I31",
+      "original_formula": "=(1+I23)*(1+I8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J31",
+      "original_formula": "=(1+J23)*(1+J8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K31",
+      "original_formula": "=(1+K23)*(1+K8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L31",
+      "original_formula": "=(1+L23)*(1+L8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M31",
+      "original_formula": "=(1+M23)*(1+M8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N31",
+      "original_formula": "=(1+N23)*(1+N8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O31",
+      "original_formula": "=(1+O23)*(1+O8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P31",
+      "original_formula": "=(1+P23)*(1+P8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q31",
+      "original_formula": "=(1+Q23)*(1+Q8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R31",
+      "original_formula": "=(1+R23)*(1+R8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S31",
+      "original_formula": "=(1+S23)*(1+S8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T31",
+      "original_formula": "=(1+T23)*(1+T8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U31",
+      "original_formula": "=(1+U23)*(1+U8)-1",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F32",
+      "original_formula": "=F22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G32",
+      "original_formula": "=G22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H32",
+      "original_formula": "=H22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I32",
+      "original_formula": "=I22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J32",
+      "original_formula": "=J22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K32",
+      "original_formula": "=K22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L32",
+      "original_formula": "=L22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M32",
+      "original_formula": "=M22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N32",
+      "original_formula": "=N22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O32",
+      "original_formula": "=O22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P32",
+      "original_formula": "=P22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q32",
+      "original_formula": "=Q22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R32",
+      "original_formula": "=R22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S32",
+      "original_formula": "=S22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T32",
+      "original_formula": "=T22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U32",
+      "original_formula": "=U22",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F33",
+      "original_formula": "=E33*(1+F23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G33",
+      "original_formula": "=F33*(1+G23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H33",
+      "original_formula": "=G33*(1+H23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I33",
+      "original_formula": "=H33*(1+I23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J33",
+      "original_formula": "=I33*(1+J23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K33",
+      "original_formula": "=J33*(1+K23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L33",
+      "original_formula": "=K33*(1+L23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M33",
+      "original_formula": "=L33*(1+M23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N33",
+      "original_formula": "=M33*(1+N23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O33",
+      "original_formula": "=N33*(1+O23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P33",
+      "original_formula": "=O33*(1+P23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q33",
+      "original_formula": "=P33*(1+Q23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R33",
+      "original_formula": "=Q33*(1+R23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S33",
+      "original_formula": "=R33*(1+S23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T33",
+      "original_formula": "=S33*(1+T23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U33",
+      "original_formula": "=T33*(1+U23)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F37",
+      "original_formula": "=F31/F10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G37",
+      "original_formula": "=G31/G10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H37",
+      "original_formula": "=H31/H10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I37",
+      "original_formula": "=I31/I10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J37",
+      "original_formula": "=J31/J10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K37",
+      "original_formula": "=K31/K10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L37",
+      "original_formula": "=L31/L10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M37",
+      "original_formula": "=M31/M10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N37",
+      "original_formula": "=N31/N10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O37",
+      "original_formula": "=O31/O10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P37",
+      "original_formula": "=P31/P10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q37",
+      "original_formula": "=Q31/Q10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R37",
+      "original_formula": "=R31/R10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S37",
+      "original_formula": "=S31/S10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T37",
+      "original_formula": "=T31/T10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U37",
+      "original_formula": "=U31/U10",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F38",
+      "original_formula": "=1/(1/(1-$D$2)*F24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G38",
+      "original_formula": "=1/(1/(1-$D$2)*G24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H38",
+      "original_formula": "=1/(1/(1-$D$2)*H24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I38",
+      "original_formula": "=1/(1/(1-$D$2)*I24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J38",
+      "original_formula": "=1/(1/(1-$D$2)*J24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K38",
+      "original_formula": "=1/(1/(1-$D$2)*K24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L38",
+      "original_formula": "=1/(1/(1-$D$2)*L24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M38",
+      "original_formula": "=1/(1/(1-$D$2)*M24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N38",
+      "original_formula": "=1/(1/(1-$D$2)*N24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O38",
+      "original_formula": "=1/(1/(1-$D$2)*O24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P38",
+      "original_formula": "=1/(1/(1-$D$2)*P24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q38",
+      "original_formula": "=1/(1/(1-$D$2)*Q24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R38",
+      "original_formula": "=1/(1/(1-$D$2)*R24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S38",
+      "original_formula": "=1/(1/(1-$D$2)*S24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T38",
+      "original_formula": "=1/(1/(1-$D$2)*T24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U38",
+      "original_formula": "=1/(1/(1-$D$2)*U24)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F39",
+      "original_formula": "=1/F37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G39",
+      "original_formula": "=1/G37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H39",
+      "original_formula": "=1/H37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I39",
+      "original_formula": "=1/I37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J39",
+      "original_formula": "=1/J37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K39",
+      "original_formula": "=1/K37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L39",
+      "original_formula": "=1/L37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M39",
+      "original_formula": "=1/M37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N39",
+      "original_formula": "=1/N37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O39",
+      "original_formula": "=1/O37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P39",
+      "original_formula": "=1/P37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q39",
+      "original_formula": "=1/Q37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R39",
+      "original_formula": "=1/R37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S39",
+      "original_formula": "=1/S37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T39",
+      "original_formula": "=1/T37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U39",
+      "original_formula": "=1/U37",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F40",
+      "original_formula": "=1/F38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G40",
+      "original_formula": "=1/G38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H40",
+      "original_formula": "=1/H38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I40",
+      "original_formula": "=1/I38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J40",
+      "original_formula": "=1/J38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K40",
+      "original_formula": "=1/K38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L40",
+      "original_formula": "=1/L38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M40",
+      "original_formula": "=1/M38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N40",
+      "original_formula": "=1/N38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O40",
+      "original_formula": "=1/O38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P40",
+      "original_formula": "=1/P38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q40",
+      "original_formula": "=1/Q38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R40",
+      "original_formula": "=1/R38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S40",
+      "original_formula": "=1/S38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T40",
+      "original_formula": "=1/T38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U40",
+      "original_formula": "=1/U38",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F52",
+      "original_formula": "=F33*F41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G52",
+      "original_formula": "=G33*G41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H52",
+      "original_formula": "=H33*H41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I52",
+      "original_formula": "=I33*I41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J52",
+      "original_formula": "=J33*J41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K52",
+      "original_formula": "=K33*K41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L52",
+      "original_formula": "=L33*L41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M52",
+      "original_formula": "=M33*M41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N52",
+      "original_formula": "=N33*N41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O52",
+      "original_formula": "=O33*O41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P52",
+      "original_formula": "=P33*P41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q52",
+      "original_formula": "=Q33*Q41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R52",
+      "original_formula": "=R33*R41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S52",
+      "original_formula": "=S33*S41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T52",
+      "original_formula": "=T33*T41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U52",
+      "original_formula": "=U33*U41",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F53",
+      "original_formula": "=F52/F47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G53",
+      "original_formula": "=G52/G47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H53",
+      "original_formula": "=H52/H47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I53",
+      "original_formula": "=I52/I47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J53",
+      "original_formula": "=J52/J47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K53",
+      "original_formula": "=K52/K47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L53",
+      "original_formula": "=L52/L47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M53",
+      "original_formula": "=M52/M47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N53",
+      "original_formula": "=N52/N47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O53",
+      "original_formula": "=O52/O47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P53",
+      "original_formula": "=P52/P47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q53",
+      "original_formula": "=Q52/Q47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R53",
+      "original_formula": "=R52/R47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S53",
+      "original_formula": "=S52/S47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T53",
+      "original_formula": "=T52/T47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U53",
+      "original_formula": "=U52/U47",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F54",
+      "original_formula": "=E54*(1+F7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G54",
+      "original_formula": "=F54*(1+G7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H54",
+      "original_formula": "=G54*(1+H7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I54",
+      "original_formula": "=H54*(1+I7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J54",
+      "original_formula": "=I54*(1+J7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K54",
+      "original_formula": "=J54*(1+K7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L54",
+      "original_formula": "=K54*(1+L7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M54",
+      "original_formula": "=L54*(1+M7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N54",
+      "original_formula": "=M54*(1+N7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O54",
+      "original_formula": "=N54*(1+O7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P54",
+      "original_formula": "=O54*(1+P7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q54",
+      "original_formula": "=P54*(1+Q7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R54",
+      "original_formula": "=Q54*(1+R7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S54",
+      "original_formula": "=R54*(1+S7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T54",
+      "original_formula": "=S54*(1+T7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U54",
+      "original_formula": "=T54*(1+U7)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F57",
+      "original_formula": "=F21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G57",
+      "original_formula": "=G21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H57",
+      "original_formula": "=H21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I57",
+      "original_formula": "=I21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J57",
+      "original_formula": "=J21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K57",
+      "original_formula": "=K21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L57",
+      "original_formula": "=L21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M57",
+      "original_formula": "=M21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N57",
+      "original_formula": "=N21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O57",
+      "original_formula": "=O21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P57",
+      "original_formula": "=P21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q57",
+      "original_formula": "=Q21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R57",
+      "original_formula": "=R21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S57",
+      "original_formula": "=S21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T57",
+      "original_formula": "=T21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U57",
+      "original_formula": "=U21*(1-$D$2)",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "F58",
+      "original_formula": "=F6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "G58",
+      "original_formula": "=G6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "H58",
+      "original_formula": "=H6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "I58",
+      "original_formula": "=I6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "J58",
+      "original_formula": "=J6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "K58",
+      "original_formula": "=K6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "L58",
+      "original_formula": "=L6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "M58",
+      "original_formula": "=M6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "N58",
+      "original_formula": "=N6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "O58",
+      "original_formula": "=O6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "P58",
+      "original_formula": "=P6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "Q58",
+      "original_formula": "=Q6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "R58",
+      "original_formula": "=R6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "S58",
+      "original_formula": "=S6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "T58",
+      "original_formula": "=T6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    },
+    {
+      "sheet": "Submodel1s",
+      "cell": "U58",
+      "original_formula": "=U6*$D$2",
+      "action": "clear_scenario_2020_2035_derived_block"
+    }
+  ],
+  "initial_2019_source_values_retained": true,
+  "baseline_preserved": true,
+  "formula_and_chart_caches_cleared": true
+}

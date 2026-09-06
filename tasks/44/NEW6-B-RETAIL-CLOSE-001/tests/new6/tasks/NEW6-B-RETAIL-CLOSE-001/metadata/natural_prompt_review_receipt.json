@@ -1,0 +1,9 @@
+{
+  "task_version": "new6-b1-v2",
+  "status": "REVIEWED_AGAINST_VISIBLE_BRIEF",
+  "instruction": "Natural business request. Scope, classification and physical-occurrence conventions are in the visible brief.",
+  "judge_alignment": "No private worksheet names, coordinates or mandatory algorithm in candidate requirements. Source-linked traceability accepted. Correct static work receives full credit. Public mathematical convention defines a requested business attribution, without worksheet/coordinate mandates.",
+  "validation": "Existing 18 fixtures plus two targeted equivalence fixtures; receipt tracks actual outcome.",
+  "agent_attempts": 0,
+  "difficulty_verified": false
+}

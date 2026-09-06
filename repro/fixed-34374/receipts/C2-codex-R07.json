@@ -1,0 +1,3965 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 1.0,
+  "score_decimal": "1",
+  "pass": true,
+  "criterion_scores": {
+    "R001": "1",
+    "R002": "1",
+    "R003": "1",
+    "R004": "1",
+    "R005": "1",
+    "R006": "1"
+  },
+  "contributions_raw": {
+    "R001": "35",
+    "R002": "10",
+    "R003": "10",
+    "R004": "35",
+    "R005": "5",
+    "R006": "5"
+  },
+  "task_id": "NEW6-C-PARCEL-TARIFF-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "35",
+        "R002": "10",
+        "R003": "10",
+        "R004": "35",
+        "R005": "5",
+        "R006": "5"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "40",
+        "R002": "10",
+        "R003": "15",
+        "R004": "25",
+        "R005": "5",
+        "R006": "5"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 1.0,
+      "score_decimal": "1",
+      "pass": true,
+      "criterion_scores": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "contributions_raw": {
+        "R001": "30",
+        "R002": "10",
+        "R003": "10",
+        "R004": "40",
+        "R005": "5",
+        "R006": "5"
+      }
+    }
+  },
+  "evidence": {
+    "baseline_recalc": {
+      "source": "/original/new6/campaigns/new6-144-v1/runtime-six/codex/jobs/new6-144-codex/NEW6-C-PARCEL-TARIFF-001-CODEX-R__tjkAVwu/artifacts/app/output/answer.xlsx",
+      "source_sha256_before": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+      "isolated_input": "/results/C2-codex-R07/native/baseline/recalc-nkaerahe/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/C2-codex-R07/native/baseline/recalc-nkaerahe/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/C2-codex-R07/native/baseline/recalc-nkaerahe/output",
+        "/results/C2-codex-R07/native/baseline/recalc-nkaerahe/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 803,
+      "isolated_input_sha256": "d3853ed176bf1f143a99d81102c9968834c2c6b5ea2f16873f5c65e5aafe85df",
+      "returncode": 0,
+      "output": "/results/C2-codex-R07/native/baseline/recalc-nkaerahe/output/answer.xlsx",
+      "output_sha256": "9ce6e6ba67c35d60169387f2b86b7c23a7e72c7659d74afb4626ea6a5b398f6f",
+      "elapsed_seconds": 0.5193874169781338,
+      "source_sha256_after": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+      "original_unchanged": true
+    },
+    "formula_audit": {
+      "native_error_count": 0
+    },
+    "discovered_tables": [
+      {
+        "sheet": "Rate Sheet",
+        "header_row": 5,
+        "kind": "wide_rate",
+        "fields": {
+          "upper_bound": 2
+        },
+        "record_count": 80,
+        "nonempty_body_rows": 10,
+        "service_binding": [
+          "Priority Mail Retail - Letters, Large Envelopes & Parcels"
+        ],
+        "oracle_values_used_for_discovery": false
+      },
+      {
+        "sheet": "Rate Sheet",
+        "header_row": 19,
+        "kind": "wide_rate",
+        "fields": {
+          "upper_bound": 2
+        },
+        "record_count": 112,
+        "nonempty_body_rows": 14,
+        "service_binding": [
+          "USPS Ground Advantage Retail - Parcels"
+        ],
+        "oracle_values_used_for_discovery": false
+      },
+      {
+        "sheet": "Quotes",
+        "header_row": 7,
+        "kind": "quote",
+        "fields": {
+          "request_id": 1,
+          "weight": 2,
+          "weight_unit": 3,
+          "zone": 4,
+          "priority_usd": 8,
+          "ground_usd": 10,
+          "selected": 11,
+          "selected_usd": 12
+        },
+        "record_count": 12,
+        "nonempty_body_rows": 12
+      }
+    ],
+    "rate_delivery": {
+      "state": "BOUND",
+      "parsed_rate_rows": 192
+    },
+    "dynamic": [
+      {
+        "name": "four_ounce_boundary",
+        "declared_changes": {
+          "Q01": {
+            "weight": "4.1"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotes",
+            "B8",
+            4.1
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "/results/C2-codex-R07/native/four_ounce_boundary/mutated.xlsx",
+          "source_sha256_before": "58a50b94a663c0ceb5016445bce98bcc94f0f8875a559237af98cf81fdd3bbda",
+          "isolated_input": "/results/C2-codex-R07/native/four_ounce_boundary/recalculated/recalc-l2j7temn/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/C2-codex-R07/native/four_ounce_boundary/recalculated/recalc-l2j7temn/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/C2-codex-R07/native/four_ounce_boundary/recalculated/recalc-l2j7temn/output",
+            "/results/C2-codex-R07/native/four_ounce_boundary/recalculated/recalc-l2j7temn/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "525e42c386c898e18ec4378f3581600a00b60f8c113e1358c4bbde4376ec00ee",
+          "returncode": 0,
+          "output": "/results/C2-codex-R07/native/four_ounce_boundary/recalculated/recalc-l2j7temn/output/mutated.xlsx",
+          "output_sha256": "562b24e7a0b1a0be57b6ab6d026ff06a97bac552b4f8ed1b649fcc28f9fcf93b",
+          "elapsed_seconds": 0.441161833005026,
+          "source_sha256_after": "58a50b94a663c0ceb5016445bce98bcc94f0f8875a559237af98cf81fdd3bbda",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "164.55"
+      },
+      {
+        "name": "eight_ounce_boundary",
+        "declared_changes": {
+          "Q03": {
+            "weight": "8.1"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotes",
+            "B10",
+            8.1
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "/results/C2-codex-R07/native/eight_ounce_boundary/mutated.xlsx",
+          "source_sha256_before": "c9e96152a6d1bd90c14eb3c299a3a4a20f0f5e89e99b76cb8dc2ab923c4f2ae6",
+          "isolated_input": "/results/C2-codex-R07/native/eight_ounce_boundary/recalculated/recalc-rxfbb6tt/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/C2-codex-R07/native/eight_ounce_boundary/recalculated/recalc-rxfbb6tt/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/C2-codex-R07/native/eight_ounce_boundary/recalculated/recalc-rxfbb6tt/output",
+            "/results/C2-codex-R07/native/eight_ounce_boundary/recalculated/recalc-rxfbb6tt/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "b78534feed7afa532fe3c71eb81425196966f025c7e454420049446f00adace3",
+          "returncode": 0,
+          "output": "/results/C2-codex-R07/native/eight_ounce_boundary/recalculated/recalc-rxfbb6tt/output/mutated.xlsx",
+          "output_sha256": "107ef3239d11c82e46be62087b8964b05a6004686c3902aa208fc6a8f0ae4200",
+          "elapsed_seconds": 0.4675714170152787,
+          "source_sha256_after": "c9e96152a6d1bd90c14eb3c299a3a4a20f0f5e89e99b76cb8dc2ab923c4f2ae6",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q01",
+            "same": true
+          },
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "168.00"
+      },
+      {
+        "name": "pound_boundary",
+        "declared_changes": {
+          "Q08": {
+            "weight": "1.01"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotes",
+            "B15",
+            1.01
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "/results/C2-codex-R07/native/pound_boundary/mutated.xlsx",
+          "source_sha256_before": "c33eae8c06af2d4240574ce065ff74b1604b3d8c0c4af5d2e6fdbe3b9078ecf6",
+          "isolated_input": "/results/C2-codex-R07/native/pound_boundary/recalculated/recalc-e5020o9t/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/C2-codex-R07/native/pound_boundary/recalculated/recalc-e5020o9t/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/C2-codex-R07/native/pound_boundary/recalculated/recalc-e5020o9t/output",
+            "/results/C2-codex-R07/native/pound_boundary/recalculated/recalc-e5020o9t/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "6588c419f02d613d23947476a6a62cd1945c63517657ace1df16fc3197a8128f",
+          "returncode": 0,
+          "output": "/results/C2-codex-R07/native/pound_boundary/recalculated/recalc-e5020o9t/output/mutated.xlsx",
+          "output_sha256": "8ca2e5e6861f180639b197ea1d1b475b4751b0228d2a795cd3b75cf98294797d",
+          "elapsed_seconds": 0.4373037919867784,
+          "source_sha256_after": "c33eae8c06af2d4240574ce065ff74b1604b3d8c0c4af5d2e6fdbe3b9078ecf6",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q01",
+            "same": true
+          },
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "168.30"
+      },
+      {
+        "name": "weight_zone_joint",
+        "declared_changes": {
+          "Q01": {
+            "weight": "4.1",
+            "zone": "8"
+          }
+        },
+        "actual_control_cells": [
+          [
+            "Quotes",
+            "B8",
+            4.1
+          ],
+          [
+            "Quotes",
+            "D8",
+            "8"
+          ]
+        ],
+        "changed_inputs_read_back_correct": true,
+        "recalc": {
+          "source": "/results/C2-codex-R07/native/weight_zone_joint/mutated.xlsx",
+          "source_sha256_before": "c7a0360ccd27858b6c412e358d1d0f24012f1f3807be39922425367a4a5fce4f",
+          "isolated_input": "/results/C2-codex-R07/native/weight_zone_joint/recalculated/recalc-lvsqyq_r/input/mutated.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/C2-codex-R07/native/weight_zone_joint/recalculated/recalc-lvsqyq_r/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/C2-codex-R07/native/weight_zone_joint/recalculated/recalc-lvsqyq_r/output",
+            "/results/C2-codex-R07/native/weight_zone_joint/recalculated/recalc-lvsqyq_r/input/mutated.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "76b4feaec8ec5069616259b92fb0931d311eb0f37bac5e3602f9fc619373c53e",
+          "returncode": 0,
+          "output": "/results/C2-codex-R07/native/weight_zone_joint/recalculated/recalc-lvsqyq_r/output/mutated.xlsx",
+          "output_sha256": "a64bb1b10c0eba0da44643c84de82ec6eb14ae39a197dc0a8f3f5944cd34cf57",
+          "elapsed_seconds": 0.48565858401707374,
+          "source_sha256_after": "c7a0360ccd27858b6c412e358d1d0f24012f1f3807be39922425367a4a5fce4f",
+          "original_unchanged": true
+        },
+        "rate_facts_unchanged": true,
+        "unaffected_quotes": [
+          {
+            "request_id": "Q02",
+            "same": true
+          },
+          {
+            "request_id": "Q03",
+            "same": true
+          },
+          {
+            "request_id": "Q04",
+            "same": true
+          },
+          {
+            "request_id": "Q05",
+            "same": true
+          },
+          {
+            "request_id": "Q06",
+            "same": true
+          },
+          {
+            "request_id": "Q07",
+            "same": true
+          },
+          {
+            "request_id": "Q08",
+            "same": true
+          },
+          {
+            "request_id": "Q09",
+            "same": true
+          },
+          {
+            "request_id": "Q10",
+            "same": true
+          },
+          {
+            "request_id": "Q11",
+            "same": true
+          },
+          {
+            "request_id": "Q12",
+            "same": true
+          }
+        ],
+        "oracle_total": "166.10"
+      }
+    ],
+    "facts": {
+      "R001": [
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11
+          ],
+          "expected": "11.00"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            11.5
+          ],
+          "expected": "11.50"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            11.65
+          ],
+          "expected": "11.65"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            11.9
+          ],
+          "expected": "11.90"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            13.05
+          ],
+          "expected": "13.05"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            14.5
+          ],
+          "expected": "14.50"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            15.6
+          ],
+          "expected": "15.60"
+        },
+        {
+          "fact": "('priority', Decimal('1'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            16.95
+          ],
+          "expected": "16.95"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12.65
+          ],
+          "expected": "12.65"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            13.45
+          ],
+          "expected": "13.45"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            14.35
+          ],
+          "expected": "14.35"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            16.85
+          ],
+          "expected": "16.85"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            18.15
+          ],
+          "expected": "18.15"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            19.45
+          ],
+          "expected": "19.45"
+        },
+        {
+          "fact": "('priority', Decimal('2'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            21.55
+          ],
+          "expected": "21.55"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.45
+          ],
+          "expected": "12.45"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            13.3
+          ],
+          "expected": "13.30"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            14
+          ],
+          "expected": "14.00"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            15.15
+          ],
+          "expected": "15.15"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            18.05
+          ],
+          "expected": "18.05"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            20.95
+          ],
+          "expected": "20.95"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            23.85
+          ],
+          "expected": "23.85"
+        },
+        {
+          "fact": "('priority', Decimal('3'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            27.1
+          ],
+          "expected": "27.10"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            13.45
+          ],
+          "expected": "13.45"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.05
+          ],
+          "expected": "14.05"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.05
+          ],
+          "expected": "15.05"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            16.35
+          ],
+          "expected": "16.35"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            20.75
+          ],
+          "expected": "20.75"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            25.35
+          ],
+          "expected": "25.35"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            28.4
+          ],
+          "expected": "28.40"
+        },
+        {
+          "fact": "('priority', Decimal('4'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            31.85
+          ],
+          "expected": "31.85"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.3
+          ],
+          "expected": "14.30"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.95
+          ],
+          "expected": "14.95"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.05
+          ],
+          "expected": "16.05"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.5
+          ],
+          "expected": "17.50"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            22.1
+          ],
+          "expected": "22.10"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            27
+          ],
+          "expected": "27.00"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            32.7
+          ],
+          "expected": "32.70"
+        },
+        {
+          "fact": "('priority', Decimal('5'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            36.9
+          ],
+          "expected": "36.90"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.9
+          ],
+          "expected": "14.90"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            15.35
+          ],
+          "expected": "15.35"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            18.2
+          ],
+          "expected": "18.20"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            23.25
+          ],
+          "expected": "23.25"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            29.65
+          ],
+          "expected": "29.65"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            37
+          ],
+          "expected": "37.00"
+        },
+        {
+          "fact": "('priority', Decimal('6'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            41.85
+          ],
+          "expected": "41.85"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            15.55
+          ],
+          "expected": "15.55"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            16.05
+          ],
+          "expected": "16.05"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            17.1
+          ],
+          "expected": "17.10"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            19.05
+          ],
+          "expected": "19.05"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            25.1
+          ],
+          "expected": "25.10"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            32.3
+          ],
+          "expected": "32.30"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            41.15
+          ],
+          "expected": "41.15"
+        },
+        {
+          "fact": "('priority', Decimal('7'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            46.75
+          ],
+          "expected": "46.75"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            16.25
+          ],
+          "expected": "16.25"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            16.5
+          ],
+          "expected": "16.50"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            17.6
+          ],
+          "expected": "17.60"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            19.7
+          ],
+          "expected": "19.70"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            26.4
+          ],
+          "expected": "26.40"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            35.1
+          ],
+          "expected": "35.10"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            45.35
+          ],
+          "expected": "45.35"
+        },
+        {
+          "fact": "('priority', Decimal('8'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            51.7
+          ],
+          "expected": "51.70"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            16.85
+          ],
+          "expected": "16.85"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            17.15
+          ],
+          "expected": "17.15"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            18.1
+          ],
+          "expected": "18.10"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            20.85
+          ],
+          "expected": "20.85"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            27.45
+          ],
+          "expected": "27.45"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            37.7
+          ],
+          "expected": "37.70"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            49.45
+          ],
+          "expected": "49.45"
+        },
+        {
+          "fact": "('priority', Decimal('9'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            56.45
+          ],
+          "expected": "56.45"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            17.8
+          ],
+          "expected": "17.80"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            18.25
+          ],
+          "expected": "18.25"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            19.2
+          ],
+          "expected": "19.20"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            21.75
+          ],
+          "expected": "21.75"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            28.65
+          ],
+          "expected": "28.65"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            40.6
+          ],
+          "expected": "40.60"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            53.55
+          ],
+          "expected": "53.55"
+        },
+        {
+          "fact": "('priority', Decimal('10'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            61.3
+          ],
+          "expected": "61.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            7.9
+          ],
+          "expected": "7.90"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            8.05
+          ],
+          "expected": "8.05"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            8.15
+          ],
+          "expected": "8.15"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            8.3
+          ],
+          "expected": "8.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            8.6
+          ],
+          "expected": "8.60"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            8.75
+          ],
+          "expected": "8.75"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            8.95
+          ],
+          "expected": "8.95"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            9.45
+          ],
+          "expected": "9.45"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            7.9
+          ],
+          "expected": "7.90"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            8.05
+          ],
+          "expected": "8.05"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            8.15
+          ],
+          "expected": "8.15"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            8.3
+          ],
+          "expected": "8.30"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            8.6
+          ],
+          "expected": "8.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            8.75
+          ],
+          "expected": "8.75"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            8.95
+          ],
+          "expected": "8.95"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            9.45
+          ],
+          "expected": "9.45"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            11.35
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('12'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            11.35
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('15.999'), 'oz', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            9.55
+          ],
+          "expected": "9.55"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            9.95
+          ],
+          "expected": "9.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            10.2
+          ],
+          "expected": "10.20"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            10.6
+          ],
+          "expected": "10.60"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            10.95
+          ],
+          "expected": "10.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            11.35
+          ],
+          "expected": "11.35"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            11.95
+          ],
+          "expected": "11.95"
+        },
+        {
+          "fact": "('ground', Decimal('1'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            12.9
+          ],
+          "expected": "12.90"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            10.8
+          ],
+          "expected": "10.80"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            11.5
+          ],
+          "expected": "11.50"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            12.2
+          ],
+          "expected": "12.20"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            13
+          ],
+          "expected": "13.00"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            14.1
+          ],
+          "expected": "14.10"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            15.1
+          ],
+          "expected": "15.10"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('ground', Decimal('2'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            19.05
+          ],
+          "expected": "19.05"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            11.3
+          ],
+          "expected": "11.30"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12
+          ],
+          "expected": "12.00"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            12.65
+          ],
+          "expected": "12.65"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            13.7
+          ],
+          "expected": "13.70"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            14.95
+          ],
+          "expected": "14.95"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            16.45
+          ],
+          "expected": "16.45"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            18.95
+          ],
+          "expected": "18.95"
+        },
+        {
+          "fact": "('ground', Decimal('3'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            22.4
+          ],
+          "expected": "22.40"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.25
+          ],
+          "expected": "12.25"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            12.75
+          ],
+          "expected": "12.75"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            13.65
+          ],
+          "expected": "13.65"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            16.4
+          ],
+          "expected": "16.40"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            18.3
+          ],
+          "expected": "18.30"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            20.9
+          ],
+          "expected": "20.90"
+        },
+        {
+          "fact": "('ground', Decimal('4'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            24.25
+          ],
+          "expected": "24.25"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            12.95
+          ],
+          "expected": "12.95"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            13.55
+          ],
+          "expected": "13.55"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            14.55
+          ],
+          "expected": "14.55"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            15.8
+          ],
+          "expected": "15.80"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            17.45
+          ],
+          "expected": "17.45"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            19.6
+          ],
+          "expected": "19.60"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            22.4
+          ],
+          "expected": "22.40"
+        },
+        {
+          "fact": "('ground', Decimal('5'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            26.05
+          ],
+          "expected": "26.05"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            13.5
+          ],
+          "expected": "13.50"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            13.9
+          ],
+          "expected": "13.90"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            16.35
+          ],
+          "expected": "16.35"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            18.4
+          ],
+          "expected": "18.40"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            21.05
+          ],
+          "expected": "21.05"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            24.35
+          ],
+          "expected": "24.35"
+        },
+        {
+          "fact": "('ground', Decimal('6'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            28.35
+          ],
+          "expected": "28.35"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14
+          ],
+          "expected": "14.00"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.4
+          ],
+          "expected": "14.40"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.4
+          ],
+          "expected": "15.40"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.1
+          ],
+          "expected": "17.10"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            19.45
+          ],
+          "expected": "19.45"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            22.55
+          ],
+          "expected": "22.55"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            26.25
+          ],
+          "expected": "26.25"
+        },
+        {
+          "fact": "('ground', Decimal('7'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            30.6
+          ],
+          "expected": "30.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            14.6
+          ],
+          "expected": "14.60"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            14.85
+          ],
+          "expected": "14.85"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            15.8
+          ],
+          "expected": "15.80"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            17.65
+          ],
+          "expected": "17.65"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            20.4
+          ],
+          "expected": "20.40"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            24.1
+          ],
+          "expected": "24.10"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            28.45
+          ],
+          "expected": "28.45"
+        },
+        {
+          "fact": "('ground', Decimal('8'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            33.15
+          ],
+          "expected": "33.15"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            15.1
+          ],
+          "expected": "15.10"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            15.4
+          ],
+          "expected": "15.40"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            16.25
+          ],
+          "expected": "16.25"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            18.3
+          ],
+          "expected": "18.30"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            21.4
+          ],
+          "expected": "21.40"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            25.55
+          ],
+          "expected": "25.55"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            30.75
+          ],
+          "expected": "30.75"
+        },
+        {
+          "fact": "('ground', Decimal('9'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            35.7
+          ],
+          "expected": "35.70"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('1'))",
+          "correct": true,
+          "actual": [
+            15.95
+          ],
+          "expected": "15.95"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('2'))",
+          "correct": true,
+          "actual": [
+            16.3
+          ],
+          "expected": "16.30"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('3'))",
+          "correct": true,
+          "actual": [
+            17.25
+          ],
+          "expected": "17.25"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('4'))",
+          "correct": true,
+          "actual": [
+            19.4
+          ],
+          "expected": "19.40"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('5'))",
+          "correct": true,
+          "actual": [
+            22.85
+          ],
+          "expected": "22.85"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('6'))",
+          "correct": true,
+          "actual": [
+            27.5
+          ],
+          "expected": "27.50"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('7'))",
+          "correct": true,
+          "actual": [
+            33.3
+          ],
+          "expected": "33.30"
+        },
+        {
+          "fact": "('ground', Decimal('10'), 'lb', Decimal('8'))",
+          "correct": true,
+          "actual": [
+            39.45
+          ],
+          "expected": "39.45"
+        }
+      ],
+      "R002": [
+        {
+          "fact": "band_identity ('ground', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('4'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('8'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('12'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('ground', Decimal('15.999'), 'oz')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "band_identity ('priority', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": 8,
+          "expected": 8
+        },
+        {
+          "fact": "effective_date",
+          "correct": true,
+          "actual": {
+            "binding": "shared",
+            "dates": [
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Guide",
+                "row": 2
+              },
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Guide",
+                "row": 27
+              },
+              {
+                "value": "July 12, 2026",
+                "correct": true,
+                "sheet": "Rate Sheet",
+                "row": 37
+              }
+            ]
+          },
+          "expected": null
+        }
+      ],
+      "R003": [
+        {
+          "fact": "Q01.priority_usd",
+          "correct": true,
+          "actual": 11,
+          "expected": "11.00"
+        },
+        {
+          "fact": "Q01.ground_usd",
+          "correct": true,
+          "actual": 7.9,
+          "expected": "7.90"
+        },
+        {
+          "fact": "Q01.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q01.selected_usd",
+          "correct": true,
+          "actual": 7.9,
+          "expected": "7.90"
+        },
+        {
+          "fact": "Q02.priority_usd",
+          "correct": true,
+          "actual": 11.5,
+          "expected": "11.50"
+        },
+        {
+          "fact": "Q02.ground_usd",
+          "correct": true,
+          "actual": 8.05,
+          "expected": "8.05"
+        },
+        {
+          "fact": "Q02.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q02.selected_usd",
+          "correct": true,
+          "actual": 8.05,
+          "expected": "8.05"
+        },
+        {
+          "fact": "Q03.priority_usd",
+          "correct": true,
+          "actual": 16.95,
+          "expected": "16.95"
+        },
+        {
+          "fact": "Q03.ground_usd",
+          "correct": true,
+          "actual": 9.45,
+          "expected": "9.45"
+        },
+        {
+          "fact": "Q03.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q03.selected_usd",
+          "correct": true,
+          "actual": 9.45,
+          "expected": "9.45"
+        },
+        {
+          "fact": "Q04.priority_usd",
+          "correct": true,
+          "actual": 16.95,
+          "expected": "16.95"
+        },
+        {
+          "fact": "Q04.ground_usd",
+          "correct": true,
+          "actual": 12.9,
+          "expected": "12.90"
+        },
+        {
+          "fact": "Q04.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q04.selected_usd",
+          "correct": true,
+          "actual": 12.9,
+          "expected": "12.90"
+        },
+        {
+          "fact": "Q05.priority_usd",
+          "correct": true,
+          "actual": 11.9,
+          "expected": "11.90"
+        },
+        {
+          "fact": "Q05.ground_usd",
+          "correct": true,
+          "actual": 10.6,
+          "expected": "10.60"
+        },
+        {
+          "fact": "Q05.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q05.selected_usd",
+          "correct": true,
+          "actual": 10.6,
+          "expected": "10.60"
+        },
+        {
+          "fact": "Q06.priority_usd",
+          "correct": true,
+          "actual": 13.05,
+          "expected": "13.05"
+        },
+        {
+          "fact": "Q06.ground_usd",
+          "correct": true,
+          "actual": 10.95,
+          "expected": "10.95"
+        },
+        {
+          "fact": "Q06.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q06.selected_usd",
+          "correct": true,
+          "actual": 10.95,
+          "expected": "10.95"
+        },
+        {
+          "fact": "Q07.priority_usd",
+          "correct": true,
+          "actual": 14.5,
+          "expected": "14.50"
+        },
+        {
+          "fact": "Q07.ground_usd",
+          "correct": true,
+          "actual": 11.35,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q07.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q07.selected_usd",
+          "correct": true,
+          "actual": 11.35,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q08.priority_usd",
+          "correct": true,
+          "actual": 14.5,
+          "expected": "14.50"
+        },
+        {
+          "fact": "Q08.ground_usd",
+          "correct": true,
+          "actual": 11.35,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q08.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q08.selected_usd",
+          "correct": true,
+          "actual": 11.35,
+          "expected": "11.35"
+        },
+        {
+          "fact": "Q09.priority_usd",
+          "correct": true,
+          "actual": 19.45,
+          "expected": "19.45"
+        },
+        {
+          "fact": "Q09.ground_usd",
+          "correct": true,
+          "actual": 16.45,
+          "expected": "16.45"
+        },
+        {
+          "fact": "Q09.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q09.selected_usd",
+          "correct": true,
+          "actual": 16.45,
+          "expected": "16.45"
+        },
+        {
+          "fact": "Q10.priority_usd",
+          "correct": true,
+          "actual": 13.45,
+          "expected": "13.45"
+        },
+        {
+          "fact": "Q10.ground_usd",
+          "correct": true,
+          "actual": 12.2,
+          "expected": "12.20"
+        },
+        {
+          "fact": "Q10.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q10.selected_usd",
+          "correct": true,
+          "actual": 12.2,
+          "expected": "12.20"
+        },
+        {
+          "fact": "Q11.priority_usd",
+          "correct": true,
+          "actual": 15.35,
+          "expected": "15.35"
+        },
+        {
+          "fact": "Q11.ground_usd",
+          "correct": true,
+          "actual": 13.9,
+          "expected": "13.90"
+        },
+        {
+          "fact": "Q11.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q11.selected_usd",
+          "correct": true,
+          "actual": 13.9,
+          "expected": "13.90"
+        },
+        {
+          "fact": "Q12.priority_usd",
+          "correct": true,
+          "actual": 61.3,
+          "expected": "61.30"
+        },
+        {
+          "fact": "Q12.ground_usd",
+          "correct": true,
+          "actual": 39.45,
+          "expected": "39.45"
+        },
+        {
+          "fact": "Q12.selected",
+          "correct": true,
+          "actual": "ground",
+          "expected": "ground"
+        },
+        {
+          "fact": "Q12.selected_usd",
+          "correct": true,
+          "actual": 39.45,
+          "expected": "39.45"
+        },
+        {
+          "fact": "batch_total",
+          "correct": true,
+          "actual": [
+            {
+              "value": 164.55,
+              "cell": "Quotes!A5"
+            }
+          ],
+          "expected": "164.55"
+        }
+      ],
+      "R004": [
+        {
+          "fact": "eight_ounce_boundary.Q03.ground_usd.delta",
+          "correct": true,
+          "actual": "3.45",
+          "expected": "3.45"
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.selected_usd.delta",
+          "correct": true,
+          "actual": "3.45",
+          "expected": "3.45"
+        },
+        {
+          "fact": "eight_ounce_boundary.batch_total.delta",
+          "correct": true,
+          "actual": {
+            "Quotes!A5": "3.45"
+          },
+          "expected": "3.45"
+        },
+        {
+          "fact": "pound_boundary.Q08.priority_usd.delta",
+          "correct": true,
+          "actual": "3.65",
+          "expected": "3.65"
+        },
+        {
+          "fact": "pound_boundary.Q08.ground_usd.delta",
+          "correct": true,
+          "actual": "3.75",
+          "expected": "3.75"
+        },
+        {
+          "fact": "pound_boundary.Q08.selected_usd.delta",
+          "correct": true,
+          "actual": "3.75",
+          "expected": "3.75"
+        },
+        {
+          "fact": "pound_boundary.batch_total.delta",
+          "correct": true,
+          "actual": {
+            "Quotes!A5": "3.75"
+          },
+          "expected": "3.75"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.priority_usd.delta",
+          "correct": true,
+          "actual": "5.95",
+          "expected": "5.95"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.ground_usd.delta",
+          "correct": true,
+          "actual": "1.55",
+          "expected": "1.55"
+        },
+        {
+          "fact": "weight_zone_joint.Q01.selected_usd.delta",
+          "correct": true,
+          "actual": "1.55",
+          "expected": "1.55"
+        },
+        {
+          "fact": "weight_zone_joint.batch_total.delta",
+          "correct": true,
+          "actual": {
+            "Quotes!A5": "1.55"
+          },
+          "expected": "1.55"
+        }
+      ],
+      "R005": [
+        {
+          "fact": "request_scope Q01",
+          "correct": true,
+          "actual": {
+            "weight": 4,
+            "weight_unit": "oz",
+            "zone": 1
+          },
+          "expected": {
+            "request_id": "Q01",
+            "weight": "4",
+            "weight_unit": "oz",
+            "zone": "1",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q02",
+          "correct": true,
+          "actual": {
+            "weight": 4.1,
+            "weight_unit": "oz",
+            "zone": 2
+          },
+          "expected": {
+            "request_id": "Q02",
+            "weight": "4.1",
+            "weight_unit": "oz",
+            "zone": "2",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q03",
+          "correct": true,
+          "actual": {
+            "weight": 8,
+            "weight_unit": "oz",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q03",
+            "weight": "8",
+            "weight_unit": "oz",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q04",
+          "correct": true,
+          "actual": {
+            "weight": 8.1,
+            "weight_unit": "oz",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q04",
+            "weight": "8.1",
+            "weight_unit": "oz",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q05",
+          "correct": true,
+          "actual": {
+            "weight": 12,
+            "weight_unit": "oz",
+            "zone": 4
+          },
+          "expected": {
+            "request_id": "Q05",
+            "weight": "12",
+            "weight_unit": "oz",
+            "zone": "4",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q06",
+          "correct": true,
+          "actual": {
+            "weight": 12.1,
+            "weight_unit": "oz",
+            "zone": 5
+          },
+          "expected": {
+            "request_id": "Q06",
+            "weight": "12.1",
+            "weight_unit": "oz",
+            "zone": "5",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q07",
+          "correct": true,
+          "actual": {
+            "weight": 15.999,
+            "weight_unit": "oz",
+            "zone": 6
+          },
+          "expected": {
+            "request_id": "Q07",
+            "weight": "15.999",
+            "weight_unit": "oz",
+            "zone": "6",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q08",
+          "correct": true,
+          "actual": {
+            "weight": 1,
+            "weight_unit": "lb",
+            "zone": 6
+          },
+          "expected": {
+            "request_id": "Q08",
+            "weight": "1",
+            "weight_unit": "lb",
+            "zone": "6",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q09",
+          "correct": true,
+          "actual": {
+            "weight": 1.01,
+            "weight_unit": "lb",
+            "zone": 7
+          },
+          "expected": {
+            "request_id": "Q09",
+            "weight": "1.01",
+            "weight_unit": "lb",
+            "zone": "7",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q10",
+          "correct": true,
+          "actual": {
+            "weight": 2,
+            "weight_unit": "lb",
+            "zone": 3
+          },
+          "expected": {
+            "request_id": "Q10",
+            "weight": "2",
+            "weight_unit": "lb",
+            "zone": "3",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q11",
+          "correct": true,
+          "actual": {
+            "weight": 5.5,
+            "weight_unit": "lb",
+            "zone": 2
+          },
+          "expected": {
+            "request_id": "Q11",
+            "weight": "5.5",
+            "weight_unit": "lb",
+            "zone": "2",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "request_scope Q12",
+          "correct": true,
+          "actual": {
+            "weight": 10,
+            "weight_unit": "lb",
+            "zone": 8
+          },
+          "expected": {
+            "request_id": "Q12",
+            "weight": "10",
+            "weight_unit": "lb",
+            "zone": "8",
+            "request_origin": "project_authored_test_request"
+          }
+        },
+        {
+          "fact": "extra_request_identity",
+          "correct": true,
+          "actual": [
+            "Q01",
+            "Q02",
+            "Q03",
+            "Q04",
+            "Q05",
+            "Q06",
+            "Q07",
+            "Q08",
+            "Q09",
+            "Q10",
+            "Q11",
+            "Q12"
+          ],
+          "expected": null
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.priority_usd.delta",
+          "correct": true,
+          "actual": "0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.ground_usd.delta",
+          "correct": true,
+          "actual": "0.0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.selected_usd.delta",
+          "correct": true,
+          "actual": "0.0",
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.Q01.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "four_ounce_boundary.batch_total.delta",
+          "correct": true,
+          "actual": {
+            "Quotes!A5": "0.00"
+          },
+          "expected": "0.00"
+        },
+        {
+          "fact": "four_ounce_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.priority_usd.delta",
+          "correct": true,
+          "actual": "0.00",
+          "expected": "0.00"
+        },
+        {
+          "fact": "eight_ounce_boundary.Q03.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "eight_ounce_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "pound_boundary.Q08.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "pound_boundary.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "weight_zone_joint.Q01.selected.response",
+          "correct": true,
+          "actual": {
+            "before": "ground",
+            "after": "ground"
+          },
+          "expected": {
+            "changed": false,
+            "after": "ground"
+          }
+        },
+        {
+          "fact": "weight_zone_joint.source_and_unaffected_preserved",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        }
+      ],
+      "R006": [
+        {
+          "fact": "source_trace ('ground', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('4'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('8'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('12'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('ground', Decimal('15.999'), 'oz')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 7"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('1'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('2'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('3'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('4'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('5'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('6'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('7'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('8'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('9'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "source_trace ('priority', Decimal('10'), 'lb')",
+          "correct": true,
+          "actual": [
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            },
+            {
+              "binding": "row",
+              "citation": "Notice 123 p. 5"
+            }
+          ],
+          "expected": "Traceable Retail service/weight table; page number or equivalent locator"
+        },
+        {
+          "fact": "request_source_trace",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "fact": "pdf_identity_trace",
+          "correct": true,
+          "actual": null,
+          "expected": null
+        }
+      ]
+    },
+    "denominators": {
+      "R001": 192,
+      "R002": 25,
+      "R003": 49,
+      "R004": 11,
+      "R005": 26,
+      "R006": 26
+    },
+    "candidate_self_consistency": {
+      "quotes": [
+        {
+          "request_id": "Q01",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q02",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q03",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q04",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q05",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q06",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q07",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q08",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q09",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q10",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q11",
+          "selected_price_matches_own_services": true
+        },
+        {
+          "request_id": "Q12",
+          "selected_price_matches_own_services": true
+        }
+      ],
+      "all_batch_totals_match_own_detail": true
+    }
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-C-PARCEL-TARIFF-001",
+    "original_sha256": "b5efebca379c151ec83034b395d6c33f90a6a621a8661392291f437f6dcaf290",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

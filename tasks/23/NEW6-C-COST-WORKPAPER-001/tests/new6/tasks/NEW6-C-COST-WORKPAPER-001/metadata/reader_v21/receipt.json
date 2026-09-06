@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "legal_natural_layout",
+      "status": "SCORED",
+      "score": "1",
+      "criteria": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "1",
+        "R004": "1",
+        "R005": "1",
+        "R006": "1"
+      },
+      "denominators": {
+        "R001": 151,
+        "R002": 6,
+        "R003": 27,
+        "R004": 3,
+        "R005": 23,
+        "R006": 74
+      },
+      "passed": true
+    },
+    {
+      "name": "wrong_movement",
+      "status": "SCORED",
+      "score": "0.80314009661835748792270531400966183574881",
+      "criteria": {
+        "R001": "1",
+        "R002": "1",
+        "R003": "0.9629629629629629629629629629629629629630",
+        "R004": "0",
+        "R005": "0.7391304347826086956521739130434782608696",
+        "R006": "1"
+      },
+      "denominators": {
+        "R001": 151,
+        "R002": 6,
+        "R003": 27,
+        "R004": 3,
+        "R005": 23,
+        "R006": 74
+      },
+      "passed": true
+    },
+    {
+      "name": "unknown_role_pending",
+      "status": "PENDING_READER_LIMIT",
+      "error": "Material natural-review label remains unbound: [{'sheet': 'Summary', 'label': 'Unspecified commercial aggregate', 'header': {'label': 1, 'printed': 2, 'rate': 3, 'working_rate': 4, 'working': 5, 'delta': 6, 'source': 7, 'page': 8, 'scope': 9}, 'context': 'Summary The current heating quotation supersedes the earlier quotation. Asbestos remains an unapproved option outside the current cost limit. No consultant fees or VAT are added.'}]",
+      "passed": true
+    },
+    {
+      "name": "duplicate_role_pending",
+      "status": "PENDING_READER_LIMIT",
+      "error": "Repeated labelled vertical bridge role requires review: Movement bridge / current",
+      "passed": true
+    },
+    {
+      "name": "ambiguous_editable_control_pending",
+      "status": "PENDING_READER_LIMIT",
+      "error": "Multiple editable review controls require unambiguous roles: heating_price",
+      "passed": true
+    },
+    {
+      "name": "unresolved_native_formula_pending",
+      "status": "PENDING_READER_LIMIT",
+      "error": "Bound required quantity has an engine/parse error: [(('summary', 'vat_excluded'), '#NAME?')]",
+      "passed": true
+    }
+  ],
+  "api_calls": 0,
+  "fixed_denominators": {
+    "R001": 151,
+    "R002": 6,
+    "R003": 27,
+    "R004": 3,
+    "R005": 23,
+    "R006": 74
+  },
+  "scope": "One legal layout, one wrong movement, unknown and duplicate-role fail-closed safeguards; legacy 19 fixtures not rerun."
+}

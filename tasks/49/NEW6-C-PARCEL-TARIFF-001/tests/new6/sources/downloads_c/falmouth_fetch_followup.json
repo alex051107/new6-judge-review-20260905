@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-3589?download=1",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.find-tender.service.gov.uk/notice/attachment/A-3589",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://find-tender.service.gov.uk/Notice/Attachment/A-3589",
+    "error": "<urlopen error timed out>"
+  }
+]

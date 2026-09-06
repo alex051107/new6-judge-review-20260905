@@ -1,0 +1,19 @@
+{
+  "case": "B2-codex-R05",
+  "trial_id": "N6V3-B2-CODEX-R05__8BRWeXB",
+  "answer_sha256": "261ef53e7274b92f428b2dae6fe23630b931df5ec175df4402b9d42b783a3b47",
+  "status": "SCORED",
+  "selected_judge_label": "new6-b2-offline-v3.3-chart-roles",
+  "selected_judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "criterion_scores": {
+    "R001": "0.8571428571428571",
+    "R002": "0.75",
+    "R003": "1.0",
+    "R004": "0.8",
+    "R005": "1.0"
+  },
+  "original_points": "87.6071428571428565",
+  "focus50_points": "87.8296703296703291758241758241758241758241758242",
+  "focus60_points": "87.9780219780219776263736263736263736263736263736",
+  "focus70_points": "88.1263736263736260769230769230769230769230769231"
+}

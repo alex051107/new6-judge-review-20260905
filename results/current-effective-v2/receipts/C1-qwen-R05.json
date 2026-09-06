@@ -1,0 +1,10 @@
+{
+  "case": "C1-qwen-R05",
+  "trial_id": "N6GPAR-C1-QWEN-R05__5BrpuSb",
+  "answer_sha256": "e412f4de88b77b7369d0684fee8b0bdbe3b97a1154bd9b580b9b34868f3ccf5e",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": null,
+  "evaluation_status": "JUDGE_ERROR",
+  "criterion_scores": null,
+  "technical_reason": "A material candidate table remains unbound: ['Cost Summary', 'Elemental Analysis', 'Working Calculation', 'Reconciliation']"
+}

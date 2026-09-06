@@ -12,4 +12,4 @@ source_locator中的private-source前缀是内部来源标识，不是可公开�
 
 [逐份版本与差异核对](snapshot_differences.json)保留71份回执的可用版本字段。
 
-[原始完整快照与脚本（组内权限）](https://github.com/alex051107/excelbench-p15-results/tree/c4143ace5119b443438f5235405b105e8ff301c6/new6-final/ability-comparison-360-v1)按原文件归档。
+[公开分项快照](frozen_facts.json)与[复算脚本](recompute.py)可直接查看；原始未脱敏备份继续内部留存。

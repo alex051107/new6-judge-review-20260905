@@ -1,0 +1,458 @@
+{
+  "snapshot_at": "2026-09-06T04:14:26.451264Z",
+  "prior_ledger_updated_at": "2026-09-06T03:15:27.054608+00:00",
+  "collected": 23,
+  "planned_slots": 48,
+  "by_task": {
+    "A1": 1,
+    "A2": 1,
+    "B1": 8,
+    "B2": 1,
+    "C1": 6,
+    "C2": 6
+  },
+  "status_definition": "Collected final answer with ended trial, not scoring success or business success. Snapshot excludes intermediate files.",
+  "records": [
+    {
+      "case": "B1-qwen-R05",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R05__nvzJDsc",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R04",
+      "task": "C2",
+      "trial_id": "N6BUDGET-C2-QWEN-R04__YvUJuMX",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R01",
+      "task": "C2",
+      "trial_id": "N6BUDGET-C2-QWEN-R01__pJ77K3R",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R07",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R07__AygCGu8",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "OUTPUT_MISSING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R04",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R04__mXF78nM",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R03",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__fnKncWa",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R03",
+      "task": "B1",
+      "trial_id": "N6BUDGET-B1-QWEN-R03__fnWfwXa",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R05",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__Y4Ji4hY",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R07",
+      "task": "C2",
+      "trial_id": "N6BUDGET-C2-QWEN-R07__GbGdnth",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R06",
+      "task": "B1",
+      "trial_id": "NEW6-B-RETAIL-CLOSE-001-QWEN-R06__MnV8uz7",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R07",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R07__v9DZcQj",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R08",
+      "task": "C2",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__SogAnJ9",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R02",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__SzVK5gp",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "OUTPUT_MISSING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R08",
+      "task": "B1",
+      "trial_id": "N6B1IMAGE-B1-QWEN-R08__Xzy5iEG",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6B1IDLE-B1-QWEN-R08__8HqKrVp"
+    },
+    {
+      "case": "C2-qwen-R03",
+      "task": "C2",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__8jCvfpU",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R02",
+      "task": "C2",
+      "trial_id": "N6BUDGET-C2-QWEN-R02__pD2mpY9",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R02",
+      "task": "B1",
+      "trial_id": "N6GPAR-B1-QWEN-R02__GFrXsBh",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R06",
+      "task": "C2",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__kfEkG6y",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R08",
+      "task": "A1",
+      "trial_id": "N6A1STREAM-A1-QWEN-R08__HWE5zEr",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "SCORED",
+      "previous_trial_id": "N6SIX-A1-QWEN-R08__zcELTXw"
+    },
+    {
+      "case": "A2-qwen-R08",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__h79kPaS",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "OUTPUT_MISSING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R07",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__Pvf4onL",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "OUTPUT_MISSING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R06",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__XeQo52h",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B1-qwen-R01",
+      "task": "B1",
+      "trial_id": "N6GRAMMAR-B1-QWEN-R01__SrhXusU",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "C2-qwen-R05",
+      "task": "C2",
+      "trial_id": "NEW6-C-PARCEL-TARIFF-001-QWEN-R0__VRwZ5X2",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R04",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__PFoKc4n",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "A2-qwen-R01",
+      "task": "A2",
+      "trial_id": "NEW6-A-MACRO-SCENARIO-001-QWEN-R__QYQEFZw",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R06",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R06__APhqSLY",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "OUTPUT_MISSING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R01",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R01__Sr3TYH7",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R03",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R03__ayL7Ex5",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R02",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R02__DxsXXEK",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R04",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R04__zYDfVzF",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "A1-qwen-R05",
+      "task": "A1",
+      "trial_id": "NEW6-A-FIN-RESTORE-001-QWEN-R05__8PzycPG",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R04",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R04__BAyugYJ",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R04",
+      "task": "C1",
+      "trial_id": "N6GPAR-C1-QWEN-R04__tFc9yNi",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6C1V2-QWEN-R04__7v486UV"
+    },
+    {
+      "case": "B2-qwen-R08",
+      "task": "B2",
+      "trial_id": "N6SIX-B2-QWEN-R08__aohdaFa",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "SCORED",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R02",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R02__mmSgNCS",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R07",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R07__44PqrSC",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R08",
+      "task": "C1",
+      "trial_id": "N6SIX-C1-QWEN-R08__AKNpNV5",
+      "collected": true,
+      "source": "prior_current_ledger",
+      "prior_status": "JUDGE_ERROR",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R05",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R05__efM8SDs",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R05",
+      "task": "C1",
+      "trial_id": "N6GPAR-C1-QWEN-R05__5BrpuSb",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6C1V2-QWEN-R05__jJnpU9z"
+    },
+    {
+      "case": "B2-qwen-R03",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R03__3QptLQ7",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R01",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R01__rM3icuh",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "B2-qwen-R06",
+      "task": "B2",
+      "trial_id": "N6V3-B2-QWEN-R06__opcP3rC",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R07",
+      "task": "C1",
+      "trial_id": "N6C1V2-QWEN-R07__6Wh2gu4",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R03",
+      "task": "C1",
+      "trial_id": "N6GPAR-C1-QWEN-R03__dHeCevY",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6C1V2-QWEN-R03__VLNaNcy"
+    },
+    {
+      "case": "C1-qwen-R01",
+      "task": "C1",
+      "trial_id": "N6C1IMAGE-C1-QWEN-R01__W3nENQW",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6C1STREAM-C1-QWEN-R01__aqMt3Ef"
+    },
+    {
+      "case": "C1-qwen-R06",
+      "task": "C1",
+      "trial_id": "N6C1V2-QWEN-R06__mS7JXsg",
+      "collected": false,
+      "source": "prior_current_ledger",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": null
+    },
+    {
+      "case": "C1-qwen-R02",
+      "task": "C1",
+      "trial_id": "N6GPAR-C1-QWEN-R02__eWXn9B2",
+      "collected": true,
+      "source": "new_completed_collection",
+      "prior_status": "RUN_OR_COLLECTION_PENDING",
+      "new_offline_status": "JUDGE_ERROR",
+      "previous_trial_id": "N6C1V2-QWEN-R02__GWLRobQ"
+    }
+  ],
+  "scored": 11,
+  "collected_pending_judge": 12
+}

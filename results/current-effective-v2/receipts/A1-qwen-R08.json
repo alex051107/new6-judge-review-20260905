@@ -1,0 +1,17 @@
+{
+  "case": "A1-qwen-R08",
+  "trial_id": "N6A1STREAM-A1-QWEN-R08__HWE5zEr",
+  "answer_sha256": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": "new6-a1-offline-v1.4-base-controls",
+  "evaluation_status": "SCORED",
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "1.0",
+    "R003": "1.0",
+    "R006": "0.8",
+    "R004": "1.0",
+    "R005": "1.0"
+  },
+  "technical_reason": null
+}

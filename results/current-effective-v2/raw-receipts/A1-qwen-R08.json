@@ -1,0 +1,278 @@
+{
+  "evaluation_status": "SCORED",
+  "profile": "capability_first",
+  "normalized_score": 0.99,
+  "score_decimal": "0.99",
+  "pass": true,
+  "criterion_scores": {
+    "R001": 1.0,
+    "R002": 1.0,
+    "R003": 1.0,
+    "R006": 0.8,
+    "R004": 1.0,
+    "R005": 1.0
+  },
+  "contributions_raw": {
+    "R001": "10.0",
+    "R002": "25.0",
+    "R003": "20.0",
+    "R004": "35.0",
+    "R005": "5.0",
+    "R006": "4.0"
+  },
+  "task_id": "NEW6-A-FIN-RESTORE-001",
+  "primary_profile": "capability_first",
+  "profiles": {
+    "capability_first": {
+      "evaluation_status": "SCORED",
+      "profile": "capability_first",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "25.0",
+        "R003": "20.0",
+        "R004": "35.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    },
+    "balanced": {
+      "evaluation_status": "SCORED",
+      "profile": "balanced",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "15.0",
+        "R002": "25.0",
+        "R003": "25.0",
+        "R004": "25.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    },
+    "ongoing_use": {
+      "evaluation_status": "SCORED",
+      "profile": "ongoing_use",
+      "normalized_score": 0.99,
+      "score_decimal": "0.99",
+      "pass": true,
+      "criterion_scores": {
+        "R001": 1.0,
+        "R002": 1.0,
+        "R003": 1.0,
+        "R006": 0.8,
+        "R004": 1.0,
+        "R005": 1.0
+      },
+      "contributions_raw": {
+        "R001": "10.0",
+        "R002": "20.0",
+        "R003": "20.0",
+        "R004": "40.0",
+        "R005": "5.0",
+        "R006": "4.0"
+      }
+    }
+  },
+  "evidence": {
+    "candidate": "/submission/answer.xlsx",
+    "judge_version": "new6-a1-offline-v1.4-base-controls",
+    "implementation": "label/year semantic reader; native LibreOffice only; original preserved",
+    "baseline_mismatches": [],
+    "baseline_denominators": {
+      "R001": 21,
+      "R002": 132,
+      "R003": 142,
+      "R006": 5
+    },
+    "summary_checks": {
+      "base_equity": true,
+      "review_equity": true,
+      "difference": false,
+      "base_share": true,
+      "review_share": true
+    },
+    "candidate_formula_defects": [],
+    "native_baseline": {
+      "source": "/submission/answer.xlsx",
+      "source_sha256_before": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+      "isolated_input": "/results/run/native/recalc-1afei39r/input/answer.xlsx",
+      "engine": "/usr/bin/soffice",
+      "command": [
+        "/usr/bin/soffice",
+        "-env:UserInstallation=file:///results/run/native/recalc-1afei39r/profile",
+        "--headless",
+        "--convert-to",
+        "xlsx",
+        "--outdir",
+        "/results/run/native/recalc-1afei39r/output",
+        "/results/run/native/recalc-1afei39r/input/answer.xlsx"
+      ],
+      "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+      "cleared_formula_cache_count": 1118,
+      "isolated_input_sha256": "b22a6ec95b26ac323371c9af01b7877df9d31f3d57ca0f04311bd45ea8747ad3",
+      "returncode": 0,
+      "output": "/results/run/native/recalc-1afei39r/output/answer.xlsx",
+      "output_sha256": "da1eb204fe3e0f8de7ac3333f3bdc9b0bca6650b83852ac5551829378e5a151a",
+      "elapsed_seconds": 1.1472675419936422,
+      "source_sha256_after": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+      "original_unchanged": true
+    },
+    "dynamic_tests": [
+      {
+        "control": "growth",
+        "input_change": "0.01",
+        "sheet": "Input sheet",
+        "cell": "B23",
+        "active_fact_count": 168,
+        "active_correct": 168,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/results/run/native/growth_input_changed.xlsx",
+          "source_sha256_before": "11dad23d02db737e2a2d78bf9223a8a90c68fabeb95fccb227e9980465b81c61",
+          "isolated_input": "/results/run/native/recalc-iv12saob/input/growth_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/native/recalc-iv12saob/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/native/recalc-iv12saob/output",
+            "/results/run/native/recalc-iv12saob/input/growth_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "e9028eefa9a2926cc328e9aa9d15b3537749403ed382667ce8874e600133c185",
+          "returncode": 0,
+          "output": "/results/run/native/recalc-iv12saob/output/growth_input_changed.xlsx",
+          "output_sha256": "6062cb80dde932b03cc89f739d7f35beb83d799d5231ae2bd890971444c89160",
+          "elapsed_seconds": 0.9406436249846593,
+          "source_sha256_after": "11dad23d02db737e2a2d78bf9223a8a90c68fabeb95fccb227e9980465b81c61",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "margin",
+        "input_change": "-0.01",
+        "sheet": "Input sheet",
+        "cell": "B24",
+        "active_fact_count": 130,
+        "active_correct": 130,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/results/run/native/margin_input_changed.xlsx",
+          "source_sha256_before": "6446f2401bfde4da2096f4a333e07f8a71cd555072a678b2b976adc90fd80607",
+          "isolated_input": "/results/run/native/recalc-ezh1c2_g/input/margin_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/native/recalc-ezh1c2_g/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/native/recalc-ezh1c2_g/output",
+            "/results/run/native/recalc-ezh1c2_g/input/margin_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "bd79bcede8a5eadae1e7e61a1460202c72365511e5e4aff502ae8f5342d8f539",
+          "returncode": 0,
+          "output": "/results/run/native/recalc-ezh1c2_g/output/margin_input_changed.xlsx",
+          "output_sha256": "31ae197007600376044ac35befc9e55823ed276e67471df80459d95b1b264da1",
+          "elapsed_seconds": 0.986211709008785,
+          "source_sha256_after": "6446f2401bfde4da2096f4a333e07f8a71cd555072a678b2b976adc90fd80607",
+          "original_unchanged": true
+        }
+      },
+      {
+        "control": "discount",
+        "input_change": "0.005",
+        "sheet": "Input sheet",
+        "cell": "B29",
+        "active_fact_count": 74,
+        "active_correct": 74,
+        "mismatches": [],
+        "native_receipt": {
+          "source": "/results/run/native/discount_input_changed.xlsx",
+          "source_sha256_before": "d0c8ca871b85aeda10028134df5f6bbc9312b4f47a38c544c16c2b7ef6cc5c26",
+          "isolated_input": "/results/run/native/recalc-a3m7r2_1/input/discount_input_changed.xlsx",
+          "engine": "/usr/bin/soffice",
+          "command": [
+            "/usr/bin/soffice",
+            "-env:UserInstallation=file:///results/run/native/recalc-a3m7r2_1/profile",
+            "--headless",
+            "--convert-to",
+            "xlsx",
+            "--outdir",
+            "/results/run/native/recalc-a3m7r2_1/output",
+            "/results/run/native/recalc-a3m7r2_1/input/discount_input_changed.xlsx"
+          ],
+          "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+          "cleared_formula_cache_count": 0,
+          "isolated_input_sha256": "0b2f656081635846a393ea6c4da83f5fcd89df1207a746957e24a19361f4288c",
+          "returncode": 0,
+          "output": "/results/run/native/recalc-a3m7r2_1/output/discount_input_changed.xlsx",
+          "output_sha256": "8e1090cf96a75eea722ead8ff78143ff66f47c88720d31b7ff67dc7c38ea4148",
+          "elapsed_seconds": 0.970534251013305,
+          "source_sha256_after": "d0c8ca871b85aeda10028134df5f6bbc9312b4f47a38c544c16c2b7ef6cc5c26",
+          "original_unchanged": true
+        }
+      }
+    ],
+    "source_original_business_facts_preserved": true,
+    "zero_delta_invariance_count": 504,
+    "zero_delta_invariance_correct": 504,
+    "active_response_count": 372,
+    "candidate_tables": [
+      {
+        "sheet": "Valuation output",
+        "orientation": "years_in_columns",
+        "case": "base",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      },
+      {
+        "sheet": "Review output",
+        "orientation": "years_in_columns",
+        "case": "review",
+        "header_row": 1,
+        "left_column": 1,
+        "right_column": 13,
+        "binding": "candidate consecutive year block plus local case/metric labels"
+      }
+    ],
+    "qualitative_explanation": "Numeric two-case comparison measured; no keyword or prose-length score",
+    "formal_difficulty_verified": false
+  },
+  "reproduction": {
+    "task_root": "tasks/NEW6-A-FIN-RESTORE-001",
+    "original_sha256": "da2a3d1136ec7bc67e4ef09fa795f27f38dff87fe11a1ad43ac951e65ee9417b",
+    "original_unchanged": true,
+    "native_preprocessing": null,
+    "api_calls": 0
+  }
+}

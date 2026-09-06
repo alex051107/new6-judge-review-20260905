@@ -1,0 +1,27 @@
+{
+  "native": {
+    "source": "new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/answers/claude-R03.xlsx",
+    "source_sha256_before": "d4edc3b22af7487cde1c9606b825606e7099a5cb7e785df55b6c2cd9109d2c6e",
+    "isolated_input": "new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/original/base/recalc-umyn4a1i/input/claude-R03.xlsx",
+    "engine": "/opt/homebrew/bin/soffice",
+    "command": [
+      "/opt/homebrew/bin/soffice",
+      "-env:UserInstallation=file://new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/original/base/recalc-umyn4a1i/profile",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/original/base/recalc-umyn4a1i/output",
+      "new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/original/base/recalc-umyn4a1i/input/claude-R03.xlsx"
+    ],
+    "status": "RECALCULATED_PENDING_ORACLE_PARITY",
+    "cleared_formula_cache_count": 63,
+    "isolated_input_sha256": "d6c54d9a84470ffb7582c460841b435409da9065a6c6e3800b00aafa6757ba53",
+    "returncode": 0,
+    "output": "new6/candidates/c1-revision-v2/tasks/NEW6-C-COST-WORKPAPER-001/metadata/reader_v21/original/base/recalc-umyn4a1i/output/claude-R03.xlsx",
+    "output_sha256": "080bda4ae03e0fd1f701b7cdffe3f7d359d6f0cc5ec624b32fe4d0158d0ef31c",
+    "elapsed_seconds": 2.9419650419731624,
+    "source_sha256_after": "d4edc3b22af7487cde1c9606b825606e7099a5cb7e785df55b6c2cd9109d2c6e",
+    "original_unchanged": true
+  }
+}

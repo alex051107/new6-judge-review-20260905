@@ -1,0 +1,10 @@
+{
+  "case": "B1-qwen-R08",
+  "trial_id": "N6B1IMAGE-B1-QWEN-R08__Xzy5iEG",
+  "answer_sha256": "0e5731f9e61ed039ffbe1a81ef57a2bf199f559d2c880a31e408e9380f6b5eb0",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "judge_version": null,
+  "evaluation_status": "JUDGE_ERROR",
+  "criterion_scores": null,
+  "technical_reason": "Uncached or unsupported formula at Reconciliation!C12"
+}

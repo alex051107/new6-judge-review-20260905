@@ -1,0 +1,21 @@
+{
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "export_version": "publicexport-v4",
+  "original_private_archive_sha256": "a45a766ad683767e859416b49e701e69945fa70366d1600a51ea72ffac6663b2",
+  "sha256": "235955c87af77951cc25fb48bed15586fa1e8f30c3f9401dbef72ade02987fd1",
+  "bytes": 110656321,
+  "parts": [
+    {
+      "name": "judge-source-34374f0-publicexport-v4.part01",
+      "size": 45000000
+    },
+    {
+      "name": "judge-source-34374f0-publicexport-v4.part02",
+      "size": 45000000
+    },
+    {
+      "name": "judge-source-34374f0-publicexport-v4.part03",
+      "size": 20656321
+    }
+  ]
+}

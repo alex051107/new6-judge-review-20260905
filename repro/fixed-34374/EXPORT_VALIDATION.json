@@ -1,0 +1,21 @@
+{
+  "file_count": 182,
+  "total_bytes": 276091869,
+  "judge_archive_bytes": 110656321,
+  "archive_files": 680,
+  "nested_judge_workbooks_scanned": 133,
+  "personal_path_and_credential_pattern_hits": [],
+  "source_73_zips_nested_scan": "passed prior to byte-preserving copy",
+  "entrypoint_syntax": "passed",
+  "judge_runs": 0,
+  "public_release_download": "PENDING_ROOT_UPLOAD",
+  "release_tag_required": "new6-public-replay-v4",
+  "docker_asset_required": "new6-judge-34374-offline.tar.gz",
+  "docker_asset_bytes": 208230490,
+  "public_export_runtime_check": {
+    "case": "A1-codex-R08",
+    "status": "SCORED",
+    "original_score": "0.917995224933832405",
+    "receipt": "../public-validation/fixed-export-A1-codex-R08.json"
+  }
+}

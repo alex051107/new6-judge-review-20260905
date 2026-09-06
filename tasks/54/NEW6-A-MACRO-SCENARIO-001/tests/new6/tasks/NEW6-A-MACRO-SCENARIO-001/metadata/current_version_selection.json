@@ -1,0 +1,9 @@
+{
+  "active": "Validated baseline scenario restoration v1.1 with one real attempt",
+  "reason": "Prioritize usable measured A-track artifact; unfinished financing extension must not obscure current tested task",
+  "pending_candidate": "new6/candidates/a2-financing-v2/NEW6-A-MACRO-SCENARIO-001",
+  "pending_preserved_by_atomic_directory_move": true,
+  "old_15_tasks_touched": false,
+  "same_trial_rejudge": "metadata/first_attempt_rejudge_v11/evaluation.json",
+  "no_additional_agent_call": true
+}

@@ -1,0 +1,30 @@
+{
+  "task": "A2",
+  "task_id": "NEW6-A-MACRO-SCENARIO-001",
+  "task_version": "new6-a2-v1.0-zambia",
+  "source_release": "new6-final-review-20260906-v1",
+  "source_release_judge_commit": "31abf3fa03c358f6134600fe5b0416e6ee24211a",
+  "task_materials_members": [
+    {
+      "path": "instruction.md",
+      "bytes": 555
+    },
+    {
+      "path": "data/input_files/LTGM_Zambia_restore.xlsx",
+      "bytes": 2524224
+    },
+    {
+      "path": "data/input_files/LTGM_instructions_methods_p1-3.pdf",
+      "bytes": 275347
+    },
+    {
+      "path": "data/input_files/review_brief.md",
+      "bytes": 346
+    }
+  ],
+  "reference_file": "reference.xlsx",
+  "reference_sha256": "8886fb0a7b7604fb542f82cb79e336059618e3620baf618fce8264486d96ff26",
+  "zip_sha256": "07e5c2c5e624c4799f67397ddec534f2aa9ca39f196a688918ab6c0c5b8c572d",
+  "agent_output_sha256": "2db7ac597d57f3d429d0bb63957a53bee151f9e0d8f82d3af3fc94a7f0e23eac",
+  "license_access": "Private internal review only. No public redistribution authorization is implied."
+}

@@ -111,7 +111,7 @@ n为已评分答卷数，也是均分分母；同一Judge，运行配置分组�
 
 ## 离线重算与完整证据
 
-在本目录运行 `python3 recompute.py` 可从保存的逐项信用重新生成逐次表、均分与配置分组。该命令只算分项算术，不读取Excel；重新读取已有答卷请使用[完整复跑入口](https://github.com/alex051107/excelbench-p15-results/blob/new6-unified-34374-v3/new6-final/unified-scores-v3/README.md)。
+在本目录运行 `python3 recompute.py` 可从保存的逐项信用重新生成逐次表、均分与配置分组。该命令只算分项算术，不读取Excel；重新读取已有答卷请使用[完整复跑入口](../../repro/fixed-34374/README.md)。
 
 [原分/50%/60%逐次表](trials.csv) · [配置分组与Pass指标](stratified_summary.csv) · [精确权重](weights.csv) · [同一答卷5次评分](consistency.json) · [读取风险](LOW_SCORE_NOTES.md) · [来源与适用性](SOURCE_NOTES.md)
 

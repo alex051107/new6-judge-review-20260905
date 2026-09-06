@@ -1,0 +1,21 @@
+{
+  "authorization": "User explicitly permits changing static/dynamic value ratio to measure downstream reusable ABC delivery",
+  "cause": "A fully static correct USPS artifact previously received R004=13/24 and total .93125 despite missing all active updates",
+  "new_primary_weights": [
+    35,
+    10,
+    10,
+    35,
+    5,
+    5
+  ],
+  "business_rationale": "45% document reconstruction/identity,35% active reuse,10% initial quotes,10% scope/source continuity",
+  "facts_changed": "Only partition of predeclared response/invariance facts; no extra input type, no hidden hurdle or cap; fixed Oracle denominator",
+  "calibration_budget": {
+    "existing_native_snapshots_reused": "reference, equivalent layout/formula, static quotes, constant offset, floor weight, zone shift, mixed representation, duplicate/omission",
+    "new_native_runs": "one header/service-grid-swap fixture, baseline plus four existing probes",
+    "independent_reviews": 0,
+    "new_agent_calls": 0
+  },
+  "historical_trial": "original OUTPUT_MISSING remains unchanged; score remains null"
+}

@@ -1,0 +1,20 @@
+{
+  "case": "A1-codex-R06",
+  "trial_id": "NEW6-A-FIN-RESTORE-001-CODEX-R06__VUt9VS4",
+  "answer_sha256": "0cd2113f994b7ddec81e877ccec52f373705c635242b5a19ebfc6333902c2ebc",
+  "status": "SCORED",
+  "selected_judge_label": "new6-a1-v1.3-proven-formula-defects",
+  "selected_judge_commit": null,
+  "criterion_scores": {
+    "R001": "1.0",
+    "R002": "1.0",
+    "R003": "1.0",
+    "R006": "0.8",
+    "R004": "1.0",
+    "R005": "1.0"
+  },
+  "original_points": "99",
+  "focus50_points": "99.2307692307692307692307692307692307692307692308",
+  "focus60_points": "99.3846153846153846153846153846153846153846153846",
+  "focus70_points": "99.5384615384615384615384615384615384615384615385"
+}
