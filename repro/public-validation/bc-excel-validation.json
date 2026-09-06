@@ -1,0 +1,63 @@
+{
+  "command": "python3 replay.py --case B1-codex-R02 B2-codex-R05 C1-codex-R08 C2-codex-R01 --out /tmp/new6-public-validation-bc-v1",
+  "working_directory": "repro/fixed-34374",
+  "source": "public repository files only",
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "image": "sha256:16d89ab96d5cd066a81496dfb7cfa4b0f77fe031ac7a57183fde686ce13e7f97",
+  "resource_limits": {
+    "cpus": 1,
+    "memory": "3g",
+    "network": "none",
+    "concurrent_containers": 1
+  },
+  "judge_lock_verified_by_score_batch": true,
+  "scope": "four existing original Excel deliveries; no references or Agent generations",
+  "results": [
+    {
+      "case": "B1-codex-R02",
+      "answer_sha256": "a9c9480e90db1f5dbae89919c196473d93507bfbbd7b8bb024609698c4b8e8df",
+      "answer_matches_public_manifest": true,
+      "status": "SCORED",
+      "score_decimal": "1.0",
+      "criteria_exact_numeric_match": true,
+      "total_exact_numeric_match": true,
+      "original_receipt": "repro/fixed-34374/receipts/B1-codex-R02.json",
+      "new_receipt": "repro/public-validation/bc-true-excel-v1/B1-codex-R02/result.json"
+    },
+    {
+      "case": "C2-codex-R01",
+      "answer_sha256": "ed294111b5cac85e6da46a3a298bdaa6b808eff5fea521991adb9b3b7d55ed60",
+      "answer_matches_public_manifest": true,
+      "status": "SCORED",
+      "score_decimal": "1",
+      "criteria_exact_numeric_match": true,
+      "total_exact_numeric_match": true,
+      "original_receipt": "repro/fixed-34374/receipts/C2-codex-R01.json",
+      "new_receipt": "repro/public-validation/bc-true-excel-v1/C2-codex-R01/result.json"
+    },
+    {
+      "case": "B2-codex-R05",
+      "answer_sha256": "261ef53e7274b92f428b2dae6fe23630b931df5ec175df4402b9d42b783a3b47",
+      "answer_matches_public_manifest": true,
+      "status": "SCORED",
+      "score_decimal": "0.876071428571428565",
+      "criteria_exact_numeric_match": true,
+      "total_exact_numeric_match": true,
+      "original_receipt": "repro/fixed-34374/receipts/B2-codex-R05.json",
+      "new_receipt": "repro/public-validation/bc-true-excel-v1/B2-codex-R05/result.json"
+    },
+    {
+      "case": "C1-codex-R08",
+      "answer_sha256": "b096c904c8a8343d40400d48278272afde5c6bda6f8c44aeb478cf08c64def8e",
+      "answer_matches_public_manifest": true,
+      "status": "SCORED",
+      "score_decimal": "0.91747857128651830638585605473022691565737",
+      "criteria_exact_numeric_match": true,
+      "total_exact_numeric_match": true,
+      "original_receipt": "repro/fixed-34374/receipts/C1-codex-R08.json",
+      "new_receipt": "repro/public-validation/bc-true-excel-v1/C1-codex-R08/result.json"
+    }
+  ],
+  "agent_calls": 0,
+  "api_calls": 0
+}

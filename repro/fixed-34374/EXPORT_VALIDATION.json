@@ -7,8 +7,8 @@
   "personal_path_and_credential_pattern_hits": [],
   "source_73_zips_nested_scan": "passed prior to byte-preserving copy",
   "entrypoint_syntax": "passed",
-  "judge_runs": 0,
-  "public_release_download": "PENDING_ROOT_UPLOAD",
+  "judge_runs": 1,
+  "public_release_download": "VERIFIED_ANONYMOUS",
   "release_tag_required": "new6-public-replay-v4",
   "docker_asset_required": "new6-judge-34374-offline.tar.gz",
   "docker_asset_bytes": 208230490,
@@ -17,5 +17,18 @@
     "status": "SCORED",
     "original_score": "0.917995224933832405",
     "receipt": "../public-validation/fixed-export-A1-codex-R08.json"
+  },
+  "public_access_validation": {
+    "commit": "85d1808294d95beb3966826f3f335e7171301eae",
+    "checked_at_utc": "2026-09-06T05:12:23Z",
+    "file_count": 116,
+    "file_check": "HTTP 200 or 206; up to first 2048 bytes matched local files",
+    "release_asset": {
+      "status": 200,
+      "bytes": 208230490,
+      "sha256": "17aa23610d25a84946f2f3627130d51ab8c9922fbffaf381e01caff118602e82",
+      "authorization_sent": false
+    },
+    "receipt": "../public-validation/anonymous-access-85d1808.json"
   }
 }

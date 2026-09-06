@@ -1,0 +1,824 @@
+{
+  "commit": "85d1808294d95beb3966826f3f335e7171301eae",
+  "checked_at_utc": "2026-09-06T05:12:23Z",
+  "files": [
+    {
+      "path": "README.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "docs/JUDGE.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "docs/REVIEW_BRIEF.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A1/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 606,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A1/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A1/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A1/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A2/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 609,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A2/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A2/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/A2/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B1/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 448,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B1/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B1/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B1/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B2/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 490,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B2/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B2/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/B2/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C1/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 609,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C1/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C1/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C1/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C2/NOTICE.md",
+      "status": 206,
+      "bytes_checked": 608,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C2/agent-answer.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C2/reference.xlsx",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "materials/C2/task-materials.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-claude-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A1-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-claude-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-claude-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/A2-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-claude-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-claude-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-claude-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B1-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-claude-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-claude-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-claude-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/B2-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-claude-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-claude-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C1-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-claude-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-claude-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-claude-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R01.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-codex-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R03.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R06.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R07.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay-materials/cases/C2-qwen-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "repro/fixed-34374/replay.py",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/additional-offline-8/workbooks/B1-qwen-R02.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/additional-offline-8/workbooks/B1-qwen-R04.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/additional-offline-8/workbooks/B1-qwen-R05.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/additional-offline-8/workbooks/B2-qwen-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/current-effective-v2/heatmap.png",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/current-effective-v2/summary.csv",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/current-effective-v2/trials.csv",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/qwen-progress-20260906-v2/workbooks/A1-qwen-R08.zip",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "results/unified-scores-v3/weights.csv",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/A1.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/A2.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/B1.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/B2.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/C1.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    },
+    {
+      "path": "review/C2.md",
+      "status": 206,
+      "bytes_checked": 2048,
+      "prefix_matches_local": true,
+      "authorization_sent": false
+    }
+  ],
+  "release_asset": {
+    "status": 200,
+    "bytes": 208230490,
+    "sha256": "17aa23610d25a84946f2f3627130d51ab8c9922fbffaf381e01caff118602e82",
+    "authorization_sent": false
+  }
+}
