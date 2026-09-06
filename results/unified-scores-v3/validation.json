@@ -1,0 +1,14 @@
+{
+  "records": 144,
+  "statuses": {
+    "SCORED": 70,
+    "JUDGE_ERROR": 30,
+    "OUTPUT_MISSING": 12,
+    "RUN_OR_COLLECTION_PENDING": 32
+  },
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "original_reconstruction_tolerance": "1e-24",
+  "api_calls": 0,
+  "agent_calls": 0,
+  "judge_calls_by_this_script": 0
+}

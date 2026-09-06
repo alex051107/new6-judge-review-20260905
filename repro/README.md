@@ -1,5 +1,14 @@
 # 离线复跑
 
+当前结果使用同一固定Judge。优先按[当前73份原件的完整复跑入口](https://github.com/alex051107/excelbench-p15-results/blob/new6-unified-34374-v3/new6-final/unified-scores-v3/README.md)准备随release提供的镜像，并运行 `replay.py`。入口已在新目录解包实际工作簿评分；提供逐项回执、当前配重计算以及自有答卷评分命令。
+
+[只核对随包分项算术](../results/unified-scores-v3/README.md)不需要Docker或模型配置。
+
+## 基线参考与校准
+
+以下保留原固定题包的六题参考、校准及基线复跑入口；它的Judge版本与当前结果分开记录。
+
+
 复跑已有答卷，不启动付费 Agent。需要 Docker，建议给 Docker 至少 4 GB 可用内存；本包评分用 Python 3.11.16、LibreOffice 7.4.7.2、openpyxl 3.1.5、et-xmlfile 2.0.0、lxml 6.0.1。镜像构建需要访问公开 Debian/Python 包源，评分容器断网且不读 API Key。镜像的基础 digest 和依赖固定在 Dockerfile。
 
 以下命令针对有权限的完整私有包。在公开仓库中缺少原始输入和答卷时，这些命令不能完整运行。

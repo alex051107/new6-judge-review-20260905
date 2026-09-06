@@ -7,9 +7,18 @@
   "timeout_sec": 600,
   "retry_count": 0,
   "network": "none",
-  "image": "new6-final-judge:v1",
+  "image": "new6-judge:20260905",
   "observed_image_id": "sha256:16d89ab96d5cd066a81496dfb7cfa4b0f77fe031ac7a57183fde686ce13e7f97",
   "architecture": "arm64",
-  "fresh_build_image_id": "sha256:2502b48d13f87f3ad46669f0093abddfe7c07e10770215968e548e2108d95b3b",
-  "fresh_build_validation": "results/fresh-build-reference/receipt.json"
+  "judge_commit": "34374f08f331e7184010c40b401f1630a49df394",
+  "native_recalculation_timeout_sec": 120,
+  "cpu": 1,
+  "memory": "3g",
+  "current_package_tag": "new6-unified-34374-v3",
+  "image_release_asset": "new6-judge-34374-offline.tar.gz",
+  "batch_wallclock_timeout_sec": null,
+  "baseline_fresh_build": {
+    "fresh_build_image_id": "sha256:2502b48d13f87f3ad46669f0093abddfe7c07e10770215968e548e2108d95b3b",
+    "fresh_build_validation": "results/fresh-build-reference/receipt.json"
+  }
 }

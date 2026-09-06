@@ -1,0 +1,93 @@
+{
+  "default_alpha": "0.60",
+  "pass_threshold": "0.70",
+  "tasks": {
+    "A1": {
+      "task_version": "new6-a1-v1.1-historical-rate",
+      "original_weights": {
+        "R001": "10",
+        "R002": "25",
+        "R003": "20",
+        "R004": "35",
+        "R005": "5",
+        "R006": "5"
+      },
+      "focus": [
+        "R004"
+      ]
+    },
+    "A2": {
+      "task_version": "new6-a2-v1.0-zambia",
+      "original_weights": {
+        "R001": "15",
+        "R002": "35",
+        "R003": "20",
+        "R004": "20",
+        "R005": "5",
+        "R006": "5"
+      },
+      "focus": [
+        "R004"
+      ]
+    },
+    "B1": {
+      "task_version": "new6-b1-v2",
+      "original_weights": {
+        "R001": "10",
+        "R002": "15",
+        "R003": "10",
+        "R004": "15",
+        "R005": "8",
+        "R006": "7",
+        "R007": "25",
+        "R008": "10"
+      },
+      "focus": [
+        "R007",
+        "R008"
+      ]
+    },
+    "B2": {
+      "task_version": "new6-b2-three-release-v3",
+      "original_weights": {
+        "R001": "15",
+        "R002": "25",
+        "R003": "25",
+        "R004": "20",
+        "R005": "15"
+      },
+      "focus": [
+        "R004",
+        "R005"
+      ]
+    },
+    "C1": {
+      "task_version": "new6-c1-revision-v2",
+      "original_weights": {
+        "R001": "15",
+        "R002": "20",
+        "R003": "15",
+        "R004": "10",
+        "R005": "35",
+        "R006": "5"
+      },
+      "focus": [
+        "R005"
+      ]
+    },
+    "C2": {
+      "task_version": "new6-c2-natural-v2",
+      "original_weights": {
+        "R001": "35",
+        "R002": "10",
+        "R003": "10",
+        "R004": "35",
+        "R005": "5",
+        "R006": "5"
+      },
+      "focus": [
+        "R004"
+      ]
+    }
+  }
+}
